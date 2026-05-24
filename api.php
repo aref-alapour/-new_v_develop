@@ -11,12 +11,30 @@ header('X-LiteSpeed-Cache-Control: no-cache');
 header('X-Accel-Buffering: no');
 // Handle simple GET request for server time
 if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['action']) && $_GET['action'] === 'get_server_time') {
-    $tehranNow = new DateTime('now', new DateTimeZone('Asia/Tehran'));
+    $tz        = new DateTimeZone('Asia/Tehran');
+    $tehranNow = new DateTime('now', $tz);
     $tehranNow->setTime(0, 0, 0);
+    $current   = (int) $tehranNow->getTimestamp();
+
+    $jdf = __DIR__ . '/web-service/jdf.php';
+    if (is_readable($jdf)) {
+        require_once $jdf;
+    }
+
+    $days = [];
+    for ($i = 1; $i <= 15; $i++) {
+        $ts     = $current + ($i * 86400);
+        $days[] = [
+            'ts'   => $ts,
+            'day'  => function_exists('jdate') ? jdate('d', $ts) : '',
+            'name' => function_exists('jdate') ? jdate('l', $ts) : '',
+        ];
+    }
 
     echo json_encode([
-        'timestamp' => time(),
-        'current_date' => $tehranNow->getTimestamp()
+        'timestamp'    => time(),
+        'current_date' => $current,
+        'days'         => $days,
     ]);
     exit;
 }

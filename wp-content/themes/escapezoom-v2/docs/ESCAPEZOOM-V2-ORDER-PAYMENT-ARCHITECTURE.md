@@ -958,7 +958,7 @@ flowchart LR
 
 تابع: `ez_markting_row_eligible_confirm_payment`
 
-- وضعیت مارکتینگ (normalize بدون `wc-`): `pending` یا `on-hold`
+- وضعیت مارکتینگ (normalize بدون `wc-`): `pending`، `on-hold` یا `cancelled`
 - سفارش bookable: `ez_markting_row_is_bookable_order` — `game_name` یا فیلدهای `order_sans_*` یا (در AJAX با WP) `sans_time` postmeta
 
 ### ۲۰.۳ Eligibility — بررسی سانس

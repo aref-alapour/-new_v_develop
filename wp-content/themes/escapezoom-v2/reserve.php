@@ -300,6 +300,33 @@ wp_enqueue_script('persian-date');
 
 <script>
     jQuery(document).ready(function($) {
+        const EZ_TZ = 'Asia/Tehran';
+
+        function ezTehranFmt(unixSec, part) {
+            const d = new Date(unixSec * 1000);
+            const base = { timeZone: EZ_TZ };
+            if (part === 'MMMM') {
+                return new Intl.DateTimeFormat('fa-IR', Object.assign({ month: 'long' }, base)).format(d);
+            }
+            if (part === 'YYYY') {
+                return new Intl.DateTimeFormat('fa-IR', Object.assign({ year: 'numeric' }, base)).format(d);
+            }
+            if (part === 'dddd') {
+                return new Intl.DateTimeFormat('fa-IR', Object.assign({ weekday: 'long' }, base)).format(d);
+            }
+            if (part === 'DD') {
+                return new Intl.DateTimeFormat('fa-IR', Object.assign({ day: 'numeric' }, base)).format(d);
+            }
+            if (part === 'HH:mm') {
+                return new Intl.DateTimeFormat('en-GB', {
+                    timeZone: EZ_TZ,
+                    hour: '2-digit',
+                    minute: '2-digit',
+                    hour12: false,
+                }).format(d);
+            }
+            return '';
+        }
 
         const BuildTable = (time) => {
             console.log(time);
@@ -369,12 +396,12 @@ wp_enqueue_script('persian-date');
                 })
 
                 $(".selected-month").text(function() {
-                    return new persianDate.unix($(".selected-month").attr('data-calendar')).format("MMMM")
-                })
+                    return ezTehranFmt(parseInt($(".selected-month").attr('data-calendar'), 10), 'MMMM');
+                });
 
                 $(".selected-year").text(function() {
-                    return new persianDate.unix($(".selected-year").attr('data-calendar')).format("YYYY")
-                })
+                    return ezTehranFmt(parseInt($(".selected-year").attr('data-calendar'), 10), 'YYYY');
+                });
             })
             .on('click', ".box.open", function() {
                 let front = $(this).find('.front'),
@@ -424,14 +451,14 @@ wp_enqueue_script('persian-date');
 
                 let result = $(".reserve-result")
 
-                let time = new persianDate.unix(timestamp)
+                const ts = parseInt(timestamp, 10);
 
-                result.removeClass('hidden').addClass('flex')
+                result.removeClass('hidden').addClass('flex');
 
                 result.find('.selected-date').html(`
-                    <span class="flex gap-2">${time.format("dddd")} <strong class="text-primaryColor">${time.format("DD")}</strong> ${time.format("MMMM")}</span>
-                    <span class="mr-3">${time.format("HH:mm")}</span>
-                    `)
+                    <span class="flex gap-2">${ezTehranFmt(ts, 'dddd')} <strong class="text-primaryColor">${ezTehranFmt(ts, 'DD')}</strong> ${ezTehranFmt(ts, 'MMMM')}</span>
+                    <span class="mr-3">${ezTehranFmt(ts, 'HH:mm')}</span>
+                    `);
 
                 let ticket = $(".front.active").find('> span > strong').text().trim()
                 result.find('.ticket-count').html(`<span>${ticket} بلیت</span>`)

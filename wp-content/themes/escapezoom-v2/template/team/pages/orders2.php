@@ -734,7 +734,7 @@
         });
 
         // ============================================================================
-        // تأیید پرداخت واقعی برای سفارش‌های pending/on-hold (حسابداری / مدیر)
+        // تأیید پرداخت واقعی برای سفارش‌های pending/on-hold/cancelled (حسابداری / مدیر)
         // ============================================================================
         $('body').on('click', '.confirm-verified-payment-btn', function() {
             let $button = $(this);
@@ -1541,6 +1541,7 @@
             let order_id                = $(this).attr('data-id');
             let payment_type            = $(this).attr('data-payment-type') || '';
             let order_status            = $(this).attr('data-order-status') || '';
+            let eligibleConfirmPay      = $(this).attr('data-eligible-confirm-pay') === '1';
 
             const $mali = $("#maliModal");
             if (!$mali.length) {
@@ -1572,6 +1573,15 @@
                 $mali.find("#openEditOrderForm").show();
             } else {
                 $mali.find("#openEditOrderForm").hide();
+            }
+
+            const $maliConfirmPay = $('#btnMaliConfirmVerifiedPayment');
+            if ($maliConfirmPay.length) {
+                if (eligibleConfirmPay && order_id) {
+                    $maliConfirmPay.show().attr('data-order-id', order_id).prop('disabled', false);
+                } else {
+                    $maliConfirmPay.hide().attr('data-order-id', '').prop('disabled', true);
+                }
             }
 
             // اطمینان از بسته بودن فرم ویرایش هنگام باز شدن مودال

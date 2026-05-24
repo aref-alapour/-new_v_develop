@@ -433,7 +433,7 @@ elseif ($operation === 'confirm_verified_payment') {
     if (!function_exists('ez_markting_row_eligible_confirm_payment') || !ez_markting_row_eligible_confirm_payment($mrow)) {
         $reason = function_exists('ez_markting_team_ops_ineligible_reason')
             ? ez_markting_team_ops_ineligible_reason($mrow, 'confirm_payment')
-            : 'تأیید پرداخت فقط برای سفارش‌های pending یا on-hold مجاز است.';
+            : 'تأیید پرداخت فقط برای سفارش‌های pending، on-hold یا cancelled مجاز است.';
         wp_send_json_error($reason);
     }
 

@@ -372,7 +372,7 @@ if ( ! function_exists( 'ez_markting_team_ops_ineligible_reason' ) ) {
 				return '';
 			}
 
-			return 'تأیید پرداخت فقط برای سفارش‌های «در انتظار پرداخت» (pending) یا «معلق» (on-hold) است.';
+			return 'تأیید پرداخت فقط برای سفارش‌های «در انتظار پرداخت» (pending)، «معلق» (on-hold) یا «لغو شده» (cancelled) است.';
 		}
 
 		if ( $action === 'booking_recovery' ) {

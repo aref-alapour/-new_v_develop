@@ -505,22 +505,23 @@ $customer_level_colors = [
                     <?php
                     endif;
 
-                    if (array_intersect(['administrator', 'supervisor', 'accounting'], $current_user_roles)) :
-                        $order_status = $order['order_status'];
-                        $payment_type_attr = isset($order['order_payment_type']) ? (string) $order['order_payment_type'] : '';
-                        ?>
-                        <button alt="Mali" class="openMaliModal flex-none cursor-pointer hover:opacity-80 w-7 h-7 self-center transition" data-id="<?= $order_id ?>" data-order-status="<?= htmlspecialchars($order_status, ENT_QUOTES, 'UTF-8') ?>" data-payment-type="<?= htmlspecialchars($payment_type_attr, ENT_QUOTES, 'UTF-8') ?>">
-                            <img src="<?= THEME_ASSETS_URL . '/images/mali-btn.png' ?>" alt="Mali" class="w-7 h-7">
-                        </button>
-                    <?php
-                    endif;
-
                     $ez_team_can_recover_sans  = (bool) array_intersect( ['administrator', 'poshtiban'], $current_user_roles );
                     $ez_team_can_confirm_pay   = (bool) array_intersect( ['administrator', 'accounting', 'poshtiban'], $current_user_roles );
                     $ez_team_eligible_recover  = $ez_team_can_recover_sans
                         ? ez_orders_get2_row_eligible_recover_booking_sans( $order, $ez_orders_get2_list_context )
                         : false;
                     $ez_team_eligible_confirm_pay = $ez_team_can_confirm_pay ? ez_orders_get2_row_eligible_confirm_verified_payment( $order ) : false;
+
+                    if (array_intersect(['administrator', 'supervisor', 'accounting'], $current_user_roles)) :
+                        $order_status = $order['order_status'];
+                        $payment_type_attr = isset($order['order_payment_type']) ? (string) $order['order_payment_type'] : '';
+                        ?>
+                        <button alt="Mali" class="openMaliModal flex-none cursor-pointer hover:opacity-80 w-7 h-7 self-center transition" data-id="<?= $order_id ?>" data-order-status="<?= htmlspecialchars($order_status, ENT_QUOTES, 'UTF-8') ?>" data-payment-type="<?= htmlspecialchars($payment_type_attr, ENT_QUOTES, 'UTF-8') ?>" data-eligible-confirm-pay="<?= $ez_team_eligible_confirm_pay ? '1' : '0' ?>">
+                            <img src="<?= THEME_ASSETS_URL . '/images/mali-btn.png' ?>" alt="Mali" class="w-7 h-7">
+                        </button>
+                    <?php
+                    endif;
+
                     if ( $ez_team_eligible_recover || $ez_team_eligible_confirm_pay ) :
                         ?>
                         <div class="flex shrink-0 flex-col items-end gap-1 absolute" style="left:-100%" role="group" aria-label="اقدامات سانس و پرداخت">
@@ -676,6 +677,10 @@ $ez_team_direct_cancel_ui = (bool) array_intersect(
     array( 'administrator', 'accounting' ),
     $current_user_roles
 );
+$ez_team_mali_confirm_pay_ui = (bool) array_intersect(
+    array( 'administrator', 'accounting', 'poshtiban' ),
+    $current_user_roles
+);
 ?>
 <section class="flex justify-center items-center fixed inset-0 modal--center items-center fixed inset-0 modal-bg z-50 transition-opacity" id="maliModal" data-id="" style="display: none;">
     <div class="rounded-xl bg-white border border-[#DBE2EA] shadow-[0px_1px_0px_0px_#DBE2EA] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 absolute p-5 w-[450px] max-h-[90vh] overflow-y-auto">
@@ -694,6 +699,14 @@ $ez_team_direct_cancel_ui = (bool) array_intersect(
 
         <!-- ردیف دوم: همان کسانی که آیکن مالی را می‌بینند (ادمین، سوپروایزر، حسابداری) -->
         <div class="grid grid-cols-2 gap-x-2 mt-2">
+                <?php if ( $ez_team_mali_confirm_pay_ui ) : ?>
+                <button type="button"
+                    id="btnMaliConfirmVerifiedPayment"
+                    title="پس از تأیید بانکی/کارت: بستن سانس مثل پرداخت درگاه"
+                    class="confirm-verified-payment-btn px-2 py-1.5 rounded-lg text-white cursor-pointer bg-green-700 text-sm font-bold w-full hover:opacity-90"
+                    style="display: none;"
+                    data-order-id="">تأیید پرداخت</button>
+                <?php endif; ?>
                 <button id="convert_with_amendment" class="px-2 py-1.5 rounded-lg text-white cursor-pointer bg-[#7C3AED] text-sm font-bold w-full" style="display: none;">
                     تبدیل به پیش‌پرداخت (اصلاحیه)
                 </button>

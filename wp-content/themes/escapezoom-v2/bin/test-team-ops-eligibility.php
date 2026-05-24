@@ -39,6 +39,13 @@ $tests = array(
 		'recover_bad'  => false,
 	),
 	array(
+		'name'    => 'cancelled with game -> confirm yes',
+		'row'     => row( array( 'order_status' => 'wc-cancelled' ) ),
+		'confirm' => true,
+		'recover_main' => false,
+		'recover_bad'  => false,
+	),
+	array(
 		'name'    => 'paid complete sans+booking -> recover no on main',
 		'row'     => row( array( 'order_status' => 'wc-partially-paid', 'order_paid' => 1 ) ),
 		'confirm' => false,

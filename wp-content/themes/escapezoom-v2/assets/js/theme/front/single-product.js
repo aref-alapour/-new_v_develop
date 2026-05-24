@@ -1,4 +1,53 @@
 jQuery(document).ready(function ($) {
+    const EZ_TZ = 'Asia/Tehran';
+
+    /** Same calendar day labels as server jdate (reserve / checkout). */
+    function ezTehranFmt(unixSec, part) {
+        const d = new Date(unixSec * 1000);
+        const base = { timeZone: EZ_TZ };
+        if (part === 'dddd') {
+            return new Intl.DateTimeFormat('fa-IR', Object.assign({ weekday: 'long' }, base)).format(d);
+        }
+        if (part === 'D' || part === 'd') {
+            return new Intl.DateTimeFormat('fa-IR', Object.assign({ day: 'numeric' }, base)).format(d);
+        }
+        if (part === 'MMMM') {
+            return new Intl.DateTimeFormat('fa-IR', Object.assign({ month: 'long' }, base)).format(d);
+        }
+        if (part === 'HH:mm') {
+            return new Intl.DateTimeFormat('en-GB', {
+                timeZone: EZ_TZ,
+                hour: '2-digit',
+                minute: '2-digit',
+                hour12: false,
+            }).format(d);
+        }
+        if (part === 'hour') {
+            return parseInt(
+                new Intl.DateTimeFormat('en', {
+                    timeZone: EZ_TZ,
+                    hour: 'numeric',
+                    hour12: false,
+                }).format(d),
+                10
+            );
+        }
+        return '';
+    }
+
+    function ezTehranMidnightNow() {
+        const parts = new Intl.DateTimeFormat('en', {
+            timeZone: EZ_TZ,
+            year: 'numeric',
+            month: '2-digit',
+            day: '2-digit',
+        }).formatToParts(new Date());
+        const y = parts.find((p) => p.type === 'year').value;
+        const m = parts.find((p) => p.type === 'month').value;
+        const day = parts.find((p) => p.type === 'day').value;
+        return Math.floor(Date.parse(`${y}-${m}-${day}T00:00:00+03:30`) / 1000);
+    }
+
     function ezProductReviewAjaxMessage(data) {
         if (data && typeof data === 'object' && data.message) {
             return data.message;
@@ -1217,15 +1266,15 @@ jQuery(document).ready(function ($) {
         // ساخت HTML سانس‌ها - همه سانس‌ها
         let out = '';
         reservableSessions.forEach((item) => {
-            const date = new Date(item.time * 1000);
-            const hours = String(date.getHours()).padStart(2, "0");
-            const minutes = String(date.getMinutes()).padStart(2, "0");
-            
+            const timeLabel = ezTehranFmt(item.time, 'HH:mm');
+            const [hours, minutes] = timeLabel.split(':');
+            const hourNum = ezTehranFmt(item.time, 'hour');
+
             let BackgroundColor = '#5091FB';
             let is_vip = false;
 
-            // Check VIP time
-            if (date.getHours() >= 0 && date.getHours() < 8) {
+            // Check VIP time (Tehran)
+            if (hourNum >= 0 && hourNum < 8) {
                 is_vip = true;
                 BackgroundColor = "#BF9A00";
             }
@@ -1484,9 +1533,6 @@ jQuery(document).ready(function ($) {
         const quantityBoxId = device === 'desktop' ? '#quantity-box-desktop' : '#quantity-box-mobile';
         const initialQuantity = minPlayers; // کمترین مقدار مجاز برای رزرو
         
-        // فرمت تاریخ فارسی برای هدر
-        const d = new persianDate.unix(sessionTime);
-        
         const quantityHTML = `
             <!-- Header با دکمه بازگشت -->
             <div class="flex items-center justify-between mb-6">
@@ -1501,9 +1547,9 @@ jQuery(document).ready(function ($) {
             <!-- تاریخ و ساعت -->
             <div class="flex items-center justify-between mb-6">
                 <div class="flex items-center gap-1 text-base font-extrabold text-[#0F172A]">
-                    <span>${d.format("dddd")}</span>
-                    <span class="text-[#FD7013]">${d.format("D")}</span>
-                    <span>${d.format("MMMM")}</span>
+                    <span>${ezTehranFmt(sessionTime, 'dddd')}</span>
+                    <span class="text-[#FD7013]">${ezTehranFmt(sessionTime, 'D')}</span>
+                    <span>${ezTehranFmt(sessionTime, 'MMMM')}</span>
                 </div>
                 <span class="text-2xl font-bold text-[#0F172A]">${sessionFormatted}</span>
             </div>
@@ -1572,9 +1618,9 @@ jQuery(document).ready(function ($) {
         $('#mobile-box').removeClass('translate-y-0').addClass('translate-y-full');
         
         // آپدیت کردن اطلاعات سانس برای موبایل (فقط روز، تاریخ و ساعت)
-        const dayName = d.format("dddd");
-        const dayNumber = d.format("D");
-        const monthName = d.format("MMMM");
+        const dayName = ezTehranFmt(sessionTime, 'dddd');
+        const dayNumber = ezTehranFmt(sessionTime, 'D');
+        const monthName = ezTehranFmt(sessionTime, 'MMMM');
         const selectedInfoText = `<span class="inline-block">${dayName}</span><span class="text-[#FF7A00]">${dayNumber}</span><span class="inline-block">${monthName}</span><span class="inline-block">${sessionFormatted}</span>`;
         $('#mobile-selected-info').html(selectedInfoText);
     });
@@ -1633,10 +1679,9 @@ jQuery(document).ready(function ($) {
         const $quantityBox = $('[id^="quantity-box-"]:visible');
         if ($quantityBox.length > 0) {
             const sessionFormatted = $quantityBox.data('session-formatted');
-            const d = new persianDate.unix(sessionTime);
-            const dayName = d.format("dddd");
-            const dayNumber = d.format("D");
-            const monthName = d.format("MMMM");
+            const dayName = ezTehranFmt(sessionTime, 'dddd');
+            const dayNumber = ezTehranFmt(sessionTime, 'D');
+            const monthName = ezTehranFmt(sessionTime, 'MMMM');
             const selectedInfoText = `${dayName} <span class="text-[#FF7A00]">${dayNumber}</span> ${monthName} ${sessionFormatted}`;
             $('#mobile-selected-info').html(selectedInfoText);
         }
@@ -1827,20 +1872,25 @@ jQuery(document).ready(function ($) {
                 
                 let datesHTML = '';
 
-                // Generate next 15 days
-                for (let i = 1; i <= 15; i++) {
-                    const dateTimestamp = currentDate + (60 * 60 * 24 * i);
-                    const persianDateObj = new persianDate.unix(dateTimestamp);
-                    const dayNumber = persianDateObj.format('DD');
-                    const dayName = persianDateObj.format('dddd');
+                const dayRows = Array.isArray(data.days) && data.days.length
+                    ? data.days
+                    : Array.from({ length: 15 }, (_, idx) => {
+                        const ts = currentDate + 86400 * (idx + 1);
+                        return {
+                            ts,
+                            day: ezTehranFmt(ts, 'd'),
+                            name: ezTehranFmt(ts, 'dddd'),
+                        };
+                    });
 
+                dayRows.forEach((row) => {
                     datesHTML += `
-                        <div class="date-btn w-[60px] h-[60px] rounded-lg border border-[#E2E8F0] flex flex-col justify-center items-center cursor-pointer flex-shrink-0 hover:border-[#5091FB] transition text-[#0F172B]" data-date="${dateTimestamp}">
-                            <span class="text-lg font-bold">${dayNumber}</span>
-                            <span class="text-xs text-[#889BAD]">${dayName}</span>
+                        <div class="date-btn w-[60px] h-[60px] rounded-lg border border-[#E2E8F0] flex flex-col justify-center items-center cursor-pointer flex-shrink-0 hover:border-[#5091FB] transition text-[#0F172B]" data-date="${row.ts}">
+                            <span class="text-lg font-bold">${row.day}</span>
+                            <span class="text-xs text-[#889BAD]">${row.name}</span>
                         </div>
                     `;
-                }
+                });
 
                 $('.date-scroll-list-desktop').html(datesHTML);
                 $('.date-scroll-list-mobile').html(datesHTML);
@@ -1855,8 +1905,7 @@ jQuery(document).ready(function ($) {
             })
             .catch(error => {
                 console.error('Error fetching server time:', error);
-                // Fallback: استفاده از تاریخ کلاینت
-                const currentDate = Math.floor(new Date().setHours(0,0,0,0) / 1000);
+                const currentDate = ezTehranMidnightNow();
                 $('#today-btn-desktop, #today-btn-mobile').data('date', currentDate);
                 
                 // فعال کردن Embla carousel برای تقویم
@@ -1874,7 +1923,7 @@ jQuery(document).ready(function ($) {
         const $btn = $(this);
         const isDesktop = $btn.attr('id')?.includes('desktop') || $btn.closest('.date-scroll-container-desktop').length;
         const device = isDesktop ? 'desktop' : 'mobile';
-        const dateTimestamp = $btn.data('date') || Math.floor(new Date().setHours(0,0,0,0) / 1000);
+        const dateTimestamp = $btn.data('date') || ezTehranMidnightNow();
         
         // Active state
         if (device === 'desktop') {

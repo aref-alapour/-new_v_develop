@@ -325,13 +325,13 @@ if ( ! function_exists( 'ez_markting_row_team_ops_has_actionable_sans' ) ) {
 
 if ( ! function_exists( 'ez_markting_row_eligible_confirm_payment' ) ) {
 	/**
-	 * تأیید پرداخت: فقط wc-pending / wc-on-hold (در انتظار پرداخت / معلق).
+	 * تأیید پرداخت: wc-pending / wc-on-hold / wc-cancelled (پرداخت تأییدشده پس از لغو خودکار).
 	 *
 	 * @param array<string,mixed> $row wp_markting row.
 	 */
 	function ez_markting_row_eligible_confirm_payment( array $row ): bool {
 		$st = ez_markting_status_slug( $row );
-		if ( ! in_array( $st, array( 'pending', 'on-hold' ), true ) ) {
+		if ( ! in_array( $st, array( 'pending', 'on-hold', 'cancelled' ), true ) ) {
 			return false;
 		}
 

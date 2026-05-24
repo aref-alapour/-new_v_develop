@@ -65,6 +65,24 @@ function ez_sendpayamak($phone___number, $msg__text, $number = "2191307900") {
 }
 endif;
 /*******************************************/
+if ( ! function_exists( 'ez_ws_tehran_midnight_unix' ) ) :
+/**
+ * Normalize any unix timestamp to midnight Asia/Tehran (matches api.php current_date & jdate).
+ */
+function ez_ws_tehran_midnight_unix( $timestamp ) {
+    $timestamp = (int) $timestamp;
+    if ( $timestamp <= 0 ) {
+        return 0;
+    }
+    $tz   = new DateTimeZone( 'Asia/Tehran' );
+    $date = new DateTime( '@' . $timestamp );
+    $date->setTimezone( $tz );
+    $midnight = new DateTime( $date->format( 'Y-m-d' ) . ' 00:00:00', $tz );
+
+    return (int) $midnight->getTimestamp();
+}
+endif;
+
 if ( ! function_exists( 'get_day_type2' ) ) :
 function get_day_type2($day) {
     global $conn;
@@ -74,16 +92,26 @@ function get_day_type2($day) {
         $calendar_data = $result->fetch_all(MYSQLI_ASSOC);
     $calendar_data = json_decode(json_encode( unserialize( $calendar_data[0]['data'] ) ), true);
 
-    foreach ( explode( ',', $calendar_data['holidays']) as $calendar_day ) {
-        $calendar_day = (int) $calendar_day;
-        if ( $calendar_day <= $day && $day < $calendar_day + 86400 )
+    $day = ez_ws_tehran_midnight_unix( $day );
+
+    foreach ( explode( ',', (string) ( $calendar_data['holidays'] ?? '' ) ) as $calendar_day ) {
+        $calendar_day = trim( $calendar_day );
+        if ( $calendar_day === '' || ! is_numeric( $calendar_day ) ) {
+            continue;
+        }
+        if ( ez_ws_tehran_midnight_unix( (int) $calendar_day ) === $day ) {
             return 'holidays';
+        }
     }
 
-    foreach ( explode( ',', $calendar_data['closed_days']) as $calendar_day ) {
-        $calendar_day = (int) $calendar_day;
-        if ( $calendar_day <= $day && $day < $calendar_day + 86400 )
+    foreach ( explode( ',', (string) ( $calendar_data['closed_days'] ?? '' ) ) as $calendar_day ) {
+        $calendar_day = trim( $calendar_day );
+        if ( $calendar_day === '' || ! is_numeric( $calendar_day ) ) {
+            continue;
+        }
+        if ( ez_ws_tehran_midnight_unix( (int) $calendar_day ) === $day ) {
             return 'closed';
+        }
     }
 
     return 'normals';
