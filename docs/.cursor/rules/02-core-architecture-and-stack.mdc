@@ -1,0 +1,89 @@
+---
+description: Modular core architecture, database-schema per table, MVC in escapezoom-core, central AJAX gateway, Laravel Composer stack, gradual v3 front stack.
+alwaysApply: true
+---
+
+# Rule 02 — Core architecture, schema, MVC, and stack
+
+Complements Rule 01 (zero-downtime migration). Rule 01 wins on migration safety; this rule defines structure and technology.
+
+## 1. Layer separation
+
+| Responsibility | Location |
+|----------------|----------|
+| Business logic (booking, wallet, points, ranking, payment rules, backfill) | `escapezoom-core` (`EscapeZoom\Core`) |
+| Eloquent models, Services, Jobs, thin Controllers/Actions | `escapezoom-core` |
+| Central signed AJAX gateway | `escapezoom-core` (e.g. `AjaxGateway` module) |
+| Views, wp-admin custom pages, HTMX/Alpine/Stencil UI | `escapezoom-v3` theme |
+| Legacy bridge (`web-service`, v2 `admin-ajax`) | Temporary only; phase out per Rule 01 |
+
+Theme must not own business rules or direct domain DB access. Core must not render full page layouts.
+
+## 2. Schema (`database-schema/`)
+
+- No `artisan` / no Laravel migration runner for `wp_ez_*` tables.
+- Folder: `escapezoom-core/database-schema/` (one canonical path; do not scatter SQL elsewhere).
+- One `.sql` file per new or changed table (e.g. `ez_slots.sql`).
+- Apply manually per environment (phpMyAdmin, CLI script). New table = new file + deploy in Phase 1 of Rule 01.
+- Optional: maintain a concatenated `schema-full.sql` for fresh installs only.
+
+## 3. MVC pattern (WordPress-adapted)
+
+```
+Theme (View)  →  REST / signed POST /ajax  →  Core Controller (thin)
+                                              →  Service (business rules, Rule 01 bridges)
+                                              →  Model / Repository
+                                              →  DB (wp_ez_* + legacy during migration)
+```
+
+- **Model:** thin Eloquent.
+- **Service:** required for every non-trivial domain; dual-write, merged read, validation orchestration.
+- **Controller / Gateway Action:** parse input, call Service, return `{ success, data, errors }` or small HTML fragment for HTMX.
+- **View:** theme only.
+
+For each new core table: add **SQL file + Model + Service + thin Controller/Action** together.
+
+## 4. Modular core (not a monolith)
+
+Register features as modules (e.g. `Auth`, `Booking`, `Catalog`, `ProductRanking`, `AjaxGateway`, `WpData`). Core is the **integration hub**, not a single dump of unrelated code.
+
+## 5. Central AJAX
+
+- Target: signed gateway (`POST /ajax` or project equivalent), not new `admin-ajax.php` handlers.
+- Theme and custom wp-admin pages call the gateway via shared client (`ez-ajax.js` pattern in v3).
+- Migrate v2 callbacks one-by-one; keep legacy path until each callback is switched (Rule 01).
+
+## 6. Composer stack (required in core)
+
+```json
+"require": {
+  "php": "^8.2",
+  "illuminate/database": "^12.0",
+  "illuminate/support": "^12.0",
+  "illuminate/contracts": "^12.0",
+  "illuminate/validation": "^12.0",
+  "illuminate/queue": "^12.0",
+  "illuminate/events": "^12.0",
+  "guzzlehttp/guzzle": "^7.10"
+}
+```
+
+**Not in stack:** `jgrossi/corcel` — use `WpCore` Eloquent models on WordPress tables instead.
+
+**Not required:** `illuminate/cache` — use WordPress `wp_cache_get` / `wp_cache_set` with named cache groups.
+
+**Optional later:** `htmlburger/carbon-fields` for admin metaboxes; `phpoffice/phpspreadsheet` only if Excel export lives in core.
+
+PHP minimum must not exceed the production server version.
+
+## 7. Front-end strategy (no UI big-bang)
+
+- **Core:** stack-agnostic API (JSON or HTML partials only).
+- **New pages/modules** in `escapezoom-v3`: HTMX + Alpine + Vite; Stencil for reusable web components.
+- **Existing v2 live pages** (checkout, single-product, team panels): keep current JS until that **page** is migrated (Strangler Fig).
+- Do not require Stencil for every new core Model; UI technology is chosen per page in the theme.
+
+## 8. WordPress admin
+
+- Custom admin **screens and reports** → theme (v3 build pipeline).
+- CPT registration, capabilities, core REST routes → core is acceptable.

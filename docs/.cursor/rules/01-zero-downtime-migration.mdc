@@ -1,0 +1,58 @@
+---
+description: Production is live with heavy concurrent traffic. No big-bang migrations. All schema and logic changes follow phased zero-downtime pattern.
+alwaysApply: true
+---
+
+# Rule 01 — Zero-Downtime Migration (No Big Bang)
+
+**Priority:** This rule overrides conflicting implementation shortcuts. When in doubt, choose the slower phased path.
+
+## Context
+
+EscapeZoom runs on production with many concurrent users. The site must never go offline, and user-facing behavior must not change visibly during migrations or refactors.
+
+## Mandatory 3-Phase Pattern (every table / module / storage change)
+
+| Phase | Name | Action | Write path | User-facing read path |
+|-------|------|--------|------------|------------------------|
+| **1** | Expand + Dual Connect | Create new table/module; wire application. **New** records go to the new store. Optional dual-write to legacy for rollback. | New store (primary) | **Merged** (legacy + new) from day one |
+| **2** | Backfill + Merged Read | Migrate historical data in small background batches. | New store | **Merged** (legacy + new) |
+| **3** | Decommission | Only after backfill complete and parity gates pass → disconnect legacy. | New store only | New store only |
+
+## Red lines (forbidden)
+
+- Big-bang cutover on critical flows: booking, checkout, payment gateway callback, slot lock
+- Dropping or renaming legacy tables before Phase 3 gates pass
+- Bulk migration during peak traffic without throttling
+- User-visible behavior change without feature flag and documented rollback
+
+## Feature flags (required per module)
+
+- `EZ_{MODULE}_WRITE_NEW` — write to new store
+- `EZ_{MODULE}_WRITE_LEGACY` — optional dual-write to legacy (Phases 1–2)
+- `EZ_{MODULE}_READ_MERGED` — merge legacy + new for reads
+- `EZ_{MODULE}_BACKFILL_ACTIVE` — background migration running
+- `EZ_{MODULE}_LEGACY_DISABLED` — Phase 3 only; legacy off
+
+## Backfill
+
+- Chunk size: 500–1000 records per batch (tune per table)
+- Rate-limited; pauses between batches
+- **Background Job/Queue only** — never in the HTTP request path
+- Resumable: `from_id`, `last_processed_at`, or equivalent cursor
+- Dry-run before production write
+
+## Verification before Phase 3
+
+- Daily parity report: counts, amounts, statuses (module-specific)
+- Shadow read: compare legacy vs new until zero mismatches for a sustained window
+- Rollback plan documented and tested (disable flags → legacy path)
+
+## Implementation
+
+- Dual-write, merged read, and backfill jobs live in **`escapezoom-core`** (Service layer + Jobs).
+- Theme, `web-service.php`, and thin controllers must not own migration logic.
+
+## Reference example
+
+`docs/mu-plugins/escapezoom-core/docs/rollout/order-cutover-playbook.md`
