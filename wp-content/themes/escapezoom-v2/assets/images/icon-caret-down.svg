@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" width="12" viewBox="0 0 24 24"
+     class="transition duration-300 group-data-[state=open]:rotate-180">
+    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m19 8.5-7 7-7-7"
+          vector-effect="non-scaling-stroke" />
+</svg>

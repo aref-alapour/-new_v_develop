@@ -1,0 +1,48 @@
+E2E manual matrix (checkout → gateway → pipeline)
+===============================================
+
+Run each row with a dedicated test product/slot where possible. Verify wp_markting row, sans_time post meta, wp_zb_booking_history after paid path.
+
+Zibal discovery (phase 0 — confirm on staging with a real WC_Zibal order_id)
+---------------------------------------------------------------------------
+- payment_method: WC_Zibal (not WC_ZPal_co — that is ZarinPal co).
+- trackId meta (try in order): _zibal_track_id, zibal_track_id, _zibal_trackId, ZibalTrackId (filter: ez_zibal_track_id_meta_keys).
+- merchant: get_option('woocommerce_WC_Zibal_settings') keys merchant|merchantcode.
+- SQL: SELECT meta_key, meta_value FROM wp_postmeta WHERE post_id = ? AND (meta_key LIKE '%zibal%' OR meta_key LIKE '%track%');
+- Toggle off theme verify: update_option('ez_zibal_action_based_enabled', '0');
+- Log grep: ez_zb_verify in debug.log / saeed_store.
+
+Core checkout rows
+------------------
+1. Online-only (no wallet): partial payment → Zibal success → booking row + markting updated.
+2. Online-only complete payment type → success path.
+3. Wallet-only (balance covers amount_to_pay): zero order total; pipeline reserve_once idempotent (_ez_wallet_* metas).
+4. Mixed wallet + online: snapshot _ez_checkout_snapshot_* matches pipeline wallet_share within tolerance.
+5. Coupon to zero online: pipeline still runs; wallet_share/coupon branch.
+6. User level discount users (3325/2/80 if still used): discount aligns with pipeline.
+7. Gateway user cancel (ZarinPal) real cancel: Status=NOK + not PAID at ZP → cancelled + order-failed; wp_markting not resolver-deleted.
+
+ZarinPal unVerified cron (inc/saeed-codes.php)
+------------------------------------------------------------
+7b. ZP NOK but PAID at gateway: Status=NOK → ez_zarinpal_try_verify_now → order-received (not order-failed).
+7c. zarinpal_paid_transactions_process_cron: unVerified.json main merchant → authority → verify within ~6min order age.
+7d. zarinpal_co_paid_transactions_process_cron: co merchant (woocommerce_WC_ZPal_co_settings merchantcode = 72c6d0b4-fa09-4257-9cb0-e8ab0ca4b8aa).
+7e. Cancelled + paid recovery: cron/thankyou verify → partially-paid + zp_cancelled_paid_recovery + markting sync.
+7f. Manual debug: ?get_unverified_list=1 runs zarinpal_co_paid_transactions_process (unVerified co).
+
+Zibal action-based verify (inc/ez-zibal-verify.php)
+----------------------------------------------------
+8. Zibal success normal: plugin payment_complete → pipeline; optional theme verify no-op if already paid.
+9. Zibal delayed callback: pending 5–15m → open order-received → ez_zibal_verify_with_retries → paid + booking.
+10. Zibal fail hook + paid at gateway: WC_Zibal_Return_from_Gateway_Failed → verify recovers → order-received (not order-failed).
+11. Zibal fail hook + real cancel: outside grace → cancelled + order-failed; markting row kept.
+12. Zibal verify idempotent: result 201 / already paid → no double pipeline break.
+13. Zibal + wallet mix: wallet branch + online Zibal verify path.
+14. Reconcile cron: pending Zibal in wp_markting 5–30m window → ez_reconcile → ez_zibal_verify_with_retries.
+15. zibal_unverified_orders_process_cron: pending WC_Zibal with trackId inside 18m grace.
+
+Other
+-----
+16. Resolver replace pending: old order cancelled with _ez_resolver_auto_cancel → marketing row removed for old order only.
+
+Log grep: [ez_order_flow] and ez_zb_verify in debug.log for order_id correlation.

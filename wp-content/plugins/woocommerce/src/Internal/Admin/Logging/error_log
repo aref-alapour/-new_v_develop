@@ -1,0 +1,320 @@
+[29-Apr-2025 21:33:58 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[02-Aug-2025 22:11:56 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[05-Aug-2025 06:54:58 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[08-Aug-2025 20:42:28 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[10-Aug-2025 23:07:58 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[15-Aug-2025 05:32:21 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[27-Aug-2025 08:54:22 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[29-Aug-2025 08:04:00 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[31-Aug-2025 10:34:05 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[01-Sep-2025 18:47:43 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[03-Sep-2025 18:04:22 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[05-Sep-2025 16:26:24 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[07-Sep-2025 16:15:59 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[10-Sep-2025 10:04:32 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[12-Sep-2025 07:14:52 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[14-Sep-2025 07:43:49 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[17-Sep-2025 07:34:29 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[19-Sep-2025 05:31:19 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[19-Sep-2025 05:31:24 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[19-Sep-2025 05:31:31 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[19-Sep-2025 10:05:32 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[21-Sep-2025 14:33:42 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[25-Sep-2025 10:45:55 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[27-Sep-2025 13:54:02 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[01-Oct-2025 04:33:30 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[03-Oct-2025 11:46:21 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[05-Oct-2025 12:50:07 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[07-Oct-2025 12:04:09 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[13-Oct-2025 02:44:57 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[15-Oct-2025 03:06:28 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[16-Oct-2025 18:24:20 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[18-Oct-2025 16:35:54 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[21-Oct-2025 05:25:55 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[22-Oct-2025 17:32:45 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[25-Oct-2025 13:04:06 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[27-Oct-2025 00:14:29 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[29-Oct-2025 03:03:35 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[31-Oct-2025 13:04:39 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[02-Nov-2025 06:46:43 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[04-Nov-2025 10:04:43 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[06-Nov-2025 08:14:51 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[09-Nov-2025 05:24:37 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[14-Nov-2025 05:44:23 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[20-Nov-2025 02:45:02 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[20-Nov-2025 09:34:30 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[20-Nov-2025 09:35:13 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[21-Nov-2025 15:34:35 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[23-Nov-2025 06:13:49 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[24-Nov-2025 09:57:22 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[26-Nov-2025 03:23:47 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[27-Nov-2025 10:26:19 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[28-Nov-2025 10:55:52 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[29-Nov-2025 10:55:41 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[30-Nov-2025 10:35:42 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[02-Dec-2025 10:14:50 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[03-Dec-2025 09:20:09 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[06-Dec-2025 17:15:00 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[08-Dec-2025 18:59:11 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[13-Dec-2025 04:54:05 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[15-Dec-2025 08:55:41 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[17-Dec-2025 05:15:05 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[19-Dec-2025 07:16:05 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[20-Dec-2025 18:04:32 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[22-Dec-2025 17:14:05 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[23-Dec-2025 19:55:06 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[24-Dec-2025 18:06:45 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[26-Dec-2025 18:07:04 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[28-Dec-2025 20:14:35 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[30-Dec-2025 15:36:20 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[31-Dec-2025 15:29:27 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[31-Dec-2025 19:23:52 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[02-Jan-2026 18:34:34 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[03-Jan-2026 17:04:56 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[05-Jan-2026 19:35:38 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[08-Jan-2026 00:06:41 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[23-Jan-2026 12:18:23 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[26-Jan-2026 13:05:31 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[29-Jan-2026 11:43:04 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[30-Jan-2026 12:35:46 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12
+[03-Feb-2026 22:34:26 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Log_Handler" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Logging/LogHandlerFileV2.php on line 12

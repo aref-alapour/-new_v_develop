@@ -1,0 +1,854 @@
+/* ====================================
+   Persian/Gregorian Range Datepicker
+   RTL & Theme Support
+   ==================================== */
+
+   @import url('https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css');
+   @import '../../../../node_modules/flatpickr/dist/flatpickr.css';
+   
+   /* ====================================
+      CSS Custom Properties
+      ==================================== */
+   
+   ez-range-datepicker {
+     display: block;
+     position: relative;
+   }
+   
+   .my-range-datepicker-wrapper {
+    overflow: visible;
+    position: relative;
+    --datepicker-primary-color: #f97316;
+    --datepicker-text-color: #1f2937;
+    --datepicker-border-color: #d1d5db;
+    --datepicker-highlight-color: rgba(249, 115, 22, 0.08);
+    --datepicker-selected-bg: #f97316;
+    --datepicker-selected-text: #ffffff;
+    --datepicker-range-bg: #fde68a;
+    --datepicker-range-preview-bg: rgba(253, 230, 138, 0.6);
+    --datepicker-font-family: 'Vazirmatn', sans-serif;
+    --datepicker-border-radius: 8px;
+    --datepicker-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --datepicker-error-color: #dc2626;
+    --datepicker-holiday-color: #dc2626;
+    --datepicker-today-border: #dc2626;
+   
+     position: relative;
+     direction: rtl;
+     text-align: right;
+     font-family: var(--datepicker-font-family);
+     display: block;
+   }
+   
+   /* ====================================
+      Main Input
+      ==================================== */
+   
+   .my-range-datepicker-input {
+     width: 100%;
+     max-width: 320px;
+     padding: 0.625rem 0.875rem;
+     font-size: 0.9375rem;
+     font-family: var(--datepicker-font-family);
+     color: var(--datepicker-text-color);
+     border: 1.5px solid var(--datepicker-border-color);
+     border-radius: var(--datepicker-border-radius);
+     background: #fff;
+     cursor: pointer;
+     direction: rtl;
+     transition: all 0.2s ease;
+   }
+   
+   .my-range-datepicker-input:hover:not(:disabled) {
+     border-color: var(--datepicker-primary-color);
+   }
+   
+   .my-range-datepicker-input:focus {
+     outline: none;
+     border-color: var(--datepicker-primary-color);
+     box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+   }
+   
+   .my-range-datepicker-input:focus-visible {
+     outline: 2px solid var(--datepicker-primary-color);
+     outline-offset: 2px;
+   }
+   
+   .my-range-datepicker-input::placeholder {
+     color: #9ca3af;
+   }
+   
+   .my-range-datepicker-input:disabled {
+     cursor: not-allowed;
+     opacity: 0.6;
+     background: #f3f4f6;
+   }
+   
+   /* ====================================
+      Error Message
+      ==================================== */
+   
+   .error-message {
+     color: var(--datepicker-error-color);
+     font-size: 0.8125rem;
+     margin-top: 0.375rem;
+     font-weight: 500;
+   }
+   
+   /* ====================================
+      Flatpickr (Gregorian) Overrides
+      ==================================== */
+   
+   /* تقویم میلادی: ظاهر یکسان با تقویم شمسی، فقط چیدمان LTR */
+   .flatpickr-calendar {
+     direction: ltr;
+     font-family: var(--datepicker-font-family) !important;
+     font-variant-numeric: normal;
+     z-index: 9999;
+     background: #fff !important;
+     border-radius: var(--datepicker-border-radius) !important;
+     border: 1px solid var(--datepicker-border-color) !important;
+     box-shadow: var(--datepicker-shadow) !important;
+     padding: 0 !important;
+     overflow: hidden;
+     min-width: 320px;
+     max-width: 360px;
+   }
+   
+   .flatpickr-calendar.open {
+     max-height: 640px;
+   }
+   
+   .flatpickr-calendar.arrowTop:before,
+   .flatpickr-calendar.arrowTop:after {
+     border-bottom-color: var(--datepicker-primary-color);
+   }
+   
+   /* هدر ماه/سال — مثل jalali-calendar-header */
+   .flatpickr-months {
+     background: #fff;
+     border-radius: var(--datepicker-border-radius) var(--datepicker-border-radius) 0 0;
+     border-bottom: 1px solid var(--datepicker-border-color);
+     padding: 0.75rem 1rem;
+     min-height: 3rem;
+   }
+   
+   .flatpickr-months .flatpickr-month {
+     background: transparent;
+     color: var(--datepicker-text-color);
+     min-height: 34px;
+     position: relative;
+   }
+   
+   .flatpickr-current-month {
+     font-size: 1.0625rem;
+     font-weight: 700;
+     color: var(--datepicker-text-color);
+     padding: 0.375rem 0 0;
+     position: absolute;
+     left: 12.5%;
+     width: 75%;
+     text-align: center;
+     visibility: visible;
+     opacity: 1;
+   }
+   
+   .flatpickr-current-month span.cur-month {
+     font-weight: 700;
+     color: var(--datepicker-text-color);
+   }
+   
+   .flatpickr-current-month .flatpickr-monthDropdown-months,
+   .flatpickr-current-month .numInputWrapper,
+   .flatpickr-current-month input.cur-year {
+     color: var(--datepicker-text-color);
+     font-weight: 600;
+   }
+   
+   .flatpickr-current-month .flatpickr-monthDropdown-months:hover,
+   .flatpickr-current-month .numInputWrapper:hover {
+     background: #f3f4f6;
+   }
+   
+   /* فلش‌های ناوبری — مثل jalali-calendar-prev/next */
+   .flatpickr-prev-month,
+   .flatpickr-next-month {
+     fill: #6b7280;
+     color: #6b7280;
+     padding: 0.5rem;
+     background: none;
+     border: none;
+     border-radius: var(--datepicker-border-radius);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     transition: all 0.2s ease;
+   }
+   
+   .flatpickr-prev-month:hover,
+   .flatpickr-next-month:hover {
+     fill: var(--datepicker-primary-color);
+     color: var(--datepicker-primary-color);
+     background: #f3f4f6;
+   }
+   
+   .flatpickr-prev-month {
+     left: 0;
+     right: auto;
+   }
+   
+   .flatpickr-next-month {
+     right: 0;
+     left: auto;
+   }
+   
+   .flatpickr-prev-month svg,
+   .flatpickr-next-month svg {
+     width: 16px;
+     height: 16px;
+   }
+   
+   /* ردیف روزهای هفته — مثل jalali-calendar-weekdays */
+   .flatpickr-weekdays {
+     background: #f9fafb;
+     border-bottom: 1px solid var(--datepicker-border-color);
+     padding: 0.625rem 0.75rem 0.375rem;
+   }
+   
+   .flatpickr-weekday {
+     color: #6b7280;
+     font-weight: 600;
+     font-size: 0.8125rem;
+   }
+   
+   /* ناحیه روزها — همان فاصله و فونت تقویم شمسی */
+   .flatpickr-days {
+     border: none;
+   }
+   
+   .flatpickr-days .dayContainer {
+     padding: 0.75rem;
+     gap: 4px;
+   }
+   
+   .flatpickr-day {
+     font-variant-numeric: normal;
+     color: var(--datepicker-text-color);
+     border-radius: var(--datepicker-border-radius);
+     font-weight: 500;
+     font-size: 0.9375rem;
+     max-width: 46px;
+     min-height: 40px;
+     height: 40px;
+     line-height: 40px;
+     border: 1.5px solid transparent;
+     transition: all 0.15s ease;
+   }
+   
+   .flatpickr-day.selected,
+   .flatpickr-day.startRange,
+   .flatpickr-day.endRange,
+   .flatpickr-day.selected.inRange,
+   .flatpickr-day.startRange.inRange,
+   .flatpickr-day.endRange.inRange,
+   .flatpickr-day.selected:focus,
+   .flatpickr-day.startRange:focus,
+   .flatpickr-day.endRange:focus,
+   .flatpickr-day.selected:hover,
+   .flatpickr-day.startRange:hover,
+   .flatpickr-day.endRange:hover,
+   .flatpickr-day.selected.prevMonthDay,
+   .flatpickr-day.startRange.prevMonthDay,
+   .flatpickr-day.endRange.prevMonthDay,
+   .flatpickr-day.selected.nextMonthDay,
+   .flatpickr-day.startRange.nextMonthDay,
+   .flatpickr-day.endRange.nextMonthDay {
+     background: var(--datepicker-selected-bg) !important;
+     border-color: var(--datepicker-selected-bg) !important;
+     color: var(--datepicker-selected-text) !important;
+   }
+   
+   .flatpickr-day.inRange {
+     background: var(--datepicker-range-bg) !important;
+     box-shadow: -2px 0 0 var(--datepicker-range-bg), 2px 0 0 var(--datepicker-range-bg);
+     border-color: transparent !important;
+     border-radius: 0;
+   }
+   
+   .flatpickr-day.today {
+     border: 2px solid var(--datepicker-today-border);
+     font-weight: 700;
+   }
+   
+   .flatpickr-day.today:not(.selected):not(.startRange):not(.endRange) {
+     background: transparent;
+     color: var(--datepicker-today-border);
+   }
+   
+   .flatpickr-day:hover:not(.flatpickr-disabled):not(.prevMonthDay):not(.nextMonthDay) {
+     background: var(--datepicker-highlight-color);
+     border-color: var(--datepicker-highlight-color);
+   }
+   
+   .flatpickr-day.prevMonthDay,
+   .flatpickr-day.nextMonthDay {
+     color: #d1d5db;
+   }
+   
+   .flatpickr-day.flatpickr-disabled {
+     color: #d1d5db;
+     cursor: not-allowed;
+   }
+   
+   /* ====================================
+      Custom Buttons (Flatpickr)
+      ==================================== */
+   
+   .flatpickr-custom-buttons {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 0.5rem;
+     padding: 0.625rem 0.75rem;
+     border-top: 1px solid var(--datepicker-border-color);
+     background: #f9fafb;
+     border-radius: 0 0 var(--datepicker-border-radius) var(--datepicker-border-radius);
+     font-family: var(--datepicker-font-family);
+   }
+   
+   .flatpickr-calendar-switch {
+     display: flex;
+     width: 100%;
+     gap: 0.375rem;
+     margin-bottom: 0.375rem;
+   }
+   
+   .flatpickr-switch-btn {
+     flex: 1;
+     padding: 0.5rem;
+     font-size: 0.875rem;
+     font-family: inherit;
+     font-weight: 500;
+     border: 1.5px solid var(--datepicker-border-color);
+     border-radius: 6px;
+     background: #fff;
+     color: var(--datepicker-text-color);
+     cursor: pointer;
+     transition: all 0.2s ease;
+   }
+   
+   .flatpickr-switch-btn:hover {
+     background: var(--datepicker-highlight-color);
+     border-color: var(--datepicker-primary-color);
+   }
+   
+   .flatpickr-switch-btn.active {
+     background: var(--datepicker-primary-color);
+     color: #fff;
+     border-color: var(--datepicker-primary-color);
+   }
+   
+   .flatpickr-today-btn,
+   .flatpickr-clear-btn {
+     flex: 1;
+     padding: 0.5rem 0.875rem;
+     font-size: 0.875rem;
+     font-family: inherit;
+     font-weight: 500;
+     border: 1.5px solid var(--datepicker-border-color);
+     border-radius: 6px;
+     background: #fff;
+     color: var(--datepicker-text-color);
+     cursor: pointer;
+     transition: all 0.2s ease;
+   }
+   
+   .flatpickr-today-btn {
+     background: var(--datepicker-primary-color);
+     color: #fff;
+     border-color: var(--datepicker-primary-color);
+   }
+   
+   .flatpickr-today-btn:hover {
+     opacity: 0.9;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   }
+   
+   .flatpickr-clear-btn:hover {
+     background: #fee2e2;
+     border-color: #fca5a5;
+     color: #dc2626;
+   }
+   
+   .flatpickr-confirm-btn {
+     flex: 1;
+     padding: 0.5rem 0.875rem;
+     font-size: 0.875rem;
+     font-family: inherit;
+     font-weight: 600;
+     border: 1.5px solid var(--datepicker-primary-color);
+     border-radius: 6px;
+     background: var(--datepicker-primary-color);
+     color: #fff;
+     cursor: pointer;
+     transition: all 0.2s ease;
+   }
+   
+   .flatpickr-confirm-btn:hover {
+     opacity: 0.9;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   }
+   
+   /* ====================================
+      Jalali (Shamsi) Calendar
+      ==================================== */
+   
+   .jalali-calendar {
+     position: absolute;
+     top: calc(100% + 4px);
+     right: 0;
+     left: auto;
+     width: 100%;
+     min-width: 320px;
+     max-width: 360px;
+     background: #fff;
+     border-radius: var(--datepicker-border-radius);
+     box-shadow: var(--datepicker-shadow);
+     border: 1px solid var(--datepicker-border-color);
+     direction: rtl;
+     font-family: var(--datepicker-font-family);
+     z-index: 9999;
+     padding: 0;
+     overflow: hidden;
+     transition: opacity 0.2s ease;
+   }
+
+   .jalali-calendar.jalali-calendar-loading {
+     opacity: 0.7;
+   }
+   
+   .jalali-calendar-loading-overlay {
+     position: absolute;
+     inset: 0;
+     background: rgba(255, 255, 255, 0.7);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-radius: var(--datepicker-border-radius);
+     z-index: 1;
+   }
+   
+   .jalali-calendar-spinner {
+     width: 24px;
+     height: 24px;
+     border: 2px solid var(--datepicker-border-color);
+     border-top-color: var(--datepicker-primary-color);
+     border-radius: 50%;
+     animation: jalali-spin 0.7s linear infinite;
+   }
+   
+   @keyframes jalali-spin {
+     to { transform: rotate(360deg); }
+   }
+   
+   /* Header - سفید مثل CRM */
+   .jalali-calendar-header {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0.75rem 1rem;
+     background: #fff;
+     color: var(--datepicker-text-color);
+     border-bottom: 1px solid var(--datepicker-border-color);
+   }
+   
+   .jalali-calendar-prev,
+   .jalali-calendar-next {
+     background: none;
+     border: none;
+     color: #6b7280;
+     cursor: pointer;
+     padding: 0.5rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     fill: #6b7280;
+     border-radius: var(--datepicker-border-radius);
+     transition: all 0.2s ease;
+   }
+   
+   .jalali-calendar-prev:hover,
+   .jalali-calendar-next:hover {
+     background: #f3f4f6;
+     fill: var(--datepicker-primary-color);
+     color: var(--datepicker-primary-color);
+   }
+   
+   .jalali-calendar-prev svg,
+   .jalali-calendar-next svg {
+     width: 16px;
+     height: 16px;
+   }
+   /* در RTL: ماه قبل راست است، فلش باید به راست باشد */
+   .jalali-calendar-prev svg {
+     transform: scaleX(-1);
+   }
+   
+   .jalali-calendar-title {
+     font-weight: 700;
+     font-size: 1.0625rem;
+     letter-spacing: -0.01em;
+     color: var(--datepicker-text-color);
+   }
+   
+   .jalali-calendar-select {
+     font-family: var(--datepicker-font-family);
+     font-size: 0.9375rem;
+     font-weight: 600;
+     color: var(--datepicker-text-color);
+     background: #fff;
+     border: 1px solid var(--datepicker-border-color);
+     border-radius: 6px;
+     padding: 0.35rem 0.5rem;
+     cursor: pointer;
+     min-width: 0;
+   }
+   
+   .jalali-calendar-select-month {
+     flex: 1;
+     max-width: 120px;
+   }
+   
+   .jalali-calendar-select-year {
+     max-width: 72px;
+   }
+   
+   /* سوئیچ شمسی / میلادی */
+   .jalali-calendar-mode-switch {
+     display: flex;
+     gap: 0;
+     padding: 0 0.75rem 0.5rem;
+     border-bottom: 1px solid var(--datepicker-border-color);
+     background: #fff;
+   }
+   
+   .jalali-mode-btn {
+     flex: 1;
+     padding: 0.5rem 0.75rem;
+     font-size: 0.8125rem;
+     font-weight: 600;
+     font-family: var(--datepicker-font-family);
+     border: 1px solid var(--datepicker-border-color);
+     background: #f9fafb;
+     color: #6b7280;
+     cursor: pointer;
+     transition: all 0.2s ease;
+     border-radius: 0;
+   }
+   
+   .jalali-mode-btn:first-child {
+     border-radius: 0 var(--datepicker-border-radius) var(--datepicker-border-radius) 0;
+     border-inline-start: none;
+   }
+   
+   .jalali-mode-btn:last-child {
+     border-radius: var(--datepicker-border-radius) 0 0 var(--datepicker-border-radius);
+   }
+   
+   .jalali-mode-btn:hover {
+     background: #f3f4f6;
+     color: var(--datepicker-text-color);
+   }
+   
+   .jalali-mode-btn.active {
+     background: var(--datepicker-primary-color);
+     color: #fff;
+     border-color: var(--datepicker-primary-color);
+   }
+   
+   /* Weekdays */
+   .jalali-calendar-weekdays {
+     display: grid;
+     grid-template-columns: repeat(7, 1fr);
+     gap: 0;
+     padding: 0.625rem 0.75rem 0.375rem;
+     text-align: center;
+     font-size: 0.8125rem;
+     font-weight: 600;
+     color: #6b7280;
+     background: #f9fafb;
+     border-bottom: 1px solid var(--datepicker-border-color);
+   }
+   
+   /* Days Grid */
+   .jalali-calendar-days {
+     display: grid;
+     grid-template-columns: repeat(7, 1fr);
+     gap: 4px;
+     padding: 0.75rem;
+     background: #fff;
+   }
+   
+   /* Individual Day - border-radius 8px مثل CRM */
+   .jalali-day,
+   .jalali-day-empty {
+     aspect-ratio: 1;
+     min-height: 40px;
+     max-width: 46px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-radius: var(--datepicker-border-radius);
+     font-size: 0.9375rem;
+     font-family: var(--datepicker-font-family);
+     font-weight: 500;
+     position: relative;
+   }
+   
+   .jalali-day {
+     border: 1.5px solid transparent;
+     background: none;
+     color: var(--datepicker-text-color);
+     cursor: pointer;
+     margin: 0 auto;
+     transition: all 0.15s ease;
+   }
+   
+   .jalali-day:hover:not(.jalali-day-start):not(.jalali-day-end) {
+     background: var(--datepicker-highlight-color);
+     border-color: var(--datepicker-primary-color);
+   }
+   
+   .jalali-day-empty {
+     visibility: hidden;
+     pointer-events: none;
+   }
+   
+   .jalali-day-disabled {
+     opacity: 0.45;
+     cursor: not-allowed;
+     pointer-events: none;
+   }
+   
+   /* Today - حاشیه قرمز */
+   .jalali-day-today:not(.jalali-day-start):not(.jalali-day-end) {
+     border: 2px solid var(--datepicker-today-border);
+     font-weight: 700;
+     color: var(--datepicker-today-border);
+   }
+   
+   /* Selected Range */
+   .jalali-day-start,
+   .jalali-day-end {
+     background: var(--datepicker-selected-bg) !important;
+     color: var(--datepicker-selected-text) !important;
+     border-color: var(--datepicker-selected-bg) !important;
+     font-weight: 700;
+   }
+   
+   .jalali-day-in-range {
+     background: var(--datepicker-range-bg) !important;
+     border-radius: 0;
+     border-color: transparent !important;
+   }
+   
+   /* پیش‌نمایش بازه با هاور - رنگ کمرنگ‌تر */
+   .jalali-day-preview {
+     background: var(--datepicker-range-preview-bg) !important;
+     border-radius: 0;
+     border-color: transparent !important;
+   }
+   
+   /* Border-based indicators (no icon): جمعه / تعطیل رسمی / مناسبت */
+   .jalali-day-friday {
+     border: 1px solid rgba(239, 68, 68, 0.5) !important;
+   }
+   .jalali-day-holiday-official {
+     border: 1px solid rgba(239, 68, 68, 0.25) !important;
+   }
+   .jalali-day-event {
+     border: 1px solid rgba(59, 130, 246, 0.3) !important;
+   }
+   
+   .holiday-indicator {
+     display: none;
+   }
+   
+   /* Footer Buttons */
+   .jalali-calendar-footer {
+     display: flex;
+     gap: 0.5rem;
+     padding: 0.625rem 0.75rem;
+     border-top: 1px solid var(--datepicker-border-color);
+     background: #f9fafb;
+   }
+   
+   .jalali-today-btn,
+   .jalali-clear-btn,
+   .jalali-confirm-btn {
+     flex: 1;
+     padding: 0.5rem 0.875rem;
+     font-size: 0.875rem;
+     font-family: inherit;
+     font-weight: 500;
+     border: 1.5px solid var(--datepicker-border-color);
+     border-radius: 6px;
+     background: #fff;
+     color: var(--datepicker-text-color);
+     cursor: pointer;
+     transition: all 0.2s ease;
+   }
+   
+   .jalali-today-btn {
+     background: var(--datepicker-primary-color);
+     color: #fff;
+     border-color: var(--datepicker-primary-color);
+   }
+   
+   .jalali-today-btn:hover {
+     opacity: 0.9;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   }
+   
+   .jalali-clear-btn:hover {
+     background: #fee2e2;
+     border-color: #fca5a5;
+     color: #dc2626;
+   }
+   
+   .jalali-confirm-btn {
+     font-weight: 600;
+     background: var(--datepicker-primary-color);
+     color: #fff;
+     border-color: var(--datepicker-primary-color);
+   }
+   
+   .jalali-confirm-btn:hover {
+     opacity: 0.9;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   }
+   
+   /* ====================================
+      Tooltip تعطیلات / مناسبت
+      ==================================== */
+   
+   .holiday-tooltip {
+     position: fixed;
+     background: #fff;
+     color: var(--datepicker-text-color);
+     padding: 0;
+     border-radius: 10px;
+     font-size: 0.8125rem;
+     line-height: 1.5;
+     white-space: normal;
+     max-width: 260px;
+     min-width: 160px;
+     z-index: 10000;
+     pointer-events: none;
+     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(0, 0, 0, 0.06);
+     animation: tooltipFadeIn 0.2s ease;
+     overflow: hidden;
+     font-family: var(--datepicker-font-family);
+   }
+   
+   .holiday-tooltip-label {
+     display: block;
+     padding: 0.5rem 0.875rem;
+     font-size: 0.75rem;
+     font-weight: 700;
+     text-transform: uppercase;
+     letter-spacing: 0.02em;
+     background: var(--datepicker-primary-color);
+     color: #fff;
+   }
+   
+   .holiday-tooltip-text {
+     margin: 0;
+     padding: 0.75rem 0.875rem;
+     font-size: 0.875rem;
+     color: var(--datepicker-text-color);
+     line-height: 1.6;
+   }
+   
+   .holiday-tooltip::after {
+     content: '';
+     position: absolute;
+     top: 100%;
+     left: 50%;
+     transform: translateX(-50%);
+     width: 0;
+     height: 0;
+     border-left: 8px solid transparent;
+     border-right: 8px solid transparent;
+     border-top: 8px solid #fff;
+     filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.08));
+   }
+   
+   @keyframes tooltipFadeIn {
+     from {
+       opacity: 0;
+       transform: translate(-50%, calc(-100% - 6px));
+     }
+     to {
+       opacity: 1;
+       transform: translate(-50%, -100%);
+     }
+   }
+   
+   /* ====================================
+      Responsive Design
+      ==================================== */
+   
+   @media (max-width: 640px) {
+     .my-range-datepicker-input {
+       max-width: 100%;
+     }
+   
+     .jalali-calendar {
+       max-width: 100%;
+     }
+   
+     .jalali-day,
+     .flatpickr-day {
+       min-height: 44px;
+       max-width: 44px;
+     }
+   }
+   
+   /* ====================================
+      Accessibility
+      ==================================== */
+   
+   /* Visible focus indicators */
+   .jalali-day:focus-visible,
+   .jalali-today-btn:focus-visible,
+   .jalali-clear-btn:focus-visible,
+   .jalali-calendar-prev:focus-visible,
+   .jalali-calendar-next:focus-visible,
+   .flatpickr-today-btn:focus-visible,
+   .flatpickr-clear-btn:focus-visible,
+   .flatpickr-switch-btn:focus-visible {
+     outline: 2px solid var(--datepicker-primary-color);
+     outline-offset: 2px;
+   }
+   
+   /* High contrast mode support */
+   @media (prefers-contrast: high) {
+     .my-range-datepicker-input,
+     .jalali-calendar,
+     .flatpickr-calendar {
+       border-width: 2px;
+     }
+   
+     .jalali-day-holiday {
+       border-width: 3px;
+     }
+   }
+   
+   /* Reduced motion support */
+   @media (prefers-reduced-motion: reduce) {
+     * {
+       animation-duration: 0.01ms !important;
+       transition-duration: 0.01ms !important;
+     }
+   }
+   

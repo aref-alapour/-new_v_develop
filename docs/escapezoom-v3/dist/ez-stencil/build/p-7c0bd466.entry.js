@@ -1,0 +1,1 @@
+import{r as e,g as r,h as s}from"./p-DclNjYd0.js";const d=class{constructor(r){e(this,r)}get el(){return r(this)}render(){return s("div",{key:"b53f50cfe4a6cd303adc7d623d0cb6f9b58339a2",class:"w-full rounded-2xl border border-gray-100 bg-white px-4 shadow-sm lg:px-6"},s("slot",{key:"e1bf6061a59361bd7164407cfe3397162ee85e0b"}))}};export{d as ez_accordion}

@@ -1,0 +1,16 @@
+[31-Dec-2025 15:19:22 UTC] PHP Fatal error:  Uncaught Error: Class "ZhaketUpdater\HelpersClass\Modules" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/UserPrevent/UserPrevent.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/UserPrevent/UserPrevent.php on line 8
+[02-Jan-2026 10:14:00 UTC] PHP Fatal error:  Uncaught Error: Class "ZhaketUpdater\HelpersClass\Modules" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/UserPrevent/UserPrevent.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/UserPrevent/UserPrevent.php on line 8
+[03-Jan-2026 16:46:37 UTC] PHP Fatal error:  Uncaught Error: Class "ZhaketUpdater\HelpersClass\Modules" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/UserPrevent/UserPrevent.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/UserPrevent/UserPrevent.php on line 8
+[28-Jan-2026 14:54:57 UTC] PHP Fatal error:  Uncaught Error: Class "ZhaketUpdater\HelpersClass\Modules" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/UserPrevent/UserPrevent.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/UserPrevent/UserPrevent.php on line 8

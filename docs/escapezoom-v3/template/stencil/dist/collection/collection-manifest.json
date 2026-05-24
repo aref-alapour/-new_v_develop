@@ -1,0 +1,41 @@
+{
+  "entries": [
+    "range-datepicker/range-datepicker.js",
+    "accordion/accordion-item.js",
+    "accordion/accordion.js",
+    "autocomplete/autocomplete.js",
+    "badge/badge.js",
+    "banner-slider/banner-slider.js",
+    "blog-card/blog-card.js",
+    "brand-card/brand-card.js",
+    "breadcrumb/breadcrumb.js",
+    "button/button.js",
+    "collection-card/collection-card.js",
+    "comments/comment-item-post.js",
+    "comments/comment-item-product.js",
+    "dropdown/dropdown-item.js",
+    "dropdown/dropdown.js",
+    "loading/loading.js",
+    "modal/modal.js",
+    "pagination/pagination.js",
+    "product-card/product-card.js",
+    "sans-item/sans-item.js",
+    "sans-list/sans-list.js",
+    "select/select.js",
+    "skeleton/skeleton.js",
+    "table/table-cell.js",
+    "table/table-row.js",
+    "table/table.js",
+    "tabs/tab.js",
+    "tabs/tabs.js",
+    "text-input/input.js"
+  ],
+  "mixins": [],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "4.43.4",
+    "typescriptVersion": "5.8.3"
+  },
+  "collections": [],
+  "bundles": []
+}

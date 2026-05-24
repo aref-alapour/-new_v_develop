@@ -1,0 +1,490 @@
+[10-Mar-2025 21:18:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[11-Mar-2025 08:34:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[15-May-2025 03:45:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[01-Jul-2025 11:38:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[01-Jul-2025 11:38:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[01-Jul-2025 11:39:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[15-Jul-2025 18:31:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[15-Jul-2025 18:31:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[15-Jul-2025 18:31:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[26-Jul-2025 20:10:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[29-Jul-2025 04:56:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[31-Jul-2025 19:36:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[19-Aug-2025 03:36:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[19-Aug-2025 03:36:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[19-Aug-2025 03:36:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[25-Aug-2025 09:29:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[27-Aug-2025 11:48:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[29-Aug-2025 10:54:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[30-Aug-2025 23:17:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[01-Sep-2025 20:35:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[03-Sep-2025 19:03:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[06-Sep-2025 12:12:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[07-Sep-2025 18:14:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[10-Sep-2025 10:03:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[11-Sep-2025 21:25:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[13-Sep-2025 23:54:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[16-Sep-2025 19:13:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[19-Sep-2025 11:43:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[20-Sep-2025 22:03:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[23-Sep-2025 11:54:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[25-Sep-2025 07:54:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[26-Sep-2025 19:14:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[01-Oct-2025 12:52:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[03-Oct-2025 06:22:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[04-Oct-2025 16:14:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[06-Oct-2025 13:02:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[08-Oct-2025 09:32:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[10-Oct-2025 19:33:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[12-Oct-2025 10:43:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[14-Oct-2025 08:53:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[16-Oct-2025 08:44:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[18-Oct-2025 09:02:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[20-Oct-2025 07:33:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[22-Oct-2025 08:52:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[24-Oct-2025 08:43:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[26-Oct-2025 09:15:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[28-Oct-2025 16:52:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[02-Nov-2025 10:24:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[03-Nov-2025 20:23:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[07-Nov-2025 04:05:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[09-Nov-2025 02:13:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[11-Nov-2025 19:13:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[13-Nov-2025 23:04:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[15-Nov-2025 09:43:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[16-Nov-2025 08:14:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[17-Nov-2025 15:45:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[18-Nov-2025 18:43:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[20-Nov-2025 05:13:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[20-Nov-2025 05:13:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[20-Nov-2025 11:24:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[21-Nov-2025 13:33:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[24-Nov-2025 20:41:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[24-Nov-2025 21:04:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[25-Nov-2025 14:25:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[26-Nov-2025 12:45:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[28-Nov-2025 00:53:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[29-Nov-2025 22:54:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[02-Dec-2025 06:33:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[04-Dec-2025 06:22:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[06-Dec-2025 07:43:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[08-Dec-2025 05:23:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[09-Dec-2025 20:00:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[12-Dec-2025 06:03:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[15-Dec-2025 22:14:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[17-Dec-2025 07:16:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[17-Dec-2025 19:42:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[17-Dec-2025 21:13:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[20-Dec-2025 09:25:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[23-Dec-2025 19:45:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[23-Dec-2025 21:56:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[25-Dec-2025 22:03:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[28-Dec-2025 03:41:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[29-Dec-2025 20:04:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[31-Dec-2025 15:06:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[31-Dec-2025 22:33:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[02-Jan-2026 10:16:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[02-Jan-2026 22:22:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[03-Jan-2026 16:32:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[05-Jan-2026 12:04:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[22-Jan-2026 17:24:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[24-Jan-2026 16:15:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[28-Jan-2026 14:56:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[28-Jan-2026 18:34:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[30-Jan-2026 15:04:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[31-Jan-2026 14:10:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[01-Feb-2026 14:44:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[03-Feb-2026 15:51:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63
+[05-Feb-2026 16:32:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function did_action() in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php:63
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/ultimate-posts-widget.php(15): analyst_init(Array)
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/ultimate-posts-widget/analyst/main.php on line 63

@@ -1,0 +1,768 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Zhaket Smart Updater\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-06 07:35+0000\n"
+"PO-Revision-Date: 2025-10-29 12:53+0000\n"
+"Last-Translator: \n"
+"Language-Team: فارسی\n"
+"Language: fa_IR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.14; wp-6.8.3\n"
+"X-Domain: zhaket-updater"
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:189
+msgid ""
+"\"Zhaket updater\" plugin have major updates. Please update it to run other "
+"plugin updates"
+msgstr ""
+"افزونه \"به روز رسان هوشمند ژاکِت\" نیازمند به روز رسانی است. لطفا ابتدا "
+"افزونه را به روز رسانی کرده سپس جهت به روز رسانی سایر افزونه ها اقدام نمایید."
+
+#: ../zhaket-updater-private/updater/Zhup_plugin_row.php:207
+#, php-format
+msgid "%s version %s"
+msgstr "%s نسخه %s"
+
+#: includes/UserPrevent/UserPrevent.php:82
+#, php-format
+msgid ""
+"<p><strong>Note:</strong> your user only can select one of this item : %s "
+"</p>"
+msgstr ""
+"<p><strong>نکته:</strong> کاربر شما تنها اجازه  تعیین بین این نقش ها را دارد "
+": %s </p>"
+
+#: includes/Recaptcha/Recaptcha.php:148 includes/Recaptcha/Recaptcha.php:163
+msgid "<strong>ERROR</strong>: Please complete the reCAPTCHA."
+msgstr "<strong>خطا</strong>:لطفا کپچا رو کامل کنید."
+
+#: ../zhaket-updater-private/updater/Zhup_Admin_Notice.php:179
+msgid "Activate"
+msgstr "فعال کن"
+
+#: ../zhaket-updater-private/updater/Zhup_plugin_row.php:214
+msgid "active this item"
+msgstr "فعال کردن"
+
+#: includes/Ai/AiContentGenerator.php:320
+msgid "Ai API Error! please try again later."
+msgstr "خطایی از سمت سرویس دهنده ai رخ داده! لطفا مجدد تلاش نمایید."
+
+#: includes/Ai/AiContentGenerator.php:313
+msgid "AI API Error: Payment Required"
+msgstr "اعتبار حساب شما برای ایجاد یک مقاله جدید به اندازه کافی نیست."
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:174
+msgid "Authentication failed. Your credential is not accepted in zhaket.com"
+msgstr "تایید اعتبار ناموفق بود. اعتبارسنجی شما توسط zhaket.com رد شد."
+
+#: ../zhaket-updater-private/updater/install_plugin_information.php:255
+msgid "Average Rating in Zhaket"
+msgstr "میانگین امتیاز در ژاکت"
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:1070
+msgid "backup error not found"
+msgstr "خطایی در بکاپ ها پیدا نشد"
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:1073
+msgid "backup not found"
+msgstr "نسخه پشتیبان پیدا نشد"
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:75
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:515
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:523
+msgid "bad response"
+msgstr "پاسخ نادرست"
+
+#: includes/Widget/Widget.php:28
+msgid "Blog Widget"
+msgstr "بلاگ ژاکت"
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:426
+msgid "buy this product"
+msgstr "خرید این محصول"
+
+#: includes/MainApp.php:79
+msgid "by"
+msgstr "به دست"
+
+#: ../zhaket-updater-private/updater/ZhUp_installer.php:257
+msgid "can not access your buy items, unknown error occurred"
+msgstr "سیستم قادر به دستیابی به خرید های شما در ژاکت نیست. (خطای ناشناخته)"
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:228
+msgid "Cannot check your purchased list. please retry later."
+msgstr "امکان بررسی لیست خرید شما وجود ندارد. لطفا بعدا تلاش نمایید."
+
+#: ../zhaket-updater-private/updater/ZhUp_installer.php:461
+msgid "change access email to "
+msgstr "تغییر ایمیل دسترسی به"
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:608
+msgid "click here to download"
+msgstr "دانلود فایل"
+
+#: ../zhaket-updater-private/updater/ZhUp_installer.php:451
+#, php-format
+msgid "confirm access to zhaket purchased list on domain %s"
+msgstr "دسترسی به لیست خرید های دامنه %s در سایت ژاکِت"
+
+#: includes/Hub/Hub.php:183
+msgid "Connection timed out"
+msgstr ""
+"زمان مجاز برای احراز دامنه شما به پایان رسید. لطفا ۱۰ دقیقه دیگر مجدد تلاش "
+"نمایید."
+
+#: includes/MainApp.php:83
+msgid "Continuous Support and Updates"
+msgstr "پشتیبانی و بروزرسانی مداوم"
+
+#: includes/Hub/Hub.php:186
+msgid "cURL error 35 (OpenSSL SSL_connect)"
+msgstr "خطای تایید SSL رخ داده است. لطفا ۱۰ دقیقه دیگر مجدد تلاش نمایید."
+
+#: ../zhaket-updater-private/updater/Zhup_plugin_row.php:214
+msgid "deactive this item"
+msgstr "غیر فعال کردن"
+
+#: ../zhaket-updater-private/updater/Zhup_plugin_row.php:192
+msgid "Default is wordpress repository or main plugin sourse"
+msgstr "پیشفرض از مخزن وردپرس یا منبع اصلی پلاگین استفاده میگردد"
+
+#: ../zhaket-updater-private/updater/Zhup_plugin_row.php:193
+msgid "Default source"
+msgstr "منبع پیشفرض"
+
+#: includes/Settings/Setting.php:92 includes/Settings/Setting.php:118
+#: includes/Settings/Setting.php:331
+msgid "dependency check failed"
+msgstr "بررسی موارد لازم شکست خورد"
+
+#: includes/Hub/Hub.php:177
+msgid "Domain is not valid"
+msgstr "به نظر می‌رسد دامنه شما یک دامنه معتبر نیست"
+
+#: includes/Hub/Hub.php:190
+msgid "Domain Key is not valid"
+msgstr "کلید احراز دامنه شما معتبر نمی‌باشد. بعد از ۱۰ دقیقه مجدد تلاش نمایید."
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:219
+msgid "Domain validation cURL error 35 (OpenSSL SSL_connect)"
+msgstr "در زمان تایید دامنه خطای  cURL error 35 (OpenSSL SSL_connect) رخ داد"
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:216
+msgid "Domain validation request rejected"
+msgstr "درخواست تایید دامنه شما ریجکت شد"
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:222
+msgid "Domain validation too many redirect"
+msgstr "در زمان تایید دامنه شما ریدایرکت های زیادی اتفاق افتاد"
+
+#: ../zhaket-updater-private/updater/ZhUp_installer.php:408
+msgid "Download"
+msgstr "دانلود"
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:787
+msgid "download link"
+msgstr "دریافت افزونه"
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:186
+msgid ""
+"Download link is not accessible, this is automatically reported to zhaket"
+msgstr ""
+"لینک دانلود در دسترس نیست. این خطا به صورت خودکار برای ژاکِت ارسال می گردد."
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:604
+msgid "Download Link is Ready!"
+msgstr "لینک دانلود شما آماده است!"
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:605
+msgid "Download will start immediately ..."
+msgstr "عملیات دانلود به‌صورت خودکار تا لحظاتی دیگر آغاز می‌شود..."
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:426
+msgid "else buy form this link"
+msgstr "در غیر این صورت می‌توانید خریداری نمایید"
+
+#: includes/Hub/Hub.php:181
+msgid "Empty response"
+msgstr "پاسخ صحیحی از فرایند احراز دامنه دریافت نشد"
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:102
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:104
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:106
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:744
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:749
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:827
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:832
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:837
+#: ../zhaket-updater-private/updater/ZhUp_installer.php:227
+#: ../zhaket-updater-private/updater/ZhUp_installer.php:230
+#: ../zhaket-updater-private/updater/ZhUp_installer.php:239
+#, php-format
+msgid "Error in connection: %s"
+msgstr "خطا در اتصال: %s"
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:195
+msgid "Error in create download link, please retry later"
+msgstr "خطایی در ایجاد لینک دانلود به وجود آمده. لطفا بعدا مجدد تلاش نمایید."
+
+#: includes/Ai/AiContentGenerator.php:324
+msgid "Error in token! Please logout and login again."
+msgstr "مجوز یافت نشد! لطفا از حساب کاربری خارج شده و مجدد وارد شوید."
+
+#: includes/DependencyChecker.php:104 includes/DependencyChecker.php:118
+msgid "Error in zhaket smart updater"
+msgstr "خطا در بروزرسان هوشمند ژاکت"
+
+#: includes/Ai/Ai.php:236 includes/Ai/Ai.php:264
+msgid "error on create post request"
+msgstr "در فرایند ساخت مقاله خطایی رخ داده است."
+
+#: includes/Ai/Ai.php:126 includes/Ai/Ai.php:157
+msgid "error on send code"
+msgstr "خطایی در ارسال کد رخ داده است"
+
+#: includes/Updater/Updater.php:47
+msgid "Every 6 hours"
+msgstr "6 ساعت یک بار"
+
+#: includes/Hub/Hub.php:182
+msgid "File Key not found"
+msgstr ""
+"کلید انحصاری دامنه شما در عملیات احراز دامنه یافت نشد. در صورت تکرار این  "
+"موضوع، بررسی نمایید که دسترسی به فایل های html در هاست شما مسدود نباشد."
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:610
+msgid "Find out how to install wordpress plugins/themes manually"
+msgstr ""
+"مشاهده آموزش نصب افزونه و قالب‌های خریداری شده از ژاکت در سایت ‌های وردپرسی"
+
+#: includes/AdminMenu/AdminMenu.php:155
+msgid "Gifts and discounts"
+msgstr "هدایا و تخفیف‌ها"
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:612
+msgid "go to install page"
+msgstr "بازگشت به نصب‌کنندهٔ افزونه‌ها"
+
+#: ../zhaket-updater-private/updater/ZhUp_installer.php:417
+msgid "hide childs"
+msgstr "مخفی کردن"
+
+#. URI of the plugin
+msgid "https://www.zhaket.com/web/zhaket-smart-updater"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://zhaket.com"
+msgstr "https://zhaket.com"
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:606
+msgid "If your download doesn't start immediately: "
+msgstr ""
+"اگر دانلود انجام نشد، با کلیک روی لینک مقابل نسبت به دانلود اقدام کنید: "
+
+#: ../zhaket-updater-private/updater/Zhup_Admin_Notice.php:173
+msgid "Improvement of the user interface"
+msgstr "بهبود رابط کاربری"
+
+#: ../zhaket-updater-private/updater/ZhUp_installer.php:386
+msgid "install"
+msgstr "نصب"
+
+#: includes/Ai/Ai.php:136
+msgid "invalid code"
+msgstr "کد وارد شده معتبر نیست"
+
+#: includes/Ai/Ai.php:179 includes/Ai/Ai.php:203 includes/Ai/Ai.php:214
+#: includes/Ai/Ai.php:250
+msgid "invalid data"
+msgstr "اطلاعات ارسال شده نامعتبر است"
+
+#: includes/Hub/Hub.php:176
+msgid "Invalid data send"
+msgstr "داده های نامعتبر برای احراز دامنه ارسال شده است"
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:168
+msgid "Invalid domain name, you cannot use zhaket updater in localhost."
+msgstr ""
+"نام دامنه شما معتبر نیست. افزونه به روز رسان هوشمند ژاکِت در localhost قابل "
+"استفاده نیست."
+
+#: includes/Ai/Ai.php:141
+msgid "invalid mobile number"
+msgstr "شماره همراه وارد شده معتبر نمی‌باشد"
+
+#: includes/Ai/Ai.php:120
+msgid "invalid phone number"
+msgstr "شماره همراه وارد شده معتبر نیست"
+
+#: includes/AdminMenu/AdminMenu.php:164
+msgid "ionCube required"
+msgstr "ماژول ionCube مورد نیاز است"
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:1221
+msgid "json file was read successfully"
+msgstr "فایل به روز رسانی به درستی خوانده شد"
+
+#: includes/Hub/Hub.php:179
+msgid "Key is not valid"
+msgstr "کلید ارسالی شما معتبر نیست، بعد از ۱۰ دقیقه مجدد تلاش نمایید."
+
+#: ../zhaket-updater-private/updater/Zhup_plugin_row.php:198
+msgid "main plugin"
+msgstr "افزونه اصلی"
+
+#: includes/MainApp.php:75 includes/Ai/Ai.php:62
+msgid "Make content with AI"
+msgstr "ایجاد نوشته با Ai"
+
+#: ../zhaket-updater-private/updater/Zhup_plugin_row.php:266
+msgid "Manage Backups"
+msgstr "مدیریت پشتیبان ها"
+
+#: ../zhaket-updater-private/updater/Zhup_Admin_Notice.php:304
+msgid "New update available for your website"
+msgstr "به روز رسانی جدیدی برای سایت شما در دسترس است"
+
+#: ../zhaket-updater-private/updater/Zhup_Admin_Notice.php:283
+msgid "New update for plugin:"
+msgstr "به روز رسانی های موجود برای افزونه ها:"
+
+#: ../zhaket-updater-private/updater/Zhup_Admin_Notice.php:276
+msgid "New update for theme:"
+msgstr "به روز رسانی های موجود برای قالب ها:"
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:1149
+msgid "New version is detected"
+msgstr "نسخه جدیدی در دسترس است"
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:1152
+msgid "No changes happened"
+msgstr "هیچ تغییری اعمال نشد"
+
+#: includes/Settings/Setting.php:136
+msgid "Nonce verification failed. or no permission"
+msgstr ""
+
+#: includes/Recaptcha/Recaptcha.php:131
+msgid "Please complete the reCAPTCHA"
+msgstr "لطفا ریکپچا را کامل کنید"
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:665
+msgid "Please wait 5 minute and try again"
+msgstr "لطفا 5 دقیقه دیگر مجدد تلاش نمایید"
+
+#: ../zhaket-updater-private/updater/Zhup_plugin_row.php:204
+msgid "plugin"
+msgstr "افزونه"
+
+#. 1: zip error details
+#: ../zhaket-updater-private/updater/Zhup_backup.php:132
+#, php-format
+msgid ""
+"Plugin backup can not be created as creation of the zip file failed with the "
+"following error: %1$s"
+msgstr ""
+"ایجاد نسخه پشتیبان از افزونه به علت خطا در ایجاد فایل zip با مشکل مواجه شد. "
+"خطا: %1$s"
+
+#: ../zhaket-updater-private/updater/Zhup_backup.php:109
+msgid ""
+"Plugin backup can not be created since a destination path for the backup "
+"file could not be found."
+msgstr ""
+"ایجاد نسخه پشتیبان از افزونه به علت خطا در دسترسی به مقصد ذخیره سازی فایل "
+"پشتیبان با مشکل مواجه شد."
+
+#: includes/MainApp.php:82
+msgid "Premium WordPress Plugins"
+msgstr "افزونه‌های پرمیوم وردپرس"
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:337
+#: ../zhaket-updater-private/updater/Zhup_plugin_row.php:122
+msgid "Provide update by Zhaket"
+msgstr "ارائه آپدیت در ژاکِت"
+
+#: includes/MainApp.php:78
+msgid ""
+"Purchase premium and professional WordPress plugins with dedicated support "
+"tailored to your needs from Zhaket."
+msgstr ""
+"افزونه‌های پرمیوم و حرفه‌ای وردپرس را با پشتیبانی ویژه را متناسب به نیاز خود "
+"از ژاکت خریداری کنید"
+
+#: ../zhaket-updater-private/updater/ZhUp_installer.php:370
+msgid "Purchased Plugins"
+msgstr "افزونه های خریداری شده"
+
+#: ../zhaket-updater-private/updater/ZhUp_installer.php:370
+msgid "Purchased Themes"
+msgstr "قالب های خریداری شده"
+
+#: ../zhaket-updater-private/updater/Zhup_plugin_row.php:230
+msgid "Quick check for updates"
+msgstr "بررسی به‌روزرسانی‌ها"
+
+#: ../zhaket-updater-private/updater/ZhUp_installer.php:386
+msgid "reinstall"
+msgstr "نصب مجدد"
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:1076
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:1115
+#, php-format
+msgid "Restore error received:%s"
+msgstr "خطای دریافت شده هنگام بازگردانی: %s"
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:1066
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:1111
+msgid "Restore request received"
+msgstr "درخواست بازگردانی دریافت شد"
+
+#: includes/MainApp.php:77
+#, php-format
+#| msgid "Search %s in "
+msgid "Search \"%s\" in "
+msgstr "جستجوی \"%s\" در "
+
+#: ../zhaket-updater-private/updater/Zhup_plugin_row.php:188
+msgid "Select update sourse:"
+msgstr "بروزرسانی ها از کجا نصب شود:"
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:1161
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:1230
+msgid "Server connection problem. "
+msgstr "خطا در اتصال به سرور. "
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:198
+msgid "Server side problem in generate download link"
+msgstr ""
+"مشکلی در سرور اصلی ایجاد شده. برای بررسی مشکل لطفا در یک تیکت نام افزونه و "
+"دامین خود را برای ژاکت ارسال نمایید تا بررسی نماییم"
+
+#: includes/Settings/Setting.php:235
+msgid "Setting Saved !"
+msgstr "تنظیمات ذخیره شد"
+
+#: ../zhaket-updater-private/updater/Zhup_plugin_row.php:229
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: ../zhaket-updater-private/updater/ZhUp_installer.php:417
+#, php-format
+msgid "show childs (%s)"
+msgstr "نمایش آیتم های وابسته (%s)"
+
+#: includes/Hub/Hub.php:184
+msgid "SmartHub Connection timed out"
+msgstr ""
+"زمان مجاز برای  اتصال به هاب هوشمند به پایان رسید. لطفا ۱۰ دقیقه دیگر مجدد "
+"تلاش نمایید."
+
+#: includes/Hub/Hub.php:188
+msgid "SmartHub ip cannot resolved"
+msgstr ""
+"آدرس ip وبسایت هاب هوشمند یافت نشد. لطفا ۱۰ دقیقه دیگر مجدد تلاش نمایید."
+
+#: template/widgets/hub.php:9
+msgid ""
+"The first and only smart and secure WordPress hub to bypass sanctions and "
+"quickly connect to WordPress services"
+msgstr ""
+"اولین و تنها هاب هوشمند و امن وردپرس برای عبور از تحـریــم ها و اتـــصـــال "
+"به ســــرویـــس وردپـــرســی"
+
+#: ../zhaket-updater-private/updater/ZhUp_installer.php:153
+msgid "The license was copied"
+msgstr "لایسنس کپی شد"
+
+#: ../zhaket-updater-private/updater/Zhup_plugin_row.php:202
+msgid "theme"
+msgstr "قالب"
+
+#: ../zhaket-updater-private/updater/ZhUp_installer.php:453
+#, php-format
+msgid ""
+"This email was sent from the %1$s site to %2$s the zhaket.com's shopping "
+"list. \n"
+"        If this request has been submitted by you, click on the link below "
+"to confirm it:\n"
+"        <br> <a href=\"%3$s\" target=\"_blank\">click hear</a><br> or open "
+"this url:<br> %3$s <br>\n"
+"          If you do not know about it, ignore the email.<br><br><br>\n"
+"        The above feature is one of the features of the Zhaket Smart Updater "
+"plugin,\n"
+"         and someone may be abusing your site to view your purchases from "
+"the zhaket.com.<br>\n"
+"        We recommend that you do not use the admin username and always use "
+"complex passwords."
+msgstr ""
+"این ایمیل جهت  %2$s لیست خریدهای مربوط به دامنه %1$s از سایت ژاکِت، ارسال "
+"شده است. چنانچه این درخواست توسط شما ثبت شده است جهت تایید آن روی لینک زیر "
+"کلیک کنید: <br> <a href=\"%3$s\" target=\"_blank\">کلیک کنید</a><br>یا این "
+"لینک را باز کنید:<br> %3$s <br>در صورتی که از چگونگی و زمان ثبت این درخواست "
+"اطلاعی ندارید، ایمیل را نادیده بگیرید.<br><br><br>قابلیت فوق از مجموعه "
+"امکانات بروزرسان هوشمند ژاکت است و ممکن است فردی در حال سو استفاده از سایت "
+"شما جهت مشاهده خریدهای شما از سایت ژاکت باشد.<br>توصیه میکنیم نام کاربری بخش "
+"مدیریتی سایت خود را admin قرار ندهید و همواره از رمزهای عبور پیچیده استفاده "
+"کنید."
+
+#: ../zhaket-updater-private/updater/install_plugin_information.php:398
+msgid ""
+"This product is child of other product. To view main product , click on "
+"below link"
+msgstr ""
+"این محصول زیرمجموعه محصول دیگری است. برای مشاهده محصول اصلی روی لینک زیر "
+"کلیک کنید"
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:235
+msgid "this product is not in your buy list of this domain"
+msgstr "این محصول در لیست خرید های شما برای این دامنه ثبت نشده است"
+
+#: ../zhaket-updater-private/updater/Zhup_Admin_Notice.php:177
+msgid ""
+"To improve the user experience of the plugin, it is confirmed that the list "
+"of installed and active plugins and themes will be sent to the Zhaket."
+msgstr ""
+"برای بهبود تجربه کاربری افزونه، تایید می‌کنید که لیست افزونه ها و قالب های "
+"نصب و فعال شما برای ژاکت ارسال گردد."
+
+#: includes/Hub/Hub.php:189
+msgid "Too many redirect on check key file"
+msgstr ""
+"هنگام بررسی کلید احراز دامنه خطای Redirect رخ داده است. به نظر میرسد فایروال "
+"یا CDN سایت شما به درستی تنظیم نشده است"
+
+#: ../zhaket-updater-private/updater/install_plugin_information.php:206
+msgid "total sales:"
+msgstr "تعداد فروش:"
+
+#: includes/Ai/Ai.php:328 includes/Ai/Ai.php:373
+msgid "unknow error"
+msgstr "خطای نامشخص  رخ داده!"
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:192
+#| msgid "Update list has been changed, Please %s the page and try again"
+msgid "Update list has been changed, Please reload the page and try again"
+msgstr ""
+"لیست به روز رسانی ها تغییر کرده است. لطفا صفحه را رفرش کرده و مجددا اقدام "
+"نمایید"
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:573
+msgid "Update request sent"
+msgstr "درخواست به روز رسانی ارسال شد"
+
+#: ../zhaket-updater-private/updater/ZhUp_installer.php:410
+msgid "Version"
+msgstr "نسخه"
+
+#: ../zhaket-updater-private/updater/install_plugin_information.php:60
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:330
+msgid "video"
+msgstr "ویدئو"
+
+#: ../zhaket-updater-private/updater/ZhUp_installer.php:461
+msgid "view"
+msgstr "مشاهده"
+
+#: template/widgets/blog.php:41
+msgid "view blog"
+msgstr "مشاهده بلاگ"
+
+#: ../zhaket-updater-private/updater/install_plugin_information.php:247
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:329
+msgid "view demo"
+msgstr "مشاهده پیش‌نمایش"
+
+#: ../zhaket-updater-private/updater/ZhUp_installer.php:412
+msgid "view details"
+msgstr "مشاهده جزئیات"
+
+#: includes/Hub/Hub.php:203
+msgid "View Guide"
+msgstr "مشاهده راهنما"
+
+#: includes/MainApp.php:81
+msgid "View in Zhaket"
+msgstr " مشاهده در ژاکت"
+
+#: ../zhaket-updater-private/updater/install_plugin_information.php:403
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:328
+msgid "View in zhaket"
+msgstr "مشاهده جزییات در ژاکت"
+
+#: includes/DependencyChecker.php:102
+msgid ""
+"we detect you do not have ionCube loader or it is too old , please call to "
+"your host service to update ionCube loader version to upper than 13.0"
+msgstr ""
+"طبق بررسی های انجام شده، هاست شما دارای ماژول ionCube loader نمی‌باشد و یا "
+"نسخه آن قدیمی است، لطفا با پشتیبان هاست خود جهت نصب و یا ارتقاء ionCube "
+"loader به نسخه بالاتر از 13.0  ارتباط برقرار نمایید."
+
+#: includes/Ai/Ai.php:307 includes/Ai/Ai.php:354
+msgid "you account not found"
+msgstr "حساب کاربری شما یافت نشد!"
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:180
+msgid ""
+"You have not purchased this product. if we are wrong, must change support "
+"domain name to this website."
+msgstr ""
+"این محصول در لیست خریدهای شما در ژاکِت وجود ندارد. اگر اطمینان دارید که "
+"محصول را خریداری کرده اید، لطفا دامنه ثبت شده در بخش تیکت پشتیبانی ژاکِت را "
+"بررسی کرده و در صورت نیاز آن را به دامنه سایت فعلی تغییر دهید."
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:177
+msgid "Your authorization key is expired. Please try again."
+msgstr "متاسفانه کلید تایید شما منقضی شده است. لطفا دوباره تلاش کنید."
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:213
+msgid "Your domain file Key not found"
+msgstr "فایل کلید دامنه شما یافت نشد"
+
+#: includes/Hub/Hub.php:187
+msgid "Your domain ip cannot resolved"
+msgstr ""
+"هاب هوشمند قادر به پیدا کردن IP وبسایت شما نیست. لطفا ۱۰ دقیقه دیگر مجدد "
+"تلاش نمایید."
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:204
+msgid "Your domain is in black list"
+msgstr "دامنه شما در بلک لیست قرار گرفته است"
+
+#: includes/Hub/Hub.php:180
+msgid "Your domain is in drop list"
+msgstr ""
+"دامنه شما به علت خطاهای مکرر (عدم احراز دامنه) به مدت ۲۴ ساعت در لیست سیاه  "
+"قرار گرفت."
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:171
+msgid "Your domain not validated, because your domain not accessed."
+msgstr "دامنه شما معتبر نیست، زیرا دامنه شما در دسترس نیست."
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:232
+msgid "your domain purchased list is empty"
+msgstr "لیست خریدهای شما خالی می‌باشد."
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:210
+msgid "Your domain validation file is empty"
+msgstr "کلید دامنه شما خالی می‌باشد"
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:207
+msgid "Your host time is not valid"
+msgstr "زمان هاست شما صحیح نمی‌باشد"
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:225
+msgid ""
+"Your purchased list is not valid. this bug is reported and fix automaticly. "
+"please retry 1 hour later"
+msgstr ""
+"لیست خرید شما معتبر نیست. این خطا گزارش شده و به صورت خودکار رفع خواهد شد. "
+"لطفا یک ساعت بعدبررسی نمایید."
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:183
+msgid "Your requested product is not in zhaket. please report this to zhaket."
+msgstr ""
+"محصول درخواستی شما در ژاکِت وجود ندارد. لطفا این خطا را به ژاکِت گزارش کنید."
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:201
+msgid "Your send data validation is not pass"
+msgstr "اطلاعات ارسالی شما معتبر نیست"
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:431
+msgid "your server time is incorrect, please check it with hosting to fix."
+msgstr ""
+"ساعت سرور شما صحیح نمی‌باشد، لطفا این مسئله را با هاستینگ مطرح نموده تا "
+"برطرف گردد."
+
+#: includes/Hub/Hub.php:178
+msgid "Your server time is not valid"
+msgstr ""
+"به نظر میرسد ساعت هاست شما صحیح نیست. این مورد را به مسئول هاست خود اعلام  "
+"کنید تا بررسی و رفع گردد"
+
+#: includes/Hub/Hub.php:185
+msgid "Your website reject access to key file"
+msgstr ""
+"وبسایت شما اجازه دسترسی به فایل کلید را نداد. لطفا بررسی نمایید که دسترسی به "
+"فایل های ‌html در سایت شما مسدود نباشد."
+
+#: includes/MainApp.php:80
+msgid "Zhaket"
+msgstr "ژاکت"
+
+#. Author of the plugin
+msgid "zhaket"
+msgstr "ژاکت"
+
+#: ../zhaket-updater-private/updater/ZhUp_installer.php:93
+#: ../zhaket-updater-private/updater/ZhUp_installer.php:180
+#: includes/AdminMenu/AdminMenu.php:169 includes/AdminMenu/AdminMenu.php:169
+msgid "zhaket buy"
+msgstr "خریدهای ژاکِت"
+
+#: includes/Pro/Pro.php:22
+msgid "Zhaket Pro Plugins"
+msgstr "افزونه های پرو  ژاکِـت"
+
+#: includes/Pro/Pro.php:275
+msgid "Zhaket Pro Themes"
+msgstr "قالب های پرو  ژاکِـت"
+
+#: includes/Hub/Hub.php:90
+msgid "zhaket smart hub"
+msgstr "هاب هوشمند"
+
+#. Name of the plugin
+msgid "Zhaket Smart Updater"
+msgstr "بروزرسان هوشمند ژاکِت"
+
+#: includes/AdminMenu/AdminMenu.php:131
+msgid "Zhaket smart updater"
+msgstr "بروزرسان هوشمند ژاکِت"
+
+#. Description of the plugin
+msgid ""
+"Zhaket Smart Updater, an unique tool for instant update product purchases "
+"from zhaket.com. Zhaket is difference..."
+msgstr ""
+"بروزرسان هوشمند ژاکِت ابزاری منحصر به فرد برای به روز رسانی فوری محصولات "
+"خریداری شده از zhaket.com می‌باشد. ژاکت فرق میکنه..."
+
+#: includes/AdminMenu/AdminMenu.php:132
+msgid "Zhaket updater"
+msgstr "به‌روزرسان ژاکِت"
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:198
+#, php-format
+msgid "Zhaket updater finished auto updated to version %s with status: %s"
+msgstr ""
+"فرایند آپدیت خودکار افزونه به روز‌رسان هوشمند ژاکٍت به نسخه %s با وضعیت %s "
+"پایان یافت"
+
+#: includes/DependencyChecker.php:116
+msgid ""
+"Zhaket updater plugin need php version 7.4 to 8.3.  please call to your host "
+"service to update php"
+msgstr ""
+"نسخه php مورد نیاز برای افزونه بروزرسان هوشمند ژاکت بین 7.4 تا 8.3 می‌باشد. "
+"برای تغییر نسخه php با پشتیبانی هاست خود ارتباط بگیرید."
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:182
+#, php-format
+msgid "Zhaket updater start auto updated from version %s to %s"
+msgstr ""
+"افزونه به روز رسان هوشمند ژاکِت در حال بروز رسانی از نسخه %s به %s می‌باشد"
+
+#: includes/MainApp.php:76
+msgid ""
+"Zhaket, the most reputable marketplace specializing in WordPress themes and "
+"plugins."
+msgstr "ژاکت، معتبرترین مارکت تخصصی قالب و افزونه وردپرس"

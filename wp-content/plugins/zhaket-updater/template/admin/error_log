@@ -1,0 +1,28 @@
+[31-Dec-2025 04:38:23 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ZHAKET_UPDATER_PLUGIN_ASSET_URL" in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/template/admin/dashboard.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/template/admin/dashboard.php on line 1
+[31-Dec-2025 04:38:23 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ZHAKET_UPDATER_PLUGIN_ASSET_URL" in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/template/admin/dashboard.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/template/admin/dashboard.php on line 1
+[31-Dec-2025 04:38:46 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ZHAKET_UPDATER_PLUGIN_ASSET_URL" in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/template/admin/dashboard.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/template/admin/dashboard.php on line 1
+[31-Dec-2025 15:19:23 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ZHAKET_UPDATER_PLUGIN_ASSET_URL" in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/template/admin/dashboard.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/template/admin/dashboard.php on line 1
+[02-Jan-2026 10:13:33 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ZHAKET_UPDATER_PLUGIN_ASSET_URL" in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/template/admin/dashboard.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/template/admin/dashboard.php on line 1
+[03-Jan-2026 16:46:12 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ZHAKET_UPDATER_PLUGIN_ASSET_URL" in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/template/admin/dashboard.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/template/admin/dashboard.php on line 1
+[28-Jan-2026 14:55:14 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ZHAKET_UPDATER_PLUGIN_ASSET_URL" in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/template/admin/dashboard.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/template/admin/dashboard.php on line 1

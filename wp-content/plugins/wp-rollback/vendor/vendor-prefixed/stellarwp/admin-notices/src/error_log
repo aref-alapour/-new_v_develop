@@ -1,0 +1,20 @@
+[31-Dec-2025 09:03:15 UTC] PHP Fatal error:  Uncaught Error: Interface "WpRollback\Free\Dependencies\StellarWP\AdminNotices\Contracts\NotificationsRegistrarInterface" not found in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/vendor-prefixed/stellarwp/admin-notices/src/NotificationsRegistrar.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/vendor-prefixed/stellarwp/admin-notices/src/NotificationsRegistrar.php on line 11
+[31-Dec-2025 09:03:15 UTC] PHP Fatal error:  Uncaught Error: Interface "WpRollback\Free\Dependencies\StellarWP\AdminNotices\Contracts\NotificationsRegistrarInterface" not found in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/vendor-prefixed/stellarwp/admin-notices/src/NotificationsRegistrar.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/vendor-prefixed/stellarwp/admin-notices/src/NotificationsRegistrar.php on line 11
+[31-Dec-2025 09:04:42 UTC] PHP Fatal error:  Uncaught Error: Interface "WpRollback\Free\Dependencies\StellarWP\AdminNotices\Contracts\NotificationsRegistrarInterface" not found in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/vendor-prefixed/stellarwp/admin-notices/src/NotificationsRegistrar.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/vendor-prefixed/stellarwp/admin-notices/src/NotificationsRegistrar.php on line 11
+[31-Dec-2025 15:47:24 UTC] PHP Fatal error:  Uncaught Error: Interface "WpRollback\Free\Dependencies\StellarWP\AdminNotices\Contracts\NotificationsRegistrarInterface" not found in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/vendor-prefixed/stellarwp/admin-notices/src/NotificationsRegistrar.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/vendor-prefixed/stellarwp/admin-notices/src/NotificationsRegistrar.php on line 11
+[03-Jan-2026 17:17:58 UTC] PHP Fatal error:  Uncaught Error: Interface "WpRollback\Free\Dependencies\StellarWP\AdminNotices\Contracts\NotificationsRegistrarInterface" not found in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/vendor-prefixed/stellarwp/admin-notices/src/NotificationsRegistrar.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/vendor-prefixed/stellarwp/admin-notices/src/NotificationsRegistrar.php on line 11

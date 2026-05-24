@@ -1,0 +1,90 @@
+/* RTL Admin CSS by NagaTheme */
+/* Font */
+.ui-widget {
+    font-family: inherit !important;
+}
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button {
+    font-family: inherit !important;
+}
+/* Dashboard > User Role Editor Pro Setting */
+
+.ui-tabs .ui-tabs-nav li {
+    float: right !important;
+    margin: 1px 0 0 .2em !important;
+  }
+/* Dashboard > User > Edit user role */
+
+#ure_caps_groups_title {
+    border-left: 1px solid #ccc !important;
+    border-right: 0px !important;
+  }
+#ure_caps_groups_td {
+    border-left: 1px solid #ccc !important;
+    border-right: 0px !important;
+  }
+#ure_caps_td {
+    padding-right: 10px !important;
+    padding-left: 0px !important;
+  }
+#ure_toolbar_td {
+    padding-right: 10px !important;
+    padding-left: 0px !important;
+  }
+#ure_caps_select {
+ padding: 5px 10px 5px 5px !important;
+  }
+.ure-caps-option {
+    padding-right: 20px !important;
+    padding-left: 0px !important;
+  }
+#ure_role_selector {
+    padding: 10px 10px 0 0px !important;
+  }
+.ui-dialog .ui-dialog-title {
+    float: right !important;
+  }
+.ui-dialog .ui-dialog-titlebar-close {
+    left: .3em !important;
+    right: auto !important;
+  }
+.ui-dialog .ui-dialog-buttonpane {
+    text-align: right !important;
+    padding: .3em .4em .5em 1em !important;
+  }
+.ui-dialog .ui-dialog-buttonpane button {
+    margin: .5em 0 .5em .4em !important;
+  }
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+    float: left !important;
+  }
+.ure-label {
+    float: right !important;
+  }
+.ure-input {
+    float: right !important;
+  }
+.ms-choice > span {
+    left: auto !important;
+    right: 20px;
+  }
+.ms-choice > div.icon-caret {
+    left: 8px !important;
+    right: auto !important;
+  }
+.ms-drop ul > li label {
+    padding-right: 1.25rem !important;
+    padding-left: 0px !important;
+  }
+.ms-drop input[type="radio"], .ms-drop input[type="checkbox"] {
+    margin-right: -1.25rem !important;
+    margin-left: 0px !important;
+  }
+#ure_user_caps_header {
+    padding: 10px 10px 0 0 !important;
+  }
+#ure_user_roles {
+    padding-left: 10px !important;
+    border-left: 1px solid #cccccc !important;
+    border-right: 0px !important;
+    padding-right: 0px !important;
+  }

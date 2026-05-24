@@ -1,0 +1,205 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: guard\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-29 19:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Digerati <me@digerati.ir>\n"
+"Language-Team: zhaket-guard\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Loco-Source-Locale: en_FI\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: guard-script.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Loco-Parser: loco_parse_po\n"
+"X-Poedit-SearchPath-0: guard-generated-16168747277466873\n"
+"X-Poedit-SearchPath-1: digerati.php\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: guard-generated-16168747277466873/guard-"
+"script-locked.php\n"
+
+#: admin-notif.php:4
+#, php-format
+msgid "To activating your %s please insert you license key"
+msgstr ""
+
+#: admin-notif.php:5
+msgid "Register Activate Code"
+msgstr ""
+
+#: admin-notif.php:11
+#, php-format
+msgid "There is something wrong with your %s license. please check it."
+msgstr ""
+
+#: admin-notif.php:12
+msgid "Check Now"
+msgstr ""
+
+#: guard-script.php:101 guard-script.php:133 guard-script.php:141 
+#: guard-script.php:176
+msgid "please refresh this page and retry"
+msgstr ""
+
+#: guard-script.php:108 guard-script.php:213
+msgid "your license is not valid, please add valid license"
+msgstr ""
+
+#: guard-script.php:123
+msgid "problem in connect to guard server, please try again."
+msgstr ""
+
+#: guard-script.php:157
+msgid ""
+"your license is not valid, and maybe your access to guard server have problem"
+msgstr ""
+
+#: guard-script.php:165
+msgid "your license is valid"
+msgstr ""
+
+#: guard-script.php:184
+msgid "license successfully removed"
+msgstr ""
+
+#: guard-script.php:192 guard-script.php:193
+msgid "Register version"
+msgstr ""
+
+#: guard-script.php:208
+msgid "Are you sure?"
+msgstr ""
+
+#: guard-script.php:209
+msgid "Something goes wrong please try again."
+msgstr ""
+
+#: guard-script.php:211
+msgid "some things is wrong, for view details please check console log"
+msgstr ""
+
+#: html.php:3
+#, php-format
+msgid "Activation %s"
+msgstr ""
+
+#: html.php:5
+msgid "Your activation key:"
+msgstr ""
+
+#: html.php:8
+msgid "recheck license"
+msgstr ""
+
+#: html.php:9
+msgid "remove / change key"
+msgstr ""
+
+#: html.php:12
+msgid "Enter your activation key:"
+msgstr ""
+
+#: html.php:15
+msgid "Activate"
+msgstr ""
+
+#: html.php:24
+msgid "manual:"
+msgstr ""
+
+#: html.php:28
+msgid ""
+"Your key is used in this website and it is not possible to your on other "
+"website."
+msgstr ""
+
+#: html.php:32
+msgid ""
+"if you want to move this license to another website, first use button "
+"\"remove / change key\" in this website, and next login in your zhaket "
+"website account and with click on change domain button , enter new website "
+"domain and now you can use from this key in new website."
+msgstr ""
+
+#: html.php:37
+msgid ""
+"For use from this product , must enter license key. for find your license "
+"key, login in your zhaket website account and go to download product section "
+", and find this product and copy your license key or click on create license "
+"button and copy your license key."
+msgstr ""
+
+#: html.php:41
+msgid "every license activation is for one website only."
+msgstr ""
+
+#: html.php:44
+msgid ""
+"if your license if activated on another website, first use button \"remove / "
+"change key\" on another website, and next login in your zhaket website "
+"account and with click on change domain button , enter this website domain "
+"and now you can use this key in this website."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "guard script"
+msgstr ""
+
+msgid "Plugin NOT activated. first activate it before use"
+msgstr ""
+
+msgid "Yoast SEO Premium Activation"
+msgstr ""
+
+msgid "Get activation code from downloads section in your Zhaket.com profile."
+msgstr ""
+
+msgid "Click here to activate Yoast SEO Premium"
+msgstr ""
+
+msgid "Buy New License"
+msgstr ""
+
+msgid "Activate Yoast SEO Premium"
+msgstr ""
+
+msgid "Activate Premium Version"
+msgstr ""
+
+msgid "Persian manual"
+msgstr ""
+
+msgid ""
+"your server curl has problem, return code:%s, please ticket to host to fix "
+"curl problem for url %s"
+msgstr ""
+
+msgid "No cron jobs found. Your license can not be activated."
+msgstr ""
+
+msgid ""
+"Number of failed Activation checks is reached (%s). your plugin or theme "
+"will be disabled soon. Please check cron job settings on your WordPress or "
+"host. <a href=\"%s\">cron manual</a>"
+msgstr ""
+
+msgid "The %s constant is set to true. WP-Cron spawning is disabled."
+msgstr ""
+
+msgid "The %s constant is set to true."
+msgstr ""
+
+msgid ""
+"Your license is active but need to revalidate. if has error on revalidate "
+"you can test after 24 hours."
+msgstr ""

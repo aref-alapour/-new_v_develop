@@ -1,0 +1,24 @@
+[31-Dec-2025 15:25:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_html() in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/templates/components/widgets/about.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/templates/components/widgets/about.php on line 12
+[31-Dec-2025 15:25:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_html() in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/templates/components/widgets/settings.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/templates/components/widgets/settings.php on line 18
+[31-Dec-2025 15:25:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_html() in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/templates/components/widgets/support.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/templates/components/widgets/support.php on line 12
+[03-Jan-2026 16:54:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_html() in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/templates/components/widgets/about.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/templates/components/widgets/about.php on line 12
+[03-Jan-2026 16:54:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_html() in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/templates/components/widgets/settings.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/templates/components/widgets/settings.php on line 18
+[03-Jan-2026 16:54:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_html() in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/templates/components/widgets/support.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/templates/components/widgets/support.php on line 12

@@ -1,0 +1,375 @@
+[29-Apr-2025 19:06:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[15-Jul-2025 12:14:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[15-Jul-2025 12:14:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[15-Jul-2025 12:14:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[25-Jul-2025 22:38:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[25-Jul-2025 22:38:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[25-Jul-2025 22:38:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[30-Jul-2025 20:53:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[03-Aug-2025 04:24:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[06-Aug-2025 22:04:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[09-Aug-2025 04:17:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[10-Aug-2025 18:19:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[12-Aug-2025 16:34:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[26-Aug-2025 03:42:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[28-Aug-2025 00:20:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[30-Aug-2025 12:23:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[01-Sep-2025 01:16:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[03-Sep-2025 06:05:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[05-Sep-2025 06:57:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[07-Sep-2025 06:55:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[09-Sep-2025 06:36:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[11-Sep-2025 11:45:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[13-Sep-2025 02:14:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[16-Sep-2025 16:58:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[19-Sep-2025 06:04:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[21-Sep-2025 04:24:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[22-Sep-2025 20:55:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[24-Sep-2025 22:43:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[27-Sep-2025 10:05:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[02-Oct-2025 01:33:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[03-Oct-2025 16:40:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[06-Oct-2025 03:44:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[07-Oct-2025 20:05:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[10-Oct-2025 06:59:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[12-Oct-2025 07:05:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[14-Oct-2025 10:04:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[15-Oct-2025 21:52:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[18-Oct-2025 00:04:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[19-Oct-2025 18:33:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[23-Oct-2025 19:35:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[26-Oct-2025 00:54:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[28-Oct-2025 07:54:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[30-Oct-2025 00:13:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[01-Nov-2025 03:14:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[02-Nov-2025 21:15:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[05-Nov-2025 02:33:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[14-Nov-2025 19:25:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[19-Nov-2025 06:45:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[20-Nov-2025 08:57:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[20-Nov-2025 08:57:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[21-Nov-2025 03:54:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[22-Nov-2025 19:55:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[24-Nov-2025 15:35:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[24-Nov-2025 20:36:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[25-Nov-2025 14:23:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[25-Nov-2025 17:36:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[27-Nov-2025 20:35:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[03-Dec-2025 01:10:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[04-Dec-2025 19:37:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[06-Dec-2025 15:27:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[10-Dec-2025 05:25:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[12-Dec-2025 03:06:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[14-Dec-2025 02:55:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[16-Dec-2025 10:25:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[17-Dec-2025 07:07:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[17-Dec-2025 21:09:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[18-Dec-2025 11:47:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[19-Dec-2025 22:35:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[22-Dec-2025 07:16:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[23-Dec-2025 20:39:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[24-Dec-2025 11:06:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[31-Dec-2025 15:16:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[02-Jan-2026 10:06:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[03-Jan-2026 16:43:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46
+[28-Jan-2026 15:01:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php:46
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php(804): WC_Brands_Admin->__construct()
+#1 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/includes/admin/class-wc-admin-brands.php on line 46

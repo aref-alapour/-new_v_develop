@@ -1,0 +1,44 @@
+[25-Dec-2025 04:04:42 UTC] PHP Fatal error:  Uncaught Error: Class "ZhaketUpdater\HelpersClass\Modules" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/Hub/Hub.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/Hub/Hub.php on line 15
+[29-Dec-2025 10:56:27 UTC] PHP Fatal error:  Uncaught Error: Class "ZhaketUpdater\HelpersClass\Modules" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/Hub/Hub.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/Hub/Hub.php on line 15
+[31-Dec-2025 01:14:58 UTC] PHP Fatal error:  Uncaught Error: Class "ZhaketUpdater\HelpersClass\Modules" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/Hub/Hub.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/Hub/Hub.php on line 15
+[31-Dec-2025 09:18:16 UTC] PHP Fatal error:  Uncaught Error: Class "ZhaketUpdater\HelpersClass\Modules" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/Hub/Hub.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/Hub/Hub.php on line 15
+[31-Dec-2025 09:18:16 UTC] PHP Fatal error:  Uncaught Error: Class "ZhaketUpdater\HelpersClass\Modules" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/Hub/Hub.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/Hub/Hub.php on line 15
+[31-Dec-2025 09:18:53 UTC] PHP Fatal error:  Uncaught Error: Class "ZhaketUpdater\HelpersClass\Modules" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/Hub/Hub.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/Hub/Hub.php on line 15
+[31-Dec-2025 15:19:17 UTC] PHP Fatal error:  Uncaught Error: Class "ZhaketUpdater\HelpersClass\Modules" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/Hub/Hub.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/Hub/Hub.php on line 15
+[01-Jan-2026 19:44:58 UTC] PHP Fatal error:  Uncaught Error: Class "ZhaketUpdater\HelpersClass\Modules" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/Hub/Hub.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/Hub/Hub.php on line 15
+[02-Jan-2026 10:13:59 UTC] PHP Fatal error:  Uncaught Error: Class "ZhaketUpdater\HelpersClass\Modules" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/Hub/Hub.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/Hub/Hub.php on line 15
+[03-Jan-2026 16:46:31 UTC] PHP Fatal error:  Uncaught Error: Class "ZhaketUpdater\HelpersClass\Modules" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/Hub/Hub.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/Hub/Hub.php on line 15
+[28-Jan-2026 14:54:54 UTC] PHP Fatal error:  Uncaught Error: Class "ZhaketUpdater\HelpersClass\Modules" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/Hub/Hub.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/Hub/Hub.php on line 15

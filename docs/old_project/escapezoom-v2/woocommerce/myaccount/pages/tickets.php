@@ -1,0 +1,22 @@
+<div class="lg:col-span-8 2xl:col-span-9">
+    <section class="rounded-2xl border border-slate-120 px-8 py-4 shadow-12">
+        <div class="flex min-h-[28rem] flex-col items-center justify-center">
+            <div class="max-w-80">
+                <div class="inline-flex w-full items-end justify-between text-slate-110"><span class="">هنوز
+                                                                                                                        تیکتی
+                                                                                                                        ثبت
+                                                                                                                        نشده</span><span>
+                                    <svg width="116" height="116" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10 19C11.78 19 13.5201 18.4722 15.0001 17.4832C16.4802 16.4943 17.6337 15.0887 18.3149 13.4442C18.9961 11.7996 19.1743 9.99002 18.8271 8.24419C18.4798 6.49836 17.6226 4.89472 16.364 3.63604C15.1053 2.37737 13.5016 1.5202 11.7558 1.17294C10.01 0.82567 8.20038 1.0039 6.55585 1.68509C4.91131 2.36628 3.50571 3.51983 2.51677 4.99987C1.52784 6.47991 1 8.21997 1 10C1 11.488 1.36 12.89 2 14.127L1 19L5.873 18C7.109 18.639 8.513 19 10 19Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </svg>
+                                </span></div>
+                <a class="flex gap-4 items-center justify-center relative text-sm font-semibold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 transition-all duration-300 ease-in-out disabled:bg-slate-110 disabled:text-[#ccc] disabled:cursor-not-allowed disabled:shadow-none w-full bg-accent-450 text-white shadow-16 hover:bg-accent-500 focus-visible:outline-accent-500 h-16 min-w-16 px-9 py-2 rounded-2xl mt-6.5" href="./tickets-create.html">
+                                    <span class="truncate">اولین
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 تیکت
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 را
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ارسال
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 کنید</span></a>
+            </div>
+        </div>
+    </section>
+</div>

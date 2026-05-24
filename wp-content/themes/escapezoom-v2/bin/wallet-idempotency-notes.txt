@@ -1,0 +1,31 @@
+Wallet idempotency / concurrency (_ez_wallet_*)
+==============================================
+
+Pipeline guards: charge_once, reserve_once, refund_insufficient_once, refund_insufficient_wallet_share, refund_conflict_once (see ez_wallet_step_is_done in theme).
+
+Player charge/reserve keys (inc/player-wallet-settle.php):
+- player_charge:{order_id}:{online_paid}
+- player_reserve:{order_id}:{abs_debit}
+Pre-insert: ez_wallet_charge_exists_for_order (unique_description only).
+Legacy/description matching removed for charge.
+Reserve guard: gateway intent + online_paid > 0 but no player_charge:* → on-hold (wallet_reserve_blocked_missing_charge).
+Inserts: ez_wallet_safe_insert — never throws; logs charge_once_insert_failed / reserve_once_insert_failed on real DB errors; treats MySQL 1062/Duplicate as success.
+
+Optional DB hardening (run once on production):
+  bin/wallet-unique-description-index.sql
+
+Pipeline log stages to grep: charge_once_executed, charge_once_skipped_duplicate, charge_once_insert_failed, charge_once_insert_duplicate, reserve_once_* (same pattern).
+
+Manual concurrency test:
+1. Use two browser profiles or curl with same logged-in user.
+2. Place two paid orders within seconds that both trigger thankyou_booking_pipeline.
+3. Confirm duplicate charge_once / reserve_once do not double-insert wallet_transactions for the same order_id (check DB or wallet UI).
+4. Repeat for insufficient-wallet path (second order should hit refund_insufficient_once only once).
+
+Automated stress: optional Action Scheduler queue spam — ensure booking_pipeline_done_at prevents re-entrant double booking.
+
+Remediation (order 821941 / display 10821941, after deploy):
+- Missing row: unique_description player_charge:821941:290000, user_id 270043, amount 290000.
+- Existing reserve: player_reserve:821941:290000 (row 614620).
+- Option A: manual INSERT charge with that unique key (balance = last balance + 290000).
+- Option B: delete _ez_wallet_charge_once meta, then ez_customer_wallet_settle_for_order(821941).

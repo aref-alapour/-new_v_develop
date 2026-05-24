@@ -1,0 +1,16 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "escapezoom/ez-pagination",
+  "title": "EZ Pagination",
+  "category": "escapezoom",
+  "icon": "admin-page",
+  "description": "Pagination (Stencil: ez-pagination).",
+  "attributes": {
+    "current": { "type": "number", "default": 1 },
+    "total": { "type": "number", "default": 1 },
+    "baseUrl": { "type": "string", "default": "" }
+  },
+  "supports": { "html": false },
+  "textdomain": "escapezoom-core"
+}

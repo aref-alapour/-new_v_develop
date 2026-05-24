@@ -1,0 +1,83 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: light --default;
+}
+@source "../../../../themes/escapezoom-v3/**/*.php";
+@source "../stencil/**/*.tsx";
+
+@theme {
+  --color-wp-blue: #2271b1;
+  --color-wp-dark: #135e96;
+  /* Design Tokens – single source for Stencil & templates */
+  --color-brand-primary: #f26522;
+  --radius-ez: 12px;
+  --font-yekan: "Yekan Bakh", sans-serif;
+  
+  /* High-frequency custom values from escapezoom-v2 optimization */
+  /* Spacing extensions */
+  --spacing-10: 10px;
+  --spacing-14: 14px;
+  --spacing-20: 20px;
+  --spacing-30: 30px;
+  --spacing-46: 46px;
+  
+  /* Width percentages */
+  --width-35: 35%;
+  --width-45: 45%;
+  --width-55: 55%;
+  --width-65: 65%;
+  
+  /* Color system */
+  --color-ez-text-primary: #09192D;
+  --color-ez-bg-light: #F6F6F6;
+  --color-ez-border: #DADADA;
+  --color-ez-error: #FF6D01;
+  --color-ez-success: #1ED982;
+  --color-ez-success-dark: #12CE77;
+  --color-ez-text-secondary: #889BAD;
+  --color-ez-bg-lighter: #E4EBF0;
+  --color-ez-bg-lightest: #D5DBDF;
+  --color-ez-accent-red: #FF3300;
+  --color-ez-focus-blue: #158EFF;
+}
+
+/* Front-end specific styles */
+@layer components {
+  /* Custom components for front-end */
+  .game-card {
+    @apply bg-white rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105;
+  }
+  
+  .game-card-image {
+    @apply w-full h-48 object-cover;
+  }
+  
+  .game-card-content {
+    @apply p-4;
+  }
+  
+  .game-card-title {
+    @apply text-xl font-semibold mb-2 text-gray-800;
+  }
+  
+  .game-card-meta {
+    @apply text-sm text-gray-600 mb-3;
+  }
+  
+  .btn-game {
+    @apply bg-wp-blue hover:bg-wp-dark text-white px-4 py-2 rounded-md transition-colors;
+  }
+  
+  /* Filter components */
+  .filter-sidebar {
+    @apply bg-gray-50 p-4 rounded-lg;
+  }
+  
+  .filter-group {
+    @apply mb-6;
+  }
+  
+  .filter-title {
+    @apply font-semibold text-gray-700 mb-3 block;
+  }
+}

@@ -1,0 +1,1040 @@
+[01-Aug-2025 08:58:33 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php on line 6
+[01-Aug-2025 12:36:28 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[01-Aug-2025 15:25:28 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[01-Aug-2025 19:30:31 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[01-Aug-2025 22:47:56 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php on line 15
+[05-Aug-2025 02:02:55 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[07-Aug-2025 20:11:23 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[10-Aug-2025 09:41:47 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[12-Aug-2025 07:18:15 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[25-Aug-2025 10:42:14 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[26-Aug-2025 03:59:04 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[27-Aug-2025 13:03:56 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[27-Aug-2025 20:44:36 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php on line 6
+[28-Aug-2025 02:23:51 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[28-Aug-2025 21:34:14 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php on line 15
+[29-Aug-2025 03:47:49 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[29-Aug-2025 11:45:01 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[29-Aug-2025 20:45:08 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php on line 6
+[30-Aug-2025 13:44:44 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[30-Aug-2025 22:46:34 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[31-Aug-2025 01:57:28 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[31-Aug-2025 15:44:07 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php on line 6
+[01-Sep-2025 03:05:09 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[01-Sep-2025 19:24:05 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[01-Sep-2025 19:30:12 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[01-Sep-2025 21:04:14 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php on line 6
+[03-Sep-2025 08:08:07 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[03-Sep-2025 19:35:02 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[03-Sep-2025 22:43:30 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php on line 6
+[05-Sep-2025 20:05:17 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[05-Sep-2025 21:58:15 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php on line 6
+[05-Sep-2025 22:16:31 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[07-Sep-2025 04:53:17 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[07-Sep-2025 15:25:24 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[07-Sep-2025 20:45:01 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php on line 6
+[09-Sep-2025 03:55:31 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[09-Sep-2025 12:36:06 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[09-Sep-2025 19:24:06 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[10-Sep-2025 04:54:26 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php on line 6
+[10-Sep-2025 20:04:53 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[12-Sep-2025 03:14:59 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[12-Sep-2025 19:43:20 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[13-Sep-2025 06:14:41 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[14-Sep-2025 02:44:29 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php on line 6
+[14-Sep-2025 11:24:07 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[15-Sep-2025 03:34:25 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[15-Sep-2025 05:07:33 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[16-Sep-2025 22:53:27 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[17-Sep-2025 07:25:23 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[17-Sep-2025 23:54:38 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[19-Sep-2025 05:46:22 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[19-Sep-2025 06:04:35 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[20-Sep-2025 10:05:17 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[21-Sep-2025 13:14:06 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[21-Sep-2025 15:14:30 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[22-Sep-2025 17:14:33 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[22-Sep-2025 20:35:40 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[24-Sep-2025 16:06:32 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[24-Sep-2025 23:13:10 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[26-Sep-2025 03:53:36 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[26-Sep-2025 19:33:51 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[27-Sep-2025 01:54:34 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[27-Sep-2025 19:38:17 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[28-Sep-2025 22:34:09 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[28-Sep-2025 22:53:41 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[30-Sep-2025 19:42:50 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[01-Oct-2025 06:00:06 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[02-Oct-2025 14:40:57 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[02-Oct-2025 14:41:01 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[02-Oct-2025 14:41:06 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[02-Oct-2025 23:15:27 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[03-Oct-2025 01:54:55 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php on line 15
+[03-Oct-2025 01:55:00 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php on line 15
+[03-Oct-2025 01:55:06 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php on line 15
+[03-Oct-2025 08:03:30 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[03-Oct-2025 08:03:35 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[03-Oct-2025 13:23:59 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[03-Oct-2025 20:53:17 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[03-Oct-2025 20:53:22 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[03-Oct-2025 20:53:26 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[03-Oct-2025 21:23:53 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[05-Oct-2025 03:34:37 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[05-Oct-2025 06:34:09 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[06-Oct-2025 07:35:01 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[06-Oct-2025 21:04:39 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php on line 6
+[06-Oct-2025 21:04:45 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php on line 6
+[06-Oct-2025 21:04:53 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php on line 6
+[07-Oct-2025 06:44:37 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[07-Oct-2025 12:15:24 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[09-Oct-2025 02:03:34 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[09-Oct-2025 07:25:03 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[10-Oct-2025 11:15:25 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[10-Oct-2025 16:55:46 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[11-Oct-2025 06:45:23 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[11-Oct-2025 18:25:17 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[12-Oct-2025 15:15:11 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[13-Oct-2025 01:34:13 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[14-Oct-2025 00:25:32 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[14-Oct-2025 16:44:52 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[16-Oct-2025 03:53:43 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[16-Oct-2025 09:13:45 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[17-Oct-2025 10:14:59 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[18-Oct-2025 00:15:32 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[18-Oct-2025 04:13:25 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[18-Oct-2025 17:34:28 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[20-Oct-2025 05:34:48 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[21-Oct-2025 13:39:00 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[22-Oct-2025 06:12:43 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[22-Oct-2025 19:04:36 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[23-Oct-2025 14:20:12 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[24-Oct-2025 06:53:05 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[25-Oct-2025 04:55:34 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[26-Oct-2025 06:06:31 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[27-Oct-2025 13:14:02 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[27-Oct-2025 19:04:11 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[29-Oct-2025 08:36:15 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[29-Oct-2025 23:15:18 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[31-Oct-2025 14:43:19 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[01-Nov-2025 08:35:00 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[01-Nov-2025 14:34:54 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[02-Nov-2025 11:35:52 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[02-Nov-2025 20:15:30 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[03-Nov-2025 09:33:30 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[04-Nov-2025 08:34:48 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[04-Nov-2025 22:35:00 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[05-Nov-2025 04:26:08 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[06-Nov-2025 07:53:10 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[07-Nov-2025 07:34:02 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[07-Nov-2025 09:24:30 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[09-Nov-2025 03:04:37 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[09-Nov-2025 21:56:04 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[11-Nov-2025 19:38:22 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[12-Nov-2025 09:34:03 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[13-Nov-2025 01:54:46 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[13-Nov-2025 14:46:27 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[14-Nov-2025 01:25:59 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[14-Nov-2025 12:26:32 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[15-Nov-2025 11:04:47 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[16-Nov-2025 08:54:27 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[16-Nov-2025 13:15:35 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[17-Nov-2025 09:54:51 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[17-Nov-2025 11:14:43 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[17-Nov-2025 20:53:54 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[18-Nov-2025 14:05:45 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[19-Nov-2025 01:45:05 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[20-Nov-2025 06:20:38 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[20-Nov-2025 06:21:13 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[20-Nov-2025 06:22:29 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[20-Nov-2025 06:22:48 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[20-Nov-2025 06:24:00 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php on line 15
+[20-Nov-2025 06:24:15 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php on line 15
+[20-Nov-2025 06:25:28 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[20-Nov-2025 06:25:51 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[20-Nov-2025 06:26:52 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php on line 6
+[20-Nov-2025 06:27:31 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php on line 6
+[20-Nov-2025 07:53:38 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[20-Nov-2025 16:25:27 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[22-Nov-2025 23:04:30 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[23-Nov-2025 08:15:41 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[24-Nov-2025 03:05:19 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[25-Nov-2025 08:35:50 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[25-Nov-2025 13:34:53 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[26-Nov-2025 09:45:03 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[26-Nov-2025 16:26:24 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[27-Nov-2025 08:14:25 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[28-Nov-2025 09:13:56 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[28-Nov-2025 17:54:48 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[30-Nov-2025 10:04:51 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[30-Nov-2025 23:25:38 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[01-Dec-2025 01:55:45 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[01-Dec-2025 09:15:11 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[02-Dec-2025 09:56:05 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[02-Dec-2025 13:26:21 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[03-Dec-2025 02:00:10 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[04-Dec-2025 06:50:23 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[04-Dec-2025 11:43:26 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[04-Dec-2025 20:38:48 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[06-Dec-2025 07:36:33 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[06-Dec-2025 07:53:57 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[06-Dec-2025 10:54:46 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[07-Dec-2025 13:55:55 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[07-Dec-2025 16:05:01 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[08-Dec-2025 07:03:19 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[08-Dec-2025 11:58:13 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[09-Dec-2025 11:22:39 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[09-Dec-2025 16:04:26 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[10-Dec-2025 13:30:15 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[11-Dec-2025 10:43:12 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[11-Dec-2025 18:14:27 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[12-Dec-2025 13:14:03 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[13-Dec-2025 08:25:25 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[14-Dec-2025 15:06:10 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[15-Dec-2025 18:54:34 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[16-Dec-2025 05:05:18 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[17-Dec-2025 08:53:18 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[17-Dec-2025 18:43:38 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[18-Dec-2025 00:05:16 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[19-Dec-2025 02:55:23 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[20-Dec-2025 12:34:14 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[20-Dec-2025 15:05:11 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[20-Dec-2025 17:04:34 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[21-Dec-2025 17:34:12 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[22-Dec-2025 05:05:37 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[22-Dec-2025 16:13:56 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[23-Dec-2025 20:25:18 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[23-Dec-2025 20:43:36 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[23-Dec-2025 20:43:37 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php on line 6
+[23-Dec-2025 20:43:38 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[23-Dec-2025 20:43:39 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[23-Dec-2025 20:43:39 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php on line 15
+[24-Dec-2025 01:23:53 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[24-Dec-2025 17:07:41 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[25-Dec-2025 20:55:04 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[26-Dec-2025 01:44:02 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[26-Dec-2025 16:23:49 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[28-Dec-2025 03:04:56 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[28-Dec-2025 13:36:38 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[29-Dec-2025 11:40:16 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[29-Dec-2025 18:10:11 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[29-Dec-2025 23:54:15 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[30-Dec-2025 14:54:17 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[31-Dec-2025 15:27:57 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[31-Dec-2025 15:27:59 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[31-Dec-2025 15:28:01 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php on line 15
+[31-Dec-2025 15:28:03 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[31-Dec-2025 15:28:04 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php on line 6
+[31-Dec-2025 16:54:04 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[31-Dec-2025 21:24:09 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[01-Jan-2026 03:03:40 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[02-Jan-2026 17:42:57 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[02-Jan-2026 21:10:13 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[03-Jan-2026 02:13:49 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[03-Jan-2026 17:00:50 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[03-Jan-2026 17:00:53 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[03-Jan-2026 17:00:55 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_HybridStore.php on line 15
+[03-Jan-2026 17:01:02 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[03-Jan-2026 17:01:04 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php on line 6
+[05-Jan-2026 19:01:45 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[05-Jan-2026 19:46:29 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[05-Jan-2026 23:50:44 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[07-Jan-2026 21:44:59 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[07-Jan-2026 22:26:24 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[23-Jan-2026 12:13:05 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[24-Jan-2026 01:54:32 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[25-Jan-2026 06:56:32 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[26-Jan-2026 03:51:46 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[26-Jan-2026 13:07:32 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[27-Jan-2026 11:35:09 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[28-Jan-2026 19:55:43 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[29-Jan-2026 04:52:23 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[30-Jan-2026 06:24:16 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[30-Jan-2026 13:10:00 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[30-Jan-2026 21:28:13 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[31-Jan-2026 13:14:56 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[01-Feb-2026 22:07:05 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[04-Feb-2026 07:18:22 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10
+[04-Feb-2026 08:22:29 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[06-Feb-2026 05:04:13 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php on line 10
+[06-Feb-2026 06:17:11 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Logger" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_wpCommentLogger.php on line 6
+[06-Feb-2026 07:57:58 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Store" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php on line 10

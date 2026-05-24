@@ -1,0 +1,49 @@
+{
+	"name": "escapezoom/ez-core",
+	"type": "wordpress-muplugin",
+	"description": "Shared Composer stack + Eloquent WpData layer (Illuminate, Corcel, PhpSpreadsheet).",
+	"license": "proprietary",
+	"require-dev": {
+		"pestphp/pest": "^3.7",
+		"pestphp/pest-plugin-arch": "^3.0"
+	},
+	"require": {
+		"php": "^8.5",
+		"guzzlehttp/guzzle": "^7.10",
+		"illuminate/cache": "^12.0",
+		"illuminate/contracts": "^12.0",
+		"illuminate/database": "^12.0",
+		"illuminate/events": "^12.0",
+		"illuminate/queue": "^12.0",
+		"illuminate/support": "^12.0",
+		"illuminate/validation": "^12.0",
+		"jgrossi/corcel": "^9.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"EscapeZoom\\Core\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"EscapeZoom\\Core\\Tests\\": "tests/"
+		}
+	},
+	"config": {
+		"sort-packages": true,
+		"platform": {
+			"php": "8.5.0"
+		},
+		"allow-plugins": {
+			"php-http/discovery": true,
+			"pestphp/pest-plugin": true
+		}
+	},
+	"scripts": {
+		"refresh": "composer update --no-interaction -W",
+		"test": "@php vendor/bin/pest",
+		"test:unit": "@php vendor/bin/pest --testsuite=Unit",
+		"test:feature": "@php vendor/bin/pest --testsuite=Feature",
+		"test:gateway": "@php vendor/bin/pest --testsuite=Gateway"
+	}
+}

@@ -1,0 +1,1812 @@
+[31-Jul-2025 07:12:25 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[31-Jul-2025 19:38:13 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MinutesField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MinutesField.php on line 8
+[31-Jul-2025 19:43:45 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[31-Jul-2025 19:44:41 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[31-Jul-2025 19:46:08 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[01-Aug-2025 00:57:11 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[01-Aug-2025 02:43:44 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[02-Aug-2025 16:06:55 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[05-Aug-2025 04:20:11 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[07-Aug-2025 08:56:06 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[09-Aug-2025 07:12:49 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[11-Aug-2025 04:53:25 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[12-Aug-2025 23:06:11 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[15-Aug-2025 10:42:53 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[25-Aug-2025 08:26:31 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[25-Aug-2025 10:42:28 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[25-Aug-2025 17:45:10 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[26-Aug-2025 02:22:18 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MinutesField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MinutesField.php on line 8
+[26-Aug-2025 12:55:16 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[27-Aug-2025 03:24:24 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[27-Aug-2025 06:46:20 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[27-Aug-2025 08:46:14 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[28-Aug-2025 12:03:14 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[28-Aug-2025 12:23:45 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[28-Aug-2025 14:49:00 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[28-Aug-2025 16:14:58 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[29-Aug-2025 03:03:43 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[29-Aug-2025 03:23:20 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MinutesField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MinutesField.php on line 8
+[29-Aug-2025 16:18:09 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[29-Aug-2025 21:26:56 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[29-Aug-2025 22:05:12 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[30-Aug-2025 20:16:17 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[30-Aug-2025 22:47:48 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MinutesField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MinutesField.php on line 8
+[30-Aug-2025 23:35:41 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[31-Aug-2025 13:57:01 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[31-Aug-2025 20:14:31 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[31-Aug-2025 20:25:07 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[31-Aug-2025 20:45:58 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[01-Sep-2025 10:28:30 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[01-Sep-2025 19:40:06 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MinutesField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MinutesField.php on line 8
+[01-Sep-2025 20:24:50 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[02-Sep-2025 07:44:20 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[02-Sep-2025 13:14:04 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[02-Sep-2025 22:04:46 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[02-Sep-2025 22:15:57 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[03-Sep-2025 00:00:20 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[03-Sep-2025 18:44:51 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[04-Sep-2025 12:25:42 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[04-Sep-2025 13:03:56 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[04-Sep-2025 20:05:27 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[04-Sep-2025 20:05:33 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[05-Sep-2025 15:15:05 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[05-Sep-2025 18:54:43 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[06-Sep-2025 12:13:51 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[06-Sep-2025 15:26:34 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[06-Sep-2025 18:44:29 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[06-Sep-2025 23:33:28 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[07-Sep-2025 19:43:42 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[07-Sep-2025 20:45:21 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[08-Sep-2025 13:05:27 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[08-Sep-2025 22:44:25 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[08-Sep-2025 23:24:48 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[09-Sep-2025 08:50:19 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[09-Sep-2025 14:26:56 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[10-Sep-2025 01:33:59 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[10-Sep-2025 11:04:37 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[11-Sep-2025 05:03:49 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[11-Sep-2025 06:44:36 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[11-Sep-2025 07:14:00 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[11-Sep-2025 21:43:49 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[12-Sep-2025 14:05:55 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[12-Sep-2025 17:24:51 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[13-Sep-2025 03:04:49 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[13-Sep-2025 07:04:42 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[13-Sep-2025 12:13:54 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[13-Sep-2025 15:55:25 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[14-Sep-2025 16:34:24 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[14-Sep-2025 20:43:10 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[14-Sep-2025 22:54:48 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[15-Sep-2025 01:24:42 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[16-Sep-2025 15:48:48 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[16-Sep-2025 16:27:55 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[17-Sep-2025 04:34:09 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[17-Sep-2025 07:05:52 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[17-Sep-2025 10:35:39 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[17-Sep-2025 13:34:42 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[18-Sep-2025 17:12:22 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[18-Sep-2025 18:26:56 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[18-Sep-2025 21:26:16 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[19-Sep-2025 03:35:08 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[19-Sep-2025 06:50:15 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[19-Sep-2025 13:54:47 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[20-Sep-2025 19:55:00 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[21-Sep-2025 01:44:13 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[21-Sep-2025 03:54:26 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[21-Sep-2025 05:15:08 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[21-Sep-2025 06:53:48 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[22-Sep-2025 17:23:51 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[22-Sep-2025 20:45:12 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[22-Sep-2025 21:26:24 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[23-Sep-2025 08:44:05 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[23-Sep-2025 16:13:04 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[24-Sep-2025 20:22:57 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[25-Sep-2025 01:54:20 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[25-Sep-2025 05:55:25 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[25-Sep-2025 21:55:00 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[26-Sep-2025 05:54:03 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[26-Sep-2025 18:14:29 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[26-Sep-2025 21:35:19 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[27-Sep-2025 08:55:47 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[27-Sep-2025 20:39:01 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[27-Sep-2025 21:00:07 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[28-Sep-2025 11:34:01 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[28-Sep-2025 19:45:26 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[29-Sep-2025 02:55:29 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[29-Sep-2025 10:44:16 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[30-Sep-2025 00:55:06 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[30-Sep-2025 03:24:19 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[30-Sep-2025 22:04:23 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[01-Oct-2025 01:03:08 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[01-Oct-2025 05:33:55 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[01-Oct-2025 08:24:28 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[01-Oct-2025 20:03:26 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[02-Oct-2025 17:24:23 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[02-Oct-2025 19:25:41 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[03-Oct-2025 08:14:50 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[03-Oct-2025 14:44:10 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[04-Oct-2025 08:45:19 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[04-Oct-2025 20:34:01 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[04-Oct-2025 21:25:00 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[05-Oct-2025 06:14:27 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[05-Oct-2025 07:23:56 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[05-Oct-2025 07:24:22 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[06-Oct-2025 09:25:12 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[06-Oct-2025 11:42:57 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[06-Oct-2025 17:44:30 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[06-Oct-2025 22:23:52 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[08-Oct-2025 05:24:55 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[08-Oct-2025 17:46:35 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[08-Oct-2025 22:14:58 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[09-Oct-2025 01:45:53 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[09-Oct-2025 04:13:41 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[09-Oct-2025 07:35:59 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[09-Oct-2025 12:34:49 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[10-Oct-2025 14:15:50 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[10-Oct-2025 20:14:45 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[10-Oct-2025 21:04:43 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[11-Oct-2025 06:53:22 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[11-Oct-2025 11:54:38 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[12-Oct-2025 10:30:14 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[12-Oct-2025 12:44:44 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[12-Oct-2025 14:05:03 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[13-Oct-2025 02:59:08 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MinutesField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MinutesField.php on line 8
+[13-Oct-2025 02:59:12 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MinutesField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MinutesField.php on line 8
+[13-Oct-2025 02:59:16 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MinutesField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MinutesField.php on line 8
+[13-Oct-2025 05:04:34 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[13-Oct-2025 07:25:08 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[13-Oct-2025 12:07:07 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[13-Oct-2025 12:07:14 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[13-Oct-2025 12:07:19 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[13-Oct-2025 14:21:40 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[13-Oct-2025 14:21:42 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[13-Oct-2025 14:21:45 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[13-Oct-2025 16:05:09 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[13-Oct-2025 22:41:39 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[13-Oct-2025 22:41:45 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[14-Oct-2025 11:03:38 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[14-Oct-2025 11:24:40 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[14-Oct-2025 15:33:44 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[15-Oct-2025 15:41:01 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[15-Oct-2025 15:41:08 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[15-Oct-2025 15:41:15 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[15-Oct-2025 16:16:46 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[15-Oct-2025 17:13:34 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[15-Oct-2025 20:34:52 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[16-Oct-2025 03:43:55 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[16-Oct-2025 06:53:36 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[16-Oct-2025 13:54:49 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[17-Oct-2025 15:54:52 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[17-Oct-2025 20:54:00 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[18-Oct-2025 00:25:55 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[18-Oct-2025 00:49:14 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[18-Oct-2025 00:49:20 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[18-Oct-2025 00:49:26 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[18-Oct-2025 12:14:15 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[18-Oct-2025 18:34:43 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[19-Oct-2025 18:32:33 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[19-Oct-2025 23:44:28 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[20-Oct-2025 04:44:45 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[20-Oct-2025 06:15:36 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[20-Oct-2025 12:54:12 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[21-Oct-2025 02:54:59 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[22-Oct-2025 00:36:56 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[22-Oct-2025 05:13:50 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[22-Oct-2025 08:04:28 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[22-Oct-2025 14:03:03 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[22-Oct-2025 19:14:46 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[23-Oct-2025 19:32:17 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[24-Oct-2025 00:34:12 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[24-Oct-2025 05:24:55 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[24-Oct-2025 07:24:45 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[24-Oct-2025 16:12:49 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[24-Oct-2025 17:24:14 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[25-Oct-2025 21:54:06 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[26-Oct-2025 06:45:12 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[26-Oct-2025 13:36:07 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[27-Oct-2025 08:06:13 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[27-Oct-2025 14:06:50 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[27-Oct-2025 23:55:36 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[28-Oct-2025 04:53:20 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[28-Oct-2025 13:34:37 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[28-Oct-2025 20:54:16 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[28-Oct-2025 23:14:13 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[29-Oct-2025 08:54:47 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[30-Oct-2025 05:34:53 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[30-Oct-2025 10:34:22 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[30-Oct-2025 12:45:21 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[30-Oct-2025 15:52:56 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[30-Oct-2025 23:44:34 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[31-Oct-2025 12:13:13 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[31-Oct-2025 19:15:09 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[01-Nov-2025 00:24:35 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[01-Nov-2025 09:35:13 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[01-Nov-2025 22:24:43 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[02-Nov-2025 04:44:22 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[03-Nov-2025 02:45:35 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[04-Nov-2025 06:40:10 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[04-Nov-2025 10:12:29 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[04-Nov-2025 14:50:08 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[04-Nov-2025 18:20:15 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[05-Nov-2025 03:25:21 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[05-Nov-2025 11:13:07 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[05-Nov-2025 16:33:37 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[05-Nov-2025 22:04:20 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[06-Nov-2025 01:25:43 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[07-Nov-2025 11:23:02 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[07-Nov-2025 13:37:43 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[08-Nov-2025 06:33:28 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[09-Nov-2025 06:55:33 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[09-Nov-2025 11:45:11 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[09-Nov-2025 12:35:29 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[09-Nov-2025 15:13:54 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[10-Nov-2025 16:04:17 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[11-Nov-2025 20:14:59 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[12-Nov-2025 10:34:54 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[12-Nov-2025 18:23:48 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[13-Nov-2025 05:54:06 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[13-Nov-2025 15:31:04 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[13-Nov-2025 21:05:04 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[14-Nov-2025 04:05:34 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[14-Nov-2025 16:26:24 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[14-Nov-2025 20:56:42 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[15-Nov-2025 06:35:21 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[15-Nov-2025 12:15:52 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[16-Nov-2025 07:53:25 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[16-Nov-2025 09:34:37 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[16-Nov-2025 10:15:42 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[17-Nov-2025 04:55:57 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[17-Nov-2025 06:34:36 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[17-Nov-2025 18:35:10 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[18-Nov-2025 03:30:16 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[18-Nov-2025 17:26:38 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[19-Nov-2025 00:54:48 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[19-Nov-2025 08:36:12 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[19-Nov-2025 17:35:20 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[20-Nov-2025 02:05:05 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[20-Nov-2025 03:08:41 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[20-Nov-2025 03:09:16 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[20-Nov-2025 03:22:21 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[20-Nov-2025 03:23:09 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[20-Nov-2025 03:27:56 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[20-Nov-2025 03:28:08 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[20-Nov-2025 03:37:59 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[20-Nov-2025 03:38:23 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[20-Nov-2025 03:54:30 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MinutesField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MinutesField.php on line 8
+[20-Nov-2025 03:56:57 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MinutesField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MinutesField.php on line 8
+[20-Nov-2025 04:30:13 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[20-Nov-2025 04:31:05 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[20-Nov-2025 04:40:27 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[20-Nov-2025 04:42:07 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[20-Nov-2025 05:35:47 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[20-Nov-2025 17:15:24 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[20-Nov-2025 18:53:58 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[21-Nov-2025 08:15:29 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[21-Nov-2025 13:36:37 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[22-Nov-2025 12:35:44 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[22-Nov-2025 13:36:06 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[23-Nov-2025 00:16:20 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[23-Nov-2025 00:46:02 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[23-Nov-2025 15:26:03 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[23-Nov-2025 16:20:14 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[23-Nov-2025 20:15:43 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[24-Nov-2025 11:10:17 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[24-Nov-2025 12:35:26 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[24-Nov-2025 20:24:28 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[24-Nov-2025 21:30:14 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[25-Nov-2025 19:04:51 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[25-Nov-2025 20:32:56 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[26-Nov-2025 03:36:12 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[26-Nov-2025 21:03:26 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[27-Nov-2025 13:53:51 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[27-Nov-2025 19:46:09 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[27-Nov-2025 22:26:16 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[28-Nov-2025 01:15:51 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[28-Nov-2025 13:03:11 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[28-Nov-2025 16:45:32 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[29-Nov-2025 16:24:47 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[29-Nov-2025 17:05:43 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[29-Nov-2025 18:15:02 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[30-Nov-2025 02:40:26 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[30-Nov-2025 19:36:02 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[01-Dec-2025 00:15:02 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[01-Dec-2025 15:46:19 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[01-Dec-2025 16:45:46 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[01-Dec-2025 18:45:16 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[02-Dec-2025 13:36:04 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[02-Dec-2025 20:03:17 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[03-Dec-2025 14:44:26 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[03-Dec-2025 18:04:53 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[04-Dec-2025 09:24:11 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[04-Dec-2025 21:06:47 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[06-Dec-2025 01:55:46 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[06-Dec-2025 05:06:14 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[06-Dec-2025 07:20:04 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[06-Dec-2025 07:43:57 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[06-Dec-2025 18:14:52 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[07-Dec-2025 16:03:40 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[07-Dec-2025 21:20:11 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[07-Dec-2025 21:26:48 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[08-Dec-2025 00:07:46 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[08-Dec-2025 11:56:51 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[09-Dec-2025 20:53:39 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[09-Dec-2025 21:05:42 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[09-Dec-2025 21:25:46 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[09-Dec-2025 22:04:31 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[10-Dec-2025 04:27:29 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[10-Dec-2025 07:04:57 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[11-Dec-2025 18:14:38 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[11-Dec-2025 20:25:48 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[11-Dec-2025 22:05:41 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[12-Dec-2025 02:05:31 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[12-Dec-2025 08:25:35 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[13-Dec-2025 17:04:12 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[13-Dec-2025 19:59:41 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[14-Dec-2025 05:25:35 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[16-Dec-2025 00:45:09 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[16-Dec-2025 02:22:46 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[16-Dec-2025 07:24:42 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[16-Dec-2025 12:35:49 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[16-Dec-2025 12:52:52 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[17-Dec-2025 18:53:26 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[17-Dec-2025 21:50:11 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[17-Dec-2025 22:06:12 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[18-Dec-2025 01:05:53 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[18-Dec-2025 12:45:41 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[19-Dec-2025 21:05:36 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[20-Dec-2025 00:06:05 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[20-Dec-2025 07:43:25 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[20-Dec-2025 11:43:03 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[20-Dec-2025 15:34:46 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[21-Dec-2025 04:15:34 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[22-Dec-2025 04:25:20 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[22-Dec-2025 10:34:42 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[22-Dec-2025 14:54:20 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[23-Dec-2025 15:33:12 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[23-Dec-2025 20:14:43 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[23-Dec-2025 20:42:58 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[23-Dec-2025 20:42:59 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[23-Dec-2025 20:43:00 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[23-Dec-2025 20:43:01 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[23-Dec-2025 20:43:01 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[23-Dec-2025 20:43:03 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[23-Dec-2025 20:43:05 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MinutesField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MinutesField.php on line 8
+[23-Dec-2025 23:37:40 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[24-Dec-2025 00:03:46 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[24-Dec-2025 03:05:52 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[24-Dec-2025 12:55:36 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[25-Dec-2025 08:45:41 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[25-Dec-2025 20:15:05 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[25-Dec-2025 23:44:35 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[25-Dec-2025 23:53:40 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[26-Dec-2025 02:34:41 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[27-Dec-2025 12:03:20 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[28-Dec-2025 02:24:05 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[28-Dec-2025 11:33:27 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[28-Dec-2025 14:55:20 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[28-Dec-2025 18:32:53 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[29-Dec-2025 03:56:33 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[29-Dec-2025 18:44:57 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[29-Dec-2025 21:27:52 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[30-Dec-2025 01:05:03 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[30-Dec-2025 11:54:35 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[30-Dec-2025 21:24:29 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[31-Dec-2025 09:14:16 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[31-Dec-2025 15:27:32 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[31-Dec-2025 15:27:33 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[31-Dec-2025 15:27:36 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[31-Dec-2025 15:27:40 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[31-Dec-2025 15:27:42 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MinutesField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MinutesField.php on line 8
+[31-Dec-2025 15:27:48 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[31-Dec-2025 15:27:50 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[31-Dec-2025 21:13:29 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[01-Jan-2026 00:24:47 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[01-Jan-2026 04:53:26 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[01-Jan-2026 05:03:48 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[01-Jan-2026 23:07:36 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[02-Jan-2026 22:02:49 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[03-Jan-2026 00:55:00 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[03-Jan-2026 04:03:05 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[03-Jan-2026 07:25:16 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[03-Jan-2026 17:00:26 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[03-Jan-2026 17:00:29 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[03-Jan-2026 17:00:31 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[03-Jan-2026 17:00:39 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[03-Jan-2026 17:00:40 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MinutesField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MinutesField.php on line 8
+[03-Jan-2026 17:00:43 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[03-Jan-2026 17:00:47 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[04-Jan-2026 02:59:48 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[04-Jan-2026 16:54:46 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[05-Jan-2026 19:53:32 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[06-Jan-2026 00:03:51 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[06-Jan-2026 07:35:55 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[07-Jan-2026 02:34:34 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[08-Jan-2026 03:44:50 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[08-Jan-2026 07:36:15 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[08-Jan-2026 11:08:26 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[08-Jan-2026 14:35:49 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[17-Jan-2026 03:56:23 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[17-Jan-2026 04:42:55 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[22-Jan-2026 21:15:38 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[23-Jan-2026 03:46:54 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[23-Jan-2026 05:37:45 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[23-Jan-2026 14:29:13 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[25-Jan-2026 04:04:06 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[27-Jan-2026 03:28:27 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[28-Jan-2026 07:53:44 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[28-Jan-2026 15:45:26 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[28-Jan-2026 20:05:09 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[29-Jan-2026 00:34:15 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[29-Jan-2026 03:41:56 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[29-Jan-2026 22:14:19 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[30-Jan-2026 06:35:29 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[30-Jan-2026 10:09:08 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[30-Jan-2026 14:09:16 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfWeekField.php on line 18
+[30-Jan-2026 21:00:14 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_DayOfMonthField.php on line 21
+[31-Jan-2026 09:47:01 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[02-Feb-2026 09:20:07 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[03-Feb-2026 01:45:10 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[04-Feb-2026 08:57:46 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8
+[04-Feb-2026 10:10:33 UTC] PHP Fatal error:  Uncaught Error: Interface "CronExpression_FieldInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_AbstractField.php on line 8
+[05-Feb-2026 04:57:32 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_YearField.php on line 8
+[05-Feb-2026 06:24:20 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_HoursField.php on line 8
+[06-Feb-2026 07:29:00 UTC] PHP Fatal error:  Uncaught Error: Class "CronExpression_AbstractField" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/lib/cron-expression/CronExpression_MonthField.php on line 8

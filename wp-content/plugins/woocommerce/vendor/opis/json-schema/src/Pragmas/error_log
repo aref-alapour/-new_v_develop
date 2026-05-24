@@ -1,0 +1,820 @@
+[30-Apr-2025 11:36:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[30-Apr-2025 11:39:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[30-Apr-2025 11:40:40 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/SlotsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/SlotsPragma.php on line 22
+[30-Apr-2025 11:46:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[28-Aug-2025 10:33:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[28-Aug-2025 23:08:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/SlotsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/SlotsPragma.php on line 22
+[29-Aug-2025 00:06:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[29-Aug-2025 11:23:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[30-Aug-2025 02:05:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[30-Aug-2025 18:50:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/SlotsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/SlotsPragma.php on line 22
+[30-Aug-2025 20:20:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[30-Aug-2025 20:26:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[31-Aug-2025 19:26:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[01-Sep-2025 19:12:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/SlotsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/SlotsPragma.php on line 22
+[02-Sep-2025 06:28:40 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[02-Sep-2025 16:45:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[02-Sep-2025 21:25:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[03-Sep-2025 17:15:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[04-Sep-2025 03:38:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/SlotsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/SlotsPragma.php on line 22
+[04-Sep-2025 16:24:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[04-Sep-2025 21:43:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[06-Sep-2025 03:26:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/SlotsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/SlotsPragma.php on line 22
+[06-Sep-2025 16:46:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[07-Sep-2025 11:05:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[08-Sep-2025 04:04:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/SlotsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/SlotsPragma.php on line 22
+[08-Sep-2025 09:36:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[08-Sep-2025 15:16:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[09-Sep-2025 17:04:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[10-Sep-2025 04:24:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/SlotsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/SlotsPragma.php on line 22
+[10-Sep-2025 08:15:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[10-Sep-2025 21:33:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[11-Sep-2025 21:10:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[11-Sep-2025 23:29:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[12-Sep-2025 08:05:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/SlotsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/SlotsPragma.php on line 22
+[13-Sep-2025 08:53:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[13-Sep-2025 17:35:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[13-Sep-2025 18:06:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[14-Sep-2025 17:55:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[15-Sep-2025 11:23:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[16-Sep-2025 15:47:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[17-Sep-2025 01:55:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[18-Sep-2025 04:05:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[19-Sep-2025 23:12:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[20-Sep-2025 13:25:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[21-Sep-2025 09:34:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[22-Sep-2025 06:24:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[22-Sep-2025 07:34:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[23-Sep-2025 03:12:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[24-Sep-2025 00:56:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[24-Sep-2025 01:14:30 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[24-Sep-2025 15:35:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[25-Sep-2025 17:04:40 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[25-Sep-2025 20:05:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[25-Sep-2025 23:46:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[28-Sep-2025 02:33:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[28-Sep-2025 04:04:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[28-Sep-2025 05:34:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[29-Sep-2025 23:35:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[01-Oct-2025 14:24:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[01-Oct-2025 17:04:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[01-Oct-2025 19:33:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[03-Oct-2025 10:35:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[04-Oct-2025 03:03:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[04-Oct-2025 19:45:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[05-Oct-2025 15:22:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[06-Oct-2025 23:25:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[08-Oct-2025 00:15:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[08-Oct-2025 13:06:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[09-Oct-2025 00:05:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[09-Oct-2025 19:15:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[09-Oct-2025 22:05:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[11-Oct-2025 16:44:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[12-Oct-2025 00:04:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[12-Oct-2025 06:03:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[13-Oct-2025 11:24:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[14-Oct-2025 05:14:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[14-Oct-2025 13:14:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[15-Oct-2025 00:53:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[16-Oct-2025 01:35:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[16-Oct-2025 09:34:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[16-Oct-2025 23:14:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[17-Oct-2025 14:19:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[18-Oct-2025 04:52:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[18-Oct-2025 20:20:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[19-Oct-2025 05:03:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[19-Oct-2025 22:04:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[20-Oct-2025 17:53:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[21-Oct-2025 06:33:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[21-Oct-2025 22:14:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[22-Oct-2025 21:54:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[23-Oct-2025 05:25:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[23-Oct-2025 22:45:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[25-Oct-2025 13:03:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[25-Oct-2025 14:45:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[26-Oct-2025 05:33:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[26-Oct-2025 22:45:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[27-Oct-2025 05:20:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[28-Oct-2025 12:14:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[28-Oct-2025 23:04:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[29-Oct-2025 07:33:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[30-Oct-2025 03:54:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[31-Oct-2025 03:32:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[31-Oct-2025 10:25:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[01-Nov-2025 09:05:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[01-Nov-2025 23:23:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[02-Nov-2025 01:54:31 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[03-Nov-2025 00:34:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[03-Nov-2025 11:53:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[04-Nov-2025 02:03:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[05-Nov-2025 01:24:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[06-Nov-2025 04:16:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[06-Nov-2025 12:52:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[08-Nov-2025 06:13:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[09-Nov-2025 10:23:44 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[09-Nov-2025 22:43:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[10-Nov-2025 21:43:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[13-Nov-2025 15:05:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[14-Nov-2025 19:35:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[15-Nov-2025 03:26:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[15-Nov-2025 03:55:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[16-Nov-2025 11:24:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[16-Nov-2025 21:10:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[17-Nov-2025 09:14:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[18-Nov-2025 14:46:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[19-Nov-2025 17:15:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[19-Nov-2025 18:44:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[19-Nov-2025 19:43:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[20-Nov-2025 10:55:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[20-Nov-2025 10:55:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[20-Nov-2025 10:55:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[20-Nov-2025 10:55:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[20-Nov-2025 10:55:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[20-Nov-2025 10:55:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[20-Nov-2025 10:56:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/SlotsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/SlotsPragma.php on line 22
+[20-Nov-2025 10:56:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/SlotsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/SlotsPragma.php on line 22
+[21-Nov-2025 20:49:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[22-Nov-2025 04:54:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[22-Nov-2025 21:06:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[23-Nov-2025 19:37:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[23-Nov-2025 20:10:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[24-Nov-2025 13:05:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[25-Nov-2025 13:54:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[25-Nov-2025 22:23:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[26-Nov-2025 13:15:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[27-Nov-2025 02:04:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[28-Nov-2025 04:56:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[28-Nov-2025 17:14:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[30-Nov-2025 00:05:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[30-Nov-2025 08:14:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[01-Dec-2025 03:54:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[02-Dec-2025 01:54:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[02-Dec-2025 07:05:44 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[02-Dec-2025 20:53:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[03-Dec-2025 14:45:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[03-Dec-2025 18:36:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[06-Dec-2025 07:38:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[08-Dec-2025 04:33:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[08-Dec-2025 09:05:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[09-Dec-2025 21:15:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[10-Dec-2025 02:15:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[12-Dec-2025 00:56:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[12-Dec-2025 06:55:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[14-Dec-2025 04:54:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[15-Dec-2025 22:45:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[16-Dec-2025 01:34:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[17-Dec-2025 23:15:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[18-Dec-2025 07:34:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[19-Dec-2025 17:26:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[20-Dec-2025 10:44:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[22-Dec-2025 07:54:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[22-Dec-2025 11:24:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[23-Dec-2025 20:26:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[23-Dec-2025 20:26:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/SlotsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/SlotsPragma.php on line 22
+[23-Dec-2025 20:26:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[23-Dec-2025 20:26:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[24-Dec-2025 01:55:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[26-Dec-2025 02:05:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[26-Dec-2025 11:43:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[28-Dec-2025 07:54:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[28-Dec-2025 16:24:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[30-Dec-2025 07:35:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[31-Dec-2025 00:05:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[31-Dec-2025 15:45:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[31-Dec-2025 15:45:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[31-Dec-2025 15:45:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[31-Dec-2025 15:45:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/SlotsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/SlotsPragma.php on line 22
+[01-Jan-2026 14:24:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[02-Jan-2026 15:43:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[03-Jan-2026 12:03:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[03-Jan-2026 17:16:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/CastPragma.php on line 22
+[03-Jan-2026 17:16:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[03-Jan-2026 17:16:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[03-Jan-2026 17:16:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/SlotsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/SlotsPragma.php on line 22
+[07-Jan-2026 09:05:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[08-Jan-2026 01:56:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[25-Jan-2026 05:49:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[29-Jan-2026 05:13:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[29-Jan-2026 20:13:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[31-Jan-2026 05:14:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[01-Feb-2026 00:53:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[02-Feb-2026 05:57:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[03-Feb-2026 05:04:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[04-Feb-2026 05:44:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22
+[05-Feb-2026 00:55:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/GlobalsPragma.php on line 23
+[06-Feb-2026 07:57:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\Pragma" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Pragmas/MaxErrorsPragma.php on line 22

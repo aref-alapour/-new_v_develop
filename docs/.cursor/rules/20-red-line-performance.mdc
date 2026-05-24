@@ -1,0 +1,28 @@
+---
+description: "Eliminating the 3 Critical WP Bottlenecks: admin-ajax, External API blocking, and Repeated Heavy Processing."
+alwaysApply: true
+---
+
+# 🚫 The Three Red-Line Performance Rules
+
+## 1. Zero admin-ajax.php Usage
+
+- **The Problem:** `admin-ajax.php` is heavy as it loads the entire WP environment for every small request.
+- **The Rule:** NEVER use `admin-ajax.php` for frontend interactions (slots, filters, likes).
+- **The Solution:** Use Custom REST API endpoints or Lightweight AJAX Handlers via HTMX/Alpine.js that bypass unnecessary plugin loading.
+
+## 2. Non-Blocking External Connections (Queue First)
+
+- **The Problem:** External APIs (SMS, Gateways, Analytics) can hang the server if they respond slowly.
+- **The Rule:** Any request to an external server MUST be handled via a **Background Queue** or be Non-Blocking.
+- **The Solution:** Use a Task Queue system. For example: `OrderPlaced -> Dispatch SMS Job to Queue -> Return Response to User Immediately`. Never make the user wait for a third-party server response.
+
+## 3. Persistent Fragment & Object Caching
+
+- **The Problem:** Recalculating heavy data (Brand ratings, Top sellers, Slot availability for a month) on every page load.
+- **The Rule:** Any data that takes > 50ms to calculate must be cached.
+- **The Solution:** Use `wp_cache_set` and `wp_cache_get` with Redis. Implement "Stale-while-revalidate" logic so the user always sees a fast cached version while the cache updates in the background.
+
+## 4. Short-Init for Dynamic Parts
+
+- **Rule:** For dynamic parts like "User Level" or "Wallet Balance" in the header, use a separate lightweight request that doesn't trigger the full theme render.

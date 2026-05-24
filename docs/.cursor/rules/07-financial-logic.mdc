@@ -1,0 +1,35 @@
+---
+description: EscapeZoom Financial Logic; commission hierarchy, tax, full vs deposit payment, discount impact (owner vs platform), credit gateway rules, settlement timing, affiliate. Theory only, no implementation.
+alwaysApply: true
+---
+
+# EscapeZoom Financial Logic (theory only)
+
+## 1. Configuration Layers
+- **Global:** Tax rate, default commission.
+- **Overrides:** More specific levels (game, city, type, or combination) exist and participate in priority.
+
+## 2. Commission Rate Priority (Waterfall)
+1) Game-specific → 2) City + game type → 3) City only → 4) Game type only → 5) Global default. First available wins.
+
+## 3. Payment Models
+- **Full payment:** Base = total after owner discounts; commission and tax on base; owner share = base − (commission + tax); platform discounts do not reduce owner share.
+- **Prepayment:** Commission/tax on full booking total; owner share = deposit − (commission + tax); if commission+tax > deposit, owner share is negative.
+
+## 4. Discount Impact
+- **Owner discounts:** Reduce base for commission/tax.
+- **Platform discounts:** Do not reduce owner share; they are platform cost only.
+
+## 5. Credit Gateways
+- Full payment only; no prepayment.
+- No coupon or loyalty discount; only owner discounts.
+- Settlement requires manual admin approval before wallet credit.
+
+## 6. Settlement Timing
+- **Standard orders:** Auto wallet credit after fixed delay (e.g. 24h) from slot start.
+- **Credit orders:** Same delay but release only after admin approval.
+
+## 7. Affiliate
+- Orders can be linked to affiliate.
+- Affiliate commission is separate from owner share.
+- Affiliate reporting and settlement are separate.

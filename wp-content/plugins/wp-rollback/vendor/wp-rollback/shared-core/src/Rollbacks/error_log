@@ -1,0 +1,8 @@
+[31-Dec-2025 15:47:17 UTC] PHP Fatal error:  Uncaught Error: Interface "WpRollback\SharedCore\Core\Contracts\ServiceProvider" not found in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/wp-rollback/shared-core/src/Rollbacks/ServiceProvider.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/wp-rollback/shared-core/src/Rollbacks/ServiceProvider.php on line 37
+[03-Jan-2026 17:18:10 UTC] PHP Fatal error:  Uncaught Error: Interface "WpRollback\SharedCore\Core\Contracts\ServiceProvider" not found in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/wp-rollback/shared-core/src/Rollbacks/ServiceProvider.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/wp-rollback/shared-core/src/Rollbacks/ServiceProvider.php on line 37

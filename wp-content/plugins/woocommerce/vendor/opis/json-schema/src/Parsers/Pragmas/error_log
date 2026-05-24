@@ -1,0 +1,1204 @@
+[30-Apr-2025 16:42:30 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[30-Apr-2025 16:46:53 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[30-Apr-2025 17:03:19 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[30-Apr-2025 17:10:30 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[05-Aug-2025 18:28:06 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[06-Aug-2025 00:47:28 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[06-Aug-2025 02:18:46 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[06-Aug-2025 04:25:57 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[07-Aug-2025 10:17:41 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[07-Aug-2025 23:06:29 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[08-Aug-2025 01:24:01 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[08-Aug-2025 20:02:43 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[09-Aug-2025 15:36:12 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[09-Aug-2025 16:58:12 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[10-Aug-2025 02:03:02 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[10-Aug-2025 14:17:33 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[10-Aug-2025 15:03:58 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[11-Aug-2025 04:42:20 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[11-Aug-2025 14:03:22 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[11-Aug-2025 17:15:30 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[11-Aug-2025 23:14:25 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[12-Aug-2025 10:23:30 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[13-Aug-2025 02:54:46 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[13-Aug-2025 10:39:45 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[13-Aug-2025 11:25:16 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[14-Aug-2025 20:00:11 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[14-Aug-2025 20:42:59 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[14-Aug-2025 21:22:18 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[15-Aug-2025 15:57:59 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[25-Aug-2025 11:33:28 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[25-Aug-2025 21:52:21 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[26-Aug-2025 03:18:48 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[26-Aug-2025 19:15:23 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[28-Aug-2025 18:34:38 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[28-Aug-2025 20:23:10 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[29-Aug-2025 11:14:50 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[30-Aug-2025 04:14:18 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[30-Aug-2025 21:06:55 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[31-Aug-2025 01:17:35 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[31-Aug-2025 04:35:15 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[31-Aug-2025 22:45:04 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[01-Sep-2025 20:34:32 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[02-Sep-2025 00:43:56 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[02-Sep-2025 10:04:58 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[03-Sep-2025 02:14:30 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[03-Sep-2025 18:16:00 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[03-Sep-2025 22:43:39 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[04-Sep-2025 01:56:05 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[05-Sep-2025 01:45:30 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[05-Sep-2025 15:55:18 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[06-Sep-2025 01:36:24 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[06-Sep-2025 14:44:45 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[07-Sep-2025 01:56:52 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[07-Sep-2025 17:56:05 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[08-Sep-2025 02:16:30 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[09-Sep-2025 14:35:39 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[09-Sep-2025 22:44:55 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[10-Sep-2025 08:44:15 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[10-Sep-2025 15:24:40 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[10-Sep-2025 21:13:26 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[12-Sep-2025 06:04:54 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[13-Sep-2025 05:44:06 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[13-Sep-2025 11:23:17 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[13-Sep-2025 19:05:15 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[14-Sep-2025 10:03:33 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[15-Sep-2025 06:06:41 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[15-Sep-2025 15:24:47 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[16-Sep-2025 16:16:30 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[16-Sep-2025 16:17:38 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[17-Sep-2025 02:44:27 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[18-Sep-2025 10:46:47 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[19-Sep-2025 01:14:31 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[19-Sep-2025 10:04:37 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[19-Sep-2025 15:04:22 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[19-Sep-2025 16:45:16 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[20-Sep-2025 16:24:48 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[20-Sep-2025 21:13:19 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[21-Sep-2025 08:35:15 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[22-Sep-2025 13:25:02 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[22-Sep-2025 15:24:52 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[22-Sep-2025 17:54:38 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[23-Sep-2025 02:57:22 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[25-Sep-2025 00:44:06 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[25-Sep-2025 01:53:14 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[25-Sep-2025 06:36:09 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[25-Sep-2025 21:35:57 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[27-Sep-2025 08:46:00 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[27-Sep-2025 14:34:01 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[28-Sep-2025 12:24:01 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[28-Sep-2025 18:06:49 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[28-Sep-2025 23:55:40 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[29-Sep-2025 05:44:52 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[30-Sep-2025 13:25:13 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[30-Sep-2025 23:24:17 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[01-Oct-2025 02:35:12 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[01-Oct-2025 08:44:32 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[02-Oct-2025 14:54:36 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[03-Oct-2025 00:03:40 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[03-Oct-2025 09:33:51 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[03-Oct-2025 17:25:08 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[05-Oct-2025 00:24:20 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[05-Oct-2025 10:03:48 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[06-Oct-2025 11:44:59 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[07-Oct-2025 03:25:07 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[07-Oct-2025 08:24:00 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[08-Oct-2025 02:14:17 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[08-Oct-2025 18:56:30 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[09-Oct-2025 09:14:38 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[10-Oct-2025 01:53:54 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[10-Oct-2025 07:06:24 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[10-Oct-2025 10:25:20 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[10-Oct-2025 14:34:47 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[10-Oct-2025 22:04:11 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[11-Oct-2025 23:13:51 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[12-Oct-2025 01:43:54 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[12-Oct-2025 03:45:12 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[12-Oct-2025 14:53:52 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[14-Oct-2025 07:25:32 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[15-Oct-2025 19:24:12 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[15-Oct-2025 21:34:07 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[16-Oct-2025 08:04:57 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[16-Oct-2025 09:43:34 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[17-Oct-2025 17:44:13 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[18-Oct-2025 02:24:51 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[18-Oct-2025 06:23:28 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[18-Oct-2025 08:14:56 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[19-Oct-2025 14:16:08 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[19-Oct-2025 14:30:09 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[19-Oct-2025 14:37:50 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[21-Oct-2025 02:34:15 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[21-Oct-2025 04:45:10 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[21-Oct-2025 07:24:39 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[21-Oct-2025 13:39:56 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[22-Oct-2025 15:15:08 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[22-Oct-2025 15:19:48 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[23-Oct-2025 15:04:51 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[23-Oct-2025 15:12:59 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[23-Oct-2025 15:23:20 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[23-Oct-2025 15:55:36 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[24-Oct-2025 14:25:13 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[24-Oct-2025 17:24:31 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[24-Oct-2025 18:34:06 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[25-Oct-2025 18:15:17 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[26-Oct-2025 08:04:35 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[26-Oct-2025 20:38:37 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[27-Oct-2025 16:22:46 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[28-Oct-2025 01:15:17 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[28-Oct-2025 15:05:20 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[29-Oct-2025 12:14:02 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[29-Oct-2025 20:15:13 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[31-Oct-2025 09:16:38 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[31-Oct-2025 21:25:59 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[01-Nov-2025 19:15:27 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[01-Nov-2025 21:35:33 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[02-Nov-2025 17:24:21 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[02-Nov-2025 17:55:27 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[03-Nov-2025 08:20:18 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[03-Nov-2025 12:25:41 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[04-Nov-2025 16:04:50 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[04-Nov-2025 18:02:16 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[04-Nov-2025 20:35:03 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[04-Nov-2025 22:25:14 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[07-Nov-2025 23:13:08 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[08-Nov-2025 05:03:32 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[08-Nov-2025 06:27:26 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[08-Nov-2025 11:16:55 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[10-Nov-2025 12:54:59 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[10-Nov-2025 18:35:46 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[10-Nov-2025 21:45:17 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[10-Nov-2025 23:33:22 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[12-Nov-2025 06:54:57 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[13-Nov-2025 14:05:54 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[13-Nov-2025 21:56:22 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[14-Nov-2025 18:26:44 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[14-Nov-2025 23:06:30 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[15-Nov-2025 10:25:32 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[16-Nov-2025 14:14:40 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[16-Nov-2025 16:24:46 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[17-Nov-2025 03:24:40 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[18-Nov-2025 04:53:12 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[18-Nov-2025 12:15:46 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[18-Nov-2025 12:43:51 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[18-Nov-2025 20:14:13 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[19-Nov-2025 15:25:00 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[20-Nov-2025 07:44:11 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[20-Nov-2025 11:07:58 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[20-Nov-2025 11:08:02 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[20-Nov-2025 11:08:07 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[20-Nov-2025 11:08:11 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[20-Nov-2025 11:08:15 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[20-Nov-2025 11:08:17 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[20-Nov-2025 11:08:22 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[20-Nov-2025 11:08:23 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[20-Nov-2025 12:56:10 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[20-Nov-2025 16:05:18 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[21-Nov-2025 11:15:52 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[21-Nov-2025 19:06:08 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[22-Nov-2025 05:53:32 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[23-Nov-2025 23:37:10 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[24-Nov-2025 01:07:18 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[26-Nov-2025 04:06:06 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[26-Nov-2025 15:24:48 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[27-Nov-2025 03:45:46 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[27-Nov-2025 22:04:21 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[27-Nov-2025 22:50:13 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[28-Nov-2025 19:10:11 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[29-Nov-2025 03:03:06 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[29-Nov-2025 21:55:18 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[30-Nov-2025 06:13:04 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[30-Nov-2025 18:23:43 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[01-Dec-2025 14:44:19 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[01-Dec-2025 18:25:11 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[02-Dec-2025 22:05:57 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[02-Dec-2025 23:15:31 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[04-Dec-2025 07:25:10 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[04-Dec-2025 16:46:51 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[04-Dec-2025 17:25:33 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[04-Dec-2025 18:47:40 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[06-Dec-2025 06:47:08 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[06-Dec-2025 13:54:05 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[07-Dec-2025 03:43:28 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[07-Dec-2025 07:04:23 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[07-Dec-2025 21:26:59 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[07-Dec-2025 23:59:11 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[08-Dec-2025 14:55:37 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[08-Dec-2025 23:25:24 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[10-Dec-2025 05:24:36 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[10-Dec-2025 08:36:28 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[10-Dec-2025 13:35:11 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[11-Dec-2025 10:55:19 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[12-Dec-2025 02:46:12 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[12-Dec-2025 04:45:11 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[12-Dec-2025 12:55:13 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[12-Dec-2025 17:15:05 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[14-Dec-2025 12:43:10 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[14-Dec-2025 12:45:35 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[14-Dec-2025 23:05:49 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[16-Dec-2025 00:13:50 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[16-Dec-2025 10:42:54 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[16-Dec-2025 15:56:35 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[16-Dec-2025 21:45:44 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[18-Dec-2025 06:24:59 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[18-Dec-2025 12:25:36 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[19-Dec-2025 11:54:06 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[19-Dec-2025 14:54:43 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[20-Dec-2025 14:43:54 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[20-Dec-2025 22:25:32 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[21-Dec-2025 12:53:39 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[21-Dec-2025 18:24:33 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[22-Dec-2025 11:44:41 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[23-Dec-2025 09:24:05 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[23-Dec-2025 20:26:59 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[23-Dec-2025 20:26:59 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[23-Dec-2025 20:27:01 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[23-Dec-2025 20:27:02 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[24-Dec-2025 06:15:05 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[25-Dec-2025 08:16:02 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[25-Dec-2025 10:54:20 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[26-Dec-2025 09:35:58 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[27-Dec-2025 14:15:21 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[27-Dec-2025 21:04:05 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[28-Dec-2025 19:44:23 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[28-Dec-2025 22:13:46 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[29-Dec-2025 07:45:48 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[30-Dec-2025 11:44:45 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[31-Dec-2025 06:45:05 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[31-Dec-2025 12:54:49 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[31-Dec-2025 15:34:45 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[31-Dec-2025 15:49:24 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[31-Dec-2025 15:49:27 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[31-Dec-2025 15:49:28 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[31-Dec-2025 15:49:30 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[01-Jan-2026 13:05:25 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[01-Jan-2026 22:04:26 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[02-Jan-2026 03:16:03 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[02-Jan-2026 06:37:15 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[03-Jan-2026 08:17:56 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[03-Jan-2026 17:19:42 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[03-Jan-2026 17:19:43 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[03-Jan-2026 17:19:44 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[03-Jan-2026 17:19:46 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[04-Jan-2026 07:47:22 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[04-Jan-2026 12:29:29 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[05-Jan-2026 21:30:38 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[06-Jan-2026 13:33:34 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[08-Jan-2026 00:26:07 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[08-Jan-2026 01:37:28 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[08-Jan-2026 09:35:29 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[28-Jan-2026 07:47:32 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[28-Jan-2026 19:33:15 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[29-Jan-2026 11:33:23 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[29-Jan-2026 17:14:20 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26
+[29-Jan-2026 18:33:59 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[30-Jan-2026 16:47:19 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[31-Jan-2026 10:36:53 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[01-Feb-2026 15:35:00 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[02-Feb-2026 10:54:27 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[03-Feb-2026 18:41:12 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/MaxErrorsPragmaParser.php on line 25
+[04-Feb-2026 14:15:07 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/SlotsPragmaParser.php on line 25
+[04-Feb-2026 16:48:41 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/GlobalsPragmaParser.php on line 25
+[06-Feb-2026 01:18:19 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\Parsers\PragmaParser" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/Parsers/Pragmas/CastPragmaParser.php on line 26

@@ -1,0 +1,20 @@
+/**
+ * ورودی ادمین — input-admin.css → dist/admin.css (+ fonts-yekan.css جدا).
+ * کاستوم: ./tailwind-theme.css، ./partials/admin-overrides.css
+ * پلاگین‌ها: tailwind-scrollbar-hide، tailwindcss-animation-delay، daisyui
+ */
+@import "tailwindcss";
+@import "./tailwind-theme.css";
+
+@plugin "tailwind-scrollbar-hide";
+@plugin "tailwindcss-animation-delay";
+@plugin "daisyui" {
+  themes: light --default;
+}
+
+@source "../../inc/**/*.{html,php,js}";
+@source "../../template/**/*.{html,php,js}";
+@source "../../woocommerce/**/*.{html,php,js}";
+@source "../../app/**/*.{html,php,js}";
+
+@import "./partials/admin-overrides.css";

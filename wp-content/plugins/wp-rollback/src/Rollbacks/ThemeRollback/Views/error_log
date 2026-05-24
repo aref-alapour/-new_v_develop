@@ -1,0 +1,2 @@
+[31-Dec-2025 15:37:52 UTC] PHP Fatal error:  Trait "WpRollback\SharedCore\Rollbacks\Traits\PluginHelpers" not found in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/src/Rollbacks/ThemeRollback/Views/ThemeRollbackButton.php on line 21
+[03-Jan-2026 17:13:10 UTC] PHP Fatal error:  Trait "WpRollback\SharedCore\Rollbacks\Traits\PluginHelpers" not found in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/src/Rollbacks/ThemeRollback/Views/ThemeRollbackButton.php on line 21

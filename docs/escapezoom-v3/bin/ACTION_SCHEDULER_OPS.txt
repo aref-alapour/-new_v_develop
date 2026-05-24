@@ -1,0 +1,39 @@
+فاز ۰ — قبل از تغییر روی پروداکشن
+------------------------------------------------------------
+- بکاپ کامل دیتابیس (همان DB که DB_NAME در wp-config است) + آرشیو فایل‌ها.
+- در wp-config یا MySQL بررسی کنید: $table_prefix (مثلاً wp_)؛ همهٔ جداول SECTION 5 DDL باید همان پیشوند را داشته باشند.
+- MySQL: SHOW TABLES LIKE 'wp_actionscheduler%'; (پیشوند را عوض کنید اگر لازم است.)
+
+Action Scheduler / thankyou_background_process — عملیات روی سرور
+===============================================================
+
+وقتی hook `thankyou_background_process` (در saeed-codes.php) enqueue می‌شود ولی کار اجرا نمی‌شود:
+
+1. در wp-admin → ابزارها → Scheduled Actions یا پلاگین Action Scheduler لاگ‌ها را بررسی کنید.
+2. جداول `wp_actionscheduler_*` را با ابزار WooCommerce › وضعیت › ابزارها «نصب مجدد» یا مهاجرت دیتابیس مقایسه کنید؛ در نصب‌های قدیمی ممکن است prefix یا InnoDB مشکل ایجاد کند.
+3. WP-CLI (در محیطی که دارید): غیرفعال/فعال‌سازی مجدد WooCommerce برای بازسازی schedule، یا اجرای دستی عملیات گیرکرده تنها برای عیب‌یابی.
+4. پس از بازگشت صف، سفارش‌های «پیش‌پرداخت» باید دوباره در صف قرار گیرند یا با fallback پرداخت تم (`ez_maybe_sync_booking_after_payment_complete` در functions.php) ردیف بوکینگ تکمیل می‌شود.
+
+تأیید سلامت از ریشهٔ وردپرس (CLI):
+  php wp-content/themes/escapezoom-v2/bin/verify-action-scheduler-health.php
+تأیید زنجیره بوکینگ/مارکتینگ برای یک order_id:
+  php wp-content/themes/escapezoom-v2/bin/verify-booking-chain.php 12345
+
+اسکریپت بک‌فیل اینتنت (converted) پیش از DROP جدول:
+  php wp-content/themes/escapezoom-v2/bin/migrate-checkout-intent-converted-backfill.php
+Dry run:
+  EZ_CHECKOUT_INTENT_BACKFILL_DRY_RUN=1 php .../migrate-checkout-intent-converted-backfill.php
+
+DDL جدول checkout intent + جداول WooCommerce Action Scheduler:
+  escapezoom_ddl_manual_2026.sql — SECTION 4 (CRM), SECTION 5 (WordPress DB — actionscheduler_*)
+
+فاز ۵ — Too many connections / فشار MySQL
+------------------------------------------------------------
+- پس از رفع Fatalها: SHOW STATUS LIKE 'Threads_connected'; و max_connections روی سرور MySQL.
+- اگر هنوز خطا می‌بینید: کرونهای هم‌پوشان، نشتی اتصال در اسکریپت‌های خارج از WordPress، و Wordfence/backup همزمان را بررسی کنید.
+
+خطای Commands out of sync در shutdown و Action Scheduler / get_option:
+------------------------------------------------------------
+- معمولاً عارضهٔ بعدی وقتی لینک mysqli وردپرس برای کوئری بعدی نامعتبر است؛ ریشهٔ غالب فشار کانکشن MySQL یا سرور است نه تنها WooCommerce BatchProcessingController.
+- همان بازهٔ زمانی با SHOW PROCESSLIST و Threads_connected طبقی کنید؛ اگر ۱۰۴۰ دارید قبل از رسیدگی به پیام WC این را کم کنید.
+- پیدا کنید پیش از اولین out of sync در هر request چه استثناء یا قطع نشست PDO/Medooیی رخ داده است تا منبع تداخل پیدا شود.

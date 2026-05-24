@@ -1,0 +1,20 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "escapezoom/ez-button",
+  "title": "EZ Button",
+  "category": "escapezoom",
+  "icon": "button",
+  "description": "Button (Stencil: ez-button).",
+  "attributes": {
+    "variant": { "type": "string", "default": "primary" },
+    "size": { "type": "string", "default": "md" },
+    "type": { "type": "string", "default": "button" },
+    "href": { "type": "string", "default": "" },
+    "disabled": { "type": "boolean", "default": false },
+    "loading": { "type": "boolean", "default": false },
+    "wFull": { "type": "boolean", "default": false }
+  },
+  "supports": { "html": false },
+  "textdomain": "escapezoom-core"
+}

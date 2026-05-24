@@ -1,0 +1,768 @@
+[01-Aug-2025 20:06:41 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\ActionMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php on line 15
+[02-Aug-2025 05:55:05 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[02-Aug-2025 07:02:59 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[04-Aug-2025 09:19:40 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[04-Aug-2025 18:47:37 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\ActionMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php on line 15
+[05-Aug-2025 07:12:55 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[06-Aug-2025 17:07:06 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[06-Aug-2025 17:44:58 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\ActionMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php on line 15
+[08-Aug-2025 09:15:07 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[08-Aug-2025 20:03:01 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[09-Aug-2025 10:03:12 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\ActionMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php on line 15
+[10-Aug-2025 08:35:37 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[11-Aug-2025 11:00:10 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\ActionMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php on line 15
+[11-Aug-2025 12:01:29 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[12-Aug-2025 10:14:24 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[13-Aug-2025 01:03:35 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\ActionMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php on line 15
+[13-Aug-2025 05:46:10 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[14-Aug-2025 17:35:22 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[14-Aug-2025 17:36:30 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\ActionMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php on line 15
+[15-Aug-2025 06:32:58 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[26-Aug-2025 13:17:00 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[27-Aug-2025 03:16:05 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\ActionMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php on line 15
+[27-Aug-2025 11:24:45 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[28-Aug-2025 12:23:27 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[29-Aug-2025 02:25:08 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\ActionMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php on line 15
+[29-Aug-2025 17:07:12 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[29-Aug-2025 21:04:20 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[31-Aug-2025 03:25:03 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\ActionMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php on line 15
+[31-Aug-2025 13:25:02 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[31-Aug-2025 16:24:59 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[01-Sep-2025 11:06:47 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[01-Sep-2025 22:26:06 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\ActionMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php on line 15
+[02-Sep-2025 19:37:00 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[03-Sep-2025 09:25:01 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[04-Sep-2025 01:07:44 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\ActionMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php on line 15
+[04-Sep-2025 17:33:04 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[04-Sep-2025 23:56:42 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[05-Sep-2025 23:45:22 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\ActionMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php on line 15
+[06-Sep-2025 16:55:36 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[06-Sep-2025 23:04:55 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[08-Sep-2025 00:04:50 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\ActionMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php on line 15
+[08-Sep-2025 16:25:25 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[08-Sep-2025 20:05:20 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[09-Sep-2025 23:05:49 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\ActionMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php on line 15
+[11-Sep-2025 07:06:30 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[12-Sep-2025 02:15:07 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\ActionMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php on line 15
+[12-Sep-2025 16:05:12 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[13-Sep-2025 02:54:52 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[14-Sep-2025 01:24:14 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\ActionMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php on line 15
+[14-Sep-2025 18:24:57 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[16-Sep-2025 15:35:33 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[17-Sep-2025 10:10:14 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[18-Sep-2025 05:52:51 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[19-Sep-2025 12:13:23 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[19-Sep-2025 19:13:22 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[21-Sep-2025 13:13:42 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[22-Sep-2025 17:34:27 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[24-Sep-2025 10:15:18 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[24-Sep-2025 21:46:37 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[25-Sep-2025 20:15:04 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[27-Sep-2025 16:04:25 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[30-Sep-2025 02:15:29 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[30-Sep-2025 14:05:03 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[02-Oct-2025 08:45:14 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[02-Oct-2025 10:04:56 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[04-Oct-2025 01:18:20 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[04-Oct-2025 01:18:26 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[04-Oct-2025 01:18:31 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[04-Oct-2025 04:45:35 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[04-Oct-2025 09:50:21 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[04-Oct-2025 20:04:08 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[04-Oct-2025 20:04:10 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[04-Oct-2025 20:04:14 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[05-Oct-2025 21:55:40 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[06-Oct-2025 08:54:52 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[07-Oct-2025 18:15:42 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[07-Oct-2025 20:41:32 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\ActionMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php on line 15
+[07-Oct-2025 20:41:35 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\ActionMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php on line 15
+[07-Oct-2025 20:41:38 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\ActionMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php on line 15
+[08-Oct-2025 06:14:46 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[09-Oct-2025 18:33:27 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[10-Oct-2025 08:43:35 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[11-Oct-2025 12:36:40 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[12-Oct-2025 05:45:28 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[12-Oct-2025 17:45:09 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[15-Oct-2025 01:10:07 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[15-Oct-2025 05:44:47 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[17-Oct-2025 08:13:54 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[17-Oct-2025 13:43:32 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[19-Oct-2025 06:24:07 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[21-Oct-2025 04:04:48 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[21-Oct-2025 06:54:36 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[23-Oct-2025 07:44:39 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[23-Oct-2025 10:23:14 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[24-Oct-2025 21:36:30 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[25-Oct-2025 00:04:24 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[26-Oct-2025 22:24:36 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[27-Oct-2025 21:15:59 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[29-Oct-2025 15:15:17 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[30-Oct-2025 13:45:40 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[30-Oct-2025 16:12:52 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[01-Nov-2025 17:24:39 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[02-Nov-2025 14:15:04 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[04-Nov-2025 11:54:08 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[05-Nov-2025 21:12:42 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[07-Nov-2025 06:15:11 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[09-Nov-2025 07:54:13 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[11-Nov-2025 18:14:40 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[13-Nov-2025 02:13:51 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[15-Nov-2025 05:15:08 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[15-Nov-2025 16:24:51 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[16-Nov-2025 12:35:00 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[17-Nov-2025 20:34:34 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[18-Nov-2025 02:33:53 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[19-Nov-2025 19:54:32 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[19-Nov-2025 23:26:39 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[20-Nov-2025 06:33:15 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[20-Nov-2025 06:33:51 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[20-Nov-2025 06:38:53 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\ActionMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php on line 15
+[20-Nov-2025 06:39:47 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\ActionMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php on line 15
+[20-Nov-2025 07:03:30 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[20-Nov-2025 07:03:31 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[21-Nov-2025 17:46:09 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[23-Nov-2025 12:15:07 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[24-Nov-2025 01:57:12 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[24-Nov-2025 09:56:15 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[25-Nov-2025 13:45:57 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[26-Nov-2025 06:05:22 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[26-Nov-2025 22:43:39 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[28-Nov-2025 09:05:01 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[28-Nov-2025 10:34:20 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[29-Nov-2025 10:25:16 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[29-Nov-2025 14:23:23 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[30-Nov-2025 10:55:56 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[30-Nov-2025 21:25:01 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[01-Dec-2025 10:23:23 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[02-Dec-2025 10:25:28 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[03-Dec-2025 04:13:26 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[06-Dec-2025 06:46:55 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[07-Dec-2025 14:04:13 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[08-Dec-2025 03:54:13 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[09-Dec-2025 01:14:27 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[09-Dec-2025 23:48:40 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[10-Dec-2025 14:12:50 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[11-Dec-2025 16:03:34 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[11-Dec-2025 22:44:51 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[13-Dec-2025 15:44:31 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[13-Dec-2025 17:15:03 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[15-Dec-2025 08:54:15 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[15-Dec-2025 18:44:12 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[18-Dec-2025 15:44:11 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[19-Dec-2025 01:25:33 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[19-Dec-2025 23:10:11 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[20-Dec-2025 17:53:12 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[22-Dec-2025 00:44:33 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[22-Dec-2025 18:05:07 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[23-Dec-2025 20:43:54 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[23-Dec-2025 20:43:55 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[23-Dec-2025 20:43:57 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\ActionMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php on line 15
+[24-Dec-2025 06:45:07 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[24-Dec-2025 18:04:17 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[26-Dec-2025 03:35:46 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[26-Dec-2025 17:44:01 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[28-Dec-2025 10:54:41 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[29-Dec-2025 13:44:35 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[30-Dec-2025 07:35:44 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[30-Dec-2025 16:03:56 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[31-Dec-2025 15:28:02 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[31-Dec-2025 15:28:07 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\ActionMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php on line 15
+[31-Dec-2025 15:28:08 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[01-Jan-2026 15:14:03 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[02-Jan-2026 14:13:11 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[03-Jan-2026 11:23:25 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[03-Jan-2026 17:00:56 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[03-Jan-2026 17:01:04 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\ActionMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php on line 15
+[03-Jan-2026 17:01:07 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[03-Jan-2026 18:13:13 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[05-Jan-2026 18:38:39 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[06-Jan-2026 14:05:58 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[23-Jan-2026 18:29:05 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[23-Jan-2026 18:32:29 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[25-Jan-2026 05:30:14 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\ActionMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_ActionMigrator.php on line 15
+[25-Jan-2026 09:08:15 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[25-Jan-2026 09:08:23 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[29-Jan-2026 15:14:56 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[29-Jan-2026 16:05:36 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[30-Jan-2026 16:39:18 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[01-Feb-2026 15:34:56 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[03-Feb-2026 00:05:46 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[03-Feb-2026 03:22:55 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13
+[04-Feb-2026 16:36:56 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php on line 10
+[04-Feb-2026 16:56:10 UTC] PHP Fatal error:  Uncaught Error: Class "Action_Scheduler\Migration\LogMigrator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/migration/DryRun_LogMigrator.php on line 13

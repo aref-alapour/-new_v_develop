@@ -1,0 +1,13 @@
+Load / conflict on one slot
+===========================
+
+Goal: two customers complete checkout for the same product_id + sans_time; second should hit conflict branch or validation block.
+
+Steps:
+1. Pick a near-future slot with capacity 1.
+2. User A: complete payment → booking row status=1.
+3. User B: attempt checkout for same slot — expect validation error from ez_booking_conflict_* or pipeline updates status to conflict with refund_conflict_once.
+
+Watch: [ez_order_flow] pipeline_exit and booking_ok; no double close on wp_zb_booking_history for same slot (unique constraint / business rules).
+
+WP-CLI: wp ez-report-pending-sans — lists pending orders missing sans_time (report-only).

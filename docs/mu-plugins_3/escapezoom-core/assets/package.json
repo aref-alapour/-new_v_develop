@@ -1,0 +1,27 @@
+{
+  "name": "escapezoom-core-assets",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npm run build:vite && npm run build:stencil",
+    "build:stencil": "stencil build",
+    "build:vite": "vite build",
+    "dev": "vite --host --port 5174",
+    "dev:watch": "concurrently \"vite build --watch\" \"npm run dev:stencil\"",
+    "dev:stencil": "stencil build --watch"
+  },
+  "devDependencies": {
+    "@stencil/core": "^4.43.0",
+    "@tailwindcss/vite": "^4.2.1",
+    "concurrently": "^8.2.2",
+    "daisyui": "^5.0.0",
+    "tailwindcss": "^4.2.0",
+    "vite": "^7.3.1"
+  },
+  "dependencies": {
+    "embla-carousel": "^8.6.0",
+    "embla-carousel-autoplay": "^8.6.0",
+    "embla-carousel-fade": "^8.6.0",
+    "flatpickr": "^4.6.13",
+    "jalaali-js": "^1.2.8"
+  }
+}

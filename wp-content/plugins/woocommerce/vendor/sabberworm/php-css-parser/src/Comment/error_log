@@ -1,0 +1,324 @@
+[30-Apr-2025 10:09:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[05-Aug-2025 19:04:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[09-Aug-2025 23:15:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[11-Aug-2025 23:14:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[14-Aug-2025 07:09:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[16-Aug-2025 12:51:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[27-Aug-2025 14:03:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[29-Aug-2025 15:07:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[31-Aug-2025 05:44:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[02-Sep-2025 01:05:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[04-Sep-2025 01:14:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[06-Sep-2025 01:44:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[08-Sep-2025 02:45:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[10-Sep-2025 11:44:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[11-Sep-2025 13:53:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[13-Sep-2025 11:34:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[16-Sep-2025 17:02:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[19-Sep-2025 10:04:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[21-Sep-2025 08:54:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[22-Sep-2025 22:24:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[25-Sep-2025 16:46:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[26-Sep-2025 19:25:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[26-Sep-2025 19:25:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[26-Sep-2025 19:25:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[27-Sep-2025 21:09:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[30-Sep-2025 11:24:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[01-Oct-2025 16:42:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[03-Oct-2025 19:14:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[06-Oct-2025 12:13:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[08-Oct-2025 01:44:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[09-Oct-2025 14:53:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[11-Oct-2025 09:09:37 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[12-Oct-2025 21:35:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[14-Oct-2025 15:44:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[16-Oct-2025 09:40:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[18-Oct-2025 04:15:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[19-Oct-2025 20:35:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[21-Oct-2025 21:24:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[23-Oct-2025 21:25:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[28-Oct-2025 12:36:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[30-Oct-2025 02:24:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[01-Nov-2025 09:04:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[03-Nov-2025 00:06:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[05-Nov-2025 17:23:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[09-Nov-2025 15:42:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[12-Nov-2025 06:23:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[13-Nov-2025 14:47:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[14-Nov-2025 10:45:31 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[15-Nov-2025 23:44:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[17-Nov-2025 19:25:31 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[19-Nov-2025 17:25:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[20-Nov-2025 08:42:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[20-Nov-2025 08:43:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[22-Nov-2025 07:42:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[24-Nov-2025 07:25:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[25-Nov-2025 20:53:45 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[27-Nov-2025 14:54:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[29-Nov-2025 06:35:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[01-Dec-2025 08:32:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[02-Dec-2025 23:55:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[06-Dec-2025 07:07:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[08-Dec-2025 01:55:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[12-Dec-2025 13:15:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[13-Dec-2025 23:25:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[17-Dec-2025 21:53:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[20-Dec-2025 08:54:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[22-Dec-2025 09:03:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[23-Dec-2025 20:17:37 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[23-Dec-2025 23:37:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[25-Dec-2025 23:38:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[28-Dec-2025 11:44:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[29-Dec-2025 21:40:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[31-Dec-2025 15:44:30 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[01-Jan-2026 00:44:30 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[03-Jan-2026 00:35:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[03-Jan-2026 17:16:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[05-Jan-2026 23:57:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[08-Jan-2026 02:27:40 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[28-Jan-2026 09:24:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[29-Jan-2026 18:57:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8
+[05-Feb-2026 00:06:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Comment/Comment.php on line 8

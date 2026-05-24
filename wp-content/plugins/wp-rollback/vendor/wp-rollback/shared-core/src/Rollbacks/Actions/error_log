@@ -1,0 +1,2 @@
+[31-Dec-2025 15:49:44 UTC] PHP Fatal error:  Trait "WpRollback\SharedCore\Rollbacks\Traits\PluginHelpers" not found in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/wp-rollback/shared-core/src/Rollbacks/Actions/BaseRegisterAdminMenu.php on line 24
+[03-Jan-2026 17:20:26 UTC] PHP Fatal error:  Trait "WpRollback\SharedCore\Rollbacks\Traits\PluginHelpers" not found in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/wp-rollback/shared-core/src/Rollbacks/Actions/BaseRegisterAdminMenu.php on line 24

@@ -1,0 +1,4 @@
+[14-Nov-2025 11:47:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function sanitize_text_field() in /home/escapezoom/public_html/wp-content/themes/escapezoom-v2/app/ajax/callbacks/reserve_get_table.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/themes/escapezoom-v2/app/ajax/callbacks/reserve_get_table.php on line 2

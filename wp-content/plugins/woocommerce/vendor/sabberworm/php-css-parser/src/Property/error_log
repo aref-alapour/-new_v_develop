@@ -1,0 +1,1268 @@
+[30-Apr-2025 10:11:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[30-Apr-2025 10:15:04 UTC] PHP Fatal error:  Uncaught Error: Class "Sabberworm\CSS\Property\Selector" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php on line 5
+[30-Apr-2025 10:18:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[30-Apr-2025 10:21:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[30-Apr-2025 10:23:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[04-Aug-2025 10:24:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[04-Aug-2025 17:35:07 UTC] PHP Fatal error:  Uncaught Error: Class "Sabberworm\CSS\Property\Selector" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php on line 5
+[04-Aug-2025 22:32:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[05-Aug-2025 00:14:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[05-Aug-2025 05:51:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[05-Aug-2025 20:27:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[06-Aug-2025 12:22:08 UTC] PHP Fatal error:  Uncaught Error: Class "Sabberworm\CSS\Property\Selector" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php on line 5
+[07-Aug-2025 01:25:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[07-Aug-2025 05:25:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[07-Aug-2025 20:08:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[07-Aug-2025 21:43:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[08-Aug-2025 11:48:17 UTC] PHP Fatal error:  Uncaught Error: Class "Sabberworm\CSS\Property\Selector" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php on line 5
+[08-Aug-2025 22:43:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[09-Aug-2025 10:05:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[10-Aug-2025 00:24:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[10-Aug-2025 11:45:50 UTC] PHP Fatal error:  Uncaught Error: Class "Sabberworm\CSS\Property\Selector" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php on line 5
+[10-Aug-2025 13:02:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[10-Aug-2025 23:04:50 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[11-Aug-2025 02:21:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[11-Aug-2025 23:49:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[12-Aug-2025 11:14:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[12-Aug-2025 14:28:07 UTC] PHP Fatal error:  Uncaught Error: Class "Sabberworm\CSS\Property\Selector" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php on line 5
+[12-Aug-2025 17:46:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[13-Aug-2025 04:34:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[14-Aug-2025 01:45:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[14-Aug-2025 07:23:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[14-Aug-2025 17:38:43 UTC] PHP Fatal error:  Uncaught Error: Class "Sabberworm\CSS\Property\Selector" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php on line 5
+[15-Aug-2025 00:22:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[15-Aug-2025 08:22:40 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[15-Aug-2025 16:13:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[15-Aug-2025 22:51:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[25-Aug-2025 16:36:45 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[26-Aug-2025 05:44:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[27-Aug-2025 08:57:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[27-Aug-2025 17:03:58 UTC] PHP Fatal error:  Uncaught Error: Class "Sabberworm\CSS\Property\Selector" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php on line 5
+[27-Aug-2025 17:45:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[27-Aug-2025 21:15:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[28-Aug-2025 19:17:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[29-Aug-2025 07:24:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[29-Aug-2025 18:16:52 UTC] PHP Fatal error:  Uncaught Error: Class "Sabberworm\CSS\Property\Selector" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php on line 5
+[30-Aug-2025 06:44:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[30-Aug-2025 07:33:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[30-Aug-2025 18:26:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[31-Aug-2025 15:07:24 UTC] PHP Fatal error:  Uncaught Error: Class "Sabberworm\CSS\Property\Selector" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php on line 5
+[31-Aug-2025 23:44:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[01-Sep-2025 08:46:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[01-Sep-2025 10:58:13 UTC] PHP Fatal error:  Uncaught Error: Class "Sabberworm\CSS\Property\Selector" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php on line 5
+[01-Sep-2025 13:16:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[01-Sep-2025 19:13:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[02-Sep-2025 14:27:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[02-Sep-2025 18:26:03 UTC] PHP Fatal error:  Uncaught Error: Class "Sabberworm\CSS\Property\Selector" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php on line 5
+[03-Sep-2025 01:45:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[03-Sep-2025 19:05:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[04-Sep-2025 13:16:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[04-Sep-2025 16:04:12 UTC] PHP Fatal error:  Uncaught Error: Class "Sabberworm\CSS\Property\Selector" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php on line 5
+[05-Sep-2025 00:15:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[05-Sep-2025 02:20:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[05-Sep-2025 17:15:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[07-Sep-2025 00:43:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[07-Sep-2025 01:34:44 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[07-Sep-2025 14:54:31 UTC] PHP Fatal error:  Uncaught Error: Class "Sabberworm\CSS\Property\Selector" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php on line 5
+[07-Sep-2025 15:44:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[07-Sep-2025 17:23:45 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[08-Sep-2025 14:46:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[08-Sep-2025 23:13:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[09-Sep-2025 01:24:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[09-Sep-2025 13:03:33 UTC] PHP Fatal error:  Uncaught Error: Class "Sabberworm\CSS\Property\Selector" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php on line 5
+[09-Sep-2025 14:35:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[10-Sep-2025 09:43:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[11-Sep-2025 06:58:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[11-Sep-2025 06:59:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[11-Sep-2025 07:05:20 UTC] PHP Fatal error:  Uncaught Error: Class "Sabberworm\CSS\Property\Selector" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php on line 5
+[11-Sep-2025 13:35:37 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[12-Sep-2025 04:03:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[12-Sep-2025 15:53:44 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[12-Sep-2025 17:13:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[13-Sep-2025 03:05:13 UTC] PHP Fatal error:  Uncaught Error: Class "Sabberworm\CSS\Property\Selector" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php on line 5
+[13-Sep-2025 07:04:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[13-Sep-2025 15:34:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[15-Sep-2025 00:54:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[15-Sep-2025 07:06:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[16-Sep-2025 15:41:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[16-Sep-2025 21:25:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[16-Sep-2025 23:03:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[17-Sep-2025 04:34:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[18-Sep-2025 04:03:44 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[19-Sep-2025 11:06:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[19-Sep-2025 15:34:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[20-Sep-2025 05:55:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[21-Sep-2025 00:03:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[21-Sep-2025 00:05:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[21-Sep-2025 18:54:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[22-Sep-2025 23:43:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[23-Sep-2025 10:02:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[24-Sep-2025 05:05:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[24-Sep-2025 19:05:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[25-Sep-2025 06:05:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[25-Sep-2025 11:20:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[25-Sep-2025 23:00:16 UTC] PHP Fatal error:  Uncaught Error: Class "Sabberworm\CSS\Property\Selector" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php on line 5
+[25-Sep-2025 23:00:24 UTC] PHP Fatal error:  Uncaught Error: Class "Sabberworm\CSS\Property\Selector" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php on line 5
+[25-Sep-2025 23:00:31 UTC] PHP Fatal error:  Uncaught Error: Class "Sabberworm\CSS\Property\Selector" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php on line 5
+[26-Sep-2025 15:14:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[26-Sep-2025 21:20:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[26-Sep-2025 23:44:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[27-Sep-2025 01:14:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[27-Sep-2025 01:14:40 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[27-Sep-2025 01:14:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[27-Sep-2025 11:01:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[27-Sep-2025 11:01:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[27-Sep-2025 11:01:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[27-Sep-2025 11:05:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[27-Sep-2025 13:36:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[27-Sep-2025 13:36:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[27-Sep-2025 13:36:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[28-Sep-2025 02:53:40 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[28-Sep-2025 18:44:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[29-Sep-2025 01:44:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[29-Sep-2025 04:56:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[29-Sep-2025 10:44:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[29-Sep-2025 10:44:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[29-Sep-2025 14:45:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[30-Sep-2025 18:23:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[01-Oct-2025 01:23:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[01-Oct-2025 08:55:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[01-Oct-2025 23:14:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[02-Oct-2025 23:43:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[03-Oct-2025 02:35:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[03-Oct-2025 05:22:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[05-Oct-2025 08:34:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[05-Oct-2025 09:22:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[05-Oct-2025 16:32:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[06-Oct-2025 04:32:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[06-Oct-2025 15:24:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[06-Oct-2025 17:35:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[07-Oct-2025 15:43:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[08-Oct-2025 05:05:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[08-Oct-2025 17:53:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[09-Oct-2025 15:25:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[10-Oct-2025 09:15:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[10-Oct-2025 21:45:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[11-Oct-2025 00:34:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[11-Oct-2025 10:15:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[12-Oct-2025 05:03:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[12-Oct-2025 10:15:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[13-Oct-2025 07:15:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[13-Oct-2025 10:04:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[13-Oct-2025 14:35:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[15-Oct-2025 02:34:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[15-Oct-2025 10:03:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[15-Oct-2025 22:53:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[16-Oct-2025 12:53:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[17-Oct-2025 02:30:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[17-Oct-2025 06:44:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[18-Oct-2025 01:12:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[18-Oct-2025 02:24:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[18-Oct-2025 14:34:44 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[18-Oct-2025 19:23:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[19-Oct-2025 14:27:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[19-Oct-2025 15:53:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[20-Oct-2025 01:03:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[21-Oct-2025 06:34:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[21-Oct-2025 06:54:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[21-Oct-2025 16:44:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[22-Oct-2025 01:54:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[22-Oct-2025 15:46:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[22-Oct-2025 20:33:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[23-Oct-2025 15:45:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[23-Oct-2025 17:04:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[24-Oct-2025 01:10:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[24-Oct-2025 16:05:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[24-Oct-2025 16:33:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[26-Oct-2025 02:43:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[26-Oct-2025 03:24:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[27-Oct-2025 03:34:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[28-Oct-2025 09:26:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[28-Oct-2025 10:53:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[29-Oct-2025 18:33:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[29-Oct-2025 22:04:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[30-Oct-2025 06:13:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[31-Oct-2025 03:35:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[01-Nov-2025 05:34:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[01-Nov-2025 06:27:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[01-Nov-2025 11:05:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[02-Nov-2025 17:15:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[02-Nov-2025 18:55:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[03-Nov-2025 03:15:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[04-Nov-2025 03:44:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[05-Nov-2025 00:15:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[05-Nov-2025 06:16:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[05-Nov-2025 07:05:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[06-Nov-2025 16:44:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[07-Nov-2025 19:33:44 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[08-Nov-2025 02:03:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[08-Nov-2025 05:53:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[09-Nov-2025 05:35:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[10-Nov-2025 10:14:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[10-Nov-2025 16:13:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[12-Nov-2025 07:35:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[13-Nov-2025 05:21:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[15-Nov-2025 02:26:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[16-Nov-2025 01:55:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[16-Nov-2025 09:03:45 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[17-Nov-2025 00:55:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[18-Nov-2025 01:04:31 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[18-Nov-2025 16:36:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[19-Nov-2025 07:06:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[20-Nov-2025 02:14:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[20-Nov-2025 06:53:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[20-Nov-2025 09:11:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[20-Nov-2025 09:11:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[20-Nov-2025 09:13:37 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[20-Nov-2025 09:13:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[20-Nov-2025 09:14:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[20-Nov-2025 09:15:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[20-Nov-2025 09:18:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[20-Nov-2025 09:18:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[20-Nov-2025 09:20:18 UTC] PHP Fatal error:  Uncaught Error: Class "Sabberworm\CSS\Property\Selector" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php on line 5
+[20-Nov-2025 09:20:43 UTC] PHP Fatal error:  Uncaught Error: Class "Sabberworm\CSS\Property\Selector" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php on line 5
+[20-Nov-2025 13:53:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[22-Nov-2025 02:34:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[23-Nov-2025 01:14:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[23-Nov-2025 19:45:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[23-Nov-2025 20:50:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[24-Nov-2025 05:46:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[24-Nov-2025 20:14:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[25-Nov-2025 17:05:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[26-Nov-2025 07:54:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[27-Nov-2025 22:10:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[27-Nov-2025 22:26:30 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[28-Nov-2025 01:26:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[28-Nov-2025 07:45:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[29-Nov-2025 16:45:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[29-Nov-2025 18:05:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[29-Nov-2025 22:35:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[01-Dec-2025 13:16:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[01-Dec-2025 18:25:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[02-Dec-2025 01:25:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[02-Dec-2025 05:10:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[03-Dec-2025 13:34:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[04-Dec-2025 08:42:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[05-Dec-2025 19:14:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[05-Dec-2025 19:52:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[07-Dec-2025 18:04:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[07-Dec-2025 21:32:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[08-Dec-2025 07:45:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[10-Dec-2025 08:15:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[10-Dec-2025 10:34:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[10-Dec-2025 10:34:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[11-Dec-2025 18:25:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[12-Dec-2025 00:34:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[12-Dec-2025 05:15:50 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[14-Dec-2025 06:15:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[14-Dec-2025 12:23:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[15-Dec-2025 17:16:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[16-Dec-2025 01:54:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[16-Dec-2025 09:24:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[18-Dec-2025 04:57:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[18-Dec-2025 15:10:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[19-Dec-2025 22:43:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[20-Dec-2025 12:13:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[20-Dec-2025 15:25:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[22-Dec-2025 00:55:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[22-Dec-2025 07:14:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[22-Dec-2025 11:24:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[23-Dec-2025 20:18:09 UTC] PHP Fatal error:  Uncaught Error: Class "Sabberworm\CSS\Property\Selector" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php on line 5
+[23-Dec-2025 20:18:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[23-Dec-2025 20:18:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[23-Dec-2025 20:18:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[23-Dec-2025 20:18:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[24-Dec-2025 04:35:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[26-Dec-2025 06:34:37 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[26-Dec-2025 07:44:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[26-Dec-2025 10:44:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[28-Dec-2025 05:54:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[28-Dec-2025 08:50:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[28-Dec-2025 11:05:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[30-Dec-2025 04:55:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[30-Dec-2025 07:06:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[30-Dec-2025 11:43:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[31-Dec-2025 15:44:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[31-Dec-2025 15:44:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[31-Dec-2025 15:44:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[31-Dec-2025 15:44:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[31-Dec-2025 15:44:45 UTC] PHP Fatal error:  Uncaught Error: Class "Sabberworm\CSS\Property\Selector" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php on line 5
+[01-Jan-2026 11:53:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[01-Jan-2026 13:52:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[03-Jan-2026 08:35:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[03-Jan-2026 08:43:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[03-Jan-2026 15:15:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[03-Jan-2026 17:16:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[03-Jan-2026 17:16:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Charset.php on line 17
+[03-Jan-2026 17:16:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[03-Jan-2026 17:16:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[03-Jan-2026 17:16:29 UTC] PHP Fatal error:  Uncaught Error: Class "Sabberworm\CSS\Property\Selector" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/KeyframeSelector.php on line 5
+[05-Jan-2026 21:36:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[05-Jan-2026 21:41:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[05-Jan-2026 23:49:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[06-Jan-2026 08:16:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[06-Jan-2026 08:16:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[07-Jan-2026 15:45:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[17-Jan-2026 01:04:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[28-Jan-2026 22:51:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[29-Jan-2026 20:07:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[30-Jan-2026 03:14:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[30-Jan-2026 22:53:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[31-Jan-2026 19:36:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[01-Feb-2026 22:20:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[04-Feb-2026 05:36:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11
+[04-Feb-2026 09:19:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[05-Feb-2026 00:33:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/Import.php on line 12
+[06-Feb-2026 03:35:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Renderable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/AtRule.php on line 8
+[06-Feb-2026 05:47:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Sabberworm\CSS\Property\AtRule" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/sabberworm/php-css-parser/src/Property/CSSNamespace.php on line 11

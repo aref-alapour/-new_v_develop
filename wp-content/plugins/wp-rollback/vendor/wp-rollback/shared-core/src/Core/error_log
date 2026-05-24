@@ -1,0 +1,40 @@
+[31-Dec-2025 05:49:56 UTC] PHP Fatal error:  Uncaught Error: Interface "WpRollback\SharedCore\Core\ConstantsInterface" not found in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/wp-rollback/shared-core/src/Core/BaseConstants.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/wp-rollback/shared-core/src/Core/BaseConstants.php on line 21
+[31-Dec-2025 05:49:56 UTC] PHP Fatal error:  Uncaught Error: Interface "WpRollback\SharedCore\Core\ConstantsInterface" not found in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/wp-rollback/shared-core/src/Core/BaseConstants.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/wp-rollback/shared-core/src/Core/BaseConstants.php on line 21
+[31-Dec-2025 05:50:32 UTC] PHP Fatal error:  Uncaught Error: Interface "WpRollback\SharedCore\Core\ConstantsInterface" not found in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/wp-rollback/shared-core/src/Core/BaseConstants.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/wp-rollback/shared-core/src/Core/BaseConstants.php on line 21
+[31-Dec-2025 14:48:30 UTC] PHP Fatal error:  Uncaught Error: Interface "WpRollback\SharedCore\Core\Contracts\ServiceProvider" not found in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/wp-rollback/shared-core/src/Core/ServiceProvider.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/wp-rollback/shared-core/src/Core/ServiceProvider.php on line 25
+[31-Dec-2025 14:48:30 UTC] PHP Fatal error:  Uncaught Error: Interface "WpRollback\SharedCore\Core\Contracts\ServiceProvider" not found in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/wp-rollback/shared-core/src/Core/ServiceProvider.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/wp-rollback/shared-core/src/Core/ServiceProvider.php on line 25
+[31-Dec-2025 14:49:06 UTC] PHP Fatal error:  Uncaught Error: Interface "WpRollback\SharedCore\Core\Contracts\ServiceProvider" not found in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/wp-rollback/shared-core/src/Core/ServiceProvider.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/wp-rollback/shared-core/src/Core/ServiceProvider.php on line 25
+[31-Dec-2025 15:47:08 UTC] PHP Fatal error:  Uncaught Error: Interface "WpRollback\SharedCore\Core\ConstantsInterface" not found in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/wp-rollback/shared-core/src/Core/BaseConstants.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/wp-rollback/shared-core/src/Core/BaseConstants.php on line 21
+[31-Dec-2025 15:47:16 UTC] PHP Fatal error:  Uncaught Error: Interface "WpRollback\SharedCore\Core\Contracts\ServiceProvider" not found in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/wp-rollback/shared-core/src/Core/ServiceProvider.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/wp-rollback/shared-core/src/Core/ServiceProvider.php on line 25
+[03-Jan-2026 17:18:01 UTC] PHP Fatal error:  Uncaught Error: Interface "WpRollback\SharedCore\Core\ConstantsInterface" not found in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/wp-rollback/shared-core/src/Core/BaseConstants.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/wp-rollback/shared-core/src/Core/BaseConstants.php on line 21
+[03-Jan-2026 17:18:06 UTC] PHP Fatal error:  Uncaught Error: Interface "WpRollback\SharedCore\Core\Contracts\ServiceProvider" not found in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/wp-rollback/shared-core/src/Core/ServiceProvider.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/wp-rollback/shared-core/src/Core/ServiceProvider.php on line 25

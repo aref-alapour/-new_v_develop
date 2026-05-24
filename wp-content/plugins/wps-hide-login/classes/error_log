@@ -1,0 +1,14 @@
+[19-Nov-2025 15:23:37 UTC] PHP Fatal error:  Trait "WPS\WPS_Hide_Login\Singleton" not found in /home/escapezoom/public_html/wp-content/plugins/wps-hide-login/classes/plugin.php on line 6
+[19-Nov-2025 15:26:17 UTC] PHP Fatal error:  Trait "WPS\WPS_Hide_Login\Singleton" not found in /home/escapezoom/public_html/wp-content/plugins/wps-hide-login/classes/plugin.php on line 6
+[24-Nov-2025 20:41:10 UTC] PHP Fatal error:  Trait "WPS\WPS_Hide_Login\Singleton" not found in /home/escapezoom/public_html/wp-content/plugins/wps-hide-login/classes/plugin.php on line 6
+[25-Nov-2025 14:25:54 UTC] PHP Fatal error:  Trait "WPS\WPS_Hide_Login\Singleton" not found in /home/escapezoom/public_html/wp-content/plugins/wps-hide-login/classes/plugin.php on line 6
+[17-Dec-2025 07:13:14 UTC] PHP Fatal error:  Trait "WPS\WPS_Hide_Login\Singleton" not found in /home/escapezoom/public_html/wp-content/plugins/wps-hide-login/classes/plugin.php on line 6
+[17-Dec-2025 21:05:58 UTC] PHP Fatal error:  Trait "WPS\WPS_Hide_Login\Singleton" not found in /home/escapezoom/public_html/wp-content/plugins/wps-hide-login/classes/plugin.php on line 6
+[23-Dec-2025 19:47:58 UTC] PHP Fatal error:  Trait "WPS\WPS_Hide_Login\Singleton" not found in /home/escapezoom/public_html/wp-content/plugins/wps-hide-login/classes/plugin.php on line 6
+[30-Dec-2025 18:39:23 UTC] PHP Fatal error:  Trait "WPS\WPS_Hide_Login\Singleton" not found in /home/escapezoom/public_html/wp-content/plugins/wps-hide-login/classes/plugin.php on line 6
+[30-Dec-2025 18:39:24 UTC] PHP Fatal error:  Trait "WPS\WPS_Hide_Login\Singleton" not found in /home/escapezoom/public_html/wp-content/plugins/wps-hide-login/classes/plugin.php on line 6
+[30-Dec-2025 18:39:58 UTC] PHP Fatal error:  Trait "WPS\WPS_Hide_Login\Singleton" not found in /home/escapezoom/public_html/wp-content/plugins/wps-hide-login/classes/plugin.php on line 6
+[31-Dec-2025 15:11:11 UTC] PHP Fatal error:  Trait "WPS\WPS_Hide_Login\Singleton" not found in /home/escapezoom/public_html/wp-content/plugins/wps-hide-login/classes/plugin.php on line 6
+[02-Jan-2026 10:15:43 UTC] PHP Fatal error:  Trait "WPS\WPS_Hide_Login\Singleton" not found in /home/escapezoom/public_html/wp-content/plugins/wps-hide-login/classes/plugin.php on line 6
+[03-Jan-2026 16:37:29 UTC] PHP Fatal error:  Trait "WPS\WPS_Hide_Login\Singleton" not found in /home/escapezoom/public_html/wp-content/plugins/wps-hide-login/classes/plugin.php on line 6
+[28-Jan-2026 14:54:09 UTC] PHP Fatal error:  Trait "WPS\WPS_Hide_Login\Singleton" not found in /home/escapezoom/public_html/wp-content/plugins/wps-hide-login/classes/plugin.php on line 6

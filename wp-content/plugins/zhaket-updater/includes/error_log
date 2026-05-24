@@ -1,0 +1,7 @@
+[31-Dec-2025 09:04:58 UTC] PHP Fatal error:  Trait "ZhaketUpdater\HelpersClass\SingleInstance" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/DependencyChecker.php on line 12
+[31-Dec-2025 09:04:58 UTC] PHP Fatal error:  Trait "ZhaketUpdater\HelpersClass\SingleInstance" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/DependencyChecker.php on line 12
+[31-Dec-2025 09:05:21 UTC] PHP Fatal error:  Trait "ZhaketUpdater\HelpersClass\SingleInstance" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/DependencyChecker.php on line 12
+[31-Dec-2025 15:11:22 UTC] PHP Fatal error:  Trait "ZhaketUpdater\HelpersClass\SingleInstance" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/DependencyChecker.php on line 12
+[02-Jan-2026 10:13:38 UTC] PHP Fatal error:  Trait "ZhaketUpdater\HelpersClass\SingleInstance" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/DependencyChecker.php on line 12
+[03-Jan-2026 16:37:42 UTC] PHP Fatal error:  Trait "ZhaketUpdater\HelpersClass\SingleInstance" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/DependencyChecker.php on line 12
+[28-Jan-2026 14:54:40 UTC] PHP Fatal error:  Trait "ZhaketUpdater\HelpersClass\SingleInstance" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/DependencyChecker.php on line 12

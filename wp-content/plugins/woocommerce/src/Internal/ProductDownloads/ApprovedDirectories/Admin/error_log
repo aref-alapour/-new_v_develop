@@ -1,0 +1,264 @@
+[30-Apr-2025 02:43:33 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[04-Aug-2025 03:42:36 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[25-Aug-2025 18:55:33 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[28-Aug-2025 22:33:36 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[01-Sep-2025 19:08:17 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[03-Sep-2025 16:14:04 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[05-Sep-2025 15:40:11 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[06-Sep-2025 15:19:04 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[07-Sep-2025 20:34:54 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[11-Sep-2025 12:44:47 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[13-Sep-2025 02:34:58 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[14-Sep-2025 22:15:01 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[17-Sep-2025 01:55:03 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[19-Sep-2025 11:37:02 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[21-Sep-2025 03:23:38 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[24-Sep-2025 06:14:55 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[30-Sep-2025 03:55:22 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[01-Oct-2025 16:24:20 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[04-Oct-2025 08:05:29 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[07-Oct-2025 17:25:45 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[11-Oct-2025 19:54:35 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[15-Oct-2025 02:25:52 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[16-Oct-2025 19:05:07 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[19-Oct-2025 05:16:39 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[25-Oct-2025 12:54:20 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[27-Oct-2025 08:15:10 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[29-Oct-2025 02:14:31 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[31-Oct-2025 15:14:25 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[04-Nov-2025 06:25:09 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[06-Nov-2025 12:32:45 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[10-Nov-2025 03:14:25 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[12-Nov-2025 04:45:53 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[14-Nov-2025 23:50:15 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[17-Nov-2025 13:54:39 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[20-Nov-2025 08:05:38 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[20-Nov-2025 11:08:58 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[20-Nov-2025 11:09:00 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[21-Nov-2025 16:24:19 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[25-Nov-2025 21:54:37 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[27-Nov-2025 18:25:15 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[30-Nov-2025 17:32:50 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[30-Nov-2025 17:32:54 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[30-Nov-2025 17:32:58 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[02-Dec-2025 07:54:41 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[04-Dec-2025 07:17:28 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[05-Dec-2025 22:21:44 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[08-Dec-2025 03:15:41 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[09-Dec-2025 17:20:21 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[12-Dec-2025 13:25:47 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[14-Dec-2025 10:35:36 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[15-Dec-2025 21:35:22 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[18-Dec-2025 15:15:28 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[19-Dec-2025 18:34:41 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[22-Dec-2025 15:14:18 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[23-Dec-2025 19:57:52 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[24-Dec-2025 13:24:28 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[26-Dec-2025 09:30:08 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[28-Dec-2025 06:23:33 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[30-Dec-2025 07:43:26 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[31-Dec-2025 15:44:06 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[03-Jan-2026 11:25:47 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[03-Jan-2026 17:16:03 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[05-Jan-2026 23:35:08 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[30-Jan-2026 05:34:55 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[04-Feb-2026 09:29:48 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13
+[06-Feb-2026 06:02:55 UTC] PHP Fatal error:  Uncaught Error: Class "WP_List_Table" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/ProductDownloads/ApprovedDirectories/Admin/Table.php on line 13

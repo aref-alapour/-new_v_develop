@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "yekan";
+    src: local("yekan"),
+    url("../fonts/yekan-bakh/yekan-bakh-medium.woff2") format("woff2");
+    font-display: swap;
+}
+* {
+    font-family: 'yekan', serif;
+}
+.column-profile img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    object-fit: cover;
+    border: 1px solid #c9c9c9;
+}
+.row-actions .inline.hide-if-no-js {
+    display: none;
+}

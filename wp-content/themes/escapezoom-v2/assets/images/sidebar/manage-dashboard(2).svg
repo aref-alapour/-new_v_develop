@@ -1,0 +1,42 @@
+<svg width="22" height="28" viewBox="0 0 22 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="22" height="28" fill="#686868"/>
+<g id=" Sessions Managment">
+<rect width="1440" height="1213" transform="translate(-1324 -360)" fill="white"/>
+<g id="Group 1149">
+<g id="Rectangle 283" filter="url(#filter0_d_0_1)">
+<rect x="-34" y="-219" width="90" height="660" rx="20" fill="white"/>
+<rect x="-33.5" y="-218.5" width="89" height="659" rx="19.5" stroke="#E8EDF1"/>
+</g>
+<g id="Frame 344">
+<g id="Frame 334">
+<g id="Frame 482">
+<g id="iwwa:dashboard">
+<rect width="22" height="27" transform="translate(0 0.559601)" fill="white"/>
+<g id="Group 363">
+<g id="Group 361">
+<rect id="Rectangle 285" x="3.30078" y="6.5596" width="5.5" height="5.5" rx="2.75" fill="#FF6900" stroke="#FF6900" stroke-width="1.5"/>
+<rect id="Rectangle 286" x="12.1016" y="7.65961" width="7.7" height="3.3" rx="1" fill="#FF6900" stroke="#FF6900" stroke-width="1.5"/>
+</g>
+<g id="Group 362">
+<rect id="Rectangle 285_2" x="3.30078" y="15.3596" width="5.5" height="5.5" rx="2.75" fill="#FF6900" stroke="#FF6900" stroke-width="1.5"/>
+<rect id="Rectangle 286_2" x="12.1016" y="16.4596" width="7.7" height="3.3" rx="1" fill="#FF6900" stroke="#FF6900" stroke-width="1.5"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_0_1" x="-34" y="-219" width="90" height="662" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.909804 0 0 0 0 0.929412 0 0 0 0 0.945098 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape"/>
+</filter>
+</defs>
+</svg>

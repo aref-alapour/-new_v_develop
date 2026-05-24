@@ -1,0 +1,16 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "escapezoom/ez-comments",
+  "title": "EZ Comments",
+  "category": "escapezoom",
+  "icon": "format-chat",
+  "description": "Comments section/slider (Stencil comment items). Rendered via theme template part.",
+  "attributes": {
+    "postId": { "type": "number", "default": 0 },
+    "postType": { "type": "string", "default": "post" },
+    "limit": { "type": "number", "default": 5 }
+  },
+  "supports": { "html": false },
+  "textdomain": "escapezoom-core"
+}

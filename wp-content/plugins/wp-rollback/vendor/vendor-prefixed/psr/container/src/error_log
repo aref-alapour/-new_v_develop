@@ -1,0 +1,20 @@
+[31-Dec-2025 04:16:42 UTC] PHP Fatal error:  Uncaught Error: Interface "WpRollback\Free\Dependencies\Psr\Container\ContainerExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/vendor-prefixed/psr/container/src/NotFoundExceptionInterface.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/vendor-prefixed/psr/container/src/NotFoundExceptionInterface.php on line 8
+[31-Dec-2025 04:16:43 UTC] PHP Fatal error:  Uncaught Error: Interface "WpRollback\Free\Dependencies\Psr\Container\ContainerExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/vendor-prefixed/psr/container/src/NotFoundExceptionInterface.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/vendor-prefixed/psr/container/src/NotFoundExceptionInterface.php on line 8
+[31-Dec-2025 04:17:03 UTC] PHP Fatal error:  Uncaught Error: Interface "WpRollback\Free\Dependencies\Psr\Container\ContainerExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/vendor-prefixed/psr/container/src/NotFoundExceptionInterface.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/vendor-prefixed/psr/container/src/NotFoundExceptionInterface.php on line 8
+[31-Dec-2025 15:47:01 UTC] PHP Fatal error:  Uncaught Error: Interface "WpRollback\Free\Dependencies\Psr\Container\ContainerExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/vendor-prefixed/psr/container/src/NotFoundExceptionInterface.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/vendor-prefixed/psr/container/src/NotFoundExceptionInterface.php on line 8
+[03-Jan-2026 17:18:15 UTC] PHP Fatal error:  Uncaught Error: Interface "WpRollback\Free\Dependencies\Psr\Container\ContainerExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/vendor-prefixed/psr/container/src/NotFoundExceptionInterface.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/vendor-prefixed/psr/container/src/NotFoundExceptionInterface.php on line 8

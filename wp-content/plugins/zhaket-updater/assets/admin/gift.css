@@ -1,0 +1,16 @@
+@import url("https://cdn.rawgit.com/rastikerdar/vazir-font/v20.0.0/dist/font-face.css");
+
+@font-face {
+    font-family: iconly;
+    font-style: normal;
+    font-weight: 200;
+    src: url(../fonts/Iconly-light.eot);
+    src: url(../fonts/Iconly-light.eot?#iefix)     format("embedded-opentype"),
+     url(../fonts/Iconly-light.woff)      format("woff"),
+     url(../fonts/Iconly-light.ttf)      format("truetype"),
+     url(../fonts/Iconly-light.svg#Iconly-light) format("svg")
+}
+
+#wpbody-content>*:not(.zhk-gift),.notice{
+    display: none !important;
+}

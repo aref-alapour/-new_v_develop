@@ -1,0 +1,84 @@
+/**
+ * جدا از باندل Tailwind تا مسیر url() نسبت به همین فایل درست حل شود.
+ * فایل‌های woff2 را در assets/fonts/yekan-bakh/ قرار دهید (نام‌ها مطابق زیر).
+ * تا قبل از لود Yekan، پشتیبان Vazirmatn از Google بارگذاری می‌شود.
+ */
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap");
+
+@font-face {
+	font-family: yekanbakh;
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+	src: local('Yekan Bakh'), url('../fonts/yekan-bakh/yekan-bakh-light.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: yekanbakh;
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: local('Yekan Bakh'), url('../fonts/yekan-bakh/yekan-bakh-regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: yekanbakh;
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+	src: local('Yekan Bakh'), url('../fonts/yekan-bakh/yekan-bakh-medium.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: yekanbakh;
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: local('Yekan Bakh'), url('../fonts/yekan-bakh/yekan-bakh-bold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: yekanbakh;
+	font-style: normal;
+	font-weight: 800;
+	font-display: swap;
+	src: local('Yekan Bakh'), url('../fonts/yekan-bakh/yekan-bakh-heavy.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: yekanbakh;
+	font-style: normal;
+	font-weight: 900;
+	font-display: swap;
+	src: local('Yekan Bakh'), url('../fonts/yekan-bakh/yekan-bakh-fat.woff2') format('woff2');
+}
+
+/**
+ * استک فونت یکسان برای فرانت، ادمین، ورود و ادیتور بلوک.
+ * ez-theme-fonts قبل از dist/front.css و dist/admin.css enqueue می‌شود.
+ */
+html {
+	font-family: yekanbakh, "Vazirmatn", ui-sans-serif, system-ui, sans-serif;
+}
+
+body,
+body.wp-admin,
+body.login,
+#wpwrap,
+.interface-interface-skeleton__body {
+	font-family: inherit;
+}
+
+.wp-admin textarea,
+.wp-admin input,
+.wp-admin select,
+.wp-admin button,
+.media-frame-title h1,
+.media-frame-content {
+	font-family: inherit;
+}
+
+.editor-styles-wrapper,
+.block-editor-block-list__layout {
+	font-family: inherit;
+}

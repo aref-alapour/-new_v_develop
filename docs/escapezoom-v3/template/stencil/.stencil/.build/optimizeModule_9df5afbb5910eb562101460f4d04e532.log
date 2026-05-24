@@ -1,0 +1,1 @@
+import{r,h as a,H as o}from"./p-DmLvSBBd.js";const e=class{constructor(a){r(this,a)}render(){return a(o,{key:"d33e60f80562f3953b36c4c5238cab97c92966a3",class:"table-row border-b border-slate-105 hover:bg-gray-50 transition-colors duration-200"},a("slot",{key:"f4b63273ad11af1f5a962f153d70800ec1194f6d"}))}};export{e as ez_table_row}

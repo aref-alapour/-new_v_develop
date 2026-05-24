@@ -1,0 +1,32 @@
+{
+    "name": "escapezoom/core",
+    "description": "EscapeZoom Core - Eloquent ORM, Illuminate packages & Corcel for WordPress integration",
+    "type": "wordpress-muplugin",
+    "require": {
+        "php": ">=8.2",
+        "htmlburger/carbon-fields": "^3.6",
+        "jgrossi/corcel": "^9.0",
+        "illuminate/database": "^11.0 || ^12.0",
+        "illuminate/cache": "^11.0 || ^12.0",
+        "illuminate/validation": "^11.0 || ^12.0",
+        "illuminate/events": "^11.0 || ^12.0",
+        "illuminate/queue": "^11.0 || ^12.0",
+        "illuminate/support": "^11.0 || ^12.0",
+        "illuminate/contracts": "^11.0 || ^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "EscapeZoom\\Core\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

@@ -1,0 +1,2 @@
+# Do not deploy vendor trees from local builds; keep theme packages small.
+node_modules/

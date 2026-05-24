@@ -1,0 +1,350 @@
+[29-Apr-2025 03:15:15 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[29-Apr-2025 03:15:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[30-Jul-2025 02:08:05 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[30-Jul-2025 02:08:05 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[02-Aug-2025 06:12:02 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[02-Aug-2025 06:12:02 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[25-Aug-2025 14:36:31 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[25-Aug-2025 14:36:31 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[27-Aug-2025 05:45:52 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[27-Aug-2025 05:45:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[29-Aug-2025 04:23:54 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[29-Aug-2025 04:23:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[30-Aug-2025 22:46:07 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[30-Aug-2025 22:46:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[01-Sep-2025 19:08:20 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[01-Sep-2025 19:08:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[03-Sep-2025 15:36:34 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[03-Sep-2025 15:36:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[06-Sep-2025 05:49:15 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[06-Sep-2025 05:49:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[08-Sep-2025 05:07:38 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[08-Sep-2025 05:07:38 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[09-Sep-2025 14:20:20 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[09-Sep-2025 14:20:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[11-Sep-2025 04:54:57 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[11-Sep-2025 04:54:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[13-Sep-2025 05:33:57 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[13-Sep-2025 05:33:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[17-Sep-2025 11:24:21 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[17-Sep-2025 11:24:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[18-Sep-2025 20:04:24 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[18-Sep-2025 20:04:24 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[23-Sep-2025 09:23:13 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[23-Sep-2025 09:23:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[23-Sep-2025 09:23:16 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[23-Sep-2025 09:23:16 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[23-Sep-2025 09:23:20 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[23-Sep-2025 09:23:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[23-Sep-2025 13:54:54 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[23-Sep-2025 13:54:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[25-Sep-2025 10:22:55 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[25-Sep-2025 10:22:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[26-Sep-2025 18:23:15 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[26-Sep-2025 18:23:15 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[28-Sep-2025 23:54:53 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[28-Sep-2025 23:54:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[01-Oct-2025 04:24:43 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[01-Oct-2025 04:24:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[02-Oct-2025 17:24:53 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[02-Oct-2025 17:24:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[04-Oct-2025 13:08:07 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[04-Oct-2025 13:08:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[06-Oct-2025 09:55:05 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[06-Oct-2025 09:55:05 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[08-Oct-2025 06:14:02 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[08-Oct-2025 06:14:02 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[10-Oct-2025 04:42:07 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[10-Oct-2025 04:42:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[11-Oct-2025 15:02:39 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[11-Oct-2025 15:02:39 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[12-Oct-2025 11:24:26 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[12-Oct-2025 11:24:26 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[14-Oct-2025 05:24:52 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[14-Oct-2025 05:24:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[16-Oct-2025 04:25:18 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[16-Oct-2025 04:25:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[18-Oct-2025 05:44:36 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[18-Oct-2025 05:44:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[20-Oct-2025 00:23:41 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[20-Oct-2025 00:23:41 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[22-Oct-2025 01:45:50 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[22-Oct-2025 01:45:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[24-Oct-2025 02:06:27 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[24-Oct-2025 02:06:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[26-Oct-2025 06:42:28 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[26-Oct-2025 06:42:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[28-Oct-2025 13:34:18 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[28-Oct-2025 13:34:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[30-Oct-2025 06:54:42 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[30-Oct-2025 06:54:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[01-Nov-2025 09:22:42 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[01-Nov-2025 09:22:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[04-Nov-2025 15:55:23 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[04-Nov-2025 15:55:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[08-Nov-2025 14:57:39 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[08-Nov-2025 14:57:39 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[13-Nov-2025 22:36:17 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[13-Nov-2025 22:36:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[15-Nov-2025 12:45:39 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[15-Nov-2025 12:45:39 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[16-Nov-2025 12:55:26 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[16-Nov-2025 12:55:26 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[17-Nov-2025 12:45:54 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[17-Nov-2025 12:45:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[19-Nov-2025 05:35:53 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[19-Nov-2025 05:35:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[19-Nov-2025 23:50:08 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[19-Nov-2025 23:50:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[19-Nov-2025 23:51:12 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[19-Nov-2025 23:51:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[20-Nov-2025 11:25:17 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[20-Nov-2025 11:25:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[21-Nov-2025 15:26:28 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[21-Nov-2025 15:26:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[23-Nov-2025 04:54:45 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[23-Nov-2025 04:54:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[24-Nov-2025 14:34:30 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[24-Nov-2025 14:34:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[24-Nov-2025 20:33:20 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[24-Nov-2025 20:33:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[25-Nov-2025 14:19:33 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[25-Nov-2025 14:19:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[28-Nov-2025 01:25:40 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[28-Nov-2025 01:25:40 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[30-Nov-2025 07:04:50 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[30-Nov-2025 07:04:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[01-Dec-2025 12:36:13 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[01-Dec-2025 12:36:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[03-Dec-2025 01:05:55 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[03-Dec-2025 01:05:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[17-Dec-2025 07:08:35 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[17-Dec-2025 07:08:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[17-Dec-2025 21:09:58 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[17-Dec-2025 21:09:58 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[23-Dec-2025 20:41:52 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[23-Dec-2025 20:41:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[31-Dec-2025 03:58:41 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[31-Dec-2025 03:58:41 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[31-Dec-2025 03:58:41 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[31-Dec-2025 03:58:41 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[31-Dec-2025 03:58:50 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[31-Dec-2025 03:58:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[31-Dec-2025 15:13:18 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[31-Dec-2025 15:13:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[02-Jan-2026 10:08:43 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[02-Jan-2026 10:08:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[03-Jan-2026 16:39:31 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[03-Jan-2026 16:39:31 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[28-Jan-2026 14:57:01 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13
+[28-Jan-2026 14:57:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/email-editor.php on line 13

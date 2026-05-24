@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cut Corner Box</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            direction: rtl;
+        }
+
+        .box {
+            width: 300px;
+            height: 300px;
+            background: rgb(255, 89, 89);
+            border-radius: 20px 20px 0 0;
+            /* فقط بالا گرد */
+
+            /* برش نرم دو گوشه پایین با لبه‌های گرد */
+            clip-path: url(#rounded-cut);
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+
+        .icon {
+            width: 60px;
+            height: 60px;
+            background: conic-gradient(from 0deg, #34d399, #10b981);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 28px;
+            color: white;
+            font-weight: bold;
+        }
+
+        .title {
+            font-size: 24px;
+            color: #1f2937;
+            margin: 0;
+        }
+
+        .number {
+            font-size: 32px;
+            font-weight: bold;
+            color: #1f2937;
+            margin: 0;
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- SVG برای ساختن لبه‌های گرد -->
+    <svg width="0" height="0">
+        <defs>
+            <clipPath id="rounded-cut" clipPathUnits="objectBoundingBox">
+                <path d="M 0,0 L 1,0 L 1,0.87 Q 0.97,0.97 0.87,1 L 0.13,1 Q 0.03,0.97 0,0.87 Z" />
+            </clipPath>
+        </defs>
+    </svg>
+
+    <div class="box">
+        <div class="icon">O</div>
+        <h2 class="title">بازدید مطلب</h2>
+        <p class="number">۲۱۵۶۳</p>
+    </div>
+
+</body>
+
+</html>

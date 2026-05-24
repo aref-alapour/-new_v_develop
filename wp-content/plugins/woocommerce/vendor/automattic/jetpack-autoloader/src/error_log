@@ -1,0 +1,458 @@
+[30-Apr-2025 05:09:06 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[30-Apr-2025 05:09:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[30-Apr-2025 05:46:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Composer\Plugin\PluginInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php on line 22
+[02-Aug-2025 16:04:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Composer\Plugin\PluginInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php on line 22
+[02-Aug-2025 16:15:21 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[02-Aug-2025 16:15:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[04-Aug-2025 22:04:28 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[04-Aug-2025 22:04:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[05-Aug-2025 02:38:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Composer\Plugin\PluginInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php on line 22
+[07-Aug-2025 05:44:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Composer\Plugin\PluginInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php on line 22
+[08-Aug-2025 19:40:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Composer\Plugin\PluginInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php on line 22
+[11-Aug-2025 13:37:30 UTC] PHP Fatal error:  Uncaught Error: Interface "Composer\Plugin\PluginInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php on line 22
+[13-Aug-2025 06:15:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Composer\Plugin\PluginInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php on line 22
+[15-Aug-2025 07:22:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Composer\Plugin\PluginInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php on line 22
+[26-Aug-2025 02:10:01 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[26-Aug-2025 02:10:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[26-Aug-2025 09:04:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Composer\Plugin\PluginInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php on line 22
+[28-Aug-2025 02:07:37 UTC] PHP Fatal error:  Uncaught Error: Interface "Composer\Plugin\PluginInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php on line 22
+[29-Aug-2025 02:34:38 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[29-Aug-2025 02:34:38 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[30-Aug-2025 02:15:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Composer\Plugin\PluginInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php on line 22
+[30-Aug-2025 23:17:20 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[30-Aug-2025 23:17:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[01-Sep-2025 04:04:37 UTC] PHP Fatal error:  Uncaught Error: Interface "Composer\Plugin\PluginInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php on line 22
+[01-Sep-2025 12:45:36 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[01-Sep-2025 12:45:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[03-Sep-2025 01:37:40 UTC] PHP Fatal error:  Uncaught Error: Interface "Composer\Plugin\PluginInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php on line 22
+[03-Sep-2025 05:17:39 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[03-Sep-2025 05:17:39 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[04-Sep-2025 17:05:03 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[04-Sep-2025 17:05:03 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[05-Sep-2025 00:45:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Composer\Plugin\PluginInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php on line 22
+[06-Sep-2025 17:04:51 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[06-Sep-2025 17:04:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[06-Sep-2025 22:19:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Composer\Plugin\PluginInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php on line 22
+[08-Sep-2025 17:04:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Composer\Plugin\PluginInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php on line 22
+[08-Sep-2025 18:04:08 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[08-Sep-2025 18:04:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[10-Sep-2025 14:28:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Composer\Plugin\PluginInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php on line 22
+[10-Sep-2025 16:04:09 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[10-Sep-2025 16:04:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[13-Sep-2025 07:05:04 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[13-Sep-2025 07:05:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[16-Sep-2025 16:46:48 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[16-Sep-2025 16:46:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[18-Sep-2025 19:54:20 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[18-Sep-2025 19:54:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[23-Sep-2025 11:03:28 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[23-Sep-2025 11:03:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[26-Sep-2025 11:16:13 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[26-Sep-2025 11:16:13 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[27-Sep-2025 21:05:07 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[27-Sep-2025 21:05:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[29-Sep-2025 21:33:17 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[29-Sep-2025 21:33:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[02-Oct-2025 02:15:44 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[02-Oct-2025 02:15:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[05-Oct-2025 01:13:41 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[05-Oct-2025 01:13:41 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[06-Oct-2025 19:44:02 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[06-Oct-2025 19:44:02 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[08-Oct-2025 17:03:52 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[08-Oct-2025 17:03:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[10-Oct-2025 21:35:34 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[10-Oct-2025 21:35:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[12-Oct-2025 19:44:23 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[12-Oct-2025 19:44:23 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[14-Oct-2025 22:05:47 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[14-Oct-2025 22:05:47 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[16-Oct-2025 14:34:21 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[16-Oct-2025 14:34:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[17-Oct-2025 14:15:59 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[17-Oct-2025 14:15:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[20-Oct-2025 15:54:43 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[20-Oct-2025 15:54:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[25-Oct-2025 04:23:47 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[25-Oct-2025 04:23:47 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[27-Oct-2025 01:16:50 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[27-Oct-2025 01:16:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[28-Oct-2025 22:54:26 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[28-Oct-2025 22:54:26 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[02-Nov-2025 03:25:25 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[02-Nov-2025 03:25:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[04-Nov-2025 11:54:29 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[04-Nov-2025 11:54:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[06-Nov-2025 13:43:52 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[06-Nov-2025 13:43:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[09-Nov-2025 08:15:47 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[09-Nov-2025 08:15:47 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[12-Nov-2025 13:15:19 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[12-Nov-2025 13:15:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[14-Nov-2025 00:34:55 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[14-Nov-2025 00:34:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[16-Nov-2025 03:34:42 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[16-Nov-2025 03:34:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[17-Nov-2025 14:25:56 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[17-Nov-2025 14:25:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[19-Nov-2025 05:43:39 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[19-Nov-2025 05:43:39 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[20-Nov-2025 11:01:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Composer\Plugin\PluginInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php on line 22
+[20-Nov-2025 11:01:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Composer\Plugin\PluginInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php on line 22
+[20-Nov-2025 11:01:26 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[20-Nov-2025 11:01:26 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[20-Nov-2025 11:01:34 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[20-Nov-2025 11:01:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[21-Nov-2025 21:55:56 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[21-Nov-2025 21:55:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[23-Nov-2025 22:37:03 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[23-Nov-2025 22:37:03 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[27-Nov-2025 16:45:08 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[27-Nov-2025 16:45:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[30-Nov-2025 02:05:49 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[30-Nov-2025 02:05:49 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[02-Dec-2025 00:15:14 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[02-Dec-2025 00:15:14 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[03-Dec-2025 16:34:52 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[03-Dec-2025 16:34:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[06-Dec-2025 07:17:54 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[06-Dec-2025 07:17:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[08-Dec-2025 06:35:06 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[08-Dec-2025 06:35:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[10-Dec-2025 01:32:01 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[10-Dec-2025 01:32:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[11-Dec-2025 20:15:54 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[11-Dec-2025 20:15:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[14-Dec-2025 08:34:51 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[14-Dec-2025 08:34:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[16-Dec-2025 09:54:35 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[16-Dec-2025 09:54:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[18-Dec-2025 15:08:12 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[18-Dec-2025 15:08:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[20-Dec-2025 05:45:19 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[20-Dec-2025 05:45:19 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[21-Dec-2025 18:35:33 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[21-Dec-2025 18:35:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[23-Dec-2025 20:21:43 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[23-Dec-2025 20:21:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[23-Dec-2025 20:21:50 UTC] PHP Fatal error:  Uncaught Error: Interface "Composer\Plugin\PluginInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php on line 22
+[24-Dec-2025 07:35:51 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[24-Dec-2025 07:35:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[26-Dec-2025 03:25:49 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[26-Dec-2025 03:25:49 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[30-Dec-2025 05:35:30 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[30-Dec-2025 05:35:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[31-Dec-2025 15:34:05 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[31-Dec-2025 15:34:05 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[31-Dec-2025 15:34:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Composer\Plugin\PluginInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php on line 22
+[01-Jan-2026 14:43:55 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[01-Jan-2026 14:43:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[03-Jan-2026 12:56:07 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[03-Jan-2026 12:56:07 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[03-Jan-2026 17:07:59 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[03-Jan-2026 17:07:59 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[03-Jan-2026 17:08:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Composer\Plugin\PluginInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/CustomAutoloaderPlugin.php on line 22
+[05-Jan-2026 18:42:39 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[05-Jan-2026 18:42:39 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[08-Jan-2026 01:45:57 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[08-Jan-2026 01:45:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[23-Jan-2026 19:15:53 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[23-Jan-2026 19:15:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[25-Jan-2026 18:52:42 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[25-Jan-2026 18:52:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[27-Jan-2026 16:53:18 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[27-Jan-2026 16:53:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[30-Jan-2026 02:24:11 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[30-Jan-2026 02:24:11 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[03-Feb-2026 04:36:46 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[03-Feb-2026 04:36:46 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[04-Feb-2026 16:54:20 UTC] PHP Warning:  require_once(/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php): Failed to open stream: No such file or directory in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4
+[04-Feb-2026 16:54:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/jetpack-autoloader/class-autoloader.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/automattic/jetpack-autoloader/src/autoload.php on line 4

@@ -1,0 +1,13 @@
+{
+    "name": "nagatheme/user-role-editor-pro",
+    "description": "User Role Editor Pro localizations by NagaTheme",
+    "authors": [
+        {
+            "name": "NagaTheme",
+            "email": "developers@nagatheme.com"
+        }
+    ],
+    "require": {
+        "wearerequired/traduttore-registry": "^2.1"
+    }
+}

@@ -1,0 +1,1390 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>اسکیپ زوم</title>
+    <link rel="stylesheet" href="./assets/vendor/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <style>
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body class="max-lg:pt-32">
+
+<header class="container mx-auto ">
+    <div class="px-4 sm:px-6 md:divide-y md:divide-slate-60 md:px-8">
+
+        <div class="hidden flex-wrap items-center justify-center pb-2 pt-6 text-2xs lg:flex lg:justify-between">
+
+            <div class="flex items-center justify-between gap-5 divide-x divide-x-reverse divide-gray-200">
+
+                <!-- Select City -->
+                <select class="select-location">
+                    <option>انتخاب شهر</option>
+                    <option value="تهران">تهران</option>
+                    <option value="کرج">کرج</option>
+                    <option value="اصفهان">اصفهان</option>
+                    <option value="مشهد">مشهد</option>
+                </select>
+                <!-- Select City -->
+
+                <!-- Get Location -->
+                <div class="flex items-center justify-between gap-8 px-5">
+                    <button type="button" id="get-location"
+                            class="flex gap-4 items-center justify-center relative font-semibold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 transition-all duration-300 ease-in-out disabled:cursor-not-allowed disabled:shadow-none disabled:bg-transparent disabled:opacity-30 disabled:text-gray-900 text-3xs">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="18" viewBox="0 0 24 24">
+                            <path clip-rule="evenodd" d="M8.27 14.952l1.593-5.09 5.089-1.592-1.593 5.09-5.089 1.592z"
+                                  stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                  stroke-linejoin="round" vector-effect="non-scaling-stroke"></path>
+                            <circle cx="11.611" cy="11.611" r="9.611" stroke="currentColor" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke">
+                            </circle>
+                        </svg>
+                        <span class="truncate">مکان یابی خودکار</span>
+                    </button>
+                    <div class="text-3xs text-gray-600">برای نتیجه بهتر شهر را انتخاب کتید</div>
+                </div>
+                <!-- Get Location -->
+
+            </div>
+
+            <!-- Support -->
+            <div class="flex items-center gap-10 py-1.5">
+                <div class="text-3xs text-gray-600">منتظر شنیدن صدای گرم شما هستیم</div>
+                <div class="flex items-center justify-between font-black">
+                    <span>پشتیبانی شبانه روزی</span>
+                    <a href="tel:02191307900" class="ml-3 mr-5 text-lg leading-4" dir="ltr">02191307900</a>
+                    <svg width="16" height="16" class="-mt-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"
+                         fill="none">
+                        <path d="M10.4001 9.68149C8.80348 11.3615 4.73094 7.32546 6.33356 5.63878C7.31219 4.60877 6.20689 3.43209 5.59491 2.56608C4.44628 0.942732 1.92568 3.18409 2.00168 4.6101C2.24367 9.10748 7.1082 14.4369 11.8187 13.9715C13.292 13.8262 14.9853 11.1648 13.2947 10.1922C12.45 9.70549 11.2894 8.74548 10.4001 9.68082M9.33347 2.00008C10.5711 2.00008 11.7581 2.49175 12.6332 3.36692C13.5083 4.2421 14 5.4291 14 6.66679M9.33347 4.66677C9.86389 4.66677 10.3726 4.87748 10.7476 5.25256C11.1227 5.62764 11.3334 6.13635 11.3334 6.66679"
+                              stroke="#09192D" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                </div>
+            </div>
+            <!-- Support -->
+
+        </div>
+
+        <nav class="hidden flex-wrap items-center justify-between pt-7 lg:flex">
+
+            <div class="flex flex-wrap items-center justify-between gap-2.5 xl:gap-8">
+
+                <!-- Logo -->
+                <a class="flex items-center gap-4.5" href="<?php bloginfo( 'url' ); ?>">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="113" fill="none" viewBox="0 0 113 29"
+                         class="w-40 2xl:w-44">
+                        <path class="fill-primary-500" fill-rule="evenodd"
+                              d="M110.388 23.144c-.991 0-1.771-.832-1.771-1.81V7.091c0-.98.781-1.811 1.771-1.811.99 0 1.77.832 1.77 1.811v14.243c0 .979-.78 1.81-1.77 1.81Zm-5.235 0H90.997c-.035 0-.069 0-.097-.002h-.005a6.754 6.754 0 0 1-4.632-2.029c-3.211 2.644-9.819 3.029-12.737-.207a6.753 6.753 0 0 1-5.029 2.238h-.034a6.753 6.753 0 0 1-5.029-2.238 6.757 6.757 0 0 1-5.03 2.238H46.643c-.962 0-1.77-.771-1.77-1.741 0-.97.808-1.742 1.77-1.742h11.761a3.289 3.289 0 0 0 3.288-3.288V13.94l.001-.049v-.019l.001-.014.002-.035.001-.014.002-.03.002-.011.001-.012a.29.29 0 0 1 .004-.031l.002-.015.004-.033.002-.012.005-.028a1.72 1.72 0 0 1 1.468-1.396l.047-.005.018-.002.026-.002.027-.001.037-.002h.006c.014-.001.028-.002.037-.001l.02-.001h.058l.042.001.032.001.008.001a.434.434 0 0 1 .054.003l.013.001.022.002.011.001a.236.236 0 0 0 .021.002l.014.002a1.72 1.72 0 0 1 1.468 1.397l.007.041.006.042.004.028.001.012a.31.31 0 0 1 .003.034l.002.025.001.01v.01l.001.016.001.01v.009l.001.026v2.472a3.289 3.289 0 0 0 3.288 3.288h.034a3.289 3.289 0 0 0 3.288-3.288v-2.491l.001-.01.001-.014.002-.035v-.014l.003-.03.001-.011.002-.012.003-.031.002-.015.005-.033.002-.012.005-.028a1.72 1.72 0 0 1 1.468-1.396l.047-.005.018-.002.025-.002.028-.001.036-.002h.007a.233.233 0 0 1 .036-.001l.02-.001h.059l.042.001.032.001.007.001a.459.459 0 0 1 .054.003l.014.001.022.002.011.001a.206.206 0 0 0 .021.002 1.72 1.72 0 0 1 1.482 1.399l.007.041.006.042.003.028.002.012a.31.31 0 0 1 .003.034l.002.025.001.01v.01l.001.016v.01l.001.009v.026l.001.014v2.458c0 4.429 6.896 3.85 9.115 1.631a5.362 5.362 0 0 0-3.774-9.155h-.021l-.023.001a5.342 5.342 0 0 0-3.767 1.57.563.563 0 0 1-.146.106 1.764 1.764 0 0 1-2.483-2.483.581.581 0 0 1 .105-.147L81.668.503a1.788 1.788 0 0 1 2.524 0 1.79 1.79 0 0 1 0 2.525l-1.471 1.471-.007.006-.863.864a8.938 8.938 0 0 1 6.643 13.01 3.276 3.276 0 0 0 2.177 1.255 1.79 1.79 0 0 1 .326-.031h14.156c.974 0 1.77.798 1.77 1.771 0 .974-.796 1.77-1.77 1.77Zm-63.937-13.13a1.952 1.952 0 1 1 0-3.904 1.952 1.952 0 0 1 0 3.904Zm-15.893 4.912-1.054-.188.094-.527a4.242 4.242 0 0 1 4.175-3.491h.535l-3.656 3.679-.094.527Zm7.077 3.871.006-.005a5.444 5.444 0 0 0-3.868-9.275 5.444 5.444 0 1 0 1.47 10.688l.078-.022 2.095 3.628h-3.643c-4.888 0-8.852-3.963-8.852-8.85a8.852 8.852 0 0 1 17.702 0v12.79l-5.103-8.839.115-.115ZM9.162 23.811a8.821 8.821 0 0 1-5.443-1.871v5c0 .938-.766 1.704-1.704 1.704A1.707 1.707 0 0 1 .312 26.94V14.961a8.852 8.852 0 0 1 17.702 0c0 4.887-3.965 8.85-8.852 8.85Zm0-14.294a5.444 5.444 0 0 0-3.868 9.275l.03.03.002.002a5.444 5.444 0 1 0 3.836-9.307Zm32.054 1.348c.938 0 1.703.766 1.703 1.703v14.371c0 .937-.765 1.703-1.703 1.703a1.706 1.706 0 0 1-1.703-1.703V12.568c0-.938.765-1.703 1.703-1.703Z"
+                              clip-rule="evenodd"></path>
+                        <path fill-rule="evenodd"
+                              d="M47.352 24.8c1.13 0 2.052.921 2.052 2.052 0 1.13-.922 2.051-2.052 2.051a2.055 2.055 0 0 1-2.052-2.051c0-1.131.922-2.052 2.052-2.052Zm4.204 0c1.13 0 2.052.921 2.052 2.052 0 1.13-.922 2.051-2.052 2.051a2.055 2.055 0 0 1-2.052-2.051c0-1.131.922-2.052 2.052-2.052Zm4.204 0c1.13 0 2.052.921 2.052 2.052 0 1.13-.922 2.051-2.052 2.051a2.055 2.055 0 0 1-2.052-2.051c0-1.131.922-2.052 2.052-2.052Zm10.511 0c1.13 0 2.052.921 2.052 2.052 0 1.13-.922 2.051-2.052 2.051a2.055 2.055 0 0 1-2.052-2.051c0-1.131.921-2.052 2.052-2.052Zm4.203 0c1.13 0 2.052.921 2.052 2.052 0 1.13-.922 2.051-2.052 2.051a2.055 2.055 0 0 1-2.052-2.051c0-1.131.922-2.052 2.052-2.052Z"
+                              clip-rule="evenodd" class="fill-slate-800"></path>
+                    </svg>
+                </a>
+                <!-- Logo -->
+
+                <!-- Nav Menu -->
+                <div class="flex items-center gap-3">
+                    <nav aria-label="Main" data-orientation="horizontal" dir="rtl"
+                         class="relative z-10 flex max-w-max flex-1 items-center justify-center">
+                        <div style="position:relative">
+                            <ul data-orientation="horizontal"
+                                class="group flex flex-1 list-none items-center justify-center gap-3" dir="rtl">
+                                <li class="relative group">
+                                    <button id="radix-:Rcpjsq:-trigger-radix-:Rmcpjsq:" data-state="closed"
+                                            aria-expanded="false" aria-controls="radix-:Rcpjsq:-content-radix-:Rmcpjsq:"
+                                            class="group justify-center bg-background text-sm font-medium transition-colors hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50 group shadow-wrapper inline-flex h-11.5 w-full items-center rounded-lg px-6 py-5.5 before:rounded-lg hover:bg-button-gradient hover:shadow-none"
+                                            data-radix-collection-item="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="18"
+                                             viewBox="0 0 24 24">
+                                            <path clip-rule="evenodd"
+                                                  d="M16.334 2.75H7.665c-3.02 0-4.915 2.14-4.915 5.166v8.168c0 3.027 1.885 5.166 4.915 5.166h8.668c3.031 0 4.917-2.139 4.917-5.166V7.916c0-3.027-1.886-5.166-4.916-5.166z"
+                                                  stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                                  stroke-linejoin="round"></path>
+                                            <path clip-rule="evenodd"
+                                                  d="M10.692 12a1.852 1.852 0 11-3.705 0 1.852 1.852 0 013.705 0z"
+                                                  stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                                  stroke-linejoin="round"></path>
+                                            <path d="M10.692 12h6.318v1.852M14.181 13.852V12" stroke="currentColor"
+                                                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                            </path>
+                                        </svg>
+                                        <span class="mx-2.5 text-nowrap text-2xs">شهرها</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="24"
+                                             viewBox="0 0 24 24"
+                                             class="relative top-[1px] ml-1 h-3 w-3 transition duration-300 group-data-[state=open]:rotate-180"
+                                             aria-hidden="true">
+                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                  stroke-width="1.5" d="m19 8.5-7 7-7-7"
+                                                  vector-effect="non-scaling-stroke"></path>
+                                        </svg>
+                                    </button>
+                                    <ul class="hidden group-hover:grid w-[200px] absolute top-full bg-white shadow-13 grid-cols-2 rounded-xl overflow-hidden">
+                                        <li class="flex">
+                                            <a href="#"
+                                               class="text-center p-1 w-full hover:bg-[#EDF2F5] hover:text-primary-500">تهران</a>
+                                        </li>
+                                        <li class="flex">
+                                            <a href="#"
+                                               class="text-center p-1 w-full hover:bg-[#EDF2F5] hover:text-primary-500">کرج</a>
+                                        </li>
+                                        <li class="flex">
+                                            <a href="#"
+                                               class="text-center p-1 w-full hover:bg-[#EDF2F5] hover:text-primary-500">اصفهان</a>
+                                        </li>
+                                        <li class="flex">
+                                            <a href="#"
+                                               class="text-center p-1 w-full hover:bg-[#EDF2F5] hover:text-primary-500">شیراز</a>
+                                        </li>
+                                        <li class="flex">
+                                            <a href="#"
+                                               class="text-center p-1 w-full hover:bg-[#EDF2F5] hover:text-primary-500">مشهد</a>
+                                        </li>
+                                        <li class="flex">
+                                            <a href="#"
+                                               class="text-center p-1 w-full hover:bg-[#EDF2F5] hover:text-primary-500">تبریز</a>
+                                        </li>
+                                        <li class="flex">
+                                            <a href="#"
+                                               class="text-center p-1 w-full hover:bg-[#EDF2F5] hover:text-primary-500">اهواز</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="absolute right-0 top-full flex justify-center"></div>
+                    </nav>
+                    <nav aria-label="Main" data-orientation="horizontal" dir="rtl"
+                         class="relative z-10 flex max-w-max flex-1 items-center justify-center">
+                        <div style="position:relative">
+                            <ul data-orientation="horizontal"
+                                class="group flex flex-1 list-none items-center justify-center gap-3" dir="rtl">
+                                <li class="group">
+                                    <button id="radix-:Rkpjsq:-trigger-radix-:Rmkpjsq:" data-state="closed"
+                                            aria-expanded="false" aria-controls="radix-:Rkpjsq:-content-radix-:Rmkpjsq:"
+                                            class="group justify-center bg-background text-sm font-medium transition-colors hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50 group shadow-wrapper inline-flex h-11.5 w-full items-center rounded-lg px-6 py-5.5 before:rounded-lg hover:bg-button-gradient hover:shadow-none"
+                                            data-radix-collection-item="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="18"
+                                             viewBox="0 0 24 24">
+                                            <path clip-rule="evenodd"
+                                                  d="M16.334 2.75H7.665c-3.02 0-4.915 2.14-4.915 5.166v8.168c0 3.027 1.885 5.166 4.915 5.166h8.668c3.031 0 4.917-2.139 4.917-5.166V7.916c0-3.027-1.886-5.166-4.916-5.166z"
+                                                  stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                                  stroke-linejoin="round"></path>
+                                            <path clip-rule="evenodd"
+                                                  d="M10.692 12a1.852 1.852 0 11-3.705 0 1.852 1.852 0 013.705 0z"
+                                                  stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                                  stroke-linejoin="round"></path>
+                                            <path d="M10.692 12h6.318v1.852M14.181 13.852V12" stroke="currentColor"
+                                                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                            </path>
+                                        </svg>
+                                        <span class="mx-2.5 text-nowrap text-2xs">اتاق فرار</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="24"
+                                             viewBox="0 0 24 24"
+                                             class="relative top-[1px] ml-1 h-3 w-3 transition duration-300 group-data-[state=open]:rotate-180"
+                                             aria-hidden="true">
+                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                  stroke-width="1.5" d="m19 8.5-7 7-7-7"
+                                                  vector-effect="non-scaling-stroke"></path>
+                                        </svg>
+                                    </button>
+                                    <div class="hidden group-hover:grid grid-cols-3 min-w-[700px] items-center justify-between bg-[url('../images/menu-1.png')] bg-white bg-cover bg-left-bottom bg-no-repeat absolute shadow-13 shadow rounded-xl">
+                                        <div class="col-span-2 p-9 grid grid-cols-2">
+                                            <div class="px-3">
+                                                <h5 class="font-bold">تهرانی ها</h5>
+                                                <div class="relative mb-4 mt-3 w-full border-t border-slate-100 after:absolute after:-top-px after:right-0 after:z-20 after:block after:h-px after:w-8 after:bg-primary-500 after:content-['']"></div>
+                                                <ul class="grid grid-cols-2 text-xs">
+                                                    <li class="leading-8 even:text-end">
+                                                        <a class="cursor-pointer hover:text-primary-500"
+                                                           href="/type/%D8%A7%D8%AA%D8%A7%D9%82-%D9%81%D8%B1%D8%A7%D8%B1-%D8%BA%D8%B1%D8%A8-%D8%AA%D9%87%D8%B1%D8%A7%D9%86/">غرب</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="px-3">
+                                                <h5 class="font-bold">اتاق فرار</h5>
+                                                <div class="relative mb-4 mt-3 w-full border-t border-slate-100 after:absolute after:-top-px after:right-0 after:z-20 after:block after:h-px after:w-8 after:bg-primary-500 after:content-['']"></div>
+                                                <ul class="grid grid-cols-2 text-xs">
+                                                    <li class="leading-8 even:text-end">
+                                                        <a class="cursor-pointer hover:text-primary-500"
+                                                           href="/city/%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86/">اصفهان</a>
+                                                    </li>
+                                                    <li class="leading-8 even:text-end">
+                                                        <a class="cursor-pointer hover:text-primary-500"
+                                                           href="/city/%D9%85%D8%B4%D9%87%D8%AF/">مشهد</a>
+                                                    </li>
+                                                    <li class="leading-8 even:text-end">
+                                                        <a class="cursor-pointer hover:text-primary-500"
+                                                           href="/city/%DA%A9%D8%A7%D8%B4%D8%A7%D9%86/">کاشان</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-span-1 p-10">
+                                            <button type="button"
+                                                    class="flex gap-4 items-center relative text-sm font-semibold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 transition-all duration-300 ease-in-out disabled:bg-slate-110 disabled:text-[#ccc] disabled:cursor-not-allowed disabled:shadow-none bg-primary-600 text-white shadow-14 hover:bg-primary-500 focus-visible:outline-primary-600 h-12 min-w-12 px-6 py-1 rounded-lg justify-between shadow-none"
+                                                    data-tabindex="" tabindex="-1">
+                                                <span class="truncate">مشاهده با نقشه</span><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="18"
+                                                     viewBox="0 0 24 24">
+                                                    <path fill="currentColor" fill-rule="evenodd"
+                                                          d="M2 12C2 6.48 6.47 2 12 2c5.52 0 10 4.48 10 10 0 5.53-4.48 10-10 10-5.53 0-10-4.47-10-10Zm12.23 1.83 1.62-5.12a.45.45 0 0 0-.56-.57l-5.12 1.6c-.21.07-.38.23-.44.44l-1.6 5.13c-.11.34.22.67.56.56l5.1-1.6c.21-.06.38-.23.44-.44Z"
+                                                          clip-rule="evenodd"></path>
+                                                </svg>
+                                            </span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="absolute right-0 top-full flex justify-center"></div>
+                    </nav>
+                    <nav aria-label="Main" data-orientation="horizontal" dir="rtl"
+                         class="relative z-10 flex max-w-max flex-1 items-center justify-center">
+                        <div style="position:relative">
+                            <ul data-orientation="horizontal"
+                                class="group flex flex-1 list-none items-center justify-center gap-3" dir="rtl">
+                                <li>
+                                    <button id="radix-:Rspjsq:-trigger-radix-:Rmspjsq:" data-state="closed"
+                                            aria-expanded="false" aria-controls="radix-:Rspjsq:-content-radix-:Rmspjsq:"
+                                            class="group justify-center bg-background text-sm font-medium transition-colors hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50 group shadow-wrapper inline-flex h-11.5 w-full items-center rounded-lg px-6 py-5.5 before:rounded-lg hover:bg-button-gradient hover:shadow-none"
+                                            data-radix-collection-item="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="18"
+                                             viewBox="0 0 24 24">
+                                            <path clip-rule="evenodd"
+                                                  d="M16.334 2.75H7.665c-3.02 0-4.915 2.14-4.915 5.166v8.168c0 3.027 1.885 5.166 4.915 5.166h8.668c3.031 0 4.917-2.139 4.917-5.166V7.916c0-3.027-1.886-5.166-4.916-5.166z"
+                                                  stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                                  stroke-linejoin="round"></path>
+                                            <path clip-rule="evenodd"
+                                                  d="M10.692 12a1.852 1.852 0 11-3.705 0 1.852 1.852 0 013.705 0z"
+                                                  stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                                  stroke-linejoin="round"></path>
+                                            <path d="M10.692 12h6.318v1.852M14.181 13.852V12" stroke="currentColor"
+                                                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                            </path>
+                                        </svg>
+                                        <span class="mx-2.5 text-nowrap text-2xs">لیزرتگ</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="24"
+                                             viewBox="0 0 24 24"
+                                             class="relative top-[1px] ml-1 h-3 w-3 transition duration-300 group-data-[state=open]:rotate-180"
+                                             aria-hidden="true">
+                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                  stroke-width="1.5" d="m19 8.5-7 7-7-7"
+                                                  vector-effect="non-scaling-stroke"></path>
+                                        </svg>
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="absolute right-0 top-full flex justify-center"></div>
+                    </nav>
+                    <nav aria-label="Main" data-orientation="horizontal" dir="rtl"
+                         class="relative z-10 flex max-w-max flex-1 items-center justify-center">
+                        <div style="position:relative">
+                            <ul data-orientation="horizontal"
+                                class="group flex flex-1 list-none items-center justify-center gap-3" dir="rtl">
+                                <li>
+                                    <button id="radix-:R14pjsq:-trigger-radix-:Rn4pjsq:" data-state="closed"
+                                            aria-expanded="false"
+                                            aria-controls="radix-:R14pjsq:-content-radix-:Rn4pjsq:"
+                                            class="group justify-center bg-background text-sm font-medium transition-colors hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50 group shadow-wrapper inline-flex h-11.5 w-full items-center rounded-lg px-6 py-5.5 before:rounded-lg hover:bg-button-gradient hover:shadow-none"
+                                            data-radix-collection-item="">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="18"
+                                             viewBox="0 0 24 24">
+                                            <path clip-rule="evenodd"
+                                                  d="M16.334 2.75H7.665c-3.02 0-4.915 2.14-4.915 5.166v8.168c0 3.027 1.885 5.166 4.915 5.166h8.668c3.031 0 4.917-2.139 4.917-5.166V7.916c0-3.027-1.886-5.166-4.916-5.166z"
+                                                  stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                                  stroke-linejoin="round"></path>
+                                            <path clip-rule="evenodd"
+                                                  d="M10.692 12a1.852 1.852 0 11-3.705 0 1.852 1.852 0 013.705 0z"
+                                                  stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                                  stroke-linejoin="round"></path>
+                                            <path d="M10.692 12h6.318v1.852M14.181 13.852V12" stroke="currentColor"
+                                                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                            </path>
+                                        </svg>
+                                        <span class="mx-2.5 text-nowrap text-2xs">سینماترس</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="24"
+                                             viewBox="0 0 24 24"
+                                             class="relative top-[1px] ml-1 h-3 w-3 transition duration-300 group-data-[state=open]:rotate-180"
+                                             aria-hidden="true">
+                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                  stroke-width="1.5" d="m19 8.5-7 7-7-7"
+                                                  vector-effect="non-scaling-stroke"></path>
+                                        </svg>
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="absolute right-0 top-full flex justify-center"></div>
+                    </nav>
+                    <a class="flex gap-4 items-center justify-center relative text-sm font-semibold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 transition-all duration-300 ease-in-out disabled:bg-slate-110 disabled:text-[#ccc] disabled:cursor-not-allowed disabled:shadow-none bg-white text-gray-900 border border-gray-100 hover:bg-button-gradient focus-visible:bg-button-gradient min-w-16 py-2 shadow-wrapper h-11.5 rounded-lg px-6 before:rounded-lg hover:shadow-none"
+                       href="/blog/">
+                        <span class="truncate">
+                            <span class="mx-2.5 text-2xs">مجله سرگرمی</span>
+                        </span>
+                    </a>
+                </div>
+                <!-- Nav Menu -->
+
+            </div>
+
+            <div class="flex flex-wrap items-center justify-between gap-2.5">
+
+                <!-- Search -->
+                <div class="max-xl:hidden 2xl:ml-2.5">
+                    <div id="lg-search-container" class="relative">
+                        <form id="lg-search-form">
+                            <div class="relative">
+                                <div class="relative">
+                                    <input id="lg-search" class="text-gray-900 block w-full border-0 p-1.5 text-sm shadow-13 outline-none ring-1 ring-inset ring-gray-100 placeholder:text-right placeholder:text-slate-200 focus:shadow-none focus:ring-2 focus:ring-inset focus:ring-primary-500 py-2 px-6 pl-12 h-11.5 rounded-lg shadow-none placeholder:text-2xs 2xl:min-w-62 4xl:min-w-75" placeholder="نام سرگرمی خود را وارد نمایید ..." data-path="search" type="text" value="" name="search">
+                                    <div class="absolute left-0 top-0 flex h-full items-center pl-6">
+                                        <button type="submit">
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="18" viewBox="0 0 24 24">
+                                                <circle cx="11.767" cy="11.767" r="8.989" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></circle>
+                                                <path d="M18.018 18.485L21.542 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                                <p id="lg-search-alert" class="text-3xs text-primary-500 absolute mt-1 hidden">در حال جستجو <span class="loading-dots"></span></p>
+                            </div>
+                        </form>
+                        <div id="lg-search-result" class="absolute hidden z-10 mt-4 w-full rounded-lg border bg-white shadow-[0px_4px_4px_0px_rgba(0,0,0,.1)]">
+                            <div class="relative">
+                                <button id="lg-search-close" class="text-red-600 hover:text-primary-600 leading-[10px] transition absolute text-[25px] left-3 top-2">×</button>
+                                <div id="lg-search-result-list" class="max-h-75 divide-y divide-[#E4EBF0] overflow-y-auto px-4 py-5">
+                                    <a href="/room/اتاق-فرار-سیروتا/" class="flex items-center gap-x-2 py-2">
+                                        <img src="https://escapezoom.ir/wp-content/uploads/2023/11/cirota-300-370.jpg" alt="اسکیپ‌زوم - سیروتا" class="h-10 w-7.5 rounded">
+                                        <span>سیروتا</span>
+                                    </a>
+                                    <a href="/room/اتاق-فرار-قوی-سیاه/" class="flex items-center gap-x-2 py-2">
+                                        <img src="https://escapezoom.ir/wp-content/uploads/2024/01/Black-Spawn.jpg" alt="اسکیپ‌زوم - قوی سیاه" class="h-10 w-7.5 rounded">
+                                        <span>قوی سیاه</span>
+                                    </a>
+                                    <a href="/room/اتاق-فرار-سیزده-13/" class="flex items-center gap-x-2 py-2">
+                                        <img src="https://escapezoom.ir/wp-content/uploads/2023/08/PicsArt_07_11_05.46.jpg" alt="اسکیپ‌زوم - سیزده 13 (مشهد)" class="h-10 w-7.5 rounded">
+                                        <span>سیزده 13 (مشهد)</span>
+                                    </a>
+                                    <a href="/room/اتاق-فرار-سانفرانسیسکو/" class="flex items-center gap-x-2 py-2">
+                                        <img src="https://escapezoom.ir/wp-content/uploads/2023/06/san-F-300-370.jpg" alt="اسکیپ‌زوم - سانفرانسیسکو" class="h-10 w-7.5 rounded">
+                                        <span>سانفرانسیسکو</span>
+                                    </a>
+                                    <a href="/room/اتاق-فرار-تاکسیک-tox/" class="flex items-center gap-x-2 py-2">
+                                        <img src="https://escapezoom.ir/wp-content/uploads/2024/08/toxic-300.jpg" alt="اسکیپ‌زوم - تاکسیک (Toxic)" class="h-10 w-7.5 rounded">
+                                        <span>تاکسیک (Toxic)</span>
+                                    </a>
+                                    <a href="/room/اتاق-فرار-سیتن/" class="flex items-center gap-x-2 py-2">
+                                        <img src="https://escapezoom.ir/wp-content/uploads/2021/12/admin-ajax.jpg" alt="اسکیپ‌زوم - سیتن Satan" class="h-10 w-7.5 rounded">
+                                        <span>سیتن Satan</span>
+                                    </a>
+                                    <a href="/room/اتاق-فرار-سیاه-دخت/" class="flex items-center gap-x-2 py-2">
+                                        <img src="https://escapezoom.ir/wp-content/uploads/2023/03/siah-dokht-300-370.jpg" alt="اسکیپ‌زوم - سیاه دخت" class="h-10 w-7.5 rounded">
+                                        <span>سیاه دخت</span>
+                                    </a>
+                                    <a href="/room/اتاق-فرار-موزه-وارانسی/" class="flex items-center gap-x-2 py-2">
+                                        <img src="https://escapezoom.ir/wp-content/uploads/2024/06/no-escape-poster.jpg" alt="اسکیپ‌زوم - موزه وارانسی (بازگشت)" class="h-10 w-7.5 rounded">
+                                        <span>موزه وارانسی (بازگشت)</span>
+                                    </a>
+                                    <a href="/room/اتاق-فرار-نجات-از-تاسیسات/" class="flex items-center gap-x-2 py-2">
+                                        <img src="https://escapezoom.ir/wp-content/uploads/2020/12/نجات-از-تاسیسات.jpg" alt="اسکیپ‌زوم - نجات از تاسیسات" class="h-10 w-7.5 rounded">
+                                        <span>نجات از تاسیسات</span>
+                                    </a>
+                                    <a href="/room/اتاق-فرار-لوسیفر/" class="flex items-center gap-x-2 py-2">
+                                        <img src="https://escapezoom.ir/wp-content/uploads/2022/11/lucifer.jpeg" alt="اسکیپ‌زوم - لوسیفر" class="h-10 w-7.5 rounded">
+                                        <span>لوسیفر</span>
+                                    </a>
+                                    <a href="/room/اتاق-فرار-سیاتل-2/" class="flex items-center gap-x-2 py-2">
+                                        <img src="https://escapezoom.ir/wp-content/uploads/2025/01/سیاتل-300.jpg" alt="اسکیپ‌زوم - سیاتل" class="h-10 w-7.5 rounded">
+                                        <span>سیاتل</span>
+                                    </a>
+                                </div>
+                                <button id="lg-search-submit" type="button" class="mx-auto block w-fit py-2 text-primary-500">مشاهده همه</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Search -->
+
+                <a class="flex gap-4 items-center justify-center relative text-sm font-semibold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 transition-all duration-300 ease-in-out disabled:bg-slate-110 disabled:text-[#ccc] disabled:cursor-not-allowed disabled:shadow-none bg-white text-gray-900 border border-gray-100 hover:bg-button-gradient focus-visible:bg-button-gradient p-2 shadow-wrapper h-11.5 min-w-12 rounded-lg hover:shadow-none"
+                   href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" fill="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                              stroke-width="3"
+                              d="M4 5a1 1 0 1 0 2 0 1 1 0 0 0-2 0Zm7 0a1 1 0 1 0 2 0 1 1 0 0 0-2 0Zm7 0a1 1 0 1 0 2 0 1 1 0 0 0-2 0ZM4 12a1 1 0 1 0 2 0 1 1 0 0 0-2 0Zm7 0a1 1 0 1 0 2 0 1 1 0 0 0-2 0Zm7 0a1 1 0 1 0 2 0 1 1 0 0 0-2 0ZM4 19a1 1 0 1 0 2 0 1 1 0 0 0-2 0Zm7 0a1 1 0 1 0 2 0 1 1 0 0 0-2 0Zm7 0a1 1 0 1 0 2 0 1 1 0 0 0-2 0Z">
+                        </path>
+                    </svg>
+                </a>
+
+                <a class="flex gap-4 items-center justify-center relative text-sm font-semibold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 transition-all duration-300 ease-in-out disabled:bg-slate-110 disabled:text-[#ccc] disabled:cursor-not-allowed disabled:shadow-none bg-white text-gray-900 border border-gray-100 hover:bg-button-gradient focus-visible:bg-button-gradient p-2 shadow-wrapper h-11.5 min-w-12 rounded-lg hover:shadow-none"
+                   href="#">
+                    <span class="truncate">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="18" viewBox="0 0 24 24">
+                            <circle cx="11.579" cy="7.278" r="4.778" stroke="currentColor" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round"></circle>
+                            <path clip-rule="evenodd"
+                                  d="M4 18.701a2.215 2.215 0 01.22-.97c.457-.915 1.748-1.4 2.819-1.62a16.778 16.778 0 012.343-.33 25.04 25.04 0 014.385 0c.787.056 1.57.166 2.343.33 1.07.22 2.361.659 2.82 1.62a2.27 2.27 0 010 1.95c-.459.96-1.75 1.4-2.82 1.61-.772.172-1.555.286-2.343.34-1.188.1-2.38.118-3.57.054-.275 0-.54 0-.815-.055a15.417 15.417 0 01-2.334-.338c-1.08-.21-2.361-.65-2.828-1.611A2.28 2.28 0 014 18.7z"
+                                  stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                  stroke-linejoin="round">
+                            </path>
+                        </svg>
+                    </span>
+                </a>
+
+            </div>
+
+        </nav>
+
+        <nav class="bg-white lg:hidden">
+
+            <div class="fixed bg-white pb-4 top-0 w-full right-0 px-4 z-50">
+
+                <div class="mobile-navbar mb-2 mt-5 flex items-center justify-between rounded-lg bg-slate-60 px-5.5 py-3.5 text-slate-800 shadow-21 transition-all">
+
+                    <div class="cursor-pointer" id="open-mobile-nav">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" fill="currentColor" stroke-linecap="round"
+                                  stroke-linejoin="round" stroke-width="3"
+                                  d="M4 5a1 1 0 1 0 2 0 1 1 0 0 0-2 0Zm7 0a1 1 0 1 0 2 0 1 1 0 0 0-2 0Zm7 0a1 1 0 1 0 2 0 1 1 0 0 0-2 0ZM4 12a1 1 0 1 0 2 0 1 1 0 0 0-2 0Zm7 0a1 1 0 1 0 2 0 1 1 0 0 0-2 0Zm7 0a1 1 0 1 0 2 0 1 1 0 0 0-2 0ZM4 19a1 1 0 1 0 2 0 1 1 0 0 0-2 0Zm7 0a1 1 0 1 0 2 0 1 1 0 0 0-2 0Zm7 0a1 1 0 1 0 2 0 1 1 0 0 0-2 0Z">
+                            </path>
+                        </svg>
+                    </div>
+
+                    <a href="/">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="92" fill="none" viewBox="0 0 113 29">
+                            <path class="fill-slate-800" fill-rule="evenodd"
+                                  d="M110.388 23.144c-.991 0-1.771-.832-1.771-1.81V7.091c0-.98.781-1.811 1.771-1.811.99 0 1.77.832 1.77 1.811v14.243c0 .979-.78 1.81-1.77 1.81Zm-5.235 0H90.997c-.035 0-.069 0-.097-.002h-.005a6.754 6.754 0 0 1-4.632-2.029c-3.211 2.644-9.819 3.029-12.737-.207a6.753 6.753 0 0 1-5.029 2.238h-.034a6.753 6.753 0 0 1-5.029-2.238 6.757 6.757 0 0 1-5.03 2.238H46.643c-.962 0-1.77-.771-1.77-1.741 0-.97.808-1.742 1.77-1.742h11.761a3.289 3.289 0 0 0 3.288-3.288V13.94l.001-.049v-.019l.001-.014.002-.035.001-.014.002-.03.002-.011.001-.012a.29.29 0 0 1 .004-.031l.002-.015.004-.033.002-.012.005-.028a1.72 1.72 0 0 1 1.468-1.396l.047-.005.018-.002.026-.002.027-.001.037-.002h.006c.014-.001.028-.002.037-.001l.02-.001h.058l.042.001.032.001.008.001a.434.434 0 0 1 .054.003l.013.001.022.002.011.001a.236.236 0 0 0 .021.002l.014.002a1.72 1.72 0 0 1 1.468 1.397l.007.041.006.042.004.028.001.012a.31.31 0 0 1 .003.034l.002.025.001.01v.01l.001.016.001.01v.009l.001.026v2.472a3.289 3.289 0 0 0 3.288 3.288h.034a3.289 3.289 0 0 0 3.288-3.288v-2.491l.001-.01.001-.014.002-.035v-.014l.003-.03.001-.011.002-.012.003-.031.002-.015.005-.033.002-.012.005-.028a1.72 1.72 0 0 1 1.468-1.396l.047-.005.018-.002.025-.002.028-.001.036-.002h.007a.233.233 0 0 1 .036-.001l.02-.001h.059l.042.001.032.001.007.001a.459.459 0 0 1 .054.003l.014.001.022.002.011.001a.206.206 0 0 0 .021.002 1.72 1.72 0 0 1 1.482 1.399l.007.041.006.042.003.028.002.012a.31.31 0 0 1 .003.034l.002.025.001.01v.01l.001.016v.01l.001.009v.026l.001.014v2.458c0 4.429 6.896 3.85 9.115 1.631a5.362 5.362 0 0 0-3.774-9.155h-.021l-.023.001a5.342 5.342 0 0 0-3.767 1.57.563.563 0 0 1-.146.106 1.764 1.764 0 0 1-2.483-2.483.581.581 0 0 1 .105-.147L81.668.503a1.788 1.788 0 0 1 2.524 0 1.79 1.79 0 0 1 0 2.525l-1.471 1.471-.007.006-.863.864a8.938 8.938 0 0 1 6.643 13.01 3.276 3.276 0 0 0 2.177 1.255 1.79 1.79 0 0 1 .326-.031h14.156c.974 0 1.77.798 1.77 1.771 0 .974-.796 1.77-1.77 1.77Zm-63.937-13.13a1.952 1.952 0 1 1 0-3.904 1.952 1.952 0 0 1 0 3.904Zm-15.893 4.912-1.054-.188.094-.527a4.242 4.242 0 0 1 4.175-3.491h.535l-3.656 3.679-.094.527Zm7.077 3.871.006-.005a5.444 5.444 0 0 0-3.868-9.275 5.444 5.444 0 1 0 1.47 10.688l.078-.022 2.095 3.628h-3.643c-4.888 0-8.852-3.963-8.852-8.85a8.852 8.852 0 0 1 17.702 0v12.79l-5.103-8.839.115-.115ZM9.162 23.811a8.821 8.821 0 0 1-5.443-1.871v5c0 .938-.766 1.704-1.704 1.704A1.707 1.707 0 0 1 .312 26.94V14.961a8.852 8.852 0 0 1 17.702 0c0 4.887-3.965 8.85-8.852 8.85Zm0-14.294a5.444 5.444 0 0 0-3.868 9.275l.03.03.002.002a5.444 5.444 0 1 0 3.836-9.307Zm32.054 1.348c.938 0 1.703.766 1.703 1.703v14.371c0 .937-.765 1.703-1.703 1.703a1.706 1.706 0 0 1-1.703-1.703V12.568c0-.938.765-1.703 1.703-1.703Z"
+                                  clip-rule="evenodd"></path>
+                            <path fill-rule="evenodd"
+                                  d="M47.352 24.8c1.13 0 2.052.921 2.052 2.052 0 1.13-.922 2.051-2.052 2.051a2.055 2.055 0 0 1-2.052-2.051c0-1.131.922-2.052 2.052-2.052Zm4.204 0c1.13 0 2.052.921 2.052 2.052 0 1.13-.922 2.051-2.052 2.051a2.055 2.055 0 0 1-2.052-2.051c0-1.131.922-2.052 2.052-2.052Zm4.204 0c1.13 0 2.052.921 2.052 2.052 0 1.13-.922 2.051-2.052 2.051a2.055 2.055 0 0 1-2.052-2.051c0-1.131.922-2.052 2.052-2.052Zm10.511 0c1.13 0 2.052.921 2.052 2.052 0 1.13-.922 2.051-2.052 2.051a2.055 2.055 0 0 1-2.052-2.051c0-1.131.921-2.052 2.052-2.052Zm4.203 0c1.13 0 2.052.921 2.052 2.052 0 1.13-.922 2.051-2.052 2.051a2.055 2.055 0 0 1-2.052-2.051c0-1.131.922-2.052 2.052-2.052Z"
+                                  clip-rule="evenodd" class="fill-slate-800"></path>
+                        </svg>
+                    </a>
+
+                    <a href="tel:02191307900">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="18" viewBox="0 0 25 26">
+                            <g filter="url(#IconCalling_1_jjrxg8ajs08)">
+                                <g filter="url(#IconCalling_2_jjrxg8ajs08)">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M14.356 2.008a.817.817 0 00-.626.176.853.853 0 00-.322.584.86.86 0 00.757.95 6.912 6.912 0 016.125 6.139.857.857 0 101.704-.192c-.454-4.058-3.594-7.206-7.638-7.657zm.062 3.482a.854.854 0 00-1.004.68.862.862 0 00.677 1.01 3.462 3.462 0 012.744 2.75.86.86 0 001.006.681.865.865 0 00.677-1.01 5.174 5.174 0 00-4.1-4.111zM16 15.09c.451-.26.962-.554 1.605-.417.582.123 2.568 1.735 3.112 2.293.356.366.555.744.585 1.122.054 1.482-1.96 3.174-2.326 3.384a2.825 2.825 0 01-1.69.528c-.65 0-1.375-.185-2.166-.554-4.29-1.79-10.844-8.215-12.577-12.472-.72-1.585-.724-2.892-.012-3.874.284-.461 1.902-2.387 3.35-2.326.386.033.76.231 1.128.59.556.545 2.128 2.537 2.249 3.122.134.65-.16 1.166-.422 1.62a7.681 7.681 0 01-.214.34c-.313.48-.73 1.121-.582 1.53 1.057 2.594 3.498 4.858 6.093 5.921.401.146 1.042-.274 1.521-.588a7.89 7.89 0 01.335-.212L16 15.09z"
+                                          fill="currentColor"></path>
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+
+
+                </div>
+
+                <div class="relative">
+                    <form id="sm-search-form">
+                        <div class="w-full">
+                            <div class="relative">
+                                <input id="sm-search" class="text-gray-900 block w-full border-0 p-1.5 outline-none ring-1 ring-inset ring-gray-100 placeholder:text-right focus:shadow-none focus:ring-2 focus:ring-inset focus:ring-primary-500 h-9 py-0.5 px-3.5 rounded-lg text-3xs bg-slate-60 shadow-21 placeholder:text-slate-800" placeholder="جستجو در اسکیپ زوم ..." data-path="search" type="text" value="" name="s">
+                            </div>
+                        </div>
+                    </form>
+                    <div class="absolute hidden z-10 mt-4 w-full rounded-lg border bg-white shadow-[0px_4px_4px_0px_rgba(0,0,0,.1)]">
+                        <div class="max-h-75 divide-y divide-[#E4EBF0] overflow-y-auto px-4 py-5">
+                            <a href="/room/اتاق-فرار-سیروتا/" class="flex items-center gap-x-2 py-2">
+                                <img src="https://escapezoom.ir/wp-content/uploads/2023/11/cirota-300-370.jpg" alt="اسکیپ‌زوم - سیروتا" class="h-10 w-7.5 rounded">
+                                <span>سیروتا</span>
+                            </a>
+                            <a href="/room/اتاق-فرار-قوی-سیاه/" class="flex items-center gap-x-2 py-2">
+                                <img src="https://escapezoom.ir/wp-content/uploads/2024/01/Black-Spawn.jpg" alt="اسکیپ‌زوم - قوی سیاه" class="h-10 w-7.5 rounded">
+                                <span>قوی سیاه</span>
+                            </a>
+                            <a href="/room/اتاق-فرار-سیزده-13/" class="flex items-center gap-x-2 py-2">
+                                <img src="https://escapezoom.ir/wp-content/uploads/2023/08/PicsArt_07_11_05.46.jpg" alt="اسکیپ‌زوم - سیزده 13 (مشهد)" class="h-10 w-7.5 rounded">
+                                <span>سیزده 13 (مشهد)</span>
+                            </a>
+                            <a href="/room/اتاق-فرار-سانفرانسیسکو/" class="flex items-center gap-x-2 py-2">
+                                <img src="https://escapezoom.ir/wp-content/uploads/2023/06/san-F-300-370.jpg" alt="اسکیپ‌زوم - سانفرانسیسکو" class="h-10 w-7.5 rounded">
+                                <span>سانفرانسیسکو</span>
+                            </a>
+                            <a href="/room/اتاق-فرار-تاکسیک-tox/" class="flex items-center gap-x-2 py-2">
+                                <img src="https://escapezoom.ir/wp-content/uploads/2024/08/toxic-300.jpg" alt="اسکیپ‌زوم - تاکسیک (Toxic)" class="h-10 w-7.5 rounded">
+                                <span>تاکسیک (Toxic)</span>
+                            </a>
+                            <a href="/room/اتاق-فرار-سیتن/" class="flex items-center gap-x-2 py-2">
+                                <img src="https://escapezoom.ir/wp-content/uploads/2021/12/admin-ajax.jpg" alt="اسکیپ‌زوم - سیتن Satan" class="h-10 w-7.5 rounded">
+                                <span>سیتن Satan</span>
+                            </a>
+                            <a href="/room/اتاق-فرار-سیاه-دخت/" class="flex items-center gap-x-2 py-2">
+                                <img src="https://escapezoom.ir/wp-content/uploads/2023/03/siah-dokht-300-370.jpg" alt="اسکیپ‌زوم - سیاه دخت" class="h-10 w-7.5 rounded">
+                                <span>سیاه دخت</span>
+                            </a>
+                            <a href="/room/اتاق-فرار-موزه-وارانسی/" class="flex items-center gap-x-2 py-2">
+                                <img src="https://escapezoom.ir/wp-content/uploads/2024/06/no-escape-poster.jpg" alt="اسکیپ‌زوم - موزه وارانسی (بازگشت)" class="h-10 w-7.5 rounded">
+                                <span>موزه وارانسی (بازگشت)</span>
+                            </a>
+                            <a href="/room/اتاق-فرار-نجات-از-تاسیسات/" class="flex items-center gap-x-2 py-2">
+                                <img src="https://escapezoom.ir/wp-content/uploads/2020/12/نجات-از-تاسیسات.jpg" alt="اسکیپ‌زوم - نجات از تاسیسات" class="h-10 w-7.5 rounded">
+                                <span>نجات از تاسیسات</span>
+                            </a>
+                            <a href="/room/اتاق-فرار-لوسیفر/" class="flex items-center gap-x-2 py-2">
+                                <img src="https://escapezoom.ir/wp-content/uploads/2022/11/lucifer.jpeg" alt="اسکیپ‌زوم - لوسیفر" class="h-10 w-7.5 rounded">
+                                <span>لوسیفر</span>
+                            </a>
+                            <a href="/room/اتاق-فرار-سیاتل-2/" class="flex items-center gap-x-2 py-2">
+                                <img src="https://escapezoom.ir/wp-content/uploads/2025/01/سیاتل-300.jpg" alt="اسکیپ‌زوم - سیاتل" class="h-10 w-7.5 rounded">
+                                <span>سیاتل</span>
+                            </a>
+                        </div>
+                        <button type="sm-search-button" class="mx-auto block w-fit py-2 text-primary-500">مشاهده همه</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="bg-white fixed hidden flex-col justify-between w-full h-full right-0 top-0 z-10 pt-32 mobile-menu-modal">
+                <div class="px-4 py-6">
+                    <div class="mb-6 last:mb-0"><h5 class="mb-1 flex items-center gap-2.5">
+                        <span class="block h-3 w-[5px] rounded bg-primary-500"></span><span
+                            class="pt-1 text-md font-bold">شهرها</span>
+                    </h5>
+                        <ul class="grid grid-cols-3 text-xs">
+                            <li class="leading-8 [&:nth-of-type(3n)]:text-left [&:nth-of-type(3n+2)]:text-center">
+                                <a class="cursor-pointer hover:text-primary-500"
+                                   href="/ir/%D8%AA%D9%87%D8%B1%D8%A7%D9%86/">تهران</a>
+                            </li>
+                            <li class="leading-8 [&:nth-of-type(3n)]:text-left [&:nth-of-type(3n+2)]:text-center">
+                                <a class="cursor-pointer hover:text-primary-500" href="/ir/%DA%A9%D8%B1%D8%AC/">کرج</a>
+                            </li>
+                            <li class="leading-8 [&:nth-of-type(3n)]:text-left [&:nth-of-type(3n+2)]:text-center">
+                                <a class="cursor-pointer hover:text-primary-500" href="/ir/%D8%A7%D8%B1%D8%A7%DA%A9/">اراک</a>
+                            </li>
+                            <li class="leading-8 [&:nth-of-type(3n)]:text-left [&:nth-of-type(3n+2)]:text-center">
+                                <a class="cursor-pointer hover:text-primary-500" href="/ir/%D9%85%D8%B4%D9%87%D8%AF/">مشهد</a>
+                            </li>
+                            <li class="leading-8 [&:nth-of-type(3n)]:text-left [&:nth-of-type(3n+2)]:text-center">
+                                <a class="cursor-pointer hover:text-primary-500"
+                                   href="/ir/%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86/">اصفهان</a>
+                            </li>
+                            <li class="leading-8 [&:nth-of-type(3n)]:text-left [&:nth-of-type(3n+2)]:text-center">
+                                <a class="cursor-pointer hover:text-primary-500"
+                                   href="/ir/%DA%A9%D8%A7%D8%B4%D8%A7%D9%86/">کاشان</a>
+                            </li>
+                            <li class="leading-8 [&:nth-of-type(3n)]:text-left [&:nth-of-type(3n+2)]:text-center">
+                                <a class="cursor-pointer hover:text-primary-500"
+                                   href="/ir/%DA%A9%D8%B1%D9%85%D8%A7%D9%86%D8%B4%D8%A7%D9%87/">کرمانشاه</a>
+                            </li>
+                            <li class="leading-8 [&:nth-of-type(3n)]:text-left [&:nth-of-type(3n+2)]:text-center">
+                                <a class="cursor-pointer hover:text-primary-500" href="/ir/%D9%82%D9%85/">قم</a></li>
+                            <li class="leading-8 [&:nth-of-type(3n)]:text-left [&:nth-of-type(3n+2)]:text-center">
+                                <a class="cursor-pointer hover:text-primary-500"
+                                   href="/ir/%D8%A7%D9%87%D9%88%D8%A7%D8%B2/">اهواز</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mb-6 last:mb-0"><h5 class="mb-1 flex items-center gap-2.5">
+                        <span class="block h-3 w-[5px] rounded bg-primary-500"></span><span
+                            class="pt-1 text-md font-bold">تهرانی
+                        ها</span></h5>
+                        <ul class="grid grid-cols-3 text-xs">
+                            <li class="leading-8 [&:nth-of-type(3n)]:text-left [&:nth-of-type(3n+2)]:text-center">
+                                <a class="cursor-pointer hover:text-primary-500"
+                                   href="/type/%D8%A7%D8%AA%D8%A7%D9%82-%D9%81%D8%B1%D8%A7%D8%B1-%D8%BA%D8%B1%D8%A8-%D8%AA%D9%87%D8%B1%D8%A7%D9%86/">غرب</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mb-6 last:mb-0"><h5 class="mb-1 flex items-center gap-2.5">
+                        <span class="block h-3 w-[5px] rounded bg-primary-500"></span><span
+                            class="pt-1 text-md font-bold">اتاق
+                        فرار</span></h5>
+                        <ul class="grid grid-cols-3 text-xs">
+                            <li class="leading-8 [&:nth-of-type(3n)]:text-left [&:nth-of-type(3n+2)]:text-center">
+                                <a class="cursor-pointer hover:text-primary-500"
+                                   href="/city/%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86/">اصفهان</a>
+                            </li>
+                            <li class="leading-8 [&:nth-of-type(3n)]:text-left [&:nth-of-type(3n+2)]:text-center">
+                                <a class="cursor-pointer hover:text-primary-500" href="/city/%D9%85%D8%B4%D9%87%D8%AF/">مشهد</a>
+                            </li>
+                            <li class="leading-8 [&:nth-of-type(3n)]:text-left [&:nth-of-type(3n+2)]:text-center">
+                                <a class="cursor-pointer hover:text-primary-500"
+                                   href="/city/%DA%A9%D8%A7%D8%B4%D8%A7%D9%86/">کاشان</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mb-6 last:mb-0"><h5 class="mb-1 flex items-center gap-2.5">
+                        <span class="block h-3 w-[5px] rounded bg-primary-500"></span><span
+                            class="pt-1 text-md font-bold">لیزرتگ</span>
+                    </h5>
+                        <ul class="grid grid-cols-3 text-xs">
+                            <li class="leading-8 [&:nth-of-type(3n)]:text-left [&:nth-of-type(3n+2)]:text-center">
+                                <a class="cursor-pointer hover:text-primary-500"
+                                   href="/city/%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86/">اصفهان</a>
+                            </li>
+                            <li class="leading-8 [&:nth-of-type(3n)]:text-left [&:nth-of-type(3n+2)]:text-center">
+                                <a class="cursor-pointer hover:text-primary-500" href="/city/%D9%85%D8%B4%D9%87%D8%AF/">مشهد</a>
+                            </li>
+                            <li class="leading-8 [&:nth-of-type(3n)]:text-left [&:nth-of-type(3n+2)]:text-center">
+                                <a class="cursor-pointer hover:text-primary-500"
+                                   href="/city/%DA%A9%D8%A7%D8%B4%D8%A7%D9%86/">کاشان</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mb-6 last:mb-0">
+                        <h5 class="mb-1 flex items-center gap-2.5">
+                            <span class="block h-3 w-[5px] rounded bg-primary-500"></span>
+                            <span class="pt-1 text-md font-bold">سینماترس</span>
+                        </h5>
+                        <ul class="grid grid-cols-3 text-xs">
+                            <li class="leading-8 [&:nth-of-type(3n)]:text-left [&:nth-of-type(3n+2)]:text-center">
+                                <a class="cursor-pointer hover:text-primary-500"
+                                   href="/city/%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86/">اصفهان</a>
+                            </li>
+                            <li class="leading-8 [&:nth-of-type(3n)]:text-left [&:nth-of-type(3n+2)]:text-center">
+                                <a class="cursor-pointer hover:text-primary-500" href="/city/%D9%85%D8%B4%D9%87%D8%AF/">مشهد</a>
+                            </li>
+                            <li class="leading-8 [&:nth-of-type(3n)]:text-left [&:nth-of-type(3n+2)]:text-center">
+                                <a class="cursor-pointer hover:text-primary-500"
+                                   href="/city/%DA%A9%D8%A7%D8%B4%D8%A7%D9%86/">کاشان</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="grid grid-cols-3 gap-3 bg-slate-50 px-4 py-7 text-xs">
+                        <a target="_blank" rel="noopener noreferrer"
+                           class="[&:nth-of-type(3n)]:text-left [&:nth-of-type(3n+2)]:text-center" href="/blog/">مجله
+                            سرگرمی</a>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+
+    </div>
+</header>
+
+<main class="relative container mx-auto px-4 py-6 sm:px-6 md:px-8 max-lg:pt-32 max-lg:col-span-2">
+    <nav class="flex mt-10 mb-[30px]" aria-label="Breadcrumb">
+        <ol class="inline-flex items-center">
+            <li class="group">
+                <div class="flex items-center">
+                    <a
+                            class="text-2xs font-medium text-slate-310 hover:text-primary-600"
+                            href="/"
+                    >صفحه اصلی</a
+                    >
+                </div>
+            </li>
+            <li class="group">
+                <div class="flex items-center">
+                    <div class="mx-5 h-2 w-px bg-slate-110"></div>
+                    <a
+                            class="text-2xs font-medium text-slate-310 hover:text-primary-600"
+                            href="/blog/"
+                    >تماس با ما</a
+                    >
+                </div>
+            </li>
+        </ol>
+    </nav>
+
+    <div class="flex flex-col lg:flex-row lg:gap-[70px]">
+        <div class="flex flex-col w-full">
+            <h1 class="text-[22px] lg:text-[30px] font-black">سوالی دارید؟</h1>
+
+            <div class="flex flex-col gap-10 w-full max-w-[630px] mx-auto">
+                <div class="accordion flex flex-col gap-3">
+                    <div class="accordion-item bg-white border shadow-13 rounded-3xl cursor-pointer">
+                        <div class="accordion-title flex justify-between items-center p-4 w-full">
+                            <p>اگر موقع رزرو بازی به مشکل بخورم، چطور پیگیری کنم؟</p>
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+                                     fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M11.3529 2.5C11.3529 1.11929 10.2337 0 8.85294 0C7.47223 0 6.35294 1.11929 6.35294 2.5V6.64706H2.5C1.11929 6.64706 0 7.76635 0 9.14706C0 10.5278 1.11929 11.6471 2.5 11.6471H6.35294V15.5C6.35294 16.8807 7.47223 18 8.85294 18C10.2337 18 11.3529 16.8807 11.3529 15.5V11.6471H15.5C16.8807 11.6471 18 10.5278 18 9.14706C18 7.76635 16.8807 6.64706 15.5 6.64706H11.3529V2.5Z"
+                                          fill="#FD7013" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="5" viewBox="0 0 17 5"
+                                     fill="none" class="hidden">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M0 2.5C0 1.11929 1.11929 0 2.5 0H14.5C15.8807 0 17 1.11929 17 2.5C17 3.88071 15.8807 5 14.5 5H2.5C1.11929 5 0 3.88071 0 2.5Z"
+                                          fill="#FD7013" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="accordion-content p-4 pt-0 hidden w-full">
+                            می‌تونی با پشتیبانی تماس بگیری یا توی تلگرام به ما پیام بدی تا سریع مشکلت رو برطرف کنیم.
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-white border shadow-13 rounded-3xl cursor-pointer">
+                        <div class="accordion-title flex justify-between items-center p-4 w-full">
+                            <p>چطور می‌تونم بازی یا مجموعه خودم رو توی اسکیپ زوم ثبت کنم؟</p>
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+                                     fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M11.3529 2.5C11.3529 1.11929 10.2337 0 8.85294 0C7.47223 0 6.35294 1.11929 6.35294 2.5V6.64706H2.5C1.11929 6.64706 0 7.76635 0 9.14706C0 10.5278 1.11929 11.6471 2.5 11.6471H6.35294V15.5C6.35294 16.8807 7.47223 18 8.85294 18C10.2337 18 11.3529 16.8807 11.3529 15.5V11.6471H15.5C16.8807 11.6471 18 10.5278 18 9.14706C18 7.76635 16.8807 6.64706 15.5 6.64706H11.3529V2.5Z"
+                                          fill="#FD7013" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="5" viewBox="0 0 17 5"
+                                     fill="none" class="hidden">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M0 2.5C0 1.11929 1.11929 0 2.5 0H14.5C15.8807 0 17 1.11929 17 2.5C17 3.88071 15.8807 5 14.5 5H2.5C1.11929 5 0 3.88071 0 2.5Z"
+                                          fill="#FD7013" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="accordion-content p-4 pt-0 hidden">
+                            خیلی ساده! کافیه وارد صفحه "همکاری با ما" بشی و اطلاعات موردنیاز رو وارد کنی. اگر چیزی لازم باشه، تیم ما باهات تماس می‌گیره.
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-white border shadow-13 rounded-3xl cursor-pointer">
+                        <div class="accordion-title flex justify-between items-center p-4 w-full">
+                            <p>چطور می‌تونم برای یه بازی نظر بدم یا امتیاز بزارم؟</p>
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+                                     fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M11.3529 2.5C11.3529 1.11929 10.2337 0 8.85294 0C7.47223 0 6.35294 1.11929 6.35294 2.5V6.64706H2.5C1.11929 6.64706 0 7.76635 0 9.14706C0 10.5278 1.11929 11.6471 2.5 11.6471H6.35294V15.5C6.35294 16.8807 7.47223 18 8.85294 18C10.2337 18 11.3529 16.8807 11.3529 15.5V11.6471H15.5C16.8807 11.6471 18 10.5278 18 9.14706C18 7.76635 16.8807 6.64706 15.5 6.64706H11.3529V2.5Z"
+                                          fill="#FD7013" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="5" viewBox="0 0 17 5"
+                                     fill="none" class="hidden">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M0 2.5C0 1.11929 1.11929 0 2.5 0H14.5C15.8807 0 17 1.11929 17 2.5C17 3.88071 15.8807 5 14.5 5H2.5C1.11929 5 0 3.88071 0 2.5Z"
+                                          fill="#FD7013" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="accordion-content p-4 pt-0 hidden">
+                            بعد از بازی، یه پیامک برات میاد که توش لینک نظرسنجی هست. از اونجا می‌تونی نظر و امتیازت رو توی صفحه همون بازی ثبت کنی.
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-white border shadow-13 rounded-3xl cursor-pointer">
+                        <div class="accordion-title flex justify-between items-center p-4 w-full">
+                            <p>امکان همکاری شغلی با اسکیپ زوم هست؟</p>
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+                                     fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M11.3529 2.5C11.3529 1.11929 10.2337 0 8.85294 0C7.47223 0 6.35294 1.11929 6.35294 2.5V6.64706H2.5C1.11929 6.64706 0 7.76635 0 9.14706C0 10.5278 1.11929 11.6471 2.5 11.6471H6.35294V15.5C6.35294 16.8807 7.47223 18 8.85294 18C10.2337 18 11.3529 16.8807 11.3529 15.5V11.6471H15.5C16.8807 11.6471 18 10.5278 18 9.14706C18 7.76635 16.8807 6.64706 15.5 6.64706H11.3529V2.5Z"
+                                          fill="#FD7013" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="5" viewBox="0 0 17 5"
+                                     fill="none" class="hidden">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M0 2.5C0 1.11929 1.11929 0 2.5 0H14.5C15.8807 0 17 1.11929 17 2.5C17 3.88071 15.8807 5 14.5 5H2.5C1.11929 5 0 3.88071 0 2.5Z"
+                                          fill="#FD7013" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="accordion-content p-4 pt-0 hidden">
+                            بله، اگر دوست داری جزئی از تیم ما باشی، به صفحه "استخدام" سر بزن و فرم درخواست همکاری رو پر کن.
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-white border shadow-13 rounded-3xl cursor-pointer">
+                        <div class="accordion-title flex justify-between items-center p-4 w-full">
+                            <p>برای تبلیغات یا همکاری تجاری چطور می‌تونم با شما ارتباط بگیرم؟</p>
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+                                     fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M11.3529 2.5C11.3529 1.11929 10.2337 0 8.85294 0C7.47223 0 6.35294 1.11929 6.35294 2.5V6.64706H2.5C1.11929 6.64706 0 7.76635 0 9.14706C0 10.5278 1.11929 11.6471 2.5 11.6471H6.35294V15.5C6.35294 16.8807 7.47223 18 8.85294 18C10.2337 18 11.3529 16.8807 11.3529 15.5V11.6471H15.5C16.8807 11.6471 18 10.5278 18 9.14706C18 7.76635 16.8807 6.64706 15.5 6.64706H11.3529V2.5Z"
+                                          fill="#FD7013" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="5" viewBox="0 0 17 5"
+                                     fill="none" class="hidden">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M0 2.5C0 1.11929 1.11929 0 2.5 0H14.5C15.8807 0 17 1.11929 17 2.5C17 3.88071 15.8807 5 14.5 5H2.5C1.11929 5 0 3.88071 0 2.5Z"
+                                          fill="#FD7013" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="accordion-content p-4 pt-0 hidden">
+                            درخواستت رو از طریق ایمیل Escapezoom.ir@gmail.com بفرست یا از طریق فرم "تماس با ما" پیام بزار تا در اولین فرصت باهات ارتباط بگیریم.
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-white border shadow-13 rounded-3xl cursor-pointer">
+                        <div class="accordion-title flex justify-between items-center p-4 w-full">
+                            <p>برای اجرای بازی سازمانی از چه طریق می‌تونم با اسکیپ زوم در ارتباط باشم؟</p>
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+                                     fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M11.3529 2.5C11.3529 1.11929 10.2337 0 8.85294 0C7.47223 0 6.35294 1.11929 6.35294 2.5V6.64706H2.5C1.11929 6.64706 0 7.76635 0 9.14706C0 10.5278 1.11929 11.6471 2.5 11.6471H6.35294V15.5C6.35294 16.8807 7.47223 18 8.85294 18C10.2337 18 11.3529 16.8807 11.3529 15.5V11.6471H15.5C16.8807 11.6471 18 10.5278 18 9.14706C18 7.76635 16.8807 6.64706 15.5 6.64706H11.3529V2.5Z"
+                                          fill="#FD7013" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="5" viewBox="0 0 17 5"
+                                     fill="none" class="hidden">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M0 2.5C0 1.11929 1.11929 0 2.5 0H14.5C15.8807 0 17 1.11929 17 2.5C17 3.88071 15.8807 5 14.5 5H2.5C1.11929 5 0 3.88071 0 2.5Z"
+                                          fill="#FD7013" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="accordion-content p-4 pt-0 hidden">
+                            کافیه به صفحه «بازی‌های سازمانی» اسکیپ زوم سر بزنید و از جزئیات برگزاری این بازی‌ها مطلع بشید.
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-white border shadow-13 rounded-3xl cursor-pointer">
+                        <div class="accordion-title flex justify-between items-center p-4 w-full">
+                            <p>چطور می‌توانم درباره‌ی یک بازی نظر بدهم یا امتیاز بدهم؟</p>
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+                                     fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M11.3529 2.5C11.3529 1.11929 10.2337 0 8.85294 0C7.47223 0 6.35294 1.11929 6.35294 2.5V6.64706H2.5C1.11929 6.64706 0 7.76635 0 9.14706C0 10.5278 1.11929 11.6471 2.5 11.6471H6.35294V15.5C6.35294 16.8807 7.47223 18 8.85294 18C10.2337 18 11.3529 16.8807 11.3529 15.5V11.6471H15.5C16.8807 11.6471 18 10.5278 18 9.14706C18 7.76635 16.8807 6.64706 15.5 6.64706H11.3529V2.5Z"
+                                          fill="#FD7013" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="5" viewBox="0 0 17 5"
+                                     fill="none" class="hidden">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M0 2.5C0 1.11929 1.11929 0 2.5 0H14.5C15.8807 0 17 1.11929 17 2.5C17 3.88071 15.8807 5 14.5 5H2.5C1.11929 5 0 3.88071 0 2.5Z"
+                                          fill="#FD7013" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="accordion-content p-4 pt-0 hidden">
+                            پس از تجربه بازی، پیامکی حاوی لینک نظرسنجی برای شما ارسال میشه که می‌توانید در صفحه همان بازی نظر و امتیاز خود را ثبت کنید.
+                        </div>
+                    </div>
+                    <div class="accordion-item bg-white border shadow-13 rounded-3xl cursor-pointer">
+                        <div class="accordion-title flex justify-between items-center p-4 w-full">
+                            <p>سوال دیگه‌ای داری؟</p>
+                            <div class="icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+                                     fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M11.3529 2.5C11.3529 1.11929 10.2337 0 8.85294 0C7.47223 0 6.35294 1.11929 6.35294 2.5V6.64706H2.5C1.11929 6.64706 0 7.76635 0 9.14706C0 10.5278 1.11929 11.6471 2.5 11.6471H6.35294V15.5C6.35294 16.8807 7.47223 18 8.85294 18C10.2337 18 11.3529 16.8807 11.3529 15.5V11.6471H15.5C16.8807 11.6471 18 10.5278 18 9.14706C18 7.76635 16.8807 6.64706 15.5 6.64706H11.3529V2.5Z"
+                                          fill="#FD7013" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="5" viewBox="0 0 17 5"
+                                     fill="none" class="hidden">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                          d="M0 2.5C0 1.11929 1.11929 0 2.5 0H14.5C15.8807 0 17 1.11929 17 2.5C17 3.88071 15.8807 5 14.5 5H2.5C1.11929 5 0 3.88071 0 2.5Z"
+                                          fill="#FD7013" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="accordion-content p-4 pt-0 hidden">
+                            اگر پاسخ سوالت را پیدا نکردی، از طریق راه‌های ارتباطی ما در ارتباط باش!
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="flex flex-col mt-[60px] lg:mt-[0px] max-w-[620px]">
+            <h2 class="text-[22px] lg:text-[30px] font-black mb-[30px]">راه های ارتباط با اسکیپ زوم</h2>
+
+            <div class="flex items-center justify-between lg:max-w-[350px]">
+                <p class="text-lg font-bold">تماس با پشتیبانی</p>
+                <p class="text-[#4E5C6D]">ساعت پاسخگویی  10 تا 24</p>
+            </div>
+
+            <div class="flex justify-between lg:max-w-[250px] mt-[30px]">
+                <div class="flex items-center gap-2 ">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M13.0001 12.1019C11.0044 14.2019 5.91367 9.15683 7.91694 7.04847C9.14024 5.76096 7.75862 4.29011 6.99364 3.2076C5.55785 1.17841 2.4071 3.98011 2.5021 5.76263C2.80459 11.3843 8.88525 18.0461 14.7734 17.4644C16.615 17.2827 18.7316 13.956 16.6184 12.7402C15.5626 12.1319 14.1118 10.9318 13.0001 12.101M11.6668 2.50009C13.2139 2.50009 14.6976 3.11468 15.7915 4.20866C16.8854 5.30263 17.5 6.78637 17.5 8.33349M11.6668 5.83346C12.3299 5.83346 12.9657 6.09686 13.4346 6.5657C13.9034 7.03455 14.1668 7.67044 14.1668 8.33349" stroke="#4E5C6D" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+
+                    <bdo class="text-[#4E5C6D] text-lg" dir="ltr">021  9130 7900</p>
+                </div>
+            </div>
+
+            <div class="flex mt-[30px]">
+                <div class="flex items-center gap-2">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18.3346 5.00065C18.3346 4.08398 17.5846 3.33398 16.668 3.33398H3.33464C2.41797 3.33398 1.66797 4.08398 1.66797 5.00065V15.0007C1.66797 15.9173 2.41797 16.6673 3.33464 16.6673H16.668C17.5846 16.6673 18.3346 15.9173 18.3346 15.0007V5.00065ZM16.668 5.00065L10.0013 9.16732L3.33464 5.00065H16.668ZM16.668 15.0007H3.33464V6.66732L10.0013 10.834L16.668 6.66732V15.0007Z" fill="#4E5C6D"/>
+                    </svg>
+                    <p class="text-[#4E5C6D]">Escapezoom.ir@gmail.com</p>
+                </div>
+            </div>
+
+
+            <h2 class="text-[22px] lg:text-[30px] font-black mt-10">فرم تماس با ما</h2>
+            <p class="text-lg font-bold text-[#4E5C6D] mb-[30px]" style="line-height: 36px;">ما اینجاییم تا مسیر تجربۀ مهیج شما رو هموارتر کنیم! اگه سوالی دارید، نیاز به مشاوره یا کمک برای انتخاب بازی‌ مناسب دارید یا توی پروسۀ رزرو بازی به مشکل برخوردید، ما آماده‌ایم که بهتون پاسخ بدیم و راهنماییتون کنیم.
+                <br/>
+                درخواستتون رو از طریق فرم زیر برامون بفرستید.
+            </p>
+
+            <div class="w-full lg:w-[620px] h-[270px]">
+                <iframe src="https://survey.porsline.ir/s/iTg6531e" frameborder="0" allowfullscreen></iframe>
+            </div>
+
+            <h2 class="text-[22px] lg:text-[30px] font-black mt-10">دفتر مرکزی</h2>
+
+            <div class="flex items-center gap-2">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="m-0">
+                    <path d="M10 0C5.6 0 2 3.6 2 8C2 13.4 9 19.5 9.3 19.8C9.5 19.9 9.8 20 10 20C10.2 20 10.5 19.9 10.7 19.8C11 19.5 18 13.4 18 8C18 3.6 14.4 0 10 0ZM10 17.7C7.9 15.7 4 11.4 4 8C4 4.7 6.7 2 10 2C13.3 2 16 4.7 16 8C16 11.3 12.1 15.7 10 17.7ZM10 4C7.8 4 6 5.8 6 8C6 10.2 7.8 12 10 12C12.2 12 14 10.2 14 8C14 5.8 12.2 4 10 4ZM10 10C8.9 10 8 9.1 8 8C8 6.9 8.9 6 10 6C11.1 6 12 6.9 12 8C12 9.1 11.1 10 10 10Z" fill="#4E5C6D"/>
+                </svg>
+                <p class="text-lg font-bold text-[#4E5C6D]">تهران، خیابان شهید بهشتی، خیابان سرافراز، کوچۀ دوم (خبرنگار)</p>
+            </div>
+            <div class="w-[374px] h-[237px] rounded-[20px]" style="width: 374px; height: 237px;">نقشه</div>
+
+        </div>
+    </div>
+
+    <hr class="w-full mb-[30px]" />
+
+    <div class="flex justify-between items-center">
+        <a href="#" class="flex flex-col items-center gap-2">
+            <svg viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-[24px] h-[24px] lg:w-[34px] lg:h-[34px]">
+                <g id="simple-icons:aparat">
+                    <path id="Vector" d="M16.9995 4.71307C6.0499 4.70953 0.565649 17.9402 8.30596 25.6796C10.0243 27.3977 12.2138 28.5678 14.5975 29.042C16.9812 29.5162 19.452 29.2731 21.6975 28.3436C23.943 27.4141 25.8623 25.8398 27.2127 23.8199C28.5631 21.7999 29.2838 19.4251 29.2838 16.9957C29.2838 10.2139 23.7854 4.71543 16.9995 4.71307ZM10.0411 10.8396C10.6329 7.77222 14.6395 6.95046 16.3912 9.53734C18.1429 12.1242 15.8927 15.5376 12.824 14.9472C12.3714 14.8603 11.9403 14.6851 11.5555 14.4316C11.1706 14.1781 10.8395 13.8513 10.5811 13.4698C10.3226 13.0884 10.1419 12.6597 10.0493 12.2084C9.95663 11.7571 9.95386 11.292 10.0411 10.8396ZM15.1462 21.4516C14.5509 24.5178 10.5443 25.3337 8.79497 22.7456C7.04564 20.1576 9.29934 16.7478 12.3681 17.3393C12.8207 17.4267 13.2517 17.6025 13.6364 17.8565C14.0211 18.1105 14.3519 18.4379 14.6099 18.8198C14.8679 19.2017 15.0481 19.6308 15.1401 20.0823C15.2322 20.5339 15.2342 20.9992 15.1462 21.4516ZM16.6345 18.6121C15.2738 18.3488 14.9076 16.573 16.0545 15.7938C17.2003 15.0145 18.7193 16.0063 18.4642 17.3688C18.4263 17.5707 18.3489 17.7632 18.2364 17.9351C18.1239 18.107 17.9785 18.255 17.8086 18.3705C17.6387 18.4861 17.4476 18.5669 17.2463 18.6083C17.045 18.6498 16.8363 18.651 16.6345 18.6121ZM23.9567 23.1435C23.3649 26.2109 19.3583 27.0315 17.6066 24.4458C15.8549 21.8601 18.1039 18.4456 21.1738 19.0347C21.6266 19.1216 22.0577 19.2969 22.4427 19.5505C22.8276 19.804 23.1588 20.131 23.4172 20.5126C23.6757 20.8942 23.8564 21.3229 23.9489 21.7744C24.0415 22.2258 24.0441 22.691 23.9567 23.1435ZM21.6333 16.6474C18.5646 16.0559 17.7436 12.0475 20.3316 10.2953C22.9196 8.5432 26.3332 10.7936 25.7438 13.861C25.6574 14.314 25.4825 14.7455 25.229 15.1308C24.9756 15.5161 24.6486 15.8476 24.2668 16.1065C23.885 16.3653 23.4558 16.5463 23.0039 16.6391C22.552 16.7319 22.0863 16.7347 21.6333 16.6474ZM18.8764 30.2984L21.5506 31.0186C22.6751 31.3169 23.872 31.1566 24.8783 30.573C25.8845 29.9893 26.6178 29.0302 26.9167 27.9064L27.6727 25.0704C25.5446 27.9045 22.3827 29.7835 18.8752 30.2984M27.903 7.08034L25.1119 6.33769C26.5222 7.42238 27.703 8.77619 28.5859 10.3206C29.4687 11.865 30.036 13.5692 30.2548 15.3345L31.0225 12.4312C31.3164 11.3082 31.1529 10.1146 30.568 9.11184C29.9831 8.1091 29.0243 7.379 27.9018 7.08152M3.61783 19.1351L2.97881 21.5437C2.68044 22.6677 2.84082 23.8641 3.42468 24.8699C4.00855 25.8757 4.96811 26.6087 6.09242 26.9075L8.58118 27.5711C5.92415 25.483 4.15278 22.471 3.61783 19.1351ZM15.0576 3.65991L12.4507 2.97983C11.8936 2.83147 11.3126 2.79433 10.741 2.87054C10.1695 2.94674 9.61858 3.13479 9.11979 3.42394C8.62099 3.71309 8.18409 4.09767 7.83408 4.55569C7.48406 5.01372 7.22778 5.53621 7.07989 6.09329L6.42906 8.55147C8.57644 5.88071 11.6623 4.1309 15.0576 3.65991Z" fill="#889BAD"/>
+                </g>
+            </svg>
+
+            <p class="text-xs lg:text-base font-black text-[#889BAD]">آپارات</p>
+        </a>
+
+        <a href="" class="flex flex-col items-center gap-2">
+            <svg viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-[24px] h-[24px] lg:w-[35px] lg:h-[34px]">
+                <g id="mdi:youtube">
+                    <path id="Vector" d="M15.0638 21.2487L22.4163 16.9987L15.0638 12.7487V21.2487ZM31.4405 10.1562C31.6246 10.822 31.7521 11.7145 31.8371 12.8479C31.9363 13.9812 31.9788 14.9587 31.9788 15.8087L32.0638 16.9987C32.0638 20.1012 31.8371 22.382 31.4405 23.8412C31.0863 25.1162 30.2646 25.9379 28.9896 26.292C28.3238 26.4762 27.1055 26.6037 25.2355 26.6887C23.3938 26.7879 21.708 26.8304 20.1496 26.8304L17.8971 26.9154C11.9613 26.9154 8.2638 26.6887 6.80464 26.292C5.52964 25.9379 4.70797 25.1162 4.3538 23.8412C4.16964 23.1754 4.04214 22.2829 3.95714 21.1495C3.85797 20.0162 3.81547 19.0387 3.81547 18.1887L3.73047 16.9987C3.73047 13.8962 3.95714 11.6154 4.3538 10.1562C4.70797 8.8812 5.52964 8.05953 6.80464 7.70536C7.47047 7.5212 8.6888 7.3937 10.5588 7.3087C12.4005 7.20953 14.0863 7.16703 15.6446 7.16703L17.8971 7.08203C23.833 7.08203 27.5305 7.3087 28.9896 7.70536C30.2646 8.05953 31.0863 8.8812 31.4405 10.1562Z" fill="#889BAD"/>
+                </g>
+            </svg>
+            <p class="text-xs lg:text-base font-black text-[#889BAD]">یوتیوب</p>
+        </a>
+
+        <a href="" class="flex flex-col items-center gap-2">
+            <svg viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-[24px] h-[24px] lg:w-[35px] lg:h-[34px]">
+                <g id="mdi:linkedin">
+                    <path id="Vector" d="M27.7174 4.25C28.4689 4.25 29.1896 4.54851 29.7209 5.07986C30.2523 5.61122 30.5508 6.33189 30.5508 7.08333V26.9167C30.5508 27.6681 30.2523 28.3888 29.7209 28.9201C29.1896 29.4515 28.4689 29.75 27.7174 29.75H7.88411C7.13267 29.75 6.412 29.4515 5.88065 28.9201C5.34929 28.3888 5.05078 27.6681 5.05078 26.9167V7.08333C5.05078 6.33189 5.34929 5.61122 5.88065 5.07986C6.412 4.54851 7.13267 4.25 7.88411 4.25H27.7174ZM27.0091 26.2083V18.7C27.0091 17.4751 26.5225 16.3005 25.6564 15.4343C24.7903 14.5682 23.6156 14.0817 22.3908 14.0817C21.1866 14.0817 19.7841 14.8183 19.1041 15.9233V14.3508H15.1516V26.2083H19.1041V19.2242C19.1041 18.1333 19.9824 17.2408 21.0733 17.2408C21.5993 17.2408 22.1038 17.4498 22.4757 17.8217C22.8477 18.1937 23.0566 18.6982 23.0566 19.2242V26.2083H27.0091ZM10.5474 12.1267C11.1787 12.1267 11.784 11.8759 12.2304 11.4296C12.6767 10.9832 12.9274 10.3779 12.9274 9.74667C12.9274 8.42917 11.8649 7.3525 10.5474 7.3525C9.91248 7.3525 9.30351 7.60474 8.85452 8.05374C8.40552 8.50273 8.15328 9.11169 8.15328 9.74667C8.15328 11.0642 9.22995 12.1267 10.5474 12.1267ZM12.5166 26.2083V14.3508H8.59245V26.2083H12.5166Z" fill="#889BAD"/>
+                </g>
+            </svg>
+            <p class="text-xs lg:text-base font-black text-[#889BAD]">لینکدین</p>
+        </a>
+
+        <a href="" class="flex flex-col items-center gap-2">
+            <svg viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-[24px] h-[24px] lg:w-[35px] lg:h-[34px]">
+                <path d="M11.83 4H23.17C27.49 4 31 7.38 31 11.54V22.46C31 24.4597 30.1751 26.3776 28.7066 27.7916C27.2382 29.2056 25.2466 30 23.17 30H11.83C7.51 30 4 26.62 4 22.46V11.54C4 9.54027 4.82494 7.62244 6.29335 6.20842C7.76176 4.79439 9.75336 4 11.83 4ZM11.56 6.6C10.271 6.6 9.03489 7.09307 8.12346 7.97074C7.21203 8.84841 6.7 10.0388 6.7 11.28V22.72C6.7 25.307 8.8735 27.4 11.56 27.4H23.44C24.729 27.4 25.9651 26.9069 26.8765 26.0293C27.788 25.1516 28.3 23.9612 28.3 22.72V11.28C28.3 8.693 26.1265 6.6 23.44 6.6H11.56ZM24.5875 8.55C25.0351 8.55 25.4643 8.7212 25.7807 9.02595C26.0972 9.3307 26.275 9.74402 26.275 10.175C26.275 10.606 26.0972 11.0193 25.7807 11.324C25.4643 11.6288 25.0351 11.8 24.5875 11.8C24.1399 11.8 23.7107 11.6288 23.3943 11.324C23.0778 11.0193 22.9 10.606 22.9 10.175C22.9 9.74402 23.0778 9.3307 23.3943 9.02595C23.7107 8.7212 24.1399 8.55 24.5875 8.55ZM17.5 10.5C19.2902 10.5 21.0071 11.1848 22.273 12.4038C23.5388 13.6228 24.25 15.2761 24.25 17C24.25 18.7239 23.5388 20.3772 22.273 21.5962C21.0071 22.8152 19.2902 23.5 17.5 23.5C15.7098 23.5 13.9929 22.8152 12.727 21.5962C11.4612 20.3772 10.75 18.7239 10.75 17C10.75 15.2761 11.4612 13.6228 12.727 12.4038C13.9929 11.1848 15.7098 10.5 17.5 10.5ZM17.5 13.1C16.4259 13.1 15.3957 13.5109 14.6362 14.2423C13.8767 14.9737 13.45 15.9657 13.45 17C13.45 18.0343 13.8767 19.0263 14.6362 19.7577C15.3957 20.4891 16.4259 20.9 17.5 20.9C18.5741 20.9 19.6043 20.4891 20.3638 19.7577C21.1233 19.0263 21.55 18.0343 21.55 17C21.55 15.9657 21.1233 14.9737 20.3638 14.2423C19.6043 13.5109 18.5741 13.1 17.5 13.1Z" fill="#889BAD"/>
+            </svg>
+            <p class="text-xs lg:text-base font-black text-[#889BAD]">اینستاگرام</p>
+        </a>
+
+        <a href="" class="flex flex-col items-center gap-2">
+            <svg viewBox="0 0 35 34" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-[24px] h-[24px] lg:w-[35px] lg:h-[34px]">
+                <path d="M17.1003 2.83203C9.28026 2.83203 2.93359 9.1787 2.93359 16.9987C2.93359 24.8187 9.28026 31.1654 17.1003 31.1654C24.9203 31.1654 31.2669 24.8187 31.2669 16.9987C31.2669 9.1787 24.9203 2.83203 17.1003 2.83203ZM23.6736 12.4654C23.4611 14.7037 22.5403 20.1437 22.0728 22.6512C21.8744 23.7137 21.4778 24.0679 21.1094 24.1104C20.2878 24.1812 19.6644 23.572 18.8711 23.0479C17.6244 22.2262 16.9161 21.7162 15.7119 20.9229C14.3094 20.002 15.2161 19.492 16.0236 18.6704C16.2361 18.4579 19.8628 15.157 19.9336 14.8595C19.9434 14.8145 19.9421 14.7677 19.9298 14.7233C19.9174 14.6788 19.8944 14.6381 19.8628 14.6045C19.7778 14.5337 19.6644 14.562 19.5653 14.5762C19.4378 14.6045 17.4544 15.922 13.5869 18.5287C13.0203 18.9112 12.5103 19.1095 12.0569 19.0954C11.5469 19.0812 10.5836 18.812 9.86109 18.5712C8.96859 18.2879 8.27443 18.132 8.33109 17.6362C8.35943 17.3812 8.71359 17.1262 9.37943 16.857C13.5161 15.0579 16.2644 13.8679 17.6386 13.3012C21.5769 11.6579 22.3844 11.3745 22.9228 11.3745C23.0361 11.3745 23.3053 11.4029 23.4753 11.5445C23.6169 11.6579 23.6594 11.8137 23.6736 11.927C23.6594 12.012 23.6878 12.267 23.6736 12.4654Z" fill="#889BAD"/>
+            </svg>
+
+            <p class="text-xs lg:text-base font-black text-[#889BAD]">تلگرام</p>
+        </a>
+
+        <a href="" class="flex flex-col items-center gap-2">
+            <svg viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-[24px] h-[24px] lg:w-[35px] lg:h-[34px]">
+                <path d="M25.1445 4.25H29.4902L19.9985 15.0514L31.1654 29.75H22.4228L15.5749 20.8338L7.73901 29.75H3.39161L13.5438 18.1959L2.83203 4.25H11.7978L17.9868 12.3977L25.1445 4.25ZM23.6216 27.1613H26.0299L10.4873 6.70328H7.90547L23.6216 27.1613Z" fill="#889BAD"/>
+            </svg>
+            <p class="text-xs lg:text-base font-black text-[#889BAD]">ایکس</p>
+        </a>
+    </div>
+
+    <section class="container mx-auto mb-[70px] mt-[46px] px-4 sm:px-6 md:px-8">
+        <a href=""><img src="./assets/images/contact-us/banner-mobile.png" class="flex lg:hidden"/></a>
+        <a href=""></a><img src="./assets/images/contact-us/banner-lg.png" class="hidden lg:flex"/></a>
+    </section>
+    <div class="absolute top-full z-1 -mt-px max-2xl:left-0 2xl:-right-12">
+        <svg xmlns="http://www.w3.org/2000/svg" width="243" height="82" fill="none" viewBox="0 0 243 82"
+             class="ez-footer-logo hidden 2xl:block">
+            <path fill="#445769" fill-rule="evenodd"
+                  d="M0 1.167 242.483-.5c-73.042 0-104.352 81.874-138.398 81.874C66.922 81.374 59.345 1.167 0 1.167Z"
+                  clip-rule="evenodd" opacity=".102"></path>
+            <path fill="#fff" fill-rule="evenodd"
+                  d="M6 0h224.483c-49.042 0-77.685 67.374-111.731 67.374C81.588 67.374 58.512 0 6 0Z"
+                  clip-rule="evenodd">
+            </path>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="157" height="61" fill="none" viewBox="0 0 157 61"
+             class="ez-footer-logo block 2xl:hidden">
+            <path fill="#445769" fill-rule="evenodd"
+                  d="M132.5 0H.5v61.02h44.616C79.748 61.02 82.881.385 139.504.385h17.009L132.5 0Z" clip-rule="evenodd"
+                  opacity=".2"></path>
+            <path fill="#fff" fill-rule="evenodd"
+                  d="M127-.64H-.5v60.995h37.212C77.343 60.355 79 .262 130.543.262 151.106.262 173.5.5 173.5.5L127-.64Z"
+                  clip-rule="evenodd"></path>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" fill="none" viewBox="0 0 73 84"
+             class="fill-primary-500 absolute left-6 top-1 2xl:left-1/2 2xl:-translate-x-4 2xl:fill-slate-200">
+            <g clip-path="url(#IconLogo_a_x1d2s5qk9h)">
+                <path fill="url(#IconLogo_b_x1d2s5qk9h)" d="M15 16h63v73H15z"></path>
+                <g filter="url(#IconLogo_c_x1d2s5qk9h)">
+                    <path fill-rule="evenodd"
+                          d="M67.209 32.755v10.389c0 17.379-14.089 31.468-31.468 31.468-17.379 0-31.468-14.089-31.468-31.468V32.755c0-17.38 14.089-31.469 31.468-31.469 17.379 0 31.468 14.089 31.468 31.469Z"
+                          clip-rule="evenodd"></path>
+                </g>
+                <path fill="#fff" fill-rule="evenodd"
+                      d="m37.92 43.206.014-.003a10.37 10.37 0 0 0 6.27-4.835c2.875-4.977 1.169-11.341-3.808-14.215-4.978-2.873-11.342-1.169-14.215 3.809-2.874 4.977-1.17 11.342 3.808 14.215.823.475 1.706.837 2.626 1.073l.15.039v8.008l-6.031-3.482c-8.09-4.671-10.863-15.019-6.193-23.109 4.67-8.09 15.02-10.863 23.11-6.192 8.09 4.67 10.862 15.02 6.192 23.109L37.62 62.794V43.286l.3-.08Z"
+                      clip-rule="evenodd"></path>
+            </g>
+            <defs>
+                <clipPath id="IconLogo_a_x1d2s5qk9h">
+                    <path fill="#fff" d="M0 0h73v84H0z"></path>
+                </clipPath>
+                <pattern id="IconLogo_b_x1d2s5qk9h" width="1" height="1" patternContentUnits="objectBoundingBox">
+                    <use href="#IconLogo_d_x1d2s5qk9h" transform="matrix(.01634 0 0 .01406 -.111 -.055)"></use>
+                </pattern>
+            </defs>
+        </svg>
+    </div>
+</main>
+
+
+<footer>
+    <div class="relative bg-slate-200 text-white">
+        <div class="container mx-auto">
+            <div class="px-4 pb-1 sm:px-6 2xl:relative">
+                <div class="flex justify-between gap-20 lg:mr-2.5">
+                    <div class="hidden 2xl:block">
+                        <div class="flex min-h-full items-stretch justify-between gap-10 pt-44">
+                            <div>
+                                <button type="button"
+                                        class="flex gap-4 items-center justify-center relative text-sm font-semibold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 transition-all duration-300 ease-in-out disabled:bg-slate-110 disabled:text-[#ccc] disabled:cursor-not-allowed disabled:shadow-none bg-white/10 text-white h-16 min-w-16 rounded-2xl p-2">
+                                    <span class="truncate">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" fill="none"
+                                             viewBox="0 0 13 16">
+                                            <path fill="currentColor" fill-rule="evenodd"
+                                                  d="m11.04 15.84-4.557-2.508-4.54 2.508c-.187.098-.395.15-.607.15a1.357 1.357 0 0 1-1.018-.47l-.08-.1-.077-.123a1.397 1.397 0 0 1-.155-.632V3.554A3.288 3.288 0 0 1 1.097.9 4.513 4.513 0 0 1 4.078.008h4.85C11.515.008 13 1.25 13 3.413v11.253c.002.352-.137.69-.387.944a1.315 1.315 0 0 1-.945.39 1.412 1.412 0 0 1-.629-.16ZM5.682 8.82l-.01-.121V7.475H4.408a.882.882 0 0 1-.897-.866.879.879 0 0 1 .774-.875l.123-.007h1.267V4.5a.897.897 0 0 1 .913-.88.9.9 0 0 1 .885.76l.007.12v1.227h1.269a.88.88 0 0 1 .907.852.877.877 0 0 1-.784.888l-.123.008H7.48v1.227a.898.898 0 0 1-.922.872.898.898 0 0 1-.875-.75l-.001-.004Z"
+                                                  clip-rule="evenodd"></path>
+                                        </svg>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full">
+                        <div class="pt-3 max-2xl:pl-28">
+                            <div class="flex flex-wrap items-center justify-between gap-4 sm:max-lg:justify-start sm:max-lg:gap-12">
+                                <div class="hidden max-lg:block">
+                                    <div>
+                                        <span class="block text-3xs">آدرنـــالــــیــــنـــت</span>
+                                        <span class="mt-1 block text-3xs">بـا اســـکیپ زوم</span>
+                                        <span class="mt-0.5 block border-t border-white/10 pt-1.5 text-5xs uppercase tracking-wider">escapezoom</span>
+                                    </div>
+                                </div>
+                                <div class="hidden divide-y divide-white/10 max-lg:block">
+                                    <span class="block text-2xs">پشتیبان شما هستیم.</span>
+                                    <a class="mt-1 block pt-1 text-xl tracking-widest" dir="ltr" href="tel:0219130700">0219130700</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex justify-between gap-8 pt-9 max-md:flex-wrap lg:pt-11 2xl:gap-15">
+                            <div class="text-justify text-2xs leading-8 md:max-w-[30%] md:border-l md:border-white/10 md:pl-8 2xl:max-w-[40%] 2xl:pl-15">
+                                <div class="mb-6 flex items-center gap-x-20 text-xs font-bold max-lg:hidden">
+                                    <p>اسکیپ زوم، جستجو مقایسه و رزرو اتاق فرار</p>
+                                    <a href="mailto:info@escapezoom.ir">info@escapezoom.ir</a>
+                                </div>
+                                <div class="relative">
+                                    <div class="overflow-hidden transition-all delay-0 duration-[2000ms] ease-in-out max-h-54">
+                                        سایت اسکیپ زوم امـــکان جســتجو و رزرو اتـاق فرار در کامل‌ترین آرشیو
+                                        اتاق
+                                        فرارهای ایران را برای شما فراهم کرده است در وبسایت اسـکیپ زوم می توانید
+                                        محتوای
+                                        جــذاب و سرگرم کننده در حوزه بازی اتاق فرار و بازی‌های معمایی را ببینید
+                                        و نــکات
+                                        حرفه‌ای شـدن در این حوزه را بیاموزید.وبســایت اسـکیپ زوم این قابلیت را
+                                        برای شما
+                                        فراهم کرده تا بتوانید اتاق های فرار را بر اساس شهر، منطـــقه، تعـداد
+                                        نفرات و
+                                        قیــمت آن‌ها فیـــلتر کرده، بـازی مناســـب خود را انــــتخاب نمــوده و
+                                        به
+                                        ســادگی رزرو نمــایید.بازی های اسکــیپ رومی معـــمولا پذیرای سنین 12 تا
+                                        60 سال
+                                        هستند. اگر زیر 18 یا بـالای 50 ســـال سن دارید باید در انتخــاب ژانــر
+                                        اتاق فرار
+                                        دقت بیشــتری داشته باشید چراکه ژانرهای ترسـناک، دلهره آور ممکن است برای
+                                        شما...
+                                    </div>
+                                    <button type="button"
+                                            class="flex gap-4 items-center justify-center text-sm font-semibold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 transition-all duration-300 ease-in-out disabled:cursor-not-allowed disabled:shadow-none disabled:bg-transparent disabled:opacity-30 disabled:text-gray-900 absolute bottom-0 left-0 pr-10 bg-slate-200">
+                                        <span class="truncate">مشاهده بیشتر</span>
+                                        <span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" width="14"
+                                                 viewBox="0 0 24 24" class="rounded-md bg-white text-[#09192d]">
+                                                <path stroke="currentColor" stroke-linecap="round"
+                                                      stroke-linejoin="round" stroke-width="1.5" d="m19 8.5-7 7-7-7"
+                                                      vector-effect="non-scaling-stroke"></path>
+                                            </svg>
+                                        </span>
+                                    </button>
+                                </div>
+                                <div class="lg:hidden">
+                                    <div class="mb-10 mt-15 flex items-center justify-between gap-x-4">
+                                        <div class="shrink-0 font-bold text-white">نشان های اعتماد اسکیپ زوم
+                                        </div>
+                                        <div class="h-px w-full bg-[#C4C4C4]"></div>
+                                        <div>
+                                            <button type="button"
+                                                    class="flex gap-4 items-center justify-center relative font-semibold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 transition-all duration-300 ease-in-out disabled:bg-slate-110 disabled:text-[#ccc] disabled:cursor-not-allowed disabled:shadow-none bg-white/10 text-white h-9 min-w-9 px-3 py-1 text-2xs rounded-lg">
+                                                <span>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" fill="none"
+                                                         viewBox="0 0 13 16">
+                                                        <path fill="currentColor" fill-rule="evenodd"
+                                                              d="m11.04 15.84-4.557-2.508-4.54 2.508c-.187.098-.395.15-.607.15a1.357 1.357 0 0 1-1.018-.47l-.08-.1-.077-.123a1.397 1.397 0 0 1-.155-.632V3.554A3.288 3.288 0 0 1 1.097.9 4.513 4.513 0 0 1 4.078.008h4.85C11.515.008 13 1.25 13 3.413v11.253c.002.352-.137.69-.387.944a1.315 1.315 0 0 1-.945.39 1.412 1.412 0 0 1-.629-.16ZM5.682 8.82l-.01-.121V7.475H4.408a.882.882 0 0 1-.897-.866.879.879 0 0 1 .774-.875l.123-.007h1.267V4.5a.897.897 0 0 1 .913-.88.9.9 0 0 1 .885.76l.007.12v1.227h1.269a.88.88 0 0 1 .907.852.877.877 0 0 1-.784.888l-.123.008H7.48v1.227a.898.898 0 0 1-.922.872.898.898 0 0 1-.875-.75l-.001-.004Z"
+                                                              clip-rule="evenodd"></path>
+                                                    </svg>
+                                                </span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="grid grid-cols-4auto items-center justify-between gap-4">
+                                        <a class="w-fit"
+                                           href="https://trustseal.enamad.ir/?id=346259&Code=fbGkMCGn9UU31loYShJV">
+                                            <img src="https://escapezoom.ir/wp-content/themes/escapezoom-v1/img/license/enamad.svg"
+                                                 alt="">
+                                        </a>
+                                        <a class="w-fit" href="https://eanjoman.ir/member/NAAK5SE04K2A9snx2E3kKqg47">
+                                            <img src="https://escapezoom.ir/wp-content/themes/escapezoom-v1/img/license/digital.svg"
+                                                 alt="">
+                                        </a>
+                                        <a class="w-fit" href="javascript:">
+                                            <img src="https://escapezoom.ir/wp-content/themes/escapezoom-v1/img/license/senfi.svg"
+                                                 alt="">
+                                        </a>
+                                        <a class="w-fit" href="javascript:">
+                                            <img src="https://escapezoom.ir/wp-content/themes/escapezoom-v1/img/license/etehaiye.svg"
+                                                 alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid w-full grid-cols-2 gap-4 text-xs lg:grid-cols-4">
+                                <div class="">
+                                    <p class="mb-4 text-xs font-bold text-white/60">بخش های مهم سایت</p>
+                                    <ul class="mb-6">
+                                        <li class="leading-8">
+                                            <a href="#">صفحه اصلی</a>
+                                        </li>
+                                        <li class="leading-8">
+                                            <a href="#">پر فروش ترین ها</a>
+                                        </li>
+                                        <li class="leading-8">
+                                            <a href="#">مجله خبری وبلاگ</a>
+                                        </li>
+                                        <li class="leading-8">
+                                            <a href="#">ویدیو و تیزرها</a>
+                                        </li>
+                                        <li class="leading-8">
+                                            <a href="#">ثبت اتاق</a>
+                                        </li>
+                                        <li class="leading-8">
+                                            <a href="#">پشتیبانی و فروش</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="max-lg:text-right">
+                                    <p class="mb-4 text-xs font-bold text-white/60">محبوب ترین های کاربران</p>
+                                    <ul class="mb-6">
+                                        <li class="leading-8">
+                                            <a href="#">سانس های آزاد امروز</a>
+                                        </li>
+                                        <li class="leading-8">
+                                            <a href="#">سانس های آزاد فردا</a>
+                                        </li>
+                                        <li class="leading-8">
+                                            <a href="#">سانس های آزاد پس فردا</a>
+                                        </li>
+                                        <li class="leading-8">
+                                            <a href="#">بازی های خیلی سخت</a>
+                                        </li>
+                                        <li class="leading-8">
+                                            <a href="#">بازی های سخت و دلهره آور</a>
+                                        </li>
+                                        <li class="leading-8">
+                                            <a href="#">بازی های ترسناک و خیلی سخت</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="">
+                                    <p class="mb-4 text-xs font-bold text-white/60">ژانرهای محبوب</p>
+                                    <ul class="mb-6">
+                                        <li class="leading-8">
+                                            <a href="https://escapezoom.ir/type/%D8%A7%D8%AA%D8%A7%D9%82-%D9%81%D8%B1%D8%A7%D8%B1-%D8%AA%D8%B1%D8%B3%D9%86%D8%A7%DA%A9/">ترسناک</a>
+                                        </li>
+                                        <li class="leading-8">
+                                            <a href="https://escapezoom.ir/type/%D8%A7%DA%A9%D8%B4%D9%86/">اکشن</a>
+                                        </li>
+                                        <li class="leading-8">
+                                            <a href="https://escapezoom.ir/type/%D8%AF%D8%B1%D8%A7%D9%85/">درام</a>
+                                        </li>
+                                        <li class="leading-8">
+                                            <a href="https://escapezoom.ir/type/%d9%85%d8%b9%d9%85%d8%a7%db%8c%db%8c/">دلهره
+                                                آور</a>
+                                        </li>
+                                        <li class="leading-8">
+                                            <a href="https://escapezoom.ir/type/%d9%85%d8%b9%d9%85%d8%a7%db%8c%db%8c/">غیر
+                                                ترسناک</a>
+                                        </li>
+                                        <li class="leading-8">
+                                            <a href="https://escapezoom.ir/type/%D9%87%DB%8C%D8%AC%D8%A7%D9%86%DB%8C/">هیجانی</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="max-lg:text-right">
+                                    <p class="mb-4 text-xs font-bold text-white/60 relative flex items-center gap-x-4 text-nowrap max-lg:after:relative max-lg:after:h-px max-lg:after:w-full max-lg:after:bg-[#C4C4C4] max-lg:after:content-['']">
+                                        محبوب ترین شهرها</p>
+                                    <ul class="mb-6 grid grid-cols-2auto justify-between">
+                                        <li class="leading-8">
+                                            <a href="https://escapezoom.ir/city/%D8%A7%D8%AA%D8%A7%D9%82-%D9%81%D8%B1%D8%A7%D8%B1-%D8%AA%D9%87%D8%B1%D8%A7%D9%86/">تهران</a>
+                                        </li>
+                                        <li class="leading-8">
+                                            <a href="https://escapezoom.ir/city/%D8%B1%D8%B4%D8%AA/">رشت</a>
+                                        </li>
+                                        <li class="leading-8">
+                                            <a href="#">کیش</a>
+                                        </li>
+                                        <li class="leading-8">
+                                            <a href="https://escapezoom.ir/city/%D9%82%D9%85/">قم</a>
+                                        </li>
+                                        <li class="leading-8">
+                                            <a href="https://escapezoom.ir/city/%D9%85%D8%B4%D9%87%D8%AF/">مشهد</a>
+                                        </li>
+                                        <li class="leading-8">
+                                            <a href="https://escapezoom.ir/city/%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86/">اصفهان</a>
+                                        </li>
+                                        <li class="leading-8">
+                                            <a href="https://escapezoom.ir/city/%DA%A9%D8%B1%D8%AC/">کرج</a>
+                                        </li>
+                                        <li class="leading-8">
+                                            <a href="https://escapezoom.ir/city/%DA%A9%D8%A7%D8%B4%D8%A7%D9%86/">کاشان</a>
+                                        </li>
+                                        <li class="leading-8">
+                                            <a href="https://escapezoom.ir/city/%DA%A9%D8%B1%D9%85%D8%A7%D9%86%D8%B4%D8%A7%D9%87/">کرمانشاه</a>
+                                        </li>
+                                        <li class="leading-8">
+                                            <a href="https://escapezoom.ir/city/%D9%82%D8%B2%D9%88%DB%8C%D9%86/">قزوین</a>
+                                        </li>
+                                        <li class="leading-8">
+                                            <a href="https://escapezoom.ir/city/%D8%A7%D8%B1%D8%A7%DA%A9/">اراک</a>
+                                        </li>
+                                        <li class="leading-8">
+                                            <a href="#">کل ایران</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lg:mt-8">
+                            <p class="mb-5 text-xs font-bold opacity-60 max-lg:hidden">نشان های اعتماد اسکیپ
+                                زوم</p>
+                            <div class="flex w-full items-center justify-between gap-6 border-b border-t border-white/10 pb-3 pt-3 text-2xs md:order-1 lg:py-0">
+                                <div class="flex w-full flex-wrap items-center justify-between gap-6 text-3xs lg:hidden">
+                                    <a target="_blank" rel="noopener noreferrer"
+                                       href="https://t.me/escape_zoom">تلگرام</a>
+                                    <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/escape_zoom">توییتر</a>
+                                    <a target="_blank" rel="noopener noreferrer"
+                                       href="https://instagram.com/escape_zoom">اینستاگرام</a>
+                                    <a target="_blank" rel="noopener noreferrer" href="https://aparat.com/escape_zoom">آپارات</a>
+                                    <a target="_blank" rel="noopener noreferrer"
+                                       href="https://youtube.come/escape_zoom">یوتیوب</a>
+                                </div>
+                                <div class="flex w-full items-center justify-between gap-x-20 max-lg:hidden">
+                                    <div class="relative grid grid-cols-4auto items-center justify-between gap-4 before:absolute before:-top-1 before:h-2 before:w-full before:bg-slate-200 before:content-['']">
+                                        <a class="relative z-1 w-fit"
+                                           href="https://trustseal.enamad.ir/?id=346259&Code=fbGkMCGn9UU31loYShJV">
+                                            <img src="https://escapezoom.ir/wp-content/themes/escapezoom-v1/img/license/enamad.svg"
+                                                 alt="" class="w-8">
+                                        </a>
+                                        <a class="relative z-1 w-fit"
+                                           href="https://eanjoman.ir/member/NAAK5SE04K2A9snx2E3kKqg47">
+                                            <img src="https://escapezoom.ir/wp-content/themes/escapezoom-v1/img/license/digital.svg"
+                                                 alt="" class="w-8">
+                                        </a>
+                                        <a class="relative z-1 w-fit" href="javascript:">
+                                            <img src="https://escapezoom.ir/wp-content/themes/escapezoom-v1/img/license/senfi.svg"
+                                                 alt="" class="w-8">
+                                        </a>
+                                        <a class="relative z-1 w-fit" href="javascript:">
+                                            <img src="https://escapezoom.ir/wp-content/themes/escapezoom-v1/img/license/etehaiye.svg"
+                                                 alt="" class="w-8">
+                                        </a>
+                                    </div>
+                                    <div class="flex items-center justify-between gap-x-10">
+                                        <div class="flex items-center gap-x-10 text-sm">
+                                            <div>ایمیل پشتیبانی</div>
+                                            <div class="flex items-center gap-x-4">
+                                                <a href="mailto:info@escapezoom.ir">info@escapezoom.ir</a>
+                                                <span class="-mt-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="10"
+                                                         viewBox="0 0 12 10" fill="none">
+                                                        <path d="M10.666 0.5H1.33268C0.691016 0.5 0.171849 1.025 0.171849 1.66667L0.166016 8.66667C0.166016 9.30833 0.691016 9.83333 1.33268 9.83333H10.666C11.3077 9.83333 11.8327 9.30833 11.8327 8.66667V1.66667C11.8327 1.025 11.3077 0.5 10.666 0.5ZM10.4327 2.97917L6.30852 5.5575C6.12185 5.67417 5.87685 5.67417 5.69018 5.5575L1.56602 2.97917C1.50752 2.94633 1.4563 2.90197 1.41545 2.84876C1.3746 2.79556 1.34497 2.73462 1.32835 2.66963C1.31173 2.60465 1.30848 2.53696 1.31877 2.47068C1.32907 2.4044 1.35271 2.34089 1.38826 2.28401C1.42381 2.22713 1.47054 2.17805 1.52561 2.13975C1.58067 2.10145 1.64294 2.07471 1.70864 2.06117C1.77434 2.04763 1.8421 2.04756 1.90782 2.06097C1.97355 2.07438 2.03587 2.10098 2.09102 2.13917L5.99935 4.58333L9.90768 2.13917C9.96283 2.10098 10.0252 2.07438 10.0909 2.06097C10.1566 2.04756 10.2244 2.04763 10.2901 2.06117C10.3558 2.07471 10.418 2.10145 10.4731 2.13975C10.5282 2.17805 10.5749 2.22713 10.6104 2.28401C10.646 2.34089 10.6696 2.4044 10.6799 2.47068C10.6902 2.53696 10.687 2.60465 10.6703 2.66963C10.6537 2.73462 10.6241 2.79556 10.5832 2.84876C10.5424 2.90197 10.4912 2.94633 10.4327 2.97917Z"
+                                                              fill="white"></path>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="flex items-center gap-x-10 text-base">
+                                            <div>پشتیبان همیشگی شما هستیم</div>
+                                            <div class="flex items-center gap-x-4">
+                                                <a href="tel:0219130700">0219130700</a>
+                                                <span>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                         viewBox="0 0 18 18" fill="none">
+                                                        <path d="M11.7001 10.8917C9.90392 12.7817 5.3223 8.24115 7.12525 6.34363C8.22622 5.18486 6.98275 3.8611 6.29427 2.88684C5.00206 1.06057 2.16639 3.5821 2.25189 5.18636C2.52413 10.2459 7.99673 16.2415 13.2961 15.718C14.9535 15.5545 16.8585 12.5604 14.9565 11.4662C14.0063 10.9187 12.7006 9.83941 11.7001 10.8917Z"
+                                                              fill="white"></path>
+                                                        <path d="M10.5 2.25C11.8923 2.25 13.2277 2.80313 14.2122 3.7877C15.1967 4.77228 15.7498 6.10765 15.7498 7.50005M10.5 5.25003C11.0967 5.25003 11.669 5.48709 12.0909 5.90905C12.5129 6.33101 12.7499 6.90331 12.7499 7.50005"
+                                                              stroke="white" stroke-linecap="round"
+                                                              stroke-linejoin="round"></path>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between gap-20">
+                            <div class="mb-4.5 mt-4 grid grid-cols-3auto items-center justify-between gap-x-4 text-3xs font-bold max-lg:w-full">
+                                <div class="flex items-center gap-x-2">
+                                    <div class="opacity-60">طراحی سایت</div>
+                                    <div>آی وحید</div>
+                                </div>
+                                <div class="flex items-center gap-x-2">
+                                    <div class="opacity-60">توسعه وب</div>
+                                    <div>آرتین فناوران برخط</div>
+                                </div>
+                                <div class="flex items-center gap-x-2">
+                                    <div class="opacity-60">از سال</div>
+                                    <div>2020</div>
+                                    <div class="opacity-60">تا</div>
+                                    <div>2024</div>
+                                </div>
+                            </div>
+                            <div class="flex flex-wrap items-center justify-between gap-6 text-3xs max-lg:hidden">
+                                <a target="_blank" rel="noopener noreferrer" href="https://t.me/escape_zoom">تلگرام</a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/escape_zoom">توییتر</a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/escape_zoom">اینستاگرام</a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://aparat.com/escape_zoom">آپارات</a>
+                                <a target="_blank" rel="noopener noreferrer" href="https://youtube.come/escape_zoom">یوتیوب</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="./assets/vendor/jquery/jquery-3.7.1.min.js"></script>
+<script src="./assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="./assets/js/main.js"></script>
+<script>
+    jQuery(document).ready(function ($) {
+        $('.accordion-title').on('click', function () {
+            $(this).next().slideToggle()
+            $(this).find('svg:first-child').toggleClass('hidden')
+            $(this).find('svg:last-child').toggleClass('hidden')
+            return false
+        })
+    })
+</script>
+</body>
+
+</html>

@@ -1,0 +1,488 @@
+[12-Sep-2025 13:34:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[12-Sep-2025 13:43:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[13-Sep-2025 22:03:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[14-Sep-2025 07:23:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[16-Sep-2025 08:10:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[16-Sep-2025 09:47:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[16-Sep-2025 09:47:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[16-Sep-2025 09:56:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[16-Sep-2025 09:56:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[16-Sep-2025 11:53:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[17-Sep-2025 16:24:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[17-Sep-2025 21:17:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[19-Sep-2025 17:43:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[19-Sep-2025 19:12:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[20-Sep-2025 23:55:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[22-Sep-2025 05:44:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[23-Sep-2025 20:14:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[24-Sep-2025 05:04:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[26-Sep-2025 05:04:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[27-Sep-2025 22:56:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[28-Sep-2025 12:12:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[29-Sep-2025 18:45:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[30-Sep-2025 03:03:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[01-Oct-2025 17:14:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[01-Oct-2025 17:53:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[04-Oct-2025 17:33:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[05-Oct-2025 19:16:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[07-Oct-2025 03:33:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[08-Oct-2025 11:04:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[09-Oct-2025 08:35:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[09-Oct-2025 12:55:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[10-Oct-2025 20:54:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[10-Oct-2025 21:44:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[12-Oct-2025 10:45:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[13-Oct-2025 12:34:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[14-Oct-2025 13:25:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[15-Oct-2025 18:05:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[17-Oct-2025 01:44:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[17-Oct-2025 20:43:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[19-Oct-2025 03:23:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[19-Oct-2025 16:32:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[21-Oct-2025 13:04:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[23-Oct-2025 04:54:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[23-Oct-2025 18:04:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[25-Oct-2025 00:03:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[25-Oct-2025 21:23:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[27-Oct-2025 06:41:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[28-Oct-2025 05:05:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[29-Oct-2025 09:14:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[01-Nov-2025 00:15:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[01-Nov-2025 20:53:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[02-Nov-2025 19:13:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[07-Nov-2025 14:52:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[09-Nov-2025 06:34:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[09-Nov-2025 20:33:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[11-Nov-2025 23:24:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[12-Nov-2025 16:14:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[13-Nov-2025 23:46:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[15-Nov-2025 18:03:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[15-Nov-2025 18:43:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[18-Nov-2025 00:14:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[19-Nov-2025 15:10:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[19-Nov-2025 15:11:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[19-Nov-2025 17:04:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[19-Nov-2025 17:04:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[19-Nov-2025 17:06:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[20-Nov-2025 01:15:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[20-Nov-2025 02:54:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[21-Nov-2025 20:34:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[22-Nov-2025 09:24:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[23-Nov-2025 21:26:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[24-Nov-2025 05:56:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[24-Nov-2025 20:43:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[24-Nov-2025 20:43:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[25-Nov-2025 14:29:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[25-Nov-2025 14:29:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[25-Nov-2025 16:33:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[28-Nov-2025 02:25:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[29-Nov-2025 16:24:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[30-Nov-2025 22:52:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[02-Dec-2025 03:24:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[03-Dec-2025 08:33:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[03-Dec-2025 22:26:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[07-Dec-2025 22:46:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[11-Dec-2025 18:54:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[14-Dec-2025 10:12:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[16-Dec-2025 11:04:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[17-Dec-2025 07:05:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[17-Dec-2025 07:05:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[17-Dec-2025 21:14:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[17-Dec-2025 21:14:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[17-Dec-2025 22:05:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[19-Dec-2025 17:53:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[22-Dec-2025 09:33:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[23-Dec-2025 19:47:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[23-Dec-2025 19:47:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[26-Dec-2025 00:03:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[28-Dec-2025 13:30:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[29-Dec-2025 21:43:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[30-Dec-2025 17:19:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[30-Dec-2025 17:19:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[30-Dec-2025 17:19:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[30-Dec-2025 19:05:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[30-Dec-2025 19:05:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[30-Dec-2025 19:05:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[31-Dec-2025 14:56:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[31-Dec-2025 14:56:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[01-Jan-2026 00:13:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[02-Jan-2026 10:12:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[02-Jan-2026 10:12:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[03-Jan-2026 00:14:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[03-Jan-2026 16:29:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[03-Jan-2026 16:29:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[05-Jan-2026 21:31:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[23-Jan-2026 23:56:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[25-Jan-2026 08:08:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[26-Jan-2026 01:03:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[27-Jan-2026 23:44:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[28-Jan-2026 14:56:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[28-Jan-2026 14:56:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/wp-postviews.php on line 35
+[29-Jan-2026 18:04:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3
+[06-Feb-2026 00:43:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function plugin_basename() in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-postviews/postviews-options.php on line 3

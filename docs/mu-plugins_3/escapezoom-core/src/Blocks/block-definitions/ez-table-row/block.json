@@ -1,0 +1,12 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "escapezoom/ez-table-row",
+  "title": "EZ Table Row",
+  "category": "escapezoom",
+  "icon": "editor-break",
+  "description": "Table row (Stencil: ez-table-row).",
+  "parent": ["escapezoom/ez-table"],
+  "supports": { "html": false },
+  "textdomain": "escapezoom-core"
+}

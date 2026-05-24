@@ -1,0 +1,119 @@
+[24-Dec-2025 15:53:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\wp_normalize_path() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-path-processor.php:73
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-plugin-locator.php(45): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Path_Processor->find_directory_with_autoloader('/home/escapezoo...', Array)
+#1 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-autoloader.php(46): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Plugin_Locator->find_current_plugin()
+#2 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/autoload_packages.php(13): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Autoloader::init()
+#3 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-path-processor.php on line 73
+[26-Dec-2025 16:05:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\wp_normalize_path() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-path-processor.php:73
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-plugin-locator.php(45): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Path_Processor->find_directory_with_autoloader('/home/escapezoo...', Array)
+#1 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-autoloader.php(46): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Plugin_Locator->find_current_plugin()
+#2 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/autoload_packages.php(13): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Autoloader::init()
+#3 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-path-processor.php on line 73
+[28-Dec-2025 22:54:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\wp_normalize_path() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-path-processor.php:73
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-plugin-locator.php(45): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Path_Processor->find_directory_with_autoloader('/home/escapezoo...', Array)
+#1 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-autoloader.php(46): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Plugin_Locator->find_current_plugin()
+#2 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/autoload_packages.php(13): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Autoloader::init()
+#3 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-path-processor.php on line 73
+[31-Dec-2025 11:34:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\wp_normalize_path() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-path-processor.php:73
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-plugin-locator.php(45): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Path_Processor->find_directory_with_autoloader('/home/escapezoo...', Array)
+#1 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-autoloader.php(46): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Plugin_Locator->find_current_plugin()
+#2 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/autoload_packages.php(13): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Autoloader::init()
+#3 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-path-processor.php on line 73
+[31-Dec-2025 15:08:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\wp_normalize_path() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-path-processor.php:73
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-plugin-locator.php(45): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Path_Processor->find_directory_with_autoloader('/home/escapezoo...', Array)
+#1 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-autoloader.php(46): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Plugin_Locator->find_current_plugin()
+#2 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/autoload_packages.php(13): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Autoloader::init()
+#3 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-path-processor.php on line 73
+[02-Jan-2026 07:13:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\wp_normalize_path() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-path-processor.php:73
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-plugin-locator.php(45): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Path_Processor->find_directory_with_autoloader('/home/escapezoo...', Array)
+#1 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-autoloader.php(46): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Plugin_Locator->find_current_plugin()
+#2 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/autoload_packages.php(13): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Autoloader::init()
+#3 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-path-processor.php on line 73
+[02-Jan-2026 10:10:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\wp_normalize_path() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-path-processor.php:73
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-plugin-locator.php(45): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Path_Processor->find_directory_with_autoloader('/home/escapezoo...', Array)
+#1 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-autoloader.php(46): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Plugin_Locator->find_current_plugin()
+#2 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/autoload_packages.php(13): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Autoloader::init()
+#3 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-path-processor.php on line 73
+[03-Jan-2026 16:35:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\wp_normalize_path() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-path-processor.php:73
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-plugin-locator.php(45): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Path_Processor->find_directory_with_autoloader('/home/escapezoo...', Array)
+#1 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-autoloader.php(46): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Plugin_Locator->find_current_plugin()
+#2 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/autoload_packages.php(13): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Autoloader::init()
+#3 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-path-processor.php on line 73
+[04-Jan-2026 07:33:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\wp_normalize_path() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-path-processor.php:73
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-plugin-locator.php(45): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Path_Processor->find_directory_with_autoloader('/home/escapezoo...', Array)
+#1 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-autoloader.php(46): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Plugin_Locator->find_current_plugin()
+#2 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/autoload_packages.php(13): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Autoloader::init()
+#3 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-path-processor.php on line 73
+[06-Jan-2026 20:09:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\wp_normalize_path() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-path-processor.php:73
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-plugin-locator.php(45): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Path_Processor->find_directory_with_autoloader('/home/escapezoo...', Array)
+#1 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-autoloader.php(46): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Plugin_Locator->find_current_plugin()
+#2 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/autoload_packages.php(13): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Autoloader::init()
+#3 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-path-processor.php on line 73
+[23-Jan-2026 10:46:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\wp_normalize_path() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-path-processor.php:73
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-plugin-locator.php(45): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Path_Processor->find_directory_with_autoloader('/home/escapezoo...', Array)
+#1 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-autoloader.php(46): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Plugin_Locator->find_current_plugin()
+#2 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/autoload_packages.php(13): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Autoloader::init()
+#3 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-path-processor.php on line 73
+[26-Jan-2026 21:45:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\wp_normalize_path() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-path-processor.php:73
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-plugin-locator.php(45): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Path_Processor->find_directory_with_autoloader('/home/escapezoo...', Array)
+#1 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-autoloader.php(46): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Plugin_Locator->find_current_plugin()
+#2 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/autoload_packages.php(13): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Autoloader::init()
+#3 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-path-processor.php on line 73
+[28-Jan-2026 13:24:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\wp_normalize_path() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-path-processor.php:73
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-plugin-locator.php(45): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Path_Processor->find_directory_with_autoloader('/home/escapezoo...', Array)
+#1 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-autoloader.php(46): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Plugin_Locator->find_current_plugin()
+#2 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/autoload_packages.php(13): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Autoloader::init()
+#3 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-path-processor.php on line 73
+[28-Jan-2026 14:57:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\wp_normalize_path() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-path-processor.php:73
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-plugin-locator.php(45): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Path_Processor->find_directory_with_autoloader('/home/escapezoo...', Array)
+#1 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-autoloader.php(46): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Plugin_Locator->find_current_plugin()
+#2 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/autoload_packages.php(13): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Autoloader::init()
+#3 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-path-processor.php on line 73
+[30-Jan-2026 05:15:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\wp_normalize_path() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-path-processor.php:73
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-plugin-locator.php(45): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Path_Processor->find_directory_with_autoloader('/home/escapezoo...', Array)
+#1 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-autoloader.php(46): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Plugin_Locator->find_current_plugin()
+#2 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/autoload_packages.php(13): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Autoloader::init()
+#3 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-path-processor.php on line 73
+[31-Jan-2026 22:02:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\wp_normalize_path() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-path-processor.php:73
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-plugin-locator.php(45): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Path_Processor->find_directory_with_autoloader('/home/escapezoo...', Array)
+#1 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-autoloader.php(46): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Plugin_Locator->find_current_plugin()
+#2 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/autoload_packages.php(13): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Autoloader::init()
+#3 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-path-processor.php on line 73
+[04-Feb-2026 23:15:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\wp_normalize_path() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-path-processor.php:73
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-plugin-locator.php(45): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Path_Processor->find_directory_with_autoloader('/home/escapezoo...', Array)
+#1 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-autoloader.php(46): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Plugin_Locator->find_current_plugin()
+#2 /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/autoload_packages.php(13): Automattic\Jetpack\Autoloader\jp873bafa9ae6aaccf6c844a0451868b60\al5_0_0\Autoloader::init()
+#3 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-path-processor.php on line 73

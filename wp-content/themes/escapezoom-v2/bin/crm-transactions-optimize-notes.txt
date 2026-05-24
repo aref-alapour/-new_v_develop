@@ -1,0 +1,19 @@
+CRM transactions page — optimize (Medoo + button search)
+======================================================
+
+Changed files:
+- template/team/ajax/callbacks/transactions_get.php
+- template/team/ajax/callbacks/transactions_user_search.php
+- template/team/pages/transactions.php
+
+Manual QA (staging):
+1. Type in search — no network until "جستجو" or Enter
+2. Search shows "در حال جستجو..." skeleton in dropdown
+3. Pick user — user_info + table load with skeletons
+4. Page 2 pagination — small response (~50 rows)
+5. Export CSV — all rows (no 500 cap on list pagination)
+6. ?user_id= in URL — direct load
+7. sans_management phone reserve — transactions_user_search still returns team_trans_user_search_item + "کاربری یافت نشد!"
+
+DB ops (optional):
+CREATE INDEX idx_wallet_transactions_user_id ON wallet_transactions (user_id, ID);

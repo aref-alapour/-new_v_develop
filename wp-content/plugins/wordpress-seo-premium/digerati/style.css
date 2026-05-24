@@ -1,0 +1,61 @@
+/* RTL CSS Edited By Digerati - Zhaket.com  */
+body.rtl .yoast div[class^='shared__SimulatedLabel'],body.rtl .yoast div[class*=' shared__SimulatedLabel'],body.rtl .yoast div[class^='shared__InputContainer'],body.rtl .yoast div[class*=' shared__InputContainer'],body.rtl .yoast button[class^='shared__TriggerReplacementVariableSuggestionsButton'],body.rtl .yoast button[class*=' shared__TriggerReplacementVariableSuggestionsButton'], body.rtl .yoast div[class^='SnippetPreview__MobileContainer'],body.rtl .yoast div[class*=' SnippetPreview__MobileContainer'],body.rtl .yoast div[class^='SnippetPreview__DesktopContainer'],body.rtl .yoast div[class*=' SnippetPreview__DesktopContainer'], body.rtl .yoast div[class^='Label__SimulatedLabel'],body.rtl .yoast div[class*=' Label__SimulatedLabel'],body.rtl .yoast div[class^='InputContainer__VariableEditorInputContainer'],body.rtl .yoast div[class*=' InputContainer__VariableEditorInputContainer'], body.rtl .yoast, body.rtl .wpseo-admin-page, body.rtl .yoast h1, body.rtl .yoast h2, body.rtl .yoast  h3, body.rtl .yoast h4, body.rtl .yoast h5, body.rtl .yoast h6, body.rtl .yoast button[class^='Button__BaseButton'],body.rtl .yoast button[class*=' Button__BaseButton'], body.rtl .yoast .inside h2, body.rtl .yoast .wrap [class$=icon32]+h2, body.rtl .yoast .wrap h1, body.rtl .yoast .wrap>h2:first-child {
+    font-family:tahoma !important;
+}
+‎:is(body.rtl .yst-root) h1, h2, h3, h4, h5, h6 {
+  font-family: Tahoma,Arial,sans-serif !important;
+}
+body.rtl .yst-root h1 {
+  font-family: Tahoma,Arial,sans-serif !important;
+}
+body.rtl .yoast div.public-DraftStyleDefault-rtl {
+    direction:rtl;
+    text-align:right;
+    font-family:tahoma !important;
+}
+body.rtl .yoast ul.wpseo-metabox-tabs li .wpseo-keyword {
+    padding-right:2px;
+}
+/* RTL CSS Edited By Digerati - Zhaket.com  */
+
+.yoast-wizard-body {
+    font-family:tahoma !important;
+}
+body.rtl .yoast button.yst-replacevar__button-insert {
+	margin-left: unset !important;
+    margin-right: .5em;
+}
+body.rtl .yoast-grid h3 {
+    font-size: 16px;
+}
+body.rtl .yoast-grid p {
+    text-align: justify;
+}
+body.rtl #wpseo-workouts-container .workflow {
+    margin-right: 48px;
+    margin-left: unset;
+}
+body.rtl #wpseo-workouts-container .workflow>li:after {
+    right: -48px;
+	left: unset;
+}
+body.rtl #wpseo-workouts-container .workflow>li:before {
+    right: -33px;
+	left: unset;
+}
+body.rtl #wpseo-workouts-container h1, body.rtl #wpseo-workouts-container h2, body.rtl #wpseo-workouts-container h3, body.rtl #wpseo-workouts-container h4, body.rtl #wpseo-workouts-container h5, body.rtl #wpseo-workouts-container h6 {
+    font-family:tahoma !important;
+}
+body.rtl .notice-yoast__header {
+    justify-content: right;
+}
+body.rtl .yoast-svg-icon {
+    margin-right: unset;
+    margin-left: 8px;
+}
+body.rtl .yst-replacevar .emoji-select-popover {
+    direction:ltr;
+}
+body.rtl .yst-w-4 {
+transform: rotate(180deg);
+}

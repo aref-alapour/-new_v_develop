@@ -1,0 +1,332 @@
+[29-Apr-2025 03:22:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[05-May-2025 19:18:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[05-May-2025 22:02:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[08-May-2025 03:36:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[03-Aug-2025 06:10:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[27-Aug-2025 07:34:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[29-Aug-2025 17:55:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[31-Aug-2025 13:48:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[01-Sep-2025 10:17:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[02-Sep-2025 13:53:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[04-Sep-2025 12:55:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[06-Sep-2025 13:04:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[08-Sep-2025 12:46:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[09-Sep-2025 16:02:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[12-Sep-2025 12:49:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[14-Sep-2025 04:15:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[16-Sep-2025 16:00:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[19-Sep-2025 15:03:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[20-Sep-2025 20:39:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[20-Sep-2025 20:39:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[23-Sep-2025 12:54:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[25-Sep-2025 04:50:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[27-Sep-2025 14:44:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[29-Sep-2025 09:04:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[01-Oct-2025 12:14:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[05-Oct-2025 06:04:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[07-Oct-2025 09:16:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[08-Oct-2025 14:34:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[09-Oct-2025 14:55:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[10-Oct-2025 18:45:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[12-Oct-2025 12:45:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[13-Oct-2025 20:53:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[16-Oct-2025 13:16:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[18-Oct-2025 06:33:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[19-Oct-2025 19:03:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[21-Oct-2025 19:30:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[23-Oct-2025 19:43:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[26-Oct-2025 07:16:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[30-Oct-2025 00:55:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[01-Nov-2025 10:34:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[02-Nov-2025 21:26:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[07-Nov-2025 09:14:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[08-Nov-2025 23:27:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[11-Nov-2025 17:35:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[13-Nov-2025 17:53:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[15-Nov-2025 07:35:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[16-Nov-2025 09:55:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[19-Nov-2025 00:56:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[20-Nov-2025 07:05:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[20-Nov-2025 07:06:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[21-Nov-2025 07:15:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[23-Nov-2025 06:24:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[24-Nov-2025 19:20:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[24-Nov-2025 20:34:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[25-Nov-2025 14:22:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[27-Nov-2025 07:55:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[28-Nov-2025 19:43:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[30-Nov-2025 13:25:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[01-Dec-2025 21:33:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[04-Dec-2025 09:15:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[06-Dec-2025 06:39:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[07-Dec-2025 16:04:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[10-Dec-2025 06:34:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[12-Dec-2025 07:36:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[14-Dec-2025 04:34:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[15-Dec-2025 21:24:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[17-Dec-2025 07:09:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[17-Dec-2025 18:13:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[17-Dec-2025 21:10:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[19-Dec-2025 22:45:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[22-Dec-2025 10:45:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[23-Dec-2025 20:29:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[23-Dec-2025 21:04:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[25-Dec-2025 20:13:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[28-Dec-2025 02:38:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[29-Dec-2025 18:35:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[31-Dec-2025 15:14:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[31-Dec-2025 21:45:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[02-Jan-2026 10:11:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[03-Jan-2026 16:40:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[05-Jan-2026 20:23:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[07-Jan-2026 16:15:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20
+[28-Jan-2026 15:02:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/emails/email-mobile-messaging.php on line 20

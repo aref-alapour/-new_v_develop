@@ -1,0 +1,136 @@
+[23-Dec-2025 23:44:50 UTC] PHP Fatal error:  Uncaught Error: Interface "AcfBetterSearch\HookableInterface" not found in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Config.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Config.php on line 10
+[24-Dec-2025 12:14:34 UTC] PHP Fatal error:  Uncaught Error: Interface "AcfBetterSearch\HookableInterface" not found in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Page.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Page.php on line 12
+[25-Dec-2025 23:44:59 UTC] PHP Fatal error:  Uncaught Error: Interface "AcfBetterSearch\HookableInterface" not found in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Config.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Config.php on line 10
+[29-Dec-2025 01:25:05 UTC] PHP Fatal error:  Uncaught Error: Interface "AcfBetterSearch\HookableInterface" not found in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Config.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Config.php on line 10
+[29-Dec-2025 07:34:54 UTC] PHP Fatal error:  Uncaught Error: Interface "AcfBetterSearch\HookableInterface" not found in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Page.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Page.php on line 12
+[30-Dec-2025 21:45:14 UTC] PHP Fatal error:  Uncaught Error: Interface "AcfBetterSearch\HookableInterface" not found in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Config.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Config.php on line 10
+[31-Dec-2025 06:14:25 UTC] PHP Fatal error:  Uncaught Error: Interface "AcfBetterSearch\HookableInterface" not found in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Page.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Page.php on line 12
+[31-Dec-2025 15:16:20 UTC] PHP Fatal error:  Uncaught Error: Interface "AcfBetterSearch\HookableInterface" not found in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Acf.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Acf.php on line 10
+[31-Dec-2025 15:16:20 UTC] PHP Fatal error:  Uncaught Error: Interface "AcfBetterSearch\HookableInterface" not found in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Config.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Config.php on line 10
+[31-Dec-2025 15:16:22 UTC] PHP Fatal error:  Uncaught Error: Interface "AcfBetterSearch\HookableInterface" not found in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Page.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Page.php on line 12
+[02-Jan-2026 10:02:43 UTC] PHP Fatal error:  Uncaught Error: Interface "AcfBetterSearch\HookableInterface" not found in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Acf.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Acf.php on line 10
+[02-Jan-2026 10:02:43 UTC] PHP Fatal error:  Uncaught Error: Interface "AcfBetterSearch\HookableInterface" not found in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Config.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Config.php on line 10
+[02-Jan-2026 10:02:44 UTC] PHP Fatal error:  Uncaught Error: Interface "AcfBetterSearch\HookableInterface" not found in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Page.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Page.php on line 12
+[02-Jan-2026 13:24:42 UTC] PHP Fatal error:  Uncaught Error: Interface "AcfBetterSearch\HookableInterface" not found in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Config.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Config.php on line 10
+[03-Jan-2026 16:43:18 UTC] PHP Fatal error:  Uncaught Error: Interface "AcfBetterSearch\HookableInterface" not found in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Acf.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Acf.php on line 10
+[03-Jan-2026 16:43:19 UTC] PHP Fatal error:  Uncaught Error: Interface "AcfBetterSearch\HookableInterface" not found in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Config.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Config.php on line 10
+[03-Jan-2026 16:43:21 UTC] PHP Fatal error:  Uncaught Error: Interface "AcfBetterSearch\HookableInterface" not found in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Page.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Page.php on line 12
+[07-Jan-2026 15:36:37 UTC] PHP Fatal error:  Uncaught Error: Interface "AcfBetterSearch\HookableInterface" not found in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Config.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Config.php on line 10
+[08-Jan-2026 09:36:57 UTC] PHP Fatal error:  Uncaught Error: Interface "AcfBetterSearch\HookableInterface" not found in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Page.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Page.php on line 12
+[23-Jan-2026 01:02:42 UTC] PHP Fatal error:  Uncaught Error: Interface "AcfBetterSearch\HookableInterface" not found in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Page.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Page.php on line 12
+[23-Jan-2026 14:20:31 UTC] PHP Fatal error:  Uncaught Error: Interface "AcfBetterSearch\HookableInterface" not found in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Config.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Config.php on line 10
+[23-Jan-2026 21:48:16 UTC] PHP Fatal error:  Uncaught Error: Interface "AcfBetterSearch\HookableInterface" not found in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Page.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Page.php on line 12
+[25-Jan-2026 23:06:00 UTC] PHP Fatal error:  Uncaught Error: Interface "AcfBetterSearch\HookableInterface" not found in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Page.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Page.php on line 12
+[27-Jan-2026 21:54:30 UTC] PHP Fatal error:  Uncaught Error: Interface "AcfBetterSearch\HookableInterface" not found in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Page.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Page.php on line 12
+[28-Jan-2026 14:48:55 UTC] PHP Fatal error:  Uncaught Error: Interface "AcfBetterSearch\HookableInterface" not found in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Page.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Page.php on line 12
+[28-Jan-2026 14:48:56 UTC] PHP Fatal error:  Uncaught Error: Interface "AcfBetterSearch\HookableInterface" not found in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Acf.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Acf.php on line 10
+[28-Jan-2026 14:48:56 UTC] PHP Fatal error:  Uncaught Error: Interface "AcfBetterSearch\HookableInterface" not found in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Config.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Config.php on line 10
+[28-Jan-2026 21:39:30 UTC] PHP Fatal error:  Uncaught Error: Interface "AcfBetterSearch\HookableInterface" not found in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Config.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Config.php on line 10
+[29-Jan-2026 21:43:28 UTC] PHP Fatal error:  Uncaught Error: Interface "AcfBetterSearch\HookableInterface" not found in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Page.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Page.php on line 12
+[30-Jan-2026 13:07:17 UTC] PHP Fatal error:  Uncaught Error: Interface "AcfBetterSearch\HookableInterface" not found in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Config.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Config.php on line 10
+[02-Feb-2026 14:14:33 UTC] PHP Fatal error:  Uncaught Error: Interface "AcfBetterSearch\HookableInterface" not found in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Config.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Config.php on line 10
+[04-Feb-2026 07:35:26 UTC] PHP Fatal error:  Uncaught Error: Interface "AcfBetterSearch\HookableInterface" not found in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Config.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Config.php on line 10
+[04-Feb-2026 09:02:41 UTC] PHP Fatal error:  Uncaught Error: Interface "AcfBetterSearch\HookableInterface" not found in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Page.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Page.php on line 12
+[06-Feb-2026 00:32:32 UTC] PHP Fatal error:  Uncaught Error: Interface "AcfBetterSearch\HookableInterface" not found in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Config.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/src/Settings/Config.php on line 10

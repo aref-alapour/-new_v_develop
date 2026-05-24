@@ -1,0 +1,22 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "escapezoom/ez-blog-card",
+  "title": "EZ Blog Card",
+  "category": "escapezoom",
+  "icon": "media-document",
+  "description": "Blog post card (Stencil: ez-blog-card). Rendered via theme template part.",
+  "attributes": {
+    "postId": { "type": "number", "default": 0 },
+    "href": { "type": "string", "default": "" },
+    "title": { "type": "string", "default": "" },
+    "excerpt": { "type": "string", "default": "" },
+    "image": { "type": "string", "default": "" },
+    "category": { "type": "string", "default": "" },
+    "date": { "type": "string", "default": "" },
+    "author": { "type": "string", "default": "" },
+    "views": { "type": "number", "default": 0 }
+  },
+  "supports": { "html": false },
+  "textdomain": "escapezoom-core"
+}

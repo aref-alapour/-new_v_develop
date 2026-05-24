@@ -1,0 +1,1548 @@
+[29-Apr-2025 19:01:46 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[29-Apr-2025 19:01:49 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[29-Apr-2025 19:01:50 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[29-Apr-2025 19:01:51 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[30-Apr-2025 00:18:40 UTC] PHP Fatal error:  Uncaught Error: Interface "ActionScheduler_Exception" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_InvalidActionException.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_InvalidActionException.php on line 10
+[15-May-2025 00:02:32 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[30-Jul-2025 12:30:22 UTC] PHP Fatal error:  Uncaught Error: Interface "ActionScheduler_Exception" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_InvalidActionException.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_InvalidActionException.php on line 10
+[30-Jul-2025 14:01:30 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[30-Jul-2025 16:49:45 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[31-Jul-2025 01:30:03 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[31-Jul-2025 03:21:38 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[31-Jul-2025 03:22:20 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[01-Aug-2025 10:14:01 UTC] PHP Fatal error:  Uncaught Error: Interface "ActionScheduler_Exception" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_InvalidActionException.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_InvalidActionException.php on line 10
+[02-Aug-2025 01:41:28 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[02-Aug-2025 08:43:25 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[02-Aug-2025 20:24:02 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[02-Aug-2025 23:09:15 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[03-Aug-2025 06:13:17 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[05-Aug-2025 06:12:38 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[06-Aug-2025 18:34:21 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[07-Aug-2025 05:29:34 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[09-Aug-2025 02:46:02 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[09-Aug-2025 07:21:47 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[11-Aug-2025 07:55:24 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[11-Aug-2025 10:29:58 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[13-Aug-2025 05:12:53 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[13-Aug-2025 07:14:33 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[14-Aug-2025 19:37:04 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[15-Aug-2025 04:32:52 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[25-Aug-2025 12:03:33 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[26-Aug-2025 02:22:40 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[26-Aug-2025 13:32:54 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[27-Aug-2025 09:50:20 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[27-Aug-2025 13:24:34 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[27-Aug-2025 18:00:10 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[28-Aug-2025 00:44:29 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[28-Aug-2025 12:23:47 UTC] PHP Fatal error:  Uncaught Error: Interface "ActionScheduler_Exception" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_InvalidActionException.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_InvalidActionException.php on line 10
+[29-Aug-2025 06:57:17 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[29-Aug-2025 08:13:18 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[29-Aug-2025 12:28:25 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[30-Aug-2025 02:05:37 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[30-Aug-2025 07:16:56 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[30-Aug-2025 17:28:09 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[31-Aug-2025 11:45:06 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[31-Aug-2025 15:05:36 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[31-Aug-2025 19:14:55 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[01-Sep-2025 11:05:57 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[01-Sep-2025 14:33:09 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[01-Sep-2025 19:56:42 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[02-Sep-2025 10:54:13 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[03-Sep-2025 12:24:05 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[03-Sep-2025 18:35:27 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[04-Sep-2025 16:57:28 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[04-Sep-2025 19:03:49 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[04-Sep-2025 22:17:20 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[05-Sep-2025 18:04:23 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[05-Sep-2025 19:24:58 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[06-Sep-2025 17:15:23 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[06-Sep-2025 17:55:59 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[06-Sep-2025 18:04:59 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[07-Sep-2025 15:56:00 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[07-Sep-2025 16:46:53 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[08-Sep-2025 15:15:24 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[08-Sep-2025 15:34:13 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[09-Sep-2025 20:45:04 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[10-Sep-2025 01:45:19 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[10-Sep-2025 03:57:30 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[10-Sep-2025 07:45:03 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[12-Sep-2025 02:16:03 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[12-Sep-2025 05:33:17 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[12-Sep-2025 08:14:38 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[12-Sep-2025 12:57:28 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[13-Sep-2025 14:27:02 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[13-Sep-2025 21:24:41 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[14-Sep-2025 03:34:27 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[14-Sep-2025 22:04:34 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[16-Sep-2025 16:07:41 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[16-Sep-2025 16:37:04 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[16-Sep-2025 17:00:03 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[16-Sep-2025 23:25:09 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[18-Sep-2025 21:00:10 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[18-Sep-2025 23:43:51 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[19-Sep-2025 02:16:18 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[19-Sep-2025 05:14:40 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[21-Sep-2025 05:24:46 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[21-Sep-2025 06:05:03 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[21-Sep-2025 07:24:53 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[21-Sep-2025 12:14:10 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[22-Sep-2025 14:14:30 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[22-Sep-2025 15:44:17 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[22-Sep-2025 17:34:47 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[23-Sep-2025 09:52:42 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[23-Sep-2025 13:32:34 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[24-Sep-2025 10:04:54 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[25-Sep-2025 02:14:17 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[25-Sep-2025 05:43:35 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[25-Sep-2025 10:33:40 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[25-Sep-2025 17:26:14 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[26-Sep-2025 07:35:24 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[26-Sep-2025 15:52:07 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[26-Sep-2025 15:52:10 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[26-Sep-2025 15:52:13 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[26-Sep-2025 17:13:58 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[27-Sep-2025 00:06:11 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[27-Sep-2025 00:06:14 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[27-Sep-2025 00:06:21 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[27-Sep-2025 06:14:54 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[27-Sep-2025 06:14:58 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[27-Sep-2025 06:15:02 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[27-Sep-2025 08:26:38 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[27-Sep-2025 08:26:42 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[27-Sep-2025 08:26:46 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[27-Sep-2025 11:22:47 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[27-Sep-2025 13:44:54 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[27-Sep-2025 21:54:26 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[28-Sep-2025 21:08:51 UTC] PHP Fatal error:  Uncaught Error: Interface "ActionScheduler_Exception" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_InvalidActionException.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_InvalidActionException.php on line 10
+[28-Sep-2025 21:08:56 UTC] PHP Fatal error:  Uncaught Error: Interface "ActionScheduler_Exception" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_InvalidActionException.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_InvalidActionException.php on line 10
+[28-Sep-2025 21:09:01 UTC] PHP Fatal error:  Uncaught Error: Interface "ActionScheduler_Exception" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_InvalidActionException.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_InvalidActionException.php on line 10
+[28-Sep-2025 21:15:01 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[28-Sep-2025 21:15:04 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[28-Sep-2025 21:15:08 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[29-Sep-2025 07:13:50 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[29-Sep-2025 20:02:40 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[29-Sep-2025 20:45:35 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[30-Sep-2025 00:24:09 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[01-Oct-2025 13:23:17 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[01-Oct-2025 16:54:06 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[01-Oct-2025 18:53:38 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[02-Oct-2025 05:43:01 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[02-Oct-2025 22:53:21 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[03-Oct-2025 01:03:21 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[03-Oct-2025 23:34:30 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[03-Oct-2025 23:55:12 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[04-Oct-2025 00:34:05 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[04-Oct-2025 16:33:44 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[05-Oct-2025 09:06:10 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[05-Oct-2025 23:13:01 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[05-Oct-2025 23:53:35 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[06-Oct-2025 23:44:52 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[07-Oct-2025 06:43:51 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[08-Oct-2025 04:14:59 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[08-Oct-2025 10:52:52 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[08-Oct-2025 14:05:00 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[08-Oct-2025 18:46:38 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[09-Oct-2025 06:45:24 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[09-Oct-2025 22:45:31 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[09-Oct-2025 23:44:56 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[10-Oct-2025 07:17:59 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[10-Oct-2025 22:14:48 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[10-Oct-2025 23:43:54 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[11-Oct-2025 13:04:24 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[12-Oct-2025 00:03:53 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[12-Oct-2025 01:45:18 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[12-Oct-2025 18:25:22 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[13-Oct-2025 07:34:59 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[13-Oct-2025 08:23:46 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[13-Oct-2025 11:05:23 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[13-Oct-2025 13:54:28 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[14-Oct-2025 14:56:02 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[15-Oct-2025 07:23:17 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[15-Oct-2025 08:53:45 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[15-Oct-2025 09:55:07 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[15-Oct-2025 12:55:51 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[16-Oct-2025 03:53:52 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[16-Oct-2025 23:13:46 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[17-Oct-2025 05:34:00 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[17-Oct-2025 06:55:50 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[17-Oct-2025 11:05:19 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[17-Oct-2025 20:14:02 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[18-Oct-2025 16:54:51 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[19-Oct-2025 00:24:47 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[19-Oct-2025 11:35:17 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[19-Oct-2025 13:45:16 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[19-Oct-2025 18:23:54 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[20-Oct-2025 13:34:43 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[20-Oct-2025 13:43:49 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[20-Oct-2025 19:05:03 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[21-Oct-2025 13:05:47 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[21-Oct-2025 19:25:00 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[22-Oct-2025 01:24:01 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[22-Oct-2025 14:11:40 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[22-Oct-2025 17:33:54 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[23-Oct-2025 12:24:32 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[23-Oct-2025 19:44:56 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[24-Oct-2025 02:03:08 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[25-Oct-2025 04:23:57 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[25-Oct-2025 21:24:19 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[26-Oct-2025 07:04:33 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[26-Oct-2025 11:54:09 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[27-Oct-2025 17:31:48 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[27-Oct-2025 18:02:58 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[28-Oct-2025 04:45:13 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[28-Oct-2025 13:35:39 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[28-Oct-2025 19:05:14 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[29-Oct-2025 22:42:56 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[30-Oct-2025 00:24:18 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[30-Oct-2025 17:43:27 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[31-Oct-2025 04:34:17 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[31-Oct-2025 14:04:58 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[01-Nov-2025 00:43:41 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[01-Nov-2025 10:15:30 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[01-Nov-2025 23:24:52 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[02-Nov-2025 10:06:18 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[02-Nov-2025 11:04:27 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[02-Nov-2025 19:54:00 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[02-Nov-2025 22:03:29 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[03-Nov-2025 22:54:26 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[04-Nov-2025 06:03:05 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[04-Nov-2025 15:24:17 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[05-Nov-2025 05:42:41 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[05-Nov-2025 17:34:46 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[06-Nov-2025 01:32:26 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[06-Nov-2025 04:55:02 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[06-Nov-2025 10:16:52 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[08-Nov-2025 13:43:47 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[09-Nov-2025 05:26:00 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[09-Nov-2025 08:55:47 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[09-Nov-2025 21:20:09 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[09-Nov-2025 22:33:39 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[11-Nov-2025 08:34:33 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[12-Nov-2025 03:53:58 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[12-Nov-2025 08:04:12 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[12-Nov-2025 10:13:03 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[12-Nov-2025 11:03:11 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[13-Nov-2025 14:48:00 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[13-Nov-2025 22:36:31 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[14-Nov-2025 01:35:27 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[15-Nov-2025 04:55:42 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[15-Nov-2025 15:05:26 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[16-Nov-2025 14:13:46 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[16-Nov-2025 20:44:56 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[17-Nov-2025 19:33:40 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[18-Nov-2025 05:25:23 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[18-Nov-2025 12:43:50 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[18-Nov-2025 16:15:43 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[19-Nov-2025 15:33:11 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[19-Nov-2025 22:45:29 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[19-Nov-2025 22:46:10 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[19-Nov-2025 23:15:09 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[19-Nov-2025 23:16:10 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[20-Nov-2025 04:03:03 UTC] PHP Fatal error:  Uncaught Error: Interface "ActionScheduler_Exception" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_InvalidActionException.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_InvalidActionException.php on line 10
+[20-Nov-2025 04:04:43 UTC] PHP Fatal error:  Uncaught Error: Interface "ActionScheduler_Exception" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_InvalidActionException.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_InvalidActionException.php on line 10
+[20-Nov-2025 04:13:27 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[20-Nov-2025 04:14:57 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[20-Nov-2025 04:34:27 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[20-Nov-2025 04:36:17 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[20-Nov-2025 04:41:46 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[20-Nov-2025 04:42:54 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[20-Nov-2025 05:01:49 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[20-Nov-2025 05:02:31 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[20-Nov-2025 14:43:24 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[20-Nov-2025 15:50:13 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[21-Nov-2025 11:55:38 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[21-Nov-2025 15:24:14 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[21-Nov-2025 16:55:35 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[22-Nov-2025 08:35:57 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[22-Nov-2025 21:06:19 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[23-Nov-2025 03:24:27 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[23-Nov-2025 05:55:50 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[23-Nov-2025 19:04:36 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[24-Nov-2025 02:16:06 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[24-Nov-2025 20:43:42 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[25-Nov-2025 03:45:35 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[25-Nov-2025 05:03:31 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[25-Nov-2025 21:43:03 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[26-Nov-2025 00:33:49 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[26-Nov-2025 12:05:34 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[26-Nov-2025 18:43:07 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[27-Nov-2025 01:35:48 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[28-Nov-2025 05:46:09 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[28-Nov-2025 07:14:42 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[28-Nov-2025 17:45:00 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[28-Nov-2025 19:54:37 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[29-Nov-2025 15:45:07 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[29-Nov-2025 19:43:59 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[30-Nov-2025 05:52:39 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[30-Nov-2025 05:52:43 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[30-Nov-2025 05:52:46 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[30-Nov-2025 06:23:36 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[30-Nov-2025 19:53:50 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[01-Dec-2025 13:04:11 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[01-Dec-2025 18:35:03 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[02-Dec-2025 02:55:55 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[02-Dec-2025 23:06:00 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[03-Dec-2025 03:43:14 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[03-Dec-2025 13:43:48 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[03-Dec-2025 17:54:24 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[06-Dec-2025 06:45:20 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[06-Dec-2025 06:59:52 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[07-Dec-2025 23:56:54 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[08-Dec-2025 00:01:53 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[09-Dec-2025 17:14:05 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[10-Dec-2025 08:53:14 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[11-Dec-2025 17:35:30 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[12-Dec-2025 00:45:03 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[12-Dec-2025 07:55:19 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[13-Dec-2025 21:00:07 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[14-Dec-2025 02:23:54 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[15-Dec-2025 17:43:03 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[16-Dec-2025 11:14:37 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[16-Dec-2025 12:05:25 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[17-Dec-2025 22:14:43 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[18-Dec-2025 05:25:49 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[18-Dec-2025 21:53:33 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[20-Dec-2025 02:04:44 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[20-Dec-2025 05:24:47 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[21-Dec-2025 11:04:00 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[21-Dec-2025 23:00:15 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[22-Dec-2025 02:58:52 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[23-Dec-2025 11:23:39 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[23-Dec-2025 20:43:13 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[23-Dec-2025 20:43:13 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[23-Dec-2025 20:43:15 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[23-Dec-2025 20:43:15 UTC] PHP Fatal error:  Uncaught Error: Interface "ActionScheduler_Exception" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_InvalidActionException.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_InvalidActionException.php on line 10
+[23-Dec-2025 20:43:18 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[23-Dec-2025 20:43:21 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[24-Dec-2025 01:03:30 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[24-Dec-2025 13:24:48 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[25-Dec-2025 07:53:29 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[26-Dec-2025 00:34:23 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[26-Dec-2025 13:43:54 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[27-Dec-2025 08:05:50 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[28-Dec-2025 22:06:30 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[29-Dec-2025 10:35:27 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[29-Dec-2025 12:54:45 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[30-Dec-2025 23:06:52 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[31-Dec-2025 03:05:24 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[31-Dec-2025 03:05:24 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[31-Dec-2025 03:06:01 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[31-Dec-2025 06:05:25 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[31-Dec-2025 10:19:56 UTC] PHP Fatal error:  Uncaught Error: Interface "ActionScheduler_Exception" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_InvalidActionException.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_InvalidActionException.php on line 10
+[31-Dec-2025 10:19:56 UTC] PHP Fatal error:  Uncaught Error: Interface "ActionScheduler_Exception" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_InvalidActionException.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_InvalidActionException.php on line 10
+[31-Dec-2025 10:20:23 UTC] PHP Fatal error:  Uncaught Error: Interface "ActionScheduler_Exception" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_InvalidActionException.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_InvalidActionException.php on line 10
+[31-Dec-2025 11:05:48 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[31-Dec-2025 11:33:33 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[31-Dec-2025 11:33:33 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[31-Dec-2025 11:34:15 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[31-Dec-2025 12:34:20 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[31-Dec-2025 12:34:21 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[31-Dec-2025 12:44:37 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[31-Dec-2025 13:47:42 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[31-Dec-2025 13:47:42 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[31-Dec-2025 13:48:38 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[31-Dec-2025 15:20:45 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[31-Dec-2025 15:20:51 UTC] PHP Fatal error:  Uncaught Error: Interface "ActionScheduler_Exception" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_InvalidActionException.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_InvalidActionException.php on line 10
+[31-Dec-2025 15:20:51 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[31-Dec-2025 15:20:53 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[31-Dec-2025 15:20:54 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[31-Dec-2025 15:20:56 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[31-Dec-2025 15:29:02 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[31-Dec-2025 15:29:03 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[31-Dec-2025 15:29:49 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[02-Jan-2026 04:15:26 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[02-Jan-2026 08:16:06 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[02-Jan-2026 10:04:59 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[03-Jan-2026 16:47:56 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[03-Jan-2026 16:48:02 UTC] PHP Fatal error:  Uncaught Error: Interface "ActionScheduler_Exception" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_InvalidActionException.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_InvalidActionException.php on line 10
+[03-Jan-2026 16:48:03 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[03-Jan-2026 16:48:05 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[03-Jan-2026 16:48:06 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[03-Jan-2026 16:48:07 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[04-Jan-2026 07:26:09 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[04-Jan-2026 07:37:48 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[06-Jan-2026 19:33:54 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[07-Jan-2026 07:15:13 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[07-Jan-2026 14:27:00 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[24-Jan-2026 20:35:51 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[24-Jan-2026 21:02:48 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[24-Jan-2026 21:03:20 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Lock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_OptionLock.php on line 11
+[24-Jan-2026 22:55:19 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[24-Jan-2026 22:55:26 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_LogEntry" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_NullLogEntry.php on line 6
+[25-Jan-2026 05:12:36 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[25-Jan-2026 05:12:40 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[25-Jan-2026 09:57:22 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[28-Jan-2026 09:10:15 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[29-Jan-2026 04:38:11 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[29-Jan-2026 09:45:28 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[29-Jan-2026 18:25:36 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[30-Jan-2026 19:04:40 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[31-Jan-2026 09:20:07 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[01-Feb-2026 18:38:29 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[02-Feb-2026 09:23:45 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[03-Feb-2026 02:14:44 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[04-Feb-2026 02:47:17 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8
+[04-Feb-2026 09:59:25 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_AdminView_Deprecated" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AdminView.php on line 8
+[04-Feb-2026 23:59:20 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+[06-Feb-2026 02:42:39 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_ListTable" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_ListTable.php on line 8

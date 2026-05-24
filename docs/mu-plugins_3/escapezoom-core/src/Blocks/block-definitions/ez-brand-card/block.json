@@ -1,0 +1,15 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "escapezoom/ez-brand-card",
+  "title": "EZ Brand Card",
+  "category": "escapezoom",
+  "icon": "store",
+  "description": "Brand/host card (Stencil: ez-brand-card).",
+  "attributes": {
+    "href": { "type": "string", "default": "" },
+    "title": { "type": "string", "default": "" }
+  },
+  "supports": { "html": false },
+  "textdomain": "escapezoom-core"
+}

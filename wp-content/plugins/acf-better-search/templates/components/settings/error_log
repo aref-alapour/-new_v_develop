@@ -1,0 +1,8 @@
+[31-Dec-2025 15:25:15 UTC] PHP Warning:  Undefined variable $features in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/templates/components/settings/features.php on line 13
+[31-Dec-2025 15:25:15 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/templates/components/settings/features.php on line 13
+[31-Dec-2025 15:25:16 UTC] PHP Warning:  Undefined variable $fields in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/templates/components/settings/fields.php on line 14
+[31-Dec-2025 15:25:16 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/templates/components/settings/fields.php on line 14
+[03-Jan-2026 16:54:27 UTC] PHP Warning:  Undefined variable $features in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/templates/components/settings/features.php on line 13
+[03-Jan-2026 16:54:27 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/templates/components/settings/features.php on line 13
+[03-Jan-2026 16:54:28 UTC] PHP Warning:  Undefined variable $fields in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/templates/components/settings/fields.php on line 14
+[03-Jan-2026 16:54:28 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/templates/components/settings/fields.php on line 14

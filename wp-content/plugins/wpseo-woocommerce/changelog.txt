@@ -1,0 +1,6 @@
+*** Yoast SEO: WooCommerce Changelog ***
+
+
+2025-10-21 - version 16.7
+* update -  Bumps the minimum required version of Yoast SEO to 26.2.
+

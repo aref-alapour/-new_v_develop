@@ -1,0 +1,18 @@
+{
+    "require": {
+        "php": "^8.5",
+        "zarinpal/zarinpal-php-sdk": "^2.0",
+        "nyholm/psr7": "^1.8"
+    },
+    "config": {
+        "platform": {
+            "php": "8.5.0"
+        },
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    },
+    "scripts": {
+        "refresh": "composer update --no-interaction -W"
+    }
+}

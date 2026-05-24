@@ -1,0 +1,452 @@
+[29-Apr-2025 04:01:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[29-Apr-2025 04:01:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_template() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php on line 12
+[05-May-2025 19:14:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_template() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php on line 12
+[05-May-2025 19:18:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[06-May-2025 00:18:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[07-May-2025 22:46:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[08-May-2025 03:32:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_template() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php on line 12
+[30-Jul-2025 01:06:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_template() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php on line 12
+[30-Jul-2025 02:48:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[01-Aug-2025 17:56:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_template() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php on line 12
+[01-Aug-2025 22:11:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[26-Aug-2025 13:30:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[26-Aug-2025 16:24:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_template() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php on line 12
+[28-Aug-2025 12:15:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[28-Aug-2025 12:44:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_template() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php on line 12
+[29-Aug-2025 18:25:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_template() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php on line 12
+[29-Aug-2025 21:10:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[31-Aug-2025 17:05:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_template() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php on line 12
+[31-Aug-2025 20:25:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[02-Sep-2025 13:54:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_template() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php on line 12
+[02-Sep-2025 22:45:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[04-Sep-2025 07:04:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_template() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php on line 12
+[04-Sep-2025 17:25:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[06-Sep-2025 07:43:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_template() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php on line 12
+[06-Sep-2025 19:26:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[08-Sep-2025 09:13:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_template() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php on line 12
+[08-Sep-2025 18:00:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[10-Sep-2025 10:15:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_template() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php on line 12
+[11-Sep-2025 02:24:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[12-Sep-2025 12:56:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_template() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php on line 12
+[13-Sep-2025 09:03:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[14-Sep-2025 02:35:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_template() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php on line 12
+[15-Sep-2025 05:53:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[16-Sep-2025 20:23:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[19-Sep-2025 12:24:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[21-Sep-2025 00:45:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_template() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php on line 12
+[21-Sep-2025 00:45:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_template() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php on line 12
+[21-Sep-2025 00:45:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_template() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php on line 12
+[21-Sep-2025 05:53:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[23-Sep-2025 05:54:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[24-Sep-2025 14:50:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[24-Sep-2025 14:50:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[24-Sep-2025 14:50:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[24-Sep-2025 20:16:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[27-Sep-2025 01:14:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[29-Sep-2025 11:27:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[30-Sep-2025 08:54:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[05-Oct-2025 00:53:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[08-Oct-2025 01:55:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[10-Oct-2025 07:24:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[12-Oct-2025 09:25:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[14-Oct-2025 08:35:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[15-Oct-2025 17:24:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[18-Oct-2025 00:43:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[20-Oct-2025 08:44:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[22-Oct-2025 09:43:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[24-Oct-2025 09:23:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[26-Oct-2025 01:35:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[28-Oct-2025 08:23:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[31-Oct-2025 13:43:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[01-Nov-2025 23:25:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[03-Nov-2025 21:34:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[06-Nov-2025 05:13:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[12-Nov-2025 11:36:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[15-Nov-2025 08:34:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[16-Nov-2025 07:55:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[19-Nov-2025 13:14:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[20-Nov-2025 03:46:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[20-Nov-2025 03:47:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[20-Nov-2025 05:44:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_template() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php on line 12
+[20-Nov-2025 05:45:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_template() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php on line 12
+[22-Nov-2025 19:15:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[24-Nov-2025 19:15:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[24-Nov-2025 20:33:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[24-Nov-2025 20:33:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_template() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php on line 12
+[25-Nov-2025 14:21:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[25-Nov-2025 14:21:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_template() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php on line 12
+[26-Nov-2025 23:06:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[28-Nov-2025 11:25:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[29-Nov-2025 19:24:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[02-Dec-2025 02:33:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[05-Dec-2025 17:09:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[08-Dec-2025 07:34:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[09-Dec-2025 20:07:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[12-Dec-2025 12:25:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[14-Dec-2025 08:20:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[16-Dec-2025 00:24:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[17-Dec-2025 07:09:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_template() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php on line 12
+[17-Dec-2025 07:09:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[17-Dec-2025 21:11:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_template() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php on line 12
+[17-Dec-2025 21:11:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[18-Dec-2025 03:04:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[20-Dec-2025 15:04:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[21-Dec-2025 19:34:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[23-Dec-2025 20:30:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_template() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php on line 12
+[23-Dec-2025 20:30:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[24-Dec-2025 14:25:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[26-Dec-2025 08:44:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[31-Dec-2025 02:13:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[31-Dec-2025 15:14:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[31-Dec-2025 15:14:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_template() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php on line 12
+[02-Jan-2026 10:12:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_template() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php on line 12
+[02-Jan-2026 10:12:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[02-Jan-2026 17:03:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[03-Jan-2026 16:40:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[03-Jan-2026 16:40:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_template() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php on line 12
+[05-Jan-2026 22:37:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[08-Jan-2026 07:15:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[23-Jan-2026 09:50:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[28-Jan-2026 15:02:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[28-Jan-2026 15:02:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_template() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/taxonomy-product_brand.php on line 12
+[30-Jan-2026 11:05:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20
+[05-Feb-2026 00:14:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wc_get_image_size() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/brand-description.php on line 20

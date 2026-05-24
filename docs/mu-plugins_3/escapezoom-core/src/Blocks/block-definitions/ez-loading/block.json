@@ -1,0 +1,11 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "escapezoom/ez-loading",
+  "title": "EZ Loading",
+  "category": "escapezoom",
+  "icon": "update",
+  "description": "Loading indicator (Stencil: ez-loading).",
+  "supports": { "html": false },
+  "textdomain": "escapezoom-core"
+}

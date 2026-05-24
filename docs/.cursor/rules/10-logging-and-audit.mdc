@@ -1,0 +1,28 @@
+---
+description: Logging and audit; every significant action must be loggable (who, what, when). Full monitorability.
+alwaysApply: true
+---
+
+# Logging and Audit (theory only)
+
+## Principle
+For every feature we build, consider logging and audit from the start. The system must be **fully monitorable** (who did what, when). Logging is part of the design, not optional.
+
+## What to Log (conceptually)
+- **Actor** — who performed the action.
+- **Action** — what was done.
+- **Time** — when it happened.
+- **Target** — which entity (e.g. order, review, setting) was affected.
+- **Context** — before/after state or reason, where useful.
+
+## Examples
+- **Product reviews:** Which support/admin approved, rejected, or edited which review, and when.
+- **Orders / cancellations:** Who approved or rejected, and when.
+- **Financial / settlement:** Who confirmed payout, and when.
+- **Settings:** Who changed what, and when.
+- **Content / products:** Who created or updated what, and when.
+
+## Scope
+- **Admin and support actions** that change state must be logged.
+- **Important user actions** may be logged for support or analytics, within privacy rules.
+- Every significant action must be loggable; the system must remain fully monitorable.

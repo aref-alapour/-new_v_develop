@@ -1,0 +1,68 @@
+[24-Dec-2025 07:25:04 UTC] PHP Fatal error:  Uncaught Error: Class "ZhaketUpdater\HelpersClass\Modules" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomizeAdmin/CustomizeAdmin.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomizeAdmin/CustomizeAdmin.php on line 9
+[26-Dec-2025 03:35:35 UTC] PHP Fatal error:  Uncaught Error: Class "ZhaketUpdater\HelpersClass\Modules" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomizeAdmin/CustomizeAdmin.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomizeAdmin/CustomizeAdmin.php on line 9
+[28-Dec-2025 18:24:59 UTC] PHP Fatal error:  Uncaught Error: Class "ZhaketUpdater\HelpersClass\Modules" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomizeAdmin/CustomizeAdmin.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomizeAdmin/CustomizeAdmin.php on line 9
+[31-Dec-2025 08:50:15 UTC] PHP Fatal error:  Uncaught Error: Class "ZhaketUpdater\HelpersClass\Modules" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomizeAdmin/CustomizeAdmin.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomizeAdmin/CustomizeAdmin.php on line 9
+[31-Dec-2025 08:50:16 UTC] PHP Fatal error:  Uncaught Error: Class "ZhaketUpdater\HelpersClass\Modules" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomizeAdmin/CustomizeAdmin.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomizeAdmin/CustomizeAdmin.php on line 9
+[31-Dec-2025 08:50:46 UTC] PHP Fatal error:  Uncaught Error: Class "ZhaketUpdater\HelpersClass\Modules" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomizeAdmin/CustomizeAdmin.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomizeAdmin/CustomizeAdmin.php on line 9
+[31-Dec-2025 12:54:02 UTC] PHP Fatal error:  Uncaught Error: Class "ZhaketUpdater\HelpersClass\Modules" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomizeAdmin/CustomizeAdmin.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomizeAdmin/CustomizeAdmin.php on line 9
+[31-Dec-2025 15:19:13 UTC] PHP Fatal error:  Uncaught Error: Class "ZhaketUpdater\HelpersClass\Modules" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomizeAdmin/CustomizeAdmin.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomizeAdmin/CustomizeAdmin.php on line 9
+[02-Jan-2026 10:05:28 UTC] PHP Fatal error:  Uncaught Error: Class "ZhaketUpdater\HelpersClass\Modules" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomizeAdmin/CustomizeAdmin.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomizeAdmin/CustomizeAdmin.php on line 9
+[02-Jan-2026 10:13:56 UTC] PHP Fatal error:  Uncaught Error: Class "ZhaketUpdater\HelpersClass\Modules" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomizeAdmin/CustomizeAdmin.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomizeAdmin/CustomizeAdmin.php on line 9
+[03-Jan-2026 16:46:28 UTC] PHP Fatal error:  Uncaught Error: Class "ZhaketUpdater\HelpersClass\Modules" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomizeAdmin/CustomizeAdmin.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomizeAdmin/CustomizeAdmin.php on line 9
+[04-Jan-2026 16:32:44 UTC] PHP Fatal error:  Uncaught Error: Class "ZhaketUpdater\HelpersClass\Modules" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomizeAdmin/CustomizeAdmin.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomizeAdmin/CustomizeAdmin.php on line 9
+[23-Jan-2026 09:57:16 UTC] PHP Fatal error:  Uncaught Error: Class "ZhaketUpdater\HelpersClass\Modules" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomizeAdmin/CustomizeAdmin.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomizeAdmin/CustomizeAdmin.php on line 9
+[28-Jan-2026 14:55:06 UTC] PHP Fatal error:  Uncaught Error: Class "ZhaketUpdater\HelpersClass\Modules" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomizeAdmin/CustomizeAdmin.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomizeAdmin/CustomizeAdmin.php on line 9
+[29-Jan-2026 10:02:46 UTC] PHP Fatal error:  Uncaught Error: Class "ZhaketUpdater\HelpersClass\Modules" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomizeAdmin/CustomizeAdmin.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomizeAdmin/CustomizeAdmin.php on line 9
+[31-Jan-2026 09:36:29 UTC] PHP Fatal error:  Uncaught Error: Class "ZhaketUpdater\HelpersClass\Modules" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomizeAdmin/CustomizeAdmin.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomizeAdmin/CustomizeAdmin.php on line 9
+[02-Feb-2026 10:06:06 UTC] PHP Fatal error:  Uncaught Error: Class "ZhaketUpdater\HelpersClass\Modules" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomizeAdmin/CustomizeAdmin.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomizeAdmin/CustomizeAdmin.php on line 9

@@ -1,0 +1,733 @@
+.form_token {
+  width:40vw;
+  background:#fff;
+  border:1px solid #ccc;
+  border-radius: 8px;
+  margin:80px auto;
+  text-align: center;
+}
+
+.form_token .title-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    box-shadow: 0px 0px 20px 0px #d9d9d9;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.form_token label , .form_token input {
+  display: block;
+  width:90%;
+  margin:8px auto;
+  text-align: center;
+}
+
+.prs_fldname {
+  margin: 0px 6%;
+  background: #fff;
+  width: max-content;
+  padding: 8px 15px;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+.list {
+  width:90%;
+  height: auto;
+  background: #fff;
+  margin:0px auto 15px auto;
+  border:1px solid #ccc;
+  border-radius: 8px;
+}
+.list .item {
+  width:100%;
+  display: flex;
+	align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+}
+.list .item:last-child  {
+  border-bottom: none;
+}
+.list .item span.num {
+  padding:8px;
+}
+.list .item h4 {
+  margin:0px;
+  padding:8px;
+  font: 13px tahoma;
+}
+.list .item .options {
+    border-right: 1px solid #ccc;
+    padding: 8px;
+    width: 20%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+}
+.list .item .infos {
+  display: flex;
+}
+
+.dialog.settings {
+  position: static;
+  background: #fff;
+  margin:50px auto;
+  border-radius: 8px;
+  width: 50%;
+  min-width: 600px;
+  padding: 20px;
+  display: none;
+  flex-wrap: wrap;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+
+.dialog.settings label.title {
+  width: 100%;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  padding: 0;
+}
+
+.dialog.settings .iframe_opts, .dialog.settings .btn_opts {
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 15px;
+  background: #fafafa;
+}
+
+.input-group {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.input-group label {
+  width: 30% !important;
+  margin: 0 !important;
+}
+
+.input-group input[type="text"],
+.input-group input[type="number"] {
+  flex: 1;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  margin: 0 10px 0 0 !important;
+  width: auto !important;
+}
+
+.input-group select {
+  width: 100px !important;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  margin: 0 !important;
+}
+
+.colorpicker-group {
+  width: 100%;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.colorpicker-group label {
+  width: 30% !important;
+  margin: 0 !important;
+}
+
+.colorpicker-group .wp-picker-container {
+  flex: 1;
+}
+
+.btn_opts .input-group,
+.btn_opts .colorpicker-group {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .dialog.settings {
+    width: 90%;
+    min-width: auto;
+    padding: 15px;
+  }
+  
+  .input-group label,
+  .colorpicker-group label {
+    width: 100% !important;
+    margin-bottom: 5px !important;
+  }
+  
+  .input-group,
+  .colorpicker-group {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .input-group input[type="text"],
+  .input-group input[type="number"] {
+    width: 100% !important;
+    margin: 5px 0 !important;
+  }
+  
+  .input-group select {
+    width: 100% !important;
+    margin: 5px 0 !important;
+  }
+}
+.dialog.settings label.title , .dialog.settings input , .dialog.settings select  {
+  width:23%;
+  overflow: hidden;
+  margin:8px 0;
+}
+.dialog.settings label.title {
+  padding:5px;
+}
+.dialog.settings .iframe_opts , .dialog.settings .btn_opts {
+  border:1px solid #ccc;
+  padding-top:10px;
+  border-radius: 8px;
+  padding:5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+}
+
+.wp-picker-holder {
+  position: absolute;
+}
+.lighter {
+  width:100%;
+  height: 100%;
+  position: fixed;
+  top:0px;
+  left:0px;
+  background:rgba(0,0,0,0.5);
+  z-index: 1;
+  display: none;
+  overflow:auto;
+}
+.lighter.loading {
+  background:rgba(0,0,0,0.5) url("loading.svg") no-repeat center center;
+  background-size:3%;
+}
+.dialog.settings button {
+  margin-top:10px;
+}
+.list .item .options button.settings {
+  background:#fff;
+  border:1px solid #ccc;
+  border-radius: 8px;
+  width: 25px;
+  height: 25px;
+  position: relative;
+}
+.list .item .options button.settings span {
+  font-size:14px;
+  position: absolute;
+  left:2px;
+  top:3px;
+}
+
+.dialog.settings .notes {
+  width: 100%;
+}
+
+.prs_head {
+  display: flex;
+  justify-content:space-between;
+  width:90%;
+  margin:30px auto 10px auto;
+}
+.prs_head a {
+  height: max-content;
+}
+.prs_head h3 {
+  font:14px tahoma;
+  font-weight: bold;
+}
+
+.porsline-shortcode-container {
+    margin: 10px 0 20px 0;
+    padding: 15px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.porsline-shortcode-label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.porsline-shortcode-input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.porsline-shortcode-input {
+    flex-grow: 1;
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    background-color: #fff;
+    direction: ltr;
+}
+
+.porsline-copy-btn {
+    padding: 5px 15px;
+    background-color: #6f6ac7;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 0px 5px 0px 0px !important;
+}
+.porsline-copy-btn.ok:after {
+  content: "✔️";
+}
+.porsline-copy-btn:hover {
+    background-color: #005177;
+}
+
+/* Display Mode Cards */
+.section-title {
+    width: 100% !important;
+    font-size: 16px;
+    margin-bottom: 15px !important;
+    font-weight: bold;
+}
+
+.display-mode-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.display-card {
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 10px;
+    transition: all 0.3s ease;
+    border: 2px solid #ddd;
+    text-align: center;
+}
+.help_prsline {
+    list-style-type: decimal;
+    padding: 1.5rem 3rem;
+    text-align: start;
+    line-height: 24px;
+    font-size: 14px;
+}
+.form_token form {
+    margin: 1rem;
+}
+.form_token .form-wrapper {
+    background-color: #e2e1ee;
+    display: flex;
+    align-items: stretch;
+    color: #3b368e;
+    font-weight: 700;
+    font-size: 14px;
+	height: 100%;
+}
+
+.form_token .form-wrapper .form-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 3;
+    border-left: 2px solid #fff;
+	padding: 1rem;
+}
+
+.form_token .form-wrapper .form-input {
+	flex: 9;
+	padding: 1rem;
+}
+
+.form_token .form-wrapper .form-input input {
+    border-width: 0;
+    padding: 10px;
+    width: 100%;
+}
+
+.form_token .button-wrapper {
+    margin-top: 1rem;
+    text-align: left;
+}
+
+.form_token .button-wrapper button {
+    background-color: #3b368e !important;
+    padding: 5px 20px;
+}
+
+.form_token .title-wrapper img {
+    max-height: 20px;
+    width: auto;
+}
+
+.display-card:hover {
+    transform: translateY(-3px);
+    border-color: #6f6ac7;
+}
+
+.display-card:hover .card-image {
+    box-shadow: 0 5px 15px rgba(111, 106, 199, 0.2);
+}
+
+.display-card.active {
+    border-color: #6f6ac7;
+    background-color: rgba(111, 106, 199, 0.05);
+}
+
+.display-card.active .card-image {
+    box-shadow: 0 5px 15px rgba(111, 106, 199, 0.4);
+}
+
+.card-image {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    padding: 5px;
+}
+
+.card-image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card-title {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #333;
+    font-weight: bold;
+}
+
+.dialog.settings {
+    background: #fff;
+    border-radius: 8px;
+    width: 600px;
+    padding: 20px;
+    display: none;
+    flex-wrap: wrap;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+
+.input-group {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.input-group label {
+    width: 30% !important;
+    margin: 0 !important;
+}
+
+.input-group input[type="text"],
+.input-group input[type="number"] {
+    flex: 1;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    margin: 0 10px 0 0 !important;
+    width: auto !important;
+}
+
+.input-group select,
+.input-group span {
+    width: 80px !important;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    margin: 0 !important;
+    text-align: center;
+	margin-right: 10px !important;
+}
+
+.input-group span {
+    background-color: #fff;
+    height: calc(100% - 18px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	width: 62px !important;
+}
+
+input.button.button-small.wp-picker-clear {
+    margin-right: 28px;
+    width: auto;
+    margin-top: 0;
+}
+
+.input-group:not(.not-full-width) select {
+    width: 100% !important;
+    text-align: right;
+}
+
+.select-parent {
+    width: 100%;
+    direction: ltr;
+    padding-right: 10px;
+}
+
+.input-group-for-select label {
+	flex: none;
+}
+
+.colorpicker-group {
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.colorpicker-group .wp-picker-container {
+    width: 100%;
+	margin: 0 10px 0 0 !important;
+}
+.dialog.settings .btn_opts .icon {
+  position: relative;
+  width:40px;
+  height:40px;
+}
+.dialog.settings .btn_opts .icon span {
+  width:40px !important;
+  height: 40px;
+  margin-right: 0px !important;
+  box-sizing: border-box;
+}
+.dialog.settings .btn_opts .icon .dropdown {
+  position: absolute;
+  width:15vw;
+  display: flex;
+  flex-wrap: wrap;
+  background:#fff;
+  border:1px solid #ccc;
+  padding:8px;
+  justify-content:space-between;
+  top:50px;
+  right:10px;
+  display: none;
+}
+.dialog.settings .btn_opts .icon .dropdown img {
+  width:40px;
+  cursor: pointer;
+}
+.dialog.settings .btn_opts .icon span.holder img {
+  width:100%;
+  height: auto;
+}
+
+.porsline {
+  width:80%;
+  height:80%;
+  margin:20px auto;
+  border-radius: 8px;
+  display: flex;
+}
+.porsline .tabs {
+  	width: 20%;
+    padding: 16px;
+    border-top-right-radius: 16px;
+    background: #fff;
+    border-bottom-right-radius: 16px;
+}
+.porsline .tabs .tab {
+    cursor: pointer;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 4px;
+}
+.porsline .tabs .tab:hover {
+	background: #f0f2f5;
+}
+.porsline .tabs .tab .icon-title {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.porsline .tabs .tab.active {
+    background: rgba(59, 54, 142, .15);
+	color: #3b368e;
+}
+
+.porsline .contents {
+	background: #fff;
+	width: 80%;
+	padding: 8px;
+	padding: 16px;
+	border-top-left-radius: 16px;
+	border-bottom-left-radius: 16px;
+}
+.porsline .contents .content {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+.porsline .contents .content .item {
+	display: flex;
+	background: #fff;
+	box-shadow: -3px 1px 5px rgba(0, 0, 0, 0.08);
+	border-radius: 8px;
+	overflow: hidden;
+	transition: 0.2s all ease-in-out;
+}
+.porsline .contents .content .item:hover {
+    box-shadow: 0 16px 16px -8px rgba(0, 0, 0, .15);
+}
+.porsline .contents .content .item .infos {
+  width:65%;
+  font:13px tahoma;
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:#efefef;
+}
+
+.porsline .contents .content .item .form-information {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 1rem;
+    font-weight: 700;
+	margin-bottom: 1rem;
+}
+.porsline .contents .content .item .form-information label {
+    font-size: 12px;
+    font-weight: normal;
+    display: block;
+    padding-bottom: 5px;
+	color: #6b7079;
+}
+.porsline .contents .content .item .form-information .form-information__status div {
+    color: #00b921;
+    font-weight: 400;
+    font-size: 12px;
+}
+.porsline .contents .content .item .form-information .form-information__status div.not-active {
+	color: #ff0000;
+}
+.porsline .content .item .infos h4 {
+    font-weight: 500;
+    font-size: 14px;
+    padding: 10px;
+}
+
+
+.porsline .contents .content .item .options {
+	width: 35%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding:8px;
+	align-items: end;
+}
+.porsline .contents .content .item .options button {
+    border: 1px solid #ccc;
+    background: #fff;
+    border-radius: 8px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+	cursor: pointer;
+}
+.porsline .contents .content .item .options button span {
+  color:#555;
+  font-size:14px;
+  height: max-content;
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .dialog.settings {
+        width: calc(100% - 2rem);
+        padding: 15px;
+        margin: 0 1rem;
+    }
+	
+	.form_token {
+		width: 90%;
+	}
+	
+	.list .item .infos {
+		width: 50%;
+	}
+	
+	.dialog.settings label.title {
+		overflow: visible;
+	}
+	
+	.input-group.not-full-width select {
+		width: 100% !important;
+	}
+	
+	.list .item .options {
+		width: 50%;
+	}
+    
+    .display-mode-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .input-group {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .input-group label {
+        width: 100% !important;
+        margin-bottom: 5px !important;
+    }
+    
+    .input-group input[type="text"],
+    .input-group input[type="number"] {
+        width: 100% !important;
+        margin: 5px 0 !important;
+    }
+    
+    .input-group select,
+    .input-group span {
+        width: calc(100% - 18px) !important;
+        margin: 5px 0 !important;
+    }
+	
+	.select-parent {
+		padding: 0;
+	}
+}
+
+@media (max-width: 480px) {
+    .display-mode-cards {
+        grid-gap: 8px;
+    }
+}

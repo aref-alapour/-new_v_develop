@@ -1,0 +1,440 @@
+[29-Apr-2025 12:37:21 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[29-Apr-2025 12:37:39 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[15-May-2025 00:25:29 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[31-Jul-2025 19:36:53 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[01-Aug-2025 04:19:47 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[01-Aug-2025 06:06:28 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[26-Aug-2025 02:12:22 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[26-Aug-2025 04:23:24 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[27-Aug-2025 14:55:13 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[27-Aug-2025 21:25:19 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[28-Aug-2025 05:49:06 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[29-Aug-2025 14:04:01 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[30-Aug-2025 01:16:39 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[30-Aug-2025 11:05:00 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[31-Aug-2025 02:07:36 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[01-Sep-2025 02:25:33 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[02-Sep-2025 01:28:24 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[02-Sep-2025 01:28:29 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[02-Sep-2025 01:28:35 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[02-Sep-2025 11:46:15 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[02-Sep-2025 20:06:03 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[02-Sep-2025 20:06:06 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[02-Sep-2025 20:06:10 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[02-Sep-2025 21:55:56 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[03-Sep-2025 08:34:16 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[03-Sep-2025 22:41:33 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[04-Sep-2025 22:15:01 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[05-Sep-2025 08:15:44 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[06-Sep-2025 12:36:46 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[06-Sep-2025 17:45:26 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[07-Sep-2025 07:24:55 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[07-Sep-2025 19:35:21 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[08-Sep-2025 16:25:37 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[09-Sep-2025 05:04:25 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[09-Sep-2025 20:14:57 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[11-Sep-2025 09:04:35 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[11-Sep-2025 15:25:36 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[11-Sep-2025 16:05:44 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[13-Sep-2025 00:03:35 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[14-Sep-2025 02:54:28 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[15-Sep-2025 05:53:58 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[16-Sep-2025 16:06:45 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[18-Sep-2025 14:43:21 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[19-Sep-2025 01:05:11 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[19-Sep-2025 10:32:56 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[20-Sep-2025 19:33:42 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[22-Sep-2025 03:14:35 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[22-Sep-2025 08:08:58 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[22-Sep-2025 08:09:03 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[22-Sep-2025 08:09:18 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[23-Sep-2025 15:12:11 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[23-Sep-2025 16:52:52 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[25-Sep-2025 01:24:07 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[26-Sep-2025 08:54:47 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[26-Sep-2025 13:14:12 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[27-Sep-2025 08:55:16 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[27-Sep-2025 21:25:03 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[29-Sep-2025 06:54:52 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[30-Sep-2025 05:14:15 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[01-Oct-2025 11:15:17 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[02-Oct-2025 00:53:29 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[02-Oct-2025 08:55:22 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[02-Oct-2025 18:05:39 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[03-Oct-2025 22:36:00 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[04-Oct-2025 05:53:51 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[05-Oct-2025 21:03:50 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[06-Oct-2025 03:45:01 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[06-Oct-2025 10:44:28 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[07-Oct-2025 16:25:16 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[08-Oct-2025 01:04:57 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[08-Oct-2025 10:15:11 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[10-Oct-2025 10:04:32 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[10-Oct-2025 16:15:51 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[11-Oct-2025 20:44:07 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[12-Oct-2025 10:45:15 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[13-Oct-2025 12:23:00 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[14-Oct-2025 03:50:08 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[14-Oct-2025 07:34:08 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[15-Oct-2025 01:34:05 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[15-Oct-2025 15:52:57 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[16-Oct-2025 10:45:11 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[16-Oct-2025 22:15:08 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[17-Oct-2025 00:54:28 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[18-Oct-2025 07:24:06 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[18-Oct-2025 18:25:39 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[18-Oct-2025 22:04:05 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[19-Oct-2025 22:04:13 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[20-Oct-2025 22:13:46 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[21-Oct-2025 01:25:33 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[21-Oct-2025 22:15:05 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[22-Oct-2025 19:35:47 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[22-Oct-2025 23:04:56 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[24-Oct-2025 22:35:47 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[26-Oct-2025 08:45:13 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[27-Oct-2025 04:02:35 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[27-Oct-2025 14:33:30 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[28-Oct-2025 15:35:57 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[29-Oct-2025 06:13:42 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[29-Oct-2025 08:14:56 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[30-Oct-2025 19:14:12 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[31-Oct-2025 12:15:30 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[01-Nov-2025 11:12:54 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[02-Nov-2025 04:05:55 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[02-Nov-2025 14:45:16 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[03-Nov-2025 00:33:01 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[03-Nov-2025 09:04:35 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[04-Nov-2025 05:05:09 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[05-Nov-2025 04:26:05 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[05-Nov-2025 05:32:33 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[05-Nov-2025 19:33:33 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[07-Nov-2025 21:25:51 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[07-Nov-2025 21:34:38 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[09-Nov-2025 01:23:46 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[10-Nov-2025 08:45:31 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[10-Nov-2025 09:03:17 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[11-Nov-2025 20:32:24 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[12-Nov-2025 06:45:06 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[12-Nov-2025 10:53:39 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[13-Nov-2025 19:14:21 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[14-Nov-2025 08:34:57 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[15-Nov-2025 01:25:22 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[15-Nov-2025 14:03:50 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[16-Nov-2025 13:15:27 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[17-Nov-2025 01:25:16 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[17-Nov-2025 06:05:36 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[18-Nov-2025 09:15:22 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[18-Nov-2025 13:56:05 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[19-Nov-2025 08:05:22 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[20-Nov-2025 03:54:59 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[20-Nov-2025 07:24:00 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[20-Nov-2025 07:24:08 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[20-Nov-2025 08:16:47 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[20-Nov-2025 08:17:08 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[20-Nov-2025 08:18:17 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[20-Nov-2025 08:19:01 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[20-Nov-2025 18:55:33 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[21-Nov-2025 04:44:09 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[21-Nov-2025 20:39:31 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[23-Nov-2025 01:26:16 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[23-Nov-2025 02:15:40 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[23-Nov-2025 12:15:16 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[24-Nov-2025 09:55:31 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[24-Nov-2025 17:15:12 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[24-Nov-2025 20:43:19 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[25-Nov-2025 11:35:35 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[26-Nov-2025 13:00:09 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[26-Nov-2025 21:20:07 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[26-Nov-2025 22:22:50 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[28-Nov-2025 11:05:36 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[29-Nov-2025 00:34:59 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[29-Nov-2025 11:05:22 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[30-Nov-2025 03:46:31 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[30-Nov-2025 10:25:04 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[01-Dec-2025 03:35:14 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[01-Dec-2025 10:15:40 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[02-Dec-2025 03:03:59 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[02-Dec-2025 10:25:28 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[02-Dec-2025 22:05:29 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[04-Dec-2025 12:03:59 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[04-Dec-2025 23:06:04 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[05-Dec-2025 20:12:59 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[06-Dec-2025 07:38:56 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[07-Dec-2025 10:14:27 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[07-Dec-2025 13:49:28 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[08-Dec-2025 01:44:29 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[09-Dec-2025 06:06:50 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[09-Dec-2025 08:04:50 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[10-Dec-2025 17:05:04 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[11-Dec-2025 04:27:03 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[11-Dec-2025 20:24:39 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[13-Dec-2025 13:42:48 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[15-Dec-2025 01:24:00 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[15-Dec-2025 01:35:42 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[15-Dec-2025 19:53:39 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[16-Dec-2025 19:24:19 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[18-Dec-2025 04:58:01 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[19-Dec-2025 00:24:41 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[19-Dec-2025 16:05:52 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[19-Dec-2025 17:26:03 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[21-Dec-2025 09:54:46 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[21-Dec-2025 20:04:53 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[21-Dec-2025 20:14:07 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[23-Dec-2025 09:58:17 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[23-Dec-2025 17:25:37 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[23-Dec-2025 20:00:05 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[23-Dec-2025 20:00:09 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[23-Dec-2025 20:00:19 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[24-Dec-2025 07:25:02 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[25-Dec-2025 12:45:17 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[25-Dec-2025 17:35:21 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[26-Dec-2025 05:44:57 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[27-Dec-2025 09:43:57 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[27-Dec-2025 23:27:46 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[28-Dec-2025 08:34:47 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[28-Dec-2025 22:25:20 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[29-Dec-2025 15:52:51 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[30-Dec-2025 10:34:32 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[31-Dec-2025 08:07:06 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[31-Dec-2025 15:23:06 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[31-Dec-2025 15:23:17 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[31-Dec-2025 15:23:18 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[31-Dec-2025 19:31:50 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[01-Jan-2026 11:53:44 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[01-Jan-2026 17:14:09 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[02-Jan-2026 18:55:25 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[03-Jan-2026 16:51:15 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[03-Jan-2026 16:51:27 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[03-Jan-2026 16:51:31 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[05-Jan-2026 06:14:33 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[06-Jan-2026 04:28:34 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[07-Jan-2026 22:05:11 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[07-Jan-2026 22:57:53 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[24-Jan-2026 19:16:08 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[25-Jan-2026 06:12:24 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[25-Jan-2026 06:12:44 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[28-Jan-2026 08:05:16 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[29-Jan-2026 01:02:52 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[29-Jan-2026 01:38:55 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[30-Jan-2026 18:15:11 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[31-Jan-2026 10:35:59 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[01-Feb-2026 18:38:26 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[02-Feb-2026 10:53:45 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[03-Feb-2026 02:54:51 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[04-Feb-2026 03:10:32 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24
+[04-Feb-2026 13:41:34 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Rate_Limiter" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/RateLimits.php on line 10
+[05-Feb-2026 20:22:43 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/QuantityLimits.php on line 14
+[06-Feb-2026 04:18:42 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\StoreApi\Utilities\DraftOrderTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Utilities/CartController.php on line 24

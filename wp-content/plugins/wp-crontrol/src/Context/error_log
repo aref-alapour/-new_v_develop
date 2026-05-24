@@ -1,0 +1,56 @@
+[30-Dec-2025 21:48:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Crontrol\Context\FeatureContext" not found in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Context/WordPressFeatureContext.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Context/WordPressFeatureContext.php on line 18
+[30-Dec-2025 21:48:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Crontrol\Context\FeatureContext" not found in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Context/WordPressFeatureContext.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Context/WordPressFeatureContext.php on line 18
+[30-Dec-2025 21:48:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Crontrol\Context\FeatureContext" not found in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Context/WordPressFeatureContext.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Context/WordPressFeatureContext.php on line 18
+[30-Dec-2025 23:14:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Crontrol\Context\UserContext" not found in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Context/WordPressUserContext.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Context/WordPressUserContext.php on line 17
+[30-Dec-2025 23:14:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Crontrol\Context\UserContext" not found in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Context/WordPressUserContext.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Context/WordPressUserContext.php on line 17
+[30-Dec-2025 23:14:50 UTC] PHP Fatal error:  Uncaught Error: Interface "Crontrol\Context\UserContext" not found in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Context/WordPressUserContext.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Context/WordPressUserContext.php on line 17
+[31-Dec-2025 15:18:31 UTC] PHP Fatal error:  Uncaught Error: Interface "Crontrol\Context\FeatureContext" not found in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Context/WordPressFeatureContext.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Context/WordPressFeatureContext.php on line 18
+[31-Dec-2025 15:18:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Crontrol\Context\UserContext" not found in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Context/WordPressUserContext.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Context/WordPressUserContext.php on line 17
+[02-Jan-2026 10:03:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Crontrol\Context\UserContext" not found in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Context/WordPressUserContext.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Context/WordPressUserContext.php on line 17
+[02-Jan-2026 10:03:37 UTC] PHP Fatal error:  Uncaught Error: Interface "Crontrol\Context\FeatureContext" not found in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Context/WordPressFeatureContext.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Context/WordPressFeatureContext.php on line 18
+[03-Jan-2026 16:45:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Crontrol\Context\FeatureContext" not found in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Context/WordPressFeatureContext.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Context/WordPressFeatureContext.php on line 18
+[03-Jan-2026 16:45:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Crontrol\Context\UserContext" not found in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Context/WordPressUserContext.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Context/WordPressUserContext.php on line 17
+[28-Jan-2026 14:49:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Crontrol\Context\FeatureContext" not found in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Context/WordPressFeatureContext.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Context/WordPressFeatureContext.php on line 18
+[28-Jan-2026 14:49:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Crontrol\Context\UserContext" not found in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Context/WordPressUserContext.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Context/WordPressUserContext.php on line 17

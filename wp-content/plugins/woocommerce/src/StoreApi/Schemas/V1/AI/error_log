@@ -1,0 +1,284 @@
+[30-Apr-2025 00:43:08 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[01-Aug-2025 09:05:56 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[26-Aug-2025 23:44:42 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[28-Aug-2025 22:30:11 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[30-Aug-2025 20:14:01 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[01-Sep-2025 19:12:41 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[03-Sep-2025 16:44:37 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[06-Sep-2025 14:53:17 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[07-Sep-2025 17:35:50 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[10-Sep-2025 09:14:30 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[11-Sep-2025 16:40:07 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[13-Sep-2025 19:54:25 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[15-Sep-2025 11:35:22 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[17-Sep-2025 12:10:07 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[21-Sep-2025 13:25:38 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[22-Sep-2025 19:05:09 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[25-Sep-2025 09:14:02 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[27-Sep-2025 14:03:47 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[29-Sep-2025 00:54:08 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[30-Sep-2025 19:53:32 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[03-Oct-2025 08:14:10 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[04-Oct-2025 13:32:48 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[05-Oct-2025 15:55:10 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[08-Oct-2025 12:58:29 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[10-Oct-2025 21:42:31 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[10-Oct-2025 21:42:33 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[10-Oct-2025 21:42:37 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[11-Oct-2025 01:25:13 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[12-Oct-2025 10:37:37 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[16-Oct-2025 00:53:30 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[18-Oct-2025 08:00:10 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[19-Oct-2025 20:34:27 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[21-Oct-2025 21:24:04 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[23-Oct-2025 21:13:03 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[26-Oct-2025 08:55:01 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[30-Oct-2025 22:14:51 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[05-Nov-2025 10:15:59 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[07-Nov-2025 23:44:07 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[12-Nov-2025 23:14:21 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[14-Nov-2025 14:44:46 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[15-Nov-2025 21:54:33 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[17-Nov-2025 19:55:01 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[19-Nov-2025 19:05:09 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[20-Nov-2025 10:52:19 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[20-Nov-2025 10:52:24 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[21-Nov-2025 23:54:25 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[23-Nov-2025 17:07:27 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[26-Nov-2025 12:05:39 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[27-Nov-2025 19:23:57 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[02-Dec-2025 03:45:40 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[04-Dec-2025 06:44:15 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[06-Dec-2025 06:57:02 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[07-Dec-2025 23:55:15 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[10-Dec-2025 09:06:49 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[12-Dec-2025 13:36:17 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[15-Dec-2025 23:24:57 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[18-Dec-2025 06:45:50 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[23-Dec-2025 19:59:45 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[24-Dec-2025 14:56:04 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[26-Dec-2025 14:55:34 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[28-Dec-2025 16:14:51 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[31-Dec-2025 06:12:56 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[31-Dec-2025 15:44:11 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[02-Jan-2026 12:44:43 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[03-Jan-2026 17:16:06 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[04-Jan-2026 17:01:35 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[22-Jan-2026 19:02:26 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[28-Jan-2026 18:23:38 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[30-Jan-2026 18:46:18 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[04-Feb-2026 05:24:15 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13
+[06-Feb-2026 02:10:13 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\StoreApi\Schemas\V1\AbstractSchema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Schemas/V1/AI/ProductsSchema.php on line 13

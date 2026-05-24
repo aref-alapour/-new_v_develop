@@ -1,0 +1,43 @@
+/* EZ Brand Card - Component Styles (Tailwind-compatible) */
+
+ez-brand-card {
+  --brand-card-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --brand-card-shadow-hover: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  display: block;
+}
+
+ez-brand-card img {
+  transition: box-shadow 0.3s ease;
+}
+
+ez-brand-card:hover img {
+  box-shadow: var(--brand-card-shadow-hover);
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  ez-brand-card .game-count-badge {
+    display: none;
+  }
+}
+
+/* Animation for hover overlay */
+ez-brand-card .overlay-button {
+  transform: translateY(10px);
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+ez-brand-card:hover .overlay-button {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Star rating colors */
+ez-brand-card .star-filled {
+  color: #facc15; /* yellow-400 */
+}
+
+ez-brand-card .star-empty {
+  color: #d1d5db; /* gray-300 */
+}

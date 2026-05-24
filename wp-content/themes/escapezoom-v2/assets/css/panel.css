@@ -1,0 +1,152 @@
+.woocommerce-MyAccount-navigation-link > div {
+    font-size: 14px
+}
+
+.woocommerce-MyAccount-navigation-link > div:before {
+    content: '';
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 20px;
+    height: 20px;
+}
+
+.woocommerce-MyAccount-navigation-link--dashboard > div:before {
+    background-image: url("../images/icons/icon-dashboard.png");
+}
+
+.woocommerce-MyAccount-navigation-link--sans-manager > div:before {
+    background-image: url("../images/icons/icon-sans-manager.png");
+}
+
+.woocommerce-MyAccount-navigation-link--sells > div:before {
+    background-image: url("../images/icons/icon-sells.png");
+}
+
+.woocommerce-MyAccount-navigation-link--credit > div:before {
+    background-image: url("../images/icons/icon-credit.png");
+}
+
+.woocommerce-MyAccount-navigation-link--wallet > div:before {
+    background-image: url("../images/icons/icon-wallet.png");
+}
+
+.woocommerce-MyAccount-navigation-link--notifications > div:before {
+    background-image: url("../images/icons/icon-notifications.png");
+}
+
+.woocommerce-MyAccount-navigation-link--offers > div:before {
+    background-image: url("../images/icons/icon-offers.png");
+}
+
+.woocommerce-MyAccount-navigation-link--products > div:before {
+    background-image: url("../images/icons/icon-products.png");
+}
+
+.woocommerce-MyAccount-navigation-link--orders > div:before {
+    background-image: url("../images/icons/icon-orders.png");
+}
+
+.woocommerce-MyAccount-navigation-link--comments > div:before {
+    background-image: url("../images/icons/icon-comments.png");
+}
+
+.woocommerce-MyAccount-navigation-link--my-reviews > div:before {
+    background-image: url("../images/icons/icon-comments.png");
+}
+
+.woocommerce-MyAccount-navigation-link--invitation > div:before {
+    background-image: url("../images/icons/icon-invitation.png");
+}
+
+.woocommerce-MyAccount-navigation-link--my-collections > div:before {
+    background-image: url("../images/icons/icon-collections.png");
+}
+
+.woocommerce-MyAccount-navigation-link--tickets > div:before {
+    background-image: url("../images/icons/icon-tickets.png");
+}
+
+.woocommerce-MyAccount-navigation-link--settings > div:before {
+    background-image: url("../images/icons/icon-settings.png");
+}
+.woocommerce-MyAccount-navigation-link--cancellation-requests > div:before {
+    background-image: url("../images/icons/icon-requests.png");
+}
+.woocommerce-MyAccount-navigation-link--customer-logout > div:before {
+    background-image: url("../images/icons/icon-logout.png");
+}
+
+.woocommerce-MyAccount-navigation-link.is-active > div:before {
+    filter: brightness(0) saturate(100%) invert(63%) sepia(44%) saturate(6733%) hue-rotate(352deg) brightness(102%) contrast(98%);
+}
+
+.skeleton {
+    background: rgba(242 246 250) linear-gradient(
+            100deg,
+            rgba(255, 255, 255, 0) 40%,
+            rgba(255, 255, 255, .5) 50%,
+            rgba(255, 255, 255, 0) 60%
+    );
+    background-size: 200% 100%;
+    background-position-x: 180%;
+    animation: 1s shine ease-in-out infinite;
+}
+
+@keyframes shine {
+    to {
+        background-position-x: -20%;
+    }
+}
+
+.spinner {
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 8px solid #514b82;
+    animation: l20-1 0.8s infinite linear alternate,
+    l20-2 1.6s infinite linear;
+}
+
+@keyframes l20-1 {
+    0% {
+        clip-path: polygon(50% 50%, 0 0, 50% 0%, 50% 0%, 50% 0%, 50% 0%, 50% 0%)
+    }
+    12.5% {
+        clip-path: polygon(50% 50%, 0 0, 50% 0%, 100% 0%, 100% 0%, 100% 0%, 100% 0%)
+    }
+    25% {
+        clip-path: polygon(50% 50%, 0 0, 50% 0%, 100% 0%, 100% 100%, 100% 100%, 100% 100%)
+    }
+    50% {
+        clip-path: polygon(50% 50%, 0 0, 50% 0%, 100% 0%, 100% 100%, 50% 100%, 0% 100%)
+    }
+    62.5% {
+        clip-path: polygon(50% 50%, 100% 0, 100% 0%, 100% 0%, 100% 100%, 50% 100%, 0% 100%)
+    }
+    75% {
+        clip-path: polygon(50% 50%, 100% 100%, 100% 100%, 100% 100%, 100% 100%, 50% 100%, 0% 100%)
+    }
+    100% {
+        clip-path: polygon(50% 50%, 50% 100%, 50% 100%, 50% 100%, 50% 100%, 50% 100%, 0% 100%)
+    }
+}
+
+@keyframes l20-2 {
+    0% {
+        transform: scaleY(1) rotate(0deg)
+    }
+    49.99% {
+        transform: scaleY(1) rotate(135deg)
+    }
+    50% {
+        transform: scaleY(-1) rotate(0deg)
+    }
+    100% {
+        transform: scaleY(-1) rotate(-135deg)
+    }
+}
+
+.swiper-button-disabled {
+    opacity: 0;
+}

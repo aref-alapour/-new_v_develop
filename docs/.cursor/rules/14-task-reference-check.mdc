@@ -1,0 +1,15 @@
+---
+description: Before implementing any task; check reference projects and MyDigiPay docs for execution logic; then implement optimally in main project.
+alwaysApply: true
+---
+
+# Task reference check
+
+Before writing code in **escapezoom_wp-dev**, first review:
+
+1. **escapezoom_wp/wp-content/themes/escapezoom-v2/** — patterns and behavior.
+2. **escapezoom_wp/wp-content/themes/escapezoom-v3/** — patterns and behavior.
+3. **escapezoom_wp/docs-v2/** — documented flows and APIs.
+4. **MyDigiPay (DigiPay/UPG API docs)** — when the task involves payment, tickets, verify, refund, or delivery; use official API definitions.
+
+Then implement in the main project in an **optimized, clean way**; do not copy-paste blindly. References are for logic and behavior; the main project is the source of truth for code. Deviations must be intentional and aligned with other Cursor rules.

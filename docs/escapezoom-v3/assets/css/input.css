@@ -1,0 +1,40 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+@custom-variant child (& > *);
+@custom-variant first-child (& > *:first-child);
+@custom-variant last-child (& > *:last-child);
+
+@custom-variant child-hover (& > *:hover);
+@custom-variant child-second (& > * > *);
+@custom-variant child-third (& > * > * > *);
+@custom-variant child-third-a (& > * > * > a);
+@custom-variant child-third-ul (& > * > * > ul);
+
+@import "./tailwind-theme.css";
+@import "./partials/tailwind-dimensions-from-sources.css";
+
+@utility word-spacing-nav {
+  word-spacing: 0.375rem;
+}
+
+@plugin "tailwind-scrollbar-hide";
+@plugin "tailwindcss-animation-delay";
+@plugin "daisyui" {
+  themes: light --default;
+}
+
+@source "../../*.{html,php,js,tsx}";
+@source "../../app/**/*.{html,php,js,tsx}";
+@source "../../assets/**/*.{html,php,js,tsx}";
+@source "../../HTML/**/*.{html,php,js,tsx}";
+@source "../../inc/**/*.{html,php,js,tsx}";
+@source "../../template/**/*.{html,php,js,tsx}";
+@source "../../vendor/**/*.{html,php,js,tsx}";
+@source "../../woocommerce/**/*.{html,php,js,tsx}";
+
+@import "leaflet/dist/leaflet.css";
+@import "flatpickr/dist/flatpickr.min.css";
+@import "./lib/leaflet/L.Control.GeoapifyAddressSearch.css";
+@import "./lib/leaflet/a11y-light.min.css";
+
+@import "./partials/front-overrides.css";

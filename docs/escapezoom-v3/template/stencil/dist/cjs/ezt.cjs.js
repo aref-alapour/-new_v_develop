@@ -1,0 +1,25 @@
+'use strict';
+
+var index = require('./index-COnMUfPy.js');
+var appGlobals = require('./app-globals-V2Kpy_OQ.js');
+
+var _documentCurrentScript = typeof document !== 'undefined' ? document.currentScript : null;
+/*
+ Stencil Client Patch Browser v4.43.4 | MIT Licensed | https://stenciljs.com
+ */
+
+var patchBrowser = () => {
+  const importMeta = (typeof document === 'undefined' ? require('u' + 'rl').pathToFileURL(__filename).href : (_documentCurrentScript && _documentCurrentScript.tagName.toUpperCase() === 'SCRIPT' && _documentCurrentScript.src || new URL('ezt.cjs.js', document.baseURI).href));
+  const opts = {};
+  if (importMeta !== "") {
+    opts.resourcesUrl = new URL(".", importMeta).href;
+  }
+  return index.promiseResolve(opts);
+};
+
+patchBrowser().then(async (options) => {
+  await appGlobals.globalScripts();
+  return index.bootstrapLazy([["ez-sans-list.cjs",[[512,"ez-sans-list",{"productId":[8,"product-id"],"apiEndpoint":[1,"api-endpoint"],"dates":[32],"selectedDate":[32],"sessions":[32],"loading":[32],"error":[32]}]]],["ez-button.cjs",[[772,"ez-button",{"variant":[1],"size":[1],"disabled":[4],"loading":[4],"type":[1],"wFull":[4,"w-full"]}]]],["ez-accordion.cjs",[[260,"ez-accordion"]]],["ez-accordion-item.cjs",[[772,"ez-accordion-item",{"label":[1],"open":[4],"isOpen":[32]}]]],["ez-autocomplete.cjs",[[512,"ez-autocomplete",{"placeholder":[1],"debounce":[2],"loading":[4],"results":[1],"value":[1],"searchQuery":[32],"_results":[32],"isOpen":[32]}]]],["ez-badge.cjs",[[772,"ez-badge",{"variant":[1],"sysColor":[1,"sys-color"],"sysBg":[1,"sys-bg"]}]]],["ez-banner-slider.cjs",[[512,"ez-banner-slider",{"items":[1],"sliderModel":[1,"slider-model"],"_items":[32]}]]],["ez-blog-card.cjs",[[772,"ez-blog-card",{"href":[1],"isSlide":[4,"is-slide"]}]]],["ez-brand-card.cjs",[[772,"ez-brand-card",{"href":[1],"brandId":[2,"brand-id"],"brandSlug":[1,"brand-slug"]}]]],["ez-breadcrumb.cjs",[[512,"ez-breadcrumb",{"items":[1],"_items":[32]},null,{"items":[{"parseItems":0}]}]]],["ez-collection-card.cjs",[[512,"ez-collection-card",{"collectionTitle":[1,"collection-title"],"likes":[2],"link":[1],"images":[1],"_images":[32]},null,{"images":[{"parseImages":0}]}]]],["ez-comment-item-post.cjs",[[260,"ez-comment-item-post"]]],["ez-comment-item-product.cjs",[[772,"ez-comment-item-product",{"rating":[2],"verified":[4]}]]],["ez-dropdown.cjs",[[772,"ez-dropdown",{"label":[1],"icon":[1],"isOpen":[32],"selectedLabel":[32]},[[0,"optionSelect","handleOptionSelect"],[8,"click","handleWindowClick"]]]]],["ez-dropdown-item.cjs",[[772,"ez-dropdown-item",{"value":[8],"selected":[4]}]]],["ez-input.cjs",[[512,"ez-input",{"label":[1],"type":[1],"name":[1],"placeholder":[1],"value":[1],"required":[4],"readonly":[4]}]]],["ez-modal.cjs",[[772,"ez-modal",{"isOpen":[1540,"is-open"],"modalTitle":[1,"modal-title"],"size":[1],"closeOnOverlayClick":[4,"close-on-overlay-click"]}]]],["ez-pagination.cjs",[[512,"ez-pagination",{"totalPages":[2,"total-pages"],"currentPage":[2,"current-page"]}]]],["ez-product-card.cjs",[[772,"ez-product-card",{"productId":[8,"product-id"],"status":[1],"href":[1],"isSlide":[4,"is-slide"],"productTitle":[1,"product-title"],"price":[1],"imageUrl":[1,"image-url"],"address":[1]}]]],["ez-range-datepicker.cjs",[[512,"ez-range-datepicker",{"startDate":[1,"start-date"],"endDate":[1,"end-date"],"themeColor":[1,"theme-color"],"placeholder":[1],"minDate":[1,"min-date"],"maxDate":[1,"max-date"],"disabledDates":[16],"disabled":[4],"required":[4],"name":[1],"persianNumbers":[4,"persian-numbers"],"allowRange":[8,"allow-range"],"internalStartDate":[32],"internalEndDate":[32],"errorMessage":[32],"calendarMode":[32],"jalaliCurrentYear":[32],"jalaliCurrentMonth":[32],"jalaliCalendarOpen":[32],"tooltipData":[32],"jalaliHoverDay":[32],"holidaysLoading":[32],"holidaysVersion":[32],"pendingStartDate":[32],"pendingEndDate":[32]},null,{"startDate":[{"handlePropChange":0}],"endDate":[{"handlePropChange":0}],"themeColor":[{"handleThemeColorChange":0}]}]]],["ez-select.cjs",[[512,"ez-select",{"name":[1],"placeholder":[1],"options":[1],"value":[1],"mode":[1],"searchable":[4],"label":[1],"isOpen":[32],"searchQuery":[32],"_options":[32],"internalValue":[32],"displayValue":[32]},[[8,"click","handleWindowClick"]],{"options":[{"parseOptions":0}],"value":[{"syncInternalValue":0}]}]]],["ez-skeleton.cjs",[[772,"ez-skeleton",{"type":[1],"count":[2],"animate":[4]}]]],["ez-tab.cjs",[[772,"ez-tab",{"tabId":[1,"tab-id"],"label":[1],"active":[1028]},null,{"active":[{"activeChanged":0}]}]]],["ez-table.cjs",[[772,"ez-table",{"columns":[1],"loading":[4],"skeletonCount":[2,"skeleton-count"],"caption":[1]}]]],["ez-table-cell.cjs",[[260,"ez-table-cell"]]],["ez-table-row.cjs",[[260,"ez-table-row"]]],["ez-tabs.cjs",[[772,"ez-tabs",{"activeTab":[1,"active-tab"],"tabs":[32],"currentTab":[32]}]]],["ez-sans-item.cjs",[[512,"ez-sans-item",{"session":[8]}]]],["ez-loading.cjs",[[512,"ez-loading",{"type":[1],"size":[1],"message":[1],"color":[1]}]]]], options);
+});
+
+exports.setNonce = index.setNonce;

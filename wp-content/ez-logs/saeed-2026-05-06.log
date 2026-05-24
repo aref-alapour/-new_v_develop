@@ -1,0 +1,628 @@
+[2026-05-06 14:14:06] zp_cron try: 796849
+[2026-05-06 14:14:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 14:15:56] zp_cron try: 796849
+[2026-05-06 14:15:56] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 14:17:05] zp_cron try: 796849
+[2026-05-06 14:17:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 14:19:05] zp_cron try: 796849
+[2026-05-06 14:19:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 14:21:09] zp_cron try: 796849
+[2026-05-06 14:21:09] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 14:23:07] zp_cron try: 796849
+[2026-05-06 14:23:07] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 14:25:08] zp_cron try: 796849
+[2026-05-06 14:25:08] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 14:27:07] zp_cron try: 796849
+[2026-05-06 14:27:07] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 14:29:05] zp_cron try: 796849
+[2026-05-06 14:29:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 14:31:14] zp_cron try: 796849
+[2026-05-06 14:31:14] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 14:33:06] zp_cron try: 796849
+[2026-05-06 14:33:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 14:35:05] zp_cron try: 796849
+[2026-05-06 14:35:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 14:37:07] zp_cron try: 796849
+[2026-05-06 14:37:07] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 14:39:05] zp_cron try: 796849
+[2026-05-06 14:39:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 14:41:08] zp_cron try: 796849
+[2026-05-06 14:41:08] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 14:43:06] zp_cron try: 796849
+[2026-05-06 14:43:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 14:45:15] zp_cron try: 796849
+[2026-05-06 14:45:15] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 14:47:09] zp_cron try: 796849
+[2026-05-06 14:47:09] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 14:49:06] zp_cron try: 796849
+[2026-05-06 14:49:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 14:51:06] zp_cron try: 796849
+[2026-05-06 14:51:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 14:53:06] zp_cron try: 796849
+[2026-05-06 14:53:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 14:55:05] zp_cron try: 796849
+[2026-05-06 14:55:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 14:57:07] zp_cron try: 813271
+[2026-05-06 14:57:07] zp_cron done: 813271 => {"ok":false,"code":"bad_status","message":"partially-paid"}
+[2026-05-06 14:57:07] zp_cron try: 796849
+[2026-05-06 14:57:07] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 14:59:05] zp_cron try: 796849
+[2026-05-06 14:59:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 15:01:08] zp_cron try: 796849
+[2026-05-06 15:01:08] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 15:03:27] Insert attempt 1 failed for customer_id=130300, order_id=813272
+[2026-05-06 15:04:07] Insert attempt 2 failed for customer_id=130300, order_id=813272
+[2026-05-06 15:05:10] zp_cron try: 813276
+[2026-05-06 15:05:17] ez_zp_verify[813276]: SUCCESS ref=85773741701 code=100
+[2026-05-06 15:05:17] zp_cron done: 813276 => {"ok":true,"code":"verified","ref_id":"85773741701","message":"ok"}
+[2026-05-06 15:05:17] zp_cron try: 796849
+[2026-05-06 15:05:17] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 15:06:57] Insert attempt 1 failed for customer_id=265038, order_id=813276
+[2026-05-06 15:07:06] Insert attempt 2 failed for customer_id=265038, order_id=813276
+[2026-05-06 15:08:41] zp_cron try: 796849
+[2026-05-06 15:08:41] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 15:11:06] zp_cron try: 796849
+[2026-05-06 15:11:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 15:13:06] zp_cron try: 796849
+[2026-05-06 15:13:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 15:15:26] zp_cron try: 796849
+[2026-05-06 15:15:26] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 15:17:05] zp_cron try: 796849
+[2026-05-06 15:17:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 15:19:10] zp_cron try: 796849
+[2026-05-06 15:19:10] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 15:22:05] zp_cron try: 796849
+[2026-05-06 15:22:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 15:23:05] zp_cron try: 796849
+[2026-05-06 15:23:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 15:25:05] zp_cron try: 796849
+[2026-05-06 15:25:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 15:27:06] zp_cron try: 796849
+[2026-05-06 15:27:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 15:29:05] zp_cron try: 796849
+[2026-05-06 15:29:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 15:31:14] zp_cron try: 796849
+[2026-05-06 15:31:14] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 15:35:05] zp_cron try: 796849
+[2026-05-06 15:35:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 15:37:05] zp_cron try: 796849
+[2026-05-06 15:37:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 15:39:07] zp_cron try: 796849
+[2026-05-06 15:39:07] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 15:41:07] zp_cron try: 796849
+[2026-05-06 15:41:07] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 15:43:09] zp_cron try: 796849
+[2026-05-06 15:43:09] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 15:45:39] zp_cron try: 796849
+[2026-05-06 15:45:39] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 15:47:16] zp_cron try: 796849
+[2026-05-06 15:47:16] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 15:49:08] zp_cron try: 796849
+[2026-05-06 15:49:08] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 15:51:06] zp_cron try: 796849
+[2026-05-06 15:51:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 15:53:07] zp_cron try: 796849
+[2026-05-06 15:53:07] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 15:55:05] zp_cron try: 796849
+[2026-05-06 15:55:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 15:57:05] zp_cron try: 796849
+[2026-05-06 15:57:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 15:59:06] zp_cron try: 796849
+[2026-05-06 15:59:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 16:01:18] zp_cron try: 796849
+[2026-05-06 16:01:18] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 16:03:08] zp_cron try: 796849
+[2026-05-06 16:03:08] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 16:06:11] zp_cron try: 796849
+[2026-05-06 16:06:11] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 16:07:45] zp_cron try: 796849
+[2026-05-06 16:07:45] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 16:10:46] zp_cron try: 813321
+[2026-05-06 16:10:53] ez_zp_verify[813321]: SUCCESS ref=85776542401 code=100
+[2026-05-06 16:10:53] zp_cron done: 813321 => {"ok":true,"code":"verified","ref_id":"85776542401","message":"ok"}
+[2026-05-06 16:10:53] zp_cron try: 796849
+[2026-05-06 16:10:53] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 16:13:05] zp_cron try: 796849
+[2026-05-06 16:13:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 16:16:16] zp_cron try: 796849
+[2026-05-06 16:16:16] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 16:17:37] zp_cron try: 796849
+[2026-05-06 16:17:37] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 16:19:06] zp_cron try: 796849
+[2026-05-06 16:19:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 16:21:11] zp_cron try: 796849
+[2026-05-06 16:21:11] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 16:23:05] zp_cron try: 796849
+[2026-05-06 16:23:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 16:25:06] zp_cron try: 796849
+[2026-05-06 16:25:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 16:27:07] zp_cron try: 796849
+[2026-05-06 16:27:07] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 16:29:09] zp_cron try: 796849
+[2026-05-06 16:29:09] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 16:31:08] zp_cron try: 796849
+[2026-05-06 16:31:08] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 16:33:05] zp_cron try: 796849
+[2026-05-06 16:33:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 16:35:09] zp_cron try: 796849
+[2026-05-06 16:35:09] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 16:37:05] zp_cron try: 796849
+[2026-05-06 16:37:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 16:39:05] zp_cron try: 796849
+[2026-05-06 16:39:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 16:41:05] zp_cron try: 796849
+[2026-05-06 16:41:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 16:43:07] zp_cron try: 796849
+[2026-05-06 16:43:07] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 16:46:06] zp_cron try: 796849
+[2026-05-06 16:46:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 16:47:09] zp_cron try: 796849
+[2026-05-06 16:47:09] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 16:49:06] zp_cron try: 796849
+[2026-05-06 16:49:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 16:51:06] zp_cron try: 796849
+[2026-05-06 16:51:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 16:53:07] zp_cron try: 796849
+[2026-05-06 16:53:07] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 16:55:05] zp_cron try: 796849
+[2026-05-06 16:55:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 16:57:54] zp_cron try: 796849
+[2026-05-06 16:57:54] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 16:59:05] zp_cron try: 796849
+[2026-05-06 16:59:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 17:01:06] zp_cron try: 796849
+[2026-05-06 17:01:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 17:03:07] zp_cron try: 796849
+[2026-05-06 17:03:07] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 17:08:05] zp_cron try: 796849
+[2026-05-06 17:08:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 17:09:05] zp_cron try: 796849
+[2026-05-06 17:09:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 17:11:07] zp_cron try: 796849
+[2026-05-06 17:11:07] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 17:13:07] zp_cron try: 796849
+[2026-05-06 17:13:07] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 17:15:39] zp_cron try: 796849
+[2026-05-06 17:15:39] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 17:17:08] zp_cron try: 796849
+[2026-05-06 17:17:08] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 17:19:06] zp_cron try: 796849
+[2026-05-06 17:19:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 17:22:44] zp_cron try: 796849
+[2026-05-06 17:22:44] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 17:25:05] zp_cron try: 796849
+[2026-05-06 17:25:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 17:27:07] zp_cron try: 796849
+[2026-05-06 17:27:07] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 17:29:05] zp_cron try: 796849
+[2026-05-06 17:29:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 17:31:07] zp_cron try: 796849
+[2026-05-06 17:31:07] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 17:33:07] zp_cron try: 796849
+[2026-05-06 17:33:07] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 17:35:06] zp_cron try: 796849
+[2026-05-06 17:35:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 17:37:08] zp_cron try: 796849
+[2026-05-06 17:37:08] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 17:39:06] zp_cron try: 796849
+[2026-05-06 17:39:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 17:41:07] zp_cron try: 796849
+[2026-05-06 17:41:07] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 17:43:05] zp_cron try: 796849
+[2026-05-06 17:43:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 17:45:32] zp_cron try: 796849
+[2026-05-06 17:45:32] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 17:47:09] zp_cron try: 796849
+[2026-05-06 17:47:09] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 17:49:06] zp_cron try: 796849
+[2026-05-06 17:49:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 17:52:44] zp_cron try: 796849
+[2026-05-06 17:52:44] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 17:55:06] zp_cron try: 796849
+[2026-05-06 17:55:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 17:57:05] zp_cron try: 796849
+[2026-05-06 17:57:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 17:59:05] zp_cron try: 796849
+[2026-05-06 17:59:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 18:01:07] zp_cron try: 796849
+[2026-05-06 18:01:07] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 18:03:07] zp_cron try: 796849
+[2026-05-06 18:03:07] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 18:06:05] zp_cron try: 796849
+[2026-05-06 18:06:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 18:07:07] zp_cron try: 796849
+[2026-05-06 18:07:07] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 18:09:05] zp_cron try: 796849
+[2026-05-06 18:09:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 18:11:18] zp_cron: http error cURL error 28: Operation timed out after 15001 milliseconds with 0 bytes received
+[2026-05-06 18:13:07] zp_cron try: 813419
+[2026-05-06 18:13:11] ez_zp_verify[813419]: SUCCESS ref=85781417701 code=100
+[2026-05-06 18:13:11] zp_cron done: 813419 => {"ok":true,"code":"verified","ref_id":"85781417701","message":"ok"}
+[2026-05-06 18:13:11] zp_cron try: 796849
+[2026-05-06 18:13:11] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 18:16:05] zp_cron try: 796849
+[2026-05-06 18:16:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 18:17:08] zp_cron try: 796849
+[2026-05-06 18:17:08] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 18:19:06] zp_cron try: 796849
+[2026-05-06 18:19:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 18:21:08] zp_cron try: 796849
+[2026-05-06 18:21:08] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 18:23:06] zp_cron try: 796849
+[2026-05-06 18:23:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 18:25:07] zp_cron try: 796849
+[2026-05-06 18:25:07] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 18:27:53] zp_cron try: 796849
+[2026-05-06 18:27:53] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 18:29:08] zp_cron try: 796849
+[2026-05-06 18:29:08] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 18:31:07] zp_cron try: 796849
+[2026-05-06 18:31:07] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 18:33:06] zp_cron try: 796849
+[2026-05-06 18:33:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 18:35:19] zp_cron try: 796849
+[2026-05-06 18:35:19] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 18:37:08] zp_cron try: 796849
+[2026-05-06 18:37:08] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 18:39:06] zp_cron try: 796849
+[2026-05-06 18:39:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 18:41:05] zp_cron try: 796849
+[2026-05-06 18:41:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 18:43:06] zp_cron try: 796849
+[2026-05-06 18:43:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 18:45:19] zp_cron try: 813441
+[2026-05-06 18:45:21] ez_zp_verify[813441]: inquiry not paid -> {"status":"VERIFIED","code":100,"message":"Success"}
+[2026-05-06 18:45:21] zp_cron done: 813441 => {"ok":false,"code":"not_paid_at_zp","message":"VERIFIED"}
+[2026-05-06 18:45:21] zp_cron try: 796849
+[2026-05-06 18:45:21] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 18:47:11] zp_cron try: 796849
+[2026-05-06 18:47:11] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 18:49:09] zp_cron try: 796849
+[2026-05-06 18:49:09] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 18:51:07] zp_cron try: 796849
+[2026-05-06 18:51:07] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 18:54:43] zp_cron try: 813456
+[2026-05-06 18:54:48] ez_zp_verify[813456]: SUCCESS ref=85783065801 code=100
+[2026-05-06 18:54:48] zp_cron done: 813456 => {"ok":true,"code":"verified","ref_id":"85783065801","message":"ok"}
+[2026-05-06 18:54:48] zp_cron try: 813452
+[2026-05-06 18:54:52] ez_zp_verify[813452]: SUCCESS ref=85783030801 code=100
+[2026-05-06 18:54:52] zp_cron done: 813452 => {"ok":true,"code":"verified","ref_id":"85783030801","message":"ok"}
+[2026-05-06 18:54:52] zp_cron try: 796849
+[2026-05-06 18:54:52] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 18:57:09] zp_cron try: 796849
+[2026-05-06 18:57:09] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 18:59:07] zp_cron try: 796849
+[2026-05-06 18:59:07] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 19:01:09] zp_cron try: 796849
+[2026-05-06 19:01:09] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 19:03:05] zp_cron try: 796849
+[2026-05-06 19:03:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 19:06:07] zp_cron try: 796849
+[2026-05-06 19:06:07] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 19:07:43] zp_cron try: 796849
+[2026-05-06 19:07:43] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 19:09:06] zp_cron try: 796849
+[2026-05-06 19:09:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 19:11:05] zp_cron try: 796849
+[2026-05-06 19:11:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 19:13:06] zp_cron try: 796849
+[2026-05-06 19:13:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 19:15:48] zp_cron try: 796849
+[2026-05-06 19:15:48] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 19:17:12] zp_cron try: 796849
+[2026-05-06 19:17:12] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 19:19:05] zp_cron try: 796849
+[2026-05-06 19:19:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 19:21:05] zp_cron try: 796849
+[2026-05-06 19:21:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 19:23:05] zp_cron try: 796849
+[2026-05-06 19:23:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 19:25:06] zp_cron try: 813474
+[2026-05-06 19:25:06] zp_cron done: 813474 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 19:25:06] zp_cron try: 796849
+[2026-05-06 19:25:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 19:27:07] zp_cron try: 796849
+[2026-05-06 19:27:07] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 19:29:18] zp_cron: http error cURL error 28: Connection timed out after 10001 milliseconds
+[2026-05-06 19:31:07] zp_cron try: 813481
+[2026-05-06 19:31:12] ez_zp_verify[813481]: inquiry not paid -> {"status":"VERIFIED","code":100,"message":"Success"}
+[2026-05-06 19:31:12] zp_cron done: 813481 => {"ok":false,"code":"not_paid_at_zp","message":"VERIFIED"}
+[2026-05-06 19:31:12] zp_cron try: 813479
+[2026-05-06 19:31:35] ez_zp_verify[813479]: SUCCESS ref=85784366601 code=100
+[2026-05-06 19:31:35] zp_cron done: 813479 => {"ok":true,"code":"verified","ref_id":"85784366601","message":"ok"}
+[2026-05-06 19:31:35] zp_cron try: 796849
+[2026-05-06 19:31:35] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 19:33:14] zp_cron try: 796849
+[2026-05-06 19:33:14] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 19:35:09] zp_cron try: 796849
+[2026-05-06 19:35:09] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 19:37:06] zp_cron try: 796849
+[2026-05-06 19:37:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 19:39:05] zp_cron try: 796849
+[2026-05-06 19:39:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 19:41:54] zp_cron try: 796849
+[2026-05-06 19:41:54] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 19:43:05] zp_cron try: 796849
+[2026-05-06 19:43:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 19:45:33] zp_cron try: 796849
+[2026-05-06 19:45:33] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 19:47:11] zp_cron try: 796849
+[2026-05-06 19:47:11] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 19:49:08] zp_cron try: 796849
+[2026-05-06 19:49:08] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 19:51:06] zp_cron try: 796849
+[2026-05-06 19:51:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 19:53:06] zp_cron try: 796849
+[2026-05-06 19:53:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 19:55:10] zp_cron try: 796849
+[2026-05-06 19:55:10] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 19:57:06] zp_cron try: 796849
+[2026-05-06 19:57:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 19:59:07] zp_cron try: 796849
+[2026-05-06 19:59:07] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 20:01:10] zp_cron try: 796849
+[2026-05-06 20:01:10] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 20:03:21] Insert attempt 1 failed for customer_id=265174, order_id=813498
+[2026-05-06 20:03:22] Insert attempt 2 failed for customer_id=265174, order_id=813498
+[2026-05-06 20:03:35] zp_cron try: 796849
+[2026-05-06 20:03:35] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 20:03:49] Insert attempt 3 failed for customer_id=265174, order_id=813498
+[2026-05-06 20:03:49] Insert failed after 3 attempts for customer_id=265174, order_id=813498
+[2026-05-06 20:06:05] zp_cron try: 796849
+[2026-05-06 20:06:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 20:07:41] zp_cron try: 796849
+[2026-05-06 20:07:41] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 20:09:07] zp_cron try: 796849
+[2026-05-06 20:09:07] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 20:11:10] zp_cron try: 796849
+[2026-05-06 20:11:10] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 20:13:06] zp_cron try: 796849
+[2026-05-06 20:13:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 20:16:13] zp_cron try: 796849
+[2026-05-06 20:16:13] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 20:17:08] zp_cron try: 796849
+[2026-05-06 20:17:08] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 20:19:06] zp_cron try: 796849
+[2026-05-06 20:19:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 20:21:09] zp_cron try: 796849
+[2026-05-06 20:21:09] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 20:23:05] zp_cron try: 796849
+[2026-05-06 20:23:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 20:25:09] Insert attempt 1 failed for customer_id=263457, order_id=813511
+[2026-05-06 20:25:13] Insert attempt 2 failed for customer_id=263457, order_id=813511
+[2026-05-06 20:25:14] Insert attempt 3 failed for customer_id=263457, order_id=813511
+[2026-05-06 20:25:14] Insert failed after 3 attempts for customer_id=263457, order_id=813511
+[2026-05-06 20:27:07] zp_cron try: 796849
+[2026-05-06 20:27:07] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 20:27:26] Insert attempt 1 failed for customer_id=265192, order_id=813512
+[2026-05-06 20:28:19] Insert attempt 2 failed for customer_id=265192, order_id=813512
+[2026-05-06 20:28:34] Insert attempt 3 failed for customer_id=265192, order_id=813512
+[2026-05-06 20:28:34] Insert failed after 3 attempts for customer_id=265192, order_id=813512
+[2026-05-06 20:31:39] zp_cron try: 796849
+[2026-05-06 20:31:39] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 20:34:14] zp_cron try: 796849
+[2026-05-06 20:34:14] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 20:35:06] zp_cron try: 796849
+[2026-05-06 20:35:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 20:37:11] zp_cron try: 796849
+[2026-05-06 20:37:11] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 20:40:06] zp_cron try: 796849
+[2026-05-06 20:40:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 20:41:05] zp_cron try: 796849
+[2026-05-06 20:41:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 20:43:07] zp_cron try: 796849
+[2026-05-06 20:43:07] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 20:45:47] zp_cron try: 796849
+[2026-05-06 20:45:47] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 20:47:12] zp_co_cron: http error cURL error 28: Connection timed out after 10001 milliseconds
+[2026-05-06 20:47:22] zp_cron: http error cURL error 28: Connection timed out after 10001 milliseconds
+[2026-05-06 20:49:06] zp_cron try: 813524
+[2026-05-06 20:49:10] ez_zp_verify[813524]: SUCCESS ref=85787146001 code=100
+[2026-05-06 20:49:10] zp_cron done: 813524 => {"ok":true,"code":"verified","ref_id":"85787146001","message":"ok"}
+[2026-05-06 20:49:10] zp_cron try: 796849
+[2026-05-06 20:49:10] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 20:51:05] zp_cron try: 796849
+[2026-05-06 20:51:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 20:53:06] zp_cron try: 796849
+[2026-05-06 20:53:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 20:55:05] zp_cron try: 796849
+[2026-05-06 20:55:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 20:57:08] zp_cron try: 796849
+[2026-05-06 20:57:08] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 20:59:08] zp_cron try: 796849
+[2026-05-06 20:59:08] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 21:01:12] zp_cron try: 796849
+[2026-05-06 21:01:12] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 21:04:09] zp_cron try: 796849
+[2026-05-06 21:04:09] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 21:06:06] zp_cron try: 796849
+[2026-05-06 21:06:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 21:07:41] zp_cron try: 796849
+[2026-05-06 21:07:41] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 21:09:06] zp_cron try: 796849
+[2026-05-06 21:09:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 21:11:05] zp_cron try: 796849
+[2026-05-06 21:11:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 21:13:07] zp_cron try: 796849
+[2026-05-06 21:13:07] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 21:16:11] zp_cron try: 796849
+[2026-05-06 21:16:11] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 21:17:47] zp_cron try: 796849
+[2026-05-06 21:17:47] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 21:19:11] zp_cron try: 796849
+[2026-05-06 21:19:11] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 21:21:08] zp_cron try: 796849
+[2026-05-06 21:21:08] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 21:23:05] zp_cron try: 796849
+[2026-05-06 21:23:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 21:24:40] [1570659,0]
+[2026-05-06 21:25:06] zp_cron try: 796849
+[2026-05-06 21:25:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 21:27:05] zp_cron try: 796849
+[2026-05-06 21:27:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 21:29:08] zp_cron try: 796849
+[2026-05-06 21:29:08] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 21:31:20] zp_cron try: 796849
+[2026-05-06 21:31:20] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 21:33:08] zp_cron try: 796849
+[2026-05-06 21:33:08] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 21:35:05] zp_cron try: 796849
+[2026-05-06 21:35:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 21:37:06] zp_cron try: 796849
+[2026-05-06 21:37:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 21:39:13] zp_co_cron: http error cURL error 28: Connection timed out after 10001 milliseconds
+[2026-05-06 21:39:23] zp_cron: http error cURL error 28: Connection timed out after 10001 milliseconds
+[2026-05-06 21:41:18] zp_cron try: 796849
+[2026-05-06 21:41:18] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 21:43:06] zp_cron try: 796849
+[2026-05-06 21:43:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 21:45:18] zp_cron try: 796849
+[2026-05-06 21:45:18] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 21:47:08] zp_cron try: 796849
+[2026-05-06 21:47:08] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 21:49:05] zp_cron try: 796849
+[2026-05-06 21:49:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 21:51:06] zp_cron try: 796849
+[2026-05-06 21:51:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 21:53:07] zp_cron try: 796849
+[2026-05-06 21:53:07] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 21:55:05] zp_cron try: 796849
+[2026-05-06 21:55:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 21:58:05] zp_cron try: 796849
+[2026-05-06 21:58:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 21:59:21] zp_cron try: 796849
+[2026-05-06 21:59:21] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 22:01:29] zp_cron try: 796849
+[2026-05-06 22:01:29] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 22:03:12] zp_cron try: 813573
+[2026-05-06 22:03:28] ez_zp_verify[813573]: SUCCESS ref=85789978701 code=100
+[2026-05-06 22:03:28] zp_cron done: 813573 => {"ok":true,"code":"verified","ref_id":"85789978701","message":"ok"}
+[2026-05-06 22:03:28] zp_cron try: 796849
+[2026-05-06 22:03:28] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 22:06:09] zp_cron try: 796849
+[2026-05-06 22:06:09] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 22:07:07] zp_cron try: 796849
+[2026-05-06 22:07:07] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 22:09:06] zp_cron try: 796849
+[2026-05-06 22:09:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 22:11:05] zp_cron try: 796849
+[2026-05-06 22:11:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 22:13:05] zp_cron try: 796849
+[2026-05-06 22:13:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 22:16:05] zp_cron try: 796849
+[2026-05-06 22:16:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 22:17:16] zp_cron try: 796849
+[2026-05-06 22:17:16] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 22:19:05] zp_cron try: 796849
+[2026-05-06 22:19:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 22:21:07] zp_cron try: 796849
+[2026-05-06 22:21:07] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 22:23:12] zp_cron try: 796849
+[2026-05-06 22:23:12] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 22:25:07] zp_cron try: 796849
+[2026-05-06 22:25:07] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 22:27:06] zp_cron try: 796849
+[2026-05-06 22:27:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 22:29:10] zp_cron try: 796849
+[2026-05-06 22:29:10] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 22:31:10] zp_cron try: 796849
+[2026-05-06 22:31:10] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 22:33:12] zp_cron try: 796849
+[2026-05-06 22:33:12] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 22:35:07] zp_cron try: 796849
+[2026-05-06 22:35:07] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 22:37:05] zp_cron try: 796849
+[2026-05-06 22:37:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 22:39:07] zp_cron try: 796849
+[2026-05-06 22:39:07] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 22:41:05] zp_cron try: 796849
+[2026-05-06 22:41:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 22:43:05] zp_cron try: 796849
+[2026-05-06 22:43:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 22:45:29] zp_cron try: 796849
+[2026-05-06 22:45:29] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 22:47:18] zp_cron try: 796849
+[2026-05-06 22:47:18] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 22:47:23] Insert attempt 1 failed for customer_id=264133, order_id=813597
+[2026-05-06 22:47:41] Insert attempt 2 failed for customer_id=264133, order_id=813597
+[2026-05-06 22:47:45] Insert attempt 3 failed for customer_id=264133, order_id=813597
+[2026-05-06 22:47:45] Insert attempt 1 failed for customer_id=265270, order_id=813596
+[2026-05-06 22:47:45] Insert failed after 3 attempts for customer_id=264133, order_id=813597
+[2026-05-06 22:48:15] Insert attempt 2 failed for customer_id=265270, order_id=813596
+[2026-05-06 22:50:25] zp_cron try: 796849
+[2026-05-06 22:50:25] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 22:51:06] zp_cron try: 796849
+[2026-05-06 22:51:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 22:55:10] zp_cron try: 813600
+[2026-05-06 22:55:15] ez_zp_verify[813600]: SUCCESS ref=85792004201 code=100
+[2026-05-06 22:55:15] zp_cron done: 813600 => {"ok":true,"code":"verified","ref_id":"85792004201","message":"ok"}
+[2026-05-06 22:55:15] zp_cron try: 796849
+[2026-05-06 22:55:15] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 22:58:08] zp_cron try: 813599
+[2026-05-06 22:58:13] ez_zp_verify[813599]: SUCCESS ref=85791991801 code=100
+[2026-05-06 22:58:13] zp_cron done: 813599 => {"ok":true,"code":"verified","ref_id":"85791991801","message":"ok"}
+[2026-05-06 22:58:13] zp_cron try: 796849
+[2026-05-06 22:58:13] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 22:59:06] zp_cron try: 796849
+[2026-05-06 22:59:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 23:01:17] zp_cron try: 796849
+[2026-05-06 23:01:17] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 23:02:45] Insert attempt 1 failed for customer_id=20055, order_id=813606
+[2026-05-06 23:04:07] zp_cron try: 796849
+[2026-05-06 23:04:07] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 23:06:38] zp_cron try: 796849
+[2026-05-06 23:06:38] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 23:07:44] zp_cron try: 796849
+[2026-05-06 23:07:44] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 23:09:08] zp_cron try: 796849
+[2026-05-06 23:09:08] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 23:11:06] zp_cron try: 796849
+[2026-05-06 23:11:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 23:13:05] zp_cron try: 796849
+[2026-05-06 23:13:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 23:15:22] zp_cron try: 796849
+[2026-05-06 23:15:22] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 23:17:11] zp_cron try: 796849
+[2026-05-06 23:17:11] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 23:19:06] zp_cron try: 796849
+[2026-05-06 23:19:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 23:21:05] zp_cron try: 796849
+[2026-05-06 23:21:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 23:23:07] zp_cron try: 796849
+[2026-05-06 23:23:07] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 23:25:09] zp_cron try: 796849
+[2026-05-06 23:25:09] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 23:27:06] zp_cron try: 796849
+[2026-05-06 23:27:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 23:29:05] zp_cron try: 796849
+[2026-05-06 23:29:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 23:31:11] zp_cron try: 796849
+[2026-05-06 23:31:11] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 23:33:54] zp_cron try: 796849
+[2026-05-06 23:33:54] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 23:35:06] zp_cron try: 796849
+[2026-05-06 23:35:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 23:37:06] zp_cron try: 796849
+[2026-05-06 23:37:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 23:39:06] zp_cron try: 796849
+[2026-05-06 23:39:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 23:41:37] zp_cron try: 796849
+[2026-05-06 23:41:37] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 23:43:05] zp_cron try: 796849
+[2026-05-06 23:43:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 23:45:11] zp_cron try: 796849
+[2026-05-06 23:45:11] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 23:47:10] zp_cron try: 796849
+[2026-05-06 23:47:10] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 23:49:09] zp_cron try: 796849
+[2026-05-06 23:49:09] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 23:51:06] zp_cron try: 796849
+[2026-05-06 23:51:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 23:53:05] zp_cron try: 796849
+[2026-05-06 23:53:05] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 23:55:06] zp_cron try: 796849
+[2026-05-06 23:55:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 23:57:31] zp_cron try: 796849
+[2026-05-06 23:57:31] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}
+[2026-05-06 23:59:06] zp_cron try: 796849
+[2026-05-06 23:59:06] zp_cron done: 796849 => {"ok":true,"code":"already_paid","message":"already paid"}

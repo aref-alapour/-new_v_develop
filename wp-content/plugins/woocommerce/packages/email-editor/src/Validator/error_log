@@ -1,0 +1,292 @@
+[30-Apr-2025 00:13:15 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[31-Jul-2025 20:53:32 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[26-Aug-2025 22:33:58 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[28-Aug-2025 21:15:19 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[30-Aug-2025 20:47:10 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[02-Sep-2025 07:40:11 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[03-Sep-2025 18:34:26 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[06-Sep-2025 10:34:22 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[07-Sep-2025 18:55:31 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[10-Sep-2025 06:34:46 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[12-Sep-2025 05:27:59 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[14-Sep-2025 01:52:49 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[19-Sep-2025 01:04:29 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[21-Sep-2025 13:44:51 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[22-Sep-2025 20:44:28 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[25-Sep-2025 12:14:53 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[27-Sep-2025 15:25:19 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[29-Sep-2025 07:45:18 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[03-Oct-2025 02:20:15 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[06-Oct-2025 20:58:50 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[06-Oct-2025 20:59:02 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[06-Oct-2025 20:59:08 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[09-Oct-2025 07:44:33 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[11-Oct-2025 05:13:59 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[14-Oct-2025 11:54:19 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[15-Oct-2025 23:44:34 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[18-Oct-2025 04:15:43 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[19-Oct-2025 18:53:16 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[21-Oct-2025 19:54:35 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[23-Oct-2025 20:02:46 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[26-Oct-2025 06:06:21 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[28-Oct-2025 12:33:51 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[30-Oct-2025 00:14:36 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[01-Nov-2025 08:44:23 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[02-Nov-2025 21:26:01 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[05-Nov-2025 10:45:05 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[08-Nov-2025 07:43:52 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[13-Nov-2025 05:04:49 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[15-Nov-2025 05:36:00 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[16-Nov-2025 15:14:31 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[19-Nov-2025 16:56:23 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[20-Nov-2025 05:52:08 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[20-Nov-2025 05:52:34 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[22-Nov-2025 07:23:31 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[25-Nov-2025 18:34:38 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[27-Nov-2025 21:26:12 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[30-Nov-2025 00:56:10 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[01-Dec-2025 20:05:58 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[04-Dec-2025 09:44:13 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[06-Dec-2025 07:27:55 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[08-Dec-2025 06:24:19 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[10-Dec-2025 05:14:56 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[12-Dec-2025 08:23:32 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[15-Dec-2025 20:35:51 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[19-Dec-2025 17:35:36 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[22-Dec-2025 07:24:51 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[23-Dec-2025 20:41:58 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[24-Dec-2025 13:15:23 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[28-Dec-2025 16:55:40 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[31-Dec-2025 09:05:11 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[31-Dec-2025 15:27:45 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[31-Dec-2025 21:35:52 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[31-Dec-2025 21:35:53 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[31-Dec-2025 21:36:25 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[02-Jan-2026 09:04:34 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[03-Jan-2026 17:00:23 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[08-Jan-2026 12:09:12 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[23-Jan-2026 14:29:09 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[25-Jan-2026 07:33:56 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[28-Jan-2026 23:36:50 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[01-Feb-2026 12:40:08 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[03-Feb-2026 23:27:08 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17
+[06-Feb-2026 09:09:05 UTC] PHP Fatal error:  Uncaught Error: Class "MailPoet\EmailEditor\UnexpectedValueException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Validator/class-validation-exception.php on line 17

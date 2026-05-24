@@ -1,0 +1,56 @@
+[19-Nov-2025 20:37:55 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "WPS\WPS_Hide_Login\WPS_HIDE_LOGIN_DIR" in /home/escapezoom/public_html/wp-content/plugins/wps-hide-login/autoload.php:197
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wps-hide-login/autoload.php on line 197
+[19-Nov-2025 20:38:11 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "WPS\WPS_Hide_Login\WPS_HIDE_LOGIN_DIR" in /home/escapezoom/public_html/wp-content/plugins/wps-hide-login/autoload.php:197
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wps-hide-login/autoload.php on line 197
+[24-Nov-2025 20:40:59 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "WPS\WPS_Hide_Login\WPS_HIDE_LOGIN_DIR" in /home/escapezoom/public_html/wp-content/plugins/wps-hide-login/autoload.php:197
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wps-hide-login/autoload.php on line 197
+[25-Nov-2025 14:25:44 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "WPS\WPS_Hide_Login\WPS_HIDE_LOGIN_DIR" in /home/escapezoom/public_html/wp-content/plugins/wps-hide-login/autoload.php:197
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wps-hide-login/autoload.php on line 197
+[17-Dec-2025 07:13:06 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "WPS\WPS_Hide_Login\WPS_HIDE_LOGIN_DIR" in /home/escapezoom/public_html/wp-content/plugins/wps-hide-login/autoload.php:197
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wps-hide-login/autoload.php on line 197
+[17-Dec-2025 21:05:55 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "WPS\WPS_Hide_Login\WPS_HIDE_LOGIN_DIR" in /home/escapezoom/public_html/wp-content/plugins/wps-hide-login/autoload.php:197
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wps-hide-login/autoload.php on line 197
+[23-Dec-2025 19:47:45 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "WPS\WPS_Hide_Login\WPS_HIDE_LOGIN_DIR" in /home/escapezoom/public_html/wp-content/plugins/wps-hide-login/autoload.php:197
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wps-hide-login/autoload.php on line 197
+[30-Dec-2025 17:14:46 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "WPS\WPS_Hide_Login\WPS_HIDE_LOGIN_DIR" in /home/escapezoom/public_html/wp-content/plugins/wps-hide-login/autoload.php:197
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wps-hide-login/autoload.php on line 197
+[30-Dec-2025 17:14:46 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "WPS\WPS_Hide_Login\WPS_HIDE_LOGIN_DIR" in /home/escapezoom/public_html/wp-content/plugins/wps-hide-login/autoload.php:197
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wps-hide-login/autoload.php on line 197
+[30-Dec-2025 17:15:10 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "WPS\WPS_Hide_Login\WPS_HIDE_LOGIN_DIR" in /home/escapezoom/public_html/wp-content/plugins/wps-hide-login/autoload.php:197
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wps-hide-login/autoload.php on line 197
+[31-Dec-2025 15:07:12 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "WPS\WPS_Hide_Login\WPS_HIDE_LOGIN_DIR" in /home/escapezoom/public_html/wp-content/plugins/wps-hide-login/autoload.php:197
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wps-hide-login/autoload.php on line 197
+[02-Jan-2026 10:14:59 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "WPS\WPS_Hide_Login\WPS_HIDE_LOGIN_DIR" in /home/escapezoom/public_html/wp-content/plugins/wps-hide-login/autoload.php:197
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wps-hide-login/autoload.php on line 197
+[03-Jan-2026 16:33:39 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "WPS\WPS_Hide_Login\WPS_HIDE_LOGIN_DIR" in /home/escapezoom/public_html/wp-content/plugins/wps-hide-login/autoload.php:197
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wps-hide-login/autoload.php on line 197
+[28-Jan-2026 14:54:06 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "WPS\WPS_Hide_Login\WPS_HIDE_LOGIN_DIR" in /home/escapezoom/public_html/wp-content/plugins/wps-hide-login/autoload.php:197
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wps-hide-login/autoload.php on line 197

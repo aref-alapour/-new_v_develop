@@ -1,0 +1,8 @@
+[31-Dec-2025 15:25:35 UTC] PHP Fatal error:  Uncaught Error: Interface "WpRollback\SharedCore\Rollbacks\Contract\RollbackStep" not found in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/src/Rollbacks/RollbackSteps/UpsellValidatePackage.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/src/Rollbacks/RollbackSteps/UpsellValidatePackage.php on line 26
+[03-Jan-2026 16:56:15 UTC] PHP Fatal error:  Uncaught Error: Interface "WpRollback\SharedCore\Rollbacks\Contract\RollbackStep" not found in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/src/Rollbacks/RollbackSteps/UpsellValidatePackage.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/src/Rollbacks/RollbackSteps/UpsellValidatePackage.php on line 26

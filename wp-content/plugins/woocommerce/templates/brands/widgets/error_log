@@ -1,0 +1,474 @@
+[29-Apr-2025 11:36:23 UTC] PHP Warning:  Undefined variable $brands in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails-description.php on line 23
+[29-Apr-2025 11:36:23 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails-description.php on line 23
+[29-Apr-2025 11:41:37 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[29-Apr-2025 11:41:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[29-Apr-2025 11:55:16 UTC] PHP Warning:  Undefined variable $fluid_columns in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php on line 21
+[29-Apr-2025 11:55:16 UTC] PHP Warning:  Undefined variable $columns in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php on line 21
+[29-Apr-2025 11:55:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php on line 25
+[05-May-2025 20:16:53 UTC] PHP Warning:  Undefined variable $fluid_columns in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php on line 21
+[05-May-2025 20:16:53 UTC] PHP Warning:  Undefined variable $columns in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php on line 21
+[05-May-2025 20:16:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php on line 25
+[05-May-2025 20:38:31 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[05-May-2025 20:38:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[05-May-2025 20:42:45 UTC] PHP Warning:  Undefined variable $brands in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails-description.php on line 23
+[05-May-2025 20:42:45 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails-description.php on line 23
+[05-May-2025 21:40:55 UTC] PHP Warning:  Undefined variable $fluid_columns in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php on line 21
+[05-May-2025 21:40:55 UTC] PHP Warning:  Undefined variable $columns in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php on line 21
+[05-May-2025 21:40:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php on line 25
+[05-May-2025 22:59:10 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[05-May-2025 22:59:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[05-May-2025 23:26:33 UTC] PHP Warning:  Undefined variable $brands in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails-description.php on line 23
+[05-May-2025 23:26:33 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails-description.php on line 23
+[07-May-2025 20:46:57 UTC] PHP Warning:  Undefined variable $fluid_columns in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php on line 21
+[07-May-2025 20:46:57 UTC] PHP Warning:  Undefined variable $columns in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php on line 21
+[07-May-2025 20:46:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php on line 25
+[08-May-2025 03:07:42 UTC] PHP Warning:  Undefined variable $brands in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails-description.php on line 23
+[08-May-2025 03:07:42 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails-description.php on line 23
+[08-May-2025 03:43:44 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[08-May-2025 03:43:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[31-Jul-2025 19:44:17 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[31-Jul-2025 19:44:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[31-Jul-2025 23:31:56 UTC] PHP Warning:  Undefined variable $brands in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails-description.php on line 23
+[31-Jul-2025 23:31:56 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails-description.php on line 23
+[01-Aug-2025 00:54:11 UTC] PHP Warning:  Undefined variable $fluid_columns in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php on line 21
+[01-Aug-2025 00:54:11 UTC] PHP Warning:  Undefined variable $columns in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php on line 21
+[01-Aug-2025 00:54:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php on line 25
+[25-Aug-2025 14:36:19 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[25-Aug-2025 14:36:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[26-Aug-2025 12:33:08 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[26-Aug-2025 12:33:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[27-Aug-2025 20:03:38 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[27-Aug-2025 20:03:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[30-Aug-2025 05:06:58 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[30-Aug-2025 05:06:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[31-Aug-2025 22:44:05 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[31-Aug-2025 22:44:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[03-Sep-2025 14:54:56 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[03-Sep-2025 14:54:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[05-Sep-2025 13:34:49 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[05-Sep-2025 13:34:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[07-Sep-2025 00:25:37 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[07-Sep-2025 00:25:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[08-Sep-2025 23:25:11 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[08-Sep-2025 23:25:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[11-Sep-2025 02:55:08 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[11-Sep-2025 02:55:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[13-Sep-2025 05:44:04 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[13-Sep-2025 05:44:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[17-Sep-2025 03:03:50 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[17-Sep-2025 03:03:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[21-Sep-2025 03:15:16 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[21-Sep-2025 03:15:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[23-Sep-2025 10:53:52 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[23-Sep-2025 10:53:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[25-Sep-2025 01:55:16 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[25-Sep-2025 01:55:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[25-Sep-2025 17:21:55 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[25-Sep-2025 17:21:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[25-Sep-2025 17:22:04 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[25-Sep-2025 17:22:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[25-Sep-2025 17:22:09 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[25-Sep-2025 17:22:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[25-Sep-2025 22:41:25 UTC] PHP Warning:  Undefined variable $brands in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails-description.php on line 23
+[25-Sep-2025 22:41:25 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails-description.php on line 23
+[26-Sep-2025 21:54:51 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[26-Sep-2025 21:54:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[27-Sep-2025 07:34:51 UTC] PHP Warning:  Undefined variable $fluid_columns in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php on line 21
+[27-Sep-2025 07:34:51 UTC] PHP Warning:  Undefined variable $columns in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php on line 21
+[27-Sep-2025 07:34:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php on line 25
+[01-Oct-2025 13:43:49 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[01-Oct-2025 13:43:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[03-Oct-2025 04:24:01 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[03-Oct-2025 04:24:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[05-Oct-2025 06:05:09 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[05-Oct-2025 06:05:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[06-Oct-2025 20:13:35 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[06-Oct-2025 20:13:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[10-Oct-2025 12:35:30 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[10-Oct-2025 12:35:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[12-Oct-2025 07:23:41 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[12-Oct-2025 07:23:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[14-Oct-2025 07:25:08 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[14-Oct-2025 07:25:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[15-Oct-2025 16:16:01 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[15-Oct-2025 16:16:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[18-Oct-2025 14:05:01 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[18-Oct-2025 14:05:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[19-Oct-2025 17:53:46 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[19-Oct-2025 17:53:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[21-Oct-2025 18:34:44 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[21-Oct-2025 18:34:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[23-Oct-2025 18:43:37 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[23-Oct-2025 18:43:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[26-Oct-2025 14:44:49 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[26-Oct-2025 14:44:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[28-Oct-2025 21:22:57 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[28-Oct-2025 21:22:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[02-Nov-2025 12:34:47 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[02-Nov-2025 12:34:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[06-Nov-2025 00:55:24 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[06-Nov-2025 00:55:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[09-Nov-2025 10:03:32 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[09-Nov-2025 10:03:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[15-Nov-2025 00:26:48 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[15-Nov-2025 00:26:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[17-Nov-2025 06:33:43 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[17-Nov-2025 06:33:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[19-Nov-2025 06:26:07 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[19-Nov-2025 06:26:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[20-Nov-2025 05:56:12 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[20-Nov-2025 05:56:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[20-Nov-2025 05:56:42 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[20-Nov-2025 05:56:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[20-Nov-2025 06:06:21 UTC] PHP Warning:  Undefined variable $brands in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails-description.php on line 23
+[20-Nov-2025 06:06:21 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails-description.php on line 23
+[20-Nov-2025 06:06:42 UTC] PHP Warning:  Undefined variable $brands in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails-description.php on line 23
+[20-Nov-2025 06:06:42 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails-description.php on line 23
+[20-Nov-2025 06:12:09 UTC] PHP Warning:  Undefined variable $fluid_columns in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php on line 21
+[20-Nov-2025 06:12:09 UTC] PHP Warning:  Undefined variable $columns in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php on line 21
+[20-Nov-2025 06:12:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php on line 25
+[20-Nov-2025 06:12:33 UTC] PHP Warning:  Undefined variable $fluid_columns in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php on line 21
+[20-Nov-2025 06:12:33 UTC] PHP Warning:  Undefined variable $columns in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php on line 21
+[20-Nov-2025 06:12:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php on line 25
+[20-Nov-2025 12:54:32 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[20-Nov-2025 12:54:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[22-Nov-2025 05:15:09 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[22-Nov-2025 05:15:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[23-Nov-2025 23:07:20 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[23-Nov-2025 23:07:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[26-Nov-2025 00:15:22 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[26-Nov-2025 00:15:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[27-Nov-2025 22:05:56 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[27-Nov-2025 22:05:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[29-Nov-2025 16:45:04 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[29-Nov-2025 16:45:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[01-Dec-2025 07:19:46 UTC] PHP Warning:  Undefined variable $fluid_columns in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php on line 21
+[01-Dec-2025 07:19:46 UTC] PHP Warning:  Undefined variable $columns in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php on line 21
+[01-Dec-2025 07:19:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php on line 25
+[02-Dec-2025 04:24:59 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[02-Dec-2025 04:24:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[03-Dec-2025 17:06:05 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[03-Dec-2025 17:06:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[05-Dec-2025 17:08:10 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[05-Dec-2025 17:08:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[07-Dec-2025 21:22:03 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[07-Dec-2025 21:22:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[11-Dec-2025 20:05:47 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[11-Dec-2025 20:05:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[15-Dec-2025 21:33:34 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[15-Dec-2025 21:33:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[19-Dec-2025 17:24:02 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[19-Dec-2025 17:24:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[22-Dec-2025 12:54:45 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[22-Dec-2025 12:54:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[23-Dec-2025 20:30:21 UTC] PHP Warning:  Undefined variable $brands in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails-description.php on line 23
+[23-Dec-2025 20:30:21 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails-description.php on line 23
+[23-Dec-2025 20:30:21 UTC] PHP Warning:  Undefined variable $fluid_columns in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php on line 21
+[23-Dec-2025 20:30:21 UTC] PHP Warning:  Undefined variable $columns in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php on line 21
+[23-Dec-2025 20:30:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php on line 25
+[23-Dec-2025 20:30:22 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[23-Dec-2025 20:30:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[25-Dec-2025 22:55:33 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[25-Dec-2025 22:55:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[28-Dec-2025 04:43:45 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[28-Dec-2025 04:43:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[29-Dec-2025 20:55:57 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[29-Dec-2025 20:55:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[31-Dec-2025 15:23:10 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[31-Dec-2025 15:23:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[31-Dec-2025 15:23:11 UTC] PHP Warning:  Undefined variable $brands in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails-description.php on line 23
+[31-Dec-2025 15:23:11 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails-description.php on line 23
+[31-Dec-2025 15:23:12 UTC] PHP Warning:  Undefined variable $fluid_columns in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php on line 21
+[31-Dec-2025 15:23:12 UTC] PHP Warning:  Undefined variable $columns in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php on line 21
+[31-Dec-2025 15:23:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php on line 25
+[31-Dec-2025 23:54:30 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[31-Dec-2025 23:54:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[02-Jan-2026 23:33:46 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[02-Jan-2026 23:33:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[03-Jan-2026 16:51:19 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[03-Jan-2026 16:51:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[03-Jan-2026 16:51:20 UTC] PHP Warning:  Undefined variable $brands in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails-description.php on line 23
+[03-Jan-2026 16:51:20 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails-description.php on line 23
+[03-Jan-2026 16:51:21 UTC] PHP Warning:  Undefined variable $fluid_columns in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php on line 21
+[03-Jan-2026 16:51:21 UTC] PHP Warning:  Undefined variable $columns in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php on line 21
+[03-Jan-2026 16:51:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php:25
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-thumbnails.php on line 25
+[06-Jan-2026 04:21:20 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[06-Jan-2026 04:21:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[08-Jan-2026 03:54:53 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[08-Jan-2026 03:54:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[24-Jan-2026 08:22:20 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[24-Jan-2026 08:22:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[28-Jan-2026 17:55:21 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[28-Jan-2026 17:55:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[31-Jan-2026 07:45:52 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[31-Jan-2026 07:45:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[02-Feb-2026 07:55:52 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[02-Feb-2026 07:55:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[04-Feb-2026 09:19:19 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[04-Feb-2026 09:19:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27
+[06-Feb-2026 08:38:19 UTC] PHP Warning:  Undefined variable $thumbnail in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 22
+[06-Feb-2026 08:38:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_kses_post() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/templates/brands/widgets/brand-description.php on line 27

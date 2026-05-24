@@ -1,0 +1,1316 @@
+[01-Aug-2025 09:05:47 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Migration_Command.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Migration_Command.php on line 22
+[01-Aug-2025 18:15:00 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[01-Aug-2025 18:22:01 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[01-Aug-2025 20:17:22 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[02-Aug-2025 00:13:55 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[06-Aug-2025 05:25:45 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[07-Aug-2025 20:11:22 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[07-Aug-2025 22:46:49 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[08-Aug-2025 01:17:45 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[09-Aug-2025 18:44:01 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[09-Aug-2025 22:33:35 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[10-Aug-2025 09:35:53 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[11-Aug-2025 18:39:43 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[11-Aug-2025 21:16:34 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[12-Aug-2025 05:02:22 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[13-Aug-2025 16:16:16 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[14-Aug-2025 05:02:24 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[14-Aug-2025 18:03:19 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[15-Aug-2025 11:43:00 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[15-Aug-2025 17:32:56 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[25-Aug-2025 13:02:40 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[25-Aug-2025 19:43:36 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[26-Aug-2025 06:06:32 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Migration_Command.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Migration_Command.php on line 22
+[26-Aug-2025 06:33:29 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[26-Aug-2025 09:54:09 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[27-Aug-2025 05:04:16 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[27-Aug-2025 18:27:00 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[27-Aug-2025 23:33:41 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[29-Aug-2025 03:24:21 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[29-Aug-2025 05:07:08 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Migration_Command.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Migration_Command.php on line 22
+[29-Aug-2025 16:25:15 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[29-Aug-2025 23:35:26 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[30-Aug-2025 05:43:43 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[30-Aug-2025 21:17:38 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Migration_Command.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Migration_Command.php on line 22
+[31-Aug-2025 13:48:32 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[31-Aug-2025 16:10:11 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[01-Sep-2025 07:14:29 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[01-Sep-2025 10:57:50 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[01-Sep-2025 22:35:00 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[02-Sep-2025 17:55:59 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[02-Sep-2025 21:34:57 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[03-Sep-2025 01:35:58 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[03-Sep-2025 17:45:44 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Migration_Command.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Migration_Command.php on line 22
+[04-Sep-2025 01:08:15 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[04-Sep-2025 17:56:30 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[04-Sep-2025 18:40:09 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[05-Sep-2025 00:33:35 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[05-Sep-2025 17:00:15 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Migration_Command.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Migration_Command.php on line 22
+[06-Sep-2025 00:25:56 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[06-Sep-2025 16:16:11 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[06-Sep-2025 19:34:29 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[06-Sep-2025 23:35:05 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[07-Sep-2025 17:06:55 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Migration_Command.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Migration_Command.php on line 22
+[08-Sep-2025 00:45:51 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[08-Sep-2025 16:24:37 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[08-Sep-2025 18:14:08 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[08-Sep-2025 22:03:19 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[10-Sep-2025 01:34:54 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Migration_Command.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Migration_Command.php on line 22
+[11-Sep-2025 10:44:13 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[11-Sep-2025 23:42:08 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Migration_Command.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Migration_Command.php on line 22
+[12-Sep-2025 03:44:17 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[12-Sep-2025 12:57:58 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[13-Sep-2025 01:35:27 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[13-Sep-2025 10:34:29 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[14-Sep-2025 01:04:30 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[14-Sep-2025 10:57:15 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[14-Sep-2025 14:22:28 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Migration_Command.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Migration_Command.php on line 22
+[14-Sep-2025 22:43:55 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[15-Sep-2025 01:24:08 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[15-Sep-2025 13:13:41 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[15-Sep-2025 14:55:40 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[16-Sep-2025 18:04:08 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[17-Sep-2025 03:24:46 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[17-Sep-2025 03:25:44 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[17-Sep-2025 07:33:34 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[18-Sep-2025 19:35:00 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[19-Sep-2025 02:05:56 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[19-Sep-2025 08:45:12 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[19-Sep-2025 11:45:38 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[20-Sep-2025 15:10:08 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[21-Sep-2025 00:13:20 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[21-Sep-2025 07:35:11 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[21-Sep-2025 12:15:05 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[22-Sep-2025 01:24:00 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[22-Sep-2025 23:34:25 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[23-Sep-2025 07:04:00 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[23-Sep-2025 07:13:58 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[24-Sep-2025 07:33:54 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[24-Sep-2025 17:14:27 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[25-Sep-2025 09:34:56 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[25-Sep-2025 16:05:21 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[26-Sep-2025 16:54:21 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[26-Sep-2025 19:24:25 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[27-Sep-2025 07:15:47 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[28-Sep-2025 20:14:53 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[29-Sep-2025 05:03:50 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[29-Sep-2025 07:03:57 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[29-Sep-2025 14:04:25 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[30-Sep-2025 13:52:48 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[30-Sep-2025 18:23:45 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[01-Oct-2025 16:13:10 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[02-Oct-2025 00:53:51 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[02-Oct-2025 17:04:45 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[02-Oct-2025 17:54:18 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[04-Oct-2025 10:06:40 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Migration_Command.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Migration_Command.php on line 22
+[04-Oct-2025 10:06:45 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Migration_Command.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Migration_Command.php on line 22
+[04-Oct-2025 10:06:49 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Migration_Command.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Migration_Command.php on line 22
+[04-Oct-2025 17:18:30 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[04-Oct-2025 17:18:38 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[04-Oct-2025 17:18:43 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[05-Oct-2025 14:46:14 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[05-Oct-2025 15:50:13 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[06-Oct-2025 05:14:19 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[06-Oct-2025 05:55:26 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[07-Oct-2025 09:14:41 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[07-Oct-2025 18:02:53 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[08-Oct-2025 05:03:35 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[08-Oct-2025 05:03:40 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[08-Oct-2025 05:03:48 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[08-Oct-2025 12:49:42 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[08-Oct-2025 12:49:47 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[08-Oct-2025 14:57:38 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[08-Oct-2025 14:57:46 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[08-Oct-2025 14:57:50 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[08-Oct-2025 16:33:23 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[08-Oct-2025 21:20:06 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[09-Oct-2025 02:24:25 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[10-Oct-2025 06:59:38 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[10-Oct-2025 22:34:13 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[10-Oct-2025 22:54:27 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[11-Oct-2025 22:24:26 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[12-Oct-2025 10:26:51 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[12-Oct-2025 15:14:52 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[12-Oct-2025 20:04:32 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[14-Oct-2025 12:34:45 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[14-Oct-2025 14:05:08 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[15-Oct-2025 01:25:38 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[16-Oct-2025 03:15:19 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[16-Oct-2025 10:13:56 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[16-Oct-2025 21:45:35 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[17-Oct-2025 06:14:57 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[17-Oct-2025 23:02:41 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[18-Oct-2025 06:50:07 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[18-Oct-2025 17:35:14 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[19-Oct-2025 15:15:30 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[19-Oct-2025 23:44:02 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[20-Oct-2025 18:04:43 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[20-Oct-2025 19:44:36 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[21-Oct-2025 02:14:21 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[22-Oct-2025 01:02:58 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[22-Oct-2025 17:06:00 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[22-Oct-2025 18:24:56 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[24-Oct-2025 01:04:15 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[24-Oct-2025 20:56:22 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[25-Oct-2025 00:24:02 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[25-Oct-2025 10:14:26 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[25-Oct-2025 23:54:22 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[27-Oct-2025 09:52:08 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[27-Oct-2025 11:34:48 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[27-Oct-2025 21:14:57 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[28-Oct-2025 07:04:34 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[29-Oct-2025 05:25:53 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[30-Oct-2025 06:04:07 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[30-Oct-2025 18:25:06 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[30-Oct-2025 20:34:20 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[31-Oct-2025 14:45:34 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[01-Nov-2025 02:55:07 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[01-Nov-2025 22:25:02 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[02-Nov-2025 05:44:14 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[03-Nov-2025 02:15:52 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[03-Nov-2025 23:13:18 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[04-Nov-2025 01:24:00 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[04-Nov-2025 04:46:03 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[04-Nov-2025 23:15:02 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[05-Nov-2025 22:17:39 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[06-Nov-2025 02:47:21 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[06-Nov-2025 04:15:03 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[07-Nov-2025 10:44:15 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[08-Nov-2025 23:48:35 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[09-Nov-2025 04:45:21 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[09-Nov-2025 20:14:46 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[11-Nov-2025 20:05:17 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[12-Nov-2025 12:33:56 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[12-Nov-2025 13:56:42 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[13-Nov-2025 14:06:47 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[13-Nov-2025 22:44:03 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[13-Nov-2025 22:55:13 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[14-Nov-2025 19:34:48 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[14-Nov-2025 21:15:11 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[15-Nov-2025 14:03:27 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[16-Nov-2025 06:15:03 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[16-Nov-2025 08:46:31 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[16-Nov-2025 08:54:07 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[16-Nov-2025 15:45:13 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[17-Nov-2025 08:15:10 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[17-Nov-2025 15:54:51 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[18-Nov-2025 06:15:41 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[18-Nov-2025 08:35:14 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[18-Nov-2025 18:55:32 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[19-Nov-2025 22:34:20 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[20-Nov-2025 07:11:56 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[20-Nov-2025 07:12:29 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[20-Nov-2025 07:19:12 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[20-Nov-2025 07:19:48 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[20-Nov-2025 07:22:04 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[20-Nov-2025 07:22:35 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[20-Nov-2025 07:24:05 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[20-Nov-2025 07:24:21 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[20-Nov-2025 07:24:47 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Migration_Command.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Migration_Command.php on line 22
+[20-Nov-2025 07:24:59 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Migration_Command.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Migration_Command.php on line 22
+[20-Nov-2025 11:53:56 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[20-Nov-2025 16:34:22 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[21-Nov-2025 14:05:17 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[22-Nov-2025 03:05:53 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[22-Nov-2025 14:04:12 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[22-Nov-2025 14:34:14 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[22-Nov-2025 22:46:13 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[23-Nov-2025 16:22:15 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[24-Nov-2025 04:37:20 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[24-Nov-2025 20:55:00 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[25-Nov-2025 02:34:39 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[26-Nov-2025 12:20:08 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[26-Nov-2025 23:50:21 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[27-Nov-2025 01:45:46 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[27-Nov-2025 13:03:58 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[28-Nov-2025 00:14:31 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[28-Nov-2025 21:23:00 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[28-Nov-2025 23:54:31 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[29-Nov-2025 04:46:04 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[29-Nov-2025 22:26:16 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[30-Nov-2025 17:45:18 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[01-Dec-2025 01:27:09 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[01-Dec-2025 01:27:15 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[01-Dec-2025 01:27:21 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[01-Dec-2025 02:36:01 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[02-Dec-2025 07:05:33 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[02-Dec-2025 12:55:08 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[03-Dec-2025 05:35:33 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[03-Dec-2025 05:44:13 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[04-Dec-2025 07:16:03 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[04-Dec-2025 13:22:55 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[05-Dec-2025 03:58:12 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[06-Dec-2025 07:27:56 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[06-Dec-2025 07:28:15 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[07-Dec-2025 04:27:19 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[07-Dec-2025 14:34:22 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[08-Dec-2025 05:55:27 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[09-Dec-2025 02:08:29 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[10-Dec-2025 02:17:36 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[11-Dec-2025 00:39:00 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[12-Dec-2025 06:06:12 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[12-Dec-2025 09:05:03 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[12-Dec-2025 23:03:05 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[13-Dec-2025 21:45:13 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[15-Dec-2025 11:25:32 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[15-Dec-2025 22:13:15 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[16-Dec-2025 11:13:54 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[16-Dec-2025 16:50:15 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[17-Dec-2025 17:43:08 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[17-Dec-2025 19:22:46 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[19-Dec-2025 02:54:32 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[19-Dec-2025 18:13:48 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[20-Dec-2025 09:35:30 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[21-Dec-2025 04:24:48 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[21-Dec-2025 20:23:41 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[21-Dec-2025 21:53:50 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[23-Dec-2025 08:23:46 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[23-Dec-2025 19:13:34 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[23-Dec-2025 20:43:42 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[23-Dec-2025 20:43:42 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Migration_Command.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Migration_Command.php on line 22
+[23-Dec-2025 20:43:44 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[23-Dec-2025 20:43:44 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[23-Dec-2025 20:43:45 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[23-Dec-2025 21:56:18 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[25-Dec-2025 14:04:32 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[25-Dec-2025 19:52:42 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[25-Dec-2025 22:04:17 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[27-Dec-2025 06:53:33 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[28-Dec-2025 02:06:04 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[28-Dec-2025 03:37:39 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[29-Dec-2025 10:46:18 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[29-Dec-2025 17:56:44 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[29-Dec-2025 19:53:21 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[31-Dec-2025 04:24:42 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[31-Dec-2025 15:28:13 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[31-Dec-2025 15:28:17 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[31-Dec-2025 15:28:19 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[31-Dec-2025 15:28:21 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[31-Dec-2025 15:28:23 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Migration_Command.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Migration_Command.php on line 22
+[31-Dec-2025 18:33:42 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[31-Dec-2025 18:33:42 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[31-Dec-2025 18:34:14 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[31-Dec-2025 18:39:15 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[31-Dec-2025 18:39:15 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[31-Dec-2025 18:40:22 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[31-Dec-2025 18:45:21 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[31-Dec-2025 18:45:22 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[31-Dec-2025 18:46:01 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[31-Dec-2025 18:57:00 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[31-Dec-2025 18:57:01 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[31-Dec-2025 18:57:39 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[31-Dec-2025 21:05:00 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[31-Dec-2025 22:13:54 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[01-Jan-2026 23:22:55 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[02-Jan-2026 20:44:38 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[02-Jan-2026 23:03:06 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[03-Jan-2026 17:01:15 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[03-Jan-2026 17:02:18 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php on line 10
+[03-Jan-2026 17:02:21 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[03-Jan-2026 17:02:24 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Migration_Command.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Migration_Command.php on line 22
+[06-Jan-2026 03:47:13 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[07-Jan-2026 18:27:08 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[08-Jan-2026 05:16:53 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[23-Jan-2026 14:15:31 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[25-Jan-2026 15:45:14 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[26-Jan-2026 08:06:08 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[26-Jan-2026 18:06:53 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[28-Jan-2026 12:55:07 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[28-Jan-2026 21:16:28 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[30-Jan-2026 07:34:49 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[30-Jan-2026 13:19:25 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[31-Jan-2026 13:39:43 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[01-Feb-2026 07:07:21 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[02-Feb-2026 22:13:14 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[02-Feb-2026 22:18:15 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[04-Feb-2026 07:05:46 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8
+[04-Feb-2026 17:49:50 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php on line 6
+[05-Feb-2026 06:43:04 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php on line 6
+[05-Feb-2026 22:46:16 UTC] PHP Fatal error:  Uncaught Error: Class "WP_CLI_Command" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/WP_CLI/Action_Command.php on line 8

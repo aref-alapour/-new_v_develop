@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: light --default;
+}
+@source "../../src/**/*.php";
+
+@theme {
+  --color-primary: #0073aa;
+  --color-primary-focus: #005a87;
+  --color-secondary: #f0f0f1;
+  --color-secondary-focus: #dcdcde;
+  --color-accent: #2271b1;
+  --color-accent-focus: #135e96;
+  --color-neutral: #f6f7f7;
+  --color-base-100: #ffffff;
+  --color-error: #d63638;
+}
+
+/*
+ * WordPress core (common.css): html, body { height: 100% } — با صفحات بلند، پس‌زمینهٔ body به انتهای اسکرول نمی‌رسد.
+ * حداقل ارتفاع تمام viewport، بدون قفل کردن ارتفاع به 100vh.
+ */
+html,
+body {
+  height: auto;
+  min-height: 100%;
+}
+
+#wpbody-content  table.fixed {
+  table-layout: fixed;
+  position: unset !important;
+}
+

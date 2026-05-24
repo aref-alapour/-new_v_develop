@@ -1,0 +1,12 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "escapezoom/ez-accordion-item",
+  "title": "EZ Accordion Item",
+  "category": "escapezoom",
+  "icon": "minus",
+  "description": "Single accordion item (Stencil: ez-accordion-item).",
+  "parent": ["escapezoom/ez-accordion"],
+  "supports": { "html": false },
+  "textdomain": "escapezoom-core"
+}

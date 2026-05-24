@@ -1,0 +1,14 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "escapezoom/ez-breadcrumb",
+  "title": "EZ Breadcrumb",
+  "category": "escapezoom",
+  "icon": "arrow-right-alt2",
+  "description": "Breadcrumb navigation (Stencil: ez-breadcrumb). Pass items as JSON.",
+  "attributes": {
+    "items": { "type": "string", "default": "[]" }
+  },
+  "supports": { "html": false },
+  "textdomain": "escapezoom-core"
+}

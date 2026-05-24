@@ -1,0 +1,28 @@
+[2026-05-23 09:59:44] zp_cron try: 822615
+[2026-05-23 09:59:44] zp_cron done: 822615 => {"ok":false,"code":"bad_status","message":"cancelled"}
+[2026-05-23 09:59:44] zp_cron try: 821757
+[2026-05-23 09:59:44] zp_cron done: 821757 => {"ok":false,"code":"bad_status","message":"admin-cancelled"}
+[2026-05-23 09:59:44] zp_cron try: 821292
+[2026-05-23 09:59:44] zp_cron done: 821292 => {"ok":false,"code":"bad_status","message":"admin-cancelled"}
+[2026-05-23 09:59:44] zp_cron try: 821283
+[2026-05-23 09:59:44] zp_cron done: 821283 => {"ok":false,"code":"bad_status","message":"cancelled"}
+[2026-05-23 09:59:44] zp_cron try: 820685
+[2026-05-23 09:59:44] zp_cron done: 820685 => {"ok":false,"code":"bad_status","message":"admin-cancelled"}
+[2026-05-23 09:59:44] zp_cron try: 820655
+[2026-05-23 09:59:44] zp_cron done: 820655 => {"ok":false,"code":"bad_status","message":"admin-cancelled"}
+[2026-05-23 09:59:44] zp_cron try: 820647
+[2026-05-23 09:59:44] zp_cron done: 820647 => {"ok":false,"code":"bad_status","message":"admin-cancelled"}
+[2026-05-23 09:59:44] zp_cron try: 820615
+[2026-05-23 09:59:44] zp_cron done: 820615 => {"ok":false,"code":"bad_status","message":"admin-cancelled"}
+[2026-05-23 09:59:44] zp_cron try: 820594
+[2026-05-23 09:59:44] zp_cron done: 820594 => {"ok":false,"code":"bad_status","message":"admin-cancelled"}
+[2026-05-23 09:59:44] zp_cron try: 820524
+[2026-05-23 09:59:44] zp_cron done: 820524 => {"ok":false,"code":"bad_status","message":"admin-cancelled"}
+[2026-05-23 09:59:44] zp_cron try: 820519
+[2026-05-23 09:59:44] zp_cron done: 820519 => {"ok":false,"code":"bad_status","message":"admin-cancelled"}
+[2026-05-23 12:03:16] ez_zp_verify[822730]: inquiry not paid -> {"status":"IN_BANK","code":100,"message":"Success"}
+[2026-05-23 12:03:17] ez_zp_verify[822730]: inquiry not paid -> {"status":"IN_BANK","code":100,"message":"Success"}
+[2026-05-23 12:03:19] ez_zp_verify[822730]: inquiry not paid -> {"status":"IN_BANK","code":100,"message":"Success"}
+[2026-05-23 12:03:24] ez_zp_verify[822730]: inquiry not paid -> {"status":"IN_BANK","code":100,"message":"Success"}
+[2026-05-23 14:29:16] ez_zp_verify[822802]: inquiry not paid -> {"status":"IN_BANK","code":100,"message":"Success"}
+[2026-05-23 15:40:50] ez_zp_verify[822851]: inquiry not paid -> {"status":"IN_BANK","code":100,"message":"Success"}

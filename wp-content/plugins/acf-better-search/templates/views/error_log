@@ -1,0 +1,16 @@
+[31-Dec-2025 15:17:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_url() in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/templates/views/settings.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/templates/views/settings.php on line 19
+[02-Jan-2026 10:03:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_url() in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/templates/views/settings.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/templates/views/settings.php on line 19
+[03-Jan-2026 16:43:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_url() in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/templates/views/settings.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/templates/views/settings.php on line 19
+[28-Jan-2026 14:48:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_url() in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/templates/views/settings.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/templates/views/settings.php on line 19

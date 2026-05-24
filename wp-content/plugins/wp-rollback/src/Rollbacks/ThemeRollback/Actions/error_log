@@ -1,0 +1,8 @@
+[31-Dec-2025 15:37:50 UTC] PHP Fatal error:  Uncaught Error: Class "WpRollback\SharedCore\Rollbacks\ThemeRollback\Actions\AddMultisiteThemeRollbackLinks" not found in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/src/Rollbacks/ThemeRollback/Actions/AddMultisiteThemeRollbackLinks.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/src/Rollbacks/ThemeRollback/Actions/AddMultisiteThemeRollbackLinks.php on line 26
+[03-Jan-2026 17:13:05 UTC] PHP Fatal error:  Uncaught Error: Class "WpRollback\SharedCore\Rollbacks\ThemeRollback\Actions\AddMultisiteThemeRollbackLinks" not found in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/src/Rollbacks/ThemeRollback/Actions/AddMultisiteThemeRollbackLinks.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/src/Rollbacks/ThemeRollback/Actions/AddMultisiteThemeRollbackLinks.php on line 26

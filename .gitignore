@@ -1,0 +1,39 @@
+# --- پشتیبان دیتابیس ---
+/db_backups/
+
+# --- هسته وردپرس ---
+/wp-admin/
+/wp-includes/
+/.htaccess
+
+# فایل‌های استاندارد روت وردپرس (فایل‌های سفارشی پروژه نادیده گرفته نمی‌شوند)
+/index.php
+/license.txt
+/readme.html
+/wp-activate.php
+/wp-blog-header.php
+/wp-comments-post.php
+/wp-config-sample.php
+/wp-cron.php
+/wp-links-opml.php
+/wp-load.php
+/wp-login.php
+/wp-mail.php
+/wp-settings.php
+/wp-signup.php
+/wp-trackback.php
+/xmlrpc.php
+
+# تنظیمات محلی (در صورت وجود؛ از نمونه docker استفاده کنید)
+/wp-config.php
+
+# --- wp-content (فقط موارد درخواستی) ---
+/wp-content/languages/
+/wp-content/uploads/
+/wp-content/themes/escapezoom-v2/HTML/public/assets/videos/
+
+# --- وابستگی‌های Node ---
+**/node_modules/
+
+# --- vendor داخل mu-plugins (Composer) ---
+**/mu-plugins*/**/vendor/

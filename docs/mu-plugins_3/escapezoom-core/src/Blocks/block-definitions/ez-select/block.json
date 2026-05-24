@@ -1,0 +1,16 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "escapezoom/ez-select",
+  "title": "EZ Select",
+  "category": "escapezoom",
+  "icon": "arrow-down-alt2",
+  "description": "Select dropdown (Stencil: ez-select).",
+  "attributes": {
+    "label": { "type": "string", "default": "" },
+    "placeholder": { "type": "string", "default": "" },
+    "options": { "type": "string", "default": "[]" }
+  },
+  "supports": { "html": false },
+  "textdomain": "escapezoom-core"
+}

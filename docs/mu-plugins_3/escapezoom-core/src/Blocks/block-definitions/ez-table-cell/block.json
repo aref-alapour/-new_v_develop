@@ -1,0 +1,12 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "escapezoom/ez-table-cell",
+  "title": "EZ Table Cell",
+  "category": "escapezoom",
+  "icon": "editor-alignleft",
+  "description": "Table cell (Stencil: ez-table-cell).",
+  "parent": ["escapezoom/ez-table", "escapezoom/ez-table-row"],
+  "supports": { "html": false },
+  "textdomain": "escapezoom-core"
+}

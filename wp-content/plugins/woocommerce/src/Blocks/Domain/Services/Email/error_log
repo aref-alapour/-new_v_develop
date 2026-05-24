@@ -1,0 +1,260 @@
+[04-Aug-2025 11:35:07 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[08-Aug-2025 00:57:11 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[09-Aug-2025 21:33:26 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[11-Aug-2025 20:56:02 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[14-Aug-2025 18:33:24 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[27-Aug-2025 13:44:52 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[29-Aug-2025 12:14:22 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[30-Aug-2025 22:07:37 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[01-Sep-2025 19:08:30 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[03-Sep-2025 10:17:42 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[03-Sep-2025 10:17:46 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[03-Sep-2025 10:17:51 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[04-Sep-2025 13:14:28 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[06-Sep-2025 10:55:00 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[07-Sep-2025 22:15:04 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[12-Sep-2025 12:39:29 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[15-Sep-2025 09:32:44 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[16-Sep-2025 18:14:53 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[19-Sep-2025 01:44:43 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[21-Sep-2025 11:55:28 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[23-Sep-2025 02:56:16 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[24-Sep-2025 21:45:03 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[27-Sep-2025 15:05:42 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[29-Sep-2025 02:15:37 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[03-Oct-2025 06:53:23 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[05-Oct-2025 11:24:28 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[07-Oct-2025 13:04:10 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[09-Oct-2025 11:24:03 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[11-Oct-2025 02:05:48 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[12-Oct-2025 14:44:24 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[16-Oct-2025 09:24:08 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[17-Oct-2025 19:13:45 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[21-Oct-2025 13:39:00 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[23-Oct-2025 15:04:59 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[24-Oct-2025 14:35:57 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[25-Oct-2025 20:33:28 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[28-Oct-2025 03:22:53 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[31-Oct-2025 08:14:17 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[01-Nov-2025 20:25:18 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[04-Nov-2025 11:53:38 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[06-Nov-2025 00:33:58 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[09-Nov-2025 13:40:19 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[15-Nov-2025 08:25:31 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[17-Nov-2025 23:54:02 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[20-Nov-2025 09:01:12 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[20-Nov-2025 09:01:41 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[20-Nov-2025 10:02:50 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[21-Nov-2025 21:25:38 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[23-Nov-2025 23:15:58 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[25-Nov-2025 18:14:30 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[28-Nov-2025 03:14:20 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[29-Nov-2025 17:54:07 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[02-Dec-2025 08:55:53 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[03-Dec-2025 16:54:25 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[06-Dec-2025 05:48:48 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[08-Dec-2025 02:25:39 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[10-Dec-2025 01:57:54 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[12-Dec-2025 01:55:47 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[14-Dec-2025 04:54:36 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[17-Dec-2025 13:43:10 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[18-Dec-2025 20:05:36 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[21-Dec-2025 15:05:04 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[23-Dec-2025 20:02:37 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[31-Dec-2025 15:43:19 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16
+[03-Jan-2026 17:15:50 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Email" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Domain/Services/Email/CustomerNewAccount.php on line 16

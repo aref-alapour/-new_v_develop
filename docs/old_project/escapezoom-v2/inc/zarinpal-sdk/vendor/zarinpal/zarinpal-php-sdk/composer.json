@@ -1,0 +1,53 @@
+{
+  "name": "zarinpal/zarinpal-php-sdk",
+  "description": "Zarinpal Php Sdk",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "ZarinPal\\Sdk\\": "src/"
+    }
+    
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Masoud Amini",
+      "email": "m.amini@zarinpal.com"
+    },
+    {
+      "name": "Hooman Naghiee",
+      "email": "h.naghiee@zarinpal.com"
+    },
+    {
+      "name": "Armin Zahedi",
+      "email": "arminzahedi1999@zarinpal.com"
+    }
+    
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.4",
+    "psr/http-factory": "^1.0",
+    "psr/http-client": "^1.0",
+    "php-http/client-common": "^2.5",
+    "php-http/discovery": "^1.14",
+    "ext-json": "*",
+    "ext-curl": "*",
+    "php-http/curl-client": "^2.2"
+  },
+  "require-dev": {
+    "laminas/laminas-diactoros": "^3.0",
+    "phpunit/phpunit": "^10",
+    "php-http/mock-client": "^1.5"
+  },
+  "config": {
+    "allow-plugins": {
+      "php-http/discovery": true
+    }
+  }
+}

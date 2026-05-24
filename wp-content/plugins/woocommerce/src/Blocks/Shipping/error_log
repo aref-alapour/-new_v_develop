@@ -1,0 +1,324 @@
+[29-Apr-2025 19:10:23 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[21-Jul-2025 01:14:01 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[21-Jul-2025 14:35:44 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[21-Jul-2025 14:35:50 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[21-Jul-2025 14:35:55 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[23-Jul-2025 04:13:05 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[23-Jul-2025 04:13:10 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[23-Jul-2025 04:13:16 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[31-Jul-2025 19:44:20 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[27-Aug-2025 12:15:15 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[29-Aug-2025 11:26:22 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[31-Aug-2025 00:37:27 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[02-Sep-2025 06:28:16 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[02-Sep-2025 17:48:37 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[02-Sep-2025 17:48:41 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[02-Sep-2025 17:48:44 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[03-Sep-2025 17:45:55 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[08-Sep-2025 10:04:35 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[09-Sep-2025 16:27:26 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[11-Sep-2025 20:57:47 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[13-Sep-2025 18:06:02 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[15-Sep-2025 11:54:13 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[16-Sep-2025 23:35:02 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[21-Sep-2025 09:34:12 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[23-Sep-2025 04:03:41 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[24-Sep-2025 16:06:09 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[27-Sep-2025 16:43:42 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[03-Oct-2025 10:25:02 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[07-Oct-2025 00:04:20 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[08-Oct-2025 13:06:07 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[09-Oct-2025 21:44:45 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[12-Oct-2025 05:54:21 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[14-Oct-2025 05:35:15 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[16-Oct-2025 09:54:29 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[18-Oct-2025 14:04:35 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[20-Oct-2025 10:04:24 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[22-Oct-2025 10:24:14 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[26-Oct-2025 15:05:39 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[29-Oct-2025 12:14:08 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[30-Oct-2025 16:23:57 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[02-Nov-2025 04:52:17 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[04-Nov-2025 00:42:48 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[05-Nov-2025 18:43:13 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[09-Nov-2025 06:24:54 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[12-Nov-2025 00:25:51 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[14-Nov-2025 10:14:50 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[16-Nov-2025 11:04:05 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[18-Nov-2025 00:20:20 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[19-Nov-2025 19:44:02 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[20-Nov-2025 08:00:08 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[20-Nov-2025 08:00:09 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[21-Nov-2025 21:24:29 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[24-Nov-2025 00:56:43 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[25-Nov-2025 23:45:07 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[27-Nov-2025 21:55:13 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[29-Nov-2025 12:24:58 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[01-Dec-2025 01:50:11 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[03-Dec-2025 08:06:11 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[05-Dec-2025 19:19:57 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[08-Dec-2025 03:05:23 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[09-Dec-2025 17:32:56 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[12-Dec-2025 02:55:08 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[16-Dec-2025 09:44:25 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[17-Dec-2025 23:23:51 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[21-Dec-2025 23:14:24 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[23-Dec-2025 20:02:08 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[24-Dec-2025 01:25:33 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[26-Dec-2025 01:56:39 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[28-Dec-2025 09:54:39 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[30-Dec-2025 00:08:42 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[31-Dec-2025 15:21:44 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[01-Jan-2026 02:34:46 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[03-Jan-2026 02:54:29 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[03-Jan-2026 16:49:03 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[06-Jan-2026 04:19:29 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[07-Jan-2026 17:34:39 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[26-Jan-2026 07:57:25 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[28-Jan-2026 07:23:59 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[30-Jan-2026 10:08:00 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[03-Feb-2026 04:14:34 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9
+[05-Feb-2026 06:19:37 UTC] PHP Fatal error:  Uncaught Error: Class "WC_Shipping_Method" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Shipping/PickupLocation.php on line 9

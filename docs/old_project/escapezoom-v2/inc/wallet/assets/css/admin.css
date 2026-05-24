@@ -1,0 +1,279 @@
+#tav_wallet_table {
+    border-collapse: collapse;
+    width: 100%;
+}
+#tav_wallet_table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+#tav_wallet_table th, #tav_wallet_table td {
+    text-align: center;
+    padding: 8px;
+}
+#tav_wallet_table {
+    border-collapse: collapse;
+    width: 100%;
+}
+#tav_wallet_table td, #tav_wallet_table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 14px;
+}
+#tav_wallet_table tr:nth-child(even){background-color: #ffffff;}
+#tav_wallet_table tr:hover {background-color: #ddd;}
+#tav_wallet_table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #4CAF50;
+    color: white;
+}
+#tav_wallet_table tr {
+    background-color: #ebebeb;
+}
+.tav-digit-p {
+    width: 20px;
+    height: 20px;
+    background: green;
+    color: #fff;
+    display: inline-block;
+    border-radius: 50%;
+}
+.tav-digit-n {
+    width: 20px;
+    height: 20px;
+    background: #d10000;
+    color: #fff;
+    display: inline-block;
+    border-radius: 50%;
+}
+#tav_wallet_admin_main_search {
+    display: flex;
+    width: 600px;
+    height: 60px;
+    font-size: 29px;
+    text-align: left;
+    direction: ltr;
+}
+#tav_wallet_admin_main_search:hover {
+    box-shadow:0 0 4px rgba(0,0,0,0.5);
+}
+#tav_wallet_admin_main_search::placeholder{
+    text-align: right !important;
+    direction: rtl !important;
+    font-size: 20px;
+}
+#tav_wallet_admin_main_search_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 20px;
+    margin-bottom: 50px;
+}
+#tav_wallet_admin_main_transaction_table_wrapper {
+    width: calc( 100% - 20px );
+}
+#tav_wallet_admin_main_search_res_wrapper {
+    display: none;
+    position: absolute;
+    background: #fff;
+    top: 60px;
+    width: 600px;
+    box-sizing: border-box;
+    border: 1px solid #c6c6c6;
+    border-radius: 5px;
+    box-shadow: 0 12px 27px 0 rgb(0 0 0 / 6%);
+    max-height: 200px;
+    overflow: auto;
+}
+.tav-search-res {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    color: #555;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.tav-search-res:hover {
+    background-color: #d7ccff;
+    transition: 0.3s;
+}
+.tav-search-res:last-child {
+    border: none;
+}
+/*spinner*/
+.html-spinner{
+    width: 30px;
+    height: 30px;
+    border: 4px solid #ff0000;
+    border-top:4px solid transparent;
+    border-radius:50%;
+}
+.html-spinner, #svg-spinner{
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1.2s;
+    -webkit-animation-name: rotate;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-transition-property: -moz-transform;
+    -moz-animation-name: rotate;
+    -moz-animation-duration: 1.2s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    transition-property: transform;
+    animation-name: rotate;
+    animation-duration: 0.6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@-webkit-keyframes rotate {
+    from {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes rotate {
+    from {-moz-transform: rotate(0deg);}
+    to {-moz-transform: rotate(360deg);}
+}
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
+/* spinner positioning */
+.html-spinner, #svg-spinner{
+    position:absolute;
+    top: 3px;
+    margin-left: -24px;
+}
+.html-spinner{
+    right: -40px;
+}
+#svg-spinner{
+    left:75%;
+}
+#html-para, #svg-para{
+    position:absolute;
+    top:100px;
+    width:40%;
+    padding:5%;
+    text-align:center;
+}
+#svg-para{
+    left:50%;
+}
+#tav_wallet_admin_main_search_spinner {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: none;
+}
+#tav_wallet_admin_main_search_text_wrapper {
+    position: relative;
+}
+#tav_search_empty_res{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    color: red;
+}
+#tav_wallet_admin_user_page_details_wrapper {
+    background: #fff;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    width: calc( 100% - 20px );
+    border-radius: 8px;
+    -webkit-box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    font-size: 13px;
+}
+#tav_wallet_admin_user_page_transactions_table_wrapper {
+    width: calc( 100% - 20px );
+}
+#tav_wallet_admin_user_page_add_charge_wrapper {
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    width: calc( 100% - 20px );
+    border-radius: 8px;
+    -webkit-box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+}
+#tav_wallet_add_charge {
+    width: 100px;
+    text-align: left;
+    direction: ltr;
+}
+#tav_wallet_admin_user_page_add_charge_wrapper form {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+}
+#tav_wallet_admin_user_page_add_charge_wrapper .tav-form-group {
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#tav_wallet_add_charge_desc {
+    height: 75px;
+    width: 280px;
+}
+#tav_wallet_admin_user_page_add_charge_wrapper .tav-form-group label {
+    margin-left: 10px;
+}
+#tav_wallet_admin_user_page_add_charge_wrapper #submit {
+    width: 80px;
+    height: 40px;
+}
+#tav_wallet_admin_user_page_add_charge_wrapper .submit {
+    margin-left: 40px;
+    margin-right: auto;
+}
+.error-feedback {
+    display: block;
+    font-size: 85%;
+    color: red;
+    display: flex;
+    position: absolute;
+    top: 55px;
+}
+.tav-error-field {
+    border-width: 2px !important;
+    border-color: red !important;
+    background: #ffd7d7;
+}
+.tav-star-required{
+    color: red;
+    font-size: 14px;
+}
+.tav-admin-box {
+    background: #fff;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    width: calc( 100% - 20px );
+    border-radius: 8px;
+    -webkit-box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    font-size: 13px;
+}
+.ltr{
+    text-align: left;
+    direction: ltr;
+}
+.tav-admin-box input {
+    width: 250px;
+}
+
+
+

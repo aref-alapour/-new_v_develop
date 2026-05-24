@@ -1,0 +1,56 @@
+[19-Nov-2025 13:33:44 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/includes/class-wc-zarinpal-gateway-blocks-support.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/includes/class-wc-zarinpal-gateway-blocks-support.php on line 4
+[19-Nov-2025 13:34:44 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/includes/class-wc-zarinpal-gateway-blocks-support.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/includes/class-wc-zarinpal-gateway-blocks-support.php on line 4
+[24-Nov-2025 20:43:18 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/includes/class-wc-zarinpal-gateway-blocks-support.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/includes/class-wc-zarinpal-gateway-blocks-support.php on line 4
+[25-Nov-2025 14:31:01 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/includes/class-wc-zarinpal-gateway-blocks-support.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/includes/class-wc-zarinpal-gateway-blocks-support.php on line 4
+[17-Dec-2025 07:11:09 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/includes/class-wc-zarinpal-gateway-blocks-support.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/includes/class-wc-zarinpal-gateway-blocks-support.php on line 4
+[17-Dec-2025 21:13:29 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/includes/class-wc-zarinpal-gateway-blocks-support.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/includes/class-wc-zarinpal-gateway-blocks-support.php on line 4
+[23-Dec-2025 20:48:47 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/includes/class-wc-zarinpal-gateway-blocks-support.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/includes/class-wc-zarinpal-gateway-blocks-support.php on line 4
+[30-Dec-2025 17:34:40 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/includes/class-wc-zarinpal-gateway-blocks-support.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/includes/class-wc-zarinpal-gateway-blocks-support.php on line 4
+[30-Dec-2025 17:34:40 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/includes/class-wc-zarinpal-gateway-blocks-support.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/includes/class-wc-zarinpal-gateway-blocks-support.php on line 4
+[30-Dec-2025 17:35:01 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/includes/class-wc-zarinpal-gateway-blocks-support.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/includes/class-wc-zarinpal-gateway-blocks-support.php on line 4
+[31-Dec-2025 15:05:52 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/includes/class-wc-zarinpal-gateway-blocks-support.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/includes/class-wc-zarinpal-gateway-blocks-support.php on line 4
+[02-Jan-2026 09:58:06 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/includes/class-wc-zarinpal-gateway-blocks-support.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/includes/class-wc-zarinpal-gateway-blocks-support.php on line 4
+[03-Jan-2026 16:32:15 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/includes/class-wc-zarinpal-gateway-blocks-support.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/includes/class-wc-zarinpal-gateway-blocks-support.php on line 4
+[28-Jan-2026 14:56:18 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/includes/class-wc-zarinpal-gateway-blocks-support.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/includes/class-wc-zarinpal-gateway-blocks-support.php on line 4

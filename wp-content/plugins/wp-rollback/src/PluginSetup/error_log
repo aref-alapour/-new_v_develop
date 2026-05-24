@@ -1,0 +1,16 @@
+[31-Dec-2025 15:18:41 UTC] PHP Fatal error:  Uncaught Error: Class "WpRollback\SharedCore\PluginSetup\PluginSetup" not found in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/src/PluginSetup/PluginSetup.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/src/PluginSetup/PluginSetup.php on line 30
+[02-Jan-2026 10:14:25 UTC] PHP Fatal error:  Uncaught Error: Class "WpRollback\SharedCore\PluginSetup\PluginSetup" not found in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/src/PluginSetup/PluginSetup.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/src/PluginSetup/PluginSetup.php on line 30
+[03-Jan-2026 16:45:47 UTC] PHP Fatal error:  Uncaught Error: Class "WpRollback\SharedCore\PluginSetup\PluginSetup" not found in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/src/PluginSetup/PluginSetup.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/src/PluginSetup/PluginSetup.php on line 30
+[28-Jan-2026 14:56:03 UTC] PHP Fatal error:  Uncaught Error: Class "WpRollback\SharedCore\PluginSetup\PluginSetup" not found in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/src/PluginSetup/PluginSetup.php:30
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/src/PluginSetup/PluginSetup.php on line 30

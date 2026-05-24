@@ -1,0 +1,15 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "escapezoom/ez-collection-card",
+  "title": "EZ Collection Card",
+  "category": "escapezoom",
+  "icon": "portfolio",
+  "description": "Collection card (Stencil: ez-collection-card).",
+  "attributes": {
+    "href": { "type": "string", "default": "" },
+    "title": { "type": "string", "default": "" }
+  },
+  "supports": { "html": false },
+  "textdomain": "escapezoom-core"
+}

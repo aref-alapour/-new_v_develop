@@ -1,0 +1,20 @@
+[31-Dec-2025 07:43:18 UTC] PHP Fatal error:  Uncaught Error: Interface "WpRollback\SharedCore\Core\Container\ContainerInterface" not found in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/wp-rollback/shared-core/src/Core/Container/Container.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/wp-rollback/shared-core/src/Core/Container/Container.php on line 22
+[31-Dec-2025 07:43:18 UTC] PHP Fatal error:  Uncaught Error: Interface "WpRollback\SharedCore\Core\Container\ContainerInterface" not found in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/wp-rollback/shared-core/src/Core/Container/Container.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/wp-rollback/shared-core/src/Core/Container/Container.php on line 22
+[31-Dec-2025 07:44:38 UTC] PHP Fatal error:  Uncaught Error: Interface "WpRollback\SharedCore\Core\Container\ContainerInterface" not found in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/wp-rollback/shared-core/src/Core/Container/Container.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/wp-rollback/shared-core/src/Core/Container/Container.php on line 22
+[31-Dec-2025 15:50:21 UTC] PHP Fatal error:  Uncaught Error: Interface "WpRollback\SharedCore\Core\Container\ContainerInterface" not found in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/wp-rollback/shared-core/src/Core/Container/Container.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/wp-rollback/shared-core/src/Core/Container/Container.php on line 22
+[03-Jan-2026 17:20:16 UTC] PHP Fatal error:  Uncaught Error: Interface "WpRollback\SharedCore\Core\Container\ContainerInterface" not found in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/wp-rollback/shared-core/src/Core/Container/Container.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/wp-rollback/shared-core/src/Core/Container/Container.php on line 22

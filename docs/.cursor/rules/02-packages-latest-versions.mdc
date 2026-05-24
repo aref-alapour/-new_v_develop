@@ -1,0 +1,10 @@
+---
+description: Use latest compatible package versions for Composer and npm/yarn; avoid outdated deps unless justified.
+alwaysApply: true
+---
+
+# Package versions
+
+- **Always use the latest compatible version** of every package. When installing or adding any dependency (Composer, npm, yarn, etc.), install the **newest compatible version**, not an outdated one.
+- **Before suggesting or adding a dependency,** check the latest stable/compatible version and use that, unless there is a documented reason (e.g. breaking change, known security issue, or compatibility requirement) to pin an older version.
+- This applies to **PHP (Composer)** and **JS/CSS (npm/yarn)** dependencies alike.

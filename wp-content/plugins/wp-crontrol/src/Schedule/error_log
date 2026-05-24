@@ -1,0 +1,116 @@
+[31-Dec-2025 03:10:24 UTC] PHP Fatal error:  Uncaught Error: Class "Crontrol\Schedule\Schedule" not found in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/CoreSchedule.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/CoreSchedule.php on line 11
+[31-Dec-2025 03:10:24 UTC] PHP Fatal error:  Uncaught Error: Class "Crontrol\Schedule\Schedule" not found in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/CoreSchedule.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/CoreSchedule.php on line 11
+[31-Dec-2025 03:10:52 UTC] PHP Fatal error:  Uncaught Error: Class "Crontrol\Schedule\Schedule" not found in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/CoreSchedule.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/CoreSchedule.php on line 11
+[31-Dec-2025 03:24:30 UTC] PHP Fatal error:  Uncaught Error: Class "Crontrol\Schedule\Schedule" not found in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/CrontrolSchedule.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/CrontrolSchedule.php on line 11
+[31-Dec-2025 03:24:32 UTC] PHP Fatal error:  Uncaught Error: Class "Crontrol\Schedule\Schedule" not found in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/CrontrolSchedule.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/CrontrolSchedule.php on line 11
+[31-Dec-2025 03:24:52 UTC] PHP Fatal error:  Uncaught Error: Class "Crontrol\Schedule\Schedule" not found in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/CrontrolSchedule.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/CrontrolSchedule.php on line 11
+[31-Dec-2025 04:37:22 UTC] PHP Fatal error:  Uncaught Error: Class "Crontrol\Schedule\Schedule" not found in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/ThirdPartySchedule.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/ThirdPartySchedule.php on line 11
+[31-Dec-2025 04:37:22 UTC] PHP Fatal error:  Uncaught Error: Class "Crontrol\Schedule\Schedule" not found in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/ThirdPartySchedule.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/ThirdPartySchedule.php on line 11
+[31-Dec-2025 04:37:55 UTC] PHP Fatal error:  Uncaught Error: Class "Crontrol\Schedule\Schedule" not found in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/ThirdPartySchedule.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/ThirdPartySchedule.php on line 11
+[31-Dec-2025 15:18:34 UTC] PHP Fatal error:  Uncaught Error: Class "Crontrol\Schedule\Schedule" not found in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/CoreSchedule.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/CoreSchedule.php on line 11
+[31-Dec-2025 15:18:35 UTC] PHP Fatal error:  Uncaught Error: Class "Crontrol\Schedule\Schedule" not found in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/CrontrolSchedule.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/CrontrolSchedule.php on line 11
+[31-Dec-2025 15:18:36 UTC] PHP Fatal error:  Uncaught Error: Class "Crontrol\Schedule\Schedule" not found in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/ThirdPartySchedule.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/ThirdPartySchedule.php on line 11
+[02-Jan-2026 10:03:26 UTC] PHP Fatal error:  Uncaught Error: Class "Crontrol\Schedule\Schedule" not found in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/CrontrolSchedule.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/CrontrolSchedule.php on line 11
+[02-Jan-2026 10:03:27 UTC] PHP Fatal error:  Uncaught Error: Class "Crontrol\Schedule\Schedule" not found in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/ThirdPartySchedule.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/ThirdPartySchedule.php on line 11
+[02-Jan-2026 10:03:28 UTC] PHP Fatal error:  Uncaught Error: Class "Crontrol\Schedule\Schedule" not found in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/CoreSchedule.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/CoreSchedule.php on line 11
+[03-Jan-2026 16:45:40 UTC] PHP Fatal error:  Uncaught Error: Class "Crontrol\Schedule\Schedule" not found in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/CoreSchedule.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/CoreSchedule.php on line 11
+[03-Jan-2026 16:45:40 UTC] PHP Fatal error:  Uncaught Error: Class "Crontrol\Schedule\Schedule" not found in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/CrontrolSchedule.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/CrontrolSchedule.php on line 11
+[03-Jan-2026 16:45:42 UTC] PHP Fatal error:  Uncaught Error: Class "Crontrol\Schedule\Schedule" not found in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/ThirdPartySchedule.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/ThirdPartySchedule.php on line 11
+[28-Jan-2026 14:49:35 UTC] PHP Fatal error:  Uncaught Error: Class "Crontrol\Schedule\Schedule" not found in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/ThirdPartySchedule.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/ThirdPartySchedule.php on line 11
+[28-Jan-2026 14:49:35 UTC] PHP Fatal error:  Uncaught Error: Class "Crontrol\Schedule\Schedule" not found in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/CoreSchedule.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/CoreSchedule.php on line 11
+[28-Jan-2026 14:49:36 UTC] PHP Fatal error:  Uncaught Error: Class "Crontrol\Schedule\Schedule" not found in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/CrontrolSchedule.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/CrontrolSchedule.php on line 11
+[30-Jan-2026 18:11:47 UTC] PHP Fatal error:  Uncaught Error: Class "Crontrol\Schedule\Schedule" not found in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/CrontrolSchedule.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/CrontrolSchedule.php on line 11
+[30-Jan-2026 18:11:51 UTC] PHP Fatal error:  Uncaught Error: Class "Crontrol\Schedule\Schedule" not found in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/CrontrolSchedule.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/CrontrolSchedule.php on line 11
+[30-Jan-2026 18:11:56 UTC] PHP Fatal error:  Uncaught Error: Class "Crontrol\Schedule\Schedule" not found in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/CrontrolSchedule.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/CrontrolSchedule.php on line 11
+[30-Jan-2026 19:35:26 UTC] PHP Fatal error:  Uncaught Error: Class "Crontrol\Schedule\Schedule" not found in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/CoreSchedule.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/CoreSchedule.php on line 11
+[30-Jan-2026 19:35:33 UTC] PHP Fatal error:  Uncaught Error: Class "Crontrol\Schedule\Schedule" not found in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/CoreSchedule.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/CoreSchedule.php on line 11
+[30-Jan-2026 19:35:37 UTC] PHP Fatal error:  Uncaught Error: Class "Crontrol\Schedule\Schedule" not found in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/CoreSchedule.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/CoreSchedule.php on line 11
+[30-Jan-2026 21:08:16 UTC] PHP Fatal error:  Uncaught Error: Class "Crontrol\Schedule\Schedule" not found in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/ThirdPartySchedule.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/ThirdPartySchedule.php on line 11
+[30-Jan-2026 21:08:24 UTC] PHP Fatal error:  Uncaught Error: Class "Crontrol\Schedule\Schedule" not found in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/ThirdPartySchedule.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/wp-crontrol/src/Schedule/ThirdPartySchedule.php on line 11

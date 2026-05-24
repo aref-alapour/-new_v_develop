@@ -1,0 +1,33 @@
+---
+description: "Performance Optimization: Solving 3 main WordPress bottlenecks (Options explosion, Meta-data overhead, and WP_Query sluggishness)."
+alwaysApply: true
+---
+
+# 🚀 Anti-Bottleneck Rules (High Performance)
+
+## 1. Zero Options Bloat
+
+- **Constraint:** NEVER store transactional or large dynamic data in `wp_options`.
+- **Solution:** Use dedicated `ez_*` tables for business settings and logs. Use Redis/Object Cache for frequent reads.
+
+## 2. Meta-Data Optimization (Flat Schema)
+
+- **Constraint:** Avoid filtering/sorting using `wp_postmeta`. It causes slow JOINs.
+- **Solution:** For every searchable attribute (Price, Location, Difficulty, Rating), create a dedicated column in the custom tables.
+- **Indexing:** Ensure all filtering columns in `ez_*` tables are properly indexed.
+
+## 3. Bypass WP_Query for Core Data
+
+- **Constraint:** Do not use `new WP_Query()` for fetching games, slots, or financial data in the frontend.
+- **Solution:** Use **Eloquent Models**. It's faster, cleaner, and skips unnecessary WP hooks.
+- **Selective Fetching:** Always define specific fields: `$query->select(['id', 'title', 'price'])`. NEVER fetch full objects if only two fields are needed.
+
+## 4. Object Caching (Redis/Memcached)
+
+- **Rule:** Wrap heavy calculations (like Brand Score or Top Sellers) in `wp_cache_get` and `wp_cache_set`.
+- **Invalidation:** Use Hooks to clear cache only when data actually changes.
+
+## 5. Frontend Resource Management
+
+- **Rule:** Total JS/CSS bundle size per page must not exceed 100KB (Gzipped).
+- **Strategy:** Only load what is visible (Lazy-load components via Stencil.js).

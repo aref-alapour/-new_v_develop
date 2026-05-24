@@ -1,0 +1,146 @@
+{
+  "name": "اسکیپ زوم - رزرو اتاق فرار و بازی های تفریحی",
+  "short_name": "اسکیپ زوم",
+  "description": "رزرو آنلاین اتاق فرار، لیزرتگ، سینمای ترسناک و بازی‌های تفریحی در تهران و سراسر ایران",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#fd7013",
+  "orientation": "portrait-primary",
+  "dir": "rtl",
+  "lang": "fa",
+  "icons": [
+    {
+      "src": "/wp-content/themes/escapezoom-v2/assets/images/pwa/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/wp-content/themes/escapezoom-v2/assets/images/pwa/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/wp-content/themes/escapezoom-v2/assets/images/pwa/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/wp-content/themes/escapezoom-v2/assets/images/pwa/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/wp-content/themes/escapezoom-v2/assets/images/pwa/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/wp-content/themes/escapezoom-v2/assets/images/pwa/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/wp-content/themes/escapezoom-v2/assets/images/pwa/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/wp-content/themes/escapezoom-v2/assets/images/pwa/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/wp-content/themes/escapezoom-v2/assets/images/pwa/icon-maskable-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/wp-content/themes/escapezoom-v2/assets/images/pwa/icon-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": [
+    "entertainment",
+    "lifestyle",
+    "games"
+  ],
+  "screenshots": [
+    {
+      "src": "/wp-content/themes/escapezoom-v2/assets/images/pwa/screenshot-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/wp-content/themes/escapezoom-v2/assets/images/pwa/screenshot-mobile.png",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "رزرو اتاق فرار",
+      "short_name": "رزرو",
+      "description": "رزرو سریع اتاق فرار",
+      "url": "/product-category/escape-room/",
+      "icons": [
+        {
+          "src": "/wp-content/themes/escapezoom-v2/assets/images/pwa/shortcut-reserve.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "تخفیف‌ها",
+      "short_name": "تخفیف",
+      "description": "مشاهده تخفیف‌های ویژه",
+      "url": "/discounts/",
+      "icons": [
+        {
+          "src": "/wp-content/themes/escapezoom-v2/assets/images/pwa/shortcut-discount.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "حساب کاربری",
+      "short_name": "پروفایل",
+      "description": "مشاهده پروفایل و سفارشات",
+      "url": "/my-account/",
+      "icons": [
+        {
+          "src": "/wp-content/themes/escapezoom-v2/assets/images/pwa/shortcut-profile.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "share_target": {
+    "action": "/",
+    "method": "GET",
+    "enctype": "application/x-www-form-urlencoded",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
+}
+

@@ -1,0 +1,4 @@
+businessId: 64e622c3-1423-4df3-b3a0-3313448edb6f
+password: ;3f1FuXi6z>t8d
+clientId: escapezoom-client-id
+clientSecret: jG198XtMvE%fc*b

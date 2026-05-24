@@ -1,0 +1,1 @@
+import{r as e,h as a,H as t}from"./p-DmLvSBBd.js";const s=class{constructor(a){e(this,a)}render(){return a(t,{key:"0a71afe51cdd17ea741f08327fcdf3640714f3d4",class:"table-cell px-6 py-4 align-middle text-sm text-navyBlue"},a("slot",{key:"721a0caeaa2c545d24ebfe45d658b7dcb1148bee"}))}};export{s as ez_table_cell}

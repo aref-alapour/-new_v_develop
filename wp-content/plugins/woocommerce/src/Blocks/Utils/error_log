@@ -1,0 +1,224 @@
+[29-Apr-2025 21:40:15 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[01-Aug-2025 18:13:12 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[04-Aug-2025 03:03:51 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[06-Aug-2025 14:44:01 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[07-Aug-2025 09:27:09 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[09-Aug-2025 00:23:58 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[11-Aug-2025 01:00:17 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[12-Aug-2025 21:54:13 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[15-Aug-2025 08:32:39 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[27-Aug-2025 09:54:22 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[28-Aug-2025 21:06:49 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[31-Aug-2025 02:50:08 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[01-Sep-2025 23:05:24 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[04-Sep-2025 00:49:25 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[06-Sep-2025 01:04:40 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[08-Sep-2025 01:05:38 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[09-Sep-2025 18:14:43 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[11-Sep-2025 16:44:47 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[14-Sep-2025 15:05:42 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[16-Sep-2025 16:08:34 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[18-Sep-2025 23:44:55 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[20-Sep-2025 20:06:10 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[22-Sep-2025 21:35:52 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[24-Sep-2025 18:35:42 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[27-Sep-2025 07:06:11 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[29-Sep-2025 18:05:35 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[04-Oct-2025 03:44:40 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[06-Oct-2025 17:45:10 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[11-Oct-2025 03:55:05 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[13-Oct-2025 02:00:07 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[15-Oct-2025 01:25:21 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[18-Oct-2025 18:12:48 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[23-Oct-2025 19:55:27 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[25-Oct-2025 21:45:53 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[28-Oct-2025 05:00:07 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[30-Oct-2025 00:14:15 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[01-Nov-2025 00:24:25 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[02-Nov-2025 21:23:48 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[05-Nov-2025 12:46:45 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[08-Nov-2025 07:58:15 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[10-Nov-2025 18:54:35 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[14-Nov-2025 02:25:07 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[15-Nov-2025 16:25:37 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[17-Nov-2025 15:44:26 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[20-Nov-2025 08:22:00 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[20-Nov-2025 08:22:59 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[20-Nov-2025 09:53:37 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[21-Nov-2025 22:44:40 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[24-Nov-2025 04:46:27 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[25-Nov-2025 22:04:55 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[27-Nov-2025 19:06:17 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[30-Nov-2025 08:36:08 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[01-Dec-2025 21:54:01 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[23-Dec-2025 20:01:08 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[31-Dec-2025 15:21:47 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14
+[03-Jan-2026 16:49:07 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Query" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Utils/BlocksWpQuery.php on line 14

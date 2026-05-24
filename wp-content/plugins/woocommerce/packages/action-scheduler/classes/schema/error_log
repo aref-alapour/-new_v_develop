@@ -1,0 +1,512 @@
+[30-Apr-2025 00:13:15 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[30-Apr-2025 00:14:38 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[01-Aug-2025 05:40:02 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[01-Aug-2025 06:46:11 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[25-Aug-2025 08:56:42 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[25-Aug-2025 16:34:30 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[27-Aug-2025 11:23:45 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[27-Aug-2025 23:03:06 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[29-Aug-2025 10:14:43 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[30-Aug-2025 08:02:55 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[31-Aug-2025 23:35:53 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[01-Sep-2025 21:00:17 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[03-Sep-2025 04:19:44 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[03-Sep-2025 18:54:35 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[05-Sep-2025 02:45:13 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[07-Sep-2025 02:16:19 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[07-Sep-2025 15:25:28 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[09-Sep-2025 01:30:10 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[09-Sep-2025 04:04:25 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[11-Sep-2025 04:56:46 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[11-Sep-2025 15:34:02 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[13-Sep-2025 00:35:17 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[13-Sep-2025 13:15:00 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[14-Sep-2025 17:43:37 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[17-Sep-2025 10:44:32 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[17-Sep-2025 13:34:33 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[18-Sep-2025 21:40:11 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[18-Sep-2025 22:15:03 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[20-Sep-2025 16:04:44 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[21-Sep-2025 13:24:49 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[22-Sep-2025 16:34:48 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[23-Sep-2025 03:42:47 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[24-Sep-2025 15:52:39 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[25-Sep-2025 14:15:20 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[26-Sep-2025 07:24:13 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[27-Sep-2025 09:23:53 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[27-Sep-2025 20:35:14 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[28-Sep-2025 16:15:15 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[29-Sep-2025 21:24:59 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[02-Oct-2025 06:53:06 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[02-Oct-2025 22:04:57 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[04-Oct-2025 00:34:02 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[04-Oct-2025 21:34:53 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[07-Oct-2025 12:45:14 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[08-Oct-2025 15:24:37 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[09-Oct-2025 11:14:51 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[10-Oct-2025 19:54:52 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[11-Oct-2025 01:15:06 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[13-Oct-2025 00:54:00 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[13-Oct-2025 06:15:50 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[15-Oct-2025 08:25:11 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[15-Oct-2025 09:54:19 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[16-Oct-2025 14:33:30 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[17-Oct-2025 04:44:10 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[17-Oct-2025 14:55:15 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[18-Oct-2025 18:43:11 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[21-Oct-2025 14:44:02 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[22-Oct-2025 19:22:43 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[23-Oct-2025 10:24:41 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[24-Oct-2025 11:24:20 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[24-Oct-2025 23:54:41 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[26-Oct-2025 05:54:58 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[27-Oct-2025 04:02:28 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[28-Oct-2025 12:54:23 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[31-Oct-2025 02:13:17 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[31-Oct-2025 12:23:42 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[01-Nov-2025 21:44:57 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[03-Nov-2025 13:13:24 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[03-Nov-2025 15:32:54 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[04-Nov-2025 14:13:34 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[04-Nov-2025 20:45:35 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[05-Nov-2025 13:34:38 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[08-Nov-2025 13:37:20 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[08-Nov-2025 15:12:59 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[10-Nov-2025 11:14:23 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[10-Nov-2025 20:26:09 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[11-Nov-2025 23:17:28 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[13-Nov-2025 13:59:43 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[14-Nov-2025 08:13:36 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[15-Nov-2025 03:33:33 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[16-Nov-2025 01:34:56 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[17-Nov-2025 04:23:24 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[17-Nov-2025 23:10:18 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[20-Nov-2025 06:54:20 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[20-Nov-2025 06:58:19 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[20-Nov-2025 06:58:49 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[20-Nov-2025 07:00:27 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[20-Nov-2025 07:01:39 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[21-Nov-2025 16:25:16 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[23-Nov-2025 19:37:03 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[24-Nov-2025 02:45:12 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[25-Nov-2025 10:35:52 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[25-Nov-2025 16:35:19 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[27-Nov-2025 00:36:29 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[29-Nov-2025 08:20:08 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[30-Nov-2025 05:15:00 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[30-Nov-2025 22:45:49 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[01-Dec-2025 23:05:05 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[03-Dec-2025 06:26:00 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[03-Dec-2025 14:25:00 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[05-Dec-2025 06:08:20 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[06-Dec-2025 16:54:46 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[08-Dec-2025 23:21:06 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[10-Dec-2025 17:14:45 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[15-Dec-2025 07:14:28 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[16-Dec-2025 16:04:15 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[19-Dec-2025 12:44:59 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[21-Dec-2025 11:14:02 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[23-Dec-2025 15:44:37 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[23-Dec-2025 20:43:32 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[23-Dec-2025 20:43:33 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[25-Dec-2025 10:33:47 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[27-Dec-2025 13:35:35 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[29-Dec-2025 11:25:44 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[31-Dec-2025 15:28:09 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[31-Dec-2025 15:28:10 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[31-Dec-2025 16:05:36 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[03-Jan-2026 09:25:34 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[03-Jan-2026 17:01:15 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php on line 10
+[05-Jan-2026 15:33:47 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[23-Jan-2026 15:19:23 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[24-Jan-2026 15:27:26 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[25-Jan-2026 16:18:11 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[29-Jan-2026 04:02:47 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[30-Jan-2026 14:04:11 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[01-Feb-2026 13:53:51 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[04-Feb-2026 04:05:02 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10
+[05-Feb-2026 21:30:23 UTC] PHP Fatal error:  Uncaught Error: Class "ActionScheduler_Abstract_Schema" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php on line 10

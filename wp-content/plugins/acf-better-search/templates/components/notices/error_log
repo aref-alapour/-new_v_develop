@@ -1,0 +1,24 @@
+[31-Dec-2025 15:25:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_html() in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/templates/components/notices/acf.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/templates/components/notices/acf.php on line 15
+[31-Dec-2025 15:25:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/templates/components/notices/converter-plugin.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/templates/components/notices/converter-plugin.php on line 15
+[31-Dec-2025 15:25:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/templates/components/notices/thanks.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/templates/components/notices/thanks.php on line 15
+[03-Jan-2026 16:54:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_html() in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/templates/components/notices/acf.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/templates/components/notices/acf.php on line 15
+[03-Jan-2026 16:54:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/templates/components/notices/converter-plugin.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/templates/components/notices/converter-plugin.php on line 15
+[03-Jan-2026 16:54:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function esc_attr() in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/templates/components/notices/thanks.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/acf-better-search/templates/components/notices/thanks.php on line 15

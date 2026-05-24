@@ -1,0 +1,49 @@
+-- wp_orders_satisfaction_history (single-row per order)
+-- Final agreed structure:
+-- id, order_id, game_id, old_status, new_status, source, details, created_at, updated_at
+
+-- 1) Create table (fresh installs)
+-- CREATE TABLE IF NOT EXISTS `wp_orders_satisfaction_history` (
+--   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+--   `order_id` bigint(20) unsigned NOT NULL,
+--   `game_id` bigint(20) unsigned DEFAULT NULL,
+--   `old_status` varchar(32) DEFAULT NULL,
+--   `new_status` varchar(32) NOT NULL,
+--   `source` varchar(64) NOT NULL,
+--   `details` longtext DEFAULT NULL,
+--   `created_at` datetime NOT NULL,
+--   `updated_at` datetime NOT NULL,
+--   PRIMARY KEY (`id`),
+--   UNIQUE KEY `uniq_order_id` (`order_id`),
+--   KEY `idx_game_status` (`game_id`, `new_status`),
+--   KEY `idx_source_updated` (`source`, `updated_at`),
+--   KEY `idx_updated_at` (`updated_at`)
+-- ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- 2) Upgrade existing table (safe sequence)
+-- ALTER TABLE `wp_orders_satisfaction_history`
+--   ADD COLUMN `details` longtext DEFAULT NULL AFTER `source`,
+--   ADD COLUMN `updated_at` datetime NULL AFTER `created_at`;
+--
+-- UPDATE `wp_orders_satisfaction_history`
+-- SET
+--   `created_at` = CASE
+--     WHEN `created_at` REGEXP '^[0-9]+$' THEN FROM_UNIXTIME(`created_at`)
+--     ELSE `created_at`
+--   END,
+--   `updated_at` = CASE
+--     WHEN `updated_at` IS NULL THEN
+--       CASE
+--         WHEN `created_at` REGEXP '^[0-9]+$' THEN FROM_UNIXTIME(`created_at`)
+--         ELSE `created_at`
+--       END
+--     ELSE `updated_at`
+--   END;
+--
+-- ALTER TABLE `wp_orders_satisfaction_history`
+--   MODIFY `created_at` datetime NOT NULL,
+--   MODIFY `updated_at` datetime NOT NULL,
+--   ADD UNIQUE KEY `uniq_order_id` (`order_id`),
+--   ADD KEY `idx_game_status` (`game_id`, `new_status`),
+--   ADD KEY `idx_source_updated` (`source`, `updated_at`),
+--   ADD KEY `idx_updated_at` (`updated_at`);

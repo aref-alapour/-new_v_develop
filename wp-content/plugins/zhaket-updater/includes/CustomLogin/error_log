@@ -1,0 +1,28 @@
+[31-Dec-2025 08:41:46 UTC] PHP Fatal error:  Uncaught Error: Class "ZhaketUpdater\HelpersClass\Modules" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomLogin/CustomLogin.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomLogin/CustomLogin.php on line 8
+[31-Dec-2025 08:41:46 UTC] PHP Fatal error:  Uncaught Error: Class "ZhaketUpdater\HelpersClass\Modules" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomLogin/CustomLogin.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomLogin/CustomLogin.php on line 8
+[31-Dec-2025 08:42:08 UTC] PHP Fatal error:  Uncaught Error: Class "ZhaketUpdater\HelpersClass\Modules" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomLogin/CustomLogin.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomLogin/CustomLogin.php on line 8
+[31-Dec-2025 15:19:15 UTC] PHP Fatal error:  Uncaught Error: Class "ZhaketUpdater\HelpersClass\Modules" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomLogin/CustomLogin.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomLogin/CustomLogin.php on line 8
+[02-Jan-2026 10:13:58 UTC] PHP Fatal error:  Uncaught Error: Class "ZhaketUpdater\HelpersClass\Modules" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomLogin/CustomLogin.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomLogin/CustomLogin.php on line 8
+[03-Jan-2026 16:46:28 UTC] PHP Fatal error:  Uncaught Error: Class "ZhaketUpdater\HelpersClass\Modules" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomLogin/CustomLogin.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomLogin/CustomLogin.php on line 8
+[28-Jan-2026 14:55:09 UTC] PHP Fatal error:  Uncaught Error: Class "ZhaketUpdater\HelpersClass\Modules" not found in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomLogin/CustomLogin.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/zhaket-updater/includes/CustomLogin/CustomLogin.php on line 8

@@ -1,0 +1,15 @@
+/*
+Theme Name: قالب اختصاصی EscapeZoom (نسخه ۳)
+Theme URI: http://afb.co.ir/wp-theme/escapezoom-theme
+Author: آرتین فناوران برخط — برنامه‌نویس ارشد: مهندس عارف علاپور
+Author URI: https://arefalapour.ir/
+Description: قالب اختصاصی فروشگاه و رزرو/تجربه برای اسکیپ‌زوم با معماری ماژولار و جداسازی لایهٔ دامنه و ارائه؛ یکپارچه با وردپرس و ووکامرس. معماری: دامنه و هوک‌ها در inc/، پارشیال‌ها در template/ و views/ و woocommerce/، آینهٔ سئو برای Stencil کنار همان کامپوننت، کامپوننت‌های Stencil (بدون shadow) در template/stencil/، دارایی‌ها در assets/ و خروجی باندل در dist/، استایل ادمین جدا. فرانت‌اند (package.json): Tailwind CSS 4.3 و DaisyUI 5.5 و Vite 8 و Stencil Core 4.43 و Alpine.js 3.15 و HTMX 2؛ GSAP، Chart.js، Embla Carousel، Flatpickr، Leaflet، QRCode، jalaali-js. بک‌اند: PHP 8.0+ (پیشنهاد production 8.2+)، WooCommerce، ؛ اتصال به MUهای ez_core و ez-ajax-gateway. تماس: arefalapour@gmail.com — https://arefalapour.ir/
+Version: 1.0.0
+Requires at least: 6.0
+Requires PHP: 8.0
+Tested up to: 6.7
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: escapezoom-v3
+Tags: e-commerce, custom-menu, featured-images, rtl-language-support, translation-ready, responsive-layout, accessibility-ready, blog, threaded-comments
+*/

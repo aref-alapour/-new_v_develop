@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Tara360 Gateway 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-19 00:00+0330\n"
+"PO-Revision-Date: 2025-07-19 00:00+0330\n"
+"Last-Translator: Tara Dev Team\n"
+"Language-Team: Tara Dev Team\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: ChatGPT POT Generator\n"
+
+msgid "درگاه پرداخت تارا برای ووکامرس."
+msgstr ""
+
+msgid "فعال/غیرفعال"
+msgstr ""
+
+msgid "فعال سازی درگاه پرداخت تارا"
+msgstr ""
+
+msgid "عنوان"
+msgstr ""
+
+msgid "توضیحات"
+msgstr ""
+
+msgid "نام کاربری تارا"
+msgstr ""
+
+msgid "رمز عبور تارا"
+msgstr ""
+
+msgid "کد درگاه تارا"
+msgstr ""
+
+msgid "پرداخت با موفقیت انجام شد"
+msgstr ""
+
+msgid "پرداخت شما با شناسه پرداخت {track_id} به صورت موفق انجام شد."
+msgstr ""
+
+msgid "پرداخت شما با شناسه پرداخت {track_id} ناموفق بود٬ لطفا مجددا تلاش نمایید و یا در صورتی که اشتباه شده است٬ با مدیریت سایت تماس بگیرید."
+msgstr ""
+
+msgid "تراکنش از سمت کاربر لغو شد"
+msgstr ""
+
+msgid "خطا در ورود مجدد به درگاه. لطفاً دوباره تلاش کنید."
+msgstr ""
+
+msgid "خطا در دریافت توکن پرداخت."
+msgstr ""
+
+msgid "خطا در احراز هویت درگاه تارا."
+msgstr ""
+
+msgid "شماره موبایل نا معتبر است، لطفا بررسی کنید. مثال شماره موبایل قابل قبول: 09121234567"
+msgstr ""
+
+msgid "وارد کردن شماره موبایل جهت پرداخت با اپلیکیشن تارا الزامی است."
+msgstr ""
+

@@ -1,0 +1,844 @@
+[29-Apr-2025 16:30:02 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[29-Apr-2025 21:44:47 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockContainerTrait.php on line 11
+[29-Apr-2025 21:50:45 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[30-Apr-2025 00:41:46 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[30-Apr-2025 00:48:36 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[02-Aug-2025 09:17:56 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[02-Aug-2025 13:36:38 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[02-Aug-2025 20:26:47 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[03-Aug-2025 00:19:02 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockContainerTrait.php on line 11
+[03-Aug-2025 02:24:51 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[04-Aug-2025 14:29:05 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockContainerTrait.php on line 11
+[06-Aug-2025 14:15:31 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockContainerTrait.php on line 11
+[08-Aug-2025 05:33:14 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockContainerTrait.php on line 11
+[08-Aug-2025 20:43:58 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[09-Aug-2025 22:43:55 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockContainerTrait.php on line 11
+[11-Aug-2025 10:39:40 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[11-Aug-2025 21:33:53 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockContainerTrait.php on line 11
+[13-Aug-2025 05:23:47 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[13-Aug-2025 16:17:20 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockContainerTrait.php on line 11
+[14-Aug-2025 09:09:05 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[15-Aug-2025 11:32:54 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[15-Aug-2025 11:32:55 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockContainerTrait.php on line 11
+[26-Aug-2025 04:36:03 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[26-Aug-2025 19:15:09 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[26-Aug-2025 23:57:00 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockContainerTrait.php on line 11
+[27-Aug-2025 06:34:55 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[27-Aug-2025 08:34:50 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[28-Aug-2025 14:49:15 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[28-Aug-2025 19:04:28 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[28-Aug-2025 22:45:05 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockContainerTrait.php on line 11
+[29-Aug-2025 02:16:23 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[29-Aug-2025 04:57:53 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[29-Aug-2025 21:27:09 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[31-Aug-2025 00:10:16 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[31-Aug-2025 04:46:19 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockContainerTrait.php on line 11
+[31-Aug-2025 06:04:24 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[31-Aug-2025 08:05:58 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[01-Sep-2025 15:01:43 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[02-Sep-2025 00:14:55 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[02-Sep-2025 02:53:23 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[02-Sep-2025 10:49:29 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockContainerTrait.php on line 11
+[02-Sep-2025 17:25:42 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[02-Sep-2025 21:25:39 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[04-Sep-2025 02:04:36 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[04-Sep-2025 05:34:17 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[04-Sep-2025 14:04:50 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockContainerTrait.php on line 11
+[04-Sep-2025 19:44:21 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[05-Sep-2025 01:04:09 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[05-Sep-2025 22:09:59 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockContainerTrait.php on line 11
+[06-Sep-2025 02:04:08 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[06-Sep-2025 04:25:57 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[06-Sep-2025 19:24:05 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[06-Sep-2025 23:44:05 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[08-Sep-2025 02:45:33 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[08-Sep-2025 07:45:52 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[08-Sep-2025 22:55:40 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[09-Sep-2025 17:14:02 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[10-Sep-2025 02:04:02 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[10-Sep-2025 02:55:50 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockContainerTrait.php on line 11
+[10-Sep-2025 23:03:06 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[11-Sep-2025 04:56:46 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[11-Sep-2025 18:55:22 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[12-Sep-2025 00:35:57 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[12-Sep-2025 05:34:01 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockContainerTrait.php on line 11
+[12-Sep-2025 17:35:26 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[13-Sep-2025 05:14:04 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[13-Sep-2025 18:32:28 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[14-Sep-2025 01:35:10 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockContainerTrait.php on line 11
+[14-Sep-2025 06:04:22 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[14-Sep-2025 17:05:29 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[15-Sep-2025 09:43:08 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[16-Sep-2025 15:37:00 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[16-Sep-2025 16:08:18 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[17-Sep-2025 04:14:53 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[17-Sep-2025 09:35:33 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[19-Sep-2025 02:34:24 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[19-Sep-2025 06:44:57 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[19-Sep-2025 14:15:20 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[20-Sep-2025 19:43:36 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[21-Sep-2025 01:38:27 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[21-Sep-2025 01:38:29 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[21-Sep-2025 01:38:33 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[21-Sep-2025 03:04:07 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[21-Sep-2025 03:24:01 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[22-Sep-2025 06:34:43 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[22-Sep-2025 17:34:50 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[23-Sep-2025 06:18:01 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[23-Sep-2025 06:18:15 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[23-Sep-2025 06:18:23 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[24-Sep-2025 08:38:47 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockContainerTrait.php on line 11
+[24-Sep-2025 08:38:53 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockContainerTrait.php on line 11
+[24-Sep-2025 08:38:57 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockContainerTrait.php on line 11
+[24-Sep-2025 21:34:26 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[25-Sep-2025 15:15:19 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[25-Sep-2025 22:27:44 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[25-Sep-2025 22:27:47 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[25-Sep-2025 22:27:51 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[26-Sep-2025 08:54:29 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[26-Sep-2025 15:36:25 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[26-Sep-2025 15:36:29 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[26-Sep-2025 15:36:31 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[27-Sep-2025 05:55:57 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[27-Sep-2025 09:35:29 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[27-Sep-2025 13:55:23 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[28-Sep-2025 00:24:14 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[28-Sep-2025 20:53:21 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[29-Sep-2025 06:35:04 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[30-Sep-2025 00:14:23 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[01-Oct-2025 07:04:45 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[01-Oct-2025 08:44:08 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[02-Oct-2025 04:15:44 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[02-Oct-2025 17:55:35 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[02-Oct-2025 19:25:52 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[03-Oct-2025 13:24:16 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[04-Oct-2025 07:43:20 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[05-Oct-2025 08:03:56 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[05-Oct-2025 11:14:00 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[06-Oct-2025 12:35:00 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[06-Oct-2025 21:35:04 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[07-Oct-2025 11:20:15 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[07-Oct-2025 23:45:18 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[09-Oct-2025 00:15:21 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[09-Oct-2025 01:35:59 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[09-Oct-2025 02:10:19 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[10-Oct-2025 07:08:03 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[10-Oct-2025 11:05:05 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[10-Oct-2025 20:54:17 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[11-Oct-2025 21:15:37 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[12-Oct-2025 01:14:17 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[12-Oct-2025 15:55:40 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[13-Oct-2025 04:10:06 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[13-Oct-2025 15:34:27 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[13-Oct-2025 23:34:32 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[14-Oct-2025 10:34:27 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[14-Oct-2025 10:35:01 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[15-Oct-2025 21:15:13 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[16-Oct-2025 05:44:06 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[16-Oct-2025 06:34:46 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[17-Oct-2025 19:13:49 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[17-Oct-2025 19:14:15 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[17-Oct-2025 21:25:12 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[18-Oct-2025 05:44:11 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[19-Oct-2025 14:56:26 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[19-Oct-2025 20:04:17 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[20-Oct-2025 01:55:28 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[21-Oct-2025 01:35:23 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[21-Oct-2025 20:44:17 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[22-Oct-2025 03:04:38 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[22-Oct-2025 06:04:56 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[22-Oct-2025 15:47:20 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[23-Oct-2025 15:34:57 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[23-Oct-2025 20:33:23 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[24-Oct-2025 02:15:56 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[24-Oct-2025 05:24:46 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[24-Oct-2025 17:13:39 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[25-Oct-2025 20:53:19 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[25-Oct-2025 20:54:51 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[26-Oct-2025 07:03:55 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[27-Oct-2025 00:14:00 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[28-Oct-2025 03:25:42 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[28-Oct-2025 13:26:20 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[29-Oct-2025 06:06:08 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[30-Oct-2025 01:15:21 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[30-Oct-2025 07:40:16 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[31-Oct-2025 11:05:22 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[31-Oct-2025 23:33:52 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[31-Oct-2025 23:46:11 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[01-Nov-2025 10:05:56 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[02-Nov-2025 15:05:12 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[02-Nov-2025 22:24:02 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[03-Nov-2025 07:34:39 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[03-Nov-2025 16:35:36 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[04-Nov-2025 16:05:25 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[04-Nov-2025 21:25:41 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[05-Nov-2025 04:25:21 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[05-Nov-2025 20:22:24 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[07-Nov-2025 04:23:46 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[07-Nov-2025 11:10:09 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[08-Nov-2025 12:53:38 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[08-Nov-2025 23:53:48 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[09-Nov-2025 03:04:53 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[09-Nov-2025 09:36:26 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[10-Nov-2025 16:33:50 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[11-Nov-2025 17:32:19 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[11-Nov-2025 19:24:48 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[12-Nov-2025 23:14:51 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[13-Nov-2025 14:19:26 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[14-Nov-2025 12:36:35 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[14-Nov-2025 13:44:00 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[14-Nov-2025 20:14:44 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[15-Nov-2025 02:36:38 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[16-Nov-2025 06:45:06 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[16-Nov-2025 13:44:12 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[16-Nov-2025 17:35:16 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[17-Nov-2025 07:34:37 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[17-Nov-2025 12:14:03 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[18-Nov-2025 13:04:22 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[19-Nov-2025 01:04:36 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[19-Nov-2025 03:24:35 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[19-Nov-2025 05:36:15 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[19-Nov-2025 17:53:43 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[20-Nov-2025 06:03:32 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[20-Nov-2025 06:04:01 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[20-Nov-2025 06:12:06 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[20-Nov-2025 06:12:33 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[20-Nov-2025 08:46:09 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[20-Nov-2025 08:46:15 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[20-Nov-2025 08:50:11 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockContainerTrait.php on line 11
+[20-Nov-2025 08:50:23 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockContainerTrait.php on line 11
+[20-Nov-2025 11:00:34 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[20-Nov-2025 11:00:35 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[20-Nov-2025 21:16:01 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[21-Nov-2025 06:44:40 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[22-Nov-2025 23:55:14 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[23-Nov-2025 02:45:06 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[23-Nov-2025 07:15:45 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[24-Nov-2025 08:56:17 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[24-Nov-2025 16:35:46 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[25-Nov-2025 04:44:27 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[25-Nov-2025 09:05:52 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[26-Nov-2025 08:16:20 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[26-Nov-2025 11:44:21 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[26-Nov-2025 12:35:46 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[26-Nov-2025 20:04:06 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[27-Nov-2025 09:43:34 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[28-Nov-2025 00:36:21 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[28-Nov-2025 02:04:06 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[28-Nov-2025 09:15:44 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[29-Nov-2025 01:13:13 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[29-Nov-2025 09:13:40 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[29-Nov-2025 21:44:52 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[30-Nov-2025 03:36:46 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[30-Nov-2025 09:54:35 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[30-Nov-2025 11:54:58 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[30-Nov-2025 20:59:38 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[30-Nov-2025 20:59:43 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[30-Nov-2025 20:59:48 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[01-Dec-2025 09:15:54 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[01-Dec-2025 16:44:05 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[02-Dec-2025 04:45:33 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[02-Dec-2025 10:06:13 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[02-Dec-2025 11:14:26 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[03-Dec-2025 11:43:31 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[03-Dec-2025 17:44:32 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[04-Dec-2025 07:14:46 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[04-Dec-2025 07:23:02 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[05-Dec-2025 06:18:14 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[05-Dec-2025 20:22:35 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[06-Dec-2025 06:26:12 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[06-Dec-2025 20:54:23 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[07-Dec-2025 13:47:34 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[07-Dec-2025 14:04:35 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[08-Dec-2025 09:44:42 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[08-Dec-2025 13:14:32 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[08-Dec-2025 13:34:39 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[09-Dec-2025 05:39:51 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[09-Dec-2025 11:32:43 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[09-Dec-2025 21:13:32 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[10-Dec-2025 16:46:29 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[10-Dec-2025 21:23:44 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[12-Dec-2025 05:35:17 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[12-Dec-2025 08:05:30 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[13-Dec-2025 08:44:56 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[13-Dec-2025 13:24:54 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[14-Dec-2025 06:05:45 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[14-Dec-2025 14:03:57 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[15-Dec-2025 10:55:27 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[15-Dec-2025 14:43:21 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[15-Dec-2025 20:14:09 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[15-Dec-2025 21:30:07 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[17-Dec-2025 01:36:24 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[17-Dec-2025 12:50:17 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[17-Dec-2025 21:04:18 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[18-Dec-2025 12:35:25 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[19-Dec-2025 12:36:41 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[19-Dec-2025 12:54:54 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[19-Dec-2025 19:53:35 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[20-Dec-2025 03:15:12 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[20-Dec-2025 18:55:01 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[22-Dec-2025 05:43:45 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[22-Dec-2025 06:23:01 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[22-Dec-2025 18:13:22 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[23-Dec-2025 19:55:16 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[23-Dec-2025 19:55:17 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[23-Dec-2025 19:55:18 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockContainerTrait.php on line 11
+[23-Dec-2025 19:55:19 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[23-Dec-2025 19:55:20 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[23-Dec-2025 22:24:10 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[24-Dec-2025 04:34:43 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[24-Dec-2025 16:10:09 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[25-Dec-2025 22:14:11 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[26-Dec-2025 13:44:32 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[26-Dec-2025 16:52:39 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[26-Dec-2025 18:43:54 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[28-Dec-2025 04:13:38 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[28-Dec-2025 10:53:50 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[28-Dec-2025 20:26:16 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[29-Dec-2025 03:16:12 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[29-Dec-2025 20:34:53 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[30-Dec-2025 06:05:13 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[30-Dec-2025 14:43:02 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[30-Dec-2025 16:27:07 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[31-Dec-2025 15:29:16 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[31-Dec-2025 15:29:18 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[31-Dec-2025 15:29:22 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[31-Dec-2025 15:29:24 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockContainerTrait.php on line 11
+[31-Dec-2025 15:29:27 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[31-Dec-2025 16:14:56 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[31-Dec-2025 19:55:50 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[31-Dec-2025 19:55:50 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[31-Dec-2025 19:56:09 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[31-Dec-2025 20:17:12 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[31-Dec-2025 20:17:13 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[31-Dec-2025 20:17:38 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[31-Dec-2025 21:36:09 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[31-Dec-2025 21:36:09 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[31-Dec-2025 21:36:28 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[31-Dec-2025 23:44:37 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[01-Jan-2026 01:51:35 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockContainerTrait.php on line 11
+[01-Jan-2026 01:51:35 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockContainerTrait.php on line 11
+[01-Jan-2026 09:13:49 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[01-Jan-2026 17:26:44 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[02-Jan-2026 17:54:16 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[02-Jan-2026 23:57:15 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[03-Jan-2026 12:04:45 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[03-Jan-2026 17:04:41 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[03-Jan-2026 17:04:44 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[03-Jan-2026 17:04:46 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[03-Jan-2026 17:04:49 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockContainerTrait.php on line 11
+[03-Jan-2026 17:04:54 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[03-Jan-2026 19:24:27 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[05-Jan-2026 14:34:04 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[05-Jan-2026 17:10:38 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[05-Jan-2026 18:45:16 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[06-Jan-2026 10:55:59 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[07-Jan-2026 10:26:44 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[07-Jan-2026 19:16:59 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[08-Jan-2026 11:28:01 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[23-Jan-2026 12:20:51 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[23-Jan-2026 14:49:46 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[24-Jan-2026 12:56:07 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[24-Jan-2026 17:26:11 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[24-Jan-2026 21:51:20 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockContainerTrait.php on line 11
+[25-Jan-2026 13:23:40 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[26-Jan-2026 13:04:41 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlock" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/Block.php on line 12
+[27-Jan-2026 12:10:23 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[28-Jan-2026 12:15:50 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[28-Jan-2026 13:13:18 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[28-Jan-2026 22:43:19 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[29-Jan-2026 13:08:25 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[29-Jan-2026 15:14:51 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[30-Jan-2026 16:55:35 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[30-Jan-2026 17:18:31 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[01-Feb-2026 12:14:57 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[01-Feb-2026 15:37:24 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[01-Feb-2026 17:05:44 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[03-Feb-2026 04:26:22 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Internal\Admin\BlockTemplates\AbstractBlockTemplate" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/BlockTemplate.php on line 12
+[03-Feb-2026 22:48:18 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11
+[04-Feb-2026 02:41:00 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[06-Feb-2026 00:24:05 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockFormattedTemplateTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlock.php on line 12
+[06-Feb-2026 08:39:27 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\Admin\BlockTemplates\BlockContainerTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/BlockTemplates/AbstractBlockTemplate.php on line 11

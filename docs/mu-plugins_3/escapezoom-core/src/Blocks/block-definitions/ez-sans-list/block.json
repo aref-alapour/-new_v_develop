@@ -1,0 +1,14 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "escapezoom/ez-sans-list",
+  "title": "EZ Sans List",
+  "category": "escapezoom",
+  "icon": "list-view",
+  "description": "List with API-driven items (Stencil: ez-sans-list).",
+  "attributes": {
+    "apiEndpoint": { "type": "string", "default": "" }
+  },
+  "supports": { "html": false },
+  "textdomain": "escapezoom-core"
+}

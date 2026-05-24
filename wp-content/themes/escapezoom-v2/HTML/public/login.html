@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link
+            rel="shortcut icon"
+            href="./assets/images/fav-icon.png"
+            type="image/x-icon"/>
+    <title>اسکیپ زوم - ورود | ثبت نام</title>
+    <link rel="stylesheet" href="./assets/css/main.css"/>
+</head>
+
+<body>
+<!-- MainLogin Start -->
+<section class="container mt-10 md:mt-[120px]">
+    <a href="#" class="block w-fit mx-auto mb-16"><img src="./assets/images/login-logo.png" alt=""></a>
+    <!--Step1-->
+    <div id="login-form-check" class="max-w-[400px] mx-auto border border-[#DADADA] rounded-[14px] shadow-[0px_4px_24px_0px_rgba(0,0,0,.12)] p-8" style="display: block">
+        <div class="text-center">
+            <strong class="text-[28px] text-[#FD7013] font-bold block">ورود</strong>
+            <p class="text-[#0A184A] font-bold text-lg mt-10">
+                لطفا شماره موبایل خود را وارد کنید
+            </p>
+        </div>
+        <form method="post" id="login-form-page" class="mt-12">
+            <div class="w-full mb-4">
+                <input type="tel" name="user-phone-input" id="user-phone-input" class="username-input">
+                <p id="username-page-error" class="login-form-error">* این قسمت را خالی نگذارید</p>
+            </div>
+            <button type="submit"
+                    class="w-full bg-[#FF6D01] hover:bg-[#E05F00] transition-colors text-white h-10 rounded-lg px-3 py-1 mt-6">
+                دریافت کد تایید
+            </button>
+        </form>
+        <p class="text-sm text-[#888888] font-medium mt-5">ثبت نام شما به معنای قبولی <a href="#" class="font-medium text-[#158EFF] underline hover:text-[#1280E7] transition">قوانین
+            و مقررات</a> سایت اسکیپ‌زوم می‌باشد.</p>
+    </div>
+    <!--Step2-->
+    <div id="login-otp-check" class="max-w-[400px] mx-auto border border-[#DADADA] rounded-[14px] shadow-[0px_4px_24px_0px_rgba(0,0,0,.12)] p-8" style="display: block">
+        <div class="text-center">
+            <strong class="text-[28px] text-[#FD7013] font-bold block">کد تأیید را وارد کنید</strong>
+            <p class="text-[#0A184A] font-semibold mt-10">
+               کد 4 رقمی به شماره <span>09030974646</span> ارسال شد.
+            </p>
+        </div>
+        <form method="post" id="login-otp-page" class="mt-12">
+            <div class="w-full mb-4">
+                <div class="flex justify-center gap-x-1.5" data-number-code-form style="direction: ltr">
+                    <input id="otp-number-code-0" class="otp-code-input" type="number" min='0' max='9' name='otp-number-code-0' data-number-code-input='0' required />
+                    <input id="otp-number-code-1" class="otp-code-input" type="number" min='0' max='9' name='otp-number-code-1' data-number-code-input='1' required />
+                    <input id="otp-number-code-2" class="otp-code-input" type="number" min='0' max='9' name='otp-number-code-2' data-number-code-input='2' required />
+                    <input id="otp-number-code-3" class="otp-code-input" type="number" min='0' max='9' name='otp-number-code-3' data-number-code-input='3' required />
+                </div>
+                <button type="button" id="phone-number-change" class="text-sm text-[#7E7E7E] font-medium my-6 w-fit mx-auto block">ویرایش شماره همراه</button>
+            </div>
+            <button type="submit"
+                    class="w-full bg-[#FF6D01] hover:bg-[#E05F00] transition-colors text-white h-10 rounded-lg px-3 py-1">
+               ورود
+            </button>
+        </form>
+        <p id="otp-page-error" class="login-form-error py-6">* کد تأیید اشتباه می باشد، دوباره تلاش کنید.</p>
+        <div>
+            <p class="text-sm font-medium text-[#0A184A] text-center">
+                زمان باقیمانده برای درخواست مجدد
+            </p>
+            <div id="otp-timer" class="text-center mt-1">
+                <div id="otp-timer-container" class="font-bold text-sm text-[#FD7013]">
+                    <span id="otp-timer-count">120</span>
+                    <span>ثانیه</span>
+                </div>
+                <button id="otp-timer-request-again" class="font-bold text-sm text-[#FD7013]">درخواست مجدد</button>
+            </div>
+        </div>
+        <p class="text-sm text-[#888888] font-medium mt-5">ثبت نام شما به معنای قبولی <a href="#" class="font-medium text-[#158EFF] underline hover:text-[#1280E7] transition">قوانین
+            و مقررات</a> سایت اسکیپ‌زوم می‌باشد.</p>
+    </div>
+    <!--Step3-->
+    <div id="login-completed-check" class="max-w-[400px] mx-auto border border-[#DADADA] rounded-[14px] shadow-[0px_4px_24px_0px_rgba(0,0,0,.12)] p-8" style="display: block">
+        <div class="text-center">
+            <strong class="text-[28px] text-[#FD7013] font-bold block">اطلاعات شخصی</strong>
+        </div>
+        <form method="post" id="login-completed-form" class="mt-12">
+            <div class="w-full mb-4">
+                <div>
+                    <label for="user-firstname-input">
+                        <span class="text-[#0A184A] font-medium">نام</span>
+                        <span class="text-[#FD7013] font-medium">*</span>
+                    </label>
+                    <input type="text" name="user-firstname-input" id="user-firstname-input" class="username-input mt-2">
+                </div>
+                <div class="mt-5">
+                    <label for="user-lastname-input">
+                        <span class="text-[#0A184A] font-medium">نام خانوادگی</span>
+                        <span class="text-[#FD7013] font-medium">*</span>
+                    </label>
+                    <input type="text" name="user-lastname-input" id="user-lastname-input" class="username-input mt-2">
+                </div>
+            </div>
+            <button type="submit"
+                    class="w-full bg-[#FF6D01] hover:bg-[#E05F00] transition-colors text-white h-10 rounded-lg px-3 py-1 mt-6">
+               تکمیل ثبت نام
+            </button>
+        </form>
+    </div>
+</section>
+<!-- MainLogin End -->
+</body>
+<script src="./assets/js/main.js"></script>
+</html>

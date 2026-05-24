@@ -1,0 +1,340 @@
+[29-Apr-2025 14:01:27 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\CostOfGoodsSold\CogsAwareTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CogsAwareRestControllerTrait.php on line 9
+[29-Apr-2025 19:11:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[24-Jul-2025 01:49:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[24-Jul-2025 01:49:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[25-Jul-2025 11:53:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[25-Jul-2025 11:53:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[25-Jul-2025 11:54:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[30-Jul-2025 00:46:37 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\CostOfGoodsSold\CogsAwareTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CogsAwareRestControllerTrait.php on line 9
+[30-Jul-2025 00:46:39 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\CostOfGoodsSold\CogsAwareTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CogsAwareRestControllerTrait.php on line 9
+[30-Jul-2025 10:38:53 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\CostOfGoodsSold\CogsAwareTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CogsAwareRestControllerTrait.php on line 9
+[30-Jul-2025 10:38:56 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\CostOfGoodsSold\CogsAwareTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CogsAwareRestControllerTrait.php on line 9
+[30-Jul-2025 10:38:58 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\CostOfGoodsSold\CogsAwareTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CogsAwareRestControllerTrait.php on line 9
+[31-Jul-2025 19:40:04 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\CostOfGoodsSold\CogsAwareTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CogsAwareRestControllerTrait.php on line 9
+[31-Jul-2025 19:43:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[25-Aug-2025 15:52:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[25-Aug-2025 16:03:22 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\CostOfGoodsSold\CogsAwareTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CogsAwareRestControllerTrait.php on line 9
+[27-Aug-2025 23:44:43 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\CostOfGoodsSold\CogsAwareTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CogsAwareRestControllerTrait.php on line 9
+[28-Aug-2025 01:07:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[30-Aug-2025 08:14:50 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\CostOfGoodsSold\CogsAwareTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CogsAwareRestControllerTrait.php on line 9
+[31-Aug-2025 16:35:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[01-Sep-2025 00:30:12 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\CostOfGoodsSold\CogsAwareTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CogsAwareRestControllerTrait.php on line 9
+[02-Sep-2025 23:32:40 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[03-Sep-2025 04:28:11 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\CostOfGoodsSold\CogsAwareTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CogsAwareRestControllerTrait.php on line 9
+[03-Sep-2025 13:11:45 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\CostOfGoodsSold\CogsAwareTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CogsAwareRestControllerTrait.php on line 9
+[03-Sep-2025 13:11:48 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\CostOfGoodsSold\CogsAwareTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CogsAwareRestControllerTrait.php on line 9
+[03-Sep-2025 13:11:52 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\CostOfGoodsSold\CogsAwareTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CogsAwareRestControllerTrait.php on line 9
+[04-Sep-2025 21:47:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[05-Sep-2025 04:35:11 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\CostOfGoodsSold\CogsAwareTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CogsAwareRestControllerTrait.php on line 9
+[06-Sep-2025 22:24:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[08-Sep-2025 16:44:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[09-Sep-2025 03:26:38 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\CostOfGoodsSold\CogsAwareTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CogsAwareRestControllerTrait.php on line 9
+[11-Sep-2025 01:44:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[11-Sep-2025 06:59:06 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\CostOfGoodsSold\CogsAwareTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CogsAwareRestControllerTrait.php on line 9
+[12-Sep-2025 23:33:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[13-Sep-2025 07:34:26 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\CostOfGoodsSold\CogsAwareTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CogsAwareRestControllerTrait.php on line 9
+[15-Sep-2025 06:34:31 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[16-Sep-2025 19:13:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[18-Sep-2025 09:35:45 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[18-Sep-2025 09:35:50 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[18-Sep-2025 09:35:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[20-Sep-2025 18:44:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[22-Sep-2025 15:25:30 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[26-Sep-2025 14:06:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[29-Sep-2025 08:25:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[02-Oct-2025 13:35:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[03-Oct-2025 19:34:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[05-Oct-2025 16:23:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[08-Oct-2025 09:24:45 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[09-Oct-2025 13:05:44 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[10-Oct-2025 13:55:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[12-Oct-2025 09:35:31 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[13-Oct-2025 17:34:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[16-Oct-2025 11:44:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[19-Oct-2025 22:44:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[24-Oct-2025 00:05:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[26-Oct-2025 14:03:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[26-Oct-2025 14:03:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[28-Oct-2025 20:44:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[31-Oct-2025 04:56:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[04-Nov-2025 13:14:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[06-Nov-2025 12:52:31 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[08-Nov-2025 07:11:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[08-Nov-2025 07:11:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[09-Nov-2025 18:03:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[12-Nov-2025 10:15:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[13-Nov-2025 16:26:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[17-Nov-2025 03:33:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[19-Nov-2025 06:34:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[20-Nov-2025 06:49:07 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\CostOfGoodsSold\CogsAwareTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CogsAwareRestControllerTrait.php on line 9
+[20-Nov-2025 06:49:34 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\CostOfGoodsSold\CogsAwareTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CogsAwareRestControllerTrait.php on line 9
+[20-Nov-2025 08:38:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[20-Nov-2025 08:38:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[21-Nov-2025 04:05:31 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[22-Nov-2025 21:45:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[25-Nov-2025 02:20:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[27-Nov-2025 01:44:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[30-Nov-2025 12:14:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[02-Dec-2025 04:43:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[04-Dec-2025 14:56:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[06-Dec-2025 04:17:45 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[08-Dec-2025 01:04:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[12-Dec-2025 11:35:31 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[16-Dec-2025 08:05:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[18-Dec-2025 04:24:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[19-Dec-2025 18:35:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[23-Dec-2025 19:56:45 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\CostOfGoodsSold\CogsAwareTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CogsAwareRestControllerTrait.php on line 9
+[23-Dec-2025 19:56:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[24-Dec-2025 10:14:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[26-Dec-2025 10:35:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[28-Dec-2025 11:04:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[30-Dec-2025 12:15:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[31-Dec-2025 15:22:15 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\CostOfGoodsSold\CogsAwareTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CogsAwareRestControllerTrait.php on line 9
+[31-Dec-2025 15:22:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[01-Jan-2026 04:13:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[03-Jan-2026 12:45:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[03-Jan-2026 16:49:42 UTC] PHP Fatal error:  Trait "Automattic\WooCommerce\Internal\CostOfGoodsSold\CogsAwareTrait" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CogsAwareRestControllerTrait.php on line 9
+[03-Jan-2026 16:49:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[06-Jan-2026 06:06:45 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[25-Jan-2026 11:13:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[29-Jan-2026 10:14:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[31-Jan-2026 10:15:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[02-Feb-2026 10:45:45 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12
+[04-Feb-2026 13:43:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/CostOfGoodsSold/CostOfGoodsSoldController.php on line 12

@@ -1,0 +1,15 @@
+terminal limit reached.
+Wages is not valid, Total wages(floating) has been reached the limit in max parts.
+Session is not valid, amounts values is not the same.
+Session is not valid, session is not active paid try.
+Session is not this merchant_id session
+Session can not be reversed with bank.
+Session is not in success status.
+Terminal ip limit most be active.
+Maximum time for reverse this session is expired.
+"message": "Session can not be reversed with bank.",
+unVerified
+متد unverified در مواردی استفاد می‌شود که نیازمند اطلاعات پرداخت‌هایی هستید که توسط وب‌سرویس به درستی انجام شده است، اما متد verifyروی آنها اعمال نشده است. به عبارت دیگر این متد لیست پرداخت‌های موفق اعتبارسنجی نشده را نشان می‌دهد.
+https://payment.zarinpal.com/pg/v4/payment/unVerified.json
+وضعیت تراکنش که ممکن است یکی از این حالات باشد :VERIFIED : وریفای شدهPAID : پرداخت شده (وریفای نشده)IN_BANK : درحال پرداختFAILED : ناموفق (تکمیل نشده)REVERSED : تراکنش ریورس شده
+"status": "PAID", // پرداخت شده (وریفای نشده)

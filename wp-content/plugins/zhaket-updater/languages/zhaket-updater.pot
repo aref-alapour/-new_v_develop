@@ -1,0 +1,698 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Zhaket Smart Updater\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-29 12:42+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.14; wp-6.7.1\n"
+"X-Domain: zhaket-updater"
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:189
+msgid ""
+"\"Zhaket updater\" plugin have major updates. Please update it to run other "
+"plugin updates"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/Zhup_plugin_row.php:207
+#, php-format
+msgid "%s version %s"
+msgstr ""
+
+#: includes/UserPrevent/UserPrevent.php:82
+#, php-format
+msgid ""
+"<p><strong>Note:</strong> your user only can select one of this item : %s "
+"</p>"
+msgstr ""
+
+#: includes/Recaptcha/Recaptcha.php:148 includes/Recaptcha/Recaptcha.php:163
+msgid "<strong>ERROR</strong>: Please complete the reCAPTCHA."
+msgstr ""
+
+#: ../zhaket-updater-private/updater/Zhup_Admin_Notice.php:179
+msgid "Activate"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/Zhup_plugin_row.php:214
+msgid "active this item"
+msgstr ""
+
+#: includes/Ai/AiContentGenerator.php:320
+msgid "Ai API Error! please try again later."
+msgstr ""
+
+#: includes/Ai/AiContentGenerator.php:313
+msgid "AI API Error: Payment Required"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:174
+msgid "Authentication failed. Your credential is not accepted in zhaket.com"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/install_plugin_information.php:255
+msgid "Average Rating in Zhaket"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:1070
+msgid "backup error not found"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:1073
+msgid "backup not found"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:75
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:515
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:523
+msgid "bad response"
+msgstr ""
+
+#: includes/Widget/Widget.php:28
+msgid "Blog Widget"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:426
+msgid "buy this product"
+msgstr ""
+
+#: includes/MainApp.php:79
+msgid "by"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/ZhUp_installer.php:257
+msgid "can not access your buy items, unknown error occurred"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:228
+msgid "Cannot check your purchased list. please retry later."
+msgstr ""
+
+#: ../zhaket-updater-private/updater/ZhUp_installer.php:461
+msgid "change access email to "
+msgstr ""
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:608
+msgid "click here to download"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/ZhUp_installer.php:451
+#, php-format
+msgid "confirm access to zhaket purchased list on domain %s"
+msgstr ""
+
+#: includes/Hub/Hub.php:183
+msgid "Connection timed out"
+msgstr ""
+
+#: includes/MainApp.php:83
+msgid "Continuous Support and Updates"
+msgstr ""
+
+#: includes/Hub/Hub.php:186
+msgid "cURL error 35 (OpenSSL SSL_connect)"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/Zhup_plugin_row.php:214
+msgid "deactive this item"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/Zhup_plugin_row.php:192
+msgid "Default is wordpress repository or main plugin sourse"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/Zhup_plugin_row.php:193
+msgid "Default source"
+msgstr ""
+
+#: includes/Settings/Setting.php:92 includes/Settings/Setting.php:118
+#: includes/Settings/Setting.php:331
+msgid "dependency check failed"
+msgstr ""
+
+#: includes/Hub/Hub.php:177
+msgid "Domain is not valid"
+msgstr ""
+
+#: includes/Hub/Hub.php:190
+msgid "Domain Key is not valid"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:219
+msgid "Domain validation cURL error 35 (OpenSSL SSL_connect)"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:216
+msgid "Domain validation request rejected"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:222
+msgid "Domain validation too many redirect"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/ZhUp_installer.php:408
+msgid "Download"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:787
+msgid "download link"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:186
+msgid ""
+"Download link is not accessible, this is automatically reported to zhaket"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:604
+msgid "Download Link is Ready!"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:605
+msgid "Download will start immediately ..."
+msgstr ""
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:426
+msgid "else buy form this link"
+msgstr ""
+
+#: includes/Hub/Hub.php:181
+msgid "Empty response"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:102
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:104
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:106
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:744
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:749
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:827
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:832
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:837
+#: ../zhaket-updater-private/updater/ZhUp_installer.php:227
+#: ../zhaket-updater-private/updater/ZhUp_installer.php:230
+#: ../zhaket-updater-private/updater/ZhUp_installer.php:239
+#, php-format
+msgid "Error in connection: %s"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:195
+msgid "Error in create download link, please retry later"
+msgstr ""
+
+#: includes/Ai/AiContentGenerator.php:324
+msgid "Error in token! Please logout and login again."
+msgstr ""
+
+#: includes/DependencyChecker.php:104 includes/DependencyChecker.php:118
+msgid "Error in zhaket smart updater"
+msgstr ""
+
+#: includes/Ai/Ai.php:236 includes/Ai/Ai.php:264
+msgid "error on create post request"
+msgstr ""
+
+#: includes/Ai/Ai.php:126 includes/Ai/Ai.php:157
+msgid "error on send code"
+msgstr ""
+
+#: includes/Updater/Updater.php:47
+msgid "Every 6 hours"
+msgstr ""
+
+#: includes/Hub/Hub.php:182
+msgid "File Key not found"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:610
+msgid "Find out how to install wordpress plugins/themes manually"
+msgstr ""
+
+#: includes/AdminMenu/AdminMenu.php:155
+msgid "Gifts and discounts"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:612
+msgid "go to install page"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/ZhUp_installer.php:417
+msgid "hide childs"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://www.zhaket.com/web/zhaket-smart-updater"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://zhaket.com"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:606
+msgid "If your download doesn't start immediately: "
+msgstr ""
+
+#: ../zhaket-updater-private/updater/Zhup_Admin_Notice.php:173
+msgid "Improvement of the user interface"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/ZhUp_installer.php:386
+msgid "install"
+msgstr ""
+
+#: includes/Ai/Ai.php:136
+msgid "invalid code"
+msgstr ""
+
+#: includes/Ai/Ai.php:179 includes/Ai/Ai.php:203 includes/Ai/Ai.php:214
+#: includes/Ai/Ai.php:250
+msgid "invalid data"
+msgstr ""
+
+#: includes/Hub/Hub.php:176
+msgid "Invalid data send"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:168
+msgid "Invalid domain name, you cannot use zhaket updater in localhost."
+msgstr ""
+
+#: includes/Ai/Ai.php:141
+msgid "invalid mobile number"
+msgstr ""
+
+#: includes/Ai/Ai.php:120
+msgid "invalid phone number"
+msgstr ""
+
+#: includes/AdminMenu/AdminMenu.php:164
+msgid "ionCube required"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:1221
+msgid "json file was read successfully"
+msgstr ""
+
+#: includes/Hub/Hub.php:179
+msgid "Key is not valid"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/Zhup_plugin_row.php:198
+msgid "main plugin"
+msgstr ""
+
+#: includes/MainApp.php:75 includes/Ai/Ai.php:62
+msgid "Make content with AI"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/Zhup_plugin_row.php:266
+msgid "Manage Backups"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/Zhup_Admin_Notice.php:304
+msgid "New update available for your website"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/Zhup_Admin_Notice.php:283
+msgid "New update for plugin:"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/Zhup_Admin_Notice.php:276
+msgid "New update for theme:"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:1149
+msgid "New version is detected"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:1152
+msgid "No changes happened"
+msgstr ""
+
+#: includes/Settings/Setting.php:136
+msgid "Nonce verification failed. or no permission"
+msgstr ""
+
+#: includes/Recaptcha/Recaptcha.php:131
+msgid "Please complete the reCAPTCHA"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:665
+msgid "Please wait 5 minute and try again"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/Zhup_plugin_row.php:204
+msgid "plugin"
+msgstr ""
+
+#. 1: zip error details
+#: ../zhaket-updater-private/updater/Zhup_backup.php:132
+#, php-format
+msgid ""
+"Plugin backup can not be created as creation of the zip file failed with the "
+"following error: %1$s"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/Zhup_backup.php:109
+msgid ""
+"Plugin backup can not be created since a destination path for the backup "
+"file could not be found."
+msgstr ""
+
+#: includes/MainApp.php:82
+msgid "Premium WordPress Plugins"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:337
+#: ../zhaket-updater-private/updater/Zhup_plugin_row.php:122
+msgid "Provide update by Zhaket"
+msgstr ""
+
+#: includes/MainApp.php:78
+msgid ""
+"Purchase premium and professional WordPress plugins with dedicated support "
+"tailored to your needs from Zhaket."
+msgstr ""
+
+#: ../zhaket-updater-private/updater/ZhUp_installer.php:370
+msgid "Purchased Plugins"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/ZhUp_installer.php:370
+msgid "Purchased Themes"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/Zhup_plugin_row.php:230
+msgid "Quick check for updates"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/ZhUp_installer.php:386
+msgid "reinstall"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:1076
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:1115
+#, php-format
+msgid "Restore error received:%s"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:1066
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:1111
+msgid "Restore request received"
+msgstr ""
+
+#: includes/MainApp.php:77
+#, php-format
+msgid "Search \"%s\" in "
+msgstr ""
+
+#: ../zhaket-updater-private/updater/Zhup_plugin_row.php:188
+msgid "Select update sourse:"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:1161
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:1230
+msgid "Server connection problem. "
+msgstr ""
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:198
+msgid "Server side problem in generate download link"
+msgstr ""
+
+#: includes/Settings/Setting.php:235
+msgid "Setting Saved !"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/Zhup_plugin_row.php:229
+msgid "Settings"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/ZhUp_installer.php:417
+#, php-format
+msgid "show childs (%s)"
+msgstr ""
+
+#: includes/Hub/Hub.php:184
+msgid "SmartHub Connection timed out"
+msgstr ""
+
+#: includes/Hub/Hub.php:188
+msgid "SmartHub ip cannot resolved"
+msgstr ""
+
+#: template/widgets/hub.php:9
+msgid ""
+"The first and only smart and secure WordPress hub to bypass sanctions and "
+"quickly connect to WordPress services"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/ZhUp_installer.php:153
+msgid "The license was copied"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/Zhup_plugin_row.php:202
+msgid "theme"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/ZhUp_installer.php:453
+#, php-format
+msgid ""
+"This email was sent from the %1$s site to %2$s the zhaket.com's shopping "
+"list. \n"
+"        If this request has been submitted by you, click on the link below "
+"to confirm it:\n"
+"        <br> <a href=\"%3$s\" target=\"_blank\">click hear</a><br> or open "
+"this url:<br> %3$s <br>\n"
+"          If you do not know about it, ignore the email.<br><br><br>\n"
+"        The above feature is one of the features of the Zhaket Smart Updater "
+"plugin,\n"
+"         and someone may be abusing your site to view your purchases from "
+"the zhaket.com.<br>\n"
+"        We recommend that you do not use the admin username and always use "
+"complex passwords."
+msgstr ""
+
+#: ../zhaket-updater-private/updater/install_plugin_information.php:398
+msgid ""
+"This product is child of other product. To view main product , click on "
+"below link"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:235
+msgid "this product is not in your buy list of this domain"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/Zhup_Admin_Notice.php:177
+msgid ""
+"To improve the user experience of the plugin, it is confirmed that the list "
+"of installed and active plugins and themes will be sent to the Zhaket."
+msgstr ""
+
+#: includes/Hub/Hub.php:189
+msgid "Too many redirect on check key file"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/install_plugin_information.php:206
+msgid "total sales:"
+msgstr ""
+
+#: includes/Ai/Ai.php:328 includes/Ai/Ai.php:373
+msgid "unknow error"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:192
+msgid "Update list has been changed, Please reload the page and try again"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:573
+msgid "Update request sent"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/ZhUp_installer.php:410
+msgid "Version"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/install_plugin_information.php:60
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:330
+msgid "video"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/ZhUp_installer.php:461
+msgid "view"
+msgstr ""
+
+#: template/widgets/blog.php:41
+msgid "view blog"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/install_plugin_information.php:247
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:329
+msgid "view demo"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/ZhUp_installer.php:412
+msgid "view details"
+msgstr ""
+
+#: includes/Hub/Hub.php:203
+msgid "View Guide"
+msgstr ""
+
+#: includes/MainApp.php:81
+msgid "View in Zhaket"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/install_plugin_information.php:403
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:328
+msgid "View in zhaket"
+msgstr ""
+
+#: includes/DependencyChecker.php:102
+msgid ""
+"we detect you do not have ionCube loader or it is too old , please call to "
+"your host service to update ionCube loader version to upper than 13.0"
+msgstr ""
+
+#: includes/Ai/Ai.php:307 includes/Ai/Ai.php:354
+msgid "you account not found"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:180
+msgid ""
+"You have not purchased this product. if we are wrong, must change support "
+"domain name to this website."
+msgstr ""
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:177
+msgid "Your authorization key is expired. Please try again."
+msgstr ""
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:213
+msgid "Your domain file Key not found"
+msgstr ""
+
+#: includes/Hub/Hub.php:187
+msgid "Your domain ip cannot resolved"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:204
+msgid "Your domain is in black list"
+msgstr ""
+
+#: includes/Hub/Hub.php:180
+msgid "Your domain is in drop list"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:171
+msgid "Your domain not validated, because your domain not accessed."
+msgstr ""
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:232
+msgid "your domain purchased list is empty"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:210
+msgid "Your domain validation file is empty"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:207
+msgid "Your host time is not valid"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:225
+msgid ""
+"Your purchased list is not valid. this bug is reported and fix automaticly. "
+"please retry 1 hour later"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:183
+msgid "Your requested product is not in zhaket. please report this to zhaket."
+msgstr ""
+
+#: ../zhaket-updater-private/updater/ZhUpClient.php:201
+msgid "Your send data validation is not pass"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:431
+msgid "your server time is incorrect, please check it with hosting to fix."
+msgstr ""
+
+#: includes/Hub/Hub.php:178
+msgid "Your server time is not valid"
+msgstr ""
+
+#: includes/Hub/Hub.php:185
+msgid "Your website reject access to key file"
+msgstr ""
+
+#: includes/MainApp.php:80
+msgid "Zhaket"
+msgstr ""
+
+#. Author of the plugin
+msgid "zhaket"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/ZhUp_installer.php:93
+#: ../zhaket-updater-private/updater/ZhUp_installer.php:180
+#: includes/AdminMenu/AdminMenu.php:169 includes/AdminMenu/AdminMenu.php:169
+msgid "zhaket buy"
+msgstr ""
+
+#: includes/Pro/Pro.php:22
+msgid "Zhaket Pro Plugins"
+msgstr ""
+
+#: includes/Pro/Pro.php:275
+msgid "Zhaket Pro Themes"
+msgstr ""
+
+#: includes/Hub/Hub.php:90
+msgid "zhaket smart hub"
+msgstr ""
+
+#. Name of the plugin
+msgid "Zhaket Smart Updater"
+msgstr ""
+
+#: includes/AdminMenu/AdminMenu.php:131
+msgid "Zhaket smart updater"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Zhaket Smart Updater, an unique tool for instant update product purchases "
+"from zhaket.com. Zhaket is difference..."
+msgstr ""
+
+#: includes/AdminMenu/AdminMenu.php:132
+msgid "Zhaket updater"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:198
+#, php-format
+msgid "Zhaket updater finished auto updated to version %s with status: %s"
+msgstr ""
+
+#: includes/DependencyChecker.php:116
+msgid ""
+"Zhaket updater plugin need php version 7.4 to 8.3.  please call to your host "
+"service to update php"
+msgstr ""
+
+#: ../zhaket-updater-private/updater/zhUpClient_check.php:182
+#, php-format
+msgid "Zhaket updater start auto updated from version %s to %s"
+msgstr ""
+
+#: includes/MainApp.php:76
+msgid ""
+"Zhaket, the most reputable marketplace specializing in WordPress themes and "
+"plugins."
+msgstr ""

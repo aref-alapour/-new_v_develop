@@ -1,0 +1,15 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "escapezoom/ez-autocomplete",
+  "title": "EZ Autocomplete",
+  "category": "escapezoom",
+  "icon": "search",
+  "description": "Autocomplete input (Stencil: ez-autocomplete).",
+  "attributes": {
+    "apiEndpoint": { "type": "string", "default": "" },
+    "placeholder": { "type": "string", "default": "" }
+  },
+  "supports": { "html": false },
+  "textdomain": "escapezoom-core"
+}

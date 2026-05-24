@@ -1,0 +1,115 @@
+/* Parastoo */
+@font-face {
+    font-family: 'Parastoo';
+    src: url('fonts/parastoo/Parastoo-FD.eot');
+    src: url('fonts/parastoo/Parastoo-FD.eot?#iefix') format('embedded-opentype'),
+         url('fonts/parastoo/Parastoo-FD.woff2') format('woff2'),
+         url('fonts/parastoo/Parastoo-FD.woff') format('woff');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Parastoo';
+    src: url('fonts/parastoo/Parastoo-Bold-FD.eot');
+    src: url('fonts/parastoo/Parastoo-Bold-FD.eot?#iefix') format('embedded-opentype'),
+         url('fonts/parastoo/Parastoo-Bold-FD.woff2') format('woff2'),
+         url('fonts/parastoo/Parastoo-Bold-FD.woff') format('woff');
+    font-weight: bold;
+}
+
+/* Sahel */
+@font-face {
+    font-family: 'Sahel';
+    src: url('fonts/sahel/Sahel-FD.eot');
+    src: url('fonts/sahel/Sahel-FD.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sahel/Sahel-FD.woff2') format('woff2'),
+         url('fonts/sahel/Sahel-FD.woff') format('woff');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Sahel';
+    src: url('fonts/sahel/Sahel-Bold-FD.eot');
+    src: url('fonts/sahel/Sahel-Bold-FD.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sahel/Sahel-Bold-FD.woff2') format('woff2'),
+         url('fonts/sahel/Sahel-Bold-FD.woff') format('woff');
+    font-weight: bold;
+}
+
+/* Samim */
+@font-face {
+    font-family: 'Samim';
+    src: url('fonts/samim/Samim-FD.eot');
+    src: url('fonts/samim/Samim-FD.eot?#iefix') format('embedded-opentype'),
+         url('fonts/samim/Samim-FD.woff2') format('woff2'),
+         url('fonts/samim/Samim-FD.woff') format('woff');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Samim';
+    src: url('fonts/samim/Samim-Bold-FD.eot');
+    src: url('fonts/samim/Samim-Bold-FD.eot?#iefix') format('embedded-opentype'),
+         url('fonts/samim/Samim-Bold-FD.woff2') format('woff2'),
+         url('fonts/samim/Samim-Bold-FD.woff') format('woff');
+    font-weight: bold;
+}
+
+/* Shabnam */
+@font-face {
+    font-family: 'Shabnam';
+    src: url('fonts/shabnam/Shabnam-FD.eot');
+    src: url('fonts/shabnam/Shabnam-FD.eot?#iefix') format('embedded-opentype'),
+         url('fonts/shabnam/Shabnam-FD.woff2') format('woff2'),
+         url('fonts/shabnam/Shabnam-FD.woff') format('woff');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Shabnam';
+    src: url('fonts/shabnam/Shabnam-Bold-FD.eot');
+    src: url('fonts/shabnam/Shabnam-Bold-FD.eot?#iefix') format('embedded-opentype'),
+         url('fonts/shabnam/Shabnam-Bold-FD.woff2') format('woff2'),
+         url('fonts/shabnam/Shabnam-Bold-FD.woff') format('woff');
+    font-weight: bold;
+}
+
+/* Tanha */
+@font-face {
+    font-family: 'Tanha';
+    src: url('fonts/tanha/Tanha-FD.eot');
+    src: url('fonts/tanha/Tanha-FD.eot?#iefix') format('embedded-opentype'),
+         url('fonts/tanha/Tanha-FD.woff2') format('woff2'),
+         url('fonts/tanha/Tanha-FD.woff') format('woff');
+    font-weight: normal;
+}
+
+/* Vazir */
+@font-face {
+    font-family: 'Vazir';
+    src: url('fonts/vazir/Vazir-FD.eot');
+    src: url('fonts/vazir/Vazir-FD.eot?#iefix') format('embedded-opentype'),
+         url('fonts/vazir/Vazir-FD.woff2') format('woff2'),
+         url('fonts/vazir/Vazir-FD.woff') format('woff');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Vazir';
+    src: url('fonts/vazir/Vazir-Bold-FD.eot');
+    src: url('fonts/vazir/Vazir-Bold-FD.eot?#iefix') format('embedded-opentype'),
+         url('fonts/vazir/Vazir-Bold-FD.woff2') format('woff2'),
+         url('fonts/vazir/Vazir-Bold-FD.woff') format('woff');
+    font-weight: bold;
+}
+
+/* Yekan */
+@font-face {
+    font-family: 'Yekan';
+    src: url('fonts/yekan-font/Yekan.eot');
+    src: url('fonts/yekan-font/Yekan.eot?#iefix') format('embedded-opentype'),
+         url('fonts/yekan-font/Yekan.woff') format('woff');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Yekan';
+    src: url('fonts/yekan-font/yekan-regular.eot');
+    src: url('fonts/yekan-font/yekan-regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/yekan-font/yekan-regular.woff') format('woff');
+    font-weight: normal;
+}

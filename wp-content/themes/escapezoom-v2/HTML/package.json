@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "dev": "npx tailwindcss -i src/input.css -o ./public/assets/css/main.css --minify --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  },
+  "dependencies": {
+    "tailwind-scrollbar-hide": "^2.0.0",
+    "tailwindcss-animation-delay": "^2.0.1"
+  }
+}

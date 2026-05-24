@@ -1,0 +1,31 @@
+.help {
+  position: relative;
+  display: inline-flex;
+}
+
+.help:before {
+  content: "";
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEHSURBVHgBlZLLUcMwFEWPxGftDoAOKAFTAR2QLIAlSQVAGYFFnA5IAfl0EJfgErJOJnLek/Oz5Hgmd8YjW9J5z7pXhkCzIclmxZOBR/0uIb+6ZZ52WZ7uMzXol08ZvuVJgnqF7MzSN34iUKChDB3alaXvdPXFeuiPrwgq6bvy2GGnzmRAz3fUM7FmIe/3AfgvZQsZewG85IYHq0ZEUKWRdDQN8wnC2L17oZzOb8jPrVnOSCre0SKrOXGhpFtuNVyohwvelLF1UlRNCteEsf5GxLb7c7hrXsSeetGSkTIH16YDMmN4pU0KfVR5H8x51omqc9GA6F/195AqyslfCMnJ7WJSI2i45FsCL1UjIOtH8gAAAABJRU5ErkJggg==");
+  width: 14px;
+  height: 14px;
+  display: inline-flex;
+  cursor: help;
+}
+
+.outline-primaryColor{
+    outline-color: #fd7013;
+}
+
+.wp-block-image .wp-element-caption,
+.wp-block-table .wp-element-caption{
+    text-align: center !important;
+}
+.wp-block-image .wp-element-caption:after,
+.wp-block-table .wp-element-caption:after {
+    margin-inline: auto !important;
+}
+
+.group:hover .overlay {
+    opacity: 1;
+    transform: scale(100%);
+}

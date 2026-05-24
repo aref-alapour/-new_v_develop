@@ -1,0 +1,356 @@
+[29-Apr-2025 03:15:14 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[04-May-2025 18:36:50 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[04-May-2025 19:37:05 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[17-Jul-2025 13:53:02 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[19-Jul-2025 15:43:25 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[19-Jul-2025 15:43:28 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[19-Jul-2025 15:43:33 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[30-Jul-2025 12:29:45 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[02-Aug-2025 06:03:25 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[26-Aug-2025 02:12:31 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[27-Aug-2025 19:04:33 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[30-Aug-2025 00:04:17 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[31-Aug-2025 18:25:34 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[04-Sep-2025 19:26:36 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[08-Sep-2025 23:24:01 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[11-Sep-2025 09:33:43 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[13-Sep-2025 08:33:11 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[17-Sep-2025 07:34:38 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[18-Sep-2025 22:25:11 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[20-Sep-2025 16:26:10 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[22-Sep-2025 11:33:32 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[22-Sep-2025 11:33:37 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[22-Sep-2025 23:04:20 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[25-Sep-2025 10:36:35 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[27-Sep-2025 00:36:10 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[28-Sep-2025 21:54:32 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[01-Oct-2025 13:03:25 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[03-Oct-2025 03:15:45 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[05-Oct-2025 11:30:10 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[07-Oct-2025 01:04:00 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[10-Oct-2025 04:36:37 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[11-Oct-2025 21:54:23 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[15-Oct-2025 15:34:55 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[17-Oct-2025 09:03:24 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[18-Oct-2025 14:24:52 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[19-Oct-2025 14:14:35 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[20-Oct-2025 19:05:09 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[22-Oct-2025 15:45:39 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[23-Oct-2025 15:25:04 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[24-Oct-2025 15:25:15 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[26-Oct-2025 09:25:52 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[28-Oct-2025 16:54:18 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[31-Oct-2025 09:54:19 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[02-Nov-2025 16:04:01 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[04-Nov-2025 23:34:21 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[07-Nov-2025 16:26:29 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[10-Nov-2025 14:13:49 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[12-Nov-2025 12:56:12 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[15-Nov-2025 01:56:40 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[17-Nov-2025 05:00:39 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[18-Nov-2025 07:45:05 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[19-Nov-2025 16:15:09 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[20-Nov-2025 03:38:15 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[20-Nov-2025 03:38:24 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[22-Nov-2025 01:44:17 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[24-Nov-2025 01:14:58 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[24-Nov-2025 20:38:15 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[25-Nov-2025 14:20:25 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[25-Nov-2025 22:44:32 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[28-Nov-2025 02:05:03 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[29-Nov-2025 17:15:59 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[04-Dec-2025 07:26:07 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[05-Dec-2025 16:44:33 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[07-Dec-2025 23:54:22 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[09-Dec-2025 21:22:26 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[14-Dec-2025 04:04:46 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[16-Dec-2025 05:36:09 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[17-Dec-2025 07:10:54 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[17-Dec-2025 21:06:28 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[18-Dec-2025 07:14:21 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[20-Dec-2025 01:04:16 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[21-Dec-2025 22:14:53 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[23-Dec-2025 19:53:50 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[24-Dec-2025 13:14:22 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[26-Dec-2025 11:24:25 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[28-Dec-2025 09:45:33 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[30-Dec-2025 04:24:40 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[31-Dec-2025 15:13:34 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[01-Jan-2026 03:35:08 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[02-Jan-2026 10:10:02 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[03-Jan-2026 07:24:19 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[03-Jan-2026 16:39:46 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[06-Jan-2026 05:37:10 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[07-Jan-2026 23:25:02 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[28-Jan-2026 12:47:30 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[28-Jan-2026 15:03:43 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[30-Jan-2026 03:13:46 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[02-Feb-2026 21:05:30 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11
+[05-Feb-2026 15:14:34 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Caching\ObjectCache" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Caches/OrderCache.php on line 11

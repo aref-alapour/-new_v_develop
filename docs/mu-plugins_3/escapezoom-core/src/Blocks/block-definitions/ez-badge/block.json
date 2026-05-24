@@ -1,0 +1,16 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "escapezoom/ez-badge",
+  "title": "EZ Badge",
+  "category": "escapezoom",
+  "icon": "tag",
+  "description": "Badge label (Stencil: ez-badge).",
+  "attributes": {
+    "variant": { "type": "string", "default": "default" },
+    "sysColor": { "type": "string", "default": "" },
+    "sysBg": { "type": "string", "default": "" }
+  },
+  "supports": { "html": false },
+  "textdomain": "escapezoom-core"
+}

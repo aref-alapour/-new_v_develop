@@ -1,0 +1,15 @@
+---
+description: products_snapshot carousel — DDL central; Capsule reads in ez_core ProductsSnapshotReadService; theme facade only.
+alwaysApply: false
+---
+
+# Products snapshot (`{prefix}products_snapshot`)
+
+- **DDL**: Table definition only in [`ez_bootstrap_custom_tables.sql`](wp-content/mu-plugins/ez_core/database/sql/ez_bootstrap_custom_tables.sql). Match real `$wpdb->prefix` when importing (see SQL header notes).
+- **Reads**: Logic in `EscapeZoom\Core\Modules\ProductsSnapshot\ProductsSnapshotReadService` (Capsule bindings, `WordPressCoreTables` for joins to core tables). Cached with `ez_products_snapshot` group and filter `ez_products_snapshot_cache_ttl`.
+- **Sort scores**: Per-product `score_popular` / `score_hottest` / `score_topsale` live in `{prefix}product_rank_scores` (DDL in bootstrap SQL). `ProductsSnapshotReadService` LEFT JOINs that table; exposed as `rank_*` in query rows. Updates via `EscapeZoom\Core\Modules\ProductRanking` on comment/view/order events — not hourly `products_order` batch.
+- **Penalties**: `{prefix}ez_product_penalties` — admin CRUD via REST `product-penalties`; seed from legacy lists via `page-aref-test-3?ez_rank_step=seed_penalties`.
+- **Backfill wizard**: Theme `page-aref-test-3` + `Ez_Product_Ranking_Migration` (`ez_rank_step` query param); core logic in `RankingBackfillService`.
+- **Theme**: [`ProductsSnapshotRepository.php`](wp-content/themes/escapezoom-v3/inc/core/products-snapshot/ProductsSnapshotRepository.php) is a thin delegator (`EZ_Products_Snapshot_Repository`, `ez_products_snapshot_query`). No `global $wpdb` snapshot queries here.
+- **Models**: [`ProductSnapshot`](wp-content/mu-plugins/ez_core/src/Modules/Common/Models/ProductSnapshot.php) uses dynamic table name via [`ProductsSnapshotTable::name()`](wp-content/mu-plugins/ez_core/src/Modules/ProductsSnapshot/ProductsSnapshotTable.php).
+- **Core WP table names in snapshot SQL**: Always `EscapeZoom\Core\Database\WordPressCoreTables` (`term_relationships`, `postmeta`, etc.) — do not interpolate `$wpdb` properties ad hoc outside that helper.

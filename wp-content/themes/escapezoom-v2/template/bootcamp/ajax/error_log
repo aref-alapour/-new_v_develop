@@ -1,0 +1,50 @@
+[30-Dec-2025 22:43:55 UTC] PHP Warning:  Undefined array key -1 in /home/escapezoom/public_html/wp-content/themes/escapezoom-v2/template/bootcamp/ajax/bootcamp_rest_api.php on line 231
+[30-Dec-2025 22:43:55 UTC] PHP Warning:  Undefined array key -1 in /home/escapezoom/public_html/wp-content/themes/escapezoom-v2/template/bootcamp/ajax/bootcamp_rest_api.php on line 231
+[30-Dec-2025 22:43:56 UTC] PHP Warning:  Undefined array key -1 in /home/escapezoom/public_html/wp-content/themes/escapezoom-v2/template/bootcamp/ajax/bootcamp_rest_api.php on line 231
+[30-Dec-2025 22:43:56 UTC] PHP Warning:  Undefined array key -1 in /home/escapezoom/public_html/wp-content/themes/escapezoom-v2/template/bootcamp/ajax/bootcamp_rest_api.php on line 231
+[30-Dec-2025 22:43:56 UTC] PHP Warning:  Undefined array key -1 in /home/escapezoom/public_html/wp-content/themes/escapezoom-v2/template/bootcamp/ajax/bootcamp_rest_api.php on line 231
+[30-Dec-2025 22:43:56 UTC] PHP Warning:  Undefined array key 10 in /home/escapezoom/public_html/wp-content/themes/escapezoom-v2/template/bootcamp/ajax/bootcamp_rest_api.php on line 231
+[30-Dec-2025 22:43:57 UTC] PHP Warning:  Undefined array key 10 in /home/escapezoom/public_html/wp-content/themes/escapezoom-v2/template/bootcamp/ajax/bootcamp_rest_api.php on line 231
+[30-Dec-2025 22:43:58 UTC] PHP Warning:  Undefined array key 10 in /home/escapezoom/public_html/wp-content/themes/escapezoom-v2/template/bootcamp/ajax/bootcamp_rest_api.php on line 231
+[30-Dec-2025 22:44:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_send_json_error() in /home/escapezoom/public_html/wp-content/themes/escapezoom-v2/template/bootcamp/ajax/bootcamp_check_answer.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/themes/escapezoom-v2/template/bootcamp/ajax/bootcamp_check_answer.php on line 6
+[30-Dec-2025 22:44:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_send_json_error() in /home/escapezoom/public_html/wp-content/themes/escapezoom-v2/template/bootcamp/ajax/bootcamp_check_answer.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/themes/escapezoom-v2/template/bootcamp/ajax/bootcamp_check_answer.php on line 6
+[30-Dec-2025 22:44:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_send_json_error() in /home/escapezoom/public_html/wp-content/themes/escapezoom-v2/template/bootcamp/ajax/bootcamp_check_answer.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/themes/escapezoom-v2/template/bootcamp/ajax/bootcamp_check_answer.php on line 6
+[04-Jan-2026 09:57:45 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1040] Too many connections in /home/escapezoom/public_html/wp-content/themes/escapezoom-v2/inc/medoo/Medoo.php:517
+Stack trace:
+#0 /home/escapezoom/public_html/wp-content/themes/escapezoom-v2/inc/medoo/init.php(11): Medoo\Medoo->__construct(Array)
+#1 /home/escapezoom/public_html/wp-content/themes/escapezoom-v2/template/bootcamp/ajax/bootcamp_rest_api.php(33): medoo()
+#2 {main}
+  thrown in /home/escapezoom/public_html/wp-content/themes/escapezoom-v2/inc/medoo/Medoo.php on line 517
+[13-Jan-2026 08:36:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_send_json_error() in /home/escapezoom/public_html/wp-content/themes/escapezoom-v2/template/bootcamp/ajax/bootcamp_check_answer.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/themes/escapezoom-v2/template/bootcamp/ajax/bootcamp_check_answer.php on line 6
+[13-Jan-2026 08:36:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_send_json_error() in /home/escapezoom/public_html/wp-content/themes/escapezoom-v2/template/bootcamp/ajax/bootcamp_check_answer.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/themes/escapezoom-v2/template/bootcamp/ajax/bootcamp_check_answer.php on line 6
+[13-Jan-2026 08:37:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_send_json_error() in /home/escapezoom/public_html/wp-content/themes/escapezoom-v2/template/bootcamp/ajax/bootcamp_check_answer.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/themes/escapezoom-v2/template/bootcamp/ajax/bootcamp_check_answer.php on line 6
+[13-Jan-2026 08:37:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_send_json_error() in /home/escapezoom/public_html/wp-content/themes/escapezoom-v2/template/bootcamp/ajax/bootcamp_check_answer.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/themes/escapezoom-v2/template/bootcamp/ajax/bootcamp_check_answer.php on line 6
+[13-Jan-2026 08:37:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_send_json_error() in /home/escapezoom/public_html/wp-content/themes/escapezoom-v2/template/bootcamp/ajax/bootcamp_check_answer.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/themes/escapezoom-v2/template/bootcamp/ajax/bootcamp_check_answer.php on line 6
+[13-Jan-2026 08:37:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_send_json_error() in /home/escapezoom/public_html/wp-content/themes/escapezoom-v2/template/bootcamp/ajax/bootcamp_check_answer.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/themes/escapezoom-v2/template/bootcamp/ajax/bootcamp_check_answer.php on line 6

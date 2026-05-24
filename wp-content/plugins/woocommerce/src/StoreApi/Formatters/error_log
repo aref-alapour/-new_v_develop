@@ -1,0 +1,752 @@
+[29-Apr-2025 12:37:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/CurrencyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/CurrencyFormatter.php on line 9
+[29-Apr-2025 12:37:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[29-Apr-2025 12:38:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[29-Apr-2025 15:15:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/HtmlFormatter.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/HtmlFormatter.php on line 11
+[31-Jul-2025 20:39:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/HtmlFormatter.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/HtmlFormatter.php on line 11
+[31-Jul-2025 21:38:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[01-Aug-2025 01:11:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/CurrencyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/CurrencyFormatter.php on line 9
+[01-Aug-2025 04:25:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[25-Aug-2025 08:33:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[25-Aug-2025 19:56:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/CurrencyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/CurrencyFormatter.php on line 9
+[26-Aug-2025 00:57:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/HtmlFormatter.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/HtmlFormatter.php on line 11
+[26-Aug-2025 12:15:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[27-Aug-2025 11:57:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[28-Aug-2025 11:23:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[29-Aug-2025 07:23:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/HtmlFormatter.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/HtmlFormatter.php on line 11
+[29-Aug-2025 10:13:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[29-Aug-2025 17:07:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/CurrencyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/CurrencyFormatter.php on line 9
+[30-Aug-2025 00:45:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[30-Aug-2025 20:27:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/HtmlFormatter.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/HtmlFormatter.php on line 11
+[31-Aug-2025 04:56:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[31-Aug-2025 14:07:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/CurrencyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/CurrencyFormatter.php on line 9
+[31-Aug-2025 20:56:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[01-Sep-2025 10:29:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/CurrencyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/CurrencyFormatter.php on line 9
+[01-Sep-2025 19:04:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/HtmlFormatter.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/HtmlFormatter.php on line 11
+[01-Sep-2025 23:22:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[02-Sep-2025 17:50:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/CurrencyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/CurrencyFormatter.php on line 9
+[03-Sep-2025 00:03:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[03-Sep-2025 16:45:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/HtmlFormatter.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/HtmlFormatter.php on line 11
+[04-Sep-2025 01:07:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[04-Sep-2025 18:04:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/CurrencyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/CurrencyFormatter.php on line 9
+[04-Sep-2025 22:20:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[05-Sep-2025 16:13:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/HtmlFormatter.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/HtmlFormatter.php on line 11
+[05-Sep-2025 23:44:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[06-Sep-2025 18:54:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[07-Sep-2025 23:35:44 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[08-Sep-2025 13:15:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/HtmlFormatter.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/HtmlFormatter.php on line 11
+[08-Sep-2025 21:22:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[10-Sep-2025 12:34:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/HtmlFormatter.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/HtmlFormatter.php on line 11
+[11-Sep-2025 04:55:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[12-Sep-2025 07:14:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[12-Sep-2025 20:22:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[14-Sep-2025 02:56:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[15-Sep-2025 02:54:50 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[16-Sep-2025 15:49:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[16-Sep-2025 18:23:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[18-Sep-2025 05:54:50 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[19-Sep-2025 11:36:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[20-Sep-2025 05:05:44 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[20-Sep-2025 05:06:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[20-Sep-2025 05:06:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[20-Sep-2025 05:06:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[20-Sep-2025 09:21:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/HtmlFormatter.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/HtmlFormatter.php on line 11
+[20-Sep-2025 09:21:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/HtmlFormatter.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/HtmlFormatter.php on line 11
+[20-Sep-2025 09:21:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/HtmlFormatter.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/HtmlFormatter.php on line 11
+[20-Sep-2025 14:27:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/CurrencyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/CurrencyFormatter.php on line 9
+[20-Sep-2025 14:27:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/CurrencyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/CurrencyFormatter.php on line 9
+[20-Sep-2025 14:27:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/CurrencyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/CurrencyFormatter.php on line 9
+[21-Sep-2025 14:53:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[22-Sep-2025 08:44:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[23-Sep-2025 13:33:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[24-Sep-2025 14:16:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[25-Sep-2025 15:06:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[26-Sep-2025 04:55:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[27-Sep-2025 16:15:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[29-Sep-2025 01:32:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[29-Sep-2025 01:32:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[29-Sep-2025 01:32:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[30-Sep-2025 20:13:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[30-Sep-2025 21:14:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[03-Oct-2025 02:14:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[03-Oct-2025 04:04:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[05-Oct-2025 05:05:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[05-Oct-2025 09:22:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[07-Oct-2025 01:34:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[07-Oct-2025 07:25:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[09-Oct-2025 00:34:40 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[09-Oct-2025 07:46:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[10-Oct-2025 13:24:37 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[10-Oct-2025 17:35:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[11-Oct-2025 13:42:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[12-Oct-2025 15:45:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[12-Oct-2025 23:46:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[14-Oct-2025 14:54:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[15-Oct-2025 17:34:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[17-Oct-2025 04:35:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[19-Oct-2025 06:54:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[19-Oct-2025 15:26:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[20-Oct-2025 22:54:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[21-Oct-2025 00:25:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[22-Oct-2025 16:43:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[23-Oct-2025 07:44:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[25-Oct-2025 11:06:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[25-Oct-2025 11:43:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[27-Oct-2025 01:44:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[27-Oct-2025 05:23:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[29-Oct-2025 05:04:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[30-Oct-2025 20:04:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[01-Nov-2025 08:44:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[01-Nov-2025 21:24:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[04-Nov-2025 23:24:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[05-Nov-2025 04:34:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[07-Nov-2025 10:33:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[07-Nov-2025 22:03:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[09-Nov-2025 12:13:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[10-Nov-2025 20:13:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[13-Nov-2025 01:56:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[13-Nov-2025 15:25:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[14-Nov-2025 07:04:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[15-Nov-2025 04:36:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[15-Nov-2025 19:44:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[16-Nov-2025 10:05:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[17-Nov-2025 15:35:45 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[18-Nov-2025 03:34:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[18-Nov-2025 06:55:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[19-Nov-2025 22:05:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[20-Nov-2025 06:20:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/CurrencyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/CurrencyFormatter.php on line 9
+[20-Nov-2025 06:21:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/CurrencyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/CurrencyFormatter.php on line 9
+[20-Nov-2025 06:24:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[20-Nov-2025 06:25:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[20-Nov-2025 06:35:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[20-Nov-2025 07:38:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/HtmlFormatter.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/HtmlFormatter.php on line 11
+[20-Nov-2025 07:38:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/HtmlFormatter.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/HtmlFormatter.php on line 11
+[20-Nov-2025 07:46:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[20-Nov-2025 07:46:37 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[24-Nov-2025 00:25:44 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[24-Nov-2025 04:35:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[25-Nov-2025 15:05:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[26-Nov-2025 00:45:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[26-Nov-2025 21:14:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[27-Nov-2025 14:27:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[28-Nov-2025 21:45:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[29-Nov-2025 05:44:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[30-Nov-2025 22:55:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[01-Dec-2025 08:04:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[04-Dec-2025 22:47:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[05-Dec-2025 05:29:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[06-Dec-2025 12:56:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[06-Dec-2025 20:44:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[08-Dec-2025 04:53:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[08-Dec-2025 21:05:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[10-Dec-2025 02:12:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[11-Dec-2025 00:39:31 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[12-Dec-2025 23:05:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[14-Dec-2025 00:05:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[15-Dec-2025 06:23:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[16-Dec-2025 12:06:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[17-Dec-2025 12:00:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[18-Dec-2025 01:37:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[18-Dec-2025 18:33:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[20-Dec-2025 04:15:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[21-Dec-2025 10:24:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[21-Dec-2025 19:25:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[23-Dec-2025 00:44:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[23-Dec-2025 19:58:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/CurrencyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/CurrencyFormatter.php on line 9
+[23-Dec-2025 19:58:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[23-Dec-2025 19:59:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/HtmlFormatter.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/HtmlFormatter.php on line 11
+[23-Dec-2025 19:59:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[24-Dec-2025 04:05:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[25-Dec-2025 00:54:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[26-Dec-2025 05:44:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[27-Dec-2025 00:34:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[29-Dec-2025 10:00:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[30-Dec-2025 01:44:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[30-Dec-2025 23:03:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[31-Dec-2025 15:22:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/CurrencyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/CurrencyFormatter.php on line 9
+[31-Dec-2025 15:23:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[31-Dec-2025 15:23:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/HtmlFormatter.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/HtmlFormatter.php on line 11
+[31-Dec-2025 15:23:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[01-Jan-2026 16:27:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[02-Jan-2026 14:55:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[03-Jan-2026 16:51:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/CurrencyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/CurrencyFormatter.php on line 9
+[03-Jan-2026 16:51:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[03-Jan-2026 16:51:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/HtmlFormatter.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/HtmlFormatter.php on line 11
+[03-Jan-2026 16:51:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[04-Jan-2026 17:50:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[07-Jan-2026 14:17:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[08-Jan-2026 15:19:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[22-Jan-2026 18:52:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[24-Jan-2026 06:54:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[25-Jan-2026 09:08:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[29-Jan-2026 00:55:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[29-Jan-2026 21:34:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[30-Jan-2026 16:53:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[01-Feb-2026 17:00:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[02-Feb-2026 23:07:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[04-Feb-2026 02:46:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9
+[05-Feb-2026 07:03:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/DefaultFormatter.php on line 7
+[06-Feb-2026 01:51:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\StoreApi\Formatters\FormatterInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/StoreApi/Formatters/MoneyFormatter.php on line 9

@@ -1,0 +1,165 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Plugin Activated , For Enter Your Token Please Click Here"
+msgstr "افزونه فعال شده ، لطفا برای وارد کردن توکن اینجا کلیک کنید"
+
+msgid "Click To Start"
+msgstr "برای شروع کلیک کنید"
+
+msgid "Pors Line"
+msgstr "پرس لاین"
+
+msgid "Token You Entered Is Wrong"
+msgstr "توکن وارد شده اشتباه هست"
+
+msgid "Welcome To Pors Line"
+msgstr "به پرس لاین خوش آمدید"
+
+msgid "Please Get Your Token From Pors Line Dashboard And Enter It in Below Field"
+msgstr "لطفا از داشبورد پرس لاین توکن خود را دریافت و در فیلد زیر وارد کنید"
+
+msgid "Enter Your Token"
+msgstr "توکن خود را یاداشت کنید"
+
+msgid "Submit"
+msgstr "ارسال"
+
+msgid "Choose Type Of Showing"
+msgstr "حالت نمایش را انتخاب کنید"
+
+msgid "Border Size"
+msgstr "اندازه خط دور آی فریم"
+
+msgid "Border Color"
+msgstr "رنگ خط دور آی فریم"
+
+msgid "Iframe WIdth"
+msgstr "طول آی فریم"
+
+msgid "Iframe Height"
+msgstr "عرض آی فریم"
+
+msgid "Button Text"
+msgstr "متن روی دکمه"
+
+msgid "Button Background Color"
+msgstr "رنگ پشت دکمه"
+
+msgid "Button Text Color"
+msgstr "رنگ متن دکمه"
+
+msgid "Button Border Size"
+msgstr "اندازه خط دور دکمه"
+
+msgid "Button Border Color"
+msgstr "رنگ خط دور دکمه"
+
+msgid "Button Border Style"
+msgstr "حالت خط دور دکمه"
+
+msgid "Button Align"
+msgstr "چینش دکمه"
+
+msgid "Right"
+msgstr "راست"
+
+msgid "Center"
+msgstr "وسط"
+
+msgid "Left"
+msgstr "چپ"
+
+msgid "Save"
+msgstr "ذخیره"
+
+msgid "Click"
+msgstr "کلیک"
+
+msgid "close"
+msgstr "بستن"
+
+msgid "You Can Write Width And Height With % (like 50%) Or With Px (Like 100px) Or You can Write Auto to Set It Automatically"
+msgstr "شما میتوانید اندازه طول و عرض را با درصد (مثل 50%) یا با پیکسل (مثل 50px) یا بصورت اتوماتیک با نوشتن کلمه ی auto انجام دهید"
+
+msgid "Form Settings"
+msgstr "تنظیمات فرم"
+
+msgid "Shortcode"
+msgstr "شورت کد"
+
+msgid "Form Name"
+msgstr "نام فرم"
+
+msgid "Form ID"
+msgstr "شماره فرم"
+
+msgid "Forms"
+msgstr "لیست فرم ها"
+
+msgid "LogOut"
+msgstr "خروج از حساب کاربری"
+
+msgid "Iframe"
+msgstr "استاندارد (Iframe)"
+
+msgid "PopUp"
+msgstr "پاپ آپ"
+
+msgid "New Tab"
+msgstr "تب جدید"
+
+msgid "Full Screen"
+msgstr "تمام صفحه"
+
+msgid "Slider"
+msgstr "کشویی (اسلایدر)"
+
+msgid "SideTab Screen"
+msgstr "ساید تب"
+
+msgid "Widget"
+msgstr "ویجت (Popover)"
+
+msgid "New Window"
+msgstr "پنجره جدید"
+
+msgid "Log in to your <a href=\"https://survey.porsline.com/\" target=\"_blank\">Porsline</a> account"
+msgstr "وارد حساب کاربری خود در <a href=\"https://survey.porsline.ir/\" target=\"_blank\">پُرس‌لاین</a> شوید"
+
+msgid "From your profile menu, go to the API Key section."
+msgstr "از قسمت پروفایل کاربری، وارد بخش «کلید API» شوید."
+
+msgid "Click on Generate API Key."
+msgstr "روی گزینه «تولید کلید API» کلیک کنید."
+
+msgid "Copy the API key and paste it here."
+msgstr "کلید API را کپی کرده و در اینجا وارد کنید."
+
+msgid "Copy the code below and place it in the desired section."
+msgstr "کد زیر را کپی کنید و در بخش دلخواه قرار دهید."
+
+msgid "Copy"
+msgstr "کپی"
+
+msgid "Icon"
+msgstr "آیکن"
+
+msgid "Views"
+msgstr "بازدیدها"
+
+msgid "Answers"
+msgstr "پاسخ ها"
+
+msgid "Enable"
+msgstr "فعال"
+
+msgid "Disable"
+msgstr "غیرفعال"
+
+msgid "Folders"
+msgstr "پوشه ها"
+
+msgid "Icon Color"
+msgstr "رنگ آیکن"

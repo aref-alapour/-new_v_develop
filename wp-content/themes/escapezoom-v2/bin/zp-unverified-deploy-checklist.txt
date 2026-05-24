@@ -1,0 +1,25 @@
+ZarinPal unVerified cron — production deploy checklist
+====================================================
+
+Before/after deploy:
+
+1. WooCommerce → Settings → Payments → ZarinPal (co)
+   - merchantcode = 72c6d0b4-fa09-4257-9cb0-e8ab0ca4b8aa
+   - access_token set (required for inquiry/verify in ez_zarinpal_try_verify_now)
+   - sandbox = no (production)
+
+2. WooCommerce → Settings → Payments → ZarinPal (main)
+   - merchantcode from ZarinPal panel (not hardcoded in theme)
+   - access_token set
+
+3. WP-Cron: hooks unchanged
+   - zarinpal_paid_transactions_process_cron (every_two_minutes)
+   - zarinpal_co_paid_transactions_process_cron (every_two_minutes)
+
+4. Smoke tests (staging first)
+   - ?get_unverified_list=1 → runs co unVerified batch (admin/debug only)
+   - page-aref-test-user: unVerified section shows authorities when pending verify
+   - Pay test order via WC_ZPal_co → paid within 2–4 min without thankyou (cron path)
+   - NOK URL with real PAID at ZP → order-received not order-failed
+
+5. Log grep: zp_unverified_main / zp_unverified_co / ez_zp_verify / zp_cancelled_paid_recovery

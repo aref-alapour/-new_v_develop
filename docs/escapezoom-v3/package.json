@@ -1,0 +1,43 @@
+{
+  "scripts": {
+    "build:front:css": "npx @tailwindcss/cli -i ./assets/css/input.css -o ./dist/front.css --minify",
+    "build:admin:css": "npx @tailwindcss/cli -i ./assets/css/input-admin.css -o ./dist/admin.css --minify",
+    "build:front:js": "vite build -c vite.front.config.js",
+    "build:brands:js": "vite build -c vite.brands.config.js",
+    "build:stencil": "npx stencil build --config template/stencil/stencil.config.ts",
+    "build:admin:js": "vite build -c vite.admin.config.js",
+    "build:penalties-admin:js": "vite build -c vite.penalties-admin.config.js",
+    "build:js": "npm run build:front:js && npm run build:brands:js && npm run build:admin:js && npm run build:penalties-admin:js",
+    "build": "npm run build:front:css && npm run build:admin:css && npm run build:js",
+    "dev:front:css": "npx @tailwindcss/cli -i ./assets/css/input.css -o ./dist/front.css --watch --minify",
+    "dev:admin:css": "npx @tailwindcss/cli -i ./assets/css/input-admin.css -o ./dist/admin.css --watch --minify",
+    "dev:js": "concurrently \"vite build -c vite.front.config.js --watch\" \"vite build -c vite.admin.config.js --watch\"",
+    "dev": "concurrently \"npm run dev:front:css\" \"npm run dev:admin:css\" \"npm run dev:js\""
+  },
+  "devDependencies": {
+    "@stencil/core": "^4.43.4",
+    "@tailwindcss/cli": "^4.3.0",
+    "concurrently": "^9.2.1",
+    "daisyui": "^5.5.19",
+    "tailwind-scrollbar-hide": "^2.0.0",
+    "tailwindcss": "^4.3.0",
+    "tailwindcss-animation-delay": "^2.0.2",
+    "vite": "^8.0.12"
+  },
+  "dependencies": {
+    "@noble/hashes": "^2.2.0",
+    "alpinejs": "^3.15.12",
+    "chart.js": "^4.5.1",
+    "embla-carousel": "^8.6.0",
+    "embla-carousel-auto-scroll": "^8.6.0",
+    "embla-carousel-autoplay": "^8.6.0",
+    "embla-carousel-class-names": "^8.6.0",
+    "embla-carousel-fade": "^8.6.0",
+    "flatpickr": "^4.6.13",
+    "gsap": "^3.15.0",
+    "htmx.org": "^2.0.8",
+    "jalaali-js": "^1.2.8",
+    "leaflet": "^1.9.4",
+    "qrcode": "^1.5.4"
+  }
+}

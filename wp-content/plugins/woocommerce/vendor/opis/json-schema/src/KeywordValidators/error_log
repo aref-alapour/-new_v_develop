@@ -1,0 +1,724 @@
+[30-Apr-2025 10:28:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[30-Apr-2025 10:38:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[30-Apr-2025 10:51:03 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\KeywordValidators\AbstractKeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/PragmaKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/PragmaKeywordValidator.php on line 23
+[03-Aug-2025 17:07:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[03-Aug-2025 20:02:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[04-Aug-2025 03:27:00 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\KeywordValidators\AbstractKeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/PragmaKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/PragmaKeywordValidator.php on line 23
+[07-Aug-2025 20:06:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[08-Aug-2025 00:26:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[09-Aug-2025 20:32:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[10-Aug-2025 07:22:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[11-Aug-2025 19:45:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[14-Aug-2025 17:33:44 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[15-Aug-2025 13:13:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[25-Aug-2025 09:33:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[26-Aug-2025 08:44:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[26-Aug-2025 21:34:03 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\KeywordValidators\AbstractKeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/PragmaKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/PragmaKeywordValidator.php on line 23
+[27-Aug-2025 10:34:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[28-Aug-2025 07:24:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[28-Aug-2025 19:40:13 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\KeywordValidators\AbstractKeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/PragmaKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/PragmaKeywordValidator.php on line 23
+[29-Aug-2025 09:24:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[30-Aug-2025 03:15:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[30-Aug-2025 17:38:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[31-Aug-2025 21:46:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[01-Sep-2025 15:39:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[03-Sep-2025 00:14:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[03-Sep-2025 04:09:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[04-Sep-2025 23:05:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[05-Sep-2025 03:03:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[06-Sep-2025 22:26:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[07-Sep-2025 02:55:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[08-Sep-2025 21:18:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[09-Sep-2025 02:35:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[10-Sep-2025 16:43:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[11-Sep-2025 06:55:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[12-Sep-2025 16:05:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[13-Sep-2025 07:45:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[15-Sep-2025 04:24:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[15-Sep-2025 07:34:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[16-Sep-2025 16:36:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[17-Sep-2025 03:12:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[18-Sep-2025 22:14:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[19-Sep-2025 00:46:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[21-Sep-2025 01:45:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[21-Sep-2025 13:43:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[22-Sep-2025 19:05:44 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[23-Sep-2025 16:14:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[25-Sep-2025 02:15:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[26-Sep-2025 08:44:31 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[27-Sep-2025 08:25:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[27-Sep-2025 19:28:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[28-Sep-2025 18:24:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[01-Oct-2025 14:33:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[02-Oct-2025 08:54:31 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[03-Oct-2025 12:30:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[04-Oct-2025 10:33:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[05-Oct-2025 13:56:40 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[05-Oct-2025 18:50:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[07-Oct-2025 02:14:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[08-Oct-2025 01:25:30 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[09-Oct-2025 09:45:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[11-Oct-2025 01:45:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[11-Oct-2025 22:24:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[13-Oct-2025 05:54:44 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[13-Oct-2025 19:44:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[14-Oct-2025 12:05:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[15-Oct-2025 14:45:31 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[16-Oct-2025 07:14:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[17-Oct-2025 07:55:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[18-Oct-2025 02:29:37 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[18-Oct-2025 02:29:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[18-Oct-2025 04:08:59 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\KeywordValidators\AbstractKeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/PragmaKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/PragmaKeywordValidator.php on line 23
+[18-Oct-2025 04:09:02 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\KeywordValidators\AbstractKeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/PragmaKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/PragmaKeywordValidator.php on line 23
+[18-Oct-2025 04:09:08 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\KeywordValidators\AbstractKeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/PragmaKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/PragmaKeywordValidator.php on line 23
+[18-Oct-2025 09:22:44 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[18-Oct-2025 17:44:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[20-Oct-2025 10:24:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[21-Oct-2025 13:59:37 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[22-Oct-2025 11:14:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[22-Oct-2025 19:05:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[24-Oct-2025 13:54:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[24-Oct-2025 21:54:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[26-Oct-2025 10:33:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[26-Oct-2025 15:36:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[26-Oct-2025 15:36:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[26-Oct-2025 15:36:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[27-Oct-2025 09:14:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[28-Oct-2025 17:13:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[29-Oct-2025 12:05:31 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[31-Oct-2025 10:45:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[31-Oct-2025 10:55:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[01-Nov-2025 19:15:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[02-Nov-2025 03:15:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[03-Nov-2025 12:14:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[03-Nov-2025 22:25:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[04-Nov-2025 16:13:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[05-Nov-2025 22:03:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[07-Nov-2025 15:54:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[09-Nov-2025 12:12:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[10-Nov-2025 02:56:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[12-Nov-2025 07:13:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[12-Nov-2025 13:05:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[14-Nov-2025 02:15:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[15-Nov-2025 11:25:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[15-Nov-2025 17:25:31 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[16-Nov-2025 15:14:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[17-Nov-2025 14:44:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[18-Nov-2025 01:44:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[18-Nov-2025 21:33:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[20-Nov-2025 06:45:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[20-Nov-2025 11:14:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[20-Nov-2025 11:14:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[20-Nov-2025 11:14:31 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\KeywordValidators\AbstractKeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/PragmaKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/PragmaKeywordValidator.php on line 23
+[20-Nov-2025 11:14:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[20-Nov-2025 11:14:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[20-Nov-2025 11:14:34 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\KeywordValidators\AbstractKeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/PragmaKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/PragmaKeywordValidator.php on line 23
+[20-Nov-2025 12:43:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[22-Nov-2025 01:04:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[22-Nov-2025 03:56:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[23-Nov-2025 20:45:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[24-Nov-2025 06:20:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[25-Nov-2025 09:35:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[27-Nov-2025 06:25:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[28-Nov-2025 13:34:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[29-Nov-2025 03:35:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[01-Dec-2025 02:35:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[02-Dec-2025 06:44:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[02-Dec-2025 15:25:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[03-Dec-2025 22:25:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[05-Dec-2025 18:49:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[06-Dec-2025 06:59:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[07-Dec-2025 23:43:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[08-Dec-2025 09:25:22 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[09-Dec-2025 20:09:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[10-Dec-2025 06:34:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[11-Dec-2025 18:35:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[12-Dec-2025 07:35:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[14-Dec-2025 02:14:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[14-Dec-2025 09:45:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[16-Dec-2025 00:05:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[16-Dec-2025 09:54:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[17-Dec-2025 20:15:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[18-Dec-2025 01:54:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[20-Dec-2025 00:45:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[20-Dec-2025 12:04:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[22-Dec-2025 04:26:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[22-Dec-2025 14:45:31 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[23-Dec-2025 20:26:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[23-Dec-2025 20:26:40 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[23-Dec-2025 20:26:41 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\KeywordValidators\AbstractKeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/PragmaKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/PragmaKeywordValidator.php on line 23
+[23-Dec-2025 22:23:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[24-Dec-2025 03:38:44 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[25-Dec-2025 22:57:31 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[26-Dec-2025 04:46:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[28-Dec-2025 05:05:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[28-Dec-2025 08:44:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[29-Dec-2025 20:26:48 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[30-Dec-2025 02:06:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[31-Dec-2025 15:45:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[31-Dec-2025 15:45:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[31-Dec-2025 15:45:19 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\KeywordValidators\AbstractKeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/PragmaKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/PragmaKeywordValidator.php on line 23
+[31-Dec-2025 23:55:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[01-Jan-2026 07:06:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[02-Jan-2026 23:13:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[03-Jan-2026 04:34:30 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[03-Jan-2026 17:16:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[03-Jan-2026 17:16:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[03-Jan-2026 17:16:53 UTC] PHP Fatal error:  Uncaught Error: Class "Opis\JsonSchema\KeywordValidators\AbstractKeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/PragmaKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/PragmaKeywordValidator.php on line 23
+[05-Jan-2026 18:09:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[05-Jan-2026 21:45:24 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[08-Jan-2026 06:15:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[23-Jan-2026 00:48:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[24-Jan-2026 17:21:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[26-Jan-2026 17:14:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[28-Jan-2026 08:55:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[30-Jan-2026 07:25:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[30-Jan-2026 14:45:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[01-Feb-2026 14:34:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[02-Feb-2026 22:55:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[04-Feb-2026 02:28:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23
+[05-Feb-2026 00:24:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/AbstractKeywordValidator.php on line 22
+[06-Feb-2026 00:02:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Opis\JsonSchema\KeywordValidator" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/opis/json-schema/src/KeywordValidators/CallbackKeywordValidator.php on line 23

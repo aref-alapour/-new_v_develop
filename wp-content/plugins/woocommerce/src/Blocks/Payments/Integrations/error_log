@@ -1,0 +1,1452 @@
+[29-Apr-2025 19:11:38 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[29-Apr-2025 21:40:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[29-Apr-2025 21:47:49 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[30-Apr-2025 00:53:57 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[30-Apr-2025 01:03:32 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[02-Aug-2025 07:43:06 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[02-Aug-2025 12:21:39 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[02-Aug-2025 13:41:36 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[02-Aug-2025 19:02:29 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[03-Aug-2025 05:55:58 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[03-Aug-2025 09:19:53 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[05-Aug-2025 05:22:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[05-Aug-2025 08:02:37 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[06-Aug-2025 22:53:50 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[07-Aug-2025 04:57:17 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[09-Aug-2025 00:55:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[09-Aug-2025 08:44:22 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[10-Aug-2025 17:45:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[11-Aug-2025 10:46:14 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[12-Aug-2025 16:33:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[14-Aug-2025 17:39:53 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[15-Aug-2025 01:14:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[25-Aug-2025 13:57:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[26-Aug-2025 11:45:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[26-Aug-2025 18:55:41 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[26-Aug-2025 22:53:49 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[26-Aug-2025 23:15:18 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[27-Aug-2025 04:34:46 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[27-Aug-2025 18:14:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[28-Aug-2025 07:59:05 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[28-Aug-2025 22:07:23 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[29-Aug-2025 03:57:12 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[29-Aug-2025 17:44:33 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[29-Aug-2025 20:14:40 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[30-Aug-2025 00:25:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[31-Aug-2025 06:04:16 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[31-Aug-2025 06:27:21 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[31-Aug-2025 13:18:42 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[31-Aug-2025 15:35:00 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[31-Aug-2025 21:34:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[01-Sep-2025 10:19:19 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[02-Sep-2025 00:05:04 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[02-Sep-2025 02:53:05 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[02-Sep-2025 03:26:18 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[03-Sep-2025 01:23:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[03-Sep-2025 22:39:45 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[04-Sep-2025 01:08:19 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[04-Sep-2025 03:38:55 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[04-Sep-2025 18:53:42 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[05-Sep-2025 00:33:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[05-Sep-2025 22:17:48 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[06-Sep-2025 05:05:24 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[06-Sep-2025 22:18:16 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[07-Sep-2025 19:15:49 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[07-Sep-2025 23:16:20 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[08-Sep-2025 19:25:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[09-Sep-2025 07:23:34 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[09-Sep-2025 20:04:21 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[09-Sep-2025 21:45:10 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[09-Sep-2025 22:03:32 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[10-Sep-2025 22:25:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[11-Sep-2025 06:56:33 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[11-Sep-2025 17:04:43 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[12-Sep-2025 06:05:47 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[12-Sep-2025 13:24:42 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[12-Sep-2025 19:23:39 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[13-Sep-2025 09:14:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[13-Sep-2025 23:05:24 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[14-Sep-2025 02:33:58 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[14-Sep-2025 17:05:31 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[15-Sep-2025 07:13:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[16-Sep-2025 15:21:42 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[16-Sep-2025 15:28:56 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[16-Sep-2025 16:58:03 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[16-Sep-2025 21:54:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[17-Sep-2025 22:29:56 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[18-Sep-2025 08:44:32 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[18-Sep-2025 09:23:49 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[19-Sep-2025 10:55:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[19-Sep-2025 14:40:12 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[19-Sep-2025 16:14:13 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[19-Sep-2025 19:35:26 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[20-Sep-2025 01:35:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[20-Sep-2025 01:35:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[20-Sep-2025 01:35:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[20-Sep-2025 09:17:10 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[20-Sep-2025 09:17:14 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[20-Sep-2025 13:24:24 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[21-Sep-2025 02:23:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[21-Sep-2025 04:24:40 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[21-Sep-2025 23:40:40 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[21-Sep-2025 23:40:50 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[22-Sep-2025 12:35:57 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[22-Sep-2025 12:49:01 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[22-Sep-2025 12:49:06 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[22-Sep-2025 12:49:10 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[22-Sep-2025 13:54:55 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[22-Sep-2025 20:30:07 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[23-Sep-2025 05:22:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[24-Sep-2025 06:04:55 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[24-Sep-2025 11:14:43 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[24-Sep-2025 13:05:04 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[24-Sep-2025 17:54:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[25-Sep-2025 00:04:00 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[25-Sep-2025 11:21:52 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[25-Sep-2025 11:21:58 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[25-Sep-2025 11:22:02 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[26-Sep-2025 04:04:02 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[26-Sep-2025 05:05:27 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[26-Sep-2025 14:05:35 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[26-Sep-2025 22:15:30 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[27-Sep-2025 15:24:27 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[28-Sep-2025 01:43:54 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[28-Sep-2025 01:43:58 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[28-Sep-2025 18:54:11 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[29-Sep-2025 13:54:37 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[30-Sep-2025 01:25:03 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[30-Sep-2025 02:35:22 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[30-Sep-2025 23:03:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[30-Sep-2025 23:34:21 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[01-Oct-2025 02:20:08 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[02-Oct-2025 08:55:11 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[02-Oct-2025 10:14:51 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[02-Oct-2025 16:44:42 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[03-Oct-2025 03:33:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[03-Oct-2025 15:03:26 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[04-Oct-2025 18:33:54 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[05-Oct-2025 10:35:09 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[06-Oct-2025 20:03:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[06-Oct-2025 23:04:16 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[07-Oct-2025 01:34:27 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[07-Oct-2025 03:46:25 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[09-Oct-2025 10:54:49 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[09-Oct-2025 14:03:33 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[09-Oct-2025 14:04:43 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[09-Oct-2025 16:34:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[09-Oct-2025 23:13:52 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[11-Oct-2025 01:33:09 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[11-Oct-2025 06:35:35 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[11-Oct-2025 09:44:43 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[11-Oct-2025 13:13:36 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[11-Oct-2025 21:34:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[12-Oct-2025 10:18:09 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[12-Oct-2025 11:45:19 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[13-Oct-2025 07:55:03 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[13-Oct-2025 18:02:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[13-Oct-2025 18:14:08 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[15-Oct-2025 01:05:38 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[15-Oct-2025 04:44:29 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[16-Oct-2025 00:44:34 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[17-Oct-2025 02:14:50 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[17-Oct-2025 10:32:43 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[17-Oct-2025 16:14:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[17-Oct-2025 23:23:17 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[18-Oct-2025 02:54:07 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[18-Oct-2025 22:54:21 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[19-Oct-2025 13:06:21 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[20-Oct-2025 02:44:21 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[20-Oct-2025 02:52:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[20-Oct-2025 09:44:57 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[20-Oct-2025 23:15:45 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[21-Oct-2025 14:15:15 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[22-Oct-2025 03:36:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[22-Oct-2025 04:04:29 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[22-Oct-2025 10:13:38 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[23-Oct-2025 00:05:51 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[23-Oct-2025 14:03:08 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[24-Oct-2025 03:25:40 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[24-Oct-2025 03:25:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[24-Oct-2025 10:34:20 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[25-Oct-2025 14:54:12 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[25-Oct-2025 17:25:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[26-Oct-2025 00:54:25 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[26-Oct-2025 03:35:16 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[26-Oct-2025 22:14:42 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[27-Oct-2025 00:12:16 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[28-Oct-2025 01:05:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[28-Oct-2025 07:44:54 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[28-Oct-2025 10:45:21 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[29-Oct-2025 10:44:10 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[29-Oct-2025 14:04:33 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[30-Oct-2025 08:45:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[30-Oct-2025 14:07:48 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[30-Oct-2025 18:55:36 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[31-Oct-2025 00:22:53 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[31-Oct-2025 20:52:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[01-Nov-2025 03:34:50 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[01-Nov-2025 06:55:32 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[02-Nov-2025 03:53:15 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[03-Nov-2025 05:14:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[03-Nov-2025 06:05:09 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[03-Nov-2025 12:33:27 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[03-Nov-2025 17:26:21 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[04-Nov-2025 05:04:59 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[04-Nov-2025 18:43:34 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[05-Nov-2025 08:13:53 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[06-Nov-2025 00:55:10 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[06-Nov-2025 04:13:45 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[06-Nov-2025 06:03:35 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[07-Nov-2025 14:47:46 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[08-Nov-2025 23:59:45 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[09-Nov-2025 08:33:39 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[09-Nov-2025 20:25:45 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[10-Nov-2025 04:26:01 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[10-Nov-2025 23:54:40 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[12-Nov-2025 10:53:25 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[12-Nov-2025 12:35:05 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[13-Nov-2025 00:25:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[13-Nov-2025 03:25:23 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[13-Nov-2025 19:26:35 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[14-Nov-2025 00:43:59 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[14-Nov-2025 05:25:04 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[14-Nov-2025 15:53:01 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[14-Nov-2025 20:15:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[15-Nov-2025 09:44:04 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[15-Nov-2025 11:54:59 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[15-Nov-2025 18:05:57 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[15-Nov-2025 21:24:41 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[16-Nov-2025 08:05:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[16-Nov-2025 18:53:20 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[17-Nov-2025 02:20:07 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[17-Nov-2025 10:33:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[17-Nov-2025 14:23:46 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[17-Nov-2025 16:25:44 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[18-Nov-2025 11:05:38 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[18-Nov-2025 21:10:15 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[18-Nov-2025 21:24:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[19-Nov-2025 12:35:31 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[20-Nov-2025 09:41:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[20-Nov-2025 09:41:42 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[20-Nov-2025 09:46:31 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[20-Nov-2025 09:47:21 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[20-Nov-2025 09:51:05 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[20-Nov-2025 09:51:28 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[20-Nov-2025 09:57:38 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[20-Nov-2025 09:58:24 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[20-Nov-2025 10:04:54 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[20-Nov-2025 10:04:57 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[20-Nov-2025 11:44:30 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[20-Nov-2025 16:36:01 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[21-Nov-2025 10:53:46 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[22-Nov-2025 00:13:05 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[22-Nov-2025 04:05:03 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[22-Nov-2025 16:04:24 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[22-Nov-2025 17:45:24 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[22-Nov-2025 20:23:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[23-Nov-2025 19:26:09 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[23-Nov-2025 20:47:38 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[24-Nov-2025 09:35:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[24-Nov-2025 21:25:12 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[25-Nov-2025 09:43:09 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[25-Nov-2025 10:25:58 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[26-Nov-2025 01:54:07 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[27-Nov-2025 03:25:59 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[27-Nov-2025 03:34:28 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[27-Nov-2025 04:35:49 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[27-Nov-2025 10:55:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[28-Nov-2025 07:06:45 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[28-Nov-2025 07:07:02 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[28-Nov-2025 10:54:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[28-Nov-2025 23:06:28 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[28-Nov-2025 23:06:31 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[28-Nov-2025 23:06:35 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[29-Nov-2025 03:04:31 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[29-Nov-2025 03:35:34 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[29-Nov-2025 03:50:11 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[29-Nov-2025 08:44:06 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[30-Nov-2025 10:35:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[30-Nov-2025 19:15:47 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[01-Dec-2025 03:05:54 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[01-Dec-2025 08:10:09 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[01-Dec-2025 10:35:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[02-Dec-2025 10:45:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[02-Dec-2025 15:53:11 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[02-Dec-2025 20:25:22 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[03-Dec-2025 01:15:15 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[03-Dec-2025 16:05:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[03-Dec-2025 22:35:30 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[04-Dec-2025 20:57:58 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[06-Dec-2025 03:03:38 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[06-Dec-2025 03:38:08 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[06-Dec-2025 06:30:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[06-Dec-2025 22:15:40 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[07-Dec-2025 13:48:58 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[07-Dec-2025 23:59:13 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[08-Dec-2025 10:03:59 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[09-Dec-2025 01:11:15 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[09-Dec-2025 02:09:50 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[10-Dec-2025 02:06:54 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[10-Dec-2025 06:53:45 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[10-Dec-2025 17:54:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[11-Dec-2025 11:50:10 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[12-Dec-2025 08:36:04 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[13-Dec-2025 09:24:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[13-Dec-2025 14:05:59 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[14-Dec-2025 01:54:59 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[14-Dec-2025 09:10:08 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[15-Dec-2025 06:43:18 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[16-Dec-2025 09:06:08 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[16-Dec-2025 09:14:38 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[17-Dec-2025 09:04:26 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[17-Dec-2025 20:25:37 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[18-Dec-2025 08:15:28 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[19-Dec-2025 05:23:54 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[20-Dec-2025 00:53:27 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[21-Dec-2025 09:54:47 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[21-Dec-2025 18:36:17 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[22-Dec-2025 14:37:08 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[23-Dec-2025 11:23:03 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[23-Dec-2025 20:05:53 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[23-Dec-2025 20:05:54 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[23-Dec-2025 20:05:55 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[23-Dec-2025 20:05:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[23-Dec-2025 20:05:56 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[23-Dec-2025 22:36:13 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[24-Dec-2025 15:13:28 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[25-Dec-2025 07:55:43 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[25-Dec-2025 22:43:37 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[26-Dec-2025 15:35:55 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[27-Dec-2025 18:35:12 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[28-Dec-2025 04:27:24 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[28-Dec-2025 13:06:13 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[29-Dec-2025 20:44:21 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[30-Dec-2025 08:24:39 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[30-Dec-2025 10:54:43 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[31-Dec-2025 15:29:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[31-Dec-2025 15:29:06 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[31-Dec-2025 15:29:07 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[31-Dec-2025 15:29:09 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[31-Dec-2025 15:29:10 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[31-Dec-2025 23:14:10 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[01-Jan-2026 13:34:44 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[01-Jan-2026 15:27:53 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[03-Jan-2026 08:26:31 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[03-Jan-2026 12:24:37 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[03-Jan-2026 17:04:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[03-Jan-2026 17:04:29 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/BankTransfer.php on line 12
+[03-Jan-2026 17:04:32 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[03-Jan-2026 17:04:38 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[03-Jan-2026 17:04:40 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[05-Jan-2026 19:35:37 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[05-Jan-2026 23:18:05 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[05-Jan-2026 23:41:49 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[08-Jan-2026 01:56:26 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[08-Jan-2026 12:38:39 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[22-Jan-2026 22:58:34 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[23-Jan-2026 01:17:35 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[23-Jan-2026 14:27:26 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[24-Jan-2026 13:23:08 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[24-Jan-2026 17:52:19 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[24-Jan-2026 23:49:19 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[25-Jan-2026 09:46:30 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Blocks\Payments\PaymentMethodTypeInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/AbstractPaymentMethodType.php on line 11
+[26-Jan-2026 23:45:02 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[28-Jan-2026 08:26:07 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[29-Jan-2026 04:44:40 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[30-Jan-2026 07:34:32 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[30-Jan-2026 09:33:41 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[30-Jan-2026 13:13:29 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/Cheque.php on line 13
+[31-Jan-2026 22:36:09 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[02-Feb-2026 22:45:29 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12
+[03-Feb-2026 01:34:14 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[05-Feb-2026 00:06:50 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/CashOnDelivery.php on line 12
+[05-Feb-2026 00:16:09 UTC] PHP Fatal error:  Uncaught Error: Class "Automattic\WooCommerce\Blocks\Payments\Integrations\AbstractPaymentMethodType" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Blocks/Payments/Integrations/PayPal.php on line 12

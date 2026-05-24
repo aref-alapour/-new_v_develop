@@ -1,0 +1,17 @@
+/**
+ * Archives admin (آرشیوساز) — لیست مسیرها و نقشه.
+ * Loaded by ArchiveMapAdmin for page escapezoom-archives.
+ */
+.ez-archives-map {
+  min-height: 320px;
+}
+.ez-archives-map .leaflet-container {
+  border-radius: 8px;
+}
+.ez-archives-list table {
+  table-layout: auto;
+}
+.ez-archives-list .column-path {
+  max-width: 280px;
+  word-break: break-all;
+}

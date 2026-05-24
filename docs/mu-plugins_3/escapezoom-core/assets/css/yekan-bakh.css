@@ -1,0 +1,46 @@
+/**
+ * Yekan Bakh (یکان بخ) — همان استایل تم escapezoom-v2
+ * فونت‌ها در assets/fonts/yekan-bakh/ قرار بگیرند.
+ */
+@font-face {
+    font-family: yekanbakh;
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: local("Yekan Bakh"), url(../fonts/yekan-bakh/yekan-bakh-light.woff2) format("woff2");
+}
+@font-face {
+    font-family: yekanbakh;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local("Yekan Bakh"), url(../fonts/yekan-bakh/yekan-bakh-regular.woff2) format("woff2");
+}
+@font-face {
+    font-family: yekanbakh;
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local("Yekan Bakh"), url(../fonts/yekan-bakh/yekan-bakh-medium.woff2) format("woff2");
+}
+@font-face {
+    font-family: yekanbakh;
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local("Yekan Bakh"), url(../fonts/yekan-bakh/yekan-bakh-bold.woff2) format("woff2");
+}
+@font-face {
+    font-family: yekanbakh;
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: local("Yekan Bakh"), url(../fonts/yekan-bakh/yekan-bakh-heavy.woff2) format("woff2");
+}
+@font-face {
+    font-family: yekanbakh;
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: local("Yekan Bakh"), url(../fonts/yekan-bakh/yekan-bakh-fat.woff2) format("woff2");
+}

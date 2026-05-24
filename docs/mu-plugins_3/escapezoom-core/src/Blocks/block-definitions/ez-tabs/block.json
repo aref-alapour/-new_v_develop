@@ -1,0 +1,14 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "escapezoom/ez-tabs",
+  "title": "EZ Tabs",
+  "category": "escapezoom",
+  "icon": "index-card",
+  "description": "Tabs container (Stencil: ez-tabs). Add EZ Tab blocks inside.",
+  "attributes": {
+    "activeTab": { "type": "string", "default": "0" }
+  },
+  "supports": { "html": false },
+  "textdomain": "escapezoom-core"
+}

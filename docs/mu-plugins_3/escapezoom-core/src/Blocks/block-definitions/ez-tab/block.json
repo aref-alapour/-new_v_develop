@@ -1,0 +1,16 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "escapezoom/ez-tab",
+  "title": "EZ Tab",
+  "category": "escapezoom",
+  "icon": "minus",
+  "description": "Single tab (Stencil: ez-tab).",
+  "parent": ["escapezoom/ez-tabs"],
+  "attributes": {
+    "tabId": { "type": "string", "default": "" },
+    "label": { "type": "string", "default": "" }
+  },
+  "supports": { "html": false },
+  "textdomain": "escapezoom-core"
+}

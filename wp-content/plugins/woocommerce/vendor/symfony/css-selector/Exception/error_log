@@ -1,0 +1,1104 @@
+[30-Apr-2025 01:47:59 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[30-Apr-2025 01:50:55 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php on line 22
+[30-Apr-2025 01:52:18 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[30-Apr-2025 01:53:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[23-Jul-2025 16:39:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[23-Jul-2025 16:39:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[24-Jul-2025 02:38:44 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[24-Jul-2025 02:38:48 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[24-Jul-2025 02:38:53 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[24-Jul-2025 07:28:57 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[24-Jul-2025 07:29:05 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[24-Jul-2025 07:29:11 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[26-Jul-2025 07:52:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[26-Jul-2025 07:52:27 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[26-Jul-2025 07:52:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[27-Jul-2025 08:45:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[27-Jul-2025 08:45:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[27-Jul-2025 08:45:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[28-Jul-2025 09:26:02 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php on line 22
+[28-Jul-2025 09:26:05 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php on line 22
+[28-Jul-2025 09:26:09 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php on line 22
+[29-Jul-2025 11:18:52 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php on line 22
+[29-Jul-2025 11:18:58 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php on line 22
+[29-Jul-2025 11:19:03 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php on line 22
+[03-Aug-2025 08:42:26 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[03-Aug-2025 10:21:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[03-Aug-2025 19:46:54 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[04-Aug-2025 09:16:51 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php on line 22
+[06-Aug-2025 23:54:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[07-Aug-2025 02:02:35 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php on line 22
+[07-Aug-2025 05:14:31 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[07-Aug-2025 20:05:17 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[08-Aug-2025 16:24:46 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[08-Aug-2025 23:02:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[09-Aug-2025 07:13:28 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php on line 22
+[10-Aug-2025 04:11:43 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[11-Aug-2025 00:52:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[11-Aug-2025 09:18:50 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[11-Aug-2025 13:53:06 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php on line 22
+[12-Aug-2025 07:24:58 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[12-Aug-2025 21:13:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[13-Aug-2025 06:16:34 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php on line 22
+[13-Aug-2025 07:13:18 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[14-Aug-2025 05:39:14 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[15-Aug-2025 04:31:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[15-Aug-2025 04:42:44 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php on line 22
+[15-Aug-2025 05:13:33 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[16-Aug-2025 11:25:26 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[25-Aug-2025 17:52:43 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[26-Aug-2025 00:05:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[26-Aug-2025 21:27:28 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php on line 22
+[28-Aug-2025 12:40:10 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[28-Aug-2025 20:44:24 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php on line 22
+[29-Aug-2025 01:25:00 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[29-Aug-2025 10:26:42 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[29-Aug-2025 20:54:17 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[30-Aug-2025 22:35:44 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[30-Aug-2025 23:47:29 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[31-Aug-2025 05:54:34 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php on line 22
+[31-Aug-2025 16:14:40 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[01-Sep-2025 12:34:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[01-Sep-2025 19:57:21 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[02-Sep-2025 10:27:17 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[02-Sep-2025 10:27:22 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[02-Sep-2025 10:27:28 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[02-Sep-2025 16:36:15 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[02-Sep-2025 19:26:40 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[03-Sep-2025 19:25:30 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[04-Sep-2025 03:12:35 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php on line 22
+[04-Sep-2025 16:24:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[04-Sep-2025 23:24:22 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[05-Sep-2025 17:15:31 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[06-Sep-2025 02:25:00 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php on line 22
+[06-Sep-2025 16:45:32 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[08-Sep-2025 01:43:57 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php on line 22
+[08-Sep-2025 10:35:44 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[08-Sep-2025 17:44:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[08-Sep-2025 19:57:25 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[09-Sep-2025 13:50:21 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php on line 22
+[10-Sep-2025 10:43:19 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[10-Sep-2025 22:44:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[11-Sep-2025 06:57:31 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[11-Sep-2025 06:58:51 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php on line 22
+[12-Sep-2025 01:24:10 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[13-Sep-2025 03:05:21 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[13-Sep-2025 07:53:35 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php on line 22
+[13-Sep-2025 09:53:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[14-Sep-2025 16:14:33 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[16-Sep-2025 18:53:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[17-Sep-2025 10:16:17 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[17-Sep-2025 11:34:22 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[17-Sep-2025 13:23:50 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[17-Sep-2025 13:23:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[17-Sep-2025 13:24:01 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[19-Sep-2025 01:35:34 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[19-Sep-2025 07:54:51 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[19-Sep-2025 12:30:11 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[20-Sep-2025 17:34:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[20-Sep-2025 17:44:20 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[21-Sep-2025 08:01:29 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[21-Sep-2025 08:01:33 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[21-Sep-2025 14:06:06 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[22-Sep-2025 17:54:26 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[22-Sep-2025 21:16:38 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[23-Sep-2025 15:35:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[24-Sep-2025 19:14:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[25-Sep-2025 04:34:58 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[27-Sep-2025 06:55:45 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[27-Sep-2025 15:35:36 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[27-Sep-2025 16:23:32 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[29-Sep-2025 10:24:33 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[30-Sep-2025 10:15:04 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[01-Oct-2025 17:33:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[03-Oct-2025 13:14:41 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[03-Oct-2025 17:55:50 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[04-Oct-2025 11:34:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[05-Oct-2025 03:44:31 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[06-Oct-2025 05:54:32 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[06-Oct-2025 09:24:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[07-Oct-2025 14:56:16 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[07-Oct-2025 17:26:02 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[08-Oct-2025 17:55:03 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[09-Oct-2025 21:14:34 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[11-Oct-2025 07:55:21 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[11-Oct-2025 16:44:53 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[11-Oct-2025 23:45:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[12-Oct-2025 14:23:27 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[13-Oct-2025 14:14:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[14-Oct-2025 12:13:50 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[15-Oct-2025 12:33:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[15-Oct-2025 17:44:34 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[16-Oct-2025 15:04:22 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[17-Oct-2025 06:34:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[17-Oct-2025 14:25:13 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[18-Oct-2025 13:53:20 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[18-Oct-2025 18:53:40 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[19-Oct-2025 03:33:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[19-Oct-2025 15:15:48 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[21-Oct-2025 00:33:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[21-Oct-2025 01:02:59 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[22-Oct-2025 16:25:06 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[22-Oct-2025 19:34:36 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[23-Oct-2025 04:24:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[24-Oct-2025 17:54:55 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[25-Oct-2025 13:25:49 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[26-Oct-2025 20:45:02 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[27-Oct-2025 21:45:24 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[28-Oct-2025 22:53:30 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[29-Oct-2025 21:53:10 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[01-Nov-2025 10:35:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[01-Nov-2025 17:35:18 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[02-Nov-2025 21:45:04 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[03-Nov-2025 07:04:09 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[04-Nov-2025 03:13:44 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[04-Nov-2025 16:33:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[06-Nov-2025 00:49:57 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[06-Nov-2025 15:03:55 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[08-Nov-2025 04:34:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[08-Nov-2025 23:29:51 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[10-Nov-2025 00:04:27 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[11-Nov-2025 09:11:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[11-Nov-2025 22:03:56 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[12-Nov-2025 06:14:39 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[13-Nov-2025 04:33:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[14-Nov-2025 14:26:57 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[14-Nov-2025 14:45:50 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[15-Nov-2025 04:55:21 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[15-Nov-2025 07:45:06 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[16-Nov-2025 11:35:27 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[17-Nov-2025 15:05:13 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[18-Nov-2025 00:34:10 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[19-Nov-2025 07:36:00 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[20-Nov-2025 04:33:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[20-Nov-2025 07:38:39 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php on line 22
+[20-Nov-2025 07:38:55 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php on line 22
+[20-Nov-2025 07:43:06 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[20-Nov-2025 07:43:18 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[20-Nov-2025 07:45:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[20-Nov-2025 07:46:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[20-Nov-2025 07:47:15 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[20-Nov-2025 07:47:27 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[20-Nov-2025 17:35:59 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[21-Nov-2025 01:46:06 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[22-Nov-2025 10:45:39 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[22-Nov-2025 15:05:19 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[22-Nov-2025 21:24:50 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[23-Nov-2025 20:35:42 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[24-Nov-2025 07:06:35 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[25-Nov-2025 06:05:44 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[25-Nov-2025 23:35:30 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[26-Nov-2025 14:24:26 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[26-Nov-2025 20:55:28 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[27-Nov-2025 17:23:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[28-Nov-2025 00:15:54 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[28-Nov-2025 13:13:50 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[29-Nov-2025 17:15:49 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[29-Nov-2025 18:44:50 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[01-Dec-2025 11:23:57 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[02-Dec-2025 01:45:43 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[02-Dec-2025 05:45:15 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[02-Dec-2025 11:35:05 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[03-Dec-2025 10:55:36 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[04-Dec-2025 09:25:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[04-Dec-2025 13:04:41 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[06-Dec-2025 02:38:57 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[06-Dec-2025 07:45:18 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[06-Dec-2025 07:47:55 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[07-Dec-2025 13:57:19 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[07-Dec-2025 23:56:06 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[08-Dec-2025 08:44:17 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[08-Dec-2025 11:59:01 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[09-Dec-2025 16:09:09 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[10-Dec-2025 10:26:06 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[10-Dec-2025 13:53:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[11-Dec-2025 16:25:10 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[11-Dec-2025 23:34:50 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[12-Dec-2025 03:45:56 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[13-Dec-2025 21:55:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[14-Dec-2025 01:35:08 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[15-Dec-2025 16:34:18 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[15-Dec-2025 18:50:09 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[16-Dec-2025 00:54:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[17-Dec-2025 16:20:13 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[17-Dec-2025 22:32:20 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[18-Dec-2025 12:06:28 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[20-Dec-2025 06:28:42 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[20-Dec-2025 15:30:06 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[21-Dec-2025 17:34:30 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[22-Dec-2025 09:14:56 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[22-Dec-2025 10:20:12 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[23-Dec-2025 18:44:00 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[23-Dec-2025 20:18:30 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[23-Dec-2025 20:18:34 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[23-Dec-2025 20:18:36 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php on line 22
+[23-Dec-2025 20:18:38 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[24-Dec-2025 01:03:53 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[24-Dec-2025 06:00:19 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[25-Dec-2025 19:07:43 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[28-Dec-2025 00:24:19 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[28-Dec-2025 07:44:52 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[29-Dec-2025 09:35:31 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[29-Dec-2025 17:03:48 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[30-Dec-2025 07:54:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[30-Dec-2025 22:53:19 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[31-Dec-2025 15:35:12 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php on line 22
+[31-Dec-2025 15:35:16 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[31-Dec-2025 15:35:21 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[31-Dec-2025 15:35:27 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[31-Dec-2025 19:41:11 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[01-Jan-2026 05:54:30 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[02-Jan-2026 01:24:10 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[02-Jan-2026 19:12:38 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[03-Jan-2026 13:35:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[03-Jan-2026 17:09:00 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ExpressionErrorException.php on line 22
+[03-Jan-2026 17:09:03 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[03-Jan-2026 17:09:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[03-Jan-2026 17:09:08 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[05-Jan-2026 17:13:24 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[06-Jan-2026 01:28:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[08-Jan-2026 08:27:44 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[08-Jan-2026 15:36:57 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[23-Jan-2026 14:30:32 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[24-Jan-2026 04:29:34 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[24-Jan-2026 13:22:37 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[24-Jan-2026 17:19:49 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[26-Jan-2026 05:03:40 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[26-Jan-2026 16:59:31 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[28-Jan-2026 11:35:18 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[29-Jan-2026 12:12:44 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[29-Jan-2026 20:34:37 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[30-Jan-2026 06:34:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[31-Jan-2026 13:26:33 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[02-Feb-2026 21:56:25 UTC] PHP Fatal error:  Uncaught Error: Interface "Symfony\Component\CssSelector\Exception\ExceptionInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/ParseException.php on line 22
+[03-Feb-2026 06:44:18 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/SyntaxErrorException.php on line 24
+[03-Feb-2026 22:30:44 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22
+[06-Feb-2026 01:27:34 UTC] PHP Fatal error:  Uncaught Error: Class "Symfony\Component\CssSelector\Exception\ParseException" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/vendor/symfony/css-selector/Exception/InternalErrorException.php on line 22

@@ -1,0 +1,104 @@
+[29-Apr-2025 19:04:38 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php on line 35
+[28-Jul-2025 17:47:18 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php on line 35
+[28-Jul-2025 17:47:23 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php on line 35
+[28-Jul-2025 17:47:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php on line 35
+[30-Jul-2025 22:27:05 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php on line 35
+[02-Aug-2025 12:12:31 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php on line 35
+[03-Aug-2025 17:07:33 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php on line 35
+[08-Aug-2025 17:45:11 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php on line 35
+[11-Aug-2025 13:12:29 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php on line 35
+[13-Aug-2025 07:13:47 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php on line 35
+[15-Aug-2025 10:42:03 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php on line 35
+[26-Aug-2025 09:23:50 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php on line 35
+[27-Aug-2025 21:44:08 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php on line 35
+[30-Aug-2025 01:54:46 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php on line 35
+[31-Aug-2025 19:55:59 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php on line 35
+[02-Sep-2025 21:55:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php on line 35
+[04-Sep-2025 22:17:53 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php on line 35
+[06-Sep-2025 18:00:14 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php on line 35
+[08-Sep-2025 16:10:12 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php on line 35
+[11-Sep-2025 13:54:36 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php on line 35
+[13-Sep-2025 09:54:54 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php on line 35
+[20-Nov-2025 08:19:10 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php on line 35
+[20-Nov-2025 08:20:20 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php on line 35
+[23-Dec-2025 19:58:13 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php on line 35
+[31-Dec-2025 15:22:45 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php on line 35
+[03-Jan-2026 16:50:41 UTC] PHP Fatal error:  Uncaught Error: Interface "Automattic\WooCommerce\Internal\RegisterHooksInterface" not found in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/src/Internal/TransientFiles/TransientFilesEngine.php on line 35

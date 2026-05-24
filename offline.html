@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#fd7013" />
+  <title>آفلاین — اسکیپ زوم</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Tahoma, system-ui, sans-serif;
+      background: #f4f8fc;
+      color: #09192d;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    .card {
+      max-width: 22rem;
+      background: #fff;
+      border-radius: 1rem;
+      padding: 2rem;
+      box-shadow: 0 4px 24px rgba(9, 25, 45, 0.08);
+    }
+    h1 { font-size: 1.25rem; margin: 0 0 0.75rem; }
+    p { margin: 0 0 1.25rem; color: #62748e; line-height: 1.6; font-size: 0.95rem; }
+    a {
+      display: inline-block;
+      background: #fd7013;
+      color: #fff;
+      text-decoration: none;
+      padding: 0.65rem 1.25rem;
+      border-radius: 999px;
+      font-weight: bold;
+      font-size: 0.9rem;
+    }
+    a:hover { opacity: 0.92; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1 id="ez-offline-title">اتصال اینترنت برقرار نیست</h1>
+    <p id="ez-offline-desc">لطفاً اتصال خود را بررسی کنید و دوباره تلاش کنید.</p>
+    <a href="/" id="ez-pwa-home-link">بازگشت به خانه</a>
+  </div>
+  <script>
+    (function () {
+      var t = document.getElementById('ez-offline-title');
+      var p = document.getElementById('ez-offline-desc');
+      if (typeof navigator !== 'undefined' && navigator.onLine && t && p) {
+        t.textContent = 'صفحهٔ پشتیبان آفلاین';
+        p.textContent =
+          'اتصال برقرار است؛ این صفحه را مستقیم باز کرده‌اید. برای ادامه از سایت از لینک زیر استفاده کنید.';
+      }
+      var link = document.getElementById('ez-pwa-home-link');
+      if (link) {
+        try {
+          var path = location.pathname.replace(/\/offline\.html$/i, '');
+          if (path && !path.endsWith('/')) {
+            path += '/';
+          }
+          link.href = path || '/';
+        } catch (e) {}
+      }
+    })();
+  </script>
+</body>
+</html>

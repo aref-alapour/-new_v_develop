@@ -1,0 +1,348 @@
+[dir="rtl"] .zhk_updater_plugin_details_rtl_correction {
+    direction: rtl;
+    text-align: right;
+}
+.zhk_updater_plugin_details_rtl_correction ul {
+    padding :0 22px;
+}
+.zhk_updater_plugin_details_title {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    line-height: 2.2;
+}
+.zhk_updater_plugin_details_description {
+    line-height: 2;
+    font-size: 13px;
+}
+.zhk_updater_plugin_details_description img{
+    max-width: 100%;
+    width: 100%;
+}
+.zhk_updater_plugin_details_button {
+    text-align: center;
+}
+.zhk_updater_plugin_details_button a {
+    display: inline-block;
+    width: auto;
+    padding: 10px 25px;
+    background: #fea000;
+    text-align: center;
+    border-radius: 3px;
+    color: #ffffff;
+    /*font-weight: 700;*/
+    font-size: 15px;
+    text-decoration: none;
+}
+.zhk_updater_plugin_details_description_img{
+    display: block;
+    margin: 0 auto 10px;
+    max-width: 100%;
+    width: 100%;
+}
+.zhk_updater_plugin_details_faq_question {
+    font-weight: 700;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.zhk_updater_plugin_details_faq_answer {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    direction: rtl;
+}
+.zhaket-buy-btn{
+    margin: 0 10px!important;
+    text-decoration: none!important;
+}
+
+.plugins .plugin-update-tr .notice, .plugins .plugin-update-tr div[class=update-message]{
+    position: relative;
+}
+.zhk-update-inline-message{
+    position: absolute;
+    right: 6px;
+    top: 5px;
+}
+
+.zhk-auto-refresh{
+    line-height: 28px;
+    display: inline-block;
+    margin: 10px 0 0;
+}
+
+.zhk-auto-refresh .button{
+    background: #fea000;
+    color: white;
+    border-color: #ff960b;
+    box-shadow: 0 1px 0 #cccb00;
+}
+.zhaket-product-list .show_childs_tr{
+    background: initial!important;
+}
+.zhaket-product-list .zhk_child_row_td{
+    box-shadow: none!important;
+}
+
+.zhaket-product-list .show_childs_tr td{
+    padding: 0!important;
+    height: 16px;
+    position: relative;
+    cursor: pointer;
+}
+
+.zhaket-product-list .show_childs span{
+    margin-right: 30px!important;
+    background: white;
+    color: black;
+    border-top: none;
+    font-size: 12px;
+    position: absolute;
+    padding: 4px 10px;
+    line-height: 13px;
+    width: 160px;
+    text-align: center;
+    border-bottom: 1px solid #e1e1e1;
+}
+.zhaket-product-list .show_childs span svg{
+    position: absolute;
+    right: 0;
+}
+.zhaket-product-list .show_childs span:before{
+    content: '';
+    position: absolute;
+    border-right: 14px solid transparent;
+    border-top: 20px solid #ffffff;
+    right: -13px;
+    top: 0px;
+}
+
+.zhaket-product-list .show_childs span:after{
+    content: '';
+    position: absolute;
+    border-left: 14px solid transparent;
+    border-top: 20px solid #ffffff;
+    left: -13px;
+    top: 0px;
+}
+.zhaket-product-list .show_childs span:last-of-type{
+    display: none;
+}
+
+.zhaket-product-list .show_childs.open span:last-of-type{
+    display: inline-block;
+    width: 88px;
+}
+.zhaket-product-list .show_childs.open span:first-of-type{
+    display: none;
+}
+.zhk-auto-refresh .button:hover{
+    background: #fc9205 !important;
+    outline: none;
+    box-shadow: none;
+    border-color: #ff960b;
+    color: white;
+}
+ .zhk-plugin-list a{
+    background: #fffadd;
+    color: black;
+    display: inline-block;
+    padding: 4px 10px;
+    text-decoration: none!important;
+    border:1px solid #bebebe;
+    margin: 5px;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 #cccb00;
+    transition: all 200ms;
+}
+.zhk-plugin-list a.active ,.zhk-plugin-list a.default-active{
+    background: #fea000;
+    color: white;
+    border:1px solid #ff960b;
+    position: relative;
+    padding-left: 24px;
+}
+.zhk-plugin-list a.default-active{
+    padding-left: 10px;
+}
+ .zhk-plugin-list a.active:before{
+    content: '×';
+    position: absolute;
+    left: -1px;
+    height: 100%;
+    bottom: -1px;
+    font-weight: bold;
+    font-size: 18px;
+    background: #af6e00;
+    display: flex;
+    align-items: center;
+    width: 22px;
+    justify-content: center;
+    border-radius: 4px 0 0 4px;
+    border: 1px solid #fea000;
+}
+
+ .zhk-plugin-list a:hover{
+    background: #fcf1b3;
+    outline: none;
+}
+.zhk-plugin-list a.active:hover,
+ .zhk-plugin-list a.default-active:hover{
+    background: #fc9205;
+}
+
+ .zhk-plugin-list {
+    margin: 0!important;
+    border-top: 0;
+
+}
+.notice.zhk-plugin-list p{
+    margin: 5px;
+}
+ .notice.zhk-plugin-list p:before {
+    content: initial;
+}
+
+.zhk-plugin-list .zhk-update-inline-message{
+    position: relative;
+    display: inline-block;
+    top: 8px;
+    right: -2px;
+}
+
+.zhaket_plugins_tab{
+    position: relative;
+    top: -5px;
+    border: none;
+}
+.zhaket_plugins_tab .zhk_install_tab{
+    border: none;
+}
+.zhaket-product-list .zhk_license,.zhk_license_get{
+    cursor: pointer;
+    color: #595c5e;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0 5px;
+    background: #fff;
+    border-radius: 4px;
+    border: solid 2px #fea000;
+    display: inline-block;
+}
+.zhaket-product-list .zhk_license.zhk_license:after {
+    content: "کپی کردن لایسنس";
+    margin-right: 15px;
+    background: #fea000;
+    padding: 5px;
+    border-radius: 4px;
+    padding-top: 2px;
+    color: #fff;
+    letter-spacing: 0px;
+    display: inline-block;
+    white-space: nowrap;
+    margin-top: -1px;
+}
+.zhaket-product-list .zhk_license{
+    cursor: pointer;
+    margin-top: 4px;
+    padding-top: 6px;
+}
+.zhaket-product-list .zhk_license_get:hover{
+    color: black;
+}
+.zhaket-product-list .zhk_install_tab{
+    background: #fea000!important;
+    border-color: #4f3200!important;
+    color: white!important;
+}
+.zhaket-product-list .zhk_install_tab:hover{
+    background: #cc8100 !important;
+}
+@media screen and (max-width: 782px){
+    #plugin-information #section-holder.wrap{
+        clear: initial;
+    }
+    .zhk_license.zhk_license:after {
+        margin-right: 0px;
+        display: block;
+    }
+}
+.zhaket-plugin-notice-message{
+    box-shadow: none;
+}
+.zhaket_plugin_installer .subsubsub .all .current{
+    font-weight: normal;
+    color: #0073aa;
+}
+.zhaket_plugin_installer .subsubsub .count{
+    display: none;
+}
+.zhaket_plugin_installer [data-slug^="zhaket-plugins-"] th,
+.zhaket_plugin_installer [data-slug^="zhaket-plugins-"] td ,
+.zhaket_plugin_installer #the-list tr:last-child th,
+.zhaket_plugin_installer #the-list tr:last-child td
+{
+    box-shadow: inset 0 1px 0 rgba(0,0,0,.1);
+}
+.zhaket_plugin_installer .plugins .plugin-update-tr .plugin-update{
+    box-shadow: none
+}
+
+
+.zhaket-product-list .zhk_child{
+    /*display: none;*/
+    /*background: rgb(255 225 174 / 22%);*/
+}
+
+.zhaket-product-list .is_installed{
+    /*display: none;*/
+    background: #e8f3ff;
+}
+
+.zhaket-product-list  tr.zhk_child:not(.spacer) td:first-of-type{
+    /*display: none;*/
+    border-right: 5px solid #85898d;
+}
+
+.zhaket-product-list  tr.spacer{
+    background: initial!important;
+}
+
+.zhaket-product-list  tr.spacer td{
+	padding-top: 1px;
+}
+
+.zhaket-product-list  .inactive.spacer td{
+    height: 0px;
+}
+
+
+
+.zhaket-product-list .zhk_child_row td{
+    background: #ffe1ae;
+    font-weight: bold;
+    cursor: pointer;
+}
+.zhaket-product-list .zhk_parent td{
+    border-top:1px solid #e3e3e3;
+}
+.zhaket-product-list .zhk_parent td:first-of-type{
+    border-right: 1px solid #e3e3e3;
+    border-radius: 0  4px 4px 0 ;
+}
+.zhaket-product-list .zhk_parent td:last-of-type{
+    border-left: 1px solid #e3e3e3;
+    border-radius: 4px 0 0 4px;
+}
+.zhaket-product-list .zhk_child td:last-of-type{
+    border-left: 1px solid #e3e3e3;
+}
+.zhaket-product-list table {
+    border: unset !important;
+    background-color: initial;
+    box-shadow: none;
+}

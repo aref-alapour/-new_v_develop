@@ -1,0 +1,12 @@
+import { r as registerInstance, h, H as Host } from './index-DclNjYd0.js';
+
+const EzTableCell = class {
+    constructor(hostRef) {
+        registerInstance(this, hostRef);
+    }
+    render() {
+        return (h(Host, { key: '6a49f5d07db16b1946b943caac31a4d15834dc55', class: "table-cell px-6 py-4 align-middle text-sm text-navyBlue" }, h("slot", { key: 'bb2ad282a02c4d80800dc4cd9bd3c000587c0b18' })));
+    }
+};
+
+export { EzTableCell as ez_table_cell };

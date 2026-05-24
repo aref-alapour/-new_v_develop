@@ -1,0 +1,165 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Plugin Activated , For Enter Your Token Please Click Here"
+msgstr "تم تفعيل الإضافة، الرجاء النقر هنا لإدخال الرمز الخاص بك"
+
+msgid "Click To Start"
+msgstr "اضغط للبدء"
+
+msgid "Pors Line"
+msgstr "بُرس لاين"
+
+msgid "Token You Entered Is Wrong"
+msgstr "الرمز الذي أدخلته غير صحيح"
+
+msgid "Welcome To Pors Line"
+msgstr "مرحبًا بك في بُرس لاين"
+
+msgid "Please Get Your Token From Pors Line Dashboard And Enter It in Below Field"
+msgstr "يرجى الحصول على الرمز الخاص بك من لوحة تحكم بُرس لاين وإدخاله في الحقل أدناه"
+
+msgid "Enter Your Token"
+msgstr "أدخل الرمز الخاص بك"
+
+msgid "Submit"
+msgstr "إرسال"
+
+msgid "Choose Type Of Showing"
+msgstr "اختر طريقة العرض"
+
+msgid "Border Size"
+msgstr "حجم الإطار"
+
+msgid "Border Color"
+msgstr "لون الإطار"
+
+msgid "Iframe WIdth"
+msgstr "عرض الإطار"
+
+msgid "Iframe Height"
+msgstr "ارتفاع الإطار"
+
+msgid "Button Text"
+msgstr "نص الزر"
+
+msgid "Button Background Color"
+msgstr "لون خلفية الزر"
+
+msgid "Button Text Color"
+msgstr "لون نص الزر"
+
+msgid "Button Border Size"
+msgstr "حجم إطار الزر (بكسل)"
+
+msgid "Button Border Color"
+msgstr "لون إطار الزر"
+
+msgid "Button Border Style"
+msgstr "نمط إطار الزر"
+
+msgid "Button Align"
+msgstr "محاذاة الزر"
+
+msgid "Right"
+msgstr "يمين"
+
+msgid "Center"
+msgstr "وسط"
+
+msgid "Left"
+msgstr "يسار"
+
+msgid "Save"
+msgstr "حفظ"
+
+msgid "Click"
+msgstr "انقر"
+
+msgid "close"
+msgstr "إغلاق"
+
+msgid "You Can Write Width And Height With % (like 50%) Or With Px (Like 100px) Or You can Write Auto to Set It Automatically"
+msgstr "يمكنك كتابة العرض والارتفاع بالنسب المئوية (مثل 50%) أو بالبكسل (مثل 100px) أو كتابة Auto لضبطه تلقائيًا."
+
+msgid "Form Settings"
+msgstr "إعدادات النموذج"
+
+msgid "Shortcode"
+msgstr "الرمز القصير"
+
+msgid "Form Name"
+msgstr "اسم النموذج"
+
+msgid "Form ID"
+msgstr "معرف النموذج"
+
+msgid "Forms"
+msgstr "النماذج"
+
+msgid "LogOut"
+msgstr "تسجيل الخروج"
+
+msgid "Iframe"
+msgstr " إطار (iFrame)"
+
+msgid "PopUp"
+msgstr "نافذة منبثقة"
+
+msgid "New Tab"
+msgstr "علامة تبويب جديدة"
+
+msgid "Full Screen"
+msgstr "ملء الشاشة"
+
+msgid "Slider"
+msgstr "شريط تمرير (Slider)"
+
+msgid "SideTab Screen"
+msgstr "عرض الشريط الجانبي (Sidebar)"
+
+msgid "Widget"
+msgstr "عنصر واجهة المستخدم (Popover)"
+
+msgid "New Window"
+msgstr "نافذة جديدة"
+
+msgid "Log in to your <a href=\"https://survey.porsline.com/\" target=\"_blank\">Porsline</a> account"
+msgstr "قم بتسجيل الدخول إلى حساب <a href=\"https://survey.porsline.com/\" target=\"_blank\">بُرس لاين</a> الخاص بك."
+
+msgid "From your profile menu, go to the API Key section."
+msgstr "من قسم تحرير حساب المستخدم، أدخل قسم \"مفتاح API\"."
+
+msgid "Click on Generate API Key."
+msgstr "انقر فوق \"إنشاء مفتاح API\"."
+
+msgid "Copy the API key and paste it here."
+msgstr "انسخ مفتاح API وأدخله هنا."
+
+msgid "Copy the code below and place it in the desired section."
+msgstr "انسخ الكود أدناه وضعه في المكان الذي ترغب به."
+
+msgid "Copy"
+msgstr "نسخ"
+
+msgid "Icon"
+msgstr "أيقونة"
+
+msgid "Views"
+msgstr "المشاهدات"
+
+msgid "Answers"
+msgstr "الإجابات"
+
+msgid "Enable"
+msgstr "تفعيل"
+
+msgid "Disable"
+msgstr "تعطيل"
+
+msgid "Folders"
+msgstr "المجلدات"
+
+msgid "Icon Color"
+msgstr "لون الأيقونة"

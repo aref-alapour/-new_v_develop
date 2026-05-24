@@ -1,0 +1,165 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Plugin Activated , For Enter Your Token Please Click Here"
+msgstr "Eklenti Etkinleştirildi, Tokeninizi Girmek İçin Lütfen Buraya Tıklayın"
+
+msgid "Click To Start"
+msgstr "Başlamak İçin Tıklayın"
+
+msgid "Pors Line"
+msgstr "Pors Line"
+
+msgid "Token You Entered Is Wrong"
+msgstr "Girdiğiniz Token Yanlış"
+
+msgid "Welcome To Pors Line"
+msgstr "Pors Line'a Hoş Geldiniz"
+
+msgid "Please Get Your Token From Pors Line Dashboard And Enter It in Below Field"
+msgstr "Lütfen Pors Line Panosundan Tokeninizi Alın ve Aşağıdaki Alana Girin"
+
+msgid "Enter Your Token"
+msgstr "Tokeninizi Girin"
+
+msgid "Submit"
+msgstr "Gönder"
+
+msgid "Choose Type Of Showing"
+msgstr "Gösterim Türünü Seçin"
+
+msgid "Border Size"
+msgstr "Çerçeve Boyutu"
+
+msgid "Border Color"
+msgstr "Çerçeve Rengi"
+
+msgid "Iframe WIdth"
+msgstr "Iframe Genişliği"
+
+msgid "Iframe Height"
+msgstr "Iframe Yüksekliği"
+
+msgid "Button Text"
+msgstr "Buton Metni"
+
+msgid "Button Background Color"
+msgstr "Buton Arka Plan Rengi"
+
+msgid "Button Text Color"
+msgstr "Buton Metin Rengi"
+
+msgid "Button Border Size"
+msgstr "Buton Çerçeve Boyutu"
+
+msgid "Button Border Color"
+msgstr "Buton Çerçeve Rengi"
+
+msgid "Button Border Style"
+msgstr "Buton Çerçeve Stili"
+
+msgid "Button Align"
+msgstr "Buton Hizalaması"
+
+msgid "Right"
+msgstr "Sağ"
+
+msgid "Center"
+msgstr "Merkez"
+
+msgid "Left"
+msgstr "Sol"
+
+msgid "Save"
+msgstr "Kaydet"
+
+msgid "Click"
+msgstr "Tıkla"
+
+msgid "close"
+msgstr "Kapat"
+
+msgid "You Can Write Width And Height With % (like 50%) Or With Px (Like 100px) Or You can Write Auto to Set It Automatically"
+msgstr "Genişlik ve Yüksekliği % (ör. 50%) veya Piksel (ör. 100px) olarak yazabilirsiniz ya da otomatik ayarlamak için Auto yazabilirsiniz."
+
+msgid "Form Settings"
+msgstr "Form Ayarları"
+
+msgid "Shortcode"
+msgstr "Kısa Kod"
+
+msgid "Form Name"
+msgstr "Form Adı"
+
+msgid "Form ID"
+msgstr "Form Kimliği"
+
+msgid "Forms"
+msgstr "Formlar"
+
+msgid "LogOut"
+msgstr "Çıkış Yap"
+
+msgid "Iframe"
+msgstr "Standart (Iframe)"
+
+msgid "PopUp"
+msgstr "Açılır Pencere"
+
+msgid "New Tab"
+msgstr "Yeni Sekme"
+
+msgid "Full Screen"
+msgstr "Tam Ekran"
+
+msgid "Slider"
+msgstr "Kaydırıcı (Slider)"
+
+msgid "SideTab Screen"
+msgstr "Yan Sekme Ekranı"
+
+msgid "Widget"
+msgstr "Bileşen (Popover)"
+
+msgid "newwindow"
+msgstr "Yeni Pencere"
+
+msgid "Log in to your <a href=\"https://survey.porsline.com/\" target=\"_blank\">Porsline</a> account"
+msgstr "( <a href=\"https://survey.porsline.com/\" target=\"_blank\">Porsline</a> ) kullanıcı hesanınıza giriniz."
+
+msgid "From your profile menu, go to the API Key section."
+msgstr "Profilinizden (API Anahtarı) kısmına giriniz."
+
+msgid "Click on Generate API Key."
+msgstr "(API Anahtarı Oluştur) butonuna tıklayınız."
+
+msgid "Copy the API key and paste it here."
+msgstr "API Anahtarını kopyalayıp buraya giriniz."
+
+msgid "Copy the code below and place it in the desired section."
+msgstr "Aşağıdaki kodu kopyalayın ve istediğiniz bölüme yerleştirin."
+
+msgid "Copy"
+msgstr "Kopyala"
+
+msgid "Icon"
+msgstr "Simge"
+
+msgid "Views"
+msgstr "Görüntüleme"
+
+msgid "Answers"
+msgstr "Cevaplar"
+
+msgid "Enable"
+msgstr "Etkinleştir"
+
+msgid "Disable"
+msgstr "Devre Dışı Bırak"
+
+msgid "Folders"
+msgstr "المجلدات"
+
+msgid "Icon Color"
+msgstr "Simge Rengi"

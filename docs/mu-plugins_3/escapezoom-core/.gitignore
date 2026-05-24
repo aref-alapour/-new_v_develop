@@ -1,0 +1,8 @@
+# Build and tooling (not needed on production server)
+node_modules/
+assets/node_modules/
+assets/.stencil/
+assets/.stencil/.build/*.log
+
+# Optional: ignore dist and build on deploy/CI instead
+# dist/

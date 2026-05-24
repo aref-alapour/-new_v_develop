@@ -1,0 +1,1597 @@
+{
+    "domain": "wordpress-seo-premium",
+    "locale_data": {
+        "wordpress-seo-premium": {
+            "": {
+                "domain": "wordpress-seo-premium",
+                "plural-forms": "nplurals=1; plural=0;",
+                "lang": "fa"
+            },
+        "Open Social settings, choose your content type, and set a default image, title, and description.": [
+            "تنظیمات شبکه‌های اجتماعی را باز کنید، نوع محتوای خود را انتخاب کنید و یک تصویر، عنوان و توضیحات پیش‌فرض تنظیم کنید."
+        ],
+        "Unstyled previews and general descriptions can lower engagement when shared on social media. Templates keep every %1$s on brand and share-ready automatically.": [
+            "پیش‌نمایش‌های بدون استایل و توضیحات کلی می‌توانند هنگام اشتراک‌گذاری در رسانه‌های اجتماعی، تعامل را کاهش دهند. قالب‌ها هر %1$s را روی برند نگه می‌دارند و به‌طور خودکار آماده اشتراک‌گذاری هستند."
+        ],
+        "Set social media appearance templates for your %1$s": [
+            "قالب‌های ظاهر شبکه‌های اجتماعی را برای %1$s خود تنظیم کنید"
+        ],
+        "Set social templates": [
+            "تنظیم الگوهای اجتماعی"
+        ],
+        "Pages without internal links are hard to find and rarely rank. Linking them up improves discoverability for both users and search engines.": [
+            "صفحاتی که لینک داخلی ندارند به سختی پیدا می‌شوند و به ندرت رتبه می‌گیرند. لینک دادن به آنها، قابلیت کشف شدن را هم برای کاربران و هم برای موتورهای جستجو بهبود می‌بخشد."
+        ],
+        "Do the Orphaned Content workout": [
+            "تمرین محتوای یتیم را انجام دهید"
+        ],
+        "Go to Site representation, open Additional organization info, and fill in the information.": [
+            "به تنظیمات معرف سایت بروید، اطلاعات اضافی سازمان را باز کنید و اطلاعات را پر کنید."
+        ],
+        "Missing organization details make it harder for search engines to recognize your brand. Completing this helps your business appear correctly in search results.": [
+            "عدم ذکر جزئیات سازمان، تشخیص برند شما را برای موتورهای جستجو دشوارتر می‌کند. تکمیل این بخش به کسب و کار شما کمک می‌کند تا به درستی در نتایج جستجو ظاهر شود."
+        ],
+        "Fill in Organization Schema": [
+            "طرح اسکیما سازمان را پر کنید"
+        ],
+        "Take me there": [
+            "مرا به آنجا ببر"
+        ],
+        "When important pages aren’t well-linked, search engines can’t tell they matter most. Strengthening cornerstone content helps your main topics rank better.": [
+            "وقتی صفحات مهم به خوبی لینک نشده باشند، موتورهای جستجو نمی‌توانند تشخیص دهند که آنها از همه مهم‌تر هستند. تقویت محتوای بنیادی به موضوعات اصلی شما کمک می‌کند تا رتبه بهتری کسب کنند."
+        ],
+        "Do the Cornerstone Approach workout": [
+            "تمرین بنیاد محتوا را انجام دهید!"
+        ],
+        "Start the workout": [
+            "تمرین را شروع کنید"
+        ],
+        "%1$sKeyphrase distribution%3$s: %2$sPlease add both a keyphrase and some text containing the keyphrase or its synonyms%3$s.": [
+            "%1$sتوزیع عبارت کلیدی%3$s: %2$sلطفاً هم یک عبارت کلیدی و هم متنی حاوی عبارت کلیدی یا مترادف‌های آن%3$s اضافه کنید."
+        ],
+        "You cannot create a redirect to the WordPress REST API endpoint (/wp-json). Please choose a different URL to redirect to.": [
+            "شما نمی‌توانید به نقطه پایانی REST API وردپرس (/wp-json) ریدایرکت ایجاد کنید. لطفاً آدرس اینترنتی (URL) دیگری را برای ریدایرکت انتخاب کنید."
+        ],
+        "You cannot create a redirect from the WordPress REST API endpoint (/wp-json). Please choose a different origin URL.": [
+            "شما نمی‌توانید از نقطه پایانی REST API وردپرس (/wp-json) ریدایرکت ایجاد کنید. لطفاً یک URL مبدا متفاوت انتخاب کنید."
+        ],
+        "Choose how you want to handle redirects for your site. %1$sLearn more about redirect settings%2$s.": [
+            "نحوه مدیریت تغییر مسیرها را برای سایت خود انتخاب کنید. %1$sدرباره تنظیمات تغییر مسیر بیشتر بدانید%2$s."
+        ],
+        "Since this site is a multisite, web server redirect methods have been disabled to prevent issues. %1$sRead more about why web server redirect methods have been disabled on a multisite%2$s.": [
+            "از آنجایی که این سایت یک سایت شبکه ای یا چندسایته است، روش‌های تغییر مسیر وب سرور برای جلوگیری از مشکلات غیرفعال شده‌اند. %1$s درباره اینکه چرا روش‌های تغییر مسیر وب سرور در یک سایت چندسایته غیرفعال شده‌اند، بیشتر بخوانید. %2$s"
+        ],
+        "Please add more content to ensure a valuable AI suggestion.": [
+            "لطفا محتوای بیشتری اضافه کنید تا از پیشنهاد ارزشمند هوش مصنوعی اطمینان حاصل شود."
+        ],
+        "Dismiss notification": [
+            "نادیده گرفتن اعلان"
+        ],
+        "You have %1$s%2$s spark left.": [
+            "%1$s%2$s جرقه برای شما باقی مانده است.",
+            "%1$s%2$s جرقه برای شما باقی مانده است."
+        ],
+        "You have unlimited sparks left.": [
+            "جرقه‌های نامحدودی برای تو باقی مانده است."
+        ],
+        "AI Summary": [
+            "خلاصه هوش مصنوعی"
+        ],
+        "%1$s AI Blocks": [
+            "بلوک های هوش مصنوعی %1$s"
+        ],
+        "block keyword\u0004key takeaways": [
+            "نکات کلیدی "
+        ],
+        "block keyword\u0004tldr": [
+            "tldr"
+        ],
+        "block keyword\u0004summary": [
+            "خلاصه"
+        ],
+        "block description\u0004Adds a short AI summary of your content.": [
+            "افزودن خلاصه‌ای کوتاه از محتوای شما با هوش مصنوعی."
+        ],
+        "block title\u0004Yoast AI Summarize": [
+            "خلاصه هوش مصنوعی Yoast"
+        ],
+        "Create a concise summary of your post, highlighting the key takeaways for your readers.": [
+            "دریافت خلاصه‌ای مختصر از پست و برجسته کردن نکات کلیدی برای خوانندگان."
+        ],
+        "About this block": [
+            "درباره این بلوک"
+        ],
+        "Regenerate summary": [
+            "ایجاد مجدد خلاصه"
+        ],
+        "<em>You're about to use 1 spark.</em>": [
+            "<em>برای این درخواست، 1 اعتبار استفاده می‌شود.</em>"
+        ],
+        "Generate summary": [
+            "ایجاد خلاصه"
+        ],
+        "AI Summarize": [
+            "خلاصه هوش مصنوعی"
+        ],
+        "<em><strong>Tip: </strong>For the most accurate summary, finalize your content before generating the summary.</em>": [
+            "<em><strong>نکته: </strong>برای داشتن دقیق‌ترین خلاصه، محتوای خود را قبل از تولید خلاصه، نهایی کنید.</em>"
+        ],
+        "We suggest placing the summary at the top of your article to help busy readers quickly understand the value.": [
+            "پیشنهاد می‌کنیم خلاصه را در ابتدای مقاله‌تان قرار دهید تا به خوانندگانی که وقت کمی دارند کمک کند سریع‌تر ارزش محتوای شما را درک کنند."
+        ],
+        "Generate a quick summary highlighting the main takeaways from your content.": [
+            "یک خلاصه سریع ایجاد کنید که نکات کلیدی محتوای شما را برجسته کند."
+        ],
+        "Summary is being generated...": [
+            "خلاصه در حال آماده سازی است..."
+        ],
+        "Key Takeaways": [
+            "نکات کلیدی "
+        ],
+        "By default, Yoast SEO Premium uses PHP-based redirects. Alternatively, you can generate a redirect file to use in your web server's configuration. %1$sOnly select this if you're confident managing web server configuration.%2$s": [
+            "به طور پیش‌فرض، Yoast SEO Premium از ریدایرکت‌های مبتنی بر PHP استفاده می‌کند. به عنوان یک جایگزین، می‌توانید یک فایل ریدایرکت برای استفاده در پیکربندی وب سرور خود ایجاد کنید. %1$s فقط در صورتی این گزینه را انتخاب کنید که از مدیریت پیکربندی وب سرور خود مطمئن هستید. %2$s"
+        ],
+        "By default, Yoast SEO Premium uses PHP-based redirects. Alternatively, you can write redirects to the %1$s file. Make sure the %1$s file is writable.": [
+            "به طور پیش‌فرض، Yoast SEO Premium از ریدایرکت‌های مبتنی بر PHP استفاده می‌کند. به عنوان یک جایگزین، می‌توانید ریدایرکت‌ها را در فایل %1$s بنویسید (اگر تعداد ریدایرکت ها زیاد باشد توصیه نمیکنیم چون حجم فایل زیاد می شود و سرعت سایت شما کم می شود). مطمئن شوید که فایل %1$s قابل نوشتن است."
+        ],
+        "%1$s/Web server": [
+            "%1$s/Web server"
+        ],
+        "By default, we write the redirects to your %1$s file. Enable this if you want the redirects to be written to a separate file. %2$sOnly enable this option if you know what you are doing.%3$s": [
+            "به طور پیش‌فرض، ما تغییر مسیرها را در فایل %1$s می‌نویسیم. اگر می‌خواهید تغییر مسیرها در یک فایل جداگانه نوشته شوند، این گزینه را فعال کنید. %2$sفقط در صورتی این گزینه را فعال کنید که می‌دانید چه کاری انجام می‌دهید. %3$s"
+        ],
+        "Something went wrong while updating this redirect.": [
+            "هنگام به‌روزرسانی این تغییر مسیر، مشکلی پیش آمد."
+        ],
+        "Redirect not updated.": [
+            "تغییر مسیر به‌روزرسانی نشد."
+        ],
+        "The redirect was created successfully.": [
+            "تغییر مسیر با موفقیت ایجاد شد."
+        ],
+        "Redirect created.": [
+            "تغییر مسیر ایجاد شد"
+        ],
+        "Redirect not created.": [
+            "تغییر مسیر ایجاد نشد."
+        ],
+        "Whether to write redirects into a separate file instead of .htaccess.": [
+            "نوشتن ریدایرکت‌ها در یک فایل جداگانه به جای htaccess."
+        ],
+        "Whether to disable PHP-based redirects and use .htaccess instead.": [
+            "غیرفعال کردن ریدایرکت‌های PHP و استفاده از htaccess. به جای آن"
+        ],
+        "The format of the redirects to retrieve.": [
+            "قالب تغییر مسیرهایی که باید بازیابی شوند."
+        ],
+        "The format of the redirect to create.": [
+            "قالب تغییر مسیری که باید ایجاد شود."
+        ],
+        "Set up regex redirects": [
+            "تنظیم تغییر مسیر های رجکس"
+        ],
+        "Note:": [
+            "توجه:"
+        ],
+        "Add redirect": [
+            "افزودن تغییر مسیر"
+        ],
+        "Web Server": [
+            "Web Server"
+        ],
+        "PHP": [
+            "PHP"
+        ],
+        "Successfully deleted!": [
+            "با موفقیت حذف شد"
+        ],
+        "Please enter the URL.": [
+            "لطفاً URL را وارد کنید"
+        ],
+        "Please enter the regular expression.": [
+            "عبارت منظم رجکس را وارد کنید"
+        ],
+        "Please enter the new URL.": [
+            "لطفا نشانی URL جدید را وارد کنید."
+        ],
+        "Please enter the old URL.": [
+            "لطفا نشانی URL قدیمی را وارد کنید."
+        ],
+        "Redirects settings not updated": [
+            "تنظیمات تغییر مسیر به‌روزرسانی نشده است"
+        ],
+        "Great! Your settings were saved succesfully!": [
+            "عالی! تنظیمات شما با موفقیت ذخیره شد!"
+        ],
+        "Changes saved successfully!": [
+            "تغییرات با موفقیت ذخیره شد"
+        ],
+        "Successfully added!": [
+            "با موفقیت اضافه شد!"
+        ],
+        "Something went wrong when creating this redirect.": [
+            "هنگام ایجاد این تغییر مسیر، مشکلی پیش آمد."
+        ],
+        "Oops! Something went wrong when updating this redirect. Please try again.": [
+            "اوه! هنگام به‌روزرسانی این تغییر مسیر، مشکلی پیش آمد. لطفاً دوباره امتحان کنید."
+        ],
+        "Open menu": [
+            "بازکردن منو"
+        ],
+        "No items found": [
+            "موردی یافت نشد"
+        ],
+        "Sort by Type": [
+            "مرتب سازی بر اساس نوع"
+        ],
+        "Select all": [
+            "انتخاب همه"
+        ],
+        "Regex redirects": [
+            "تغییر مسیر های Regex"
+        ],
+        "Showing %1$d to %2$d of %3$d results": [
+            "نمایش %1$d تا %2$d از %3$d نتیجه"
+        ],
+        "%d Item": [
+            "%d مورد",
+            "%d مورد"
+        ],
+        "Yes, discard changes": [
+            "بله، عدم اعمال تغییرات"
+        ],
+        "No, continue editing": [
+            "خیر، ادامه ویرایش"
+        ],
+        "You are about to discard all unsaved changes. Are you sure?": [
+            "شما در حال حذف تمام تغییرات ذخیره نشده هستید. مطمئنید؟"
+        ],
+        "Discard all changes": [
+            "عدم اعمال همه تغییرات"
+        ],
+        "Discard changes": [
+            "عدم اعمال تغییرات"
+        ],
+        "Save changes": [
+            "ذخیره تغییرات"
+        ],
+        "Redirect Type": [
+            "نوع تغییر مسیر"
+        ],
+        "Filter Redirect type": [
+            "فیلتر با نوع تغییر مسیر"
+        ],
+        "All": [
+            "همه"
+        ],
+        "Search…": [
+            "جستجو…"
+        ],
+        "Select redirects": [
+            "تغییر مسیرها را انتخاب کنید"
+        ],
+        "Delete redirect": [
+            "حذف تغییر مسیر",
+            "انتخاب این تغییر مسیر"
+        ],
+        "Bulk actions": [
+            "عملیات گروهی"
+        ],
+        "Redirects navigation": [
+            "ناوبری تغییر مسیرها"
+        ],
+        "Close redirects navigation": [
+            "ناوبری تغییرمسیرها را ببندید"
+        ],
+        "Open redirects navigation": [
+            "ناوبری تغییرمسیرها را باز کنید"
+        ],
+        "Dismiss popover.": [
+            "رد کردن اعلان"
+        ],
+        "Integrated in your %1$s Analyses": [
+            "در تحلیل‌های %1$s ادغام شده است"
+        ],
+        "Show me %1$s": [
+            "%1$s را به من نشان بده"
+        ],
+        "Save time optimizing your content SEO and readability with smart AI suggestions.": [
+            "با پیشنهادات هوشمند هوش مصنوعی، در زمان بهینه‌سازی سئو و خوانایی محتوای خود صرفه‌جویی کنید."
+        ],
+        "New: Yoast AI Optimize for the Classic Editor!": [
+            "جدید: Yoast AI Optimize برای ویرایشگر کلاسیک!"
+        ],
+        "None of the elements in your content is supported by Yoast AI Optimize. This means you cannot use this feature with your current content.": [
+            "هیچ یک از عناصر موجود در محتوای شما توسط Yoast AI Optimize پشتیبانی نمی‌شوند. این بدان معناست که شما نمی‌توانید از این ویژگی با محتوای فعلی خود استفاده کنید."
+        ],
+        "Paragraph break": [
+            "شکستن پاراگراف"
+        ],
+        "Ensure long paragraphs are shortened or split for better readability.": [
+            "برای خوانایی بهتر، مطمئن شوید که پاراگراف‌های طولانی کوتاه یا به بخش‌های کوچک تقسیم شده‌اند."
+        ],
+        "AI - Paragraph length": [
+            "هوش مصنوعی - طول پاراگراف"
+        ],
+        "Ensure long sentences are shortened or split for better readability.": [
+            "مطمئن شوید که جملات طولانی برای خوانایی بهتر، کوتاه یا تقسیم‌بندی شده‌اند."
+        ],
+        "AI - Sentence length": [
+            "هوش مصنوعی - طول جمله"
+        ],
+        "Start SEO data optimization": [
+            "شروع بهینه سازی داده های سئو"
+        ],
+        "We need to optimize your site’s SEO data so we can offer you the best %1$slinking suggestions%2$s.": [
+            "ما احتیاج داریم تا داده های سئوی سایت شما را بهینه سازی کنیم تا بتوانیم بهترین %1$sپیشنهادهای لینک سازی داخلی%2$s را به شما ارائه کنیم. "
+        ],
+        "Unable to provide linking suggestions": [
+            "ارائه پیشنهادهای لینک سازی داخلی امکان‌پذیر نیست"
+        ],
+        "Install latest %1$s": [
+            "نصب آخرین نسخه %1$s"
+        ],
+        "Your text is too long for the AI model to process.": [
+            "متن شما برای پردازش توسط مدل هوش مصنوعی خیلی طولانی است."
+        ],
+        "Learn more about AI Optimize": [
+            "درباره بهینه سازی هوش مصنوعی بیشتر بدانید (در تب جدید مرورگر باز می شود)"
+        ],
+        "Make content editing a breeze! Optimize your SEO content with quick, actionable suggestions at the click of a button. %1$s%2$sLearn more%3$s%4$s": [
+            "ویرایش محتوا را به کاری آسان تبدیل کنید! با پیشنهادهای سریع و کاربردی، محتوای سئو شده خود را تنها با یک کلیک بهینه کنید. %1$s%2$sاطلاعات بیشتر%3$s%4$s"
+        ],
+        "New to %s": [
+            "جدید برای %s"
+        ],
+        "Grant consent": [
+            "اعطای رضایت"
+        ],
+        "Enable AI-powered SEO! Use all AI Generate and Optimize features to boost your efficiency. Just give us the green light. %1$s%2$sLearn more%3$s%4$s": [
+            "سئوی مبتنی بر هوش مصنوعی را فعال کنید! از تمام ویژگی‌های تولید و بهینه‌سازی هوش مصنوعی برای افزایش کارایی خود استفاده کنید. (متاسفانه این قابلیت صرفا در نسخه ای که مستقیما از سایت Yoast.com خریداری شده فعال میشود و نیازمند پرداخت حق اشتراک سالیانه 99 دلار است. ) فقط به ما چراغ سبز نشان دهید. %1$s%2$sاطلاعات بیشتر%3$s%4$s"
+        ],
+        "Grant consent for %s": [
+            "اعطای رضایت به %s"
+        ],
+        "Got it!": [
+            "متوجه شدم!"
+        ],
+        "While this feature is in beta, you have unlimited sparks.": [
+            "در حالی که این ویژگی در مرحله بتا است، شما جرقه‌های نامحدودی دارید."
+        ],
+        "unlimited": [
+            "نامحدود"
+        ],
+        "The next reset is in %1$s%2$s day.": [
+            "ریست بعدی در %1$s%2$s روز",
+            "ریست بعدی در %1$s%2$s روز"
+        ],
+        "You have %1$s%2$s spark left this month.": [
+            "این ماه %1$s%2$s جرقه برای شما باقی مانده است.",
+            "این ماه %1$s%2$s جرقه برای شما باقی مانده است."
+        ],
+        "You have unlimited sparks left this month.": [
+            "این ماه جرقه‌های نامحدودی برای تو باقی مانده است."
+        ],
+        "Include at least one word from the keyphrase in each subheading.": [
+            "حداقل یک کلمه از عبارت کلیدی را در هر زیرعنوان بگنجانید."
+        ],
+        "AI - Keyphrase in subheadings": [
+            "هوش مصنوعی - عبارت کلیدی در زیرعنوان‌ها"
+        ],
+        "Evenly distribute keyphrase words throughout the text.": [
+            "کلمات کلیدی را به طور مساوی در سراسر متن توزیع کنید."
+        ],
+        "AI - Keyphrase distribution": [
+            "هوش مصنوعی - توزیع عبارت کلیدی"
+        ],
+        "Include words from the keyphrase in the first paragraph of the text.": [
+            "کلمات مربوط به عبارت کلیدی را در پاراگراف اول متن بگنجانید."
+        ],
+        "AI - Keyphrase in introduction": [
+            "AI - عبارت کلیدی در مقدمه"
+        ],
+        "Use keyphrase words in the text frequently but not excessively.": [
+            "از کلمات کلیدی در متن به طور مکرر استفاده کنید، اما نه بیش از حد."
+        ],
+        "AI - Keyphrase density": [
+            "هوش مصنوعی - تراکم عبارت کلیدی"
+        ],
+        "Apply": [
+            "اعمال کردن"
+        ],
+        "Successfully applied!": [
+            "با موفقیت اعمال شد!"
+        ],
+        "block keyword\u0004toc": [
+            "toc"
+        ],
+        "block keyword\u0004links": [
+            "لینک ها"
+        ],
+        "block description\u0004Adds a table of contents to this page.": [
+            "اضافه کردن فهرست مطالب به این صفحه."
+        ],
+        "block title\u0004Yoast Table of Contents": [
+            "فهرست مطالب یوست"
+        ],
+        "block keyword\u0004related pages": [
+            "صفحات مرتبط"
+        ],
+        "block keyword\u0004related posts": [
+            "نوشته های مرتبط"
+        ],
+        "block description\u0004Adds a list of links related to this page.": [
+            "اضافه کردن لیستی از لینک های مرتبط با این برگه."
+        ],
+        "block title\u0004Yoast Related Links": [
+            "مطالب مرتبط یوست"
+        ],
+        "block keyword\u0004content length": [
+            "طول محتوا"
+        ],
+        "block keyword\u0004reading time": [
+            "زمان مطالعه"
+        ],
+        "block description\u0004Shows an estimated reading time based on the content length.": [
+            "زمان تخمینی مطالعه را طبق طول محتوا نشان می دهد."
+        ],
+        "block title\u0004Yoast Estimated Reading Time": [
+            "زمان تخمینی مطالعه Yoast"
+        ],
+        "block keyword\u0004children": [
+            "فرزند"
+        ],
+        "block keyword\u0004childpages": [
+            "برگه های فرزند"
+        ],
+        "block keyword\u0004subpages": [
+            "زیرصفحه ها"
+        ],
+        "block description\u0004Adds a list of internal links to subpages of this page.": [
+            "اضافه کردن لیستی از لینک های داخلی به برگه های فرزند این برگه."
+        ],
+        "block title\u0004Yoast Subpages": [
+            "زیرصفحات یواست"
+        ],
+        "block keyword\u0004site structure": [
+            "ساختار سایت"
+        ],
+        "block keyword\u0004internal linking": [
+            "لینک سازی داخلی"
+        ],
+        "block keyword\u0004siblings pages": [
+            "مشابه ها"
+        ],
+        "block keyword\u0004siblings": [
+            "مشابه ها"
+        ],
+        "block keyword\u0004SEO": [
+            "سئو"
+        ],
+        "block description\u0004Adds a list of internal links to sibling pages which share the same parent.": [
+            "اضافه کردن لیستی از لینک های داخلی به برگه های مشابهی که والدهای یکسانی با یکدیگر دارند."
+        ],
+        "block title\u0004Yoast Siblings": [
+            "مشابه های یوست"
+        ],
+        "X share preview": [
+            "پیش نمایش هنگام اشتراک در X"
+        ],
+        "Social share preview": [
+            "پیش نمایش اشتراک در شبکه های اجتماعی"
+        ],
+        "Allow": [
+            "اجازه"
+        ],
+        "Deny": [
+            "نمی‌پذیرم"
+        ],
+        "To see this video, you need to allow %1$s to load embedded videos from %2$s.": [
+            "برای دیدن این ویدیو، باید به %1$s اجازه دهید تا ویدیوهای فراخوانی شده را از %2$s بارگیری کند."
+        ],
+        "(Opens in a new browser tab)": [
+            "(باز شدن در تب جدید مرورگر)"
+        ],
+        "I approve the %1$sTerms of Service%2$s & %3$sPrivacy Policy%4$s of the Yoast AI service. This includes consenting to the collection and use of data to improve user experience.": [
+            "%1$sشرایط خدمات%2$s و %3$sخط مشی رازداری%4$s سرویس هوش مصنوعی Yoast را تأیید می‌کنم. این شامل موافقت با جمع‌آوری و استفاده از داده‌ها برای بهبود تجربه کاربر است."
+        ],
+        "Dismiss": [
+            "رد کردن اعلان"
+        ],
+        "Next": [
+            "بعدی"
+        ],
+        "Previous": [
+            "قبلی"
+        ],
+        "Close modal": [
+            "بستن"
+        ],
+        "Learn more about AI (Opens in a new browser tab)": [
+            "درباره هوش مصنوعی بیشتر بدانید (در برگه مرورگر جدید باز می‌شود)"
+        ],
+        "AI features": [
+            "امکانات هوش مصنوعی"
+        ],
+        "Update to the latest version of %1$s!": [
+            "به آخرین نسخه%1$s به روز رسانی کنید"
+        ],
+        "Please %2$supdate %1$s to the latest version%3$s to ensure you can fully use all Premium settings and features.": [
+            "لطفا افزونه %1$s دیجیراتی خود را به آخرین نسخه %2$sبه روز کنید%3$s تا بتوانید از همه ویژگی های نسخه پرمیوم بهره‌مند شوید."
+        ],
+        "All Inclusive Language Scores": [
+            "امتیازات فراگیری زبان"
+        ],
+        "Filter by Inclusive Language Score": [
+            "فیلتر بر اساس امتیاز فراگیری زبان"
+        ],
+        "Inclusive language score": [
+            "امتیاز فراگیری زبان"
+        ],
+        "Cornerstone content": [
+            "بنیاد محتوا (cornerstone)"
+        ],
+        "Is this cornerstone content?": [
+            "آیا این محتوای مقاله بنیادی (cornerstone) است؟"
+        ],
+        "%1$sTitle%3$s: Your page does not have a title yet. %2$sAdd one%3$s!": [
+            "%1$sعنوان%3$s: صفحه شما هنوز عنوانی ندارد. %2$sیک عنوان اضافه کنید%3$s!"
+        ],
+        "%1$sTitle%2$s: Your page has a title. Well done!": [
+            "%1$sعنوان%2$s: صفحه شما دارای عنوان است. آفرین!"
+        ],
+        "%1$sKeyphrase distribution%2$s: Good job!": [
+            "%1$sتوزیع عبارت کلیدی%2$s: کارتون خوبه!"
+        ],
+        "%1$sKeyphrase distribution%3$s: Uneven. Some parts of your text do not contain the keyphrase or its synonyms. %2$sDistribute them more evenly%3$s.": [
+            "%1$sتوزیع عبارت کلیدی%3$s: نامناسب. قسمت هایی از محتوای شما کلیدواژه کانونی یا مترادف های آن را شامل نمی شود. %2$sسعی کنید توزیع کلیدواژه را مناسب تر کنید%3$s."
+        ],
+        "%1$sKeyphrase distribution%3$s: Very uneven. Large parts of your text do not contain the keyphrase or its synonyms. %2$sDistribute them more evenly%3$s.": [
+            "%1$sتوزیع عبارت کلیدی%3$s: بسیار نامناسب. بخش های زیادی از محتوای شما کلیدواژه کانونی یا مترادف های آن را شامل نمی شود. %2$sسعی کنید توزیع کلیدواژه را مناسب تر کنید%3$s."
+        ],
+        "%1$sWord complexity%2$s: You are not using too many complex words, which makes your text easy to read. Good job!": [
+            "%1$sپیچیدگی واژگان%2$s: شما از کلمات پیچیده زیادی استفاده نمی‌کنید که باعث می‌شود متن شما خوانا باشد. آفرین!"
+        ],
+        "%1$sWord complexity%4$s: %2$s of the words in your text are considered complex. %3$sTry to use shorter and more familiar words to improve readability%4$s.": [
+            "%1$sپیچیدگی واژگان%4$s: تعداد %2$s تا از کلمات متن شما پیچیده در نظر گرفته شده‌اند. %3$sسعی کنید از کلمات کوتاه‌تر و آشناتر برای بهبود خوانایی استفاده کنید%4$s."
+        ],
+        "%1$sAlignment%3$s: There is a long section of center-aligned text. %2$sWe recommend making it left-aligned%3$s.": [
+            "%1$sترازبندی%3$s: بخشی طولانی از متن شما بصورت وسط چین ترازبندی شده است. %2$sتوصیه میکنیم آن را چپ چین کنید%3$s.",
+            "%1$sترازبندی%3$s: تعداد %4$s بخش طولانی از متن شما بصورت وسط چین ترازبندی شده است. %2$sتوصیه میکنیم آنها را چپ چین کنید%3$s."
+        ],
+        "%1$sAlignment%3$s: There is a long section of center-aligned text. %2$sWe recommend making it right-aligned%3$s.": [
+            "%1$sترازبندی%3$s: بخشی طولانی از متن شما بصورت وسط چین ترازبندی شده است. %2$sتوصیه میکنیم آن را راست چین کنید%3$s.",
+            "%1$sترازبندی%3$s: تعداد %4$s بخش طولانی از متن شما بصورت وسط چین ترازبندی شده است. %2$sتوصیه میکنیم آنها را راست چین کنید%3$s."
+        ],
+        "Select image": [
+            "انتخاب تصویر"
+        ],
+        "You might not even know it, but there may be pages on your site that don't get any links. That’s an SEO issue, because it’s difficult for search engines to find pages that don't get any links. So, it's harder for them to rank. We call these pages orphaned content. In this workout, we find the orphaned content on your site and guide you in quickly adding links to it, so it can get a chance to rank!": [
+            "شاید شما ندانید ، اما ممکن است صفحاتی در سایت شما وجود داشته باشد که هیچ لینکی از سایر مطالب به آنها داده نشده. این یک مشکل SEO است ، زیرا برای موتورهای جستجو پیدا کردن صفحاتی که هیچ لینکی از سایر مطالب ندارند دشوار تر است. بنابراین، رتبه بندی برای آنها سخت تر است. ما در ترجمه دیجیراتی این صفحات را محتوای تنها (orphaned content) نامگذاری میکنیم. در این تمرین ، ما محتوای تنها را در سایت شما پیدا می کنیم و شما را در افزودن سریع لینک به آن راهنمایی می کنیم ، بنابراین محتوا های تنهای شما هم می توانند فرصتی برای رتبه بندی پیدا کنند!"
+        ],
+        "Time to add some links! Below, you see a list with your orphaned articles. Under each one, there are suggestions for related pages you could add a link from. When adding the link, make sure to insert it in a relevant sentence related to your orphaned article. Keep adding links to each of the orphaned articles until you are satisfied with the amount of links pointing to them.": [
+            "زمان اضافه کردن چند لینک فرا رسیده! در زیر، لیستی از مقالات تنهای سایت شما وجود دارد. در زیر هر مقاله، مطالب پیشنهادی وجود دارند که می‌توانید از آنها به مقاله خود لینک بدهید. وقتی می خواهید لینکی اضافه کنید مطمئن باشید که لینک را در جمله ای انتخاب کنید که مرتبط با مقاله شماست. لینک ها را از هر تعداد مقاله که دوست دارید و نیاز است به سمت مقاله خود اضافه کنید تا وقتی که مقاله شما از تنهایی خارج شده و تعداد مناسبی لینک از سایر مطالب را به خودش اختصاص دهد."
+        ],
+        "Time to add some links! Below, you see a list with your cornerstones. Under each cornerstone, there are suggestions for articles you could add a link from. When adding the link, make sure to insert it in a relevant sentence related to your cornerstone article. Keep adding links from as many related articles as you need, until your cornerstones have the most internal links pointing towards them.": [
+            "زمان اضافه کردن چند لینک فرا رسیده! در زیر، لیستی از مقالات بنیاد محتوای شما وجود دارد. در زیر هر مقاله، مطالب پیشنهادی وجود دارند که می‌توانید از آنها به مقاله بنیاد محتوای خود لینک بدهید. وقتی می خواهید لینکی اضافه کنید مطمئن باشید که لینک را در جمله ای انتخاب کنید که مرتبط با مقاله بنیاد محتوای شماست. لینک ها را از هر تعداد مقاله که دوست دارید و نیاز است به سمت مقاله بنیاد محتوای خود اضافه کنید تا وقتی که مقاله بنیاد محتوای شما بیشترین لینک داخلی از سایر مطالب را به خودش اختصاص دهد."
+        ],
+        "Some articles on your site are %1$sthe%2$s most important. They answer people's questions and solve their problems. So, they deserve to rank! At %3$s, we call these cornerstone articles. One of the ways to have them rank is to point enough links to them. More links signal to search engines that those articles are important and valuable. In this workout, we'll help you add links to your cornerstone articles!": [
+            "در سایت شما مقالاتی هستند که %1$sمهمترین%2$s مقالات به شمار می روند. این مقالات پاسخ سوال کاربران را در خود جای می دهند و مشکلات آنها را رفع میکنند، بنابراین شما دوست دارید بهترین رتبه گوگل را با این مقالات دریافت کنید. در %3$s ما به این مقالات بنیاد محتوا می گوییم. یکی از راه هایی که برای کسب رتبه خوب برای این مقالات وجود دارد این است که به اندازه کافی از سایر مطالب به آنها لینک داده شود. هرچه تعداد لینک ها بیشتر باشد، به موتورهای جستجو این سیگنال داده می شود که این مطالب مهمتر و ارزشمند تر هستند. در این تمرین به شما کمک میکنیم تا لینک هایی به مقالات بنیاد محتوای خود هدایت کنید."
+        ],
+        "Once you add a bit more copy, we'll be able to tell you the formality level of your text.": [
+            "چنانچه کمی بیشتر محتوا ثبت کنید، می توانیم سطح رعایت آداب و رسوم در متن شما را به شما بگوییم."
+        ],
+        "Overall, your text appears to be %1$s%3$s%2$s.": [
+            "به طور کلی، متن شما %1$s%3$s%2$s به نظر می‌رسد."
+        ],
+        "Maximum heading level": [
+            "حداکثر سطح عنوان"
+        ],
+        "https://yoa.st/team-yoast-premium": [
+            "https://www.zhaket.com/web/yoast-seo-premium-wordpress-plugin"
+        ],
+        "Mastodon profile URL": [
+            "لینک پروفایل Mastodon"
+        ],
+        "You have disabled Link suggestions, which is needed for Related links to work. If you want to add Related links, please go to <a>Site features</a> and enable Link suggestions.": [
+            "شما قابلیت پیشنهاد دهنده لینک داخلی که برای عملکرد صحیح لینک های مرتبط نیاز است را غیرفعال کرده اید. اگر می خواهید لینک های مرتبط را اضافه کنید، لطفا ابتدا قابلیت پیشنهاد دهنده لینک داخلی را در <a>ویژگی های سایت</a> فعال کنید."
+        ],
+        "Beta": [
+            "آزمایشی"
+        ],
+        "Schema": [
+            "اسکیما (Schema)"
+        ],
+        "Meta tags": [
+            "تگ های متا"
+        ],
+        "Not available": [
+            "در دسترس نیست"
+        ],
+        "Checks": [
+            "چک ها"
+        ],
+        "Focus Keyphrase": [
+            "عبارت کلیدی"
+        ],
+        "Good": [
+            "خوب"
+        ],
+        "No index": [
+            "بدون ایندکس"
+        ],
+        "Front-end SEO inspector": [
+            "کاوشگر سئوی قسمت جلویی (Front-end)"
+        ],
+        "Focus keyphrase not set": [
+            "عبارت کلیدی اصلی تنظیم نشده است."
+        ],
+        "Disabled": [
+            "غیر فعال شده"
+        ],
+        "Read more about why web server redirect methods have been disabled on a multisite.": [
+            "در مورد اینکه چرا روش های تغییر مسیر در وب سایت شبکه ای غیرفعال شده است، بیشتر بخوانید."
+        ],
+        "Since this site is a multisite, web server redirect methods have been disabled to prevent issues.": [
+            "از آنجایی که این سایت، از نوع شبکه ای است، برای جلوگیری از مشکلات، روش های تغییر مسیر سرور وب غیرفعال شده است."
+        ],
+        "Please note: For this workout to work well, you need to run the SEO data optimization tool. Admins can run this under %1$sSEO > Tools%2$s.": [
+            "توجه: برای اینکه این تمرین به خوبی انجام شود و به شما پیشنهادات خوبی برای لینک سازی بدهد باید بهینه سازی داده های سئو را انجام داده باشید. مدیر سایت می تواند از %1$sمنوی سئو، به بخش ابزارها رفته%2$s و گزینه بهبود داده های سئو یا SEO data optimization را اجرا کند."
+        ],
+        "You've added links to your orphaned articles, and you’ve cleaned up the ones that were no longer relevant. Great job! Take a look at the summary below and celebrate what you accomplished!": [
+            "شما لینک هایی را به مقالات تنهای خود اضافه کرده اید و مواردی را که دیگر مرتبط نیستند پاک کرده اید. کارت عالی بود! به خلاصه زیر نگاه کنید و آنچه را که انجام داده اید جشن بگیرید!"
+        ],
+        "Critically examine the content in this list and make the necessary updates. If you need help updating, we have a very %1$suseful blog post that can guide you all the way%2$s (click to open in a new tab).": [
+            "مطالب موجود در این لیست را با حساسیت بالا و به قید فوریت بررسی کرده و به روز رسانی های لازم را انجام دهید. اگر برای به روزرسانی به راهنمایی نیاز دارید ، ما %1$sیک پست وبلاگ بسیار عالی داریم که می تواند شما را تا پایان راهنمایی کند%2$s (برای باز کردن در یک تب جدید کلیک کنید)."
+        ],
+        "%1$sNeed more guidance? We've covered every step in more detail in the following guide: %2$sHow to use the %7$s orphaned content workout%3$s%4$s%5$s.%6$s": [
+            "%1$sراهنمایی بیشتری نیاز دارید؟ اطلاعات بیشتر برای هر مرحله در %2$sروش انجام تمرین محتوای تنها در %7$s %3$s%4$s%5$s.%6$s"
+        ],
+        "You just made your best content easy to find, and more likely to rank! Way to go! From time to time, remember to check if your cornerstones are getting enough links!": [
+            "شما کاری کردید تا بهترین محتوایتان راحت تر پیدا شوند و احتمال کسب رتبه نخست برای آنها بیشتر شود! هر از گاهی، به یاد داشته باشید که آیا مقالات بنیاد محتوای شما لینک های کافی دریافت می کنند یا خیر!"
+        ],
+        "Take a look at the list below. Do your cornerstones (marked with %1$s) have the most internal links pointing towards them? Click the Optimize button if you think a cornerstone needs more links. That will move the article to the next step.": [
+            "به لیست زیر نگاه کنید. مقالان بنیاد محتوا (نشانه گذاری شده با %1$s) بیشترین لینک های داخلی را به سمت خود جذب کرده اند؟ اگر فکر میکنید یک مقاله بنیاد محتوا نیازمند لینک بیشتری است روی گزینه Optimize کلیک کنید. این کار مقاله موردنظر را به مرحله بعد منتقل خواهد کرد. "
+        ],
+        "Do all of your cornerstones have green bullets? For the best results, consider editing the ones that don't!": [
+            "وضعیت سئوی همه مطالب بنیاد محتوای شما سبز است؟ برای داشتن بهترین نتیجه، آنهایی که سبز نیستند را ویرایش کنید و بهبود بدهید!"
+        ],
+        "Which articles do you want to rank the highest? Which ones would your audience find the most useful and complete? Click the downward pointing arrow and look for articles that fit those criteria. We'll automatically mark the articles you select from the list as cornerstone.": [
+            "کدام مقالات میخواهید بیشترین امتیار را داشته باشند؟ کدامیک برای کاربران شما مفیدتر و کاربردی تر خواهد بود؟ روی پیکان زیر کلیک کنید و بدنبال مقالاتی باشید که این شرایط را دارند. ما بصورت خودکار مواردی که شما انتخاب میکنید را بعنوان مقاله بنیاد محتوا نشانه گذاری خواهیم کرد."
+        ],
+        "%1$sNeed more guidance? We've covered every step in more detail in: %2$sHow to use the %7$s cornerstone workout%3$s%4$s%5$s.%6$s": [
+            "%1$sراهنمایی بیشتری نیاز دارید؟ اطلاعات بیشتر برای هر مرحله در %2$sراهنمای عملی بنیاد محتوا %7$s %3$s%4$s%5$s%6$s"
+        ],
+        "Finish optimizing": [
+            "پایان بهینه سازی"
+        ],
+        "You've finished adding links to this article.": [
+            "افزودن لینک به این مقاله را به پایان رساندید."
+        ],
+        "Optimize": [
+            "بهینه سازی"
+        ],
+        "Added to next step": [
+            "به مرحله بعدی اضافه شد"
+        ],
+        "Choose cornerstone articles...": [
+            "مقالات بنیاد محتوا را انتخاب کنید..."
+        ],
+        "Loading data...": [
+            "در حال بارگذاری ..."
+        ],
+        "You haven't cleaned up or updated any articles yet using this workout. Once you do, a summary of your work will show up here.": [
+            "هنوز هیچ مقاله ای را با استفاده از این تمرین، تمیز یا به روز نکرده اید. پس از انجام این کار ، خلاصه ای از کارهای شما در اینجا نشان داده می شود."
+        ],
+        "Skipped": [
+            "رد شده"
+        ],
+        "Hidden from search engines.": [
+            "پنهان در موتورهای جستجو"
+        ],
+        "Removed": [
+            "حذف شده"
+        ],
+        "Improved": [
+            "بهبود یافته"
+        ],
+        "Resolution": [
+            "دقت"
+        ],
+        "Loading redirect options...": [
+            "در حال بارگذاری گزینه های تغییر مسیر..."
+        ],
+        "Remove and redirect": [
+            "حذف و تغییر مسیر"
+        ],
+        "Custom url:": [
+            "URL سفارشی:"
+        ],
+        "Related article:": [
+            "مطلب مرتبط:"
+        ],
+        "Home page:": [
+            "صفحه اصلی:"
+        ],
+        "You are about to remove %1$s%2$s%3$s. To prevent 404s on your site, you should redirect it to another page on your site. Where would you like to redirect it?": [
+            "شما در حال حذف %1$s%2$s%3$s هستید. برای جلوگیری از خطای 404 در سایت خود، باید آن را به صفحه دیگری در سایت ریدایرکت کنید. دوست دارید آن را به کجا هدایت کنید؟"
+        ],
+        "SEO Workout: Remove article": [
+            "تمرین سئو: حذف مقاله"
+        ],
+        "Everything's looking good! We haven't found any articles on your site that are older than six months and receive too few links on your site. Check back here later for new cleanup suggestions!": [
+            "همه چیز خوب به نظر می رسد! ما هیچ مقاله ای در سایت شما پیدا نکرده ایم که بیش از شش ماه سن داشته و پیوندهای بسیار کمی در سایت شما دریافت کرده باشد. بعداً برای پیشنهادات جدید پاکسازی به اینجا مراجعه کنید!"
+        ],
+        "Hide from search engines": [
+            "پنهان کردن از موتورهای جستجو"
+        ],
+        "Improve": [
+            "بهبود"
+        ],
+        "Are you sure you wish to hide this article from search engines?": [
+            "مطمئنید که می خواهید این مقاله را از موتورهای جستجو پنهان کنید؟"
+        ],
+        "Action": [
+            "عمل"
+        ],
+        "You've hidden this article from search engines.": [
+            "شما این مقاله را از موتورهای جستجو پنهان کرده اید."
+        ],
+        "You've removed this article.": [
+            "شما این مقاله را حذف کرده اید."
+        ],
+        "You currently haven't selected any articles to improve. Select a few articles in the previous steps to add links to and we will show you link suggestions here.": [
+            "درحال حاضر شما هیچ محتوایی را برای بهبود دادن انتخاب نکرده‌اید. مقالاتی که میخواهید به آنها لینک بدهید را در مرحله قبلی انتخاب کنید تا به شما پیشنهاد بدهیم از کدام مطالب به مقالات موردنظرتان لینک سازی کنید."
+        ],
+        "Loading link suggestions...": [
+            "در حال بارگذاری لینک های پیشنهادی..."
+        ],
+        "We didn’t find any suggestions for this article, but of course you can still add links to articles that you think are related.": [
+            "ما هیچ پیشنهادی برای این مقاله پیدا نکردیم ، اما شما همچنان می توانید بصورت دستی پیوندهایی را به مقالاتی که فکر می کنید مرتبط هستند ، اضافه کنید."
+        ],
+        "Skip": [
+            "صرف نظر"
+        ],
+        "You haven't selected any articles for this step yet. You can do so in the previous step.": [
+            "شما هنوز هیچ مقاله ای برای این مرحله انتخاب نکرده اید. می توانید در مرحله قبل این کار را انجام دهید."
+        ],
+        "Is it up-to-date?": [
+            "آیا به روز است؟"
+        ],
+        "Last Updated": [
+            "آخرین به روز رسانی"
+        ],
+        "You've moved this article to the next step.": [
+            "شما این مقاله را به مرحله بعدی منتقل کرده اید."
+        ],
+        "Unknown": [
+            "نامعلوم"
+        ],
+        "Clear summary": [
+            "پاک کردن خلاصه گزارش"
+        ],
+        "Add internal links towards your orphaned articles.": [
+            "لینک های داخلی را به سمت مقالات تنهای خود اضافه کنید"
+        ],
+        "Should you update your article?": [
+            "آیا باید مقاله خود را به روز کنید؟"
+        ],
+        "Your site may contain lots of content that you created once and never looked back to it since. It's important to go through those pages and ask yourself if that content is still relevant to your site. Should you improve it or remove it?": [
+            "سایت شما ممکن است حاوی محتوای زیادی باشد که یکبار ایجاد کرده اید و از آن زمان دیگر به آن نگاه نکرده اید. مهم است که آن صفحات را مرور کرده و از خود بپرسید که آیا هنوز هم آن محتوا مربوط به سایت شما است یا خیر. آیا باید آن را بهبود بخشید یا حذف کنید؟"
+        ],
+        "Start: Love it or leave it?": [
+            "شروع: دوستش دارید یا ترکش می کنید؟"
+        ],
+        "Clean up your unlinked content to make sure people can find it": [
+            "محتوای تنهای خود را تمیز کنید تا مطمئن شوید کاربران می توانند آن را پیدا کنند"
+        ],
+        "I've finished this workout": [
+            "این تمرین را تمام کردم"
+        ],
+        "Reset this workout": [
+            "بازنشانی (reset) کردن این تمرین"
+        ],
+        "Well done!": [
+            "خیلی خوبه!"
+        ],
+        "Add internal links towards your cornerstones": [
+            "لینک های داخلی را به سمت مقالات بنیاد محتوای خود اضافه کنید"
+        ],
+        "Check the number of incoming internal links of your cornerstones": [
+            "تعداد لینک های داخلی ورودی به مقالات بنیاد محتوای خود را بررسی کنید"
+        ],
+        "Start: Choose your cornerstones!": [
+            "شروع: محتواهای بنیادی خود را انتخاب کنید!"
+        ],
+        "The cornerstone approach": [
+            "رویکرد بنیاد محتوا (cornerstone)"
+        ],
+        "Please note: For this workout to work well and to offer you linking suggestions, you need to run the SEO data optimization tool. Admins can run this under %1$sSEO > Tools%2$s.": [
+            "توجه: برای اینکه این تمرین به خوبی انجام شود و به شما پیشنهادات خوبی برای لینک سازی بدهد باید بهینه سازی داده های سئو را انجام داده باشید. مدیر سایت می تواند از %1$sمنوی سئو، به بخش ابزارها رفته%2$s و گزینه بهبود داده های سئو یا SEO data optimization را اجرا کند."
+        ],
+        "Please note: Your admin has disabled the cornerstone functionality in the SEO settings. If you want to use this workout, it should be enabled.": [
+            "توجه: مدیر سایت قابلیت بنیاد محتوا را در تنظیمات سئو غیرفعال کرده است. اگر میخواهید این تمرین را انجام دهید باید این قابلیت فعال شود."
+        ],
+        "I've finished this step": [
+            "این مرحله را تمام کردم"
+        ],
+        "Revise this step": [
+            "اصلاح کردن این مرحله"
+        ],
+        "We were unable to find internal links on your pages. Either you haven't added any internal links to your content yet, or Yoast SEO didn't index them. You can have Yoast SEO index your links by running the SEO data optimization under SEO > Tools.": [
+            "نتوانستیم لینک های داخلی در برگه های شما پیدا کنیم. یا هنوز لینک داخلی به مطالبتان اضافه نکرده اید یا یوست سئو هنوز آنها را ایندکس نکرده. برای ایندکس توسط یوست سئو می توانید از منوی سئو، به بخش ابزارها رفته و گزینه بهبود داده های سئو یا SEO data optimization را اجرا کنید."
+        ],
+        "Incoming links": [
+            "لینک های ورودی"
+        ],
+        "Edit to add link": [
+            "ویرایش برای اضافه کردن لینک"
+        ],
+        "%s incoming link": [
+            "%s لینک ورودی",
+            "%s لینک ورودی"
+        ],
+        "You currently have no articles marked as cornerstone. When you mark your articles as cornerstone, they will show up here.": [
+            "درحال حاضر شما هیچ محتوایی را به عنوان بنیاد محتوا علامت گذاری نکرده اید. وقتی محتوایی را بصورت بنیاد محتوا علامت گذاری کنید در اینجا نمایش داده می شود."
+        ],
+        "Focus keyphrase": [
+            "عبارت کلیدی اصلی"
+        ],
+        "Article": [
+            "مقاله"
+        ],
+        "Readability score": [
+            "نمره خوانایی"
+        ],
+        "SEO score": [
+            "نمره سئو"
+        ],
+        "Copy failed": [
+            "کپی انجام نشد"
+        ],
+        "Improve rankings for all your cornerstones by using this %1$sstep-by-step workout!%2$s": [
+            "به کمک این %1$sتمرین قدم به قدم%2$s نمره محتواهای بنیادی (Cornerstone) در سایت خود را بهبود دهید."
+        ],
+        "Installation Successful": [
+            "نصب با موفقیت انجام شد!"
+        ],
+        "Browse our courses": [
+            "دوره‌های آموزشی ما را مشاهده کنید"
+        ],
+        "%1$s grants you direct access to %2$sall premium %3$s academy courses%4$s. Learn all the ins and outs of holistic SEO from industry experts.": [
+            "افزونه %1$s اجازه دسترسی به %2$sدوره های آموزشی %3$s %4$s را به شما می دهد. تمام نکات سئو را از کارشناسان این حوزه یاد بگیرید."
+        ],
+        "Master vital SEO skills with our online courses": [
+            "مهارت های حیاتی SEO را با دوره های آنلاین ما یاد بگیرید"
+        ],
+        "Check out the Redirect Manager": [
+            "تغییر مسیرها را بررسی کنید"
+        ],
+        "The %1$s %2$sRedirect Manager%3$s automatically prevents visitors from reaching a dead end whenever you move or delete content. It also makes managing your existing redirects easy.": [
+            "افزونه %1$s با قابلیت %2$sتغییر مسیرها%3$s به صورت خودکار هنگامی که نوشته ای را حذف میکنید یا آن را جابجا میکنید (نامک را تغییر می دهید) مانع از گم شدن کاربران می شود. همچنین این ابزار به شما امکان مدیریت آسان تغییر مسیرهای دلخواه را نیز می دهد."
+        ],
+        "Keep your site well-organised so people won't get lost": [
+            "سایت خود را به خوبی سازماندهی کنید تا کاربران گم نشوند"
+        ],
+        "Score some more green bullets": [
+            "توپ‌های سبز رنگ بیشتری بدست آورید"
+        ],
+        "Different people search with different search terms. With our %1$spremium analysis%2$s, you are free to use variations and synonyms of your keywords in your content, which will make your writing style far more natural.": [
+            "کاربران مختلف با کلیدواژه های مختلف جستجوی خود را انجام می دهند. به کمک %1$sسیستم تجزیه و تحلیل پرمیوم ما%2$s شما میتوانید به راحتی کلمات کلیدی مرتبط و مترادف های آنها را در محتوا استفاده کرده و به این شیوه سبک نوشتاری خود را برای پوشش بیشتر حالت های جستجوی کاربران مختلف ارتقا دهید."
+        ],
+        "Optimize your content further with our smart analysis": [
+            "با تجزیه و تحلیل هوشمند ما محتوای خود را بیشتر بهینه کنید"
+        ],
+        "Do the cornerstone workout!": [
+            "تمرین بنیاد محتوا را انجام دهید!"
+        ],
+        "%1$sCornerstone content%2$s is the content on your site that’s most important. You want to rank highest in Google with these articles. Make sure your internal linking structure reflects what pages are most important. Want to know how?": [
+            "%1$sمقاله بنیاد محتوا%2$s محتوایی در سایت شماست که از اهمیت بسیار زیادی برخوردار است. شما دوست دارید بهترین رتبه گوگل را با این مقالات دریافت کنید و به این منظور باید مطمئن شوید ساختار لینک سازی داخلی شما به شکلی است که نشان می دهد کدام مقالات شما مهم ترین آنها هستند. میخواهید بدانید چطور باید این کار را انجام دهید؟"
+        ],
+        "Rank with articles you want to rank with": [
+            "رتبه خوب را از مقالاتی که می خواهید با آنها رتبه خوبی بگیرید، دریافت کنید"
+        ],
+        "So, what's next?": [
+            "حالا مرحله بعدی چیه؟"
+        ],
+        "Installation successful!": [
+            "نصب با موفقیت انجام شد!"
+        ],
+        "The info you add below is added to the data Yoast SEO outputs in its schema.org output, for instance when you're the author of a page. Please only add the info you feel good sharing publicly.": [
+            "اطلاعاتی که در ادامه وارد می‌کنید، (به عنوان مثال وقتی نویسنده یک صفحه هستید) به اطلاعات خروجی یوست سئو در بخش schema.org اضافه می‌شود. لطفا فقط اطلاعاتی را اضافه کنید که تمایل دارید به‌صورت عمومی در سرح وب در دسترس قرار بگیرد."
+        ],
+        "Yoast SEO Schema enhancements": [
+            "بهبودهای اسکیمای یوست سئو"
+        ],
+        "E.g. %1$sAcme inc%2$s": [
+            "مثال: %1$sAcme inc%2$s"
+        ],
+        "Employer name": [
+            "نام متقاضی"
+        ],
+        "E.g. %1$ssoftware engineer%2$s": [
+            "مثال: %1$ssoftware engineer%2$s"
+        ],
+        "Employer information": [
+            "اطلاعات متقاضی"
+        ],
+        "Comma separated, e.g. %1$sEnglish, French, Dutch%2$s": [
+            "جداسازی با کامای انگلیسی. مثال: %1$sEnglish, French, Dutch%2$s"
+        ],
+        "Language(s) spoken": [
+            "زبان‌هایی که صحبت می‌کنید"
+        ],
+        "Comma separated, e.g. %1$sPHP, JavaScript, 90's rock music%2$s": [
+            "جداسازی با کامای انگلیسی. مثال: %1$sPHP, JavaScript, 90's rock music%2$s"
+        ],
+        "Expertise in": [
+            "دارای تخصص در"
+        ],
+        "Comma separated, e.g. %1$sMost likely to succeed - 1991, Smartest in class - 1990%2$s": [
+            "جداسازی با کامای انگلیسی. مثال: %1$sMost likely to succeed - 1991, Smartest in class - 1990%2$s"
+        ],
+        "Awards": [
+            "جوایز"
+        ],
+        "Extra information": [
+            "اطلاعات بیشتر"
+        ],
+        "E.g. %1$sfemale%2$s, %1$smale%2$s, %1$snon-binary%2$s": [
+            "مثال: %1$sfemale%2$s, %1$smale%2$s, %1$snon-binary%2$s"
+        ],
+        "Gender": [
+            "جنسیت"
+        ],
+        "Use format: %1$sYYYY-MM-DD%2$s": [
+            "استفاده از الگو: %1$sYYYY-MM-DD%2$s"
+        ],
+        "Birth date": [
+            "تاریخ تولد"
+        ],
+        "E.g. %1$sMD%2$s, %1$sPhD%2$s": [
+            "مثال: %1$sMD%2$s, %1$sPhD%2$s"
+        ],
+        "Honorific suffix": [
+            "پسوند-لقب"
+        ],
+        "E.g. %1$sDr%2$s, %1$sMs%2$s, %1$sMr%2$s": [
+            "مثال: %1$sDr%2$s, %1$sMs%2$s, %1$sMr%2$s"
+        ],
+        "Honorific prefix": [
+            "پیشوند"
+        ],
+        "Basic information": [
+            "اطلاعات اولیه"
+        ],
+        "Custom fields to include in page analysis": [
+            "زمینه های سفارشی را به آنالیز صفحه خود اضافه کنید"
+        ],
+        "Learn more about including custom fields in the page analysis": [
+            "اطلاعات بیشتر درباره افزودن زمینه‌های سفارشی به آنالیز صفحه"
+        ],
+        "Job title": [
+            "عنوان شغل"
+        ],
+        "%2$sActivate %1$s now%3$s": [
+            "%2$فعال کردن %1$s%3$s"
+        ],
+        "%2$sUpgrade %1$s now%3$s": [
+            "%2$sبروزرسانی %1$s همین الان%3$s"
+        ],
+        "%2$sInstall %1$s now%3$s": [
+            "%2$sنصب %1$s%3$s"
+        ],
+        "%1$s %2$s must be installed and activated in order to use %3$s.": [
+            "برای استفاده از %3$s لازم است تا ابتدا %1$s %2$s از مخزن وردپرس نصب و فعال شود."
+        ],
+        "%2$sNetwork Activate %1$s now%3$s": [
+            "%2$sفعالسازی %1$s در شبکه%3$s"
+        ],
+        "Please contact a network administrator to install %1$s %2$s.": [
+            "لطفا برای نصب %1$s %2$s با مدیر شبکه تماس بگیرید."
+        ],
+        "Please contact an administrator to install %1$s %2$s.": [
+            "لطفا برای نصب %1$s %2$s با مدیر سایت تماس بگیرید."
+        ],
+        "Descriptive text": [
+            "متن توصیفی"
+        ],
+        "Show the descriptive text": [
+            "نمایش متن توصیفی"
+        ],
+        "Show icon": [
+            "نمایش آیکون"
+        ],
+        "minute": [
+            "دقیقه",
+            "دقیقه"
+        ],
+        "Settings": [
+            "تنظیمات"
+        ],
+        "Filter": [
+            "فیلتر"
+        ],
+        "Edit": [
+            "ویرایش"
+        ],
+        "OK": [
+            "تایید"
+        ],
+        "Close": [
+            "ببند"
+        ],
+        "title": [
+            "عنوان"
+        ],
+        "meta description": [
+            "توضیحات متا"
+        ],
+        "Create Redirect": [
+            "ایجاد تغییر مسیر"
+        ],
+        "Redirects": [
+            "تغییر مسیرها"
+        ],
+        "URL": [
+            "آدرس"
+        ],
+        "Redirect import failed: the Redirection plugin is not installed or activated.": [
+            "وارد کردن تغییر مسیر انجام نشد:  پلاگین تغییر مسیر نصب نشده است و یا فعال نمی‌باشد."
+        ],
+        "Redirect import failed: no redirects found.": [
+            "وارد کردن انتقال آدرس ها انجام نشد: هیچ انتقال آدرسی یافت نشد."
+        ],
+        "You have unsaved redirects, are you sure you want to leave?": [
+            "شما تغییر مسیر ها را ذخیره نکردید، مطمئنید که می‌خواهید این صفحه را ترک کنید؟"
+        ],
+        "New URL": [
+            "نشانی جدید"
+        ],
+        "Delete": [
+            "حذف"
+        ],
+        "Search": [
+            "جستجو"
+        ],
+        "Save Changes": [
+            "ذخیره تغییرات"
+        ],
+        "Regex Redirects": [
+            "تغییر مسیرهای عبارات قاعده‌مند (Regex)"
+        ],
+        "Old URL": [
+            "نشانی قدیمی"
+        ],
+        "Add Redirect": [
+            "افزودن تغییر مسیر"
+        ],
+        "As you're on Nginx, you should add the following include to the Nginx config file:": [
+            "از آنجایی که سرویس دهندۀ سایت شما NGINX می‌باشد، باید تنظیمات زیر را در پرونده Nginx وارد کنید:"
+        ],
+        "As you're on Apache, you should add the following include to the website httpd config file:": [
+            "از آنجایی که سرویس دهندۀ سایت شما Apache می‌باشد، باید تنظیمات زیر را در پروندۀ پیکربندی httpd اضافه کنید:"
+        ],
+        "The first true all-in-one SEO solution for WordPress, including on-page content analysis, XML sitemaps and much more.": [
+            "اولین و قدرتمندترین راهکار جامع و واقعی سئو برای وردپرس ، از جمله تحلیل محتوا در صفحه، نقشه XML و ... ارائه شده به صورت کاملا اورجینال در ژاکِت"
+        ],
+        "Type": [
+            "نوع"
+        ],
+        "We're unable to save the redirects to your %s file. Please make the file writable.": [
+            "ما نمی توانیم انتقال آدرس را در فایل htaccess. شما بنویسیم، مطمئن شوید که این فایل قابلیت نوشتن دارد."
+        ],
+        "Generate a separate redirect file": [
+            "ساختن یک فایل تغییر مسیر جداگانه"
+        ],
+        "Import .htaccess": [
+            "وارد کردن پروندۀ .htaccess"
+        ],
+        "The old URL field can't be empty.": [
+            "بخش آدرس قدیم نمی تواند خالی بماند"
+        ],
+        "The new URL field can't be empty.": [
+            "بخش آدرس جدید نمی تواند خالی بماند"
+        ],
+        "Error while saving this redirect": [
+            "خطا هنگام ذخیره کردن انتقال آدرس ها"
+        ],
+        "New type can't be empty.": [
+            "نوع جدید نمیتونه خالی باشه"
+        ],
+        "Team Yoast": [
+            "تیم Yoast"
+        ],
+        "You can't redirect a URL to itself.": [
+            "شما نمی توانید یک نشانی را به خودش تغییر مسیر دهید!"
+        ],
+        "By default we write the redirects to your %s file, check this if you want the redirects written to a separate file. Only check this option if you know what you are doing!": [
+            "به طور پیش فرض دستورات انتقال توسط فایل htaccess. انجام می شود، در صورتی که می خواهید این کار توسط فایل دیگری انجام شود، این گزینه را انتخاب کنید. تنها در صورتی که آگاهی کامل دارید این گزینه را انتخاب کنید."
+        ],
+        "Regular Expression": [
+            "تطبیق رشته در متن (عبارت باقاعده)"
+        ],
+        "Write redirects to the %1$s file. Make sure the %1$s file is writable.": [
+            "نوشتن تغییر مسیر در فایل  %1$s . اطمینان حاصل کنید که فایل %1$s قابل نوشتن است."
+        ],
+        "Import redirects from %s": [
+            "وارد کردن تغییر مسیر ها از %s"
+        ],
+        "The Regular Expression field can't be empty.": [
+            "فیلد تطبیق رشته در متن نمی تواند خالی باشد."
+        ],
+        "Please enter the new URL for %s": [
+            "لطفاً برای %s نشانی جدید وارد کنید"
+        ],
+        "Redirect created from %1$s to %2$s!": [
+            "تغییرمسیر از %1$s به%2$sانجام شد !"
+        ],
+        "noun\u0004Type": [
+            "نوع"
+        ],
+        "You can copy the contents of any %1$s file in here, and it will import the redirects into %2$s.": [
+            "شما می‌‍توانید محتویات فایل  %1$s   را کپی کنید،   و آن را در  تغییرمسیر  %2$s  وارد کنید."
+        ],
+        "Redirect added.": [
+            "تغییر مسیر آدرس اضافه گردید."
+        ],
+        "The redirect was added successfully.": [
+            "تغییر مسیر آدرس با موفقیت اضافه شد."
+        ],
+        "Redirect updated.": [
+            "تغییر مسیر آدرس به روز رسانی شد."
+        ],
+        "The redirect was updated successfully.": [
+            "تغییر مسیر آدرس با موفقیت به‌روز رسانی شد."
+        ],
+        "Redirect deleted.": [
+            "تغییر مسیر آدرس حذف گردید."
+        ],
+        "The redirect was deleted successfully.": [
+            "تغییر مسیر آدرس با موفقیت حذف شد."
+        ],
+        "Cancel": [
+            "لغو کردن"
+        ],
+        "Save": [
+            "ذخیره کردن"
+        ],
+        "Save anyway": [
+            "در هر صورت ذخیره کن."
+        ],
+        "Edit redirect": [
+            "ویرایش تغییر مسیر"
+        ],
+        "You are already editing a redirect, please finish this one first": [
+            "شما در حال ویرایش یک تغییر آدرس هستید، لطفا اول این مورد را به اتمام رسانید"
+        ],
+        "The URL you entered could not be resolved.": [
+            "آدرس اینترنتی که وارد کرده اید نمی تواند قبول شود."
+        ],
+        "The URL you are redirecting to seems to return a %1$s status. You might want to check if the target can be reached manually before saving.": [
+            "آدرس URL ای ریدایرکت شده توسط شما به نظر می رسد وضعیت %1$s برمی گرداند شما ممکن است قبل از ذخیره بخواهید تا بررسی کنید در دسترس بودن آدرس مقصد را به صورت دستی بررسی کنید . "
+        ],
+        "You're redirecting to a target that returns a 301 HTTP code (permanently moved). Make sure the target you specify is directly reachable.": [
+            "شما به آدرس مقصدی ریدایرکت می کنید که کد اچ تی تی پی 301 را بر می گرداند (کاملاً جابجا شده) اطمینان حاصل کنید که شما آدرس مستقیماً در دسترس تعیین کرده باشید . "
+        ],
+        "The URL you entered returned a HTTP code different than 200(OK). The received HTTP code is %1$s.": [
+            "آدرسی که وارد نموده‌اید پاسخی با HTTP کد متفاوت با (OK)200 برگردانده است. HTTP کد دریافت شده %1$s می‌باشد."
+        ],
+        "Unknown error. Failed to create redirect.": [
+            "خطای ناشناخته. عدم موفقیت درساخت تغییر مسیر آدرس."
+        ],
+        "Unknown error. Failed to update redirect.": [
+            "خطای ناشناخته. عدم موفقیت در به‌روز رسانی تغییر مسیر آدرس."
+        ],
+        "The redirect you are trying to save will create a redirect loop. This means there probably already exists a redirect that points to the origin of the redirect you are trying to save": [
+            "تغییر مسیی که میخواهید ذخیره کنید یک حلقه اشتباه تغییر مسیر است. به این معنی که احتمالا این تغییر مسیر موجود می باشد."
+        ],
+        "%1$s will be redirected to %2$s. Maybe it's worth considering to create a direct redirect to %2$s.": [
+            "%1$s هدایت خواهد شد به %2$s.شاید آن ارزش داشته باشه با توجه به ایجاد یک تغییر مسیر مستقیم به %2$s."
+        ],
+        "We're unable to write data to the file %s": [
+            "ما نمی توانیم اطلاعات فایل %s را بنویسیم."
+        ],
+        "301 Moved Permanently": [
+            "301  کاملا انتقال یافت."
+        ],
+        "302 Found": [
+            "302 پیدا شد"
+        ],
+        "307 Temporary Redirect": [
+            "307 به طور موقت تغییر مسیر داده شد"
+        ],
+        "410 Content Deleted": [
+            "410 محتوای حذف شده است"
+        ],
+        "451 Unavailable For Legal Reasons": [
+            "451 به دلایل امنیتی غیر قابل دسترسی است"
+        ],
+        "Not all the required fields are filled.": [
+            "تمامی موارد خواسته شده پر نشده است."
+        ],
+        "The old URL already exists as a redirect.": [
+            "آدرس اینترنتی قدیمی به عنوان مسیر وجود دارد."
+        ],
+        "Update Redirect": [
+            "تغییر مسیر اصلاح گردد."
+        ],
+        "We're unable to save the redirect file to %s": [
+            "ما قادر به ذخیره پرونده تغییر مسیر یافته در %s نیستیم."
+        ],
+        "%1$s detected that you moved a post (%5$s) to the trash. You can either: %2$s Don't know what to do? %3$sRead this post%4$s.": [
+            "%1$s متوجه شده است که شما یک پست (%5$s) را به سطل زباله انتقال دادید. شما همچنین می توانید: %2$s نمی دانید چه کاری انجام دهید؟ %3$s این را بخوانید %4$s."
+        ],
+        "%1$s detected that you deleted a post (%5$s). You can either: %2$s Don't know what to do? %3$sRead this post %4$s.": [
+            "افزونه %1$s متوجه شد که شما مطلبی را حذف کرده‌اید (%5$s). شما می‌توانید: %2$s نمی‌دانید چه کار کنید؟ %3$sاینجا را مطالعه کنید%4$s."
+        ],
+        "410 Redirect created from %1$s!": [
+            "تغییر مسیر 410 ساخته شد از %1$s!"
+        ],
+        "%1$s detected that you deleted a term (%5$s). You can either: %2$s Don't know what to do? %3$sRead this post %4$s.": [
+            "افزونه %1$s متوجه شد که شما برچسب/تگ/دسته ای را حذف کرده‌اید (%5$s). شما می‌توانید: %2$s نمی‌دانید چه کار کنید؟ %3$sاینجا را مطالعه کنید%4$s."
+        ],
+        "Redirect it to another URL": [
+            "تغییر مسیر به یک آدرس اینترنتی دیگر"
+        ],
+        "Make it serve a 410 Content Deleted header": [
+            "یک محتوای 410 بدون هدر ارایه کنید . "
+        ],
+        "Web server": [
+            "سرور وب"
+        ],
+        "Redirect method": [
+            "روش تغییر آدرس"
+        ],
+        "%s can generate redirect files that can be included in your website web server configuration. If you choose this option the PHP redirects will be disabled. Only check this option if you know what you are doing!": [
+            "%s می تواند تولید فایل های ریدایرکت را در پیکربندی وب سرور سایت شما انجام دهد. اگر شما این ویژگی پی اچ پی ریدایرکت را غیر فعال کردید، کافی ست آن را فعال کنید، البته به شرطی که بدانید دارید چکار می کنید!"
+        ],
+        "We're unable to create the directory %s": [
+            "شما نمی‌توانید مسیر %s را بسازید"
+        ],
+        "You are attempting to redirect to the same URL as the origin. Please choose a different URL to redirect to.": [
+            "یو آر ال ریدایرکت شما با یو آر ال اصلی یکسان است، لطفاً یو آر ال متفاوتی انتخاب کنید."
+        ],
+        "The redirect type is the HTTP response code sent to the browser telling the browser what type of redirect is served. %1$sLearn more about redirect types%2$s.": [
+            "نوع تغییر مسیر کد پاسخگوی HTTP به مرورگر ارسال می کند که چه کد تغییر مسیری بکاررفته است.%1$s ازلاعات بیشتر در این باره%2$s."
+        ],
+        "Regular Expression (regex) Redirects are extremely powerful redirects. You should only use them if you know what you are doing. %1$sRead more about regex redirects on our help center%2$s.": [
+            "تغییر مسیرهای Regular Expression (regex) بسیار قدرتمند هستند. اما باید فقط در شرایطی از آنها استفاده کنید که کاملا بدانید چه اقدامی میکنید. %1$sاطلاعات بیشتر راجع به تغییر مسیرهای Regex در پایگاه دانش یوست%2$s"
+        ],
+        "Enabled": [
+            "فعال"
+        ],
+        "Enter redirects to import": [
+            "ریدایرکت را برای ایمپورت کردن وارد کنید"
+        ],
+        "Your redirect is missing the subdirectory where WordPress is installed in. This will result in a redirect that won't work. Make sure the redirect starts with %1$s": [
+            "تغییر مسیر دایرکتوری فرعی که وردپرس در آن نصب شده از دست رفته است. این نتیجه باعث میشود تغییر مسیر کار نکند.مطمئن شوید تغییر مسیر شروع میشود با%1$s"
+        ],
+        "Select this redirect": [
+            "انتخاب این تغییر مسیر"
+        ],
+        "%s internal linking": [
+            "%s ارتباط داخلی"
+        ],
+        "Import redirects": [
+            "درون‌ریزی تغییر مسیرها"
+        ],
+        "Redirection": [
+            "تغییر مسیر"
+        ],
+        "Safe Redirect Manager": [
+            "مدیریت امن تغییر مسیر"
+        ],
+        "Simple 301 Redirects": [
+            "تغییر مسیرهای ساده 301"
+        ],
+        "Import from other redirect plugins": [
+            "درون‌ریزی از افزونه‌های redirect دیگر"
+        ],
+        "Import from:": [
+            "درون‌ریزی از:"
+        ],
+        "New URL:": [
+            " آدرس ( URL )  جدید :"
+        ],
+        "Old URL:": [
+            "آدرس URL قدیمی:"
+        ],
+        "Export redirects": [
+            "برون‌ ریزی تغییر مسیرها"
+        ],
+        "Origin": [
+            "مبداء"
+        ],
+        "Target": [
+            " هدف"
+        ],
+        "Format": [
+            "فرمت"
+        ],
+        "Export redirects to a CSV file": [
+            "برون‌ ریزی تغییر مسیرها به یک فایل CSV"
+        ],
+        "If you need to have a list of all redirects, you can generate a CSV file using the button below.": [
+            "اگر شما نیاز به فهرستی از همه تغییر مسیرها دارید، میتوانید با استفاده از دکمه زیر، یک فایل CSV ایجاد کنید."
+        ],
+        "Please note that the first row in this file is a header. This row should be ignored when parsing or importing the data from the export.": [
+            "لطفا توجه داشته باشید که ردیف اول در این پرونده سربرگ است. این ردیف باید نادیده گرفته شود هنگام اجرا یا درون‌ریزی داده از خروجی."
+        ],
+        "CSV import failed: the provided file could not be parsed using a CSV parser.": [
+            "درون‌ریزی CSV شکست خورد: فایل اماده شده نمی تواند اجرا شود با استفاده از اجرا کننده CSV."
+        ],
+        "Import from a CSV file": [
+            "وارد کردن از یک فایل CSV"
+        ],
+        "Import CSV file": [
+            "وارد کردن فایل CSV"
+        ],
+        "%1$s detected that you restored a post (%4$s) from the trash, for which a redirect was created. %2$sClick here to remove the redirect%3$s": [
+            "%1$s متوجه شده است که شما یک پست (%4$s) را از سطل زباله بازیابی کردید، برای آن یک تغییر مسیر ایجاد شده بود. %2$s برای حذف تغییر مسیر اینجا کلیک کنید %3$s."
+        ],
+        "%1$sLearn more about orphaned content%2$s.": [
+            "%1$s یادگیری بیشتر درباره محتوای تنها%2$s."
+        ],
+        "Ask your SEO Manager or Site Administrator to count links in all texts, so we can identify orphaned %1$s. %2$s": [
+            "از SEO Manager یا  Site Administrator بخواهید تمام لینک‌های موجود در متون را شمارش کنند، تا بتوانیم تنها مانده ها را شناسایی کنیم %1$s. %2$s"
+        ],
+        "%1$sClick here%2$s to index your links, so we can identify orphaned %3$s. %4$s": [
+            "%1$sاینجا کلیک کنید%2$s برای ایندکس شدن لینک‌ها، تا بتوانیم تنها مانده ها را شناسایی کنیم %3$s. %4$s"
+        ],
+        "'Orphaned content' refers to %1$s that have no inbound links, consider adding links towards these %1$s. %2$s": [
+            "'محتوای تنها' اشاره دارد به%1$s که لینک داخلی ندارد، در نظر بگیرید لینک را به این موضوع اضافه کنید %1$s. %2$s"
+        ],
+        "Orphaned content": [
+            "محتوای تنها"
+        ],
+        "url": [
+            "آدرس url"
+        ],
+        "readability score": [
+            "نمره خوانایی"
+        ],
+        "ID": [
+            "شناسه"
+        ],
+        "Filter by redirect type": [
+            "فیلتر براساس نوع تغییر مسیر"
+        ],
+        "All redirect types": [
+            "همه انواع تغییر مسیر"
+        ],
+        "If you need a list of all public posts, terms and related keyphrases, you can generate a CSV file using the %s button below.": [
+            "اگر نیاز به یک لیستی از تمام نوشته‌های منتشر شده، شرایط و کلمات کلیدی مرتبط دارید، می توانید یک فایل CSV را با استفاده از %s دکمه زیر ایجاد کنید."
+        ],
+        "Export keyphrases to a CSV file": [
+            "برون‌ریزی عبارات کلیدی به فایل CSV"
+        ],
+        "You can add or remove columns to be included in the export using the checkboxes below.": [
+            "شما می توانید ستون هایی را در برون‌بری از طریق چک باکس های زیر اضافه یا حذف کنید ."
+        ],
+        "Export URL": [
+            "برون ریزی URL"
+        ],
+        "Export title": [
+            "برون ریزی عنوان"
+        ],
+        "Export readability score": [
+            "برون ریزی نمره خوانایی"
+        ],
+        "Please note:": [
+            "لطفا توجه کنید:"
+        ],
+        "The first row in this file is the header row. This row should be ignored when parsing or importing the data from the export.": [
+            "اولین ردیف از این پرونده سربرگ ردیف است. این ردیف باید نادیده گرفته شود هنگام اجرا یا درون‌ریزی داده از خروجی."
+        ],
+        "Exporting data can take a long time when there are many posts, pages, public custom post types or terms.": [
+            "برون‌ ریزی داده ممکن است زمانبر باشد وقتی تعداد نوشته‌ها، برگه‌ها و انواع نوشته های سفارشی و شرایط زیاد است."
+        ],
+        "Plain redirects": [
+            "تغییر مسیر ساده"
+        ],
+        "Regular Expression redirects": [
+            "تغییر مسیرهای عبارات قاعده‌مند"
+        ],
+        "Redirects settings": [
+            "تنظیمات تغییر مسیرها"
+        ],
+        "post_type of a post or the taxonomy of a term\u0004type": [
+            "نوع"
+        ],
+        "seo title": [
+            "عنوان سئو"
+        ],
+        "Export SEO title": [
+            "برون ریزی عنوان سئو"
+        ],
+        "Export meta description": [
+            "برون ریزی شرح متا"
+        ],
+        "Synonyms": [
+            "مترادف ها"
+        ],
+        "Internal linking suggestions": [
+            "لینک های داخلی پیشنهادی"
+        ],
+        "keyphrase": [
+            "عبارت کلیدی:"
+        ],
+        "keyphrase score": [
+            "امتیاز عبارت کلیدی"
+        ],
+        "Export keyphrases": [
+            "برون‌ بری عبارت های کلیدی"
+        ],
+        "Export keyphrase scores": [
+            "برون‌ بری امتیاز عبارت های کلیدی"
+        ],
+        "Enter a related keyphrase to calculate the SEO score": [
+            "یک عبارت کلیدی مرتبط وارد کنید تا امتیاز سئو محاسبه شود."
+        ],
+        "Related keyphrase": [
+            "عبارت کلیدی مرتبط"
+        ],
+        "Add related keyphrase": [
+            "افزودن عبارت کلیدی مرتبط"
+        ],
+        "Analysis results": [
+            "نتایج تجزیه و تحلیل:"
+        ],
+        "Help on choosing the perfect keyphrase": [
+            "راهنمایی درباره چگونگی انتخاب بهترین عبارت کلیدی"
+        ],
+        "Help on keyphrase synonyms": [
+            "راهنمایی درباره مترادف های عبارت کلیدی"
+        ],
+        "Keyphrase": [
+            "عبارت کلیدی:"
+        ],
+        "https://yoa.st/2jc": [
+            "https://yoa.st/2jc"
+        ],
+        "Yoast SEO Premium": [
+            "Yoast SEO Premium دیجیراتی"
+        ],
+        "All redirects have been imported successfully. Go to the %1$sredirects overview%2$s to see the imported redirects.": [
+            "تمام تغییر مسیرها با موفقیت درون ریزی شد. به لیست %1$sتغییر مسیرها%2$s مراجعه کنید و تغییر مسیرهای وارد شده را مشاهده کنید."
+        ],
+        "No redirects have been imported. Probably they already exist as a redirect. Go to the %1$sredirects overview%2$s to see the existing redirects.": [
+            "هیچ تغییر مسیری درون ریزی نشد. احتمالا آنها در حال حاضر به صورت یک تغییر مسیر وجود دارند. به لیست %1$sتغییر مسیرها%2$s مراجعه کنید و تغییر مسیرهای موجود را مشاهده کنید."
+        ],
+        "Imported %1$s/%2$s redirects successfully. Go to the %3$sredirects overview%4$s to see the imported redirect.": [
+            "درون ریزی %1$s تا از %2$s تغییر مسیر با موفقیت انجام شد.  به لیست  %3$sتغییر مسیرها%4$s مراجعه کنید و تغییر مسیرهای وارد شده را مشاهده کنید.",
+            "درون ریزی %1$s تا از %2$s تغییر مسیر با موفقیت انجام شد.  به لیست  %3$sتغییر مسیرها%4$s مراجعه کنید و تغییر مسیرهای وارد شده را مشاهده کنید."
+        ],
+        "Redirect import failed: the selected redirect plugin is not installed or activated.": [
+            "وارد کردن تغییر مسیر انجام نشد:   پلاگین تغییر مسیر نصب نشده است و یا فعال نمی‌باشد."
+        ],
+        "CSV import failed: No file selected.": [
+            "درون‌ریزی CSV شکست خورد: هیچ فایلی انتخاب نشده است."
+        ],
+        "CSV import failed: the provided file is larger than %1$s.": [
+            "درون‌ریزی CSV شکست خورد: فایل اماده شده بزرگتر از %1$s است."
+        ],
+        "CSV import failed: the provided file is not a CSV file.": [
+            "درون‌ریزی CSV شکست خورد: فایل اماده شدهیک فایل CSV نیست."
+        ],
+        "Redirect import failed: we can't recognize this type of import.": [
+            "وارد کردن تغییر مسیر انجام نشد: این نوع وارد کردن ناشناخته است."
+        ],
+        "Stale cornerstone content": [
+            "محتوای بنیادی خیلی قدیمی"
+        ],
+        "Stale cornerstone content refers to cornerstone content that hasn’t been updated in the last 6 months. Make sure to keep these %1$s up-to-date. %2$sLearn more about cornerstone content%3$s.": [
+            "محتوای بنیادی خیلی قدیمی به محتوای بنیادی (Cornerstone Content) گفته می شود که طی 6 ماه اخیر بروزرسانی نشده است. از به روز بودن %1$s اطمینان حاصل کنید. %2$sآشنایی بیشتر با محتوای بنیادی%3$s."
+        ],
+        "Choose a CSV file from your computer:": [
+            "یک فایل CSV از روی رایانه خود انتخاب کنید:"
+        ],
+        "New URL: {{link}}%s{{/link}}": [
+            "مسیر جدید: {{link}}%s{{/link}}"
+        ],
+        "Undo": [
+            "عقب گرد"
+        ],
+        "Redirect created": [
+            "تغییر مسیر ایجاد شده است"
+        ],
+        "%s just created a redirect from the old URL to the new URL.": [
+            "افزونه %s یک تغییر مسیر از مسیر قدیمی به مسیر جدید ایجاد کرد."
+        ],
+        "Old URL: {{link}}%s{{/link}}": [
+            "مسیر قدیمی: {{link}}%s{{/link}}"
+        ],
+        "Redirect not deleted.": [
+            "تغییر مسیر حذف نشده است."
+        ],
+        "Something went wrong when deleting this redirect.": [
+            "خطایی در حذف تغییر مسیر رخ داد."
+        ],
+        "The old URL for your redirect is not relative. Only the new URL is allowed to be absolute. Make sure to provide a relative old URL.": [
+            "مسیر قدیمی برای تغییر مسیر شما از نوع نسبی (Relative) نیست. فقط مسیر جدید می تواند از نوع مطلق (absolute) باشد. مطمئن شوید که یک مسیر قدیمی نسبی ارائه کنید."
+        ],
+        "%1$s created a %2$sredirect%3$s from the old post URL to the new post URL.": [
+            "افزونه %1$s یک %2$sریدایرکت%3$s از مسیر قدیمی نوشته به مسیر جدید نوشته ایجاد کرده است."
+        ],
+        "%1$s created a %2$sredirect%3$s from the old term URL to the new term URL.": [
+            "افزونه %1$s یک %2$sریدایرکت%3$s از مسیر قدیمی به مسیر جدید ایجاد کرده است."
+        ],
+        "Ok": [
+            "تایید"
+        ],
+        "Keyphrase synonyms": [
+            "مترادف های عبارت کلیدی"
+        ],
+        "An error occurred: the Premium SEO analysis isn't working as expected. Please {{activateLink}}activate your subscription in MyYoast{{/activateLink}} and then {{reloadButton}}reload this page{{/reloadButton}} to make it work properly.": [
+            "خطایی رخ داده است: متاسفانه تجزیه تحلیل سئو کار نمی کند. مطمئن شوید {{activateLink}}عضویت خود در یوست را فعال کرده اید{{/activateLink}} سپس {{reloadButton}}صفحه را مجددا بارگذاری کرده{{/reloadButton}} و نتیجه را بررسی کنید."
+        ],
+        "We could not find any relevant articles on your website that you could link to from your post.": [
+            "متاسفانه نمی توانیم هیچ نوشته مرتبطی از سایت شما پیدا کنیم که بتوانید از این نوشته به آن لینک بدهید."
+        ],
+        "Load suggestions": [
+            "بارگزاری پیشنهاد ها"
+        ],
+        "Refresh suggestions": [
+            "تازه سازی پیشنهاد ها"
+        ],
+        "Copy link": [
+            "کپی لینک"
+        ],
+        "Copy link to suggested article: %s": [
+            "کپی کردن لینک مقاله پیشنهادی: %s"
+        ],
+        "Add a title to your post for the best internal linking suggestions.": [
+            "عنوانی برای مطلب خود وارد کنید تا بهترین پیشنهادات لینک سازی داخلی به شما ارائه شود."
+        ],
+        "Add a metadescription to your post for the best internal linking suggestions.": [
+            "توضیح متایی برای مطلب خود وارد کنید تا بهترین پیشنهادات لینک سازی داخلی به شما ارائه شود."
+        ],
+        "Add a title and a metadescription to your post for the best internal linking suggestions.": [
+            "عنوان و توضیح متا را برای مطلب خود وارد کنید تا بهترین پیشنهادات لینک سازی داخلی به شما ارائه شود."
+        ],
+        "Also, add a title to your post for the best internal linking suggestions.": [
+            "همچنین، عنوانی برای مطلب خود وارد کنید تا بهترین پیشنهادات لینک سازی داخلی به شما ارائه شود."
+        ],
+        "Also, add a metadescription to your post for the best internal linking suggestions.": [
+            "همچنین، توضیح متا برای مطلب خود وارد کنید تا بهترین پیشنهادات لینک سازی داخلی به شما ارائه شود."
+        ],
+        "Also, add a title and a metadescription to your post for the best internal linking suggestions.": [
+            "همچنین، عنوان و توضیح متا را برای مطلب خود وارد کنید تا بهترین پیشنهادات لینک سازی داخلی به شما ارائه شود."
+        ],
+        "Once you add a bit more copy, we'll give you a list of related content here to which you could link in your post.": [
+            "چنانچه کمی بیشتر محتوا ثبت کنید می توانیم لیستی از مطالب مرتبط با این مطلب را به شما نمایش دهیم تا متوجه شوید کدام مطلب را در نوشته خود لینک کنید."
+        ],
+        "To improve your site structure, consider linking to other relevant posts or pages on your website.": [
+            "برای بهبود ساختار سایت خود، پیشنهاد میکنیم به نوشته ها یا برگه های مرتبط در سایت خود لینک بدهید."
+        ],
+        "It takes a few seconds to show you a list of related content to which you could link. The suggestions will be shown here as soon as we have them.": [
+            "چند ثانیه طول میکشد تا لیست مطالب مرتبطی که می توانید به آنها لینک دهید نمایش داده شود. مطالب مرتبط پیشنهادی به محض دریافت در این بخش لیست خواهند شد."
+        ],
+        "{{a}}Read our guide on internal linking for SEO{{/a}} to learn more.": [
+            "برای کسب اطلاعات بیشتر، راهنمای ما برای {{a}}لینک سازی داخلی در سئو{{/a}} را مطالعه کنید"
+        ],
+        "Copied!": [
+            "کپی شد!"
+        ],
+        "Not supported!": [
+            "پشتیبانی نمی‌شود."
+        ],
+        "Are you trying to use multiple related keyphrases? You should add them separately.": [
+            "آیا می خواهید از چند کلمه کلیدی استفاده کنید؟ شما باید آنها را به صورت جداگانه در زیر اضافه کنید."
+        ],
+        "Your keyphrase is too long. It can be a maximum of 191 characters.": [
+            "عبارت کلیدی شما خیلی طولانی است. حداکثر 191 کاراکتر مجاز است."
+        ],
+        "Remove": [
+            "حذف"
+        ],
+        "Table of contents": [
+            "فهرست مطالب"
+        ],
+        "https://www.zhaket.com/store/web/digerati": [
+            "فروش انحصاری نسخه اورجینال این محصول صرفا توسط دیجیراتی در ژاکِت انجام می گیرد."
+            ]
+        }
+    }
+}

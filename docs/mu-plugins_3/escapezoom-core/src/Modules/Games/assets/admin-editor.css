@@ -1,0 +1,454 @@
+/**
+ * EscapeZoom Games CPT - Admin Editor Styles
+ *
+ * Styles for ez_game post type edit screen.
+ * Content: tabbed (scenario, rules, short intro). Slots metabox and location map.
+ */
+
+/* Editor section wrapper */
+.ez-editor-section {
+    margin: 0;
+    padding: 15px 0;
+}
+
+.ez-editor-section .description,
+.ez-content-tab-panel .description {
+    margin-bottom: 10px;
+    color: #646970;
+    font-style: italic;
+}
+
+/* Ensure TinyMCE editors have proper spacing */
+.ez-editor-section .wp-editor-wrap,
+.ez-content-tab-panel .wp-editor-wrap {
+    margin-top: 8px;
+}
+
+/* Content tabs metabox */
+#ez_game_content_tabs .inside {
+    padding: 12px;
+}
+
+/* Location map (Leaflet) in Location & Media metabox */
+.ez-location-map {
+    width: 100%;
+    max-width: 640px;
+    height: 380px;
+    margin-top: 10px;
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+    z-index: 1;
+}
+#ez_location_map.leaflet-container {
+    z-index: 1;
+}
+/* باکس‌های عرض/طول و آدرس بزرگ‌تر */
+.ez-coord-input {
+    min-width: 180px;
+    padding: 6px 10px;
+    font-size: 14px;
+}
+.ez-address-input {
+    min-width: 400px;
+    padding: 6px 10px;
+}
+.ez-address-input.large-text {
+    width: 100%;
+    max-width: 560px;
+}
+#ez_geocode_btn {
+    margin-right: 8px;
+}
+body.rtl #ez_geocode_btn {
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+/* RTL support for Persian text */
+body.rtl .ez-editor-section .description {
+    text-align: right;
+}
+
+/* ─── وابستگی‌ها (Relationships) ─── */
+.ez-metabox-relationships .ez-select {
+    min-width: 220px;
+}
+.ez-metabox-subsection {
+    margin: 18px 0 10px;
+    padding-top: 14px;
+    border-top: 1px solid #c3c4c7;
+    font-size: 13px;
+}
+.ez-areas-checklist .ez-areas-placeholder {
+    margin: 4px 0;
+}
+.ez-areas-list {
+    margin-top: 6px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+.ez-area-cb {
+    display: block;
+    margin: 4px 0;
+    padding: 2px 0;
+}
+.ez-area-cb input {
+    margin-left: 6px;
+}
+body.rtl .ez-area-cb input {
+    margin-left: 0;
+    margin-right: 6px;
+}
+
+/* ژانر / سبک / برچسب — چیپ‌ها */
+.ez-tag-input-wrap .ez-tag-input {
+    margin-bottom: 6px;
+}
+.ez-tag-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 4px;
+}
+.ez-tag-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 2px 8px;
+    background: #f0f0f1;
+    border: 1px solid #c3c4c7;
+    border-radius: 4px;
+    font-size: 12px;
+}
+.ez-tag-chip .ez-tag-chip-remove {
+    padding: 0 2px;
+    margin: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #787c82;
+    font-size: 16px;
+    line-height: 1;
+}
+.ez-tag-chip .ez-tag-chip-remove:hover {
+    color: #d63638;
+}
+.ez-game-link-wrap .widefat {
+    font-family: monospace;
+    font-size: 12px;
+}
+
+.ez-location-links-gen .ez-link-row {
+    display: block;
+    margin-bottom: 8px;
+}
+.ez-location-links-gen .ez-link-label {
+    display: inline-block;
+    min-width: 80px;
+    font-weight: 600;
+}
+.ez-location-links-gen .ez-gen-link {
+    max-width: 420px;
+    margin-left: 8px;
+    margin-right: 6px;
+    font-size: 12px;
+}
+.ez-location-links-gen .ez-copy-link {
+    vertical-align: middle;
+}
+body.rtl .ez-location-links-gen .ez-gen-link {
+    margin-left: 6px;
+    margin-right: 8px;
+}
+
+/* ─── شماره‌های موبایل (تکرارشونده + سورت + اعتبارسنجی) ─── */
+.ez-mobile-numbers-wrap .ez-mobile-numbers-list {
+    list-style: none;
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+.ez-mobile-numbers-wrap .ez-mobile-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+.ez-mobile-numbers-wrap .ez-mobile-drag {
+    cursor: move;
+    color: #787c82;
+    flex-shrink: 0;
+}
+.ez-mobile-numbers-wrap .ez-mobile-input {
+    flex: 1;
+    min-width: 0;
+    max-width: 220px;
+}
+.ez-mobile-numbers-wrap .ez-mobile-input.ez-mobile-valid {
+    border-color: #00a32a;
+    box-shadow: 0 0 0 1px #00a32a;
+}
+.ez-mobile-numbers-wrap .ez-mobile-input.ez-mobile-invalid {
+    border-color: #d63638;
+    box-shadow: 0 0 0 1px #d63638;
+}
+.ez-mobile-numbers-wrap .ez-mobile-remove {
+    flex-shrink: 0;
+}
+body.rtl .ez-mobile-numbers-wrap .ez-mobile-row {
+    flex-direction: row;
+}
+
+/* ─── ظرفیت + سن + مدت: یک خط، بدون بوردر، اسلایدر دستی دو دستگیره ─── */
+.ez-capacity-wrapper {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: transparent;
+    height: 100%;
+    justify-content: space-between;
+}
+.ez-capacity-display {
+    font-size: 13px;
+    font-weight: 600;
+    color: #1d2327;
+    margin: 0 0 4px 0;
+}
+/* متن ظرفیت: همرنگ رِنج اصلی ظرفیت (سبزآبی) */
+.ez-capacity-wrapper .ez-capacity-display {
+    color: var(--sl-color-primary-600, #0f766e);
+}
+
+/* اسلایدر دو دستگیره (شبیه‌سازی، بدون input range) */
+.ez-dual-slider {
+    display: flex;
+    flex-direction: column;
+}
+.ez-dual-slider-track {
+    position: relative;
+    height: 10px;
+    background: #e5e7eb;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.ez-dual-slider-fill {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    border-radius: 4px;
+    background: var(--sl-color-primary-500, #0d9488);
+    pointer-events: none;
+    transition: left 0.08s ease, width 0.08s ease;
+}
+.ez-dual-slider-handle {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--sl-color-primary-600, #0f766e);
+    border: 2px solid #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    cursor: grab;
+    z-index: 2;
+    touch-action: none;
+}
+.ez-dual-slider-handle:active { cursor: grabbing; }
+
+/* یک خط: تعداد نفرات | سن | مدت بازی */
+.ez-capacity-age-row { margin: 0; border: none; }
+.ez-capacity-age-row td { padding: 8px 12px; vertical-align: top; }
+.ez-capacity-age-cell {
+    width: 33.333%;
+    min-width: 0;
+}
+.ez-capacity-age-label {
+    display: block;
+    font-weight: 600;
+    font-size: 12px;
+    margin-bottom: 6px;
+    color: #1d2327;
+}
+.ez-age-range-wrapper,
+.ez-duration-range-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    height: 100%;
+    justify-content: space-between;
+}
+.ez-age-range-wrapper .ez-capacity-display,
+.ez-duration-range-wrapper .ez-capacity-display { margin: 0; }
+.ez-age-range-wrapper .ez-capacity-display { color: #7c3aed; font-weight: 600; }
+/* متن و رِنج مدت بازی: نارنجی */
+.ez-duration-range-wrapper .ez-capacity-display {
+    color: #f97316;
+    font-weight: 600;
+}
+/* استایل کلی single slider */
+.ez-single-slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    max-width: 140px;
+    margin: 0;
+    height: 10px;
+    background: transparent;
+    cursor: pointer;
+}
+/* Track - خاکستری مثل dual slider */
+.ez-single-slider::-webkit-slider-runnable-track {
+    height: 10px;
+    background: #e5e7eb;
+    border-radius: 4px;
+}
+.ez-single-slider::-moz-range-track {
+    height: 10px;
+    background: #e5e7eb;
+    border-radius: 4px;
+    border: none;
+}
+/* Thumb - کلی */
+.ez-single-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--sl-color-primary-600, #0f766e);
+    border: 2px solid #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    cursor: pointer;
+    margin-top: -2px;
+}
+.ez-single-slider::-moz-range-thumb {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--sl-color-primary-600, #0f766e);
+    border: 2px solid #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+/* رنگ رِنج سن (بنفش) - فقط progress و thumb */
+.ez-age-range-wrapper .ez-single-slider::-webkit-slider-runnable-track {
+    background: linear-gradient(to left, #7c3aed 0%, #7c3aed var(--progress, 50%), #e5e7eb var(--progress, 50%), #e5e7eb 100%);
+}
+.ez-age-range-wrapper .ez-single-slider::-webkit-slider-thumb {
+    background: #7c3aed;
+}
+.ez-age-range-wrapper .ez-single-slider::-moz-range-track {
+    background: linear-gradient(to left, #7c3aed 0%, #7c3aed var(--progress, 50%), #e5e7eb var(--progress, 50%), #e5e7eb 100%);
+}
+.ez-age-range-wrapper .ez-single-slider::-moz-range-thumb {
+    background: #7c3aed;
+}
+.ez-age-range-wrapper .ez-single-slider::-moz-range-progress {
+    background: #7c3aed;
+    border-radius: 0 4px 4px 0;
+    height: 10px;
+}
+/* رنگ رِنج مدت بازی (نارنجی) - فقط progress و thumb */
+.ez-duration-range-wrapper .ez-single-slider::-webkit-slider-runnable-track {
+    background: linear-gradient(to left, #f97316 0%, #f97316 var(--progress, 33%), #e5e7eb var(--progress, 33%), #e5e7eb 100%);
+}
+.ez-duration-range-wrapper .ez-single-slider::-webkit-slider-thumb {
+    background: #f97316;
+}
+.ez-duration-range-wrapper .ez-single-slider::-moz-range-track {
+    background: linear-gradient(to left, #f97316 0%, #f97316 var(--progress, 33%), #e5e7eb var(--progress, 33%), #e5e7eb 100%);
+}
+.ez-duration-range-wrapper .ez-single-slider::-moz-range-thumb {
+    background: #f97316;
+}
+/* Firefox progress fill - اگر از ::-moz-range-progress پشتیبانی شود */
+.ez-duration-range-wrapper .ez-single-slider::-moz-range-progress {
+    background: #f97316;
+    border-radius: 0 4px 4px 0;
+    height: 10px;
+}
+
+/* ─── جزئیات بازی: گرید ۵ ستونه، سطح سختی ۲ ستون + badge رادیو ─── */
+.ez-details-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 12px 16px;
+    margin: 0;
+}
+.ez-details-grid .ez-details-item { min-width: 0; }
+.ez-details-grid .ez-difficulty-wrap { grid-column: span 2; }
+.ez-difficulty-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 4px;
+}
+.ez-difficulty-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 28px;
+    height: 28px;
+    padding: 0 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    background-color: var(--badge-color, #6b7280);
+    opacity: 0.4;
+    transition: opacity 0.15s, transform 0.1s;
+}
+.ez-difficulty-badge:hover { opacity: 0.7; }
+.ez-difficulty-badge input { position: absolute; opacity: 0; pointer-events: none; }
+.ez-difficulty-badge.ez-selected { opacity: 1; transform: scale(1.05); }
+.ez-difficulty-label { font-weight: 600; font-size: 12px; color: #1d2327; margin-bottom: 4px; display: block; }
+
+/* ─── لینک کوتاه بازی (سایدبار) + QR ─── */
+.ez-shortlink-metabox sl-input {
+    display: block;
+    margin-bottom: 8px;
+}
+.ez-shortlink-metabox sl-input::part(base) {
+    width: 100%;
+}
+.ez-shortlink-qr {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.ez-shortlink-qr sl-qr-code {
+    flex-shrink: 0;
+}
+
+/* ─── شهر و منطقه (sl-tree) ─── */
+.ez-location-tree {
+    min-height: 200px;
+    max-height: 320px;
+    overflow: auto;
+    border: 1px solid #c3c4c7;
+    border-radius: 6px;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+/* ─── خلاصه مبلغ و سوئیچ تخفیف ─── */
+.ez-price-summary-wrap .ez-price-formatted {
+    font-family: inherit;
+    font-weight: 600;
+    margin-left: 4px;
+}
+.ez-price-summary-wrap .ez-price-words {
+    font-style: italic;
+    color: #50575e;
+}
+.ez-discount-switch-wrap sl-switch {
+    vertical-align: middle;
+}
+.ez-off-price-wrap {
+    transition: opacity 0.2s ease;
+}

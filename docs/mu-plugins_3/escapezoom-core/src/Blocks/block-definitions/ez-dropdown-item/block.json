@@ -1,0 +1,16 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "escapezoom/ez-dropdown-item",
+  "title": "EZ Dropdown Item",
+  "category": "escapezoom",
+  "icon": "minus",
+  "description": "Single dropdown option (Stencil: ez-dropdown-item).",
+  "parent": ["escapezoom/ez-dropdown"],
+  "attributes": {
+    "value": { "type": "string", "default": "" },
+    "text": { "type": "string", "default": "" }
+  },
+  "supports": { "html": false },
+  "textdomain": "escapezoom-core"
+}

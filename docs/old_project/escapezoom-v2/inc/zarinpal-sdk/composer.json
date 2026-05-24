@@ -1,0 +1,11 @@
+{
+    "require": {
+        "zarinpal/zarinpal-php-sdk": "^2.0",
+        "nyholm/psr7": "^1.8"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}

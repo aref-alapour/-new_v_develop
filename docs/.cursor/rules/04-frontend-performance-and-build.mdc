@@ -1,0 +1,18 @@
+---
+description: Frontend performance diet, approved/prohibited libs, conditional loading, WP debloat, GSAP for UI, build automation.
+alwaysApply: true
+---
+
+# Section 8: Frontend Assets & Performance Diet
+
+- **Library Threshold:** Only use a third-party package if it covers >30% of the project's features. Otherwise implement a lightweight custom solution in core or theme.
+- **Approved Tech Stack (only these allowed):** Leaflet, Alpine.js, Embla, HTMX, Stencil, GSAP, Chart.js.
+- **Prohibited Libraries (remove/replace):** jQuery on frontend, SweetAlert (use GSAP), Tippy.js (use Alpine/GSAP), Zebline, Three.js.
+- **Conditional Loading (critical):** Scripts like Leaflet, QRCode, or Chart.js MUST NOT be enqueued globally. Use `wp_enqueue_script` only in specific page templates or conditional blocks (e.g. `is_page('contact')` or `is_singular('games')`).
+- **WP De-bloating:** Disable unnecessary WP default assets on frontend: wp-embed, emoji-release, wp-block-library (unless on a Gutenberg page). Dequeue jQuery on frontend (ensure no dependencies break).
+- **GSAP Unified UI:** Use GSAP for ALL UI interactions: modals, alerts (instead of SweetAlert), tooltips (instead of Tippy), and page transitions.
+
+# Section 9: Development Workflow & Build Automation
+
+- **Auto-Build:** After modifying any Stencil component (`template/`), CSS (`input.css`), or JavaScript, run the relevant build command (`npm run build` or `npm run css:build`) so `dist/` and `main.css` are updated.
+- **Production Readiness:** Never leave the environment in a dev-only state. Ensure final assets are compiled and ready for preview.

@@ -1,0 +1,28 @@
+[30-Apr-2025 00:36:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Engine/Renderer/template-canvas.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Engine/Renderer/template-canvas.php on line 24
+[02-Aug-2025 10:37:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Engine/Renderer/template-canvas.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Engine/Renderer/template-canvas.php on line 24
+[20-Nov-2025 07:33:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Engine/Renderer/template-canvas.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Engine/Renderer/template-canvas.php on line 24
+[20-Nov-2025 07:33:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Engine/Renderer/template-canvas.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Engine/Renderer/template-canvas.php on line 24
+[23-Dec-2025 20:42:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Engine/Renderer/template-canvas.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Engine/Renderer/template-canvas.php on line 24
+[31-Dec-2025 15:41:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Engine/Renderer/template-canvas.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Engine/Renderer/template-canvas.php on line 24
+[03-Jan-2026 17:14:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Engine/Renderer/template-canvas.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/escapezoom/public_html/wp-content/plugins/woocommerce/packages/email-editor/src/Engine/Renderer/template-canvas.php on line 24

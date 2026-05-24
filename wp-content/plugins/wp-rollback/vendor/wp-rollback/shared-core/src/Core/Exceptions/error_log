@@ -1,0 +1,2 @@
+[31-Dec-2025 15:50:25 UTC] PHP Fatal error:  Trait "WpRollback\SharedCore\Core\Exceptions\Traits\Loggable" not found in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/wp-rollback/shared-core/src/Core/Exceptions/BindingResolutionException.php on line 25
+[03-Jan-2026 17:20:20 UTC] PHP Fatal error:  Trait "WpRollback\SharedCore\Core\Exceptions\Traits\Loggable" not found in /home/escapezoom/public_html/wp-content/plugins/wp-rollback/vendor/wp-rollback/shared-core/src/Core/Exceptions/BindingResolutionException.php on line 25
