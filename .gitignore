@@ -34,6 +34,7 @@
 
 # --- وابستگی‌های Node ---
 **/node_modules/
+/EscapeApp/node_modules/
 
 # --- vendor داخل mu-plugins (Composer) ---
 **/mu-plugins*/**/vendor/

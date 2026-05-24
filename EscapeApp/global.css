@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .font-sans {
+    font-family: 'YekanBakh-Regular';
+    font-weight: 400;
+  }
+
+  .font-medium {
+    font-family: 'YekanBakh-Medium';
+    font-weight: 500;
+  }
+
+  .font-bold {
+    font-family: 'YekanBakh-Bold';
+    font-weight: 700;
+  }
+
+  .font-extrabold {
+    font-family: 'YekanBakh-Heavy';
+    font-weight: 800;
+  }
+}
