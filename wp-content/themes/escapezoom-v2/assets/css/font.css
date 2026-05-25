@@ -1,0 +1,93 @@
+/* Yekan Bakh — single source (front + admin via ez-font handle) */
+
+@font-face {
+  font-family: yekanbakh;
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local("Yekan Bakh"),
+       url("../fonts/yekan-bakh/yekan-bakh-light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: yekanbakh;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Yekan Bakh"),
+       url("../fonts/yekan-bakh/yekan-bakh-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: yekanbakh;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local("Yekan Bakh"),
+       url("../fonts/yekan-bakh/yekan-bakh-medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: yekanbakh;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("Yekan Bakh"),
+       url("../fonts/yekan-bakh/yekan-bakh-bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: yekanbakh;
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: local("Yekan Bakh"),
+       url("../fonts/yekan-bakh/yekan-bakh-heavy.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: yekanbakh;
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: local("Yekan Bakh"),
+       url("../fonts/yekan-bakh/yekan-bakh-fat.woff2") format("woff2");
+}
+
+:root {
+  --font-yekan: yekanbakh, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+html {
+  font-family: var(--font-yekan);
+}
+
+body,
+button,
+input,
+textarea,
+select,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+li,
+td,
+th,
+label,
+legend {
+  font-family: inherit;
+}
+
+.wp-admin body,
+.wp-admin input,
+.wp-admin textarea,
+.wp-admin select,
+.wp-admin button {
+  font-family: var(--font-yekan);
+}

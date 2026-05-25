@@ -79,10 +79,10 @@
     --color-blueEscape: #5091FB;
     --color-greenescape: #1ED982;
     --radius-2\.5xl: 1.25rem;
-    --font-yekan-medium: "yekan-bakh-medium";
-    --font-yekan-bold: "yekan-bakh-bold";
-    --font-yekan-heavy: "yekan-bakh-heavy";
-    --font-yekan-fat: "yekan-bakh-fat";
+    --font-yekan-medium: yekanbakh;
+    --font-yekan-bold: yekanbakh;
+    --font-yekan-heavy: yekanbakh;
+    --font-yekan-fat: yekanbakh;
   }
 }
 @layer base {
@@ -1663,16 +1663,20 @@
     text-align: start;
   }
   .font-yekan-bold {
-    font-family: var(--font-yekan-bold);
+    font-family: yekanbakh, sans-serif;
+    font-weight: 700;
   }
   .font-yekan-fat {
-    font-family: var(--font-yekan-fat);
+    font-family: yekanbakh, sans-serif;
+    font-weight: 900;
   }
   .font-yekan-heavy {
-    font-family: var(--font-yekan-heavy);
+    font-family: yekanbakh, sans-serif;
+    font-weight: 800;
   }
   .font-yekan-medium {
-    font-family: var(--font-yekan-medium);
+    font-family: yekanbakh, sans-serif;
+    font-weight: 500;
   }
   .text-2xl {
     font-size: var(--text-2xl);
@@ -2469,36 +2473,6 @@
       min-width: calc(var(--spacing) * 62);
     }
   }
-}
-@font-face {
-  font-family: "yekan-bakh-regular";
-  font-style: normal;
-  src: local("Yekan Bakh"), url("../fonts/yekan-bakh/yekan-bakh-regular.woff2") format("woff2");
-  font-display: swap;
-}
-@font-face {
-  font-family: "yekan-bakh-medium";
-  font-style: normal;
-  src: local("Yekan Bakh"), url("../fonts/yekan-bakh/yekan-bakh-medium.woff2") format("woff2");
-  font-display: swap;
-}
-@font-face {
-  font-family: "yekan-bakh-bold";
-  font-style: normal;
-  src: local("Yekan Bakh"), url("../fonts/yekan-bakh/yekan-bakh-bold.woff2") format("woff2");
-  font-display: swap;
-}
-@font-face {
-  font-family: "yekan-bakh-heavy";
-  font-style: normal;
-  src: local("Yekan Bakh"), url("../fonts/yekan-bakh/yekan-bakh-heavy.woff2") format("woff2");
-  font-display: swap;
-}
-@font-face {
-  font-family: "yekan-bakh-fat";
-  font-style: normal;
-  src: local("Yekan Bakh"), url("../fonts/yekan-bakh/yekan-bakh-fat.woff2") format("woff2");
-  font-display: swap;
 }
 #description {
   display: none;

@@ -51,6 +51,11 @@ final class GatewayRouter
 		$headers = self::normalizeHeaders();
 		$path    = self::gatewayPath();
 
+		// Action for HMAC must match X-EZ-Action (ez-ajax.js); body often has no "action" field.
+		if ( isset( $headers['x-ez-action'] ) && '' !== $headers['x-ez-action'] ) {
+			$action = sanitize_text_field( $headers['x-ez-action'] );
+		}
+
 		$kid         = $headers['x-ez-kid'] ?? 'v1';
 		$clientId    = $headers['x-ez-client-id'] ?? '';
 		$clientKind  = $headers['x-ez-client-kind'] ?? 'web-anon';

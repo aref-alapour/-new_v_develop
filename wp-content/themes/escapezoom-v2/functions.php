@@ -240,6 +240,20 @@ function ez_theme_is_my_reviews_endpoint()
     return false;
 }
 
+/**
+ * Central Yekan Bakh faces (front + admin).
+ */
+function ez_theme_register_font_style(): void {
+    wp_register_style(
+        'ez-font',
+        Theme_URL . 'assets/css/font.css',
+        [],
+        get_asset_version( 'assets/css/font.css' )
+    );
+}
+add_action( 'wp_enqueue_scripts', 'ez_theme_register_font_style', 5 );
+add_action( 'admin_enqueue_scripts', 'ez_theme_register_font_style', 5 );
+
 add_action('wp_enqueue_scripts', function () {
     $version = '1.0.94.19';
     $use_vite = function_exists( 'ez_theme_use_vite_front' ) && ez_theme_use_vite_front();
@@ -247,9 +261,9 @@ add_action('wp_enqueue_scripts', function () {
     // Register Style
     wp_register_style('swiper-css', Theme_URL . 'assets/vendor/swiper/swiper-bundle.min.css', [], '11.2.1');
     if ( $use_vite ) {
-        wp_register_style('main-css', ez_theme_dist_uri( 'front.css' ), ['swiper-css'], get_asset_version('dist/front.css'));
+        wp_register_style('main-css', ez_theme_dist_uri( 'front.css' ), ['ez-font', 'swiper-css'], get_asset_version('dist/front.css'));
     } else {
-        wp_register_style('main-css', Theme_URL . 'assets/css/main.css', ['swiper-css'], get_asset_version('assets/css/main.css'));
+        wp_register_style('main-css', Theme_URL . 'assets/css/main.css', ['ez-font', 'swiper-css'], get_asset_version('assets/css/main.css'));
     }
     wp_register_style('crm-css', Theme_URL . 'assets/css/crm.css', ['main-css'], get_asset_version('assets/css/crm.css'));
     wp_register_style('map-css', Theme_URL . 'assets/vendor/leaflet/leaflet.css', [], '1.9.4');
@@ -443,7 +457,7 @@ add_action('woocommerce_coupon_options_save', function ($coupon_id) {
 // add Style & Script
 function plugin_enqueue_custom()
 {
-    wp_enqueue_style('admin-css', Theme_URL . 'assets/css/admin.css', [], '1.0.0', 'all');
+    wp_enqueue_style('admin-css', Theme_URL . 'assets/css/admin.css', ['ez-font'], get_asset_version('assets/css/admin.css'), 'all');
     wp_enqueue_script('admin-js', Theme_URL . 'assets/js/admin.js', ['jquery'], '1.0.0', true);
 }
 
