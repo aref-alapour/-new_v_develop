@@ -1,0 +1,90 @@
+---
+description: High-level business principles and red lines. Detailed flows live in docs/project/modules/*.md. Complements Rules 01–04.
+alwaysApply: true
+---
+
+# Rule 05 — Business domain principles
+
+**This rule is short on purpose.** Checkout flows, sort algorithms, commission formulas, and hook-level detail belong in **`docs/project/modules/{module}.md`**, not here.
+
+Complements Rules 01–04. Does not replace them.
+
+**Priority:** Rules 01–04 win on migration, architecture, security, and documentation workflow. Rule 05 wins on **business invariants** when implementing domain logic.
+
+## 1. Where business logic lives
+
+- All **business rules** execute in **`escapezoom-core` Services** (Rule 02).
+- Theme, `web-service.php`, and WooCommerce hooks are **adapters/bridges** during migration (Rule 01) — no new business rules there.
+- Before changing a domain: read **`docs/project/modules/{module}.md`** (Rule 04).
+
+## 2. Core commercial unit
+
+- **Sellable unit** = **product (game/room) + sans (slot)** — Unix timestamp or normalized slot row in `wp_ez_slots`.
+- Quantity and player count must respect product min/max; never book a past sans.
+- One confirmed booking consumes **one sans** for that product — **no double booking** (DB constraint + Service check at lock and at confirm).
+
+## 3. Sans / slot lifecycle (target model)
+
+| State | Meaning |
+|-------|---------|
+| **Available** | Open for booking |
+| **Locked** | Temporary hold (checkout in progress) |
+| **Reserved** | Confirmed booking (order paid or pipeline complete) |
+| **Blocked** | Owner/admin block — not sellable |
+| **Cancelled** | Released; audit trail retained |
+
+- **Lock TTL:** target **≤ 15 minutes** for checkout hold in new core (`BookingLockService`). Legacy currently uses **5 minutes** in `booking_lock_schedule` — do not change TTL in production without Rule 01 flag and parity check.
+- Lock must be **released** on abandon, failed payment, or successful confirm (transition to Reserved).
+- Expired locks cleaned by **Job/Queue**, not heavy cron business logic (Rule 03).
+
+## 4. Booking vs payment boundary
+
+- **Booking module:** availability, lock, conflict detection, reservation record, cancel/no-show release of sans.
+- **Payment module:** amount calculation, gateway, coupons, prepay/full pay — see `docs/project/modules/checkout.md` (when written).
+- Cross-module calls go **Service → Service**, not through theme.
+
+## 5. Money, commission, wallet (principles only)
+
+- **Owner discount** vs **platform discount** are separate concepts — never merge in one opaque meta field for new code.
+- **Full pay** vs **prepay** affects amount due at checkout — calculated in `Payment`/`AmountCalculator` Services.
+- **Commission:** **waterfall** priority — product → city → game type → global. Single **`CommissionService`** (or equivalent); no scattered formulas in templates.
+- **Wallet / settlement:** credits and debits only through wallet Services; **24h settlement** and holds are business rules in `docs/project/modules/wallet.md` / `finance.md`.
+- All financial mutations: **audit trail** (Rule 03).
+
+## 6. Points and user level (principles only)
+
+- Points accrue only on **defined events** (register, completed booking, review, collection, etc.) — list and formulas in `docs/project/modules/points.md`.
+- User **level/tier** (4 levels) derives from points rules — no ad-hoc meta writes from theme.
+
+## 7. Cancel and refund (principles only)
+
+- Cancel conditions, penalties, and refund splits are documented in **`docs/project/modules/cancel.md`**.
+- Cancelling a booking must update sans state and trigger wallet/payment reversal Services — always audited.
+
+## 8. Catalog sort / ranking (principles only)
+
+- Product list order for **hottest / topsale / ranking** uses **domain scores** (`wp_ez_*`, incremental ranking) — not new batch jobs on legacy `products_order` (see `docs/project/modules/product-ranking.md` when written).
+- Legacy `sort_products_get` + `products_order` remains read-only bridge until Rule 01 Phase 3.
+
+## 9. Legacy references (read, do not extend)
+
+| Area | Legacy |
+|------|--------|
+| Locks / reservation HTTP | `web-service/reservation.php`, `ez_reservation()` |
+| Theme locks | `ez_add_booking_lock`, `ez_get_booking_lock` in `escapezoom-v2/inc/saeed-codes.php` |
+| Checkout conflict | `conflict_before_place_order_validation`, `woocommerce/checkout/form-checkout.php` |
+| Analysis | `docs/md/step1-freeze-map-bridge-report.md`, `docs/md/تحلیل_فرآیند_چک_اوت_و_بازگشت_از_بانک.md` |
+
+## 10. Domain documentation index
+
+| Module doc | Topics |
+|------------|--------|
+| [booking.md](../project/modules/booking.md) | Sans, lock, conflict, reservation |
+| `checkout.md` / `payment.md` | WooCommerce checkout, gateway, amounts (to write) |
+| `finance.md` | Commission waterfall (to write) |
+| `wallet.md` | Settlement, holds (to write) |
+| `points.md` | Events, tiers (to write) |
+| `cancel.md` | Cancel/refund (to write) |
+| `product-ranking.md` | Sort, hottest/topsale migration (to write) |
+
+When legacy `docs/md` conflicts with Rules 01–05 or `docs/project/modules/*`, **rules and project modules win**.

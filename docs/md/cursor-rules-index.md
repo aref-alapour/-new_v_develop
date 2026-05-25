@@ -8,6 +8,7 @@ Rules live in `docs/.cursor/rules/`. Files with `alwaysApply: true` apply to eve
 | [02-core-architecture-and-stack.mdc](../.cursor/rules/02-core-architecture-and-stack.mdc) | Modular core, `database-schema/`, MVC, AJAX gateway, Composer stack, gradual v3 UI |
 | [03-security-performance-red-lines.mdc](../.cursor/rules/03-security-performance-red-lines.mdc) | Security → performance → UX; data/query red lines; no new admin-ajax; front libs; Jobs; audit |
 | [04-docs-workflow-and-pest.mdc](../.cursor/rules/04-docs-workflow-and-pest.mdc) | New docs in `docs/project/`; read-before-code; Pest pyramid; PR DoD; `composer test` for core |
+| [05-business-domain-principles.mdc](../.cursor/rules/05-business-domain-principles.mdc) | High-level business invariants; detailed flows in `docs/project/modules/*.md` |
 
 ## Priority
 
@@ -15,10 +16,13 @@ Rules live in `docs/.cursor/rules/`. Files with `alwaysApply: true` apply to eve
 2. **Rule 02** defines where code lives (core vs theme), schema files, MVC, and technology stack.
 3. **Rule 03** wins on security, performance, forbidden patterns, and audit — does not override 01 or 02 on migration or structure.
 4. **Rule 04** defines documentation paths, workflow, Pest tests, and PR Definition of Done — does not override 01–03.
+5. **Rule 05** defines business invariants — detailed formulas and flows live in **`docs/project/modules/`**, not in the rule file.
 
 ## New documentation
 
 Write module and feature docs under **[docs/project/](../project/README.md)** only. Do not add files to `docs/md/`.
+
+**Started modules:** [booking.md](../project/modules/booking.md) (sans, lock, conflict). Next suggested: `checkout.md`, `payment.md`, `finance.md`.
 
 ## Related docs
 

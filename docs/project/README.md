@@ -14,7 +14,8 @@ This folder is the **only place for new documentation** while the platform is re
 docs/project/
 ├── README.md           ← this file
 ├── modules/
-│   ├── auth.md         ← one file per core module (create as you build)
+│   ├── booking.md      ← sans, lock, conflict (template for other modules)
+│   ├── auth.md         ← to write
 │   └── ...
 └── {topic}.md          ← cross-cutting guides (e.g. mobile-api-v1.md later)
 ```
