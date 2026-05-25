@@ -319,7 +319,11 @@ if ( $show_credit_notification ) {
             if (window.__EZ_BOOT__?.sub_secret && window.ezBookingApi?.sansManagementWeb) {
                 showSkeleton()
                 window.ezBookingApi.sansManagementWeb(parseInt(room, 10), parseInt(day, 10))
-                    .then(onDone)
+                    .then(function (html) {
+                        if (html != null) {
+                            onDone(html);
+                        }
+                    })
                     .catch(() => {
                         console.error('[EZ Booking] sansManagementWeb failed');
                         $(`[data-datepicker="${day}"]`).removeAttr('disabled')
@@ -374,7 +378,11 @@ if ( $show_credit_notification ) {
                 if (window.__EZ_BOOT__?.sub_secret && window.ezBookingApi?.toggleSans) {
                     _.attr('disabled', 'disabled').html(spinner)
                     window.ezBookingApi.toggleSans(action, parseInt(product, 10), parseInt(time, 10))
-                        .then(afterToggle)
+                        .then(function (result) {
+                            if (result != null) {
+                                afterToggle();
+                            }
+                        })
                         .catch(function () {
                             console.error('[EZ Booking] toggleSans failed');
                         })

@@ -1,16 +1,67 @@
 import { ezFetch } from './ez-ajax.js';
 
+/** @type {AbortController|null} */
+let sansDayJsonController = null;
+
+/** @type {AbortController|null} */
+let sansManagementWebController = null;
+
+/** @type {AbortController|null} */
+let toggleSansController = null;
+
+/**
+ * @param {AbortController|null} current
+ * @param {AbortController} next
+ */
+function replaceController(current, next) {
+  if (current) {
+    current.abort();
+  }
+  return next;
+}
+
+/**
+ * @param {unknown} error
+ * @returns {boolean}
+ */
+function isAbortError(error) {
+  return (
+    error instanceof DOMException && error.name === 'AbortError'
+  ) || (error && typeof error === 'object' && error.name === 'AbortError');
+}
+
 /**
  * @param {number} productId
  * @param {number} dayStart unix day start
- * @returns {Promise<string>} HTML
+ * @returns {Promise<string|null>} HTML or null when superseded
  */
 export async function sansManagementWeb(productId, dayStart) {
-  const resp = await ezFetch('booking.sans_management_web', {
-    product_id: productId,
-    day_start_time: dayStart,
-  });
-  return resp.text();
+  sansManagementWebController = replaceController(
+    sansManagementWebController,
+    new AbortController()
+  );
+  const controller = sansManagementWebController;
+
+  try {
+    const resp = await ezFetch(
+      'booking.sans_management_web',
+      {
+        product_id: parseInt(productId, 10),
+        day_start_time: parseInt(dayStart, 10),
+      },
+      { signal: controller.signal }
+    );
+    return await resp.text();
+  } catch (error) {
+    if (isAbortError(error)) {
+      return null;
+    }
+    throw error;
+  } finally {
+    if (sansManagementWebController === controller) {
+      sansManagementWebController = null;
+    }
+  }
 }
 
 /**
@@ -19,12 +70,33 @@ export async function sansManagementWeb(productId, dayStart) {
  * @param {number} sansTime
  */
 export async function toggleSans(kind, productId, sansTime) {
-  const action = kind === 'open' ? 'booking.open_sans' : 'booking.close_sans';
-  const resp = await ezFetch(action, {
-    product_id: productId,
-    sans_time: sansTime,
-  });
-  return resp.json();
+  toggleSansController = replaceController(
+    toggleSansController,
+    new AbortController()
+  );
+  const controller = toggleSansController;
+
+  try {
+    const action = kind === 'open' ? 'booking.open_sans' : 'booking.close_sans';
+    const resp = await ezFetch(
+      action,
+      {
+        product_id: parseInt(productId, 10),
+        sans_time: parseInt(sansTime, 10),
+      },
+      { signal: controller.signal }
+    );
+    return await resp.json();
+  } catch (error) {
+    if (isAbortError(error)) {
+      return null;
+    }
+    throw error;
+  } finally {
+    if (toggleSansController === controller) {
+      toggleSansController = null;
+    }
+  }
 }
 
 /**
@@ -32,17 +104,38 @@ export async function toggleSans(kind, productId, sansTime) {
  *
  * @param {number} productId
  * @param {number} dayStart unix day start
- * @returns {Promise<Array<Record<string, unknown>>>}
+ * @returns {Promise<Array<Record<string, unknown>>|null>}
  */
 export async function sansDayJson(productId, dayStart) {
-  const resp = await ezFetch('booking.sans_day_json', {
-    product_id: productId,
-    day_start_time: dayStart,
-    days: 1,
-  });
-  const text = await resp.text();
-  const parsed = JSON.parse(text);
-  return Array.isArray(parsed) ? parsed : [];
+  sansDayJsonController = replaceController(
+    sansDayJsonController,
+    new AbortController()
+  );
+  const controller = sansDayJsonController;
+
+  try {
+    const resp = await ezFetch(
+      'booking.sans_day_json',
+      {
+        product_id: parseInt(productId, 10),
+        day_start_time: parseInt(dayStart, 10),
+        days: 1,
+      },
+      { signal: controller.signal }
+    );
+    const text = await resp.text();
+    const parsed = JSON.parse(text);
+    return Array.isArray(parsed) ? parsed : [];
+  } catch (error) {
+    if (isAbortError(error)) {
+      return null;
+    }
+    throw error;
+  } finally {
+    if (sansDayJsonController === controller) {
+      sansDayJsonController = null;
+    }
+  }
 }
 
 export async function sansDayHtml(productId, dayStart) {

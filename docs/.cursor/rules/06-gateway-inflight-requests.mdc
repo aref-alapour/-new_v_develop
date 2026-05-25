@@ -1,0 +1,26 @@
+---
+description: Cancel superseded ezFetch gateway requests (calendar, search, filters) via AbortController.
+alwaysApply: true
+---
+
+# Rule 06 — Gateway in-flight requests
+
+Every `ezFetch` call triggered by user interaction (click, scroll, typing) that may fire again before the previous response completes (sans calendar, search, filters, tabs, autocomplete, etc.) must follow this pattern.
+
+## Requirements
+
+1. **Abort immediately:** Before sending a new request for the same feature, call `AbortController.abort()` on the previous controller for that feature.
+2. **UI from latest only:** Only the successful response of the latest request may update UI. Ignore `AbortError` (no error toast).
+3. **One controller per feature:** e.g. `sansDayJsonController` separate from `sansManagementWebController` and search.
+4. **Forbidden:** Multiple concurrent `fetch` calls to the same action for the same UI without canceling prior requests.
+5. **Debounce (optional):** For typed inputs (search), add 300–350ms debounce. For calendar day clicks, abort alone is usually enough.
+
+## Reference implementation
+
+- Search: `wp-content/themes/escapezoom-v2/assets/js/main.js` (~line 2226)
+- Infrastructure: `wp-content/themes/escapezoom-v2/assets/js/lib/ez-ajax.js` (`opts.signal`)
+- Booking: `wp-content/themes/escapezoom-v2/assets/js/lib/ez-booking-api.js` (`sansDayJson`, `sansManagementWeb`, `toggleSans`)
+
+## Goal
+
+Prevent race conditions, reduce server load, and keep Network tab to one active request per feature.

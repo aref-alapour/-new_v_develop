@@ -643,3 +643,49 @@
 [2026-05-25 17:46:12] ez_run_thankyou_booking_pipeline: missing product line item order_id=768956
 [2026-05-25 17:46:14] ez_run_thankyou_booking_pipeline: missing product line item order_id=769077
 [2026-05-25 17:46:15] ez_run_thankyou_booking_pipeline: missing product line item order_id=769078
+[2026-05-25 17:50:23] ez_run_thankyou_booking_pipeline: missing product line item order_id=765392
+[2026-05-25 17:50:25] ez_run_thankyou_booking_pipeline: missing product line item order_id=765400
+[2026-05-25 17:50:54] ez_run_thankyou_booking_pipeline: missing product line item order_id=768546
+[2026-05-25 17:50:56] ez_run_thankyou_booking_pipeline: missing product line item order_id=768552
+[2026-05-25 17:51:08] ez_run_thankyou_booking_pipeline: missing product line item order_id=768956
+[2026-05-25 17:51:10] ez_run_thankyou_booking_pipeline: missing product line item order_id=769077
+[2026-05-25 17:51:15] ez_run_thankyou_booking_pipeline: missing product line item order_id=769078
+[2026-05-25 17:51:48] [ez_zp_unverified] http error: cURL error 6: Could not resolve host: payment.zarinpal.com
+[2026-05-25 17:51:49] [ez_zp_unverified] http error: cURL error 6: Could not resolve host: payment.zarinpal.com
+[2026-05-25 17:53:01] ez_run_thankyou_booking_pipeline: missing product line item order_id=765392
+[2026-05-25 17:53:03] ez_run_thankyou_booking_pipeline: missing product line item order_id=765400
+[2026-05-25 17:53:25] ez_run_thankyou_booking_pipeline: missing product line item order_id=768546
+[2026-05-25 17:53:26] ez_run_thankyou_booking_pipeline: missing product line item order_id=768552
+[2026-05-25 17:53:36] ez_run_thankyou_booking_pipeline: missing product line item order_id=768956
+[2026-05-25 17:53:37] ez_run_thankyou_booking_pipeline: missing product line item order_id=769077
+[2026-05-25 17:53:39] ez_run_thankyou_booking_pipeline: missing product line item order_id=769078
+[2026-05-25 17:54:14] [ez_zp_unverified] http error: cURL error 6: Could not resolve host: payment.zarinpal.com
+[2026-05-25 17:54:54] [ez_zp_unverified] http error: cURL error 6: Could not resolve host: payment.zarinpal.com
+[2026-05-25 17:55:06] ez_run_thankyou_booking_pipeline: missing product line item order_id=765392
+[2026-05-25 17:55:07] ez_run_thankyou_booking_pipeline: missing product line item order_id=765400
+[2026-05-25 17:55:29] ez_run_thankyou_booking_pipeline: missing product line item order_id=768546
+[2026-05-25 17:55:31] ez_run_thankyou_booking_pipeline: missing product line item order_id=768552
+[2026-05-25 17:55:39] ez_run_thankyou_booking_pipeline: missing product line item order_id=768956
+[2026-05-25 17:55:41] ez_run_thankyou_booking_pipeline: missing product line item order_id=769077
+[2026-05-25 17:55:43] ez_run_thankyou_booking_pipeline: missing product line item order_id=769078
+[2026-05-25 17:56:31] zp_unverified_main: no order for authority A00000000000
+[2026-05-25 17:56:31] zp_unverified_main: no order for authority A00000000000
+[2026-05-25 17:56:31] zp_unverified_main: no order for authority A00000000000
+[2026-05-25 17:56:31] zp_unverified_main: no order for authority A00000000000
+[2026-05-25 17:56:31] zp_unverified_main: no order for authority A00000000000
+[2026-05-25 17:56:31] zp_unverified_main: no order for authority A00000000000
+[2026-05-25 18:49:34] ez_run_thankyou_booking_pipeline: missing product line item order_id=765392
+[2026-05-25 18:49:36] ez_run_thankyou_booking_pipeline: missing product line item order_id=765400
+[2026-05-25 18:49:59] ez_run_thankyou_booking_pipeline: missing product line item order_id=768546
+[2026-05-25 18:50:00] ez_run_thankyou_booking_pipeline: missing product line item order_id=768552
+[2026-05-25 18:50:12] ez_run_thankyou_booking_pipeline: missing product line item order_id=768956
+[2026-05-25 18:50:14] ez_run_thankyou_booking_pipeline: missing product line item order_id=769077
+[2026-05-25 18:50:15] ez_run_thankyou_booking_pipeline: missing product line item order_id=769078
+[2026-05-25 18:50:52] zp_unverified_main: no order for authority A00000000000
+[2026-05-25 18:50:52] zp_unverified_main: no order for authority A00000000000
+[2026-05-25 18:50:52] zp_unverified_main: no order for authority A00000000000
+[2026-05-25 18:50:52] zp_unverified_main: no order for authority A00000000000
+[2026-05-25 18:50:52] zp_unverified_main: no order for authority A00000000000
+[2026-05-25 18:50:52] zp_unverified_main: no order for authority A00000000000
+[2026-05-25 18:56:01] ez_run_thankyou_booking_pipeline: missing product line item order_id=765392
+[2026-05-25 18:56:03] ez_run_thankyou_booking_pipeline: missing product line item order_id=765400

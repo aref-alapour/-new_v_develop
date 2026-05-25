@@ -1239,7 +1239,11 @@ jQuery(document).ready(function ($) {
 
         if (window.__EZ_BOOT__?.sub_secret && window.ezBookingApi?.sansDayJson) {
             window.ezBookingApi.sansDayJson(productId, dayStart)
-                .then(applySansList)
+                .then(function (res) {
+                    if (res != null) {
+                        applySansList(res);
+                    }
+                })
                 .catch(function (err) {
                     console.error('[EZ Booking] Gateway error:', err);
                     showSansGatewayError();
