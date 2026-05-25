@@ -153,8 +153,8 @@ Rollout playbook (when started): `escapezoom-core/docs/rollout/booking-cutover.m
 |---------|------|--------|
 | `POST /ajax` + HMAC | `single-product`, `reserve`, `sans-manager` when `EZ_AJAX_SHARED_SECRET` set | Boot: `inc/theme/ez-ajax-boot-data.php`; bundle: `dist/front.js` (Vite, Alpine+HTMX+ez-ajax) |
 | `booking.sans_day_json` | single-product calendar click | Raw JSON (legacy `get_sanses` shape); `BuildSans` → `ezBookingApi.sansDayJson` |
-| `ez_reservation()` internal | `EZ_BOOKING_USE_INTERNAL` or filter `ez_booking_use_internal` | No `wp_remote_post` loopback; uses dispatch |
-| `reservation.php` HTTP | Fallback / mobile until phase 4 | Monitor logs before `410` (see `docs/project/ops/nginx-reservation-deprecation.conf`) |
+| `ez_reservation()` internal | `EZ_BOOKING_USE_INTERNAL` or filter `ez_booking_use_internal` | No HTTP; uses `web-service/includes/reservation-dispatch.php` |
+| `web-service/reservation.php` | **Removed** | Block at nginx with `410` (see `docs/project/ops/nginx-reservation-deprecation.conf`) |
 
 ### Flags (`wp-config.php`)
 

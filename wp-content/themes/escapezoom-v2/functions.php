@@ -359,11 +359,10 @@ add_action('wp_enqueue_scripts', function () {
     }
 
     $product_js_localize = array_merge([
-        'admin_ajax'       => admin_url('admin-ajax.php'),
-        'nonce'            => wp_create_nonce('v2-ajax-nonce'),
-        'product_id'       => $product_js_id,
-        'product_type'     => $product_js_product_type,
-        'reservation_ajax' => site_url('/web-service/reservation.php'),
+        'admin_ajax'   => admin_url('admin-ajax.php'),
+        'nonce'        => wp_create_nonce('v2-ajax-nonce'),
+        'product_id'   => $product_js_id,
+        'product_type' => $product_js_product_type,
     ], $review_payload);
 
     if ( $product_js_id > 0 ) {

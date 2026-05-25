@@ -320,23 +320,16 @@ if ( $show_credit_notification ) {
                 showSkeleton()
                 window.ezBookingApi.sansManagementWeb(parseInt(room, 10), parseInt(day, 10))
                     .then(onDone)
-                    .catch(() => $(`[data-datepicker="${day}"]`).removeAttr('disabled'))
+                    .catch(() => {
+                        console.error('[EZ Booking] sansManagementWeb failed');
+                        $(`[data-datepicker="${day}"]`).removeAttr('disabled')
+                        $("#sans").html('<p class="text-center text-slate-500 p-4">خطا در بارگذاری سانس‌ها. صفحه را رفرش کنید.</p>')
+                    })
                 return
             }
 
-            $.ajax({
-                type: 'POST',
-                url: "<?php echo site_url('web-service/reservation.php') ?>",
-                data: {
-                    "type": "sans_management_web",
-                    "data": {
-                        "day_start_time": day,
-                        "product_id": room
-                    }
-                },
-                beforeSend: showSkeleton,
-                success: onDone
-            })
+            console.error('[EZ Booking] Gateway not configured on sans-manager');
+            $("#sans").html('<p class="text-center text-slate-500 p-4">پیکربندی رزرو در دسترس نیست.</p>')
         }
         BuildSans("<?php echo $active_products[0] ?>", "<?php echo $current_date; ?>")
         new Swiper('.date-picker', {
@@ -382,25 +375,14 @@ if ( $show_credit_notification ) {
                     _.attr('disabled', 'disabled').html(spinner)
                     window.ezBookingApi.toggleSans(action, parseInt(product, 10), parseInt(time, 10))
                         .then(afterToggle)
+                        .catch(function () {
+                            console.error('[EZ Booking] toggleSans failed');
+                        })
                         .finally(() => _.removeAttr('disabled'))
                     return
                 }
 
-                $.ajax({
-                    type: 'POST',
-                    url: "<?php echo site_url('web-service/reservation.php') ?>",
-                    data: {
-                        "type": `${action}_sans`,
-                        "data": {
-                            "sans_time": parseInt(time),
-                            "product_id": parseInt(product)
-                        }
-                    },
-                    beforeSend: function() {
-                        _.attr('disabled', 'disabled').html(spinner)
-                    },
-                    success: afterToggle
-                })
+                console.error('[EZ Booking] Gateway not configured for toggle sans');
             })
             .on('submit', ".comment_form", function(e) {
                 e.preventDefault();

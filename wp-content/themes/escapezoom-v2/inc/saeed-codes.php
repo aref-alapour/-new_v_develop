@@ -166,34 +166,21 @@ function ez_reservation( $data ) {
 		}
 	}
 
-	if ( $_SERVER['HTTP_HOST'] == 'dev.escapezoom.local' ) {
-		$base_url = 'http://' . $_SERVER['HTTP_HOST'] . '/web-service/reservation.php';
-	} elseif ( $_SERVER['HTTP_HOST'] == 'dev.escapezoom.local' ) {
-		$base_url = 'http://' . $_SERVER['HTTP_HOST'] . '/web-service/reservation.php';
-	} else {
-		$base_url = 'https://' . $_SERVER['HTTP_HOST'] . '/web-service/reservation.php';
-	}
-
-	$response = wp_remote_post(
-		$base_url,
-		array(
-			'method'      => 'POST',
-			'timeout'     => 45,
-			'redirection' => 5,
-			'httpversion' => '1.0',
-			'blocking'    => true,
-			'headers'     => array(),
-			'body'        => $data,
-			'cookies'     => array(),
-		)
-	);
-
-	if ( wp_remote_retrieve_response_code( $response ) == 200 ) {
-		if ( is_array( $response ) ) {
-			return $response['body'];
+	if ( class_exists( '\EscapeZoom\Core\Modules\Booking\BookingDispatchService' ) ) {
+		$payload = function_exists( 'ez_reservation_normalize_data' )
+			? ez_reservation_normalize_data( $data )
+			: (object) ( is_array( $data ) ? $data : array() );
+		$type = isset( $payload->type ) ? (string) $payload->type : '';
+		$inner = isset( $payload->data ) && is_object( $payload->data )
+			? (array) $payload->data
+			: array();
+		if ( '' !== $type ) {
+			return \EscapeZoom\Core\Modules\Booking\BookingDispatchService::dispatchType( $type, $inner );
 		}
-		return array( 'error' => wp_remote_retrieve_response_code( $response ) );
 	}
+
+	error_log( '[EZ Booking] ez_reservation: internal dispatch unavailable (HTTP reservation.php removed)' );
+	return wp_json_encode( array( 'error' => 'booking_unavailable' ) );
 }
 /****************************************************************************************************************************************/
 add_shortcode('product_query', 'product_query');
@@ -12996,19 +12983,10 @@ if ( isset( $_GET['reservation_webservice_test'] ) ) {
         'single_value'  => false,
     ];
 
-    $response = wp_remote_post( 'https://escapezoom.ir/web-service/reservation.php', array(
-        'method'        => 'POST',
-        'timeout'       => 45,
-        'redirection'   => 5,
-        'httpversion'   => '1.0',
-        'blocking'      => true,
-        'headers'       => array(),
-        'body'          => array('type' => 'query_execution2', 'data' => $data),
-        'cookies'       => array()
+    $res = ez_reservation( array(
+        'type' => 'query_execution2',
+        'data' => $data,
     ) );
-
-//    $res = $response['body'];
-    $res = $response;
 
     saeed_store($res);
 }

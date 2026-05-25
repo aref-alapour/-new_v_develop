@@ -2,36 +2,41 @@
 $time    = sanitize_text_field($_POST['time']);
 $product = sanitize_text_field($_POST['product']);
 
-$request = wp_remote_post(
-    site_url( '/web-service/reservation.php' ),
-    [
-        'body'    => [
-            'type' => 'get_sanses',
-            'data' => [
-                'day_start_time' => $time,
-                'product_id'     => $product,
-                'days'           => 7,
-            ],
-        ],
-        'timeout' => 60,
-    ]
-);
+$days = array();
+$raw  = '';
 
-if ( is_wp_error( $request ) ) {
-    error_log(
-        'reserve_get_table: wp_remote_post get_sanses failed (reservation.php): ' . $request->get_error_message()
-    );
-    $days = [];
-} else {
-    $response_body = wp_remote_retrieve_body( $request );
-    $days          = json_decode( $response_body );
-    if ( null === $days && '' !== trim( (string) $response_body ) && JSON_ERROR_NONE !== json_last_error() ) {
-        error_log( 'reserve_get_table: invalid JSON from reservation.php get_sanses for product=' . $product );
-    }
+if ( function_exists( 'ez_reservation' ) ) {
+	$raw = (string) ez_reservation(
+		array(
+			'type' => 'get_sanses',
+			'data' => array(
+				'day_start_time' => $time,
+				'product_id'     => $product,
+				'days'           => 7,
+			),
+		)
+	);
+} elseif ( class_exists( '\EscapeZoom\Core\Modules\Booking\BookingDispatchService' ) ) {
+	$raw = \EscapeZoom\Core\Modules\Booking\BookingDispatchService::dispatchType(
+		'get_sanses',
+		array(
+			'day_start_time' => $time,
+			'product_id'     => $product,
+			'days'           => 7,
+		)
+	);
+}
+
+if ( '' !== $raw ) {
+	$days = json_decode( $raw );
+	if ( null === $days && '' !== trim( $raw ) && JSON_ERROR_NONE !== json_last_error() ) {
+		error_log( 'reserve_get_table: invalid JSON from internal get_sanses for product=' . $product );
+		$days = array();
+	}
 }
 
 if ( ! is_iterable( $days ) ) {
-    $days = [];
+	$days = array();
 }
 
 preg_match_all('/\d+/', get_field("room_tedad", $product), $numbers);

@@ -4,8 +4,6 @@ declare(strict_types=1);
 
 namespace EscapeZoom\Core\Modules\Booking\Services;
 
-use EscapeZoom\Core\Modules\Booking\Infrastructure\LegacySansAdapter;
-
 /**
  * Booking availability (sans list) with short-lived object cache.
  */
@@ -35,8 +33,10 @@ final class BookingService
 			return $cached;
 		}
 
-		$adapter = new LegacySansAdapter();
-		$result  = $adapter->getSanses( $productId, $dayStartTime, $days );
+		$result = ( new SansAvailabilityCalculator() )->getSanses( $productId, $dayStartTime, $days );
+		if ( ! is_array( $result ) ) {
+			$result = array();
+		}
 
 		wp_cache_set( $cacheKey, $result, self::CACHE_GROUP, self::CACHE_TTL );
 

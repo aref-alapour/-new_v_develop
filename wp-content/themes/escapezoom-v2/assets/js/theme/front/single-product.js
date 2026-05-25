@@ -1221,21 +1221,9 @@ jQuery(document).ready(function ($) {
         }
     };
 
-    const legacyBuildSansAjax = (room, day) => {
-        $.ajax({
-            type: 'POST',
-            url: ProductJsObject.reservation_ajax,
-            data: {
-                "type": "get_sanses",
-                "data": {
-                    "day_start_time": day,
-                    "product_id": room
-                }
-            },
-            success: function (response) {
-                applySansList(JSON.parse(response));
-            }
-        });
+    const showSansGatewayError = () => {
+        console.error('[EZ Booking] Gateway unavailable or misconfigured');
+        applySansList([]);
     };
 
     /**
@@ -1246,16 +1234,20 @@ jQuery(document).ready(function ($) {
     const BuildSans = (room, day) => {
         showSansLoading();
 
+        const productId = parseInt(room, 10);
+        const dayStart = parseInt(day, 10);
+
         if (window.__EZ_BOOT__?.sub_secret && window.ezBookingApi?.sansDayJson) {
-            window.ezBookingApi.sansDayJson(room, day)
+            window.ezBookingApi.sansDayJson(productId, dayStart)
                 .then(applySansList)
-                .catch(function () {
-                    legacyBuildSansAjax(room, day);
+                .catch(function (err) {
+                    console.error('[EZ Booking] Gateway error:', err);
+                    showSansGatewayError();
                 });
             return;
         }
 
-        legacyBuildSansAjax(room, day);
+        showSansGatewayError();
     };
 
     /**

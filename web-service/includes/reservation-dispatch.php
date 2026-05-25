@@ -19,6 +19,16 @@ function ez_reservation_dispatch( object $data ): string {
 	global $conn, $home_url;
 	$home_url = ez_reservation_home_url();
 
+	if ( ! ( $conn instanceof mysqli ) ) {
+		$type = isset( $data->type ) ? (string) $data->type : '';
+		error_log( '[EZ Booking] External DB unavailable for type=' . $type );
+		if ( 'get_sanses' === $type ) {
+			return function_exists( 'wp_json_encode' ) ? wp_json_encode( array() ) : '[]';
+		}
+		$err = array( 'error' => 'db_unavailable' );
+		return function_exists( 'wp_json_encode' ) ? wp_json_encode( $err ) : json_encode( $err );
+	}
+
 	ob_start();
 	require __DIR__ . '/reservation-handlers.inc.php';
 	$out = ob_get_clean();
