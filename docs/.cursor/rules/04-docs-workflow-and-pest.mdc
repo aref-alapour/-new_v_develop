@@ -1,0 +1,114 @@
+---
+description: Delivery quality — new docs in docs/project/, read-before-code workflow, Pest testing pyramid, PR Definition of Done. Complements Rules 01–03.
+alwaysApply: true
+---
+
+# Rule 04 — Delivery quality: docs, workflow & Pest
+
+Complements Rules 01–03. Does not replace them.
+
+**Priority:** Rule 01 (migration) > Rule 02 (architecture) > Rule 03 (security/performance red lines) > Rule 04 (documentation, tests, PR quality).
+
+## 1. Documentation paths
+
+### Write new documentation here only
+
+- **Module / feature specs:** `docs/project/modules/{module-name}.md`
+- **Cross-cutting guides:** `docs/project/{topic}.md`
+- **Index:** `docs/project/README.md`
+
+### Legacy (read-only for agents)
+
+- **`docs/md/`** — historical analysis and reports. **Do not add new files.**
+- **`docs/web-service-doc/`** — legacy API reference (read when touching `web-service.php`)
+- **`docs/old_project/`**, **`docs/escapezoom-v3/`** — reference copies; not the live runtime path
+
+### Cutover / migration playbooks (with code)
+
+- **`escapezoom-core/docs/rollout/{module}-cutover.md`** (or equivalent under the deployed MU-plugin)
+- Must reference Rule 01 flags and Phase gates
+
+### Conflict resolution
+
+If `docs/md/*.md` or other legacy docs conflict with Rules 01–04, **Cursor rules win**. Update or supersede stale docs in `docs/project/` when discovered.
+
+### Minimum content for a new `docs/project/modules/*.md`
+
+- **Goal** — why this exists
+- **Scope** — files, hooks, tables
+- **Legacy sources** — paths in `wp-content/themes/escapezoom-v2/`, `web-service/`
+- **Data** — `wp_ez_*` tables, Rule 01 flags if migrating
+- **Flow** — main sequence (bullets or diagram)
+- **API** — gateway action / REST contract (if any)
+- **Tests** — Pest suites/files added
+- **Rollback** — for migration modules (Rule 01)
+
+### When documentation is required
+
+| Required | PR note only |
+|----------|----------------|
+| New core module or public API | Typo, CSS-only |
+| Rule 01 storage migration | Internal rename |
+| Financial / booking / auth behaviour change | |
+| New gateway action or mobile endpoint | |
+
+## 2. Read before you code
+
+Before changing business logic, read in this order:
+
+1. `docs/.cursor/rules/01`–`04` and `docs/md/cursor-rules-index.md`
+2. Existing spec: `docs/project/modules/{module}.md` (create stub first if missing)
+3. **Live legacy:** `wp-content/themes/escapezoom-v2/`, `web-service/web-service.php` (+ `reservation.php` for booking)
+4. **Payment / booking scope:** `docs/md/step1-freeze-map-bridge-report.md`
+5. **Legacy API docs:** `docs/web-service-doc/` when touching web-service callbacks
+
+`escapezoom_wp` is a local deploy path prefix, not a repo folder — use paths above inside this workspace.
+
+## 3. Pest testing (`escapezoom-core` / `ez_core`)
+
+Tests live under the core MU-plugin, e.g. `wp-content/mu-plugins/ez_core/tests/`.
+
+Run: `composer test` (from core directory). Suites: `test:unit`, `test:feature`, `test:gateway` when configured.
+
+### Pyramid (required discipline)
+
+| Layer | Scope | Expectation |
+|-------|--------|-------------|
+| **Unit** | Services, pure logic, validators | **Required** for every new/changed Service method |
+| **Integration** | Eloquent + test DB / fixtures | Important modules (Auth, Booking, Slot, Payment) — add incrementally |
+| **Gateway** | AJAX gateway JSON contract | Thin tests: shape, auth errors, validation |
+| **Parity** | Rule 01 migrations | Compare legacy vs merged/new output before Phase 3 |
+| **E2E WordPress** | Full browser/checkout | Out of Rule 04; manual or separate tooling later |
+
+### Rules
+
+- **Every new Service** in a PR → at least Unit: happy path + one edge/error case
+- **No tests against production DB** — use test DB, SQLite, or fixtures
+- Prefer **testable Services** (Rule 02) over logic in theme or cron
+- **Critical modules** (Auth, Booking, Payment, Slot, Ranking): expand coverage over time; not 100% day one, but no merge of new Service without Unit tests
+- **Rule 01 cutover:** document parity approach in module doc + rollout playbook; add parity/Integration tests before `LEGACY_DISABLED`
+
+### PR gate
+
+For changes under `wp-content/mu-plugins/**/src/` (core): **`composer test` must pass** before merge.
+
+## 4. Definition of Done (PR)
+
+- [ ] Business logic in **core Service** (Rule 02), not theme
+- [ ] Rule **01** followed if storage or read path changes (flags, phases, backfill in Queue)
+- [ ] Rule **03** respected (no new admin-ajax, audit if financial/admin-sensitive)
+- [ ] **`docs/project/`** updated (or rollout doc) when documentation is required (see §1)
+- [ ] **Pest tests** added/updated for core changes; `composer test` green
+- [ ] Manual smoke noted in PR description for user-visible flows (see `docs/md/PULL_REQUEST.md` style)
+
+## 5. What Rule 04 does not cover
+
+- **Mobile API contract** → future Rule 05 or `docs/project/mobile-api-v1.md`
+- **Business domain details** (pricing formulas, Gutenberg) → future scoped rules with `alwaysApply: false`
+- **Theme-only UI** on unmigrated v2 pages → Rule 02 Strangler Fig; tests optional until page migrates
+
+## Reference
+
+- Rules index: `docs/md/cursor-rules-index.md`
+- Pest bootstrap: `wp-content/mu-plugins/ez_core/composer.json`, `pest.php`
+- Example analysis: `docs/md/step1-freeze-map-bridge-report.md`
