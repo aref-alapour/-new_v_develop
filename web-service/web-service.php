@@ -21,7 +21,7 @@ require 'helper-functions.php';
 
 global $conn;
 
-if (!($_SERVER['HTTP_HOST'] == 'escapezoom.ir' || $_SERVER['HTTP_HOST'] == 'escapezoom.co' || $_SERVER['HTTP_HOST'] == 'bak.escapezoom.ir' || $_SERVER['HTTP_HOST'] == 'dev-api.escapezoom.ir' || $_SERVER['HTTP_HOST'] == 'goriza.ir' || $_SERVER['HTTP_HOST'] == 'wo.escapezoom.local')) {
+if (!($_SERVER['HTTP_HOST'] == 'escapezoom.ir' || $_SERVER['HTTP_HOST'] == 'escapezoom.co' || $_SERVER['HTTP_HOST'] == 'bak.escapezoom.ir' || $_SERVER['HTTP_HOST'] == 'dev-api.escapezoom.ir' || $_SERVER['HTTP_HOST'] == 'goriza.ir' || $_SERVER['HTTP_HOST'] == 'dev.escapezoom.local')) {
     $conn->query(sprintf("INSERT INTO hackers (host, referer) VALUES ('%s', '%s')", $_SERVER['HTTP_HOST'], $_SERVER['HTTP_REFERER']));
     die('Get outta here');
 }
@@ -46,8 +46,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 
 //$home_url = 'https://escapezoom.ir';
-if ($_SERVER['HTTP_HOST'] == 'wo.escapezoom.local') {
-    $home_url = 'http://wo.escapezoom.local';
+if ($_SERVER['HTTP_HOST'] == 'dev.escapezoom.local') {
+    $home_url = 'http://dev.escapezoom.local';
 } else {
     $home_url = 'https://' . $_SERVER['HTTP_HOST'];
 }
@@ -672,7 +672,7 @@ if ($data->type == 'sort_products_get') {
     }
 
     if (!empty($args->url)) {
-        if ($_SERVER['HTTP_HOST'] == 'wo.escapezoom.local') {
+        if ($_SERVER['HTTP_HOST'] == 'dev.escapezoom.local') {
             $home_url = 'http://' . $args->url;
         } else {
             $home_url = 'https://' . $args->url;
@@ -1333,8 +1333,8 @@ function standardization_products($products, $only_free_sanses = false)
     global $conn, $home_url;
     
     if (empty($home_url)) {
-        if ($_SERVER['HTTP_HOST'] == 'wo.escapezoom.local') {
-            $home_url = 'http://wo.escapezoom.local';
+        if ($_SERVER['HTTP_HOST'] == 'dev.escapezoom.local') {
+            $home_url = 'http://dev.escapezoom.local';
         } else {
             $home_url = 'https://escapezoom.ir';
         }
@@ -1447,8 +1447,8 @@ function standardization_products_html_swiper($products, $only_free_sanses = fal
     global $home_url;
 
     if (empty($home_url)) {
-        if ($_SERVER['HTTP_HOST'] == 'wo.escapezoom.local') {
-            $home_url = 'http://wo.escapezoom.local';
+        if ($_SERVER['HTTP_HOST'] == 'dev.escapezoom.local') {
+            $home_url = 'http://dev.escapezoom.local';
         } else {
             $home_url = 'https://escapezoom.ir';
         }
@@ -1799,8 +1799,8 @@ function standardization_products_html_list($products, $only_free_sanses = false
     global $home_url;
 
     if (empty($home_url)) {
-        if ($_SERVER['HTTP_HOST'] == 'wo.escapezoom.local') {
-            $home_url = 'http://wo.escapezoom.local';
+        if ($_SERVER['HTTP_HOST'] == 'dev.escapezoom.local') {
+            $home_url = 'http://dev.escapezoom.local';
         } else {
             $home_url = 'https://escapezoom.ir';
         }

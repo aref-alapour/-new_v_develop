@@ -130,9 +130,9 @@ if ($ok) { echo "همهٔ مراحل با موفقیت انجام شد. ..."; } 
 
 ```php
 function ez_webservice( $data ) {
-    if ( $_SERVER['HTTP_HOST'] == 'wo.escapezoom.local' ) {
+    if ( $_SERVER['HTTP_HOST'] == 'dev.escapezoom.local' ) {
         $base_url = 'http://' . $_SERVER['HTTP_HOST'] . '/web-service/web-service.php';
-    } elseif ( $_SERVER['HTTP_HOST'] == 'wo.escapezoom.local' ) {
+    } elseif ( $_SERVER['HTTP_HOST'] == 'dev.escapezoom.local' ) {
         $base_url = 'http://' . $_SERVER['HTTP_HOST'] . '/web-service/web-service.php';
     } else {
         $base_url = 'https://' . $_SERVER['HTTP_HOST'] . '/web-service/web-service.php';

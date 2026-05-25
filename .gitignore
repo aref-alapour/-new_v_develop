@@ -23,6 +23,8 @@
 /wp-signup.php
 /wp-trackback.php
 /xmlrpc.php
+debug.log
+litespeed/
 
 # تنظیمات محلی (در صورت وجود؛ از نمونه docker استفاده کنید)
 /wp-config.php

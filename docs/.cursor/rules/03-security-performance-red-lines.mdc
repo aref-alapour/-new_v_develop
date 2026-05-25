@@ -1,0 +1,105 @@
+---
+description: Security and performance priorities, operational red lines, data access quality, network/AJAX, front-end libs, background jobs, audit logging. Complements Rules 01–02.
+alwaysApply: true
+---
+
+# Rule 03 — Security, performance & operational red lines
+
+Complements Rule 01 (migration) and Rule 02 (architecture). Does not replace them.
+
+**Priority:** Rule 01 wins on migration safety. Rule 02 wins on structure and stack. Rule 03 wins on security, performance, and forbidden patterns when implementing new or changed code.
+
+## 1. Non-negotiable priorities
+
+1. **Security** (auth, input validation, capability checks, no secrets in client)
+2. **Performance** (query cost, cache, background work)
+3. **UX speed** (perceived responsiveness on live traffic)
+
+Never trade security for speed. Never run heavy work in the HTTP path when a Job/Queue exists.
+
+## 2. Data access (extends Rule 02 — short)
+
+### Forbidden for new domain work (`wp_ez_*` and core Services)
+
+- **Transactional or high-volume data in `wp_options`** (settings/flags only)
+- **Heavy `WP_Query`** or postmeta loops for domain that belongs in `wp_ez_*`
+- **Direct `$wpdb`** in theme or new feature code (temporary glue in core only, behind feature flag, with removal ticket)
+
+### Required
+
+- **Eloquent** via core Models/Services (Rule 02 MVC)
+- **Selective columns** — avoid `SELECT *` on wide tables
+- **Eager loading** (`with()`) — no N+1 on list/detail pages
+- **Pagination** on admin and public lists
+- **Indexes** on filter/sort/join columns in new `.sql` files (Rule 02 `database-schema/`)
+
+### Cache
+
+- **`wp_cache_get` / `wp_cache_set`** with named groups (e.g. `ez_products`, `ez_rankings`) — not `illuminate/cache`
+- Cache hot reads and expensive aggregates; invalidate on write in Service layer
+
+### Dual database (during migration)
+
+- **`wordpress` + `escapezo`** (or legacy connection) allowed only while Rule 01 Phase 1–2 is active for that module
+- **Goal:** single primary domain store on `wp_ez_*`; legacy connection removed in Phase 3
+
+## 3. Network & AJAX
+
+### Forbidden
+
+- **New `admin-ajax.php` handlers** or new actions on `v2_ajax_handler`
+- **New endpoints in `web-service.php`** (legacy shrink only)
+- **Synchronous external HTTP** (SMS, payment verify, CRM) in user-facing request path
+
+### Required
+
+- **Signed central gateway** (`POST /ajax` or equivalent) per Rule 02
+- **External APIs** via Queue/Job with retries and idempotency where applicable
+- **Frontend timeout:** max **2 seconds** for interactive AJAX/HTMX (user-initiated). Exceptions: checkout flow, payment redirect return, explicit user-confirmed long actions (documented)
+- **Abort stale requests** in new v3 client code (`AbortController` or equivalent)
+
+## 4. Front-end libraries (new code in `escapezoom-v3` only)
+
+| Allowed | Forbidden (do not add to new bundles) |
+|---------|-------------------------------------|
+| HTMX, Alpine.js, Vite | jQuery (new usage) |
+| Stencil (shared components) | SweetAlert / SweetAlert2 |
+| GSAP (animations; prefer transforms, respect `prefers-reduced-motion`) | Tippy.js (new usage) |
+| Shared `ez-ajax.js` (or successor) | Duplicate heavy UI frameworks |
+
+- **v2 live pages:** unchanged until page-level migration (Rule 02 Strangler Fig)
+- **Bundle goal:** small entry chunks per page; no global monolith script for one feature
+
+## 5. Background & scheduling
+
+### Forbidden
+
+- **Business logic in `wp_schedule_event`** (cron) — scheduling only; work in Job/Queue
+- **Backfill or bulk migration in HTTP** (Rule 01)
+
+### Required
+
+- Payment reconciliation, SMS, ranking rebuilds, backfill → **Illuminate Queue / core Jobs**
+- Cron may **dispatch** a Job; must not contain domain rules inline
+
+## 6. Logging & audit
+
+The following must leave a **traceable audit trail** (DB row, structured log, or dedicated audit table):
+
+- Financial: payment, refund, wallet credit/debit, settlement
+- Booking: cancel, no-show, slot lock override
+- Admin: manual price/penalty change, role/capability change on sensitive actions
+
+Logs must include: actor (user/system), entity id, action, timestamp, before/after or payload hash where PII allows.
+
+## 7. Security checklist (new endpoints)
+
+- Authenticate and authorize (capability or signed token) before Service call
+- Validate input via `illuminate/validation` (or gateway validator)
+- Never expose internal IDs without ownership check
+- Rate-limit sensitive public actions where abuse is likely
+
+## Reference
+
+- AJAX client pattern: `docs/escapezoom-v3/assets/js/` (e.g. `ez-ajax.js`)
+- Legacy to avoid extending: `wp-content/themes/escapezoom-v2/` (`v2_ajax_handler`), `web-service/web-service.php`

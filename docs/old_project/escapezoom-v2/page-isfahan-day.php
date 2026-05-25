@@ -384,7 +384,7 @@ shuffle($cinema_ids);
 
         let baseUrlWebService = 'https://' + location.hostname + '/web-service/web-service.php';
 
-        if (location.hostname === 'wo.escapezoom.local') {
+        if (location.hostname === 'dev.escapezoom.local') {
 
             baseUrlWebService = 'http://' + location.hostname + '/web-service/web-service.php';
 

@@ -58,7 +58,7 @@
     - `dev-api.escapezoom.ir`
     - `zoom.escapezoom.ir`
     - `goriza.ir`
-    - `wo.escapezoom.local`
+    - `dev.escapezoom.local`
   - اگر `HTTP_HOST` یکی از این‌ها نباشد:
     - یک رکورد در جدول `hackers` ذخیره می‌کند (`host`, `referer`).
     - متن `Get outta here` را چاپ و اسکریپت را متوقف می‌کند.

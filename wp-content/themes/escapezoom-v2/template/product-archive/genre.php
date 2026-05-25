@@ -463,7 +463,7 @@ endforeach;
         if (location.hostname === 'localhost') {
             baseUrlWebService = 'http://' + location.hostname + ':8080/web-service/web-service.php';
             suggestUrlWebService = 'http://' + location.hostname + ':8080/web-service/game-suggested.php';
-        } else if (location.hostname === 'wo.escapezoom.local') {
+        } else if (location.hostname === 'dev.escapezoom.local') {
             baseUrlWebService = 'http://' + location.hostname + '/web-service/web-service.php';
             suggestUrlWebService = 'http://' + location.hostname + '/web-service/game-suggested.php';
         }

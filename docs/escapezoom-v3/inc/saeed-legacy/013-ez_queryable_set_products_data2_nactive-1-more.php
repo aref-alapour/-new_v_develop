@@ -116,7 +116,7 @@ function ez_queryable_set_products_data_nactive() {
         $temp->schedule         = ['normals' => get_post_meta($id, 'schedule_normals', true), 'holidays' => get_post_meta($id, 'schedule_holidays', true)];
         $temp->duration         = get_field("room_duration", $id);
         $temp->url              = trim(urldecode(get_permalink()), "https://escapezoom.ir/room/");
-        if ( $_SERVER['HTTP_HOST'] == 'wo.escapezoom.local' )
+        if ( $_SERVER['HTTP_HOST'] == 'dev.escapezoom.local' )
             $temp->url              = trim(urldecode(get_permalink()), 'http://' . $_SERVER['HTTP_HOST'] . '/room');
         $temp->hood             = get_field("room_loc", $id);
         $temp->city_id          = $city_id;

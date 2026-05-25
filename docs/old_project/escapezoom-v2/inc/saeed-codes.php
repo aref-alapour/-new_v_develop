@@ -109,9 +109,9 @@ function custom_orders_list_column_content( $column, $post_id ) {
 }
 /****************************************************************************************************************************************/
 function ez_webservice( $data ) {
-    if ( $_SERVER['HTTP_HOST'] == 'wo.escapezoom.local' ) {
+    if ( $_SERVER['HTTP_HOST'] == 'dev.escapezoom.local' ) {
         $base_url = 'http://' . $_SERVER['HTTP_HOST'] . '/web-service/web-service.php';
-    } elseif ( $_SERVER['HTTP_HOST'] == 'wo.escapezoom.local' ) {
+    } elseif ( $_SERVER['HTTP_HOST'] == 'dev.escapezoom.local' ) {
         $base_url = 'http://' . $_SERVER['HTTP_HOST'] . '/web-service/web-service.php';
     } else {
         $base_url = 'https://' . $_SERVER['HTTP_HOST'] . '/web-service/web-service.php';
@@ -133,9 +133,9 @@ function ez_webservice( $data ) {
 }
 /****************************************************************************************************************************************/
 function ez_reservation( $data ) {
-    if ( $_SERVER['HTTP_HOST'] == 'wo.escapezoom.local' ) {
+    if ( $_SERVER['HTTP_HOST'] == 'dev.escapezoom.local' ) {
         $base_url = 'http://' . $_SERVER['HTTP_HOST'] . '/web-service/reservation.php';
-    } elseif ( $_SERVER['HTTP_HOST'] == 'wo.escapezoom.local' ) {
+    } elseif ( $_SERVER['HTTP_HOST'] == 'dev.escapezoom.local' ) {
         $base_url = 'http://' . $_SERVER['HTTP_HOST'] . '/web-service/reservation.php';
     } else {
         $base_url = 'https://' . $_SERVER['HTTP_HOST'] . '/web-service/reservation.php';
@@ -714,7 +714,7 @@ function ez_queryable_set_products_data() {
         $temp->schedule         = ['normals' => get_post_meta($id, 'schedule_normals', true), 'holidays' => get_post_meta($id, 'schedule_holidays', true)];
         $temp->duration         = get_field("room_duration", $id);
         $temp->url              = trim(urldecode(get_permalink()), "https://escapezoom.ir/room/");
-        if ( $_SERVER['HTTP_HOST'] == 'wo.escapezoom.local' )
+        if ( $_SERVER['HTTP_HOST'] == 'dev.escapezoom.local' )
             $temp->url              = trim(urldecode(get_permalink()), 'http://' . $_SERVER['HTTP_HOST'] . '/room');
         $temp->hood             = get_field("room_loc", $id);
         $temp->city_id          = $city_id;
@@ -855,7 +855,7 @@ function ez_queryable_set_products_data_nactive() {
         $temp->schedule         = ['normals' => get_post_meta($id, 'schedule_normals', true), 'holidays' => get_post_meta($id, 'schedule_holidays', true)];
         $temp->duration         = get_field("room_duration", $id);
         $temp->url              = trim(urldecode(get_permalink()), "https://escapezoom.ir/room/");
-        if ( $_SERVER['HTTP_HOST'] == 'wo.escapezoom.local' )
+        if ( $_SERVER['HTTP_HOST'] == 'dev.escapezoom.local' )
             $temp->url              = trim(urldecode(get_permalink()), 'http://' . $_SERVER['HTTP_HOST'] . '/room');
         $temp->hood             = get_field("room_loc", $id);
         $temp->city_id          = $city_id;
@@ -1510,7 +1510,7 @@ function ez_product_cat_sliders () {
 
             $.ajax({
                 type: 'POST',
-                url: (location.hostname === 'wo.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/web-service/web-service.php',
+                url: (location.hostname === 'dev.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/web-service/web-service.php',
                 data: {
                     "async": false,
                     "type": "sort_products_get",
@@ -1725,7 +1725,7 @@ function ez_product_cat_sliders () {
 
                 $.ajax({
                     type: 'POST',
-                    url: (location.hostname === 'wo.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/web-service/web-service.php',
+                    url: (location.hostname === 'dev.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/web-service/web-service.php',
                     data: {
                         "async": false,
                         "type": "sort_products_get",
@@ -1871,7 +1871,7 @@ function ez_product_cat_sliders () {
 
             $.ajax({
                 type: 'POST',
-                url: (location.hostname === 'wo.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/web-service/web-service.php',
+                url: (location.hostname === 'dev.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/web-service/web-service.php',
                 data: {
                     "type": "sort_products_get",
                     "data": {
@@ -2016,7 +2016,7 @@ function ez_product_cat_sliders () {
 
                 $.ajax({
                     type: 'POST',
-                    url: (location.hostname === 'wo.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/web-service/web-service.php',
+                    url: (location.hostname === 'dev.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/web-service/web-service.php',
                     data: {
                         "type": "sort_products_get",
                         "data": {
@@ -2168,7 +2168,7 @@ function ez_product_cat_sliders () {
 
                 $.ajax({
                     type: 'POST',
-                    url: (location.hostname === 'wo.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/web-service/web-service.php',
+                    url: (location.hostname === 'dev.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/web-service/web-service.php',
                     data: {
                         "type": "sort_products_get",
                         "data": {
@@ -2302,7 +2302,7 @@ function ez_product_cat_sliders () {
 
             $.ajax({
                 type: 'POST',
-                url: (location.hostname === 'wo.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/web-service/web-service.php',
+                url: (location.hostname === 'dev.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/web-service/web-service.php',
                 data: {
                     "async": false,
                     "type": "sort_products_get",
@@ -3126,7 +3126,7 @@ function elite_rooms_of_tehran_func3($state) {
 
                     $.ajax({
                         type: 'POST',
-                        url: (location.hostname === 'wo.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/web-service/web-service.php',
+                        url: (location.hostname === 'dev.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/web-service/web-service.php',
                         data: {
                             "type": "sort_products_get",
                             "data": {
@@ -3225,7 +3225,7 @@ function elite_rooms_of_tehran_func3($state) {
 
                 $.ajax({
                     type: 'POST',
-                    url: (location.hostname === 'wo.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/web-service/web-service.php',
+                    url: (location.hostname === 'dev.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/web-service/web-service.php',
                     data: {
                         "type": "sort_products_get",
                         "data": {
@@ -3640,7 +3640,7 @@ function get_deactivated_rooms() {
 
             $.ajax({
                 type: 'POST',
-                url: (location.hostname === 'wo.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/web-service/web-service.php',
+                url: (location.hostname === 'dev.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/web-service/web-service.php',
                 data: {
                     "async": false,
                     "type": "sort_products_get",
@@ -10641,7 +10641,7 @@ if ( isset( $_GET['bak_test'] ) ) {
 //    $products = json_decode ( ez_webservice( array('type' => 'sort_products_get', 'data' => $args) ) );
 
     $data = array('type' => 'sort_products_get', 'data' => $args);
-    $base_url = ($_SERVER['HTTP_HOST'] == 'wo.escapezoom.local' ? 'http://' : 'https://') . $_SERVER['HTTP_HOST'] . '/web-service/web-service.php';
+    $base_url = ($_SERVER['HTTP_HOST'] == 'dev.escapezoom.local' ? 'http://' : 'https://') . $_SERVER['HTTP_HOST'] . '/web-service/web-service.php';
     $response = wp_remote_post( $base_url, array(
         'method'        => 'POST',
         'timeout'       => 45,

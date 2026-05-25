@@ -167,7 +167,7 @@ if ($thankyou_already_processed) {
         }
     }
     $rest = max(0, $item_total - $prepaid);
-    if ($_SERVER['HTTP_HOST'] !== 'wo.escapezoom.local') {
+    if ($_SERVER['HTTP_HOST'] !== 'dev.escapezoom.local') {
         if (get_post_meta($order_id, 'seen_tnx_page', true) && (int) $product_id !== 5104) {
             wp_redirect(home_url('/t/' . str_replace('wc_order_', '', get_post_meta($order_id, '_order_key', true))));
             exit;
@@ -585,7 +585,7 @@ if ($chat_id) {
 }
 
 // جلوگیری از رفرش تنکیوپیج و ریدایرکت به چاپ بلیط
-if ($_SERVER['HTTP_HOST'] !== 'wo.escapezoom.local') {
+if ($_SERVER['HTTP_HOST'] !== 'dev.escapezoom.local') {
     update_post_meta($order_id, 'seen_tnx_page', time());
     if ((int) $product_id !== 5104) {
         wp_redirect(home_url('/t/' . str_replace('wc_order_', '', get_post_meta($order_id, '_order_key', true))));

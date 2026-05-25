@@ -29,7 +29,7 @@
 - **کنترل دامنه‌ی مجاز**:
 
 ```php
-if (! (HTTP_HOST در بین escapezoom.ir, escapezoom.co, bak.escapezoom.ir, dev-api.escapezoom.ir, zoom.escapezoom.ir, w2.razriazi.ir, wo.escapezoom.local)) {
+if (! (HTTP_HOST در بین escapezoom.ir, escapezoom.co, bak.escapezoom.ir, dev-api.escapezoom.ir, zoom.escapezoom.ir, w2.razriazi.ir, dev.escapezoom.local)) {
     INSERT INTO hackers (host, referer) ...
     die('Get outta here');
 }
@@ -63,15 +63,15 @@ $term = $data->term;
 
 تنظیم `home_url`:
 
-- اگر هاست `wo.escapezoom.local` باشد:
-  - `home_url = 'http://wo.escapezoom.local'`.
+- اگر هاست `dev.escapezoom.local` باشد:
+  - `home_url = 'http://dev.escapezoom.local'`.
 - در غیر این صورت:
   - اگر `$data->url` ست شده باشد از آن استفاده می‌کند، وگرنه `escapezoom.ir`:
 
 ```php
 $url = $data->url ?? 'escapezoom.ir';
-if ($url == 'wo.escapezoom.local') {
-    $home_url = 'http://wo.escapezoom.local';
+if ($url == 'dev.escapezoom.local') {
+    $home_url = 'http://dev.escapezoom.local';
 } else {
     $home_url = 'https://' . $url;
 }

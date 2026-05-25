@@ -703,7 +703,7 @@ jQuery(document).ready(function ($) {
     if (location.hostname === 'localhost') {
         baseUrlQuery = 'http://' + location.hostname + '/escapezoom_wp/web-service/queryable.php';
         baseUrlWebService = 'http://' + location.hostname + '/escapezoom_wp/web-service/web-service.php'
-    } else if (location.hostname === 'wo.escapezoom.local') {
+    } else if (location.hostname === 'dev.escapezoom.local') {
         baseUrlQuery = 'http://' + location.hostname + '/web-service/queryable.php';
         baseUrlWebService = 'http://' + location.hostname + '/web-service/web-service.php';
     }
@@ -2103,7 +2103,7 @@ jQuery(document).ready(function($) {
     let searchTimeout = null;
     let currentAjaxRequest = null; // برای abort کردن درخواست قبلی
     let searchBaseUrl = 'https://' + location.hostname + '/wp-content/themes/escapezoom-v2/inc/http/func/main-search-ajax.php';
-    if (location.hostname === 'wo.escapezoom.local') {
+    if (location.hostname === 'dev.escapezoom.local') {
         searchBaseUrl = 'http://' + location.hostname + '/wp-content/themes/escapezoom-v2/inc/http/func/main-search-ajax.php';
     }
 

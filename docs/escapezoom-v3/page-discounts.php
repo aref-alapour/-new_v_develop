@@ -744,7 +744,7 @@ list($dayAfterTomorrowStart, $dayAfterTomorrowEnd) = getStartAndEndTimestamps($d
         let baseUrlWebService = 'https://' + location.hostname + '/web-service/web-service.php';
         if (location.hostname === 'localhost') {
             baseUrlWebService = 'http://' + location.hostname + '/escapezoom_wp/web-service/web-service.php';
-        } else if (location.hostname === 'wo.escapezoom.local') {
+        } else if (location.hostname === 'dev.escapezoom.local') {
             baseUrlWebService = 'http://' + location.hostname + '/web-service/web-service.php';
         }
         $('.option-sans-input').on('click', function() {

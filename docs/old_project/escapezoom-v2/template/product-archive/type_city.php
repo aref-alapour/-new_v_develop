@@ -3291,7 +3291,7 @@ if (!empty($faqs) && is_array($faqs)) : ?>
     jQuery(document).ready(function($) {
 
         let baseUrlWebService = 'https://' + location.hostname + '/web-service/web-service.php'
-        if (location.hostname === 'localhost' || location.hostname === 'wo.escapezoom.local') {
+        if (location.hostname === 'localhost' || location.hostname === 'dev.escapezoom.local') {
             baseUrlWebService = 'http://' + location.hostname + '/web-service/web-service.php'
         }
 

@@ -86,7 +86,7 @@ function get_deactivated_rooms() {
 
             $.ajax({
                 type: 'POST',
-                url: (location.hostname === 'wo.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/web-service/web-service.php',
+                url: (location.hostname === 'dev.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/web-service/web-service.php',
                 data: {
                     "async": false,
                     "type": "sort_products_get",

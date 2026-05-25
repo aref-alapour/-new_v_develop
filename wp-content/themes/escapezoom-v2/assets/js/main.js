@@ -2109,7 +2109,7 @@ jQuery(document).ready(function($) {
     let searchTimeout = null;
     let currentAjaxRequest = null; // برای abort کردن درخواست قبلی
     let searchBaseUrl = 'https://' + location.hostname + '/wp-content/themes/escapezoom-v2/template/func/main-search-ajax.php';
-    if (location.hostname === 'wo.escapezoom.local') {
+    if (location.hostname === 'dev.escapezoom.local') {
         searchBaseUrl = 'http://' + location.hostname + '/wp-content/themes/escapezoom-v2/template/func/main-search-ajax.php';
     }
 

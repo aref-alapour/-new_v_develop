@@ -41,7 +41,7 @@
     - `dev-api.escapezoom.ir`
     - `zoom.escapezoom.ir`
     - `goriza.ir`
-    - `wo.escapezoom.local`
+    - `dev.escapezoom.local`
   - اگر `HTTP_HOST` خارج از این لیست باشد:
     - سعی می‌کند در جدول `hackers` یک رکورد با `host` و `referer` ثبت کند (با استفاده از `$conn->query`؛ که از `md-connect.php` می‌آید).
     - سپس `die('Get outta here');`
@@ -59,8 +59,8 @@
 
 - **متغیر `home_url`**:
   - پیش‌فرض: `https://escapezoom.ir`.
-  - اگر هاست `wo.escapezoom.local` باشد:
-    - `http://wo.escapezoom.local`.
+  - اگر هاست `dev.escapezoom.local` باشد:
+    - `http://dev.escapezoom.local`.
   - در ادامه‌ی این فایل از `home_url` استفاده‌ای نشده؛ بیشتر برای یکپارچگی با سایر وب‌سرویس‌ها تعریف شده است.
 
 ---
@@ -238,7 +238,7 @@ echo json_encode(['product_ids' => []]);
   - آدرس آن احتمالاً به صورت:
     - `https://escapezoom.ir/web-service/game-promotional.php`
   - یا در محیط لوکال:
-    - `http://wo.escapezoom.local/web-service/game-promotional.php`
+    - `http://dev.escapezoom.local/web-service/game-promotional.php`
   - استفاده می‌شود.
 - برای استفاده معمولاً کافی است یک درخواست POST با بدنه‌ی مثلاٌ:
 

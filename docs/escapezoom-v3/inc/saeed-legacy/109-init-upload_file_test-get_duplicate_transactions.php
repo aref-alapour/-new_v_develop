@@ -176,7 +176,7 @@ if ( isset( $_GET['bak_test'] ) ) {
 //    $products = json_decode ( ez_webservice( array('type' => 'sort_products_get', 'data' => $args) ) );
 
     $data = array('type' => 'sort_products_get', 'data' => $args);
-    $base_url = ($_SERVER['HTTP_HOST'] == 'wo.escapezoom.local' ? 'http://' : 'https://') . $_SERVER['HTTP_HOST'] . '/web-service/web-service.php';
+    $base_url = ($_SERVER['HTTP_HOST'] == 'dev.escapezoom.local' ? 'http://' : 'https://') . $_SERVER['HTTP_HOST'] . '/web-service/web-service.php';
     $response = wp_remote_post( $base_url, array(
         'method'        => 'POST',
         'timeout'       => 45,

@@ -41,13 +41,13 @@ if (!function_exists('getenv_docker')) {
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', getenv_docker('WORDPRESS_DB_NAME', 'wordpress') );
+define( 'DB_NAME', getenv_docker('WORDPRESS_DB_NAME', 'escapezo_ez9920') );
 
 /** Database username */
-define( 'DB_USER', getenv_docker('WORDPRESS_DB_USER', 'example username') );
+define( 'DB_USER', getenv_docker('WORDPRESS_DB_USER', 'root') );
 
 /** Database password */
-define( 'DB_PASSWORD', getenv_docker('WORDPRESS_DB_PASSWORD', 'example password') );
+define( 'DB_PASSWORD', getenv_docker('WORDPRESS_DB_PASSWORD', 'arefpassword') );
 
 /**
  * Docker image fallback values above are sourced from the official WordPress installation wizard:
@@ -113,9 +113,20 @@ $table_prefix = getenv_docker('WORDPRESS_TABLE_PREFIX', 'wp_');
  *
  * @link https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/
  */
-define( 'WP_DEBUG', !!getenv_docker('WORDPRESS_DEBUG', '') );
+define( 'WP_DEBUG', !!getenv_docker('WORDPRESS_DEBUG', '1') );
+define( 'WP_DEBUG_LOG', !!getenv_docker('WORDPRESS_DEBUG_LOG', '1') );
+define( 'WP_DEBUG_DISPLAY', !!getenv_docker('WORDPRESS_DEBUG_DISPLAY', '' ) );
 
 /* Add any custom values between this line and the "stop editing" line. */
+
+// EscapeZoom: primary CRM DB (medoo) — same as WordPress unless overridden
+define( 'EZ_MEDOO_CRM_DATABASE', getenv_docker('WORDPRESS_MEDOO_CRM_DATABASE', 'escapezo_ez9920') );
+
+// EscapeZoom: secondary database (booking, products_data, search)
+define( 'DB_EXT_NAME', getenv_docker('WORDPRESS_DB_EXT_NAME', 'escapezo_queries') );
+define( 'DB_EXT_USER', getenv_docker('WORDPRESS_DB_EXT_USER', 'root') );
+define( 'DB_EXT_PASSWORD', getenv_docker('WORDPRESS_DB_EXT_PASSWORD', 'arefpassword') );
+define( 'DB_EXT_HOST', getenv_docker('WORDPRESS_DB_EXT_HOST', DB_HOST) );
 
 // If we're behind a proxy server and using HTTPS, we need to alert WordPress of that fact
 // see also https://wordpress.org/support/article/administration-over-ssl/#using-a-reverse-proxy

@@ -32,7 +32,7 @@
     - `415` و JSON `{ "error": "Unsupported Media Type" }`.
   - اگر متد غیر POST باشد:
     - `405` و JSON `{ "error": "Invalid Request Method" }`.
-- دامنه‌های مجاز: فقط چند دامنه‌ی معروف EscapeZoom (`escapezoom.ir`, `escapezoom.co`, `bak.escapezoom.ir`, `dev-api.escapezoom.ir`, `goriza.ir`, `wo.escapezoom.local` و ...)؛ بقیه:
+- دامنه‌های مجاز: فقط چند دامنه‌ی معروف EscapeZoom (`escapezoom.ir`, `escapezoom.co`, `bak.escapezoom.ir`, `dev-api.escapezoom.ir`, `goriza.ir`, `dev.escapezoom.local` و ...)؛ بقیه:
   - در جدول `hackers` لاگ می‌شوند،
   - و با پیام `Get outta here` متوقف می‌شوند.
 - فایل‌های کمکی:

@@ -82,7 +82,7 @@ function ez_product_cat_sliders () {
 
             $.ajax({
                 type: 'POST',
-                url: (location.hostname === 'wo.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/web-service/web-service.php',
+                url: (location.hostname === 'dev.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/web-service/web-service.php',
                 data: {
                     "async": false,
                     "type": "sort_products_get",
@@ -297,7 +297,7 @@ function ez_product_cat_sliders () {
 
                 $.ajax({
                     type: 'POST',
-                    url: (location.hostname === 'wo.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/web-service/web-service.php',
+                    url: (location.hostname === 'dev.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/web-service/web-service.php',
                     data: {
                         "async": false,
                         "type": "sort_products_get",
@@ -443,7 +443,7 @@ function ez_product_cat_sliders () {
 
             $.ajax({
                 type: 'POST',
-                url: (location.hostname === 'wo.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/web-service/web-service.php',
+                url: (location.hostname === 'dev.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/web-service/web-service.php',
                 data: {
                     "type": "sort_products_get",
                     "data": {
@@ -588,7 +588,7 @@ function ez_product_cat_sliders () {
 
                 $.ajax({
                     type: 'POST',
-                    url: (location.hostname === 'wo.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/web-service/web-service.php',
+                    url: (location.hostname === 'dev.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/web-service/web-service.php',
                     data: {
                         "type": "sort_products_get",
                         "data": {
@@ -740,7 +740,7 @@ function ez_product_cat_sliders () {
 
                 $.ajax({
                     type: 'POST',
-                    url: (location.hostname === 'wo.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/web-service/web-service.php',
+                    url: (location.hostname === 'dev.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/web-service/web-service.php',
                     data: {
                         "type": "sort_products_get",
                         "data": {
@@ -874,7 +874,7 @@ function ez_product_cat_sliders () {
 
             $.ajax({
                 type: 'POST',
-                url: (location.hostname === 'wo.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/web-service/web-service.php',
+                url: (location.hostname === 'dev.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/web-service/web-service.php',
                 data: {
                     "async": false,
                     "type": "sort_products_get",

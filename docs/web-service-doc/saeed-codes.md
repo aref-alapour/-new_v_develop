@@ -145,7 +145,7 @@ if (function_exists('medoo')) {
 **نقش**: wrapper برای صدا زدن `web-service/web-service.php` از داخل قالب.
 
 - بر اساس `HTTP_HOST`، `base_url` را تعیین می‌کند:
-  - لوکال (`wo.escapezoom.local`) → `http://host/web-service/web-service.php`
+  - لوکال (`dev.escapezoom.local`) → `http://host/web-service/web-service.php`
   - بقیه → `https://host/web-service/web-service.php`
 - یک `wp_remote_post` با:
   - `headers: Content-Type: application/json`

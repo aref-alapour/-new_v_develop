@@ -20,7 +20,7 @@
 ## سربرگ، امنیت و ورودی
 
 - CORS برای همه‌ی originها باز است و متدها/هدرهای لازم برای AJAX تنظیم شده‌اند.
-- فقط روی چند دامنه‌ی مجاز (`escapezoom.ir`, `escapezoom.co`, `bak.escapezoom.ir`, `dev-api.escapezoom.ir`, `goriza.ir`, `wo.escapezoom.local`) پاسخ می‌دهد؛ مابقی در `hackers` لاگ و با پیام `Get outta here` بسته می‌شوند.
+- فقط روی چند دامنه‌ی مجاز (`escapezoom.ir`, `escapezoom.co`, `bak.escapezoom.ir`, `dev-api.escapezoom.ir`, `goriza.ir`, `dev.escapezoom.local`) پاسخ می‌دهد؛ مابقی در `hackers` لاگ و با پیام `Get outta here` بسته می‌شوند.
 - فقط متد **POST**:
   - `application/json` → بدنه‌ی JSON → `$data`.
   - `application/x-www-form-urlencoded` → `$_POST` → آبجکت → `$data`.

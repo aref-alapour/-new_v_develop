@@ -38,7 +38,7 @@
 - **کنترل دامنه‌های مجاز**:
 
   ```php
-  if (! ($_SERVER['HTTP_HOST'] == 'escapezoom.ir' || ... || $_SERVER['HTTP_HOST'] == 'wo.escapezoom.local')) {
+  if (! ($_SERVER['HTTP_HOST'] == 'escapezoom.ir' || ... || $_SERVER['HTTP_HOST'] == 'dev.escapezoom.local')) {
       $conn->query(sprintf("INSERT INTO hackers (host, referer) VALUES ('%s', '%s')", $_SERVER['HTTP_HOST'], $_SERVER['HTTP_REFERER']));
       die('Get outta here');
   }
@@ -61,8 +61,8 @@
 
 - **`home_url`**:
   - پیش‌فرض: `https://escapezoom.ir`.
-  - اگر هاست `wo.escapezoom.local` باشد:
-    - `http://wo.escapezoom.local`.
+  - اگر هاست `dev.escapezoom.local` باشد:
+    - `http://dev.escapezoom.local`.
   - در این فایل مستقیماً از `home_url` استفاده نمی‌شود، فقط برای سازگاری با سایر سرویس‌ها تعریف شده است.
 
 ---

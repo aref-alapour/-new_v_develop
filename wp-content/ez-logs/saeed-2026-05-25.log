@@ -1,0 +1,32 @@
+[2026-05-25 10:06:35] [ez_zp_unverified] http error: cURL error 6: Could not resolve host: payment.zarinpal.com
+[2026-05-25 10:06:36] [ez_zp_unverified] http error: cURL error 6: Could not resolve host: payment.zarinpal.com
+[2026-05-25 10:06:57] ez_run_thankyou_booking_pipeline: missing product line item order_id=765392
+[2026-05-25 10:07:00] ez_run_thankyou_booking_pipeline: missing product line item order_id=765400
+[2026-05-25 10:07:34] ez_run_thankyou_booking_pipeline: missing product line item order_id=768546
+[2026-05-25 10:07:37] ez_run_thankyou_booking_pipeline: missing product line item order_id=768552
+[2026-05-25 10:07:48] ez_run_thankyou_booking_pipeline: missing product line item order_id=768956
+[2026-05-25 10:07:49] ez_run_thankyou_booking_pipeline: missing product line item order_id=769077
+[2026-05-25 10:07:54] ez_run_thankyou_booking_pipeline: missing product line item order_id=769078
+[2026-05-25 10:07:57] Insufficient wallet at pipeline order_id=769093 wallet_share=600000 balance=0
+[2026-05-25 10:08:00] Insufficient wallet at pipeline order_id=769138 wallet_share=325000 balance=0
+[2026-05-25 10:08:04] Insufficient wallet at pipeline order_id=769193 wallet_share=700000 balance=0
+[2026-05-25 10:08:17] Insufficient wallet at pipeline order_id=769206 wallet_share=600000 balance=0
+[2026-05-25 10:08:21] Insufficient wallet at pipeline order_id=769221 wallet_share=370000 balance=0
+[2026-05-25 10:08:25] Insufficient wallet at pipeline order_id=769223 wallet_share=370000 balance=0
+[2026-05-25 10:08:35] Insufficient wallet at pipeline order_id=769251 wallet_share=640000 balance=0
+[2026-05-25 10:08:43] Insufficient wallet at pipeline order_id=769265 wallet_share=20000 balance=0
+[2026-05-25 10:08:46] Insufficient wallet at pipeline order_id=769291 wallet_share=660000 balance=0
+[2026-05-25 10:08:56] Insufficient wallet at pipeline order_id=769328 wallet_share=290000 balance=0
+[2026-05-25 10:09:11] Insufficient wallet at pipeline order_id=769340 wallet_share=760000 balance=0
+[2026-05-25 10:09:18] Insufficient wallet at pipeline order_id=769358 wallet_share=300000 balance=200000
+[2026-05-25 10:09:24] Insufficient wallet at pipeline order_id=769377 wallet_share=350000 balance=0
+[2026-05-25 10:09:30] Insufficient wallet at pipeline order_id=769401 wallet_share=400000 balance=0
+[2026-05-25 10:09:35] Insufficient wallet at pipeline order_id=769547 wallet_share=600000 balance=0
+[2026-05-25 10:09:44] Insufficient wallet at pipeline order_id=769701 wallet_share=600000 balance=0
+[2026-05-25 10:09:48] Insufficient wallet at pipeline order_id=769733 wallet_share=20000 balance=0
+[2026-05-25 10:09:51] Insufficient wallet at pipeline order_id=769741 wallet_share=820000 balance=0
+[2026-05-25 10:09:56] Insufficient wallet at pipeline order_id=769750 wallet_share=50000 balance=0
+[2026-05-25 10:10:03] Insufficient wallet at pipeline order_id=769790 wallet_share=200000 balance=0
+[2026-05-25 10:10:07] Insufficient wallet at pipeline order_id=769791 wallet_share=780000 balance=0
+[2026-05-25 10:10:10] Insufficient wallet at pipeline order_id=769815 wallet_share=760000 balance=0
+[2026-05-25 10:10:16] Insufficient wallet at pipeline order_id=769912 wallet_share=70000 balance=0
