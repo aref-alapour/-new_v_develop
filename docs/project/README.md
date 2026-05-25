@@ -14,7 +14,8 @@ This folder is the **only place for new documentation** while the platform is re
 docs/project/
 ├── README.md           ← this file
 ├── modules/
-│   ├── booking.md      ← sans, lock, conflict (template for other modules)
+│   ├── booking.md      ← sans, lock, conflict
+│   ├── checkout.md     ← WooCommerce checkout, amount, gateway, verify
 │   ├── auth.md         ← to write
 │   └── ...
 └── {topic}.md          ← cross-cutting guides (e.g. mobile-api-v1.md later)

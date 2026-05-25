@@ -22,7 +22,7 @@ Rules live in `docs/.cursor/rules/`. Files with `alwaysApply: true` apply to eve
 
 Write module and feature docs under **[docs/project/](../project/README.md)** only. Do not add files to `docs/md/`.
 
-**Started modules:** [booking.md](../project/modules/booking.md) (sans, lock, conflict). Next suggested: `checkout.md`, `payment.md`, `finance.md`.
+**Started modules:** [booking.md](../project/modules/booking.md), [checkout.md](../project/modules/checkout.md). Next suggested: `finance.md`, `wallet.md`, `cancel.md`.
 
 ## Related docs
 

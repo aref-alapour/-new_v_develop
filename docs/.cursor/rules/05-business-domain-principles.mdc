@@ -80,7 +80,8 @@ Complements Rules 01–04. Does not replace them.
 | Module doc | Topics |
 |------------|--------|
 | [booking.md](../project/modules/booking.md) | Sans, lock, conflict, reservation |
-| `checkout.md` / `payment.md` | WooCommerce checkout, gateway, amounts (to write) |
+| [checkout.md](../project/modules/checkout.md) | WooCommerce checkout, gateway, amounts, submit validation |
+| `payment.md` | Optional split from checkout (to write) |
 | `finance.md` | Commission waterfall (to write) |
 | `wallet.md` | Settlement, holds (to write) |
 | `points.md` | Events, tiers (to write) |

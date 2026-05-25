@@ -168,9 +168,9 @@ Run: `composer test` from `wp-content/mu-plugins/ez_core` (or deployed core path
 
 ## Related modules
 
-- [checkout.md](./checkout.md) — to write: amounts, gateway, `ez_final_payment_amount`
+- [checkout.md](./checkout.md) — amounts, gateway, `ez_final_payment_amount`, submit validation
 - [cancel.md](./cancel.md) — to write: refund + sans release
-- [payment.md](./payment.md) — optional split from checkout
+- `finance.md` — post-pay `wp_markting` / commission (to write)
 
 ## Changelog
 
