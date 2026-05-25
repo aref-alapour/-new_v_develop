@@ -506,3 +506,11 @@
 [2026-05-25 14:18:26] zp_unverified_main: no order for authority A00000000000
 [2026-05-25 14:18:26] zp_unverified_main: no order for authority A00000000000
 [2026-05-25 14:18:26] zp_unverified_main: no order for authority A00000000000
+[2026-05-25 15:47:19] ez_run_thankyou_booking_pipeline: missing product line item order_id=765392
+[2026-05-25 15:47:22] ez_run_thankyou_booking_pipeline: missing product line item order_id=765400
+[2026-05-25 15:47:45] ez_run_thankyou_booking_pipeline: missing product line item order_id=768546
+[2026-05-25 15:47:47] ez_run_thankyou_booking_pipeline: missing product line item order_id=768552
+[2026-05-25 15:47:54] ez_run_thankyou_booking_pipeline: missing product line item order_id=768956
+[2026-05-25 15:47:56] ez_run_thankyou_booking_pipeline: missing product line item order_id=769077
+[2026-05-25 15:47:57] ez_run_thankyou_booking_pipeline: missing product line item order_id=769078
+[2026-05-25 15:48:23] [ez_zp_unverified] http error: cURL error 6: Could not resolve host: payment.zarinpal.com

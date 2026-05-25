@@ -150,6 +150,7 @@ require_once Theme_PATH . 'inc/ez-booking-checkout-validation.php';
 require_once Theme_PATH . 'inc/ez-markting-team-ops.php';
 include_once Theme_PATH . "template/func/cron.php";
 require_once Theme_PATH . 'inc/shop/booking/reservation-bridge.php';
+require_once Theme_PATH . 'inc/theme/constants-uri.php';
 require_once Theme_PATH . 'inc/theme/booking-gateway-theme.php';
 if ( ! defined( 'EZ_BOOKING_USE_INTERNAL' ) ) {
 	define( 'EZ_BOOKING_USE_INTERNAL', (bool) apply_filters( 'ez_booking_use_internal', false ) );
@@ -179,7 +180,9 @@ function add_link_theme_scripts()
 
     if (is_product()) {
         wp_enqueue_script('threejs');
-        wp_enqueue_script('single-product-js');
+        if ( ! function_exists( 'ez_theme_use_vite_front' ) || ! ez_theme_use_vite_front() ) {
+            wp_enqueue_script('single-product-js');
+        }
         wp_enqueue_style('map-css');
         wp_enqueue_script('map-js');
         wp_enqueue_script('swiper-js');
@@ -187,7 +190,9 @@ function add_link_theme_scripts()
     }
 
     if (is_single() and ! is_product()) {
-        wp_enqueue_script('single-post-js');
+        if ( ! function_exists( 'ez_theme_use_vite_front' ) || ! ez_theme_use_vite_front() ) {
+            wp_enqueue_script('single-post-js');
+        }
     }
 
     if (is_page('panel')) {
@@ -195,7 +200,9 @@ function add_link_theme_scripts()
     }
     if (is_page('team')) {
         wp_enqueue_style('crm-css');
-        wp_enqueue_script('crm-js');
+        if ( ! function_exists( 'ez_theme_use_vite_front' ) || ! ez_theme_use_vite_front() ) {
+            wp_enqueue_script('crm-js');
+        }
     }
 
     // لود کردن lottie-js فقط روی صفحات product_tag (type)
@@ -235,10 +242,15 @@ function ez_theme_is_my_reviews_endpoint()
 
 add_action('wp_enqueue_scripts', function () {
     $version = '1.0.94.19';
+    $use_vite = function_exists( 'ez_theme_use_vite_front' ) && ez_theme_use_vite_front();
 
     // Register Style
     wp_register_style('swiper-css', Theme_URL . 'assets/vendor/swiper/swiper-bundle.min.css', [], '11.2.1');
-    wp_register_style('main-css', Theme_URL . 'assets/css/main.css', ['swiper-css'], get_asset_version('assets/css/main.css'));
+    if ( $use_vite ) {
+        wp_register_style('main-css', ez_theme_dist_uri( 'front.css' ), ['swiper-css'], get_asset_version('dist/front.css'));
+    } else {
+        wp_register_style('main-css', Theme_URL . 'assets/css/main.css', ['swiper-css'], get_asset_version('assets/css/main.css'));
+    }
     wp_register_style('crm-css', Theme_URL . 'assets/css/crm.css', ['main-css'], get_asset_version('assets/css/crm.css'));
     wp_register_style('map-css', Theme_URL . 'assets/vendor/leaflet/leaflet.css', [], '1.9.4');
     wp_register_style('map-GeoapifyAddressSearch-css', Theme_URL . 'assets/vendor/leaflet/L.Control.GeoapifyAddressSearch.css', ['map-css'], $version);
@@ -259,7 +271,7 @@ add_action('wp_enqueue_scripts', function () {
     wp_register_script('swiper-js', Theme_URL . 'assets/vendor/swiper/swiper-bundle.min.js', [], '11.2.1', true);
     wp_register_script('sweetalert-js', Theme_URL . 'assets/vendor/sweetalert2/sweetalert2@11.js', [], '11.15.10', true);
     wp_register_script('lightbox-js', Theme_URL . 'assets/vendor/lightbox/js/lightbox.js', [], '2.11.5', true);
-    wp_register_script('main-js', Theme_URL . 'assets/js/main.js', [
+    $main_js_deps = [
         'jquery',
         'gsap-js',
         'sweetalert-js',
@@ -269,8 +281,26 @@ add_action('wp_enqueue_scripts', function () {
         'embla-fade-js',
         'embla-scroll-js',
         'zebline-js',
-        'swiper-js'
-    ], get_asset_version('assets/js/main.js'), true);
+        'swiper-js',
+    ];
+    if ( $use_vite ) {
+        wp_register_script(
+            'main-js',
+            ez_theme_dist_uri( 'front.js' ),
+            $main_js_deps,
+            get_asset_version( 'dist/front.js' ),
+            true
+        );
+        wp_script_add_data( 'main-js', 'type', 'module' );
+    } else {
+        wp_register_script(
+            'main-js',
+            Theme_URL . 'assets/js/main.js',
+            $main_js_deps,
+            get_asset_version( 'assets/js/main.js' ),
+            true
+        );
+    }
     wp_register_script('crm-js', Theme_URL . 'assets/js/crm.js', ['main-js'], get_asset_version('assets/js/crm.js'), true);
     wp_register_script('checkout-js', Theme_URL . 'assets/js/theme/front/checkout.js', ['main-js'], get_asset_version('assets/js/theme/front/checkout.js'), true);
     wp_register_script('single-post-js', Theme_URL . 'assets/js/theme/front/single-post.js', ['main-js'], get_asset_version('assets/js/theme/front/single-post.js'), true);
@@ -314,27 +344,42 @@ add_action('wp_enqueue_scripts', function () {
         }
     }
 
-    wp_localize_script('single-product-js', 'ProductJsObject', array_merge([
+    $product_js_localize = array_merge([
         'admin_ajax'       => admin_url('admin-ajax.php'),
         'nonce'            => wp_create_nonce('v2-ajax-nonce'),
         'product_id'       => $product_js_id,
         'product_type'     => $product_js_product_type,
         'reservation_ajax' => site_url('/web-service/reservation.php'),
-    ], $review_payload));
+    ], $review_payload);
 
-    wp_localize_script('single-post-js', 'PostJsObject', [
-        'admin_ajax' => admin_url('admin-ajax.php'),
-        'nonce'      => wp_create_nonce('v2-ajax-nonce'),
-        'post_id'    => get_the_ID(),
-    ]);
+    if ( $product_js_id > 0 ) {
+        $product_localize_handle = $use_vite ? 'main-js' : 'single-product-js';
+        wp_localize_script( $product_localize_handle, 'ProductJsObject', $product_js_localize );
+    }
+
+    if ( is_single() && ! is_product() ) {
+        $post_localize_handle = $use_vite ? 'main-js' : 'single-post-js';
+        wp_localize_script(
+            $post_localize_handle,
+            'PostJsObject',
+            [
+                'admin_ajax' => admin_url( 'admin-ajax.php' ),
+                'nonce'      => wp_create_nonce( 'v2-ajax-nonce' ),
+                'post_id'    => get_the_ID(),
+            ]
+        );
+    }
     wp_register_script('map-js', Theme_URL . 'assets/vendor/leaflet/leaflet.js', [], '1.9.4', false);
     wp_register_script('map-GeoapifyAddressSearch-js', Theme_URL . 'assets/vendor/leaflet/L.Control.GeoapifyAddressSearch.js', ['map-js'], '1.9.4', false);
     wp_register_script('map-a11y-light-js', Theme_URL . 'assets/vendor/leaflet/highlight.min.js', ['map-js'], '1.9.4', false);
     wp_register_script('zebline-js', Theme_URL . 'assets/vendor/zebline/zebline-sdk.js', [], '1', false);
 
     if (ez_theme_is_my_reviews_endpoint()) {
-        wp_enqueue_script('my-reviews-js');
-        wp_localize_script('my-reviews-js', 'MyReviewsObject', [
+        if ( ! $use_vite ) {
+            wp_enqueue_script('my-reviews-js');
+        }
+        $my_reviews_handle = $use_vite ? 'main-js' : 'my-reviews-js';
+        wp_localize_script($my_reviews_handle, 'MyReviewsObject', [
             'ajaxUrl' => admin_url('admin-ajax.php'),
             'nonce'   => wp_create_nonce('v2-ajax-nonce'),
         ]);

@@ -1181,15 +1181,47 @@ jQuery(document).ready(function ($) {
 
     $("[data-rate='100']").addClass('active').css({'background': '#02C96F', 'color': '#FFFFFF'})
 
-    /**
-     * Build sessions for both desktop and mobile
-     * @param {number} room - Product ID
-     * @param {number} day - Day timestamp
-     */
-    const BuildSans = (room, day) => {
-        if (window.__EZ_BOOT__?.sub_secret && window.ezBookingApi?.sansDayHtml) {
-            return;
+    const showSansLoading = () => {
+        $('.sessions-embla-container-desktop').empty();
+        let loadingHTML = '';
+        for (let i = 0; i < 4; i++) {
+            loadingHTML += '<div class="skeleton h-12 w-full rounded-[10px] mb-2.5"></div>';
         }
+        $("#sessions-list-desktop").html(loadingHTML);
+        $("#sessions-list-mobile").html(loadingHTML);
+        $("#sessions-info-desktop").html('<h2 class="text-xs text-blue">در حال بارگذاری...</h2>');
+        $("#sessions-info-mobile").html('<h2 class="text-xs text-blue">در حال بارگذاری...</h2>');
+        $("#toggle-sessions-desktop").hide();
+        $("#toggle-sessions-mobile").hide();
+    };
+
+    const applySansList = (res) => {
+        if (!Array.isArray(res)) {
+            res = [];
+        }
+        let reservable_count = 0;
+        res.forEach((item) => {
+            if (item.status === 'reservable') {
+                reservable_count += 1;
+            }
+        });
+        if (reservable_count > 0) {
+            const infoHTML = `<h2 class="text-xs text-blue">${reservable_count} سانس قابل رزرو</h2>`;
+            $("#sessions-info-desktop").html(infoHTML);
+            $("#sessions-info-mobile").html(infoHTML);
+            renderSessions(res, 'desktop');
+            renderSessions(res, 'mobile');
+        } else {
+            const emptyHTML = `<div class='w-full aspect-square bg-slate-100 shadow-13 rounded-2xl flex flex-col text-center items-center justify-center text-slate-350 leading-5 text-lg'>
+                    <p>در این روز سانس خالی نداریم!<br> روز دیگه ای انتخاب کن.</p></div>`;
+            $('.embla__container-sessions').html(emptyHTML);
+            $('.sessions-embla-container-desktop').html(emptyHTML);
+            $("#sessions-info-desktop").empty();
+            $("#sessions-info-mobile").empty();
+        }
+    };
+
+    const legacyBuildSansAjax = (room, day) => {
         $.ajax({
             type: 'POST',
             url: ProductJsObject.reservation_ajax,
@@ -1200,54 +1232,30 @@ jQuery(document).ready(function ($) {
                     "product_id": room
                 }
             },
-            beforeSend: function () {
-                // Desktop loading
-                $('.sessions-embla-container-desktop').empty();
-                let loadingHTML = '';
-                for (let i = 0; i < 4; i++) {
-                    loadingHTML += '<div class="skeleton h-12 w-full rounded-[10px] mb-2.5"></div>';
-                }
-                $("#sessions-list-desktop").html(loadingHTML);
-                $("#sessions-list-mobile").html(loadingHTML);
-                $("#sessions-info-desktop").html('<h2 class="text-xs text-blue">در حال بارگذاری...</h2>');
-                $("#sessions-info-mobile").html('<h2 class="text-xs text-blue">در حال بارگذاری...</h2>');
-                
-                // مخفی کردن دکمه‌های toggle
-                $("#toggle-sessions-desktop").hide();
-                $("#toggle-sessions-mobile").hide();
-            },
             success: function (response) {
-                let res = JSON.parse(response);
-                
-                // شمارش سانس‌های قابل رزرو
-                let reservable_count = 0;
-                let reserved_count = 0;
-                
-                res.forEach((item) => {
-                    if (item.status === 'reservable') {
-                        reservable_count += 1;
-                    } else if (item.status === 'reserved') {
-                        reserved_count += 1;
-                    }
-                });
-
-                // آپدیت session info
-                if (reservable_count > 0) {
-                    const infoHTML = `<h2 class="text-xs text-blue">${reservable_count} سانس قابل رزرو</h2>`;
-                    $("#sessions-info-desktop").html(infoHTML);
-                    $("#sessions-info-mobile").html(infoHTML);
-                    renderSessions(res, 'desktop');
-                    renderSessions(res, 'mobile');
-                } else {
-                    const emptyHTML = `<div class='w-full aspect-square bg-slate-100 shadow-13 rounded-2xl flex flex-col text-center items-center justify-center text-slate-350 leading-5 text-lg'>
-                    <p>در این روز سانس خالی نداریم!<br> روز دیگه ای انتخاب کن.</p></div>`;
-                    $('.embla__container-sessions').html(emptyHTML)
-                    $('.sessions-embla-container-desktop').html(emptyHTML)
-                    $("#sessions-info-desktop").empty();
-                    $("#sessions-info-mobile").empty();
-                }
+                applySansList(JSON.parse(response));
             }
         });
+    };
+
+    /**
+     * Build sessions for both desktop and mobile
+     * @param {number} room - Product ID
+     * @param {number} day - Day timestamp
+     */
+    const BuildSans = (room, day) => {
+        showSansLoading();
+
+        if (window.__EZ_BOOT__?.sub_secret && window.ezBookingApi?.sansDayJson) {
+            window.ezBookingApi.sansDayJson(room, day)
+                .then(applySansList)
+                .catch(function () {
+                    legacyBuildSansAjax(room, day);
+                });
+            return;
+        }
+
+        legacyBuildSansAjax(room, day);
     };
 
     /**

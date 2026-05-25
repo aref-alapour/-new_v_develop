@@ -90,26 +90,3 @@ add_action(
 	5
 );
 
-add_action(
-	'wp_enqueue_scripts',
-	static function (): void {
-		if ( ! ez_booking_should_boot_ajax() ) {
-			return;
-		}
-		$dir = get_template_directory();
-		$uri = get_template_directory_uri();
-		$js  = $dir . '/dist/product-booking.js';
-		if ( ! is_readable( $js ) ) {
-			return;
-		}
-		wp_enqueue_script(
-			'ez-product-booking',
-			$uri . '/dist/product-booking.js',
-			array(),
-			(string) filemtime( $js ),
-			true
-		);
-		wp_script_add_data( 'ez-product-booking', 'type', 'module' );
-	},
-	30
-);

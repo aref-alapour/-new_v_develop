@@ -6,6 +6,7 @@ namespace EscapeZoom\Core\Modules\Booking;
 
 use EscapeZoom\Core\Modules\AjaxGateway\ActionRegistry;
 use EscapeZoom\Core\Modules\AjaxGateway\GatewayResponse;
+use EscapeZoom\Core\Modules\Booking\Actions\GetSansesJsonAction;
 
 /**
  * booking.* gateway actions (HTML partials).
@@ -14,6 +15,7 @@ final class BookingGatewayActions
 {
 	public static function register(): void {
 		ActionRegistry::register( 'booking.sans_day', array( self::class, 'sansDay' ) );
+		ActionRegistry::register( 'booking.sans_day_json', array( self::class, 'sansDayJson' ) );
 		ActionRegistry::register( 'booking.sans_week', array( self::class, 'sansWeek' ) );
 		ActionRegistry::register( 'booking.sans_management_web', array( self::class, 'sansManagementWeb' ) );
 		ActionRegistry::register( 'booking.open_sans', array( self::class, 'openSans' ) );
@@ -32,18 +34,44 @@ final class BookingGatewayActions
 		}
 
 		$sessions = BookingAvailabilityService::getSanses( $productId, $dayStartTime, 1 );
-		$day      = is_array( $sessions ) && isset( $sessions[0] ) && is_array( $sessions[0] ) ? $sessions[0] : array();
+		$day      = is_array( $sessions ) ? $sessions : array();
+		// Flat list for days=1; if nested (legacy mistake), use first day bucket.
+		if ( isset( $day[0] ) && is_array( $day[0] ) && isset( $day[0]['time'] ) ) {
+			$dayList = $day;
+		} elseif ( isset( $day[0] ) && is_array( $day[0] ) && ! isset( $day[0]['time'] ) ) {
+			$dayList = $day[0];
+		} else {
+			$dayList = $day;
+		}
 
 		$html = self::renderPartial(
 			'sans-day',
 			array(
 				'product_id'     => $productId,
 				'day_start_time' => $dayStartTime,
-				'sessions'       => $day,
+				'sessions'       => is_array( $dayList ) ? $dayList : array(),
 			)
 		);
 
 		GatewayResponse::html( $html );
+	}
+
+	/**
+	 * Legacy flat JSON for single-product BuildSans (no HTML partial).
+	 *
+	 * @param array<string,mixed> $body
+	 */
+	public static function sansDayJson( array $body ): void {
+		$productId    = isset( $body['product_id'] ) ? (int) $body['product_id'] : 0;
+		$dayStartTime = isset( $body['day_start_time'] ) ? (int) $body['day_start_time'] : 0;
+
+		if ( $productId <= 0 || $dayStartTime <= 0 ) {
+			GatewayResponse::raw( '[]' );
+		}
+
+		$result = ( new GetSansesJsonAction() )->handle( $body );
+
+		GatewayResponse::raw( wp_json_encode( $result, JSON_UNESCAPED_UNICODE ) ?: '[]' );
 	}
 
 	/**

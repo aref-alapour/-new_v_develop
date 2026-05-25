@@ -151,7 +151,8 @@ Rollout playbook (when started): `escapezoom-core/docs/rollout/booking-cutover.m
 
 | Surface | When | Notes |
 |---------|------|--------|
-| `POST /ajax` + HMAC | `single-product`, `reserve`, `sans-manager` when `EZ_AJAX_SHARED_SECRET` set | Boot: `inc/theme/ez-ajax-boot-data.php`; client: `dist/product-booking.js` |
+| `POST /ajax` + HMAC | `single-product`, `reserve`, `sans-manager` when `EZ_AJAX_SHARED_SECRET` set | Boot: `inc/theme/ez-ajax-boot-data.php`; bundle: `dist/front.js` (Vite, Alpine+HTMX+ez-ajax) |
+| `booking.sans_day_json` | single-product calendar click | Raw JSON (legacy `get_sanses` shape); `BuildSans` → `ezBookingApi.sansDayJson` |
 | `ez_reservation()` internal | `EZ_BOOKING_USE_INTERNAL` or filter `ez_booking_use_internal` | No `wp_remote_post` loopback; uses dispatch |
 | `reservation.php` HTTP | Fallback / mobile until phase 4 | Monitor logs before `410` (see `docs/project/ops/nginx-reservation-deprecation.conf`) |
 
@@ -160,7 +161,20 @@ Rollout playbook (when started): `escapezoom-core/docs/rollout/booking-cutover.m
 ```php
 define('EZ_AJAX_SHARED_SECRET', '…'); // required for /ajax boot + gateway
 define('EZ_BOOKING_USE_INTERNAL', true); // staging first; or filter ez_booking_use_internal
+// Vite front bundle (auto-on when dist/front.js + dist/front.css exist):
+define('EZ_USE_VITE_FRONT', true); // optional override; else filter ez_use_vite_front
 ```
+
+**Theme build (escapezoom-v2):**
+
+```bash
+cd wp-content/themes/escapezoom-v2
+npm install --registry https://registry.npmjs.org/
+npm run build   # dist/front.css + dist/front.js
+npm run dev     # watch CSS + JS (like v3)
+```
+
+**Core classes:** `ez_core/src/Modules/Booking/Services/BookingService.php`, `Infrastructure/LegacySansAdapter.php`, `Actions/GetSansesJsonAction.php`, gateway handler `booking.sans_day_json`.
 
 ### Mobile (future)
 
@@ -197,3 +211,4 @@ Run: `composer test` from `wp-content/mu-plugins/ez_core` (or deployed core path
 |------|--------|
 | 2026-05-24 | Initial module doc (template + legacy mapping from step1 / v2 / web-service) |
 | 2026-05-24 | Gateway migration: dispatch extract, `reservation-bridge`, ez_core `/ajax`, v2 `product-booking` bundle, internal `ez_reservation` flag |
+| 2026-05-24 | Phase A: `booking.sans_day_json`, `BookingService`/`LegacySansAdapter`, Vite `dist/front.js` (v3-style), `BuildSans` → gateway |
