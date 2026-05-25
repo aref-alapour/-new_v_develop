@@ -1187,6 +1187,9 @@ jQuery(document).ready(function ($) {
      * @param {number} day - Day timestamp
      */
     const BuildSans = (room, day) => {
+        if (window.__EZ_BOOT__?.sub_secret && window.ezBookingApi?.sansDayHtml) {
+            return;
+        }
         $.ajax({
             type: 'POST',
             url: ProductJsObject.reservation_ajax,

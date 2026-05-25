@@ -149,6 +149,11 @@ require_once Theme_PATH . 'inc/ez-zibal-verify.php';
 require_once Theme_PATH . 'inc/ez-booking-checkout-validation.php';
 require_once Theme_PATH . 'inc/ez-markting-team-ops.php';
 include_once Theme_PATH . "template/func/cron.php";
+require_once Theme_PATH . 'inc/shop/booking/reservation-bridge.php';
+require_once Theme_PATH . 'inc/theme/booking-gateway-theme.php';
+if ( ! defined( 'EZ_BOOKING_USE_INTERNAL' ) ) {
+	define( 'EZ_BOOKING_USE_INTERNAL', (bool) apply_filters( 'ez_booking_use_internal', false ) );
+}
 include get_template_directory() . '/inc/saeed-codes.php';
 include get_template_directory() . '/template/admin/admin-settings.php';
 include get_template_directory() . '/inc/api-shortener.php';

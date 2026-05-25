@@ -21,7 +21,8 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"EscapeZoom\\Core\\": "src/"
+			"EscapeZoom\\Core\\": "src/",
+			"EZ\\Ajax\\": "src/Ajax/"
 		}
 	},
 	"autoload-dev": {

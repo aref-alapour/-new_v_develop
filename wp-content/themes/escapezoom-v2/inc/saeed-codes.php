@@ -142,30 +142,58 @@ function ez_webservice( $data ) {
 }
 /****************************************************************************************************************************************/
 function ez_reservation( $data ) {
-    if ( $_SERVER['HTTP_HOST'] == 'dev.escapezoom.local' ) {
-        $base_url = 'http://' . $_SERVER['HTTP_HOST'] . '/web-service/reservation.php';
-    } elseif ( $_SERVER['HTTP_HOST'] == 'dev.escapezoom.local' ) {
-        $base_url = 'http://' . $_SERVER['HTTP_HOST'] . '/web-service/reservation.php';
-    } else {
-        $base_url = 'https://' . $_SERVER['HTTP_HOST'] . '/web-service/reservation.php';
-    }
+	if ( ! function_exists( 'ez_reservation_try_shortcut' ) ) {
+		$bridge = get_template_directory() . '/inc/shop/booking/reservation-bridge.php';
+		if ( is_readable( $bridge ) ) {
+			require_once $bridge;
+		}
+	}
 
-    $response = wp_remote_post( $base_url, array(
-        'method'        => 'POST',
-        'timeout'       => 45,
-        'redirection'   => 5,
-        'httpversion'   => '1.0',
-        'blocking'      => true,
-        'headers'       => array(),
-        'body'          => $data,
-        'cookies'       => array()
-    ) );
+	$shortcut = function_exists( 'ez_reservation_try_shortcut' ) ? ez_reservation_try_shortcut( $data ) : null;
+	if ( null !== $shortcut ) {
+		return $shortcut;
+	}
 
-    if ( wp_remote_retrieve_response_code( $response ) == 200 )
-        if ( is_array($response) )
-            return $response['body'];
-        else
-            return ['error' => wp_remote_retrieve_response_code( $response )];
+	if ( defined( 'EZ_BOOKING_USE_INTERNAL' ) && EZ_BOOKING_USE_INTERNAL ) {
+		if ( ! defined( 'EZ_BOOKING_INTERNAL_CALL' ) ) {
+			define( 'EZ_BOOKING_INTERNAL_CALL', true );
+		}
+		$dispatch_path = ABSPATH . 'web-service/includes/reservation-dispatch.php';
+		if ( is_readable( $dispatch_path ) ) {
+			require_once $dispatch_path;
+			$payload = ez_reservation_normalize_data( $data );
+			return ez_reservation_dispatch( $payload );
+		}
+	}
+
+	if ( $_SERVER['HTTP_HOST'] == 'dev.escapezoom.local' ) {
+		$base_url = 'http://' . $_SERVER['HTTP_HOST'] . '/web-service/reservation.php';
+	} elseif ( $_SERVER['HTTP_HOST'] == 'dev.escapezoom.local' ) {
+		$base_url = 'http://' . $_SERVER['HTTP_HOST'] . '/web-service/reservation.php';
+	} else {
+		$base_url = 'https://' . $_SERVER['HTTP_HOST'] . '/web-service/reservation.php';
+	}
+
+	$response = wp_remote_post(
+		$base_url,
+		array(
+			'method'      => 'POST',
+			'timeout'     => 45,
+			'redirection' => 5,
+			'httpversion' => '1.0',
+			'blocking'    => true,
+			'headers'     => array(),
+			'body'        => $data,
+			'cookies'     => array(),
+		)
+	);
+
+	if ( wp_remote_retrieve_response_code( $response ) == 200 ) {
+		if ( is_array( $response ) ) {
+			return $response['body'];
+		}
+		return array( 'error' => wp_remote_retrieve_response_code( $response ) );
+	}
 }
 /****************************************************************************************************************************************/
 add_shortcode('product_query', 'product_query');
@@ -5292,6 +5320,38 @@ function ez_booking_first_confirmed_conflict_row( $product_id, $sans_ts, $exclud
 		return null;
 	}
 
+	if ( function_exists( 'medoo_queries' ) ) {
+		try {
+			$mq = medoo_queries();
+			if ( $mq && method_exists( $mq, 'select' ) ) {
+				$rows = $mq->select(
+					'wp_zb_booking_history',
+					array( 'wc_order_id', 'customer_id', 'phone' ),
+					array(
+						'room_id'      => $product_id,
+						'booking_time' => $sans_ts,
+						'status'       => 1,
+					)
+				);
+				if ( ! empty( $rows ) && is_array( $rows ) ) {
+					foreach ( $rows as $row ) {
+						$row_order_id = isset( $row['wc_order_id'] ) ? (int) $row['wc_order_id'] : 0;
+						if ( $exclude_order_id > 0 && $row_order_id === $exclude_order_id ) {
+							continue;
+						}
+						return array(
+							'wc_order_id' => $row_order_id,
+							'customer_id' => isset( $row['customer_id'] ) ? (int) $row['customer_id'] : 0,
+							'phone'       => isset( $row['phone'] ) ? (string) $row['phone'] : '',
+						);
+					}
+				}
+			}
+		} catch ( Throwable $e ) {
+			error_log( '[ez_booking_first_confirmed_conflict_row] ' . $e->getMessage() );
+		}
+	}
+
 	$data = [
 		'single_value' => false,
 		'query'        => 'SELECT `wc_order_id`, `customer_id`, `phone` FROM `wp_zb_booking_history` WHERE `room_id` = ' . $product_id . ' AND `booking_time` = ' . $sans_ts . ' AND `status` = 1',
@@ -6148,7 +6208,11 @@ function detect_zibal_payment_method_for_lock( $order_id ) {
 
     $payment_method = $order->get_payment_method_title();
     if ( $payment_method == 'پرداخت امن آنلاین' || $payment_method == 'پرداخت اینترنتی' || $payment_method == 'پرداخت آنلاین' )
-        ez_reservation( array('type' => 'add_sans_lock', 'data' => array('product_id' => $product_id, 'booking_time' => $_SESSION['book'])) );
+        if ( function_exists( 'ez_add_booking_lock' ) && ! empty( $_SESSION['book'] ) ) {
+            ez_add_booking_lock( $product_id, (int) $_SESSION['book'] );
+        } else {
+            ez_reservation( array( 'type' => 'add_sans_lock', 'data' => array( 'product_id' => $product_id, 'booking_time' => $_SESSION['book'] ) ) );
+        }
 }
 /****************************************************************************************************************************************/
 add_action( 'wp', 'visit_single_room_unlock_booking' );
@@ -6378,11 +6442,19 @@ function conflict_before_place_order_validation($data, $errors) {
     /*----------------------------------------------*/
     // بررسی در حال رزرو سانس جاری
 
-    $bookings_objs = json_decode(ez_reservation( array('type' => 'get_sans_lock', 'data' => array('product_id' => $product_id)) ));
-    $bookings = [];
-    if ( !empty( $bookings_objs ) )
-        foreach ( $bookings_objs as $booking )
-            $bookings[] = $booking->booking_time;
+    $bookings = array();
+    if ( function_exists( 'ez_get_booking_lock' ) ) {
+        foreach ( (array) ez_get_booking_lock( $product_id ) as $booking ) {
+            $bookings[] = (int) ( $booking->booking_time ?? 0 );
+        }
+    } else {
+        $bookings_objs = json_decode( ez_reservation( array( 'type' => 'get_sans_lock', 'data' => array( 'product_id' => $product_id ) ) ) );
+        if ( ! empty( $bookings_objs ) ) {
+            foreach ( $bookings_objs as $booking ) {
+                $bookings[] = (int) ( $booking->booking_time ?? 0 );
+            }
+        }
+    }
 
     $lock_sans_ts = (int) $sans_time;
     if ( $lock_sans_ts > 0 && in_array( $lock_sans_ts, array_map( 'intval', (array) $bookings ), true ) ) {

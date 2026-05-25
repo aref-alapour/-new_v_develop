@@ -296,7 +296,7 @@ wp_enqueue_script('persian-date');
 
 </div>
 
-<div id="table-of-sans" class="mb-7"></div>
+<div id="table-of-sans" class="mb-7" data-product-id="<?php echo esc_attr( (string) $id ); ?>" data-day-start="<?php echo esc_attr( (string) $startOfDay ); ?>"></div>
 
 <script>
     jQuery(document).ready(function($) {
@@ -329,6 +329,9 @@ wp_enqueue_script('persian-date');
         }
 
         const BuildTable = (time) => {
+            if (window.__EZ_BOOT__?.sub_secret && window.ezBookingApi?.sansWeekHtml) {
+                return;
+            }
             console.log(time);
 
             $.ajax({

@@ -8721,10 +8721,9 @@ function checkout_get_api($request)
         wp_send_json_error( $ez_slot_err );
     }
 
-    $bookings_objs = json_decode(ez_reservation(array('type' => 'get_sans_lock', 'data' => array('product_id' => $product_id))));
-    if (!empty($bookings_objs))
-        foreach ($bookings_objs as $booking)
-            $bookings[] = $booking->booking_time;
+    $bookings = function_exists( 'ez_booking_locked_timestamps' )
+        ? ez_booking_locked_timestamps( (int) $product_id )
+        : array();
 
     $args = [
         "single_value"  => true,
@@ -8969,10 +8968,9 @@ function checkout_place_order_api2($request)
         wp_send_json_error( $ez_slot_err );
     }
 
-    $bookings_objs = json_decode(ez_reservation(array('type' => 'get_sans_lock', 'data' => array('product_id' => $product_id))));
-    if (!empty($bookings_objs))
-        foreach ($bookings_objs as $booking)
-            $bookings[] = $booking->booking_time;
+    $bookings = function_exists( 'ez_booking_locked_timestamps' )
+        ? ez_booking_locked_timestamps( (int) $product_id )
+        : array();
 
     $args = [
         "single_value"  => true,
@@ -9218,10 +9216,9 @@ function checkout_get_api2($request)
     }
 
     $bookings = array();
-    $bookings_objs = json_decode(ez_reservation(array('type' => 'get_sans_lock', 'data' => array('product_id' => $product_id))));
-    if (!empty($bookings_objs))
-        foreach ($bookings_objs as $booking)
-            $bookings[] = $booking->booking_time;
+    $bookings = function_exists( 'ez_booking_locked_timestamps' )
+        ? ez_booking_locked_timestamps( (int) $product_id )
+        : array();
 
     $args = [
         "single_value"  => true,

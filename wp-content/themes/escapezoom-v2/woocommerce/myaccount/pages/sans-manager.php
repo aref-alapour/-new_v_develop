@@ -303,6 +303,27 @@ if ( $show_credit_notification ) {
     jQuery(document).ready(function($) {
 
         const BuildSans = (room, day) => {
+            const showSkeleton = () => {
+                $(`[data-datepicker="${day}"]`).attr('disabled', 'disabled')
+                let out = ""
+                for (let i = 0; i < 8; i++) {
+                    out += "<div class='w-full h-29 skeleton rounded-xl'></div>"
+                }
+                $("#sans").html(out)
+            }
+            const onDone = (html) => {
+                $(`[data-datepicker="${day}"]`).removeAttr('disabled')
+                $("#sans").html(html)
+            }
+
+            if (window.__EZ_BOOT__?.sub_secret && window.ezBookingApi?.sansManagementWeb) {
+                showSkeleton()
+                window.ezBookingApi.sansManagementWeb(parseInt(room, 10), parseInt(day, 10))
+                    .then(onDone)
+                    .catch(() => $(`[data-datepicker="${day}"]`).removeAttr('disabled'))
+                return
+            }
+
             $.ajax({
                 type: 'POST',
                 url: "<?php echo site_url('web-service/reservation.php') ?>",
@@ -313,20 +334,8 @@ if ( $show_credit_notification ) {
                         "product_id": room
                     }
                 },
-                beforeSend: function() {
-                    $(`[data-datepicker="${day}"]`).attr('disabled', 'disabled')
-                    let out = ""
-                    for (let i = 0; i < 8; i++) {
-                        out +=
-                            "<div class='w-full h-29 skeleton rounded-xl'></div>"
-                    }
-
-                    $("#sans").html(out)
-                },
-                success: function(response) {
-                    $(`[data-datepicker="${day}"]`).removeAttr('disabled')
-                    $("#sans").html(response)
-                }
+                beforeSend: showSkeleton,
+                success: onDone
             })
         }
         BuildSans("<?php echo $active_products[0] ?>", "<?php echo $current_date; ?>")
@@ -366,6 +375,17 @@ if ( $show_credit_notification ) {
                     product = _.data('product'),
                     currentDate = _.data('timestamp').split('.')[1],
                     time = _.data('timestamp').split('.')[0]
+                const spinner = "<div class='spinner' style='margin: 11px auto 0;width: 16px;border: 2px solid rgba(127 127 127 / 50%);display: inline-flex;'></div>"
+                const afterToggle = () => BuildSans(product, currentDate)
+
+                if (window.__EZ_BOOT__?.sub_secret && window.ezBookingApi?.toggleSans) {
+                    _.attr('disabled', 'disabled').html(spinner)
+                    window.ezBookingApi.toggleSans(action, parseInt(product, 10), parseInt(time, 10))
+                        .then(afterToggle)
+                        .finally(() => _.removeAttr('disabled'))
+                    return
+                }
+
                 $.ajax({
                     type: 'POST',
                     url: "<?php echo site_url('web-service/reservation.php') ?>",
@@ -377,14 +397,9 @@ if ( $show_credit_notification ) {
                         }
                     },
                     beforeSend: function() {
-                        _.attr('disabled', 'disabled')
-                        _.html(
-                            "<div class='spinner' style='margin: 11px auto 0;width: 16px;border: 2px solid rgba(127 127 127 / 50%);display: inline-flex;'></div>"
-                        )
+                        _.attr('disabled', 'disabled').html(spinner)
                     },
-                    success: function() {
-                        BuildSans(product, currentDate)
-                    }
+                    success: afterToggle
                 })
             })
             .on('submit', ".comment_form", function(e) {

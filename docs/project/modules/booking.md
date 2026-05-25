@@ -35,7 +35,10 @@ Payment amounts and gateway flows are **`checkout.md` / `payment.md`** (separate
 
 | Endpoint | Types |
 |----------|--------|
-| `web-service/reservation.php` | `add_sans_lock`, `get_sans_lock`, `remove_sans_lock`, `query_execution` (high risk: raw SQL) |
+| `web-service/reservation.php` | Legacy HTTP entry (CORS); **thin wrapper** → `includes/reservation-dispatch.php` |
+| `web-service/includes/reservation-dispatch.php` | `ez_reservation_dispatch()` — shared with internal WP calls |
+| `wp-content/themes/escapezoom-v2/inc/shop/booking/reservation-bridge.php` | Hot-path shortcuts: locks, whitelisted `query_execution`, `get_pending_sanses` |
+| `POST /ajax` (ez_core `AjaxGateway`) | Signed actions: `booking.sans_day`, `booking.sans_week`, `booking.sans_management_web`, `booking.open_sans`, `booking.close_sans` |
 | DB table `booking_lock_schedule` | `product_id`, `booking_time` (unix), `lock_time` (unix) |
 
 ### Analysis docs (read-only)
@@ -142,10 +145,26 @@ Suggested module flag prefix: `EZ_BOOKING_*`
 
 Rollout playbook (when started): `escapezoom-core/docs/rollout/booking-cutover.md`
 
-## API surface (future)
+## API surface
 
-- **Web:** signed AjaxGateway actions — not new `admin-ajax`.
-- **Mobile:** REST after `Auth` — read-only availability + lock endpoints delegate to same Services (Rule 05 — API rule later).
+### Web (live v2)
+
+| Surface | When | Notes |
+|---------|------|--------|
+| `POST /ajax` + HMAC | `single-product`, `reserve`, `sans-manager` when `EZ_AJAX_SHARED_SECRET` set | Boot: `inc/theme/ez-ajax-boot-data.php`; client: `dist/product-booking.js` |
+| `ez_reservation()` internal | `EZ_BOOKING_USE_INTERNAL` or filter `ez_booking_use_internal` | No `wp_remote_post` loopback; uses dispatch |
+| `reservation.php` HTTP | Fallback / mobile until phase 4 | Monitor logs before `410` (see `docs/project/ops/nginx-reservation-deprecation.conf`) |
+
+### Flags (`wp-config.php`)
+
+```php
+define('EZ_AJAX_SHARED_SECRET', '…'); // required for /ajax boot + gateway
+define('EZ_BOOKING_USE_INTERNAL', true); // staging first; or filter ez_booking_use_internal
+```
+
+### Mobile (future)
+
+REST after `Auth` — availability + lock endpoints delegate to same Services (Rule 05).
 
 ## Tests (Rule 04 — Pest)
 
@@ -177,3 +196,4 @@ Run: `composer test` from `wp-content/mu-plugins/ez_core` (or deployed core path
 | Date | Change |
 |------|--------|
 | 2026-05-24 | Initial module doc (template + legacy mapping from step1 / v2 / web-service) |
+| 2026-05-24 | Gateway migration: dispatch extract, `reservation-bridge`, ez_core `/ajax`, v2 `product-booking` bundle, internal `ez_reservation` flag |
