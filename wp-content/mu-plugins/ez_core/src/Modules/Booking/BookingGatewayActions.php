@@ -7,6 +7,7 @@ namespace EscapeZoom\Core\Modules\Booking;
 use EscapeZoom\Core\Modules\AjaxGateway\ActionRegistry;
 use EscapeZoom\Core\Modules\AjaxGateway\GatewayResponse;
 use EscapeZoom\Core\Modules\Booking\Actions\GetSansesJsonAction;
+use EscapeZoom\Core\Modules\Booking\BookingReadContext;
 
 /**
  * booking.* gateway actions (HTML partials).
@@ -68,15 +69,18 @@ final class BookingGatewayActions
 		$productId    = isset( $body['product_id'] ) ? (int) $body['product_id'] : 0;
 		$dayStartTime = isset( $body['day_start_time'] ) ? (int) $body['day_start_time'] : 0;
 
+		BookingReadContext::reset();
+
 		if ( $productId <= 0 || $dayStartTime <= 0 ) {
+			BookingReadContext::setReason( 'invalid_input' );
+			BookingReadContext::applyDevHeaders();
 			self::syncResponseCrypto();
 			GatewayResponse::raw( '[]' );
 		}
 
-		GatewayResponse::bookingPathHeader();
-
 		$result = ( new GetSansesJsonAction() )->handle( $body );
 
+		BookingReadContext::applyDevHeaders();
 		self::syncResponseCrypto();
 		GatewayResponse::raw( wp_json_encode( $result, JSON_UNESCAPED_UNICODE ) ?: '[]' );
 	}
@@ -91,8 +95,6 @@ final class BookingGatewayActions
 		if ( $productId <= 0 || $dayStartTime <= 0 ) {
 			GatewayResponse::json( false, array(), array( 'code' => 'VALIDATION', 'message' => 'Invalid product or day' ), 400 );
 		}
-
-		GatewayResponse::bookingPathHeader();
 
 		if ( ! function_exists( 'ez_render_reserve_week_table' ) ) {
 			$weekHelper = function_exists( 'get_template_directory' )

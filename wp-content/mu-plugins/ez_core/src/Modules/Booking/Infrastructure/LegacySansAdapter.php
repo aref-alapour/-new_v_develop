@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace EscapeZoom\Core\Modules\Booking\Infrastructure;
 
 use EscapeZoom\Core\Modules\Booking\BookingDispatchService;
+use EscapeZoom\Core\Modules\Booking\BookingGatewayDiagnostics;
 
 /**
  * Reads sans list via internal reservation dispatch (no HTTP loopback).
@@ -23,8 +24,10 @@ final class LegacySansAdapter
 			return array();
 		}
 
-		$raw = '';
-		if ( function_exists( 'ez_reservation' ) ) {
+		$viaEzReservation = function_exists( 'ez_reservation' );
+		$raw              = '';
+
+		if ( $viaEzReservation ) {
 			$raw = (string) ez_reservation(
 				array(
 					'type' => 'get_sanses',
@@ -48,18 +51,61 @@ final class LegacySansAdapter
 
 		$decoded = json_decode( $raw, true );
 		if ( ! is_array( $decoded ) ) {
+			BookingGatewayDiagnostics::log(
+				'legacy_result',
+				array(
+					'product_id'              => $productId,
+					'day_start_time'          => $dayStartTime,
+					'days'                    => $days,
+					'ez_reservation_available' => $viaEzReservation,
+					'legacy_raw_len'          => strlen( $raw ),
+					'decoded_count'           => 0,
+					'reason'                  => 'invalid_json',
+				)
+			);
+
 			return array();
 		}
 
 		// days=1 → flat list; days>1 → nested by day index.
 		if ( $days === 1 ) {
-			return $this->normalizeFlatList( $decoded );
+			$out = $this->normalizeFlatList( $decoded );
+			BookingGatewayDiagnostics::log(
+				'legacy_result',
+				array(
+					'product_id'              => $productId,
+					'day_start_time'          => $dayStartTime,
+					'days'                    => $days,
+					'ez_reservation_available' => $viaEzReservation,
+					'legacy_raw_len'          => strlen( $raw ),
+					'decoded_count'           => count( $out ),
+				)
+			);
+
+			return $out;
 		}
 
 		$out = array();
 		foreach ( $decoded as $day ) {
 			$out[] = is_array( $day ) ? $this->normalizeFlatList( $day ) : array();
 		}
+
+		$count = 0;
+		foreach ( $out as $day ) {
+			$count += count( $day );
+		}
+
+		BookingGatewayDiagnostics::log(
+			'legacy_result',
+			array(
+				'product_id'              => $productId,
+				'day_start_time'          => $dayStartTime,
+				'days'                    => $days,
+				'ez_reservation_available' => $viaEzReservation,
+				'legacy_raw_len'          => strlen( $raw ),
+				'decoded_count'           => $count,
+			)
+		);
 
 		return $out;
 	}

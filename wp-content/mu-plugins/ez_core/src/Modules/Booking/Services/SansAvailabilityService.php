@@ -7,6 +7,8 @@ namespace EscapeZoom\Core\Modules\Booking\Services;
 use EscapeZoom\Core\Infrastructure\Database\CapsuleManager;
 use EscapeZoom\Core\Models\BookingHistory;
 use EscapeZoom\Core\Models\ProductData;
+use EscapeZoom\Core\Modules\Booking\BookingGatewayDiagnostics;
+use EscapeZoom\Core\Modules\Booking\BookingReadContext;
 use EscapeZoom\Core\Modules\Booking\Domain\DaySlotBuilder;
 use EscapeZoom\Core\Modules\Booking\Domain\DayTypeResolver;
 use EscapeZoom\Core\Modules\Booking\Domain\SansPricingResolver;
@@ -44,6 +46,8 @@ final class SansAvailabilityService
 		$days         = max( 1, (int) $days );
 
 		if ( $productId <= 0 || $dayStartTime <= 0 ) {
+			BookingReadContext::setReason( 'invalid_input' );
+
 			return array();
 		}
 
@@ -53,6 +57,16 @@ final class SansAvailabilityService
 
 		if ( ! $this->hasExternalConnection() ) {
 			$hint = function_exists( 'ez_reservation_db_last_error' ) ? ez_reservation_db_last_error() : '';
+			BookingReadContext::setReason( 'no_external_db' );
+			BookingGatewayDiagnostics::log(
+				'native_reason',
+				array(
+					'reason'         => 'no_external_db',
+					'product_id'     => $productId,
+					'day_start_time' => $dayStartTime,
+					'hint'           => '' !== $hint ? $hint : null,
+				)
+			);
 			error_log(
 				'[EZ Booking] Native sans: external DB not available'
 				. ( '' !== $hint ? ' — ' . $hint : '' )
@@ -63,6 +77,33 @@ final class SansAvailabilityService
 
 		$product = $this->products->findByProductId( $productId );
 		if ( ! $product instanceof ProductData ) {
+			BookingReadContext::setReason( 'product_not_found' );
+			BookingGatewayDiagnostics::log(
+				'native_reason',
+				array(
+					'reason'         => 'product_not_found',
+					'product_id'     => $productId,
+					'day_start_time' => $dayStartTime,
+				)
+			);
+
+			return array();
+		}
+
+		$schedule = $product->getScheduleForSans();
+		if ( array() === $schedule ) {
+			BookingReadContext::setReason( 'empty_schedule' );
+			BookingGatewayDiagnostics::log(
+				'native_reason',
+				array(
+					'reason'         => 'empty_schedule',
+					'product_id'     => $productId,
+					'day_start_time' => $dayStartTime,
+					'active'         => (int) ( $product->getAttribute( 'active' ) ?? 0 ),
+					'auto_disable'   => (int) ( $product->getAttribute( 'auto_disable' ) ?? 0 ),
+				)
+			);
+
 			return array();
 		}
 
@@ -91,6 +132,8 @@ final class SansAvailabilityService
 		}
 
 		$reservationData = array();
+		$closedDays      = 0;
+		$filteredByAuto  = 0;
 
 		foreach ( $daysTimeArr as $key => $timeRes ) {
 			$dayType      = $this->dayTypes->resolve( (int) $timeRes );
@@ -98,6 +141,9 @@ final class SansAvailabilityService
 			$reservationData[ $key ] = array();
 
 			if ( null === $scheduleKey ) {
+				if ( 'closed' === $dayType ) {
+					++$closedDays;
+				}
 				continue;
 			}
 
@@ -115,6 +161,7 @@ final class SansAvailabilityService
 				$slotDayType   = (string) $slot['day_type'];
 
 				if ( $firstTimeTs < $autoDisable ) {
+					++$filteredByAuto;
 					continue;
 				}
 
@@ -137,15 +184,94 @@ final class SansAvailabilityService
 			}
 		}
 
-		if ( array() === $reservationData ) {
+		if ( array() === $reservationData || ! $this->reservationHasSlots( $reservationData ) ) {
+			if ( $closedDays > 0 && 0 === $filteredByAuto ) {
+				BookingReadContext::setReason( 'day_closed' );
+			} elseif ( $filteredByAuto > 0 ) {
+				BookingReadContext::setReason( 'empty_after_auto_disable' );
+			} else {
+				BookingReadContext::setReason( 'empty_after_filters' );
+			}
+
+			BookingGatewayDiagnostics::log(
+				'native_reason',
+				array(
+					'reason'           => BookingReadContext::getReason(),
+					'product_id'       => $productId,
+					'day_start_time'   => $dayStartTime,
+					'days'             => $days,
+					'closed_days'      => $closedDays,
+					'filtered_by_auto' => $filteredByAuto,
+				)
+			);
+
 			return array();
 		}
 
+		$result = array();
 		if ( 1 === count( $reservationData ) ) {
-			return $reservationData[0];
+			$result = $reservationData[0];
+		} else {
+			$result = array_values( $reservationData );
 		}
 
-		return array_values( $reservationData );
+		$count = $this->countResultSlots( $result, $days );
+		BookingReadContext::setReason( 'success' );
+		BookingGatewayDiagnostics::log(
+			'native_reason',
+			array(
+				'reason'         => 'success',
+				'product_id'     => $productId,
+				'day_start_time' => $dayStartTime,
+				'days'           => $days,
+				'count'          => $count,
+			)
+		);
+
+		return $result;
+	}
+
+	/**
+	 * @param array<int, array<string, mixed>>|array<int, array<int, array<string, mixed>>> $result
+	 */
+	private function countResultSlots( array $result, int $days ): int {
+		if ( 1 === $days ) {
+			$count = 0;
+			foreach ( $result as $row ) {
+				if ( is_array( $row ) && isset( $row['time'] ) ) {
+					++$count;
+				}
+			}
+
+			return $count;
+		}
+
+		$count = 0;
+		foreach ( $result as $day ) {
+			if ( ! is_array( $day ) ) {
+				continue;
+			}
+			foreach ( $day as $row ) {
+				if ( is_array( $row ) && isset( $row['time'] ) ) {
+					++$count;
+				}
+			}
+		}
+
+		return $count;
+	}
+
+	/**
+	 * @param array<int, array<int, array<string, mixed>>> $reservationData
+	 */
+	private function reservationHasSlots( array $reservationData ): bool {
+		foreach ( $reservationData as $day ) {
+			if ( is_array( $day ) && array() !== $day ) {
+				return true;
+			}
+		}
+
+		return false;
 	}
 
 	/**

@@ -69,6 +69,16 @@ function ez_booking_parse_mysql_host( string $host ): array {
 }
 
 function ez_reservation_db_connect(): ?mysqli {
+	if ( ! extension_loaded( 'mysqli' ) ) {
+		$msg = '[EZ Booking] External DB connection failed: mysqli extension not loaded';
+		$GLOBALS['ez_reservation_db_last_error'] = $msg;
+		if ( defined( 'EZ_BOOKING_INTERNAL_CALL' ) && EZ_BOOKING_INTERNAL_CALL ) {
+			error_log( $msg );
+		}
+
+		return null;
+	}
+
 	$config = ez_reservation_db_config();
 	$parsed = ez_booking_parse_mysql_host( (string) $config['host'] );
 

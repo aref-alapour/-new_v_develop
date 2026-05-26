@@ -52,12 +52,16 @@ class ProductData extends Model
 		if ( is_array( $raw ) ) {
 			return $raw;
 		}
+
 		$decoded = @unserialize( (string) $raw );
-		if ( ! is_array( $decoded ) ) {
+		if ( ! is_array( $decoded ) && ! is_object( $decoded ) ) {
 			return array();
 		}
 
-		return $decoded;
+		// Legacy parity: schedule is often O:8:"stdClass" (object), not array.
+		$normalized = json_decode( json_encode( $decoded ), true );
+
+		return is_array( $normalized ) ? $normalized : array();
 	}
 
 	/**
@@ -92,12 +96,6 @@ class ProductData extends Model
 	 * @return array<string, mixed>
 	 */
 	public function getScheduleForSans(): array {
-		$decoded = $this->getScheduleDecoded();
-		if ( array() === $decoded ) {
-			return array();
-		}
-		$normalized = json_decode( json_encode( $decoded ), true );
-
-		return is_array( $normalized ) ? $normalized : array();
+		return $this->getScheduleDecoded();
 	}
 }

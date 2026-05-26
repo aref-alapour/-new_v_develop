@@ -4,6 +4,7 @@
  *
  * Usage (repo root, no WordPress bootstrap):
  *   php wp-content/mu-plugins/ez_core/bin/booking-db-health.php
+ *   php wp-content/mu-plugins/ez_core/bin/booking-db-health.php 5104
  */
 
 declare(strict_types=1);
@@ -28,6 +29,10 @@ use EscapeZoom\Core\Infrastructure\Cache\CacheRepositoryFactory;
 use EscapeZoom\Core\Infrastructure\Config\SecretsLoader;
 use EscapeZoom\Core\Infrastructure\Database\CapsuleManager;
 use EscapeZoom\Core\Modules\AjaxGateway\Policy\ActionPolicy;
+use EscapeZoom\Core\Modules\Booking\BookingReadContext;
+use EscapeZoom\Core\Modules\Booking\Services\SansAvailabilityService;
+
+$focusProductId = isset( $argv[1] ) && is_numeric( $argv[1] ) ? (int) $argv[1] : 0;
 
 $ok    = true;
 $lines = array();
@@ -145,6 +150,9 @@ if ( null !== $extConfig && extension_loaded( 'mysqli' ) ) {
 }
 
 $testProducts = array( 692762, 762302, 52537 );
+if ( $focusProductId > 0 && ! in_array( $focusProductId, $testProducts, true ) ) {
+	$testProducts[] = $focusProductId;
+}
 
 if ( $mysqliOk && $conn instanceof mysqli ) {
 	$res = $conn->query( 'SELECT COUNT(*) AS c FROM products_data' );
@@ -186,7 +194,53 @@ if ( $mysqliOk && $conn instanceof mysqli ) {
 		$lines[] = 'WARN: calendar_data missing — day types may default to normals only';
 	}
 
+	if ( $focusProductId > 0 ) {
+		$pid = (int) $focusProductId;
+		$res = $conn->query(
+			"SELECT product_id, active, auto_disable, LENGTH(schedule) AS sched_len FROM products_data WHERE product_id = {$pid} LIMIT 1"
+		);
+		$lines[] = "Focus product ({$focusProductId}):";
+		if ( $res && $res->num_rows > 0 && ( $row = $res->fetch_assoc() ) ) {
+			$lines[] = sprintf(
+				'  product_id=%s active=%s sched_len=%s auto_disable=%s',
+				$row['product_id'],
+				$row['active'],
+				$row['sched_len'],
+				$row['auto_disable']
+			);
+			if ( (int) $row['sched_len'] === 0 ) {
+				$lines[] = '  FAIL: schedule empty for focus product';
+				$ok      = false;
+			}
+		} else {
+			$lines[] = '  FAIL: no row in products_data';
+			$ok      = false;
+		}
+	}
+
 	$conn->close();
+}
+
+if ( $extCapsuleOk && $focusProductId > 0 ) {
+	$dayStart = (int) strtotime( 'today Asia/Tehran' );
+	BookingReadContext::reset();
+	$native   = ( new SansAvailabilityService() )->getSanses( $focusProductId, $dayStart, 1 );
+	$slotCount = 0;
+	foreach ( $native as $row ) {
+		if ( is_array( $row ) && isset( $row['time'] ) ) {
+			++$slotCount;
+		}
+	}
+	$lines[] = sprintf(
+		'Native sans smoke (product=%d day=%d): slot_count=%d reason=%s',
+		$focusProductId,
+		$dayStart,
+		$slotCount,
+		BookingReadContext::getReason() ?: 'unknown'
+	);
+	if ( 0 === $slotCount ) {
+		$lines[] = 'WARN: native smoke returned empty — check seed or day_start_time';
+	}
 }
 
 try {

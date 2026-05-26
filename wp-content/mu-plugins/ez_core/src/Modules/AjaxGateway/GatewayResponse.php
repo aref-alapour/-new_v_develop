@@ -93,7 +93,11 @@ final class GatewayResponse
 		self::sendWireBody( $html, 'text/html; charset=utf-8', $status );
 	}
 
-	/** Dev-only: which booking read path served this response (native vs legacy). */
+	/**
+	 * Dev-only: which booking read path served this response (native vs legacy).
+	 *
+	 * @deprecated Use BookingReadContext::applyDevHeaders() for actual path taken.
+	 */
 	public static function bookingPathHeader(): void {
 		if ( ! ( defined( 'WP_DEBUG' ) && WP_DEBUG ) ) {
 			return;

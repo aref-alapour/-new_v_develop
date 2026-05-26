@@ -53,6 +53,16 @@ On WordPress boot, MU-plugin defines bridge constants `DB_EXT_*` and `EZ_*` from
 
 ## 2. Create / import database
 
+For a **single dev product** (e.g. `5104`) without importing the full dump:
+
+```bash
+php wp-content/mu-plugins/ez_core/bin/seed-booking-product-minimal.php 5104 --clone-from=52537
+php wp-content/mu-plugins/ez_core/bin/booking-db-health.php 5104
+php wp-content/mu-plugins/ez_core/bin/compare-sans-parity.php 5104 $(php -r "echo strtotime('today Asia/Tehran');") 1 --verbose
+```
+
+Use `--force` to overwrite an existing row’s `schedule` / booking fields. Run inside the Docker PHP container so host `mysql` resolves.
+
 ```bash
 php wp-content/mu-plugins/ez_core/bin/import-escapezo-queries-hint.php
 ```
