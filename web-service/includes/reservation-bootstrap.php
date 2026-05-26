@@ -121,3 +121,23 @@ function ez_reservation_normalize_data( $data ): object {
 		'data' => $inner,
 	);
 }
+
+/**
+ * Emit JSON for reservation handlers. Internal dispatch (EZ_BOOKING_INTERNAL_CALL) must not exit
+ * so ez_reservation_dispatch() can return output to the AJAX gateway for encryption.
+ *
+ * @param mixed $payload
+ */
+function ez_reservation_emit_json( $payload ): void {
+	$json = function_exists( 'wp_json_encode' )
+		? wp_json_encode( $payload, JSON_UNESCAPED_UNICODE )
+		: json_encode( $payload );
+	if ( ! is_string( $json ) ) {
+		$json = '[]';
+	}
+	echo $json;
+	if ( defined( 'EZ_BOOKING_INTERNAL_CALL' ) && EZ_BOOKING_INTERNAL_CALL ) {
+		return;
+	}
+	exit;
+}

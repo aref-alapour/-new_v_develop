@@ -1201,8 +1201,7 @@ if ($data->type == 'get_sanses') { // display for api
     if (is_null($reservation_data_final)) // Ø§Ú¯Ø± Ù‡ÛŒÚ† Ø³Ø§Ù†Ø³ÛŒ ÙˆØ¬ÙˆØ¯ Ù†Ø¯Ø§Ø´Øª Ø¨Ø§ÛŒØ¯ null Ø¨Ø±Ú¯Ø±Ø¯Ù‡ Ø§Ù…Ø§ Ø§ÛŒÙ†Ø¬Ø§ Ù…Ø¯ÛŒØ±ÛŒØª Ù…ÛŒØ´Ù‡ Ú©Ù‡ Ø¢Ø±Ø§ÛŒÙ‡ Ø®Ø§Ù„ÛŒ Ø¨Ø±Ú¯Ø±Ø¯Ù‡.
         $reservation_data_final = [];
 
-    echo json_encode($reservation_data_final);
-    exit;
+    ez_reservation_emit_json($reservation_data_final);
 }
 /********************************************************************************************************************************/
 if ($data->type == 'sans_management') {
@@ -1282,8 +1281,7 @@ if ($data->type == 'sans_management') {
             }
     endforeach;
 
-    echo json_encode($reservation_data);
-    exit;
+    ez_reservation_emit_json($reservation_data);
 }
 /********************************************************************************************************************************/
 if ($data->type == 'sans_management_web') {

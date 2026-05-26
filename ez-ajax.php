@@ -8,6 +8,7 @@ declare(strict_types=1);
 
 define( 'EZ_CORE_PATH', __DIR__ . '/wp-content/mu-plugins/ez_core' );
 define( 'EZ_AJAX_LIGHT_GATEWAY_REQUEST', true );
+define( 'EZ_BOOKING_INTERNAL_CALL', true );
 
 require EZ_CORE_PATH . '/bootstrap/load-secrets.php';
 require EZ_CORE_PATH . '/ajax/polyfills.php';
@@ -44,5 +45,12 @@ require_once $autoload;
 \EscapeZoom\Core\Modules\Booking\BookingGatewayActions::register();
 
 header( 'X-EZ-Gateway: light' );
+header( 'X-EZ-Gateway-Build: p4b2-response-encrypt' );
+if ( SecretsLoader::payloadEncryptReads() ) {
+	header( 'X-EZ-Payload-Encrypt-Reads: on' );
+}
+if ( SecretsLoader::payloadEncryptWrites() ) {
+	header( 'X-EZ-Payload-Encrypt-Writes: on' );
+}
 
 \EscapeZoom\Core\Modules\AjaxGateway\GatewayDispatcher::handle( '/ajax' );

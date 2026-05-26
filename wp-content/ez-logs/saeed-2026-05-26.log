@@ -684,3 +684,26 @@
 [2026-05-26 19:14:08] ez_run_thankyou_booking_pipeline: missing product line item order_id=768956
 [2026-05-26 19:14:10] ez_run_thankyou_booking_pipeline: missing product line item order_id=769077
 [2026-05-26 19:14:12] ez_run_thankyou_booking_pipeline: missing product line item order_id=769078
+[2026-05-26 19:28:20] [ez_zp_unverified] http error: cURL error 6: Could not resolve host: payment.zarinpal.com
+[2026-05-26 19:28:20] [ez_zp_unverified] http error: cURL error 6: Could not resolve host: payment.zarinpal.com
+[2026-05-26 19:28:31] [ez_zp_unverified] http error: cURL error 6: Could not resolve host: payment.zarinpal.com
+[2026-05-26 19:28:33] ez_run_thankyou_booking_pipeline: missing product line item order_id=765392
+[2026-05-26 19:28:34] ez_run_thankyou_booking_pipeline: missing product line item order_id=765400
+[2026-05-26 19:29:00] ez_run_thankyou_booking_pipeline: missing product line item order_id=768546
+[2026-05-26 19:29:02] ez_run_thankyou_booking_pipeline: missing product line item order_id=768552
+[2026-05-26 19:29:11] ez_run_thankyou_booking_pipeline: missing product line item order_id=768956
+[2026-05-26 19:29:14] ez_run_thankyou_booking_pipeline: missing product line item order_id=769077
+[2026-05-26 19:29:17] ez_run_thankyou_booking_pipeline: missing product line item order_id=769078
+[2026-05-26 19:43:11] [ez_zp_unverified] http error: cURL error 6: Could not resolve host: payment.zarinpal.com
+[2026-05-26 19:43:20] [ez_zp_unverified] http error: cURL error 6: Could not resolve host: payment.zarinpal.com
+[2026-05-26 19:43:27] ez_run_thankyou_booking_pipeline: missing product line item order_id=765392
+[2026-05-26 19:43:29] ez_run_thankyou_booking_pipeline: missing product line item order_id=765400
+[2026-05-26 19:43:50] ez_run_thankyou_booking_pipeline: missing product line item order_id=768546
+[2026-05-26 19:43:51] ez_run_thankyou_booking_pipeline: missing product line item order_id=768552
+[2026-05-26 19:44:00] ez_run_thankyou_booking_pipeline: missing product line item order_id=768956
+[2026-05-26 19:44:01] ez_run_thankyou_booking_pipeline: missing product line item order_id=769077
+[2026-05-26 19:44:03] ez_run_thankyou_booking_pipeline: missing product line item order_id=769078
+[2026-05-26 20:18:56] ez_run_thankyou_booking_pipeline: missing product line item order_id=765392
+[2026-05-26 20:18:58] ez_run_thankyou_booking_pipeline: missing product line item order_id=765400
+[2026-05-26 20:19:20] ez_run_thankyou_booking_pipeline: missing product line item order_id=768546
+[2026-05-26 20:19:22] ez_run_thankyou_booking_pipeline: missing product line item order_id=768552

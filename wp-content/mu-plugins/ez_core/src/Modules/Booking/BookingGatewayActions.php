@@ -55,6 +55,7 @@ final class BookingGatewayActions
 			)
 		);
 
+		self::syncResponseCrypto();
 		GatewayResponse::html( $html );
 	}
 
@@ -68,6 +69,7 @@ final class BookingGatewayActions
 		$dayStartTime = isset( $body['day_start_time'] ) ? (int) $body['day_start_time'] : 0;
 
 		if ( $productId <= 0 || $dayStartTime <= 0 ) {
+			self::syncResponseCrypto();
 			GatewayResponse::raw( '[]' );
 		}
 
@@ -75,6 +77,7 @@ final class BookingGatewayActions
 
 		$result = ( new GetSansesJsonAction() )->handle( $body );
 
+		self::syncResponseCrypto();
 		GatewayResponse::raw( wp_json_encode( $result, JSON_UNESCAPED_UNICODE ) ?: '[]' );
 	}
 
@@ -111,6 +114,7 @@ final class BookingGatewayActions
 			);
 		}
 
+		self::syncResponseCrypto();
 		GatewayResponse::html( $html );
 	}
 
@@ -133,6 +137,7 @@ final class BookingGatewayActions
 			)
 		);
 
+		self::syncResponseCrypto();
 		GatewayResponse::html( $html );
 	}
 
@@ -190,6 +195,7 @@ final class BookingGatewayActions
 			GatewayResponse::json( false, array(), array( 'code' => 'DISPATCH', 'message' => 'Empty response' ), 500 );
 		}
 
+		self::syncResponseCrypto();
 		GatewayResponse::raw( (string) $raw );
 	}
 
@@ -219,7 +225,12 @@ final class BookingGatewayActions
 			GatewayResponse::json( false, array(), array( 'code' => 'DISPATCH', 'message' => 'Empty response' ), 500 );
 		}
 
+		self::syncResponseCrypto();
 		GatewayResponse::raw( (string) $raw );
+	}
+
+	private static function syncResponseCrypto(): void {
+		GatewayResponse::syncCryptoContextFromGlobals();
 	}
 
 	/**

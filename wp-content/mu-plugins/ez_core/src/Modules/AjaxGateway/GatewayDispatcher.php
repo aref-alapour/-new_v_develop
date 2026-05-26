@@ -134,6 +134,10 @@ final class GatewayDispatcher
 			}
 		}
 
+		$GLOBALS['ez_gateway_crypto'] = array(
+			'action'     => $action,
+			'sub_secret' => $subSecret,
+		);
 		GatewayResponse::setCryptoContext( $action, $subSecret );
 		ActionRegistry::dispatch( $action, $payload );
 	}

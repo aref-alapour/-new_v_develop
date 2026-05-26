@@ -18,11 +18,38 @@ final class GatewayResponse
 	public static function setCryptoContext( string $action, string $subSecretBase64Url ): void {
 		self::$cryptoAction    = $action;
 		self::$cryptoSubSecret = $subSecretBase64Url;
+		$GLOBALS['ez_gateway_crypto'] = array(
+			'action'     => $action,
+			'sub_secret' => $subSecretBase64Url,
+		);
 	}
 
 	public static function clearCryptoContext(): void {
 		self::$cryptoAction    = null;
 		self::$cryptoSubSecret = null;
+		unset( $GLOBALS['ez_gateway_crypto'] );
+	}
+
+	/** Re-apply dispatcher crypto context before emitting success payloads. */
+	public static function syncCryptoContextFromGlobals(): void {
+		self::ensureCryptoContextFromGlobals();
+	}
+
+	private static function ensureCryptoContextFromGlobals(): void {
+		if ( null !== self::$cryptoAction && null !== self::$cryptoSubSecret && '' !== self::$cryptoSubSecret ) {
+			return;
+		}
+		$ctx = $GLOBALS['ez_gateway_crypto'] ?? null;
+		if ( ! is_array( $ctx ) ) {
+			return;
+		}
+		$action = isset( $ctx['action'] ) ? (string) $ctx['action'] : '';
+		$sub    = isset( $ctx['sub_secret'] ) ? (string) $ctx['sub_secret'] : '';
+		if ( '' === $action || '' === $sub ) {
+			return;
+		}
+		self::$cryptoAction    = $action;
+		self::$cryptoSubSecret = $sub;
 	}
 
 	/**
@@ -80,6 +107,7 @@ final class GatewayResponse
 	 */
 	private static function sendWireBody( string $body, string $contentType, int $status, array $extraHeaders = array() ): void {
 		self::cleanOutputBuffers();
+		self::ensureCryptoContextFromGlobals();
 		$headers = $extraHeaders;
 
 		if ( self::shouldEncryptCurrentResponse() ) {
@@ -132,6 +160,7 @@ final class GatewayResponse
 	}
 
 	private static function shouldEncryptCurrentResponse(): bool {
+		self::ensureCryptoContextFromGlobals();
 		if ( null === self::$cryptoAction || null === self::$cryptoSubSecret || '' === self::$cryptoSubSecret ) {
 			return false;
 		}
