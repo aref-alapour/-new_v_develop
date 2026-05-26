@@ -13,6 +13,13 @@ if ( is_readable( $autoload ) ) {
 	require_once $autoload;
 }
 
+if ( ! function_exists( 'sodium_crypto_secretbox_open' ) ) {
+	$sodiumCompat = dirname( EZ_CORE_PATH, 2 ) . '/plugins/wordfence/crypto/vendor/paragonie/sodium_compat/autoload.php';
+	if ( is_readable( $sodiumCompat ) ) {
+		require_once $sodiumCompat;
+	}
+}
+
 use EscapeZoom\Core\Infrastructure\Config\SecretsLoader;
 
 $secretsOk = class_exists( SecretsLoader::class ) && SecretsLoader::boot();

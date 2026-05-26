@@ -145,6 +145,8 @@ final class SecretsLoader
 			throw new \RuntimeException( 'secrets.enc not found at ' . $encPath );
 		}
 
+		self::bootstrapKeyEnv();
+
 		$keyEnv = getenv( 'EZ_CORE_SECRETS_KEY' );
 		if ( ( false === $keyEnv || '' === $keyEnv ) && defined( 'EZ_CORE_SECRETS_KEY' ) ) {
 			$keyEnv = (string) EZ_CORE_SECRETS_KEY;
@@ -182,6 +184,88 @@ final class SecretsLoader
 		}
 
 		return $plain;
+	}
+
+	/**
+	 * Resolve EZ_CORE_SECRETS_KEY from constant, *_FILE, or repo-root .env (dev).
+	 */
+	private static function bootstrapKeyEnv(): void {
+		$keyEnv = getenv( 'EZ_CORE_SECRETS_KEY' );
+		if ( false !== $keyEnv && '' !== $keyEnv ) {
+			return;
+		}
+
+		if ( defined( 'EZ_CORE_SECRETS_KEY' ) && '' !== (string) EZ_CORE_SECRETS_KEY ) {
+			putenv( 'EZ_CORE_SECRETS_KEY=' . (string) EZ_CORE_SECRETS_KEY );
+
+			return;
+		}
+
+		$fileVar = getenv( 'EZ_CORE_SECRETS_KEY_FILE' );
+		if ( false !== $fileVar && '' !== $fileVar && is_readable( $fileVar ) ) {
+			$key = trim( (string) file_get_contents( $fileVar ) );
+			if ( '' !== $key ) {
+				putenv( 'EZ_CORE_SECRETS_KEY=' . $key );
+
+				return;
+			}
+		}
+
+		foreach ( self::dotEnvPaths() as $path ) {
+			if ( ! is_readable( $path ) ) {
+				continue;
+			}
+			$key = self::readEnvFileValue( $path, 'EZ_CORE_SECRETS_KEY' );
+			if ( '' !== $key ) {
+				putenv( 'EZ_CORE_SECRETS_KEY=' . $key );
+
+				return;
+			}
+		}
+	}
+
+	/**
+	 * @return list<string>
+	 */
+	private static function dotEnvPaths(): array {
+		$paths = array();
+		if ( defined( 'ABSPATH' ) ) {
+			$paths[] = ABSPATH . '.env';
+		}
+		if ( defined( 'EZ_CORE_PATH' ) ) {
+			$paths[] = dirname( EZ_CORE_PATH, 3 ) . '/.env';
+		}
+
+		return array_values( array_unique( $paths ) );
+	}
+
+	private static function readEnvFileValue( string $path, string $name ): string {
+		$lines = file( $path, FILE_IGNORE_NEW_LINES );
+		if ( false === $lines ) {
+			return '';
+		}
+
+		$prefix = $name . '=';
+		foreach ( $lines as $line ) {
+			$line = trim( $line );
+			if ( '' === $line || '#' === $line[0] ) {
+				continue;
+			}
+			if ( ! str_starts_with( $line, $prefix ) ) {
+				continue;
+			}
+
+			$value = trim( substr( $line, strlen( $prefix ) ) );
+			if ( str_starts_with( $value, '"' ) && str_ends_with( $value, '"' ) && strlen( $value ) >= 2 ) {
+				$value = substr( $value, 1, -1 );
+			} elseif ( str_starts_with( $value, "'" ) && str_ends_with( $value, "'" ) && strlen( $value ) >= 2 ) {
+				$value = substr( $value, 1, -1 );
+			}
+
+			return $value;
+		}
+
+		return '';
 	}
 
 	private static function decodeKey( string $keyBase64 ): string {

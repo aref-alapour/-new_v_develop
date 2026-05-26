@@ -33,7 +33,7 @@ final class GatewayDispatcher
 
 		$action = '';
 		if ( isset( $_GET['action'] ) ) {
-			$action = self::sanitizeTextField( wp_unslash_if_available( (string) $_GET['action'] ) );
+			$action = self::sanitizeTextField( self::wp_unslash_if_available( (string) $_GET['action'] ) );
 		}
 		if ( '' === $action && isset( $payload['action'] ) ) {
 			$action = self::sanitizeTextField( (string) $payload['action'] );
@@ -84,7 +84,7 @@ final class GatewayDispatcher
 			}
 		}
 		if ( isset( $_SERVER['HTTP_X_EZ_ACTION'] ) ) {
-			$out['x-ez-action'] = self::sanitizeTextField( wp_unslash_if_available( (string) $_SERVER['HTTP_X_EZ_ACTION'] ) );
+			$out['x-ez-action'] = self::sanitizeTextField( self::wp_unslash_if_available( (string) $_SERVER['HTTP_X_EZ_ACTION'] ) );
 		}
 
 		return $out;

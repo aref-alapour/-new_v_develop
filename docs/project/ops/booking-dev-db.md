@@ -10,14 +10,20 @@ Booking reads `products_data`, `calendar_data`, and `wp_zb_booking_history` from
 
 Credentials live in [`wp-content/mu-plugins/ez_core/config/secrets.enc`](../../../wp-content/mu-plugins/ez_core/config/secrets.enc) (not in git). Only **`EZ_CORE_SECRETS_KEY`** is needed in Docker/host env — see [`.env.example`](../../../.env.example).
 
+**Quick dev (one command, repo root):**
+
 ```bash
-# Generate key (once per environment)
-php -r "echo base64_encode(sodium_crypto_secretbox_keygen());"
+php wp-content/mu-plugins/ez_core/bin/secrets-init-dev.php
+```
 
-# Create plain JSON from example, edit passwords/secrets
+Creates `config/secrets.enc`, `config/secrets.plain.json`, and root `.env` with `EZ_CORE_SECRETS_KEY`. Uses `WORDPRESS_DB_*` env when set (defaults: host `mysql`, user `root`, password `arefpassword`). **No container restart required for the key** — `SecretsLoader` reads `EZ_CORE_SECRETS_KEY` from repo-root `.env` when process env is empty. Optionally also set `EZ_CORE_SECRETS_KEY` in Docker env for production.
+
+**Manual:**
+
+```bash
 cp wp-content/mu-plugins/ez_core/config/secrets.plain.example.json wp-content/mu-plugins/ez_core/config/secrets.plain.json
-
-export EZ_CORE_SECRETS_KEY="your-base64-key"
+# edit passwords/secrets
+export EZ_CORE_SECRETS_KEY="$(php -r 'echo base64_encode(sodium_crypto_secretbox_keygen());')"
 php wp-content/mu-plugins/ez_core/bin/secrets-encrypt.php
 ```
 
