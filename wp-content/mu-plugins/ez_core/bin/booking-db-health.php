@@ -2,79 +2,93 @@
 /**
  * CLI health check: external booking DB + products_data samples.
  *
- * Usage (repo root, inside WP container):
+ * Usage (repo root, no WordPress bootstrap):
+ *   export EZ_CORE_SECRETS_KEY="..."
  *   php wp-content/mu-plugins/ez_core/bin/booking-db-health.php
  */
 
 declare(strict_types=1);
 
-$root = dirname( __DIR__, 4 );
-if ( ! is_file( $root . '/wp-load.php' ) ) {
-	fwrite( STDERR, "wp-load.php not found at {$root}\n" );
+$corePath = dirname( __DIR__ );
+
+if ( ! defined( 'EZ_CORE_PATH' ) ) {
+	define( 'EZ_CORE_PATH', $corePath );
+}
+
+require $corePath . '/bootstrap/load-secrets.php';
+
+$autoload = $corePath . '/vendor/autoload.php';
+if ( ! is_readable( $autoload ) ) {
+	fwrite( STDERR, "Run composer install in {$corePath}\n" );
 	exit( 1 );
 }
 
-require $root . '/wp-load.php';
+require_once $autoload;
 
-if ( ! class_exists( \EscapeZoom\Core\Core\Bootstrap::class ) ) {
-	fwrite( STDERR, "ez_core not loaded\n" );
+use EscapeZoom\Core\Infrastructure\Config\SecretsLoader;
+use EscapeZoom\Core\Infrastructure\Database\CapsuleManager;
+
+if ( ! SecretsLoader::isLoaded() ) {
+	fwrite( STDERR, 'Secrets not loaded: ' . ( SecretsLoader::getBootError() ?: 'unknown' ) . "\n" );
+	fwrite( STDERR, "Create config/secrets.enc — see .env.example\n" );
 	exit( 1 );
 }
 
-\EscapeZoom\Core\Core\Bootstrap::bootDataLayer();
+\EscapeZoom\Core\Core\Bootstrap::bootDataLayerOnly();
 
-$ok   = true;
+$ok    = true;
 $lines = array();
 
 $lines[] = '=== EZ Booking DB health ===';
 
-if ( is_readable( $root . '/web-service/db-connect.php' ) ) {
-	require_once $root . '/web-service/db-connect.php';
-}
-
-$config = function_exists( 'ez_reservation_db_config' )
-	? ez_reservation_db_config()
-	: array( 'host' => '?', 'database' => '?', 'username' => '?', 'password' => '' );
-
-$mask = static function ( string $v ): string {
+$config = SecretsLoader::externalDatabase();
+$mask   = static function ( string $v ): string {
 	return '' === $v ? '(empty)' : ( str_repeat( '*', min( 8, strlen( $v ) ) ) );
 };
 
-$lines[] = 'Config (from DB_EXT_* or env):';
-$lines[] = '  host:     ' . ( $config['host'] ?? '?' );
-$lines[] = '  database: ' . ( $config['database'] ?? '?' );
-$lines[] = '  user:     ' . ( $config['username'] ?? '?' );
-$lines[] = '  password: ' . $mask( (string) ( $config['password'] ?? '' ) );
-
-if ( defined( 'DB_EXT_NAME' ) ) {
-	$lines[] = 'wp-config DB_EXT_NAME: ' . DB_EXT_NAME;
-} else {
-	$lines[] = 'WARN: DB_EXT_NAME not defined in wp-config (use wp-config-docker.php or define constants)';
+if ( null === $config ) {
+	$lines[] = 'FAIL: external database config missing in secrets.enc';
 	$ok      = false;
+} else {
+	$lines[] = 'Config (from secrets.enc):';
+	$lines[] = '  host:     ' . $config['host'];
+	$lines[] = '  database: ' . $config['database'];
+	$lines[] = '  user:     ' . $config['username'];
+	$lines[] = '  password: ' . $mask( $config['password'] );
 }
 
-$capsuleOk = \EscapeZoom\Core\Infrastructure\Database\CapsuleManager::hasExternalConnection();
+if ( defined( 'DB_EXT_NAME' ) ) {
+	$lines[] = 'Bridge DB_EXT_NAME: ' . DB_EXT_NAME;
+}
+
+$capsuleOk = CapsuleManager::hasExternalConnection();
 $lines[]   = 'Capsule external connection: ' . ( $capsuleOk ? 'OK' : 'FAIL' );
 if ( ! $capsuleOk ) {
 	$ok = false;
 }
 
+$conn     = null;
 $mysqliOk = false;
-if ( function_exists( 'ez_reservation_get_conn' ) ) {
-	$conn = ez_reservation_get_conn();
-	$mysqliOk = $conn instanceof mysqli;
-	$lines[]  = 'mysqli ez_reservation_get_conn: ' . ( $mysqliOk ? 'OK' : 'FAIL' );
-	if ( ! $mysqliOk ) {
-		$ok = false;
+if ( null !== $config && extension_loaded( 'mysqli' ) ) {
+	$host = $config['host'];
+	$user = $config['username'];
+	$pass = $config['password'];
+	$db   = $config['database'];
+	$conn = @new mysqli( $host, $user, $pass, $db );
+	if ( $conn instanceof mysqli && ! $conn->connect_errno ) {
+		$mysqliOk = true;
+		$lines[]  = 'mysqli direct: OK';
+	} else {
+		$lines[] = 'mysqli direct: FAIL ' . ( $conn instanceof mysqli ? $conn->connect_error : 'connect failed' );
+		$ok      = false;
 	}
 } else {
-	$lines[] = 'mysqli: SKIP (db-connect not loaded)';
-	$ok      = false;
+	$lines[] = 'mysqli direct: SKIP';
 }
 
 $testProducts = array( 692762, 762302, 52537 );
 
-if ( $mysqliOk && isset( $conn ) && $conn instanceof mysqli ) {
+if ( $mysqliOk && $conn instanceof mysqli ) {
 	$res = $conn->query( 'SELECT COUNT(*) AS c FROM products_data' );
 	if ( $res && ( $row = $res->fetch_assoc() ) ) {
 		$lines[] = 'products_data row count: ' . (int) $row['c'];
@@ -113,6 +127,8 @@ if ( $mysqliOk && isset( $conn ) && $conn instanceof mysqli ) {
 	} else {
 		$lines[] = 'WARN: calendar_data missing — day types may default to normals only';
 	}
+
+	$conn->close();
 }
 
 $lines[] = 'Flags:';
@@ -122,8 +138,8 @@ $lines[] = '  EZ_BOOKING_NATIVE_SANSES: ' . ( defined( 'EZ_BOOKING_NATIVE_SANSES
 if ( ! $ok ) {
 	$lines[] = '';
 	$lines[] = 'Suggested actions:';
-	$lines[] = '  1. Copy .env.example → .env and set WORDPRESS_DB_EXT_PASSWORD = WORDPRESS_DB_PASSWORD';
-	$lines[] = '  2. Ensure MySQL has database escapezo_queries (import docs/escapezo_queries.sql or staging dump)';
+	$lines[] = '  1. Set EZ_CORE_SECRETS_KEY and create config/secrets.enc (see .env.example)';
+	$lines[] = '  2. Ensure MySQL has database escapezo_queries (import docs/escapezo_queries.sql)';
 	$lines[] = '  3. Re-run: php wp-content/mu-plugins/ez_core/bin/booking-db-health.php';
 }
 

@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace EscapeZoom\Core\Infrastructure\Database;
 
+use EscapeZoom\Core\Infrastructure\Config\SecretsLoader;
 use Illuminate\Container\Container;
 use Illuminate\Database\Capsule\Manager as Capsule;
 use Illuminate\Database\Connection;
@@ -180,41 +181,24 @@ final class CapsuleManager
 	}
 
 	/**
-	 * wp-config constants or Docker WORDPRESS_DB_EXT_* (same as web-service/db-connect.php).
+	 * Primary: secrets.enc via SecretsLoader. Rollback: DB_EXT_* if already defined.
 	 *
 	 * @return array{host: string, database: string, username: string, password: string}|null
 	 */
 	private static function resolveExternalConfig(): ?array {
-		$raw = null;
-		if ( defined( 'DB_EXT_NAME' ) && defined( 'DB_EXT_USER' ) && defined( 'DB_EXT_PASSWORD' ) ) {
+		$raw = SecretsLoader::externalDatabase();
+
+		if ( null === $raw && defined( 'DB_EXT_NAME' ) && defined( 'DB_EXT_USER' ) && defined( 'DB_EXT_PASSWORD' ) ) {
 			$raw = array(
-				'host'     => defined( 'DB_EXT_HOST' ) ? DB_EXT_HOST : DB_HOST,
+				'host'     => defined( 'DB_EXT_HOST' ) ? DB_EXT_HOST : ( defined( 'DB_HOST' ) ? DB_HOST : 'mysql' ),
 				'database' => DB_EXT_NAME,
 				'username' => DB_EXT_USER,
 				'password' => DB_EXT_PASSWORD,
 			);
-		} else {
-			$database = getenv( 'WORDPRESS_DB_EXT_NAME' ) ?: getenv( 'DB_EXT_NAME' );
-			$username = getenv( 'WORDPRESS_DB_EXT_USER' ) ?: getenv( 'DB_EXT_USER' );
-			$password = getenv( 'WORDPRESS_DB_EXT_PASSWORD' ) ?: getenv( 'DB_EXT_PASSWORD' );
-			if ( ! $database || ! $username || false === $password ) {
-				return null;
-			}
+		}
 
-			$host = getenv( 'WORDPRESS_DB_EXT_HOST' ) ?: getenv( 'WORDPRESS_DB_HOST' );
-			if ( ! $host && defined( 'DB_HOST' ) ) {
-				$host = DB_HOST;
-			}
-			if ( ! $host ) {
-				$host = 'mysql';
-			}
-
-			$raw = array(
-				'host'     => (string) $host,
-				'database' => (string) $database,
-				'username' => (string) $username,
-				'password' => (string) $password,
-			);
+		if ( null === $raw ) {
+			return null;
 		}
 
 		return self::applyHostParse( $raw );

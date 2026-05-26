@@ -10,6 +10,8 @@ if ( ! defined( 'EZ_CORE_PATH' ) ) {
 	define( 'EZ_CORE_PATH', __DIR__ );
 }
 
+require __DIR__ . '/bootstrap/load-secrets.php';
+
 $ez_core_autoload = EZ_CORE_PATH . '/vendor/autoload.php';
 
 if ( is_readable( $ez_core_autoload ) ) {

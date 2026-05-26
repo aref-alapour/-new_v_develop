@@ -6,25 +6,31 @@ Booking reads `products_data`, `calendar_data`, and `wp_zb_booking_history` from
 [EZ Booking] External DB unavailable for type=get_sanses
 ```
 
-## 1. Environment
+## 1. Encrypted secrets (required)
 
-Copy [`.env.example`](../../../.env.example) to `.env` (or set Docker env vars):
+Credentials live in [`wp-content/mu-plugins/ez_core/config/secrets.enc`](../../../wp-content/mu-plugins/ez_core/config/secrets.enc) (not in git). Only **`EZ_CORE_SECRETS_KEY`** is needed in Docker/host env — see [`.env.example`](../../../.env.example).
 
-| Variable | Typical dev value |
-|----------|-------------------|
-| `WORDPRESS_DB_EXT_NAME` | `escapezo_queries` |
-| `WORDPRESS_DB_EXT_HOST` | `mysql` |
-| `WORDPRESS_DB_EXT_USER` | same as `WORDPRESS_DB_USER` |
-| `WORDPRESS_DB_EXT_PASSWORD` | **same as** `WORDPRESS_DB_PASSWORD` |
+```bash
+# Generate key (once per environment)
+php -r "echo base64_encode(sodium_crypto_secretbox_keygen());"
 
-[`wp-config.php`](../../../wp-config.php) and [`wp-config-docker.php`](../../../wp-config-docker.php) both define `DB_EXT_*` and booking flags. Keep them in sync when adding new constants.
+# Create plain JSON from example, edit passwords/secrets
+cp wp-content/mu-plugins/ez_core/config/secrets.plain.example.json wp-content/mu-plugins/ez_core/config/secrets.plain.json
 
-| Constant / env | `wp-config.php` default | `wp-config-docker.php` default |
-|----------------|----------------------|------------------------------|
-| `EZ_BOOKING_USE_INTERNAL` | env `1` | env `1` |
-| `EZ_BOOKING_NATIVE_SANSES` | env `1` | env `1` |
+export EZ_CORE_SECRETS_KEY="your-base64-key"
+php wp-content/mu-plugins/ez_core/bin/secrets-encrypt.php
+```
 
-**MU-plugin loader:** use only [`wp-content/mu-plugins/ez_core.php`](../../../wp-content/mu-plugins/ez_core.php). Do not add a second loader (`ez-core.php` was removed as duplicate).
+`secrets.plain.json` structure:
+
+| Section | Fields |
+|---------|--------|
+| `external` | `host`, `database`, `username`, `password` |
+| `gateway` | `ajax_shared_secret`, `booking_use_internal`, `booking_native_sanses` |
+
+On WordPress boot, MU-plugin defines bridge constants `DB_EXT_*` and `EZ_*` from decrypted secrets (for legacy theme code). **`wp-config-docker.php` does not contain booking credentials.**
+
+**MU-plugin loader:** use only [`wp-content/mu-plugins/ez_core.php`](../../../wp-content/mu-plugins/ez_core.php).
 
 **Front bundle after JS changes:** `cd wp-content/themes/escapezoom-v2 && npm run build:front:js`, then hard refresh.
 
@@ -46,6 +52,7 @@ Minimum tables: `products_data`, `calendar_data`, `wp_zb_booking_history`.
 ## 3. Health check
 
 ```bash
+export EZ_CORE_SECRETS_KEY="..."
 php wp-content/mu-plugins/ez_core/bin/booking-db-health.php
 ```
 
@@ -57,12 +64,7 @@ Expect `RESULT: OK` and sample rows for product IDs `692762`, `762302`.
 php wp-content/mu-plugins/ez_core/bin/compare-sans-parity.php 692762 <day_start_unix> 1
 ```
 
-When parity is OK, ensure in `wp-config-docker.php` (or env):
-
-```php
-define( 'EZ_BOOKING_USE_INTERNAL', true );
-define( 'EZ_BOOKING_NATIVE_SANSES', true );
-```
+Native path is controlled in `secrets.enc` → `gateway.booking_native_sanses` (typically `true` after parity OK).
 
 ## 5. HAR verification (manual)
 
@@ -72,21 +74,19 @@ After fix, in Chrome Network:
 |-------|----------|
 | `booking.sans_day_json` | 200, JSON with `time` / `status`, not `[]` |
 | `wait` (TTFB) | &lt; ~2s with native + warm cache |
+| Response header | `X-EZ-Gateway: light` on day clicks |
 | Response header | `X-EZ-Booking-Path: native` when `WP_DEBUG` on |
-| `booking.sans_week` | HTML with sans buttons inside `flex justify-between` |
+| Reserve week navigation | one `booking.sans_day_json` with `days:7` per click (not duplicate `sans_week`) |
 | `debug.log` | no new `External DB unavailable` lines |
-| Request body | still plain JSON + HMAC headers (AES out of scope) |
 
 ## 6. Troubleshooting
 
 | Symptom | Action |
 |---------|--------|
-| `[]` + DB unavailable log | Run health script; fix password/host; import DB |
-| `X-EZ-Booking-Path: legacy` | Set `EZ_BOOKING_NATIVE_SANSES` true |
-| Still slow (~14s) on legacy | Enable native flag; legacy light bootstrap only helps `get_sanses` fallback |
-| Parity mismatch | Compare timezone / `calendar_data` / schedule column |
-| Reserve page shows raw JSON | Rebuild `dist/front.js`; `sansWeekHtml` renders JSON to HTML client-side |
-| Still slow after native on | Confirm `X-EZ-Gateway: light` on `booking.sans_day_json`; restart Apache after `.htaccess` change |
+| `[]` + DB unavailable log | Run health script; fix `secrets.enc`; import DB |
+| Light ajax 503 SECRETS | Set `EZ_CORE_SECRETS_KEY`; run `secrets-encrypt.php` |
+| `X-EZ-Booking-Path: legacy` | Set `gateway.booking_native_sanses` true in secrets |
+| Reserve page shows raw JSON | Rebuild `dist/front.js`; week uses client-side JSON render |
 | No `X-EZ-Gateway: light` | Apache must read `.htaccess`; header `X-EZ-Action: booking.sans_day_json` required |
 
 ## 7. Light `/ajax` for `booking.sans_day_json`
@@ -104,10 +104,10 @@ RewriteCond %{HTTP:X-EZ-Action} ^booking\.sans_day_json$ [NC]
 RewriteRule ^ajax/?$ ez-ajax.php [L]
 ```
 
+Reserve week grid uses the same action with `days: 7` in the JSON body (light path). Fallback `booking.sans_week` (full WP) only if JSON path fails.
+
 Verify in DevTools → Network → response headers:
 
 - `X-EZ-Gateway: light`
 - `X-EZ-Booking-Path: native` (when `WP_DEBUG` / dev)
 - TTFB should drop from ~7–19s to well under 1s (DB + query only)
-
-Reserve week (`booking.sans_week`) and other actions still use full WordPress via `index.php`.

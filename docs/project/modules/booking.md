@@ -158,21 +158,11 @@ Rollout playbook (when started): `escapezoom-core/docs/rollout/booking-cutover.m
 | `ez_reservation()` internal | `EZ_BOOKING_USE_INTERNAL` (legacy fallback) | `LegacySansAdapter` → `reservation-dispatch.php` when native flag off |
 | `web-service/reservation.php` | **Removed** | Block at nginx with `410` (see `docs/project/ops/nginx-reservation-deprecation.conf`) |
 
-### Flags (`wp-config.php` / Docker)
+### Config (`secrets.enc`)
 
-[`wp-config-docker.php`](../../../wp-config-docker.php) defines `DB_EXT_*`, `EZ_BOOKING_USE_INTERNAL`, and `EZ_BOOKING_NATIVE_SANSES` from env. For custom wp-config, mirror:
+Booking DB + gateway flags live in [`wp-content/mu-plugins/ez_core/config/secrets.enc`](../../../wp-content/mu-plugins/ez_core/config/secrets.enc) (encrypted). Set **`EZ_CORE_SECRETS_KEY`** in Docker/host env only — see [`.env.example`](../../../.env.example) and [`docs/project/ops/booking-dev-db.md`](../ops/booking-dev-db.md).
 
-```php
-define('EZ_AJAX_SHARED_SECRET', '…');
-define('DB_EXT_NAME', 'escapezo_queries');
-define('DB_EXT_HOST', 'mysql');
-define('DB_EXT_USER', '…');
-define('DB_EXT_PASSWORD', '…'); // same as DB_PASSWORD in dev
-define('EZ_BOOKING_USE_INTERNAL', true);
-define('EZ_BOOKING_NATIVE_SANSES', true); // after parity OK
-```
-
-Docker env: see [`.env.example`](../../../.env.example) (`WORDPRESS_DB_EXT_*`).
+On MU-plugin load, bridge constants `DB_EXT_*` and `EZ_*` are defined for legacy theme code. **`wp-config-docker.php` does not store booking credentials.**
 
 ### Dev setup checklist
 
@@ -185,7 +175,7 @@ php wp-content/mu-plugins/ez_core/bin/compare-sans-parity.php 692762 <day_start_
 
 Gateway dev header (when `WP_DEBUG`): `X-EZ-Booking-Path: native|legacy`.
 
-**Symptom `[]`:** run health script; import `escapezo_queries` if empty; align `WORDPRESS_DB_EXT_PASSWORD` with WordPress DB password.
+**Symptom `[]`:** run health script; import `escapezo_queries` if empty; verify `secrets.enc` external DB password.
 
 **Theme build (escapezoom-v2):**
 

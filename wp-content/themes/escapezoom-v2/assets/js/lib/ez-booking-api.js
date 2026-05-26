@@ -14,6 +14,9 @@ let sansManagementWebController = null;
 /** @type {AbortController|null} */
 let toggleSansController = null;
 
+/** @type {AbortController|null} */
+let sansWeekController = null;
+
 /**
  * @param {AbortController|null} current
  * @param {AbortController} next
@@ -228,12 +231,16 @@ async function fetchReserveWeekTableLegacy(productId, dayStart) {
  * @param {number} productId
  * @param {number} dayStart
  */
-async function fetchAndRenderWeekFromJson(productId, dayStart) {
-  const resp = await ezFetch('booking.sans_day_json', {
-    product_id: parseInt(productId, 10),
-    day_start_time: parseInt(dayStart, 10),
-    days: 7,
-  });
+async function fetchAndRenderWeekFromJson(productId, dayStart, signal) {
+  const resp = await ezFetch(
+    'booking.sans_day_json',
+    {
+      product_id: parseInt(productId, 10),
+      day_start_time: parseInt(dayStart, 10),
+      days: 7,
+    },
+    { signal }
+  );
   const parsed = parseGatewaySansJson(await resp.text(), { days: 7 });
   const week = normalizeWeekDays(parsed, parseInt(dayStart, 10));
   return renderReserveWeekHtml(week, parseInt(dayStart, 10));
@@ -243,12 +250,28 @@ export async function sansWeekHtml(productId, dayStart) {
   const pid = parseInt(productId, 10);
   const day = parseInt(dayStart, 10);
 
+  sansWeekController = replaceController(sansWeekController, new AbortController());
+  const controller = sansWeekController;
+
   try {
-    const resp = await ezFetch('booking.sans_week', {
-      product_id: pid,
-      day_start_time: day,
-      days: 7,
-    });
+    try {
+      return await fetchAndRenderWeekFromJson(pid, day, controller.signal);
+    } catch (jsonErr) {
+      if (isAbortError(jsonErr)) {
+        return null;
+      }
+      console.warn('[EZ Booking] JSON week via light gateway failed, trying sans_week HTML', jsonErr);
+    }
+
+    const resp = await ezFetch(
+      'booking.sans_week',
+      {
+        product_id: pid,
+        day_start_time: day,
+        days: 7,
+      },
+      { signal: controller.signal }
+    );
     const text = (await resp.text()).replace(/^\uFEFF/, '').trim();
 
     if (!isJsonLike(text) && text.includes('class="box')) {
@@ -260,19 +283,27 @@ export async function sansWeekHtml(productId, dayStart) {
       return renderReserveWeekHtml(week, day);
     }
   } catch (err) {
-    console.warn('[EZ Booking] sans_week HTML failed, trying JSON render', err);
+    if (isAbortError(err)) {
+      return null;
+    }
+    console.warn('[EZ Booking] sans_week HTML failed, trying admin-ajax', err);
   }
 
   try {
-    return await fetchAndRenderWeekFromJson(pid, day);
-  } catch (jsonErr) {
-    console.warn('[EZ Booking] JSON week render failed, trying admin-ajax', jsonErr);
+    const legacy = await fetchReserveWeekTableLegacy(pid, day);
+    if (isJsonLike(legacy)) {
+      const week = normalizeWeekDays(parseGatewaySansJson(legacy, { days: 7 }), day);
+      return renderReserveWeekHtml(week, day);
+    }
+    return legacy;
+  } catch (legacyErr) {
+    if (isAbortError(legacyErr)) {
+      return null;
+    }
+    throw legacyErr;
+  } finally {
+    if (sansWeekController === controller) {
+      sansWeekController = null;
+    }
   }
-
-  const legacy = await fetchReserveWeekTableLegacy(pid, day);
-  if (isJsonLike(legacy)) {
-    const week = normalizeWeekDays(parseGatewaySansJson(legacy, { days: 7 }), day);
-    return renderReserveWeekHtml(week, day);
-  }
-  return legacy;
 }

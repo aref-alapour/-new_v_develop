@@ -32,29 +32,9 @@ export async function loadReserveWeekTable(productId, dayStart) {
   }
 }
 
-function bindReserveWeekTable() {
-  const root = document.getElementById('table-of-sans');
-  if (!root?.dataset.productId) {
-    return;
-  }
-  const productId = parseInt(root.dataset.productId, 10);
-  const dayStart = parseInt(root.dataset.dayStart || '0', 10);
-  loadReserveWeekTable(productId, dayStart);
-
-  document.body.addEventListener('click', (ev) => {
-    const btn = ev.target.closest('[data-timestamp]');
-    if (!btn || !document.getElementById('table-of-sans')) {
-      return;
-    }
-    const ts = parseInt(btn.getAttribute('data-timestamp') || '0', 10);
-    if (ts > 0) {
-      loadReserveWeekTable(productId, ts);
-    }
-  });
-}
-
 /**
  * Init booking gateway UI on non–single-product pages (reserve calendar).
+ * Week loads are driven by reserve.php BuildTable → window.ezBookingLoadWeek.
  */
 export function initBookingGatewayPages() {
   if (!window.__EZ_BOOT__?.sub_secret) {
@@ -62,6 +42,5 @@ export function initBookingGatewayPages() {
   }
   if (document.getElementById('table-of-sans')) {
     window.ezBookingLoadWeek = loadReserveWeekTable;
-    bindReserveWeekTable();
   }
 }

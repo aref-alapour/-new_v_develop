@@ -335,24 +335,11 @@ wp_enqueue_script('persian-date');
             if (root && productId > 0 && dayStart > 0) {
                 root.dataset.dayStart = String(dayStart);
             }
-            if (window.__EZ_BOOT__?.sub_secret && window.ezBookingApi?.sansWeekHtml) {
-                if (productId > 0 && dayStart > 0) {
-                    if (typeof window.ezBookingLoadWeek === 'function') {
-                        window.ezBookingLoadWeek(productId, dayStart);
-                    } else {
-                        const skeleton =
-                            "<div class='grid gap-3' style='grid-template-columns: repeat(7, minmax(0, 1fr))'>" +
-                            '<div class="skeleton aspect-square rounded-xl"></div>'.repeat(7 * 4) +
-                            '</div>';
-                        root.innerHTML = skeleton;
-                        window.ezBookingApi.sansWeekHtml(productId, dayStart).then(function (html) {
-                            root.innerHTML = html;
-                        }).catch(function (e) {
-                            console.error('[ez-booking] sans_week failed', e);
-                        });
-                    }
+            if (window.__EZ_BOOT__?.sub_secret && productId > 0 && dayStart > 0) {
+                if (typeof window.ezBookingLoadWeek === 'function') {
+                    window.ezBookingLoadWeek(productId, dayStart);
+                    return;
                 }
-                return;
             }
             console.log(time);
 
