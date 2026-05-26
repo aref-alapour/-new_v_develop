@@ -1,27 +1,35 @@
 <?php
 /**
- * Dev parity check: native SansAvailabilityService vs LegacySansAdapter.
+ * Dev parity check: native SansAvailabilityService vs LegacySansAdapter (no WordPress bootstrap).
  *
- * Usage (from repo root, inside WP container):
+ * Usage (from repo root):
  *   php wp-content/mu-plugins/ez_core/bin/compare-sans-parity.php 762302 1779654600 1
  */
 
 declare(strict_types=1);
 
-$root = dirname( __DIR__, 4 );
-if ( ! is_file( $root . '/wp-load.php' ) ) {
-	fwrite( STDERR, "wp-load.php not found at {$root}\n" );
+$corePath = dirname( __DIR__ );
+
+if ( ! defined( 'EZ_CORE_PATH' ) ) {
+	define( 'EZ_CORE_PATH', $corePath );
+}
+
+require $corePath . '/bootstrap/load-secrets.php';
+
+$autoload = $corePath . '/vendor/autoload.php';
+if ( ! is_readable( $autoload ) ) {
+	fwrite( STDERR, "Run composer install in {$corePath}\n" );
 	exit( 1 );
 }
 
-require $root . '/wp-load.php';
+require_once $autoload;
 
 if ( ! class_exists( \EscapeZoom\Core\Core\Bootstrap::class ) ) {
 	fwrite( STDERR, "ez_core not loaded\n" );
 	exit( 1 );
 }
 
-\EscapeZoom\Core\Core\Bootstrap::bootDataLayer();
+\EscapeZoom\Core\Core\Bootstrap::bootDataLayerOnly();
 
 $productId    = isset( $argv[1] ) ? (int) $argv[1] : 762302;
 $dayStartTime = isset( $argv[2] ) ? (int) $argv[2] : (int) strtotime( 'today Asia/Tehran' );
@@ -32,8 +40,8 @@ $legacy = ( new \EscapeZoom\Core\Modules\Booking\Infrastructure\LegacySansAdapte
 $native = ( new \EscapeZoom\Core\Modules\Booking\Services\SansAvailabilityService() )
 	->getSanses( $productId, $dayStartTime, $days );
 
-$legacyJson = wp_json_encode( $legacy, JSON_UNESCAPED_UNICODE );
-$nativeJson = wp_json_encode( $native, JSON_UNESCAPED_UNICODE );
+$legacyJson = json_encode( $legacy, JSON_UNESCAPED_UNICODE );
+$nativeJson = json_encode( $native, JSON_UNESCAPED_UNICODE );
 
 echo "product_id={$productId} day_start_time={$dayStartTime} days={$days}\n";
 if ( $legacyJson === $nativeJson ) {

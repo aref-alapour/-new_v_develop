@@ -1225,51 +1225,37 @@ jQuery(document).ready(function($) {
         $btn.prop('disabled', true);            // غیرفعال کردن دکمه
         $btn.html('<span class="btn-spinner"></span>'); // نمایش اسپینر
 
-        $.ajax({
-            // توجه: آدرس فایل را طبق ساختار خودتان تنظیم کنید
-            url: "<?php echo site_url('web-service/team/sans_management.php') ?>",
-            type: 'POST',
-            dataType: 'json', // انتظار داریم پاسخ JSON باشد
-            data: {
-                type: actionType,
-                data: {
-                    day_start_time: selectedDate,
-                    product_id: roomId
-                }
-            },
-            success: function(response) {
-                // بررسی ساختار پاسخ: { success: true/false, data: { ... } }
-                if (response.success) {
-                    showTooltip(btn, `عملیات ${actionName} با موفقیت انجام شد.`);
-                    
-                    // رفرش کردن لیست سانس‌ها
-                    $('[data-datepicker].active').click(); 
-                } else {
-                    // مدیریت خطای سمت سرور (مثل: هیچ سانسی وجود ندارد)
-                    let errorMsg = "خطایی رخ داد.";
-                    if (response.data && response.data.error) {
-                        errorMsg = response.data.error;
+        const finishBtn = () => {
+            $btn.html(originalText);
+            $btn.prop('disabled', false);
+            $btn.css('min-width', '');
+        };
+
+        if (window.__EZ_BOOT__?.sub_secret && window.ezBookingApi?.bulkToggleDay) {
+            window.ezBookingApi
+                .bulkToggleDay(actionType, parseInt(roomId, 10), parseInt(selectedDate, 10))
+                .then(function (response) {
+                    if (response && response.success) {
+                        showTooltip(btn, `عملیات ${actionName} با موفقیت انجام شد.`);
+                        $('[data-datepicker].active').click();
+                    } else {
+                        let errorMsg = 'خطایی رخ داد.';
+                        if (response && response.data && response.data.error) {
+                            errorMsg = response.data.error;
+                        }
+                        showTooltip(btn, errorMsg);
                     }
-                    showTooltip(btn, errorMsg);
-                }
-            },
-            error: function(xhr, status, error) {
-                // خطای شبکه یا خطای کد 500
-                let msg = "خطا در ارتباط با سرور.";
-                try {
-                    let errRes = JSON.parse(xhr.responseText);
-                    if(errRes.data && errRes.data.error) msg = errRes.data.error;
-                } catch(e) {}
-                
-                showTooltip(btn, msg);
-            },
-            complete: function() {
-                // --- بازگشت به حالت عادی ---
-                $btn.html(originalText);       // بازگرداندن متن اصلی
-                $btn.prop('disabled', false);  // فعال کردن مجدد
-                $btn.css('min-width', '');     // حذف قفل عرض
-            }
-        });
+                })
+                .catch(function () {
+                    showTooltip(btn, 'خطا در ارتباط با سرور.');
+                })
+                .finally(finishBtn);
+            return;
+        }
+
+        console.error('[EZ Booking] Gateway not configured for bulk day toggle');
+        finishBtn();
+        showTooltip(btn, 'پیکربندی رزرو در دسترس نیست.');
     };
 
 });

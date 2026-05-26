@@ -14,16 +14,12 @@ $repoRoot = dirname( $corePath, 3 );
 
 $legacyAjax = in_array( '--legacy-ajax', $argv ?? array(), true );
 
-$sodiumCompat = $repoRoot . '/wp-content/plugins/wordfence/crypto/vendor/paragonie/sodium_compat/autoload.php';
-if ( ! function_exists( 'sodium_crypto_secretbox_open' ) && is_readable( $sodiumCompat ) ) {
-	require_once $sodiumCompat;
-}
-
-require $corePath . '/vendor/autoload.php';
-
 if ( ! defined( 'EZ_CORE_PATH' ) ) {
 	define( 'EZ_CORE_PATH', $corePath );
 }
+
+require $corePath . '/vendor/autoload.php';
+require $corePath . '/bootstrap/sodium.php';
 
 require $corePath . '/bootstrap/load-secrets.php';
 
@@ -147,6 +143,16 @@ if ( ! isset( $plain['gateway'] ) || ! is_array( $plain['gateway'] ) ) {
 if ( ! isset( $plain['gateway']['rate_limits'] ) || ! is_array( $plain['gateway']['rate_limits'] ) ) {
 	$plain['gateway']['rate_limits'] = $defaultRateLimits;
 	echo "Added gateway.rate_limits defaults.\n";
+}
+
+if ( ! array_key_exists( 'payload_encrypt_writes', $plain['gateway'] ) ) {
+	$plain['gateway']['payload_encrypt_writes'] = false;
+	echo "Added gateway.payload_encrypt_writes default.\n";
+}
+
+if ( ! array_key_exists( 'payload_encrypt_reads', $plain['gateway'] ) ) {
+	$plain['gateway']['payload_encrypt_reads'] = false;
+	echo "Added gateway.payload_encrypt_reads default.\n";
 }
 
 if ( ! isset( $plain['gateway']['ajax_shared_secret'] ) || strlen( (string) $plain['gateway']['ajax_shared_secret'] ) < 16 ) {

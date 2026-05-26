@@ -18,10 +18,54 @@
  * fresh `window.__EZ_BOOT__` is issued (covers expired sub-secret and severe clock skew).
  */
 
+import { gcm } from '@noble/ciphers/aes.js';
 import { hmac } from '@noble/hashes/hmac.js';
 import { sha256 } from '@noble/hashes/sha2.js';
 
 const TEXT_ENCODER = new TextEncoder();
+
+/** @type {Set<string>} */
+const WRITE_ENCRYPT_ACTIONS = new Set([
+  'booking.open_sans',
+  'booking.close_sans',
+  'booking.open_all_sanses',
+  'booking.close_all_sanses',
+  'booking.sans_management_web',
+]);
+
+/** @type {Set<string>} */
+const READ_ENCRYPT_ACTIONS = new Set([
+  'booking.sans_day_json',
+  'booking.sans_day',
+  'booking.sans_week',
+]);
+
+/**
+ * @param {string} action
+ * @param {Record<string, unknown>} boot
+ */
+function shouldEncryptPayload(action, boot) {
+  if (WRITE_ENCRYPT_ACTIONS.has(action) && boot.encrypt_writes) {
+    return true;
+  }
+  return READ_ENCRYPT_ACTIONS.has(action) && !!boot.encrypt_reads;
+}
+
+/**
+ * @param {string} plainJson
+ * @param {string} subSecretB64Url
+ */
+function encryptWireBody(plainJson, subSecretB64Url) {
+  const key = base64UrlDecode(subSecretB64Url);
+  const iv = crypto.getRandomValues(new Uint8Array(12));
+  const aes = gcm(key, iv);
+  const ct = aes.encrypt(TEXT_ENCODER.encode(plainJson));
+  return JSON.stringify({
+    ez_enc: 'v1',
+    iv: bytesToBase64Url(iv),
+    ct: bytesToBase64Url(ct),
+  });
+}
 
 export function getBoot() {
   const boot = typeof window !== 'undefined' ? window.__EZ_BOOT__ : null;
@@ -322,6 +366,12 @@ export async function ezFetch(action, body = {}, opts = {}) {
   const method = (opts.method || 'POST').toUpperCase();
   const url = new URL(boot.ajax_url, window.location.origin);
   const bodyJson = method === 'GET' ? '' : JSON.stringify(body);
+  let wireBody = bodyJson;
+  const encryptHeaders = {};
+  if (method !== 'GET' && shouldEncryptPayload(action, boot)) {
+    wireBody = encryptWireBody(bodyJson, String(boot.sub_secret));
+    encryptHeaders['X-EZ-Encrypted'] = 'v1';
+  }
 
   const path = url.pathname; // server signs against the path only (no query/host).
 
@@ -329,7 +379,7 @@ export async function ezFetch(action, body = {}, opts = {}) {
     method,
     path,
     action,
-    body: bodyJson,
+    body: wireBody,
     boot,
   });
 
@@ -342,11 +392,12 @@ export async function ezFetch(action, body = {}, opts = {}) {
       'Content-Type': 'application/json',
       ...(opts.headers || {}),
       ...headers,
+      ...encryptHeaders,
     },
   };
 
   if (method !== 'GET') {
-    init.body = bodyJson;
+    init.body = wireBody;
   } else {
     // Echo action in query so server can read it even before the body parser runs.
     url.searchParams.set('action', action);

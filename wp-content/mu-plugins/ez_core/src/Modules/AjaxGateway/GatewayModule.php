@@ -14,7 +14,7 @@ final class GatewayModule
 	public static function register(): void {
 		add_action( 'init', array( GatewayRouter::class, 'registerRewrite' ) );
 		add_action( 'template_redirect', array( GatewayRouter::class, 'maybeHandle' ), 0 );
-		add_filter( 'ez_ajax_boot_data', array( self::class, 'filterBootClientKind' ) );
+		add_filter( 'ez_ajax_boot_data', array( self::class, 'filterBootClientKind' ), 20 );
 		BookingGatewayActions::register();
 	}
 
@@ -34,6 +34,18 @@ final class GatewayModule
 			$boot['client_kind'] = 'web-user';
 		}
 
+		if ( self::isTeamSansManagementScreen() && function_exists( 'is_user_logged_in' ) && is_user_logged_in() ) {
+			$boot['client_kind'] = 'web-team';
+		}
+
 		return $boot;
+	}
+
+	private static function isTeamSansManagementScreen(): bool {
+		if ( ! function_exists( 'is_page_template' ) ) {
+			return false;
+		}
+
+		return is_page_template( 'template/team/pages/sans_management.php' );
 	}
 }

@@ -20,8 +20,10 @@ final class ActionClassification
 		'booking.sans_day_json'      => self::CLASS_READ,
 		'booking.sans_day'           => self::CLASS_READ,
 		'booking.sans_week'          => self::CLASS_READ,
-		'booking.open_sans'          => self::CLASS_WRITE,
-		'booking.close_sans'         => self::CLASS_WRITE,
+		'booking.open_sans'           => self::CLASS_WRITE,
+		'booking.close_sans'          => self::CLASS_WRITE,
+		'booking.open_all_sanses'     => self::CLASS_WRITE,
+		'booking.close_all_sanses'    => self::CLASS_WRITE,
 		'booking.sans_management_web' => self::CLASS_WRITE_HTML,
 	);
 

@@ -581,33 +581,35 @@ for ($i = 1; $i <= 45; $i++) {
         });
 
         const BuildSans = (room, day) => {
-            $.ajax({
-                type: 'POST',
-                url: "<?php echo site_url('web-service/team/sans_management.php') ?>",
-                data: {
-                    "type": "sans_management_web",
-                    "data": { "day_start_time": day, "product_id": room }
-                },
-                beforeSend: function() {
-                    $(`[data-datepicker="${day}"]`).attr('disabled', 'disabled');
-                    let out = "";
-                    for (let i = 0; i < 8; i++) {
-                        out += "<div class='w-full h-29 skeleton rounded-xl'></div>";
-                    }
-                    $("#sessionsContainer").html(out);
-                },
-                success: function(response) {
-                    $(`[data-datepicker="${day}"]`).removeAttr('disabled');
-                    // چاپ پاسخ (که شامل کارت‌های سانس و قالب مخفی دکمه رادیویی است) در کانتینر سانس‌ها
-                    $("#sessionsContainer").html(response);
-                    
-                    // بلافاصله دکمه‌های رادیویی را استخراج و به جای درست منتقل می‌کنیم
-                    extractAndMoveRadioButtons(); 
-                    injectPhoneReserveButtons();
-                    
-                    datePickerSwiper.update();
+            const showSkeleton = () => {
+                $(`[data-datepicker="${day}"]`).attr('disabled', 'disabled');
+                let out = "";
+                for (let i = 0; i < 8; i++) {
+                    out += "<div class='w-full h-29 skeleton rounded-xl'></div>";
                 }
-            });
+                $("#sessionsContainer").html(out);
+            };
+            const onHtml = (html) => {
+                $(`[data-datepicker="${day}"]`).removeAttr('disabled');
+                $("#sessionsContainer").html(html);
+                extractAndMoveRadioButtons();
+                injectPhoneReserveButtons();
+                datePickerSwiper.update();
+            };
+
+            if (window.__EZ_BOOT__?.sub_secret && window.ezBookingApi?.sansManagementWeb) {
+                showSkeleton();
+                window.ezBookingApi.sansManagementWeb(parseInt(room, 10), parseInt(day, 10))
+                    .then((html) => { if (html != null) onHtml(html); })
+                    .catch(() => {
+                        $(`[data-datepicker="${day}"]`).removeAttr('disabled');
+                        $("#sessionsContainer").html('<p class="text-center text-slate-500 p-4">خطا در بارگذاری سانس‌ها.</p>');
+                    });
+                return;
+            }
+
+            console.error('[EZ Booking] Gateway not configured on team sans-management');
+            $("#sessionsContainer").html('<p class="text-center text-slate-500 p-4">پیکربندی رزرو در دسترس نیست.</p>');
         }
 
         $('body').on('click', ".team_sans_game_search_item", function() {
@@ -657,22 +659,18 @@ for ($i = 1; $i <= 45; $i++) {
                 product = $this.data('product'),
                 currentDate = $this.data('timestamp').split('.')[1],
                 time = $this.data('timestamp').split('.')[0];
+            const spinner = "<div class='spinner' style='margin: 11px auto 0;width: 16px;border: 2px solid rgba(127 127 127 / 50%);display: inline-flex;'></div>";
 
-            $.ajax({
-                type: 'POST',
-                url: "<?php echo site_url('web-service/team/sans_management.php') ?>",
-                data: {
-                    "type": `${action}_sans`,
-                    "data": { "sans_time": parseInt(time), "product_id": parseInt(product) }
-                },
-                beforeSend: function() {
-                    $this.attr('disabled', 'disabled');
-                    $this.html("<div class='spinner' style='margin: 11px auto 0;width: 16px;border: 2px solid rgba(127 127 127 / 50%);display: inline-flex;'></div>");
-                },
-                success: function() {
-                    BuildSans(product, currentDate);
-                }
-            });
+            if (window.__EZ_BOOT__?.sub_secret && window.ezBookingApi?.toggleSans) {
+                $this.attr('disabled', 'disabled').html(spinner);
+                window.ezBookingApi.toggleSans(action, parseInt(product, 10), parseInt(time, 10))
+                    .then(() => BuildSans(product, currentDate))
+                    .catch(() => console.error('[EZ Booking] toggleSans failed'))
+                    .finally(() => $this.removeAttr('disabled'));
+                return;
+            }
+
+            console.error('[EZ Booking] Gateway not configured for toggle sans');
         });
 
         // --- رویداد جدید: کنترل کلیک روی دکمه‌های رادیویی "باز کردن همه" و "بستن همه" ---
@@ -691,32 +689,35 @@ for ($i = 1; $i <= 45; $i++) {
             // غیرفعال کردن دکمه‌های رادیویی حین ارسال درخواست
             $('input[name="bulk_action"]').prop('disabled', true);
 
-            // ارسال درخواست به سرور
-            $.ajax({
-                type: 'POST',
-                url: "<?php echo site_url('web-service/team/sans_management.php') ?>",
-                data: {
-                    "type": actionType,
-                    "data": { "day_start_time": day_start_time, "product_id": product_id }
-                },
-                beforeSend: function() {
-                    // قفل کردن تقویم در زمان لود و نمایش اسکلتون
-                    $(`[data-datepicker="${day_start_time}"]`).attr('disabled', 'disabled');
-                    let out = "<div class='w-full h-29 skeleton rounded-xl'></div>".repeat(8);
-                    $("#sessionsContainer").html(out);
-                },
-                success: function(response) {
-                    // ساخت مجدد سانس‌ها پس از موفقیت (وضعیت و رنگ دکمه‌های رادیویی هم اتوماتیک آپدیت می‌شود)
-                    BuildSans(product_id, day_start_time);
-                    $(`[data-datepicker="${day_start_time}"]`).removeAttr('disabled');
-                },
-                error: function(xhr) {
-                    alert("خطایی در تغییر وضعیت گروهی رخ داد.");
-                    $('input[name="bulk_action"]').prop('disabled', false);
-                    BuildSans(product_id, day_start_time);
-                    $(`[data-datepicker="${day_start_time}"]`).removeAttr('disabled');
-                }
-            });
+            $(`[data-datepicker="${day_start_time}"]`).attr('disabled', 'disabled');
+            let out = "<div class='w-full h-29 skeleton rounded-xl'></div>".repeat(8);
+            $("#sessionsContainer").html(out);
+
+            const finishBulk = () => {
+                $('input[name="bulk_action"]').prop('disabled', false);
+                $(`[data-datepicker="${day_start_time}"]`).removeAttr('disabled');
+            };
+
+            if (window.__EZ_BOOT__?.sub_secret && window.ezBookingApi?.bulkToggleDay) {
+                window.ezBookingApi.bulkToggleDay(actionType, parseInt(product_id, 10), parseInt(day_start_time, 10))
+                    .then((response) => {
+                        if (response && response.success) {
+                            BuildSans(product_id, day_start_time);
+                        } else {
+                            alert((response && response.data && response.data.error) || 'خطایی در تغییر وضعیت گروهی رخ داد.');
+                            BuildSans(product_id, day_start_time);
+                        }
+                    })
+                    .catch(() => {
+                        alert('خطایی در تغییر وضعیت گروهی رخ داد.');
+                        BuildSans(product_id, day_start_time);
+                    })
+                    .finally(finishBulk);
+                return;
+            }
+
+            finishBulk();
+            alert('پیکربندی رزرو در دسترس نیست.');
         });
 
         // ... جستجوی بازی (بدون تغییر) ...

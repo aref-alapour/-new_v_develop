@@ -27,6 +27,7 @@ require_once $autoload;
 use EscapeZoom\Core\Infrastructure\Cache\CacheRepositoryFactory;
 use EscapeZoom\Core\Infrastructure\Config\SecretsLoader;
 use EscapeZoom\Core\Infrastructure\Database\CapsuleManager;
+use EscapeZoom\Core\Modules\AjaxGateway\Policy\ActionPolicy;
 
 $ok    = true;
 $lines = array();
@@ -39,6 +40,25 @@ if ( ! SecretsLoader::isLoaded() ) {
 } else {
 	$lines[] = 'Secrets: OK';
 }
+
+if ( function_exists( 'sodium_crypto_secretbox_open' ) ) {
+	$lines[] = 'Sodium: OK (extension)';
+} elseif ( function_exists( 'sodium_crypto_aead_aes256gcm_encrypt' ) ) {
+	$lines[] = 'Sodium: OK (compat)';
+} else {
+	$lines[] = 'FAIL: Sodium not available (ext or paragonie/sodium_compat)';
+	$ok      = false;
+}
+
+$policySmoke = ActionPolicy::authorize( 'booking.open_sans', 'web-anon' );
+$lines[]     = 'ActionPolicy smoke (anon+open_sans): ' . ( ActionPolicy::ERR_FORBIDDEN_ACTION === $policySmoke ? 'OK' : 'FAIL ' . (string) $policySmoke );
+if ( ActionPolicy::ERR_FORBIDDEN_ACTION !== $policySmoke ) {
+	$ok = false;
+}
+
+$lines[] = 'AES-GCM: ' . ( function_exists( 'sodium_crypto_aead_aes256gcm_encrypt' ) ? 'available' : 'unavailable (enable ext-sodium)' );
+$lines[] = 'Payload encrypt writes: ' . ( SecretsLoader::payloadEncryptWrites() ? 'on' : 'off' );
+$lines[] = 'Payload encrypt reads: ' . ( SecretsLoader::payloadEncryptReads() ? 'on' : 'off' );
 
 $ajaxConfigured = defined( 'EZ_AJAX_SHARED_SECRET' ) && '' !== (string) EZ_AJAX_SHARED_SECRET;
 $lines[]          = 'EZ_AJAX_SHARED_SECRET: ' . ( $ajaxConfigured ? 'configured' : 'MISSING' );

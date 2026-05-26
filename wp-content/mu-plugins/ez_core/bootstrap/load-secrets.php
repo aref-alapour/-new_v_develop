@@ -13,12 +13,7 @@ if ( is_readable( $autoload ) ) {
 	require_once $autoload;
 }
 
-if ( ! function_exists( 'sodium_crypto_secretbox_open' ) ) {
-	$sodiumCompat = dirname( EZ_CORE_PATH, 2 ) . '/plugins/wordfence/crypto/vendor/paragonie/sodium_compat/autoload.php';
-	if ( is_readable( $sodiumCompat ) ) {
-		require_once $sodiumCompat;
-	}
-}
+require __DIR__ . '/sodium.php';
 
 use EscapeZoom\Core\Infrastructure\Config\SecretsLoader;
 
@@ -47,6 +42,14 @@ if ( $secretsOk ) {
 
 	if ( ! defined( 'EZ_BOOKING_NATIVE_SANSES' ) ) {
 		define( 'EZ_BOOKING_NATIVE_SANSES', SecretsLoader::bookingNativeSanses() );
+	}
+
+	if ( ! defined( 'EZ_GATEWAY_ENCRYPT_WRITES' ) ) {
+		define( 'EZ_GATEWAY_ENCRYPT_WRITES', SecretsLoader::payloadEncryptWrites() );
+	}
+
+	if ( ! defined( 'EZ_GATEWAY_ENCRYPT_READS' ) ) {
+		define( 'EZ_GATEWAY_ENCRYPT_READS', SecretsLoader::payloadEncryptReads() );
 	}
 }
 

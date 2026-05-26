@@ -69,13 +69,15 @@ function ez_ajax_boot_data(): array {
 	}
 
 	$boot = [
-		'kid'         => $kid,
-		'client_id'   => $client_id,
-		'client_kind' => $client_kind,
-		'sub_secret'  => $sub_secret,
-		'expires_at'  => $expires_at,
-		'ajax_url'    => home_url( '/ajax' ),
-		'timestamp'   => time(),
+		'kid'            => $kid,
+		'client_id'      => $client_id,
+		'client_kind'    => $client_kind,
+		'sub_secret'     => $sub_secret,
+		'expires_at'     => $expires_at,
+		'ajax_url'       => home_url( '/ajax' ),
+		'timestamp'      => time(),
+		'encrypt_writes' => defined( 'EZ_GATEWAY_ENCRYPT_WRITES' ) && EZ_GATEWAY_ENCRYPT_WRITES,
+		'encrypt_reads'  => defined( 'EZ_GATEWAY_ENCRYPT_READS' ) && EZ_GATEWAY_ENCRYPT_READS,
 	];
 
 	return apply_filters( 'ez_ajax_boot_data', $boot );

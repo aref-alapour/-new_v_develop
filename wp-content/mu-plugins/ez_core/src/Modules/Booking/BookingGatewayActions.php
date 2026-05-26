@@ -20,6 +20,8 @@ final class BookingGatewayActions
 		ActionRegistry::register( 'booking.sans_management_web', array( self::class, 'sansManagementWeb' ) );
 		ActionRegistry::register( 'booking.open_sans', array( self::class, 'openSans' ) );
 		ActionRegistry::register( 'booking.close_sans', array( self::class, 'closeSans' ) );
+		ActionRegistry::register( 'booking.open_all_sanses', array( self::class, 'openAllSanses' ) );
+		ActionRegistry::register( 'booking.close_all_sanses', array( self::class, 'closeAllSanses' ) );
 	}
 
 	/**
@@ -146,6 +148,49 @@ final class BookingGatewayActions
 	 */
 	public static function closeSans( array $body ): void {
 		self::dispatchJsonSansAction( 'close_sans', $body );
+	}
+
+	/**
+	 * @param array<string,mixed> $body
+	 */
+	public static function openAllSanses( array $body ): void {
+		self::dispatchBulkDayAction( 'open_all_sanses', $body );
+	}
+
+	/**
+	 * @param array<string,mixed> $body
+	 */
+	public static function closeAllSanses( array $body ): void {
+		self::dispatchBulkDayAction( 'close_all_sanses', $body );
+	}
+
+	/**
+	 * @param array<string,mixed> $body
+	 */
+	private static function dispatchBulkDayAction( string $type, array $body ): void {
+		$productId    = isset( $body['product_id'] ) ? (int) $body['product_id'] : 0;
+		$dayStartTime = isset( $body['day_start_time'] ) ? (int) $body['day_start_time'] : 0;
+
+		if ( $productId <= 0 || $dayStartTime <= 0 ) {
+			GatewayResponse::json( false, array(), array( 'code' => 'VALIDATION', 'message' => 'Invalid product or day' ), 400 );
+		}
+
+		$userId = function_exists( 'get_current_user_id' ) ? (int) get_current_user_id() : 0;
+
+		$raw = BookingDispatchService::dispatchType(
+			$type,
+			array(
+				'product_id'     => $productId,
+				'day_start_time' => $dayStartTime,
+				'user_id'        => $userId,
+			)
+		);
+
+		if ( '' === trim( (string) $raw ) ) {
+			GatewayResponse::json( false, array(), array( 'code' => 'DISPATCH', 'message' => 'Empty response' ), 500 );
+		}
+
+		GatewayResponse::raw( (string) $raw );
 	}
 
 	/**

@@ -25,7 +25,12 @@ if ( false === $keyEnv || '' === $keyEnv ) {
 	exit( 1 );
 }
 
+if ( ! defined( 'EZ_CORE_PATH' ) ) {
+	define( 'EZ_CORE_PATH', $corePath );
+}
+
 require $corePath . '/vendor/autoload.php';
+require $corePath . '/bootstrap/sodium.php';
 
 use EscapeZoom\Core\Infrastructure\Config\SecretsLoader;
 

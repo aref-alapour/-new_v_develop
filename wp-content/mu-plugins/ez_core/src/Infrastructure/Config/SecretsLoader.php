@@ -161,6 +161,18 @@ final class SecretsLoader
 		return filter_var( $val, FILTER_VALIDATE_BOOLEAN );
 	}
 
+	public static function payloadEncryptWrites(): bool {
+		$val = self::get( 'gateway.payload_encrypt_writes', false );
+
+		return filter_var( $val, FILTER_VALIDATE_BOOLEAN );
+	}
+
+	public static function payloadEncryptReads(): bool {
+		$val = self::get( 'gateway.payload_encrypt_reads', false );
+
+		return filter_var( $val, FILTER_VALIDATE_BOOLEAN );
+	}
+
 	/**
 	 * Rate limit config for a gateway action (secrets override + defaults).
 	 *

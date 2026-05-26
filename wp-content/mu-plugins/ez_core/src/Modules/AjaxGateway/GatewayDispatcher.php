@@ -7,6 +7,7 @@ namespace EscapeZoom\Core\Modules\AjaxGateway;
 use EscapeZoom\Core\Modules\AjaxGateway\Auth\NonceStore;
 use EscapeZoom\Core\Modules\AjaxGateway\Auth\RateLimiter;
 use EscapeZoom\Core\Modules\AjaxGateway\Auth\SignatureVerifier;
+use EscapeZoom\Core\Modules\AjaxGateway\Crypto\PayloadCipher;
 use EscapeZoom\Core\Modules\AjaxGateway\Exception\GatewayAuthException;
 use EscapeZoom\Core\Modules\AjaxGateway\Policy\ActionClassification;
 use EscapeZoom\Core\Modules\AjaxGateway\Policy\ActionPolicy;
@@ -33,8 +34,13 @@ final class GatewayDispatcher
 
 		$raw     = file_get_contents( 'php://input' );
 		$body    = is_string( $raw ) ? $raw : '';
-		$json    = json_decode( $body, true );
-		$payload = is_array( $json ) ? $json : array();
+		$payload = array();
+		if ( '' !== $body && ! PayloadCipher::isEnvelope( $body ) ) {
+			$json = json_decode( $body, true );
+			if ( is_array( $json ) ) {
+				$payload = $json;
+			}
+		}
 
 		$action = '';
 		if ( isset( $_GET['action'] ) ) {
@@ -81,6 +87,27 @@ final class GatewayDispatcher
 		$nonce = $headers['x-ez-nonce'] ?? '';
 		if ( ! NonceStore::consume( $clientId, $nonce ) ) {
 			GatewayResponse::json( false, array(), array( 'code' => 'REPLAY', 'message' => 'Nonce already used' ), 401 );
+		}
+
+		if ( PayloadCipher::encryptionRequiredFor( $action ) ) {
+			if ( ! PayloadCipher::isEnvelope( $body ) ) {
+				GatewayResponse::json( false, array(), array( 'code' => 'ENCRYPTION_REQUIRED', 'message' => 'Encrypted body required' ), 400 );
+			}
+			try {
+				$plain   = PayloadCipher::decrypt( $body, $subSecret );
+				$decoded = json_decode( $plain, true );
+				$payload = is_array( $decoded ) ? $decoded : array();
+			} catch ( \Throwable $e ) {
+				GatewayResponse::json( false, array(), array( 'code' => 'BAD_PAYLOAD', 'message' => 'Decrypt failed' ), 400 );
+			}
+		} elseif ( PayloadCipher::isEnvelope( $body ) ) {
+			try {
+				$plain   = PayloadCipher::decrypt( $body, $subSecret );
+				$decoded = json_decode( $plain, true );
+				$payload = is_array( $decoded ) ? $decoded : array();
+			} catch ( \Throwable $e ) {
+				GatewayResponse::json( false, array(), array( 'code' => 'BAD_PAYLOAD', 'message' => 'Decrypt failed' ), 400 );
+			}
 		}
 
 		$policyErr = ActionPolicy::authorize( $action, $clientKind );

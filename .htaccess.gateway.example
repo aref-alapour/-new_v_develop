@@ -1,0 +1,9 @@
+# Example fragment — copy into WordPress root .htaccess (before WP rewrite block).
+# See docs/project/ops/apache-ajax-light.conf and booking-dev-db.md §7.
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{REQUEST_METHOD} POST
+RewriteCond %{HTTP:X-EZ-Action} ^booking\.sans_day_json$ [NC]
+RewriteRule ^ajax/?$ ez-ajax.php [L]
+</IfModule>

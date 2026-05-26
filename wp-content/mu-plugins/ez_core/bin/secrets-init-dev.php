@@ -10,17 +10,12 @@ declare(strict_types=1);
 $corePath = dirname( __DIR__ );
 $repoRoot = dirname( $corePath, 3 );
 
-$sodiumCompat = $repoRoot . '/wp-content/plugins/wordfence/crypto/vendor/paragonie/sodium_compat/autoload.php';
-if ( ! function_exists( 'sodium_crypto_secretbox_keygen' ) && is_readable( $sodiumCompat ) ) {
-	require_once $sodiumCompat;
-}
-
-if ( ! function_exists( 'sodium_crypto_secretbox_keygen' ) ) {
-	fwrite( STDERR, "PHP sodium extension or sodium_compat required.\n" );
-	exit( 1 );
+if ( ! defined( 'EZ_CORE_PATH' ) ) {
+	define( 'EZ_CORE_PATH', $corePath );
 }
 
 require $corePath . '/vendor/autoload.php';
+require $corePath . '/bootstrap/sodium.php';
 
 use EscapeZoom\Core\Infrastructure\Config\SecretsLoader;
 
@@ -50,8 +45,10 @@ $plain = array(
 	'gateway'    => array(
 		'ajax_shared_secret'    => $ajaxSecret,
 		'booking_use_internal'  => true,
-		'booking_native_sanses' => true,
-		'rate_limits'           => array(
+		'booking_native_sanses'     => true,
+		'payload_encrypt_writes'  => false,
+		'payload_encrypt_reads'   => false,
+		'rate_limits'             => array(
 			'booking.sans_day_json' => array(
 				'per_ip'         => 120,
 				'per_client'     => 60,

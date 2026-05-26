@@ -116,6 +116,8 @@ Calendar day clicks on single-product use `booking.sans_day_json`. Those request
 - `POST /ajax`
 - Header `X-EZ-Action: booking.sans_day_json`
 
+Versioned example: [`apache-ajax-light.conf`](./apache-ajax-light.conf) or repo root [`.htaccess.gateway.example`](../../../.htaccess.gateway.example).
+
 `.htaccess` rule (before WordPress catch-all):
 
 ```apache

@@ -132,6 +132,33 @@ export async function sansManagementWeb(productId, dayStart) {
  * @param {number} productId
  * @param {number} sansTime
  */
+/**
+ * Open or close all manageable sanses for one day (sans-manager bulk buttons).
+ *
+ * @param {'open_all_sanses'|'close_all_sanses'} actionType
+ * @param {number} productId
+ * @param {number} dayStart unix day start
+ * @returns {Promise<{success: boolean, data?: unknown}>}
+ */
+export async function bulkToggleDay(actionType, productId, dayStart) {
+  const action =
+    actionType === 'open_all_sanses'
+      ? 'booking.open_all_sanses'
+      : 'booking.close_all_sanses';
+
+  const resp = await ezFetch(action, {
+    product_id: parseInt(productId, 10),
+    day_start_time: parseInt(dayStart, 10),
+  });
+
+  const text = await resp.text();
+  try {
+    return JSON.parse(text);
+  } catch {
+    throw new Error(`bulk day action HTTP ${resp.status}`);
+  }
+}
+
 export async function toggleSans(kind, productId, sansTime) {
   toggleSansController = replaceController(
     toggleSansController,
