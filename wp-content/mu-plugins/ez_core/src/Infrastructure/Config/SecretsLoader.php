@@ -138,15 +138,41 @@ final class SecretsLoader
 		return (string) self::get( 'gateway.ajax_shared_secret', '' );
 	}
 
+	public static function encFilePath(): string {
+		$corePath = defined( 'EZ_CORE_PATH' ) ? EZ_CORE_PATH : dirname( __DIR__, 3 );
+
+		return $corePath . self::ENC_FILE;
+	}
+
 	/**
 	 * Master AJAX signing secret from secrets.enc (empty if not configured).
 	 */
 	public static function resolveAjaxSharedSecret(): string {
 		if ( ! self::boot() ) {
+			self::debugLog(
+				'resolveAjaxSharedSecret: boot failed',
+				array(
+					'boot_error' => self::getBootError(),
+					'enc_path'   => self::encFilePath(),
+					'is_loaded'  => self::isLoaded(),
+				)
+			);
+
 			return '';
 		}
 
-		return self::ajaxSharedSecret();
+		$secret = self::ajaxSharedSecret();
+		if ( '' === $secret ) {
+			self::debugLog(
+				'resolveAjaxSharedSecret: gateway.ajax_shared_secret empty',
+				array(
+					'enc_path'  => self::encFilePath(),
+					'is_loaded' => self::isLoaded(),
+				)
+			);
+		}
+
+		return $secret;
 	}
 
 	public static function bookingUseInternal(): bool {
@@ -389,5 +415,35 @@ final class SecretsLoader
 		}
 
 		return $key;
+	}
+
+	private static function debugLoggingEnabled(): bool {
+		if ( defined( 'EZ_DEBUG_GATEWAY_BOOT' ) && EZ_DEBUG_GATEWAY_BOOT ) {
+			return true;
+		}
+
+		return defined( 'WP_DEBUG' ) && WP_DEBUG && defined( 'WP_DEBUG_LOG' ) && WP_DEBUG_LOG;
+	}
+
+	/**
+	 * @param array<string, mixed> $context
+	 */
+	private static function debugLog( string $message, array $context = array() ): void {
+		if ( ! self::debugLoggingEnabled() ) {
+			return;
+		}
+
+		$line = '[EZ Core DEBUG] ' . $message;
+		if ( array() !== $context ) {
+			$encoded = function_exists( 'wp_json_encode' )
+				? wp_json_encode( $context, JSON_UNESCAPED_SLASHES )
+				: json_encode( $context, JSON_UNESCAPED_SLASHES );
+			if ( is_string( $encoded ) && '' !== $encoded ) {
+				$line .= ' ' . $encoded;
+			}
+		}
+
+		// phpcs:ignore WordPress.PHP.DevelopmentFunctions.error_log_error_log
+		error_log( $line );
 	}
 }

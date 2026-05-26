@@ -1247,6 +1247,22 @@ jQuery(document).ready(function ($) {
         return parseInt(fallback, 10) || 0;
     };
 
+    const ensureEzAjaxBoot = () => {
+        if (window.__EZ_BOOT__?.sub_secret) {
+            return window.__EZ_BOOT__;
+        }
+        if (
+            typeof ezAjaxBoot !== 'undefined' &&
+            ezAjaxBoot &&
+            typeof ezAjaxBoot === 'object' &&
+            ezAjaxBoot.sub_secret
+        ) {
+            window.__EZ_BOOT__ = ezAjaxBoot;
+            return window.__EZ_BOOT__;
+        }
+        return null;
+    };
+
     const logBuildSansGateFailure = () => {
         if (!window.__EZ_BOOT__) {
             console.error(
@@ -1279,6 +1295,18 @@ jQuery(document).ready(function ($) {
         }
 
         showSansLoading();
+
+        ensureEzAjaxBoot();
+
+        console.groupCollapsed('[EZ Booking DEBUG] BuildSans', { productId, dayStart });
+        console.log('__EZ_BOOT__', window.__EZ_BOOT__);
+        console.log('ezBookingApi', window.ezBookingApi);
+        console.log('sansDayJson', typeof window.ezBookingApi?.sansDayJson);
+        console.log(
+            'gate_pass',
+            !!(window.__EZ_BOOT__?.sub_secret && window.ezBookingApi?.sansDayJson)
+        );
+        console.groupEnd();
 
         if (window.__EZ_BOOT__?.sub_secret && window.ezBookingApi?.sansDayJson) {
             window.ezBookingApi.sansDayJson(productId, dayStart)

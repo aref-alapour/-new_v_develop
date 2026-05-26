@@ -8,9 +8,9 @@ import {
 } from '../lib/ez-booking-client.js';
 import { ensureBookingGatewayPagesInit } from '../lib/ez-booking-pages.js';
 
-function applyEzAjaxBoot() {
+export function applyEzAjaxBoot() {
   if (typeof window === 'undefined' || window.__EZ_BOOT__) {
-    return;
+    return window.__EZ_BOOT__ || null;
   }
   const localized =
     typeof ezAjaxBoot !== 'undefined' && ezAjaxBoot && typeof ezAjaxBoot === 'object'
@@ -19,6 +19,7 @@ function applyEzAjaxBoot() {
   if (localized) {
     window.__EZ_BOOT__ = localized;
   }
+  return window.__EZ_BOOT__ || null;
 }
 
 if (typeof window !== 'undefined') {
