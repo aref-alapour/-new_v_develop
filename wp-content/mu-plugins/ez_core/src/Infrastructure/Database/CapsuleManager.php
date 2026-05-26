@@ -64,22 +64,27 @@ final class CapsuleManager
 			'wordpress'
 		);
 
-		if ( defined( 'DB_EXT_NAME' ) && defined( 'DB_EXT_USER' ) && defined( 'DB_EXT_PASSWORD' ) ) {
-			self::$capsule->addConnection(
-				array(
-					'driver'    => 'mysql',
-					'host'      => defined( 'DB_EXT_HOST' ) ? DB_EXT_HOST : DB_HOST,
-					'database'  => DB_EXT_NAME,
-					'username'  => DB_EXT_USER,
-					'password'  => DB_EXT_PASSWORD,
-					'charset'   => $charset,
-					'collation' => $collation,
-					'prefix'    => '',
-					'strict'    => false,
-					'engine'    => null,
-				),
-				'external'
+		$extConfig = self::resolveExternalConfig();
+		if ( null !== $extConfig ) {
+			$connection = array(
+				'driver'    => 'mysql',
+				'host'      => $extConfig['host'],
+				'database'  => $extConfig['database'],
+				'username'  => $extConfig['username'],
+				'password'  => $extConfig['password'],
+				'charset'   => $charset,
+				'collation' => $collation,
+				'prefix'    => '',
+				'strict'    => false,
+				'engine'    => null,
 			);
+			if ( isset( $extConfig['port'] ) && null !== $extConfig['port'] ) {
+				$connection['port'] = $extConfig['port'];
+			}
+			if ( isset( $extConfig['unix_socket'] ) && null !== $extConfig['unix_socket'] ) {
+				$connection['unix_socket'] = $extConfig['unix_socket'];
+			}
+			self::$capsule->addConnection( $connection, 'external' );
 		}
 
 		self::$capsule->setEventDispatcher( new Dispatcher( new Container() ) );
@@ -111,5 +116,85 @@ final class CapsuleManager
 
 	public static function isBooted(): bool {
 		return self::$booted;
+	}
+
+	public static function hasExternalConnection(): bool {
+		if ( ! self::$booted ) {
+			self::boot();
+		}
+		if ( null === self::$capsule ) {
+			return false;
+		}
+
+		try {
+			self::$capsule->getConnection( 'external' )->getPdo();
+
+			return true;
+		} catch ( \Throwable $e ) {
+			return false;
+		}
+	}
+
+	/**
+	 * wp-config constants or Docker WORDPRESS_DB_EXT_* (same as web-service/db-connect.php).
+	 *
+	 * @return array{host: string, database: string, username: string, password: string}|null
+	 */
+	private static function resolveExternalConfig(): ?array {
+		$raw = null;
+		if ( defined( 'DB_EXT_NAME' ) && defined( 'DB_EXT_USER' ) && defined( 'DB_EXT_PASSWORD' ) ) {
+			$raw = array(
+				'host'     => defined( 'DB_EXT_HOST' ) ? DB_EXT_HOST : DB_HOST,
+				'database' => DB_EXT_NAME,
+				'username' => DB_EXT_USER,
+				'password' => DB_EXT_PASSWORD,
+			);
+		} else {
+			$database = getenv( 'WORDPRESS_DB_EXT_NAME' ) ?: getenv( 'DB_EXT_NAME' );
+			$username = getenv( 'WORDPRESS_DB_EXT_USER' ) ?: getenv( 'DB_EXT_USER' );
+			$password = getenv( 'WORDPRESS_DB_EXT_PASSWORD' ) ?: getenv( 'DB_EXT_PASSWORD' );
+			if ( ! $database || ! $username || false === $password ) {
+				return null;
+			}
+
+			$host = getenv( 'WORDPRESS_DB_EXT_HOST' ) ?: getenv( 'WORDPRESS_DB_HOST' );
+			if ( ! $host && defined( 'DB_HOST' ) ) {
+				$host = DB_HOST;
+			}
+			if ( ! $host ) {
+				$host = 'mysql';
+			}
+
+			$raw = array(
+				'host'     => (string) $host,
+				'database' => (string) $database,
+				'username' => (string) $username,
+				'password' => (string) $password,
+			);
+		}
+
+		return self::applyHostParse( $raw );
+	}
+
+	/**
+	 * @param array{host: string, database: string, username: string, password: string} $raw
+	 * @return array{host: string, database: string, username: string, password: string, port?: int, unix_socket?: string}
+	 */
+	private static function applyHostParse( array $raw ): array {
+		$parsed = MysqlHost::parse( (string) $raw['host'] );
+		$out    = array(
+			'host'     => $parsed['host'],
+			'database' => $raw['database'],
+			'username' => $raw['username'],
+			'password' => $raw['password'],
+		);
+		if ( null !== $parsed['port'] ) {
+			$out['port'] = $parsed['port'];
+		}
+		if ( null !== $parsed['socket'] ) {
+			$out['unix_socket'] = $parsed['socket'];
+		}
+
+		return $out;
 	}
 }

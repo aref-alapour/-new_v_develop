@@ -59,4 +59,45 @@ class ProductData extends Model
 
 		return $decoded;
 	}
+
+	/**
+	 * Legacy unserialized discount_data object.
+	 */
+	public function getDiscountObject(): ?object {
+		$raw = $this->getAttribute( 'discount_data' );
+		if ( empty( $raw ) ) {
+			return null;
+		}
+		$decoded = @unserialize( (string) $raw );
+
+		return is_object( $decoded ) ? $decoded : null;
+	}
+
+	/**
+	 * @return array<string, mixed>|object|null
+	 */
+	public function getInstantOffDecoded(): array|object|null {
+		$raw = $this->getAttribute( 'instant_off' );
+		if ( empty( $raw ) ) {
+			return null;
+		}
+		$decoded = @unserialize( (string) $raw );
+
+		return ( is_object( $decoded ) || is_array( $decoded ) ) ? $decoded : null;
+	}
+
+	/**
+	 * Schedule as legacy get_sanses(): json_decode(json_encode(unserialize)).
+	 *
+	 * @return array<string, mixed>
+	 */
+	public function getScheduleForSans(): array {
+		$decoded = $this->getScheduleDecoded();
+		if ( array() === $decoded ) {
+			return array();
+		}
+		$normalized = json_decode( json_encode( $decoded ), true );
+
+		return is_array( $normalized ) ? $normalized : array();
+	}
 }

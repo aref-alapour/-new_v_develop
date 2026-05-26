@@ -42,4 +42,5 @@ Complements Rule 01 (zero-downtime) and Rule 02 (core stack). During transition,
 ## Feature flags (booking example)
 
 - `EZ_BOOKING_USE_INTERNAL` — dispatch without HTTP loopback.
-- `EZ_BOOKING_READ_ELOQUENT` (future) — read sans via Eloquent service instead of `LegacySansAdapter`.
+- `EZ_BOOKING_NATIVE_SANSES` — read sans via `SansAvailabilityService` (Eloquent) instead of `LegacySansAdapter`.
+- `EZ_BOOKING_READ_ELOQUENT` — **alias** (document only) for the same flag as `EZ_BOOKING_NATIVE_SANSES`; do not define both with conflicting values.

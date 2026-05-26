@@ -26,6 +26,10 @@ final class GatewayRouter
 			return;
 		}
 
+		while ( ob_get_level() > 0 ) {
+			ob_end_clean();
+		}
+
 		if ( ( $_SERVER['REQUEST_METHOD'] ?? '' ) !== 'POST' ) {
 			GatewayResponse::json( false, array(), array( 'code' => 'METHOD_NOT_ALLOWED', 'message' => 'POST only' ), 405 );
 		}

@@ -6,6 +6,7 @@ defined( 'ABSPATH' ) || exit;
 
 require_once __DIR__ . '/ez-ajax-boot-data.php';
 require_once __DIR__ . '/ez-ajax-sub-secret-rules.php';
+require_once __DIR__ . '/booking-reserve-week.php';
 
 /**
  * Gateway available when shared secret + ez_core booted.

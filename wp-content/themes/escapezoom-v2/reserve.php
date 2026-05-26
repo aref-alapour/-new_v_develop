@@ -296,7 +296,7 @@ wp_enqueue_script('persian-date');
 
 </div>
 
-<div id="table-of-sans" class="mb-7" data-product-id="<?php echo esc_attr( (string) $id ); ?>" data-day-start="<?php echo esc_attr( (string) $startOfDay ); ?>"></div>
+<div id="table-of-sans" class="mb-7" data-product-id="<?php echo esc_attr( (string) $id ); ?>" data-day-start="<?php echo esc_attr( (string) $startOfDay ); ?>" data-ajax-url="<?php echo esc_url( admin_url( 'admin-ajax.php' ) ); ?>" data-ajax-nonce="<?php echo esc_attr( wp_create_nonce( 'v2-ajax-nonce' ) ); ?>"></div>
 
 <script>
     jQuery(document).ready(function($) {
@@ -329,7 +329,29 @@ wp_enqueue_script('persian-date');
         }
 
         const BuildTable = (time) => {
+            const root = document.getElementById('table-of-sans');
+            const productId = parseInt(root?.dataset?.productId || '0', 10);
+            const dayStart = parseInt(time, 10);
+            if (root && productId > 0 && dayStart > 0) {
+                root.dataset.dayStart = String(dayStart);
+            }
             if (window.__EZ_BOOT__?.sub_secret && window.ezBookingApi?.sansWeekHtml) {
+                if (productId > 0 && dayStart > 0) {
+                    if (typeof window.ezBookingLoadWeek === 'function') {
+                        window.ezBookingLoadWeek(productId, dayStart);
+                    } else {
+                        const skeleton =
+                            "<div class='grid gap-3' style='grid-template-columns: repeat(7, minmax(0, 1fr))'>" +
+                            '<div class="skeleton aspect-square rounded-xl"></div>'.repeat(7 * 4) +
+                            '</div>';
+                        root.innerHTML = skeleton;
+                        window.ezBookingApi.sansWeekHtml(productId, dayStart).then(function (html) {
+                            root.innerHTML = html;
+                        }).catch(function (e) {
+                            console.error('[ez-booking] sans_week failed', e);
+                        });
+                    }
+                }
                 return;
             }
             console.log(time);

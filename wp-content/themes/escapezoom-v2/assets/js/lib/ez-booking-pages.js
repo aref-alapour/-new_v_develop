@@ -3,7 +3,11 @@
  */
 import * as ezBookingApi from './ez-booking-api.js';
 
-async function loadReserveWeekTable(productId, dayStart) {
+/**
+ * @param {number} productId
+ * @param {number} dayStart
+ */
+export async function loadReserveWeekTable(productId, dayStart) {
   const root = document.getElementById('table-of-sans');
   if (!root || !productId || !dayStart) {
     return;
@@ -14,9 +18,14 @@ async function loadReserveWeekTable(productId, dayStart) {
     '</div>';
   root.innerHTML = skeleton;
   try {
-    root.innerHTML = await ezBookingApi.sansWeekHtml(productId, dayStart);
-    if (window.htmx?.process) {
-      window.htmx.process(root);
+    const html = await ezBookingApi.sansWeekHtml(productId, dayStart);
+    if (html && typeof html === 'string' && !html.trim().startsWith('[')) {
+      root.innerHTML = html;
+      if (window.htmx?.process) {
+        window.htmx.process(root);
+      }
+    } else {
+      console.error('[ez-booking] sans_week returned non-HTML payload');
     }
   } catch (e) {
     console.error('[ez-booking] sans_week failed', e);
@@ -52,6 +61,7 @@ export function initBookingGatewayPages() {
     return;
   }
   if (document.getElementById('table-of-sans')) {
+    window.ezBookingLoadWeek = loadReserveWeekTable;
     bindReserveWeekTable();
   }
 }

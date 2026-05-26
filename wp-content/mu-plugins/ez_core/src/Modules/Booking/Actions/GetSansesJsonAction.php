@@ -25,7 +25,23 @@ final class GetSansesJsonAction
 		}
 
 		$service = new BookingService();
+		$result  = $service->getSanses( $productId, $dayStartTime, $days );
 
-		return $service->getSanses( $productId, $dayStartTime, $days );
+		if ( ! is_array( $result ) || array() === $result ) {
+			return array();
+		}
+
+		// days=1 must be flat [{ time, status, ... }]; days>1 stays nested by day index.
+		if ( 1 !== $days ) {
+			return $result;
+		}
+
+		if ( isset( $result[0] ) && is_array( $result[0] ) && ! isset( $result[0]['time'] ) ) {
+			$first = $result[0];
+
+			return is_array( $first ) ? $first : array();
+		}
+
+		return $result;
 	}
 }

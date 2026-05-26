@@ -153,7 +153,10 @@ require_once Theme_PATH . 'inc/shop/booking/reservation-bridge.php';
 require_once Theme_PATH . 'inc/theme/constants-uri.php';
 require_once Theme_PATH . 'inc/theme/booking-gateway-theme.php';
 if ( ! defined( 'EZ_BOOKING_USE_INTERNAL' ) ) {
-	define( 'EZ_BOOKING_USE_INTERNAL', (bool) apply_filters( 'ez_booking_use_internal', false ) );
+	define( 'EZ_BOOKING_USE_INTERNAL', (bool) apply_filters( 'ez_booking_use_internal', true ) );
+}
+if ( ! defined( 'EZ_BOOKING_NATIVE_SANSES' ) ) {
+	define( 'EZ_BOOKING_NATIVE_SANSES', (bool) apply_filters( 'ez_booking_native_sanses', false ) );
 }
 include get_template_directory() . '/inc/saeed-codes.php';
 include get_template_directory() . '/template/admin/admin-settings.php';

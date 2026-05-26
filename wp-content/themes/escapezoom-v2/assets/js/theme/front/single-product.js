@@ -1201,10 +1201,13 @@ jQuery(document).ready(function ($) {
         }
         let reservable_count = 0;
         res.forEach((item) => {
-            if (item.status === 'reservable') {
+            if (item && item.status === 'reservable') {
                 reservable_count += 1;
             }
         });
+        if (res.length > 0 && reservable_count === 0) {
+            console.warn('[EZ Booking] Sessions returned but none reservable:', res.map((i) => i && i.status));
+        }
         if (reservable_count > 0) {
             const infoHTML = `<h2 class="text-xs text-blue">${reservable_count} سانس قابل رزرو</h2>`;
             $("#sessions-info-desktop").html(infoHTML);
@@ -1245,6 +1248,9 @@ jQuery(document).ready(function ($) {
                     }
                 })
                 .catch(function (err) {
+                    if (err && err.name === 'AbortError') {
+                        return;
+                    }
                     console.error('[EZ Booking] Gateway error:', err);
                     showSansGatewayError();
                 });

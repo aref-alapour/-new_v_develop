@@ -4,7 +4,10 @@
 |-----------|---------|-----|
 | `GatewayRouter` | Front Controller | Single HTTP entry (`POST /ajax`) |
 | `GetSansesJsonAction`, `BookingGatewayActions::*` | Command / Action | One use-case per handler |
-| `LegacySansAdapter` | Adapter (temporary) | Bridge to `web-service` handlers until P4 |
+| `LegacySansAdapter` | Adapter (temporary) | Bridge to `web-service` handlers when `EZ_BOOKING_NATIVE_SANSES` is off |
+| `SansAvailabilityService` | Application Service | Native `get_sanses` (Eloquent, no reservation bootstrap) |
+| `SansAvailabilityCalculator` | Strategy / Facade | Chooses native vs legacy by feature flag |
+| `DayTypeResolver`, `DaySlotBuilder`, `SansStatusResolver`, `SansPricingResolver` | Domain services | Ported rules from `reservation-handlers.inc.php` |
 | `BookingService` | Application Service | Orchestration, caching, domain API |
 | `*Repository` (Eloquent / mysqli) | Repository | Persistence separated from business rules |
 | `ProductData`, `BookingHistory`, `BookingLock` | Active Record (Eloquent) | Table mapping |

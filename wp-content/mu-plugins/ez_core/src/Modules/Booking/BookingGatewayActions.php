@@ -69,6 +69,8 @@ final class BookingGatewayActions
 			GatewayResponse::raw( '[]' );
 		}
 
+		GatewayResponse::bookingPathHeader();
+
 		$result = ( new GetSansesJsonAction() )->handle( $body );
 
 		GatewayResponse::raw( wp_json_encode( $result, JSON_UNESCAPED_UNICODE ) ?: '[]' );
@@ -85,16 +87,27 @@ final class BookingGatewayActions
 			GatewayResponse::json( false, array(), array( 'code' => 'VALIDATION', 'message' => 'Invalid product or day' ), 400 );
 		}
 
-		$days = BookingAvailabilityService::getSanses( $productId, $dayStartTime, 7 );
+		GatewayResponse::bookingPathHeader();
 
-		$html = self::renderPartial(
-			'sans-week',
-			array(
-				'product_id'     => $productId,
-				'day_start_time' => $dayStartTime,
-				'days'           => is_array( $days ) ? $days : array(),
-			)
-		);
+		if ( ! function_exists( 'ez_render_reserve_week_table' ) ) {
+			$weekHelper = function_exists( 'get_template_directory' )
+				? get_template_directory() . '/inc/theme/booking-reserve-week.php'
+				: '';
+			if ( '' !== $weekHelper && is_readable( $weekHelper ) ) {
+				require_once $weekHelper;
+			}
+		}
+
+		$html = function_exists( 'ez_render_reserve_week_table' )
+			? ez_render_reserve_week_table( $productId, $dayStartTime )
+			: '';
+
+		$trim = ltrim( (string) $html );
+		if ( '' === $trim || str_starts_with( $trim, '[' ) || str_starts_with( $trim, '{' ) ) {
+			GatewayResponse::html(
+				'<p class="text-red-600 p-4">خطا در نمایش سانس‌ها. لطفاً صفحه را رفرش کنید.</p>'
+			);
+		}
 
 		GatewayResponse::html( $html );
 	}

@@ -153,17 +153,39 @@ Rollout playbook (when started): `escapezoom-core/docs/rollout/booking-cutover.m
 |---------|------|--------|
 | `POST /ajax` + HMAC | `single-product`, `reserve`, `sans-manager` when `EZ_AJAX_SHARED_SECRET` set | Boot: `inc/theme/ez-ajax-boot-data.php`; bundle: `dist/front.js` (Vite, Alpine+HTMX+ez-ajax) |
 | `booking.sans_day_json` | single-product calendar click | Raw JSON (legacy `get_sanses` shape); `BuildSans` → `ezBookingApi.sansDayJson` |
-| `ez_reservation()` internal | `EZ_BOOKING_USE_INTERNAL` or filter `ez_booking_use_internal` | No HTTP; uses `web-service/includes/reservation-dispatch.php` |
+| `booking.sans_week` | reserve.php week tabs | HTML partial; `days=7` via same `BookingService` |
+| Native sans read (P3) | `EZ_BOOKING_NATIVE_SANSES` | `SansAvailabilityService` + Eloquent (`external`); **no** `md-connect` / handlers |
+| `ez_reservation()` internal | `EZ_BOOKING_USE_INTERNAL` (legacy fallback) | `LegacySansAdapter` → `reservation-dispatch.php` when native flag off |
 | `web-service/reservation.php` | **Removed** | Block at nginx with `410` (see `docs/project/ops/nginx-reservation-deprecation.conf`) |
 
-### Flags (`wp-config.php`)
+### Flags (`wp-config.php` / Docker)
+
+[`wp-config-docker.php`](../../../wp-config-docker.php) defines `DB_EXT_*`, `EZ_BOOKING_USE_INTERNAL`, and `EZ_BOOKING_NATIVE_SANSES` from env. For custom wp-config, mirror:
 
 ```php
-define('EZ_AJAX_SHARED_SECRET', '…'); // required for /ajax boot + gateway
-define('EZ_BOOKING_USE_INTERNAL', true); // staging first; or filter ez_booking_use_internal
-// Vite front bundle (auto-on when dist/front.js + dist/front.css exist):
-define('EZ_USE_VITE_FRONT', true); // optional override; else filter ez_use_vite_front
+define('EZ_AJAX_SHARED_SECRET', '…');
+define('DB_EXT_NAME', 'escapezo_queries');
+define('DB_EXT_HOST', 'mysql');
+define('DB_EXT_USER', '…');
+define('DB_EXT_PASSWORD', '…'); // same as DB_PASSWORD in dev
+define('EZ_BOOKING_USE_INTERNAL', true);
+define('EZ_BOOKING_NATIVE_SANSES', true); // after parity OK
 ```
+
+Docker env: see [`.env.example`](../../../.env.example) (`WORDPRESS_DB_EXT_*`).
+
+### Dev setup checklist
+
+Full steps: [`docs/project/ops/booking-dev-db.md`](../ops/booking-dev-db.md)
+
+```bash
+php wp-content/mu-plugins/ez_core/bin/booking-db-health.php
+php wp-content/mu-plugins/ez_core/bin/compare-sans-parity.php 692762 <day_start_unix> 1
+```
+
+Gateway dev header (when `WP_DEBUG`): `X-EZ-Booking-Path: native|legacy`.
+
+**Symptom `[]`:** run health script; import `escapezo_queries` if empty; align `WORDPRESS_DB_EXT_PASSWORD` with WordPress DB password.
 
 **Theme build (escapezoom-v2):**
 
@@ -174,7 +196,13 @@ npm run build   # dist/front.css + dist/front.js
 npm run dev     # watch CSS + JS (like v3)
 ```
 
-**Core classes:** `ez_core/src/Modules/Booking/Services/BookingService.php`, `Infrastructure/LegacySansAdapter.php`, `Actions/GetSansesJsonAction.php`, gateway handler `booking.sans_day_json`.
+**Core classes:** `BookingService.php`, `SansAvailabilityService.php`, `SansAvailabilityCalculator.php`, `Infrastructure/LegacySansAdapter.php`, `Actions/GetSansesJsonAction.php`, domain `DayTypeResolver`, `DaySlotBuilder`, repos `EloquentProductDataRepository`, `EloquentCalendarRepository`, `EloquentBookingHistoryRepository`.
+
+**Parity check (dev):**
+
+```bash
+php wp-content/mu-plugins/ez_core/bin/compare-sans-parity.php 762302 <day_start_unix> 1
+```
 
 ### Mobile (future)
 

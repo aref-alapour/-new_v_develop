@@ -99,6 +99,10 @@ final class ProductsDataRepository
 			}
 		}
 
+		if ( function_exists( 'ez_reservation_get_conn' ) ) {
+			return ez_reservation_get_conn();
+		}
+
 		if ( function_exists( 'ez_reservation_db_connect' ) ) {
 			return ez_reservation_db_connect();
 		}

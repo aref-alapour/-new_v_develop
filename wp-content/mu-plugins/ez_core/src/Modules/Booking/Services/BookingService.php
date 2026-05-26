@@ -29,7 +29,7 @@ final class BookingService
 
 		$cacheKey = "ez_sanses_{$productId}_{$dayStartTime}_{$days}";
 		$cached   = wp_cache_get( $cacheKey, self::CACHE_GROUP );
-		if ( is_array( $cached ) ) {
+		if ( is_array( $cached ) && array() !== $cached ) {
 			return $cached;
 		}
 
@@ -38,8 +38,34 @@ final class BookingService
 			$result = array();
 		}
 
-		wp_cache_set( $cacheKey, $result, self::CACHE_GROUP, self::CACHE_TTL );
+		// Never cache empty — avoids sticky [] after a transient DB outage.
+		if ( array() !== $result && self::resultHasSlots( $result, $days ) ) {
+			wp_cache_set( $cacheKey, $result, self::CACHE_GROUP, self::CACHE_TTL );
+		}
 
 		return $result;
+	}
+
+	/**
+	 * @param array<mixed> $result
+	 */
+	private static function resultHasSlots( array $result, int $days ): bool {
+		if ( 1 === $days ) {
+			foreach ( $result as $row ) {
+				if ( is_array( $row ) && isset( $row['time'] ) ) {
+					return true;
+				}
+			}
+
+			return false;
+		}
+
+		foreach ( $result as $day ) {
+			if ( is_array( $day ) && array() !== $day ) {
+				return true;
+			}
+		}
+
+		return false;
 	}
 }

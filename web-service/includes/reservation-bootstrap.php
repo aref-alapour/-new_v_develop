@@ -11,8 +11,10 @@ if ( ! defined( 'EZ_RESERVATION_ROOT' ) ) {
 
 /**
  * Load DB + helpers once per request.
+ *
+ * @param string|null $dispatchType When internal + get_sanses, skips heavy md-connect (wp-load).
  */
-function ez_reservation_bootstrap_once(): void {
+function ez_reservation_bootstrap_once( ?string $dispatchType = null ): void {
 	static $loaded = false;
 	if ( $loaded ) {
 		return;
@@ -22,14 +24,29 @@ function ez_reservation_bootstrap_once(): void {
 	error_reporting( E_ALL & ~E_WARNING & ~E_NOTICE & ~E_DEPRECATED );
 	date_default_timezone_set( 'Asia/Tehran' );
 
-	require EZ_RESERVATION_ROOT . '/db-connect.php';
-	require EZ_RESERVATION_ROOT . '/md-connect.php';
-	require_once EZ_RESERVATION_ROOT . '/ez-sans-mojavezedar-wp.php';
-	if ( ! function_exists( 'jdate' ) ) {
-		require_once EZ_RESERVATION_ROOT . '/jdf.php';
+	if ( null !== $dispatchType ) {
+		$GLOBALS['ez_reservation_dispatch_type'] = $dispatchType;
 	}
+
+	define( 'EZ_BOOKING_DEFER_DB_CONNECT', true );
+	require EZ_RESERVATION_ROOT . '/db-connect.php';
+
+	$lightBootstrap = defined( 'EZ_BOOKING_INTERNAL_CALL' ) && EZ_BOOKING_INTERNAL_CALL
+		&& 'get_sanses' === ( $GLOBALS['ez_reservation_dispatch_type'] ?? '' );
+
+	if ( ! $lightBootstrap ) {
+		require EZ_RESERVATION_ROOT . '/md-connect.php';
+		require_once EZ_RESERVATION_ROOT . '/ez-sans-mojavezedar-wp.php';
+		if ( ! function_exists( 'jdate' ) ) {
+			require_once EZ_RESERVATION_ROOT . '/jdf.php';
+		}
+	}
+
 	require EZ_RESERVATION_ROOT . '/helper-functions.php';
 	require_once __DIR__ . '/reservation-functions.inc.php';
+
+	global $conn;
+	$conn = ez_reservation_get_conn();
 }
 
 /**

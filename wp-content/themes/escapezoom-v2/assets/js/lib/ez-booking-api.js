@@ -1,4 +1,9 @@
 import { ezFetch } from './ez-ajax.js';
+import {
+  isJsonLike,
+  normalizeWeekDays,
+  renderReserveWeekHtml,
+} from './ez-booking-week-render.js';
 
 /** @type {AbortController|null} */
 let sansDayJsonController = null;
@@ -28,6 +33,43 @@ function isAbortError(error) {
   return (
     error instanceof DOMException && error.name === 'AbortError'
   ) || (error && typeof error === 'object' && error.name === 'AbortError');
+}
+
+/**
+ * Parse gateway raw JSON (strips BOM; normalizes mistaken nested day bucket).
+ *
+ * @param {string} text
+ * @returns {Array<Record<string, unknown>>}
+ */
+/**
+ * @param {string} text
+ * @param {{ days?: number }} [options] days=1 → flat list; days>1 → keep nested week buckets
+ */
+export function parseGatewaySansJson(text, options = {}) {
+  const cleaned = String(text).replace(/^\uFEFF/, '').trim();
+  if (!cleaned) {
+    return [];
+  }
+  let parsed;
+  try {
+    parsed = JSON.parse(cleaned);
+  } catch (err) {
+    console.error('[EZ Booking] Invalid JSON from gateway:', cleaned.slice(0, 200), err);
+    throw err;
+  }
+  if (!Array.isArray(parsed)) {
+    return [];
+  }
+  const days = options.days ?? 1;
+  if (
+    days <= 1 &&
+    parsed.length > 0 &&
+    Array.isArray(parsed[0]) &&
+    !Object.prototype.hasOwnProperty.call(parsed[0], 'time')
+  ) {
+    return /** @type {Array<Record<string, unknown>>} */ (parsed[0]);
+  }
+  return parsed;
 }
 
 /**
@@ -124,8 +166,7 @@ export async function sansDayJson(productId, dayStart) {
       { signal: controller.signal }
     );
     const text = await resp.text();
-    const parsed = JSON.parse(text);
-    return Array.isArray(parsed) ? parsed : [];
+    return parseGatewaySansJson(text);
   } catch (error) {
     if (isAbortError(error)) {
       return null;
@@ -146,10 +187,92 @@ export async function sansDayHtml(productId, dayStart) {
   return resp.text();
 }
 
-export async function sansWeekHtml(productId, dayStart) {
-  const resp = await ezFetch('booking.sans_week', {
-    product_id: productId,
-    day_start_time: dayStart,
+/**
+ * Legacy admin-ajax HTML when gateway returns JSON by mistake.
+ *
+ * @param {number} productId
+ * @param {number} dayStart
+ * @returns {Promise<string>}
+ */
+async function fetchReserveWeekTableLegacy(productId, dayStart) {
+  const root = document.getElementById('table-of-sans');
+  const ajaxUrl =
+    root?.dataset?.ajaxUrl ||
+    (typeof window.ajaxurl === 'string' ? window.ajaxurl : '');
+  const nonce = root?.dataset?.ajaxNonce || '';
+  if (!ajaxUrl || !nonce) {
+    throw new Error('[EZ Booking] reserve ajax fallback missing nonce/url');
+  }
+  const body = new URLSearchParams({
+    action: 'v2_ajax_handler',
+    nonce,
+    callback: 'reserve_get_table',
+    time: String(dayStart),
+    product: String(productId),
   });
-  return resp.text();
+  const resp = await fetch(ajaxUrl, {
+    method: 'POST',
+    credentials: 'same-origin',
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    body: body.toString(),
+  });
+  if (!resp.ok) {
+    throw new Error(`reserve_get_table HTTP ${resp.status}`);
+  }
+  return (await resp.text()).replace(/^\uFEFF/, '').trim();
+}
+
+/**
+ * Fetch week sans as JSON and render reserve grid HTML in the browser.
+ *
+ * @param {number} productId
+ * @param {number} dayStart
+ */
+async function fetchAndRenderWeekFromJson(productId, dayStart) {
+  const resp = await ezFetch('booking.sans_day_json', {
+    product_id: parseInt(productId, 10),
+    day_start_time: parseInt(dayStart, 10),
+    days: 7,
+  });
+  const parsed = parseGatewaySansJson(await resp.text(), { days: 7 });
+  const week = normalizeWeekDays(parsed, parseInt(dayStart, 10));
+  return renderReserveWeekHtml(week, parseInt(dayStart, 10));
+}
+
+export async function sansWeekHtml(productId, dayStart) {
+  const pid = parseInt(productId, 10);
+  const day = parseInt(dayStart, 10);
+
+  try {
+    const resp = await ezFetch('booking.sans_week', {
+      product_id: pid,
+      day_start_time: day,
+      days: 7,
+    });
+    const text = (await resp.text()).replace(/^\uFEFF/, '').trim();
+
+    if (!isJsonLike(text) && text.includes('class="box')) {
+      return text;
+    }
+
+    if (isJsonLike(text)) {
+      const week = normalizeWeekDays(parseGatewaySansJson(text, { days: 7 }), day);
+      return renderReserveWeekHtml(week, day);
+    }
+  } catch (err) {
+    console.warn('[EZ Booking] sans_week HTML failed, trying JSON render', err);
+  }
+
+  try {
+    return await fetchAndRenderWeekFromJson(pid, day);
+  } catch (jsonErr) {
+    console.warn('[EZ Booking] JSON week render failed, trying admin-ajax', jsonErr);
+  }
+
+  const legacy = await fetchReserveWeekTableLegacy(pid, day);
+  if (isJsonLike(legacy)) {
+    const week = normalizeWeekDays(parseGatewaySansJson(legacy, { days: 7 }), day);
+    return renderReserveWeekHtml(week, day);
+  }
+  return legacy;
 }
