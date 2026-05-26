@@ -59,6 +59,17 @@ if ( ActionPolicy::ERR_FORBIDDEN_ACTION !== $policySmoke ) {
 $lines[] = 'AES-GCM: ' . ( function_exists( 'sodium_crypto_aead_aes256gcm_encrypt' ) ? 'available' : 'unavailable (enable ext-sodium)' );
 $lines[] = 'Payload encrypt writes: ' . ( SecretsLoader::payloadEncryptWrites() ? 'on' : 'off' );
 $lines[] = 'Payload encrypt reads: ' . ( SecretsLoader::payloadEncryptReads() ? 'on' : 'off' );
+$readsOn  = SecretsLoader::payloadEncryptReads();
+$writesOn = SecretsLoader::payloadEncryptWrites();
+if ( $readsOn && $writesOn ) {
+	$lines[] = 'Response encryption: on (reads + writes via GatewayResponse)';
+} elseif ( $readsOn ) {
+	$lines[] = 'Response encryption: partial (read actions only)';
+} elseif ( $writesOn ) {
+	$lines[] = 'Response encryption: partial (write actions only)';
+} else {
+	$lines[] = 'Response encryption: off';
+}
 
 $ajaxConfigured = defined( 'EZ_AJAX_SHARED_SECRET' ) && '' !== (string) EZ_AJAX_SHARED_SECRET;
 $lines[]          = 'EZ_AJAX_SHARED_SECRET: ' . ( $ajaxConfigured ? 'configured' : 'MISSING' );

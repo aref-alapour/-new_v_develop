@@ -1,7 +1,7 @@
 /**
  * Signed gateway helpers for owner sans management (panel sans-manager).
  */
-import { ezFetch } from './ez-ajax.js';
+import { ezFetch, readGatewayBodyText } from './ez-ajax.js';
 
 /**
  * @param {string} action booking.sans_management_web | booking.open_sans | booking.close_sans
@@ -22,7 +22,7 @@ export async function ezBookingSansManagementHtml(productId, dayStart) {
     product_id: productId,
     day_start_time: dayStart,
   });
-  return resp.text();
+  return readGatewayBodyText(resp);
 }
 
 /**
@@ -36,5 +36,6 @@ export async function ezBookingToggleSans(verb, productId, sansTime) {
     product_id: productId,
     sans_time: sansTime,
   });
-  return resp.json();
+  const text = await readGatewayBodyText(resp);
+  return JSON.parse(text);
 }

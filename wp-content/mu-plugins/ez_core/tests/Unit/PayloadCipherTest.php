@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+use EscapeZoom\Core\Infrastructure\Config\SecretsLoader;
 use EscapeZoom\Core\Modules\AjaxGateway\Crypto\PayloadCipher;
 
 beforeEach(function () {
@@ -38,4 +39,25 @@ it('fails decrypt with wrong key', function () {
 
 	expect( fn () => PayloadCipher::decrypt( $wire, ez_test_sub_secret_b64url() ) )
 		->toThrow( RuntimeException::class );
+});
+
+it('round-trips sans JSON response body envelope', function () {
+	$sub   = ez_test_sub_secret_b64url();
+	$plain = '[{"time":1700000000,"status":"reservable","price":1000}]';
+	$wire  = PayloadCipher::encrypt( $plain, $sub );
+
+	expect( PayloadCipher::decrypt( $wire, $sub ) )->toBe( $plain );
+});
+
+it('shouldEncryptResponse follows secrets flags when loaded', function () {
+	if ( ! SecretsLoader::isLoaded() ) {
+		test()->markTestSkipped( 'secrets.enc not loaded in test env' );
+	}
+
+	expect( PayloadCipher::shouldEncryptResponse( 'booking.sans_day_json' ) )
+		->toBe( SecretsLoader::payloadEncryptReads() );
+	expect( PayloadCipher::shouldEncryptResponse( 'booking.open_sans' ) )
+		->toBe( SecretsLoader::payloadEncryptWrites() );
+	expect( PayloadCipher::encryptionRequiredFor( 'booking.sans_day_json' ) )
+		->toBe( PayloadCipher::shouldEncryptResponse( 'booking.sans_day_json' ) );
 });

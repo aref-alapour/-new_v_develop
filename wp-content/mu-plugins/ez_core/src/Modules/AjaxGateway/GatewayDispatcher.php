@@ -134,6 +134,7 @@ final class GatewayDispatcher
 			}
 		}
 
+		GatewayResponse::setCryptoContext( $action, $subSecret );
 		ActionRegistry::dispatch( $action, $payload );
 	}
 

@@ -1,4 +1,4 @@
-import { ezFetch } from './ez-ajax.js';
+import { ezFetch, readGatewayBodyText } from './ez-ajax.js';
 import {
   isJsonLike,
   normalizeWeekDays,
@@ -171,7 +171,7 @@ export async function sansManagementWeb(productId, dayStart) {
       },
       { signal: controller.signal }
     );
-    return await resp.text();
+    return await readGatewayBodyText(resp);
   } catch (error) {
     if (isAbortError(error)) {
       return null;
@@ -208,7 +208,7 @@ export async function bulkToggleDay(actionType, productId, dayStart) {
     day_start_time: parseInt(dayStart, 10),
   });
 
-  const text = await resp.text();
+  const text = await readGatewayBodyText(resp);
   try {
     return JSON.parse(text);
   } catch {
@@ -233,7 +233,8 @@ export async function toggleSans(kind, productId, sansTime) {
       },
       { signal: controller.signal }
     );
-    return await resp.json();
+    const text = await readGatewayBodyText(resp);
+    return JSON.parse(text);
   } catch (error) {
     if (isAbortError(error)) {
       return null;
@@ -280,7 +281,7 @@ export async function sansDayJson(productId, dayStart) {
       },
       { signal: controller.signal }
     );
-    const text = await resp.text();
+    const text = await readGatewayBodyText(resp);
     assertGatewayJsonResponse(resp, text);
     return parseGatewaySansJson(text);
   } catch (error) {
@@ -301,7 +302,7 @@ export async function sansDayHtml(productId, dayStart) {
     product_id: productId,
     day_start_time: dayStart,
   });
-  return resp.text();
+  return readGatewayBodyText(resp);
 }
 
 /**
@@ -355,7 +356,7 @@ async function fetchAndRenderWeekFromJson(productId, dayStart, signal) {
     },
     { signal }
   );
-  const text = await resp.text();
+  const text = await readGatewayBodyText(resp);
   assertGatewayJsonResponse(resp, text);
   const parsed = parseGatewaySansJson(text, { days: 7 });
   const week = normalizeWeekDays(parsed, parseInt(dayStart, 10));
@@ -391,7 +392,7 @@ export async function sansWeekHtml(productId, dayStart) {
       },
       { signal: controller.signal }
     );
-    const text = (await resp.text()).replace(/^\uFEFF/, '').trim();
+    const text = (await readGatewayBodyText(resp)).replace(/^\uFEFF/, '').trim();
 
     if (!resp.ok) {
       assertGatewayJsonResponse(resp, text);

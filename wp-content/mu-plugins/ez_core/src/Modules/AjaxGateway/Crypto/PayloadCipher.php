@@ -83,6 +83,11 @@ final class PayloadCipher
 	}
 
 	public static function encryptionRequiredFor( string $action ): bool {
+		return self::shouldEncryptResponse( $action );
+	}
+
+	/** Whether request/response wire bodies for this action use AES-GCM envelopes. */
+	public static function shouldEncryptResponse( string $action ): bool {
 		if ( ActionClassification::isWrite( $action ) ) {
 			return SecretsLoader::payloadEncryptWrites();
 		}

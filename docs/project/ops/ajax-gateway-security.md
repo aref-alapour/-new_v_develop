@@ -13,7 +13,7 @@ Signed POST `/ajax` requests go through a single pipeline in `GatewayDispatcher`
 7. **PayloadCipher** decrypt when envelope or encryption required → `400`
 8. **ActionPolicy** (read/write × client_kind × light) → `403`
 9. **BookingAuthorizationService** (write only, full path) → `403` / `AUTH_REQUIRED`
-10. `ActionRegistry::dispatch()`
+10. `ActionRegistry::dispatch()` → **GatewayResponse** encrypts success body when `payload_encrypt_reads` / `payload_encrypt_writes` match action class (`X-EZ-Response-Encrypted: v1`)
 
 When `gateway.payload_encrypt_writes` or `payload_encrypt_reads` is true, the client sends an AES-GCM envelope; the HMAC is computed over the envelope JSON string, not the inner plaintext.
 
@@ -47,12 +47,18 @@ Theme emits `apply_filters( 'ez_ajax_boot_data', $boot )`. Core sets:
 
 Secrets (`secrets.enc`):
 
-- `gateway.payload_encrypt_writes` — writes must use envelope `{ "ez_enc": "v1", "iv", "ct" }`
-- `gateway.payload_encrypt_reads` — reads (including light `sans_day_json`) encrypt when enabled
+- `gateway.payload_encrypt_writes` — write actions: request **and** success response use envelope `{ "ez_enc": "v1", "iv", "ct" }`
+- `gateway.payload_encrypt_reads` — read actions: request **and** success response encrypted when enabled (light `sans_day_json`, `sans_day`, `sans_week`)
 
-Boot exposes `encrypt_writes` / `encrypt_reads` to `ez-ajax.js` (`shouldEncryptPayload`).
+Boot exposes `encrypt_writes` / `encrypt_reads` to `ez-ajax.js` (`shouldEncryptPayload` for requests).
 
-Server: `PayloadCipher` (AES-256-GCM, key = decoded `sub_secret`). Client: `@noble/ciphers` GCM (same envelope).
+**Request:** client sets `X-EZ-Encrypted: v1`; HMAC is over the wire envelope JSON.
+
+**Response (P4-B.2):** `GatewayResponse` encrypts `raw()` / `html()` / success `json()` when the flag matches the action class; header `X-EZ-Response-Encrypted: v1`. Error envelopes `{ ok: false }` stay **plain** (401/403/validation).
+
+Client: `readGatewayBodyText()` in `ez-ajax.js` decrypts before `parseGatewaySansJson` / HTML swap.
+
+Server: `PayloadCipher` (AES-256-GCM, key = decoded `sub_secret`). Client: `@noble/ciphers` GCM (same envelope; GCM tag is inside `ct`, no separate `tag` field).
 
 ## Closed bypasses (P4-A.1)
 

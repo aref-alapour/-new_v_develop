@@ -67,6 +67,75 @@ function encryptWireBody(plainJson, subSecretB64Url) {
   });
 }
 
+/**
+ * @param {string} wireJson
+ */
+function isWireEnvelope(wireJson) {
+  const trimmed = String(wireJson).trim();
+  if (!trimmed.startsWith('{')) {
+    return false;
+  }
+  try {
+    const env = JSON.parse(trimmed);
+    return (
+      env &&
+      typeof env === 'object' &&
+      env.ez_enc === 'v1' &&
+      typeof env.iv === 'string' &&
+      typeof env.ct === 'string'
+    );
+  } catch {
+    return false;
+  }
+}
+
+/**
+ * @param {string} wireJson
+ * @param {string} subSecretB64Url
+ */
+function decryptWireBody(wireJson, subSecretB64Url) {
+  const trimmed = String(wireJson).trim();
+  if (!isWireEnvelope(trimmed)) {
+    return trimmed;
+  }
+  const env = JSON.parse(trimmed);
+  const key = base64UrlDecode(subSecretB64Url);
+  const iv = base64UrlDecode(env.iv);
+  const ct = base64UrlDecode(env.ct);
+  const aes = gcm(key, iv);
+  const plain = aes.decrypt(ct);
+  return new TextDecoder().decode(plain);
+}
+
+/**
+ * Read gateway response body; decrypt when server sent X-EZ-Response-Encrypted.
+ *
+ * @param {Response} resp
+ * @returns {Promise<string>}
+ */
+export async function readGatewayBodyText(resp) {
+  const wireText = await resp.text();
+  const encrypted =
+    resp.headers.get('X-EZ-Response-Encrypted') === 'v1' ||
+    resp.headers.get('x-ez-response-encrypted') === 'v1';
+
+  if (encrypted) {
+    const boot = getBoot();
+    if (!boot?.sub_secret) {
+      throw new Error('[EZ AJAX] Encrypted response but boot sub_secret missing.');
+    }
+    return decryptWireBody(wireText, String(boot.sub_secret));
+  }
+
+  if (isWireEnvelope(wireText)) {
+    throw new Error(
+      '[EZ AJAX] Response body is an encrypted envelope but X-EZ-Response-Encrypted header is missing.',
+    );
+  }
+
+  return wireText;
+}
+
 export function getBoot() {
   const boot = typeof window !== 'undefined' ? window.__EZ_BOOT__ : null;
   if (!boot || typeof boot !== 'object' || !boot.sub_secret) {
@@ -528,7 +597,7 @@ export function wireHtmx() {
 
     ezFetch(action, params, { method })
       .then(async (resp) => {
-        const text = await resp.text();
+        const text = await readGatewayBodyText(resp);
         Object.assign(xhrPlacehold, {
           status: resp.status,
           statusText: resp.statusText,
