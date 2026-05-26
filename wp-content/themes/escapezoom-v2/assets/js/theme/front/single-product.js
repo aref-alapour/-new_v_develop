@@ -1181,18 +1181,75 @@ jQuery(document).ready(function ($) {
 
     $("[data-rate='100']").addClass('active').css({'background': '#02C96F', 'color': '#FFFFFF'})
 
-    const showSansLoading = () => {
-        $('.sessions-embla-container-desktop').empty();
-        let loadingHTML = '';
-        for (let i = 0; i < 4; i++) {
-            loadingHTML += '<div class="skeleton h-12 w-full rounded-[10px] mb-2.5"></div>';
+    const buildSansSkeletonBars = (count = 4) => {
+        let html = '';
+        for (let i = 0; i < count; i++) {
+            html += '<div class="skeleton h-12 w-full rounded-[10px] mb-2.5"></div>';
         }
-        $("#sessions-list-desktop").html(loadingHTML);
-        $("#sessions-list-mobile").html(loadingHTML);
-        $("#sessions-info-desktop").html('<h2 class="text-xs text-blue">در حال بارگذاری...</h2>');
-        $("#sessions-info-mobile").html('<h2 class="text-xs text-blue">در حال بارگذاری...</h2>');
-        $("#toggle-sessions-desktop").hide();
-        $("#toggle-sessions-mobile").hide();
+        return html;
+    };
+
+    /**
+     * Desktop sessions shell — #sessions-list-desktop only exists after this runs.
+     *
+     * @param {string} innerHtml
+     * @param {{ minPlayers?: number, maxPlayers?: number, showScrollButtons?: boolean }} opts
+     */
+    const buildDesktopSessionsShell = (innerHtml, opts = {}) => {
+        const minPlayers = parseInt(opts.minPlayers, 10) || 0;
+        const maxPlayers = parseInt(opts.maxPlayers, 10) || 0;
+        const showScrollButtons = opts.showScrollButtons !== false;
+
+        const scrollPrev = showScrollButtons
+            ? `<button type="button" aria-label="سانس‌های قبلی" class="session-scroll-btn session-scroll-btn--prev mb-3">
+                    <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3 10.5L8 5.5L13 10.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>`
+            : '';
+
+        const scrollNext = showScrollButtons
+            ? `<button type="button" aria-label="سانس‌های بعدی" class="session-scroll-btn session-scroll-btn--next mt-3">
+                    <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3 5.5L8 10.5L13 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>`
+            : '';
+
+        return `
+                ${scrollPrev}
+                <div class="relative">
+                    <div class="absolute top-0 left-0 right-0 h-8 bg-gradient-to-b from-white to-transparent pointer-events-none z-10"></div>
+                    <div class="embla-sessions-desktop max-h-[270px] pt-2.5 pb-8">
+                        <div id="sessions-list-desktop" class="embla__container-sessions time-boxes" data-min="${minPlayers}" data-max="${maxPlayers}" data-current-page="1" data-total-pages="1">
+                            ${innerHtml}
+                        </div>
+                    </div>
+                    <div class="absolute bottom-0 left-0 right-0 h-8 bg-gradient-to-t from-white to-transparent pointer-events-none z-10"></div>
+                </div>
+                ${scrollNext}
+            `;
+    };
+
+    const showSansLoading = () => {
+        const skeletonBars = buildSansSkeletonBars(4);
+        const $root = $('.sessions-embla-container-desktop');
+        const minPlayers = parseInt($root.data('min'), 10) || 0;
+        const maxPlayers = parseInt($root.data('max'), 10) || 0;
+
+        $root.html(
+            buildDesktopSessionsShell(skeletonBars, {
+                minPlayers,
+                maxPlayers,
+                showScrollButtons: false,
+            })
+        );
+
+        $('#sessions-list-mobile').html(skeletonBars);
+        $('#sessions-info-desktop').html('<h2 class="text-xs text-blue">در حال بارگذاری...</h2>');
+        $('#sessions-info-mobile').html('<h2 class="text-xs text-blue">در حال بارگذاری...</h2>');
+        $('#toggle-sessions-desktop').hide();
+        $('#toggle-sessions-mobile').hide();
     };
 
     const applySansList = (res) => {
@@ -1398,31 +1455,16 @@ jQuery(document).ready(function ($) {
 
         if (isDesktop) {
             const $root = $('.sessions-embla-container-desktop');
-            const minPlayers = parseInt($root.data('min')) || 0;
-            const maxPlayers = parseInt($root.data('max')) || 0;
+            const minPlayers = parseInt($root.data('min'), 10) || 0;
+            const maxPlayers = parseInt($root.data('max'), 10) || 0;
 
-            const desktopMarkup = `
-                <button type="button" aria-label="سانس‌های قبلی" class="session-scroll-btn session-scroll-btn--prev mb-3">
-                    <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M3 10.5L8 5.5L13 10.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                </button>
-                <div class="relative">
-                    <div class="absolute top-0 left-0 right-0 h-8 bg-gradient-to-b from-white to-transparent.pointer-events-none z-10"></div>
-                    <div class="embla-sessions-desktop max-h-[270px] pt-2.5 pb-8">
-                        <div id="sessions-list-desktop" class="embla__container-sessions time-boxes" data-min="${minPlayers}" data-max="${maxPlayers}" data-current-page="1" data-total-pages="1">
-                            ${out}
-                        </div>
-                    </div>
-                    <div class="absolute bottom-0 left-0 right-0 h-8 bg-gradient-to-t from-white to-transparent.pointer-events-none z-10"></div>
-                </div>
-                <button type="button" aria-label="سانس‌های بعدی" class="session-scroll-btn session-scroll-btn--next mt-3">
-                    <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M3 5.5L8 10.5L13 5.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                </button>
-            `;
-            $root.html(desktopMarkup);
+            $root.html(
+                buildDesktopSessionsShell(out, {
+                    minPlayers,
+                    maxPlayers,
+                    showScrollButtons: true,
+                })
+            );
             $root.find('#sessions-list-desktop').data('all-sessions', storageTarget.data('all-sessions'));
         } else {
             $('#sessions-list-mobile').html(out);
