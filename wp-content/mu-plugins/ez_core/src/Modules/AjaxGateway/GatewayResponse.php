@@ -99,7 +99,30 @@ final class GatewayResponse
 			return;
 		}
 		$native = defined( 'EZ_BOOKING_NATIVE_SANSES' ) && EZ_BOOKING_NATIVE_SANSES;
-		header( 'X-EZ-Booking-Path: ' . ( $native ? 'native' : 'legacy' ) );
+		self::setResponseHeader( 'X-EZ-Booking-Path', $native ? 'native' : 'legacy' );
+	}
+
+	/**
+	 * Queue a response header for sendWireBody / sendPlainBody (avoids mid-dispatch header()).
+	 */
+	public static function setResponseHeader( string $name, string $value ): void {
+		if ( ! isset( $GLOBALS['ez_gateway_response_headers'] ) || ! is_array( $GLOBALS['ez_gateway_response_headers'] ) ) {
+			$GLOBALS['ez_gateway_response_headers'] = array();
+		}
+		$GLOBALS['ez_gateway_response_headers'][ $name ] = $value;
+	}
+
+	/**
+	 * @param array<string, string> $headers
+	 * @return array<string, string>
+	 */
+	private static function mergeGlobalResponseHeaders( array $headers ): array {
+		$global = $GLOBALS['ez_gateway_response_headers'] ?? null;
+		if ( ! is_array( $global ) || array() === $global ) {
+			return $headers;
+		}
+
+		return array_merge( $global, $headers );
 	}
 
 	/**
@@ -108,7 +131,7 @@ final class GatewayResponse
 	private static function sendWireBody( string $body, string $contentType, int $status, array $extraHeaders = array() ): void {
 		self::cleanOutputBuffers();
 		self::ensureCryptoContextFromGlobals();
-		$headers = $extraHeaders;
+		$headers = self::mergeGlobalResponseHeaders( $extraHeaders );
 
 		if ( self::shouldEncryptCurrentResponse() ) {
 			try {
@@ -130,8 +153,13 @@ final class GatewayResponse
 					500
 				);
 			}
-			$contentType              = 'application/json; charset=utf-8';
+			$contentType                        = 'application/json; charset=utf-8';
 			$headers['X-EZ-Response-Encrypted'] = 'v1';
+		}
+
+		if ( headers_sent() && defined( 'WP_DEBUG' ) && WP_DEBUG ) {
+			// phpcs:ignore WordPress.PHP.DevelopmentFunctions.error_log_error_log
+			error_log( '[EZ Gateway] headers_sent before sendWireBody; response headers may be incomplete.' );
 		}
 
 		status_header( $status );
@@ -149,10 +177,11 @@ final class GatewayResponse
 	 */
 	private static function sendPlainBody( string $body, string $contentType, int $status, array $extraHeaders = array() ): void {
 		self::cleanOutputBuffers();
+		$headers = self::mergeGlobalResponseHeaders( $extraHeaders );
 		status_header( $status );
 		header( 'Content-Type: ' . $contentType );
 		header( 'X-Robots-Tag: noindex' );
-		foreach ( $extraHeaders as $name => $value ) {
+		foreach ( $headers as $name => $value ) {
 			header( $name . ': ' . $value );
 		}
 		echo $body; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped

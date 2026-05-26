@@ -108,29 +108,28 @@ function decryptWireBody(wireJson, subSecretB64Url) {
 }
 
 /**
- * Read gateway response body; decrypt when server sent X-EZ-Response-Encrypted.
+ * Read gateway response body; decrypt wire envelopes (header is optional signal).
  *
  * @param {Response} resp
  * @returns {Promise<string>}
  */
 export async function readGatewayBodyText(resp) {
   const wireText = await resp.text();
-  const encrypted =
+  const headerEncrypted =
     resp.headers.get('X-EZ-Response-Encrypted') === 'v1' ||
     resp.headers.get('x-ez-response-encrypted') === 'v1';
 
-  if (encrypted) {
+  if (isWireEnvelope(wireText)) {
     const boot = getBoot();
     if (!boot?.sub_secret) {
       throw new Error('[EZ AJAX] Encrypted response but boot sub_secret missing.');
     }
+    if (!headerEncrypted && typeof console !== 'undefined') {
+      console.warn(
+        '[EZ AJAX] Decrypting response envelope without X-EZ-Response-Encrypted header.',
+      );
+    }
     return decryptWireBody(wireText, String(boot.sub_secret));
-  }
-
-  if (isWireEnvelope(wireText)) {
-    throw new Error(
-      '[EZ AJAX] Response body is an encrypted envelope but X-EZ-Response-Encrypted header is missing.',
-    );
   }
 
   return wireText;

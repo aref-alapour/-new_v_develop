@@ -139,7 +139,17 @@ final class GatewayDispatcher
 			'sub_secret' => $subSecret,
 		);
 		GatewayResponse::setCryptoContext( $action, $subSecret );
+
+		ob_start();
 		ActionRegistry::dispatch( $action, $payload );
+		$stray = ob_get_clean();
+		if ( is_string( $stray ) && '' !== $stray && defined( 'WP_DEBUG' ) && WP_DEBUG ) {
+			// phpcs:ignore WordPress.PHP.DevelopmentFunctions.error_log_error_log
+			error_log(
+				'[EZ Gateway] stray output during dispatch action=' . $action . ': '
+				. substr( preg_replace( '/\s+/', ' ', $stray ), 0, 200 )
+			);
+		}
 	}
 
 	/**

@@ -54,9 +54,9 @@ Boot exposes `encrypt_writes` / `encrypt_reads` to `ez-ajax.js` (`shouldEncryptP
 
 **Request:** client sets `X-EZ-Encrypted: v1`; HMAC is over the wire envelope JSON.
 
-**Response (P4-B.2):** `GatewayResponse` encrypts `raw()` / `html()` / success `json()` when the flag matches the action class; header `X-EZ-Response-Encrypted: v1`. Error envelopes `{ ok: false }` stay **plain** (401/403/validation).
+**Response (P4-B.2):** `GatewayResponse` encrypts `raw()` / `html()` / success `json()` when the flag matches the action class; header `X-EZ-Response-Encrypted: v1` and `Content-Type: application/json` are sent in one phase from `sendWireBody` (light gateway diagnostic headers are queued via `$GLOBALS['ez_gateway_response_headers']` in `ez-ajax.php`, not `header()` before dispatch). Error envelopes `{ ok: false }` stay **plain** (401/403/validation).
 
-Client: `readGatewayBodyText()` in `ez-ajax.js` decrypts before `parseGatewaySansJson` / HTML swap.
+Client: `readGatewayBodyText()` in `ez-ajax.js` decrypts when the wire body is an envelope `{ ez_enc, iv, ct }` **or** when `X-EZ-Response-Encrypted: v1` is present (header is a signal, not required for decrypt). Plaintext is then passed to `parseGatewaySansJson` / HTML swap.
 
 Server: `PayloadCipher` (AES-256-GCM, key = decoded `sub_secret`). Client: `@noble/ciphers` GCM (same envelope; GCM tag is inside `ct`, no separate `tag` field).
 

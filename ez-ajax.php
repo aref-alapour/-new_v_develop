@@ -44,13 +44,15 @@ require_once $autoload;
 \EscapeZoom\Core\Core\Bootstrap::bootDataLayerOnly();
 \EscapeZoom\Core\Modules\Booking\BookingGatewayActions::register();
 
-header( 'X-EZ-Gateway: light' );
-header( 'X-EZ-Gateway-Build: p4b2-response-encrypt' );
+$GLOBALS['ez_gateway_response_headers'] = array(
+	'X-EZ-Gateway'       => 'light',
+	'X-EZ-Gateway-Build' => 'p4b2-response-encrypt',
+);
 if ( SecretsLoader::payloadEncryptReads() ) {
-	header( 'X-EZ-Payload-Encrypt-Reads: on' );
+	$GLOBALS['ez_gateway_response_headers']['X-EZ-Payload-Encrypt-Reads'] = 'on';
 }
 if ( SecretsLoader::payloadEncryptWrites() ) {
-	header( 'X-EZ-Payload-Encrypt-Writes: on' );
+	$GLOBALS['ez_gateway_response_headers']['X-EZ-Payload-Encrypt-Writes'] = 'on';
 }
 
 \EscapeZoom\Core\Modules\AjaxGateway\GatewayDispatcher::handle( '/ajax' );
