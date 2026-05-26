@@ -68,7 +68,7 @@ function ez_ajax_boot_data(): array {
 		);
 	}
 
-	return [
+	$boot = [
 		'kid'         => $kid,
 		'client_id'   => $client_id,
 		'client_kind' => $client_kind,
@@ -77,6 +77,8 @@ function ez_ajax_boot_data(): array {
 		'ajax_url'    => home_url( '/ajax' ),
 		'timestamp'   => time(),
 	];
+
+	return apply_filters( 'ez_ajax_boot_data', $boot );
 }
 
 /**

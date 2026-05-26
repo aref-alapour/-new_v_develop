@@ -17,6 +17,11 @@ final class NonceStore
 		}
 
 		$key = self::cacheKey( $clientId, $nonce );
+
+		if ( function_exists( 'wp_cache_add' ) ) {
+			return wp_cache_add( $key, 1, self::GROUP, 300 );
+		}
+
 		if ( function_exists( 'wp_cache_get' ) ) {
 			if ( false !== wp_cache_get( $key, self::GROUP ) ) {
 				return false;

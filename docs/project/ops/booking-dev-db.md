@@ -33,7 +33,7 @@ php wp-content/mu-plugins/ez_core/bin/secrets-encrypt.php
 |---------|--------|
 | `external` | `host`, `database`, `username`, `password` — `escapezo_queries` (booking) |
 | `wordpress` | `host`, `database`, `username`, `password`, `table_prefix` — main WP DB |
-| `gateway` | `ajax_shared_secret`, `booking_use_internal`, `booking_native_sanses` |
+| `gateway` | `ajax_shared_secret`, `booking_use_internal`, `booking_native_sanses`, optional `rate_limits` |
 
 `EZ_AJAX_SHARED_SECRET` is defined **only** from `secrets.enc` (not from `wp-config.php`). Page boot (`__EZ_BOOT__`) and light `/ajax` must use the same `gateway.ajax_shared_secret`.
 
@@ -131,3 +131,25 @@ Verify in DevTools → Network → response headers:
 - `X-EZ-Gateway: light`
 - `X-EZ-Booking-Path: native` (when `WP_DEBUG` / dev)
 - TTFB should drop from ~7–19s to well under 1s (DB + query only)
+
+## 8. Gateway security (P4-A)
+
+Policy, rate limits, nonce store, and write authorization are documented in [ajax-gateway-security.md](./ajax-gateway-security.md).
+
+Quick checks:
+
+| Test | Expected |
+|------|----------|
+| `booking.sans_day_json` (reserve) | 200, `X-EZ-Gateway: light` |
+| `web-anon` + `booking.open_sans` (full `/ajax`) | 403 `FORBIDDEN_ACTION` |
+| Abuse same IP on one action | 429 `RATE_LIMITED` + `Retry-After` |
+| Sans-manager logged in + toggle | 200 only if owner/manager in `products_data` |
+| `booking-db-health.php` | `Rate limit cache store: OK` |
+
+After upgrading secrets without `rate_limits`, run:
+
+```bash
+php wp-content/mu-plugins/ez_core/bin/secrets-migrate.php
+```
+
+Production: enable Redis object cache so nonce + rate-limit counters are shared across PHP workers.

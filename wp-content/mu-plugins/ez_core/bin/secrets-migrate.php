@@ -128,6 +128,27 @@ if ( $legacyAjax ) {
 	echo "Set gateway.ajax_shared_secret from wp-config AUTH_KEY hash (legacy).\n";
 }
 
+$defaultRateLimits = array(
+	'booking.sans_day_json' => array(
+		'per_ip'         => 120,
+		'per_client'     => 60,
+		'window_seconds' => 60,
+	),
+	'default'               => array(
+		'per_ip'         => 60,
+		'per_client'     => 30,
+		'window_seconds' => 60,
+	),
+);
+
+if ( ! isset( $plain['gateway'] ) || ! is_array( $plain['gateway'] ) ) {
+	$plain['gateway'] = array();
+}
+if ( ! isset( $plain['gateway']['rate_limits'] ) || ! is_array( $plain['gateway']['rate_limits'] ) ) {
+	$plain['gateway']['rate_limits'] = $defaultRateLimits;
+	echo "Added gateway.rate_limits defaults.\n";
+}
+
 if ( ! isset( $plain['gateway']['ajax_shared_secret'] ) || strlen( (string) $plain['gateway']['ajax_shared_secret'] ) < 16 ) {
 	fwrite( STDERR, "gateway.ajax_shared_secret missing or too short after migrate.\n" );
 	exit( 1 );

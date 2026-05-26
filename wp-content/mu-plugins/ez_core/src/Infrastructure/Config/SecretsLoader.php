@@ -162,6 +162,55 @@ final class SecretsLoader
 	}
 
 	/**
+	 * Rate limit config for a gateway action (secrets override + defaults).
+	 *
+	 * @return array{per_ip: int, per_client: int, window_seconds: int}
+	 */
+	public static function rateLimitFor( string $action ): array {
+		$defaults = array(
+			'booking.sans_day_json' => array(
+				'per_ip'          => 120,
+				'per_client'      => 60,
+				'window_seconds'  => 60,
+			),
+			'default'             => array(
+				'per_ip'          => 60,
+				'per_client'      => 30,
+				'window_seconds'  => 60,
+			),
+		);
+
+		$base = $defaults[ $action ] ?? $defaults['default'];
+
+		$fromSecrets = self::get( 'gateway.rate_limits.' . $action );
+		if ( ! is_array( $fromSecrets ) ) {
+			$fromSecrets = self::get( 'gateway.rate_limits.default' );
+		}
+		if ( is_array( $fromSecrets ) ) {
+			$base = array_merge( $base, $fromSecrets );
+		}
+
+		$merged = array(
+			'per_ip'         => max( 1, (int) ( $base['per_ip'] ?? 60 ) ),
+			'per_client'     => max( 1, (int) ( $base['per_client'] ?? 30 ) ),
+			'window_seconds' => max( 1, (int) ( $base['window_seconds'] ?? 60 ) ),
+		);
+
+		if ( function_exists( 'apply_filters' ) ) {
+			$filtered = apply_filters( 'ez_gateway_rate_limit', $merged, $action );
+			if ( is_array( $filtered ) ) {
+				$merged = array(
+					'per_ip'         => max( 1, (int) ( $filtered['per_ip'] ?? $merged['per_ip'] ) ),
+					'per_client'     => max( 1, (int) ( $filtered['per_client'] ?? $merged['per_client'] ) ),
+					'window_seconds' => max( 1, (int) ( $filtered['window_seconds'] ?? $merged['window_seconds'] ) ),
+				);
+			}
+		}
+
+		return $merged;
+	}
+
+	/**
 	 * Encrypt plaintext JSON for storage (CLI / tests).
 	 */
 	public static function encrypt( string $plainJson, string $keyBase64 ): string {

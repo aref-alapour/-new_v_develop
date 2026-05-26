@@ -5,7 +5,12 @@ declare(strict_types=1);
 namespace EscapeZoom\Core\Modules\AjaxGateway;
 
 use EscapeZoom\Core\Modules\AjaxGateway\Auth\NonceStore;
+use EscapeZoom\Core\Modules\AjaxGateway\Auth\RateLimiter;
 use EscapeZoom\Core\Modules\AjaxGateway\Auth\SignatureVerifier;
+use EscapeZoom\Core\Modules\AjaxGateway\Exception\GatewayAuthException;
+use EscapeZoom\Core\Modules\AjaxGateway\Policy\ActionClassification;
+use EscapeZoom\Core\Modules\AjaxGateway\Policy\ActionPolicy;
+use EscapeZoom\Core\Modules\Booking\BookingAuthorizationService;
 use EZ\Ajax\Auth\SubKey;
 
 /**
@@ -52,6 +57,22 @@ final class GatewayDispatcher
 		$subSecret  = SubKey::deriveBase64Url( (string) EZ_AJAX_SHARED_SECRET, $kid, $clientId, $expires );
 		$headers['x-ez-sub-secret'] = $subSecret;
 
+		if ( '' === $action || ! ActionRegistry::has( $action ) ) {
+			GatewayResponse::json( false, array(), array( 'code' => 'UNKNOWN_ACTION', 'message' => 'Unknown action' ), 404 );
+		}
+
+		$rate = RateLimiter::check( $action, $clientId );
+		if ( $rate['limited'] ) {
+			self::logRateLimit( $action );
+			GatewayResponse::json(
+				false,
+				array(),
+				array( 'code' => 'RATE_LIMITED', 'message' => 'Too many requests' ),
+				429,
+				array( 'Retry-After' => (string) $rate['retry_after'] )
+			);
+		}
+
 		$verifyErr = SignatureVerifier::verify( 'POST', $gatewayPath, $action, $body, $headers );
 		if ( null !== $verifyErr ) {
 			GatewayResponse::json( false, array(), array( 'code' => $verifyErr, 'message' => 'Unauthorized' ), 401 );
@@ -62,8 +83,28 @@ final class GatewayDispatcher
 			GatewayResponse::json( false, array(), array( 'code' => 'REPLAY', 'message' => 'Nonce already used' ), 401 );
 		}
 
-		if ( '' === $action || ! ActionRegistry::has( $action ) ) {
-			GatewayResponse::json( false, array(), array( 'code' => 'UNKNOWN_ACTION', 'message' => 'Unknown action' ), 404 );
+		$policyErr = ActionPolicy::authorize( $action, $clientKind );
+		if ( null !== $policyErr ) {
+			GatewayResponse::json(
+				false,
+				array(),
+				array( 'code' => $policyErr, 'message' => 'Forbidden' ),
+				403
+			);
+		}
+
+		if ( ActionClassification::isWrite( $action ) ) {
+			$productId = isset( $payload['product_id'] ) ? (int) $payload['product_id'] : 0;
+			try {
+				BookingAuthorizationService::assertCanManageProduct( $productId );
+			} catch ( GatewayAuthException $e ) {
+				GatewayResponse::json(
+					false,
+					array(),
+					array( 'code' => $e->errorCode(), 'message' => $e->getMessage() ),
+					403
+				);
+			}
 		}
 
 		ActionRegistry::dispatch( $action, $payload );
@@ -96,6 +137,15 @@ final class GatewayDispatcher
 		}
 
 		return trim( strip_tags( $str ) );
+	}
+
+	private static function logRateLimit( string $action ): void {
+		if ( ! ( defined( 'WP_DEBUG' ) && WP_DEBUG ) ) {
+			return;
+		}
+		$ipHash = hash( 'sha256', RateLimiter::clientIp() );
+		// phpcs:ignore WordPress.PHP.DevelopmentFunctions.error_log_error_log
+		error_log( '[EZ Gateway] rate_limit ip_hash=' . substr( $ipHash, 0, 12 ) . ' action=' . $action );
 	}
 
 	private static function wp_unslash_if_available( string $str ): string {

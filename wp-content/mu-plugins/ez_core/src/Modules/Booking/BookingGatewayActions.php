@@ -159,12 +159,14 @@ final class BookingGatewayActions
 			GatewayResponse::json( false, array(), array( 'code' => 'VALIDATION', 'message' => 'Invalid sans' ), 400 );
 		}
 
+		$userId = function_exists( 'get_current_user_id' ) ? (int) get_current_user_id() : 0;
+
 		$raw = BookingDispatchService::dispatchType(
 			$type,
 			array(
 				'product_id' => $productId,
 				'sans_time'  => $sansTime,
-				'user_id'    => isset( $body['user_id'] ) ? (int) $body['user_id'] : 0,
+				'user_id'    => $userId,
 			)
 		);
 

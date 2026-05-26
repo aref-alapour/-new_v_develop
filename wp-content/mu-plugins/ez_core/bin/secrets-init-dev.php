@@ -51,6 +51,18 @@ $plain = array(
 		'ajax_shared_secret'    => $ajaxSecret,
 		'booking_use_internal'  => true,
 		'booking_native_sanses' => true,
+		'rate_limits'           => array(
+			'booking.sans_day_json' => array(
+				'per_ip'         => 120,
+				'per_client'     => 60,
+				'window_seconds' => 60,
+			),
+			'default'               => array(
+				'per_ip'         => 60,
+				'per_client'     => 30,
+				'window_seconds' => 60,
+			),
+		),
 	),
 );
 

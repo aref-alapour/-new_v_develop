@@ -9,10 +9,16 @@ namespace EscapeZoom\Core\Modules\AjaxGateway;
  */
 final class GatewayResponse
 {
-	public static function json( bool $ok, array $data = array(), ?array $error = null, int $status = 200 ): void {
+	/**
+	 * @param array<string, string> $extraHeaders
+	 */
+	public static function json( bool $ok, array $data = array(), ?array $error = null, int $status = 200, array $extraHeaders = array() ): void {
 		status_header( $status );
 		header( 'Content-Type: application/json; charset=utf-8' );
 		header( 'X-Robots-Tag: noindex' );
+		foreach ( $extraHeaders as $name => $value ) {
+			header( $name . ': ' . $value );
+		}
 		$payload = array( 'ok' => $ok );
 		if ( $ok ) {
 			$payload['data'] = $data;

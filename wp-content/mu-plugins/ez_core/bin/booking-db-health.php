@@ -24,6 +24,7 @@ if ( ! is_readable( $autoload ) ) {
 
 require_once $autoload;
 
+use EscapeZoom\Core\Infrastructure\Cache\CacheRepositoryFactory;
 use EscapeZoom\Core\Infrastructure\Config\SecretsLoader;
 use EscapeZoom\Core\Infrastructure\Database\CapsuleManager;
 
@@ -156,6 +157,27 @@ if ( $mysqliOk && $conn instanceof mysqli ) {
 
 	$conn->close();
 }
+
+try {
+	$repo = CacheRepositoryFactory::repository();
+	$repo->put( 'ez_health_ping', 1, 10 );
+	$hit  = $repo->get( 'ez_health_ping' );
+	$lines[] = 'Rate limit cache store: ' . ( 1 === $hit ? 'OK' : 'FAIL' );
+	if ( 1 !== $hit ) {
+		$ok = false;
+	}
+} catch ( \Throwable $e ) {
+	$lines[] = 'Rate limit cache store: FAIL ' . $e->getMessage();
+	$ok      = false;
+}
+
+$rl = SecretsLoader::rateLimitFor( 'booking.sans_day_json' );
+$lines[] = sprintf(
+	'Rate limits (sans_day_json): ip=%d client=%d window=%ds',
+	$rl['per_ip'],
+	$rl['per_client'],
+	$rl['window_seconds']
+);
 
 $lines[] = 'Flags:';
 $lines[] = '  EZ_BOOKING_USE_INTERNAL: ' . ( defined( 'EZ_BOOKING_USE_INTERNAL' ) && EZ_BOOKING_USE_INTERNAL ? 'on' : 'off' );
