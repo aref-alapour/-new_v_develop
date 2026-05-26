@@ -94,8 +94,59 @@ final class SecretsLoader
 		);
 	}
 
+	/**
+	 * @return array{host: string, database: string, username: string, password: string, table_prefix: string}|null
+	 */
+	public static function wordpressDatabase(): ?array {
+		if ( ! self::boot() ) {
+			return null;
+		}
+
+		$host     = (string) self::get( 'wordpress.host', '' );
+		$database = (string) self::get( 'wordpress.database', '' );
+		$username = (string) self::get( 'wordpress.username', '' );
+		$password = (string) self::get( 'wordpress.password', '' );
+		$prefix   = (string) self::get( 'wordpress.table_prefix', '' );
+
+		if ( '' === $host || '' === $database || '' === $username || '' === $prefix ) {
+			return null;
+		}
+
+		return array(
+			'host'          => $host,
+			'database'      => $database,
+			'username'      => $username,
+			'password'      => $password,
+			'table_prefix'  => $prefix,
+		);
+	}
+
+	public static function tablePrefix(): string {
+		$wp = self::wordpressDatabase();
+		if ( null !== $wp ) {
+			return $wp['table_prefix'];
+		}
+
+		if ( isset( $GLOBALS['table_prefix'] ) && is_string( $GLOBALS['table_prefix'] ) && '' !== $GLOBALS['table_prefix'] ) {
+			return $GLOBALS['table_prefix'];
+		}
+
+		return 'wp_';
+	}
+
 	public static function ajaxSharedSecret(): string {
 		return (string) self::get( 'gateway.ajax_shared_secret', '' );
+	}
+
+	/**
+	 * Master AJAX signing secret from secrets.enc (empty if not configured).
+	 */
+	public static function resolveAjaxSharedSecret(): string {
+		if ( ! self::boot() ) {
+			return '';
+		}
+
+		return self::ajaxSharedSecret();
 	}
 
 	public static function bookingUseInternal(): bool {

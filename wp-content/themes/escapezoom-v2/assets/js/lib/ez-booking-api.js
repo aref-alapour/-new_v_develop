@@ -39,6 +39,24 @@ function isAbortError(error) {
 }
 
 /**
+ * @param {Response} resp
+ * @param {string} bodyText
+ * @returns {boolean}
+ */
+function isGatewayAuthFailure(resp, bodyText) {
+  if (resp.status !== 401 && resp.status !== 403) {
+    return false;
+  }
+  try {
+    const data = JSON.parse(bodyText);
+    const code = data?.error?.code;
+    return code === 'BAD_SIGNATURE' || code === 'MISSING_HEADERS' || code === 'BAD_TIMESTAMP' || code === 'REPLAY';
+  } catch {
+    return true;
+  }
+}
+
+/**
  * Parse gateway raw JSON (strips BOM; normalizes mistaken nested day bucket).
  *
  * @param {string} text
@@ -241,7 +259,16 @@ async function fetchAndRenderWeekFromJson(productId, dayStart, signal) {
     },
     { signal }
   );
-  const parsed = parseGatewaySansJson(await resp.text(), { days: 7 });
+  const text = await resp.text();
+  if (!resp.ok) {
+    if (isGatewayAuthFailure(resp, text)) {
+      const err = new Error('[EZ Booking] Gateway auth failed');
+      err.gatewayAuth = true;
+      throw err;
+    }
+    throw new Error(`booking.sans_day_json HTTP ${resp.status}`);
+  }
+  const parsed = parseGatewaySansJson(text, { days: 7 });
   const week = normalizeWeekDays(parsed, parseInt(dayStart, 10));
   return renderReserveWeekHtml(week, parseInt(dayStart, 10));
 }
@@ -260,6 +287,9 @@ export async function sansWeekHtml(productId, dayStart) {
       if (isAbortError(jsonErr)) {
         return null;
       }
+      if (jsonErr && typeof jsonErr === 'object' && jsonErr.gatewayAuth) {
+        throw jsonErr;
+      }
       console.warn('[EZ Booking] JSON week via light gateway failed, trying sans_week HTML', jsonErr);
     }
 
@@ -274,6 +304,12 @@ export async function sansWeekHtml(productId, dayStart) {
     );
     const text = (await resp.text()).replace(/^\uFEFF/, '').trim();
 
+    if (!resp.ok && isGatewayAuthFailure(resp, text)) {
+      const err = new Error('[EZ Booking] Gateway auth failed');
+      err.gatewayAuth = true;
+      throw err;
+    }
+
     if (!isJsonLike(text) && text.includes('class="box')) {
       return text;
     }
@@ -285,6 +321,13 @@ export async function sansWeekHtml(productId, dayStart) {
   } catch (err) {
     if (isAbortError(err)) {
       return null;
+    }
+    if (err && typeof err === 'object' && err.gatewayAuth) {
+      throw err;
+    }
+    const respText = err && typeof err === 'object' && err.responseText;
+    if (err && typeof err === 'object' && err.status && (err.status === 401 || err.status === 403)) {
+      throw err;
     }
     console.warn('[EZ Booking] sans_week HTML failed, trying admin-ajax', err);
   }

@@ -1,9 +1,8 @@
 <?php
 /**
- * CLI health check: external booking DB + products_data samples.
+ * CLI health check: secrets, AJAX secret, external + wordpress DB.
  *
  * Usage (repo root, no WordPress bootstrap):
- *   export EZ_CORE_SECRETS_KEY="..."
  *   php wp-content/mu-plugins/ez_core/bin/booking-db-health.php
  */
 
@@ -28,62 +27,89 @@ require_once $autoload;
 use EscapeZoom\Core\Infrastructure\Config\SecretsLoader;
 use EscapeZoom\Core\Infrastructure\Database\CapsuleManager;
 
-if ( ! SecretsLoader::isLoaded() ) {
-	fwrite( STDERR, 'Secrets not loaded: ' . ( SecretsLoader::getBootError() ?: 'unknown' ) . "\n" );
-	fwrite( STDERR, "Create config/secrets.enc — see .env.example\n" );
-	exit( 1 );
-}
-
-\EscapeZoom\Core\Core\Bootstrap::bootDataLayerOnly();
-
 $ok    = true;
 $lines = array();
 
 $lines[] = '=== EZ Booking DB health ===';
 
-$config = SecretsLoader::externalDatabase();
-$mask   = static function ( string $v ): string {
+if ( ! SecretsLoader::isLoaded() ) {
+	$lines[] = 'FAIL: secrets not loaded: ' . ( SecretsLoader::getBootError() ?: 'unknown' );
+	$ok      = false;
+} else {
+	$lines[] = 'Secrets: OK';
+}
+
+$ajaxConfigured = defined( 'EZ_AJAX_SHARED_SECRET' ) && '' !== (string) EZ_AJAX_SHARED_SECRET;
+$lines[]          = 'EZ_AJAX_SHARED_SECRET: ' . ( $ajaxConfigured ? 'configured' : 'MISSING' );
+if ( ! $ajaxConfigured ) {
+	$ok = false;
+}
+
+$mask = static function ( string $v ): string {
 	return '' === $v ? '(empty)' : ( str_repeat( '*', min( 8, strlen( $v ) ) ) );
 };
 
-if ( null === $config ) {
+$extConfig = SecretsLoader::externalDatabase();
+if ( null === $extConfig ) {
 	$lines[] = 'FAIL: external database config missing in secrets.enc';
 	$ok      = false;
 } else {
-	$lines[] = 'Config (from secrets.enc):';
-	$lines[] = '  host:     ' . $config['host'];
-	$lines[] = '  database: ' . $config['database'];
-	$lines[] = '  user:     ' . $config['username'];
-	$lines[] = '  password: ' . $mask( $config['password'] );
+	$lines[] = 'External (secrets.enc):';
+	$lines[] = '  host:     ' . $extConfig['host'];
+	$lines[] = '  database: ' . $extConfig['database'];
+	$lines[] = '  user:     ' . $extConfig['username'];
+	$lines[] = '  password: ' . $mask( $extConfig['password'] );
+}
+
+$wpConfig = SecretsLoader::wordpressDatabase();
+if ( null === $wpConfig ) {
+	$lines[] = 'FAIL: wordpress database config missing in secrets.enc';
+	$ok      = false;
+} else {
+	$lines[] = 'WordPress (secrets.enc):';
+	$lines[] = '  host:     ' . $wpConfig['host'];
+	$lines[] = '  database: ' . $wpConfig['database'];
+	$lines[] = '  user:     ' . $wpConfig['username'];
+	$lines[] = '  password: ' . $mask( $wpConfig['password'] );
+	$lines[] = '  prefix:   ' . $wpConfig['table_prefix'];
 }
 
 if ( defined( 'DB_EXT_NAME' ) ) {
 	$lines[] = 'Bridge DB_EXT_NAME: ' . DB_EXT_NAME;
 }
 
-$capsuleOk = CapsuleManager::hasExternalConnection();
-$lines[]   = 'Capsule external connection: ' . ( $capsuleOk ? 'OK' : 'FAIL' );
-if ( ! $capsuleOk ) {
+\EscapeZoom\Core\Core\Bootstrap::bootDataLayerOnly();
+
+$extCapsuleOk = CapsuleManager::hasExternalConnection();
+$lines[]      = 'Capsule external connection: ' . ( $extCapsuleOk ? 'OK' : 'FAIL' );
+if ( ! $extCapsuleOk ) {
+	$ok = false;
+}
+
+$wpCapsuleOk = CapsuleManager::hasWordpressConnection();
+$lines[]     = 'Capsule wordpress connection: ' . ( $wpCapsuleOk ? 'OK' : 'FAIL' );
+if ( ! $wpCapsuleOk ) {
 	$ok = false;
 }
 
 $conn     = null;
 $mysqliOk = false;
-if ( null !== $config && extension_loaded( 'mysqli' ) ) {
-	$host = $config['host'];
-	$user = $config['username'];
-	$pass = $config['password'];
-	$db   = $config['database'];
-	$conn = @new mysqli( $host, $user, $pass, $db );
+if ( null !== $extConfig && extension_loaded( 'mysqli' ) ) {
+	$conn = @new mysqli(
+		$extConfig['host'],
+		$extConfig['username'],
+		$extConfig['password'],
+		$extConfig['database']
+	);
 	if ( $conn instanceof mysqli && ! $conn->connect_errno ) {
 		$mysqliOk = true;
-		$lines[]  = 'mysqli direct: OK';
+		$lines[]  = 'mysqli external direct: OK';
 	} else {
-		$lines[] = 'mysqli direct: FAIL ' . ( $conn instanceof mysqli ? $conn->connect_error : 'connect failed' );
+		$lines[] = 'mysqli external direct: FAIL ' . ( $conn instanceof mysqli ? $conn->connect_error : 'connect failed' );
 		$ok      = false;
 	}
 } else {
-	$lines[] = 'mysqli direct: SKIP';
+	$lines[] = 'mysqli external direct: SKIP';
 }
 
 $testProducts = array( 692762, 762302, 52537 );
@@ -139,8 +165,9 @@ if ( ! $ok ) {
 	$lines[] = '';
 	$lines[] = 'Suggested actions:';
 	$lines[] = '  1. Set EZ_CORE_SECRETS_KEY and create config/secrets.enc (see .env.example)';
-	$lines[] = '  2. Ensure MySQL has database escapezo_queries (import docs/escapezo_queries.sql)';
-	$lines[] = '  3. Re-run: php wp-content/mu-plugins/ez_core/bin/booking-db-health.php';
+	$lines[] = '  2. php wp-content/mu-plugins/ez_core/bin/secrets-migrate.php [--legacy-ajax]';
+	$lines[] = '  3. Ensure MySQL has escapezo_queries + WP database';
+	$lines[] = '  4. Hard-refresh browser after ajax secret change';
 }
 
 $lines[] = '';

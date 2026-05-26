@@ -20,15 +20,16 @@ final class CapsuleManager
 	private static bool $booted = false;
 
 	/**
-	 * Light /ajax: only escapezo_queries (booking reads).
+	 * Light /ajax: external (booking) + wordpress (prefixed WP tables).
 	 */
-	public static function bootExternalOnly(): void {
+	public static function bootLightGateway(): void {
 		if ( self::$booted ) {
 			return;
 		}
 
 		$extConfig = self::resolveExternalConfig();
-		if ( null === $extConfig ) {
+		$wpConfig  = self::resolveWordpressConfig();
+		if ( null === $extConfig && null === $wpConfig ) {
 			return;
 		}
 
@@ -36,26 +37,22 @@ final class CapsuleManager
 		$collation = defined( 'DB_COLLATE' ) && DB_COLLATE ? DB_COLLATE : 'utf8mb4_unicode_ci';
 
 		self::$capsule = new Capsule();
-		$connection    = array(
-			'driver'    => 'mysql',
-			'host'      => $extConfig['host'],
-			'database'  => $extConfig['database'],
-			'username'  => $extConfig['username'],
-			'password'  => $extConfig['password'],
-			'charset'   => $charset,
-			'collation' => $collation,
-			'prefix'    => '',
-			'strict'    => false,
-			'engine'    => null,
-		);
-		if ( isset( $extConfig['port'] ) && null !== $extConfig['port'] ) {
-			$connection['port'] = $extConfig['port'];
-		}
-		if ( isset( $extConfig['unix_socket'] ) && null !== $extConfig['unix_socket'] ) {
-			$connection['unix_socket'] = $extConfig['unix_socket'];
+
+		if ( null !== $extConfig ) {
+			self::$capsule->addConnection( self::buildConnectionArray( $extConfig, $charset, $collation, '' ), 'external' );
 		}
 
-		self::$capsule->addConnection( $connection, 'external' );
+		if ( null !== $wpConfig ) {
+			self::$capsule->addConnection(
+				self::buildConnectionArray( $wpConfig, $charset, $collation, '' ),
+				'default'
+			);
+			self::$capsule->addConnection(
+				self::buildConnectionArray( $wpConfig, $charset, $collation, $wpConfig['table_prefix'] ),
+				'wordpress'
+			);
+		}
+
 		self::$capsule->setEventDispatcher( new Dispatcher( new Container() ) );
 		self::$capsule->setAsGlobal();
 		self::$capsule->bootEloquent();
@@ -63,73 +60,73 @@ final class CapsuleManager
 		self::$booted = true;
 	}
 
+	/**
+	 * @deprecated Use bootLightGateway()
+	 */
+	public static function bootExternalOnly(): void {
+		self::bootLightGateway();
+	}
+
 	public static function boot(): void {
 		if ( self::$booted ) {
 			return;
 		}
 
-		if ( ! defined( 'DB_NAME' ) || ! defined( 'DB_USER' ) || ! defined( 'DB_PASSWORD' ) || ! defined( 'DB_HOST' ) ) {
+		$wpConfig = self::resolveWordpressConfig();
+		if ( null === $wpConfig && ( ! defined( 'DB_NAME' ) || ! defined( 'DB_USER' ) || ! defined( 'DB_PASSWORD' ) || ! defined( 'DB_HOST' ) ) ) {
 			return;
 		}
 
 		self::$capsule = new Capsule();
-		$wp_prefix     = $GLOBALS['table_prefix'] ?? 'wp_';
 		$charset       = defined( 'DB_CHARSET' ) ? DB_CHARSET : 'utf8mb4';
 		$collation     = defined( 'DB_COLLATE' ) && DB_COLLATE ? DB_COLLATE : 'utf8mb4_unicode_ci';
 
-		self::$capsule->addConnection(
-			array(
-				'driver'    => 'mysql',
-				'host'      => DB_HOST,
-				'database'  => DB_NAME,
-				'username'  => DB_USER,
-				'password'  => DB_PASSWORD,
-				'charset'   => $charset,
-				'collation' => $collation,
-				'prefix'    => '',
-				'strict'    => false,
-				'engine'    => null,
-			),
-			'default'
-		);
-
-		self::$capsule->addConnection(
-			array(
-				'driver'    => 'mysql',
-				'host'      => DB_HOST,
-				'database'  => DB_NAME,
-				'username'  => DB_USER,
-				'password'  => DB_PASSWORD,
-				'charset'   => $charset,
-				'collation' => $collation,
-				'prefix'    => $wp_prefix,
-				'strict'    => false,
-				'engine'    => null,
-			),
-			'wordpress'
-		);
+		if ( null !== $wpConfig ) {
+			self::$capsule->addConnection(
+				self::buildConnectionArray( $wpConfig, $charset, $collation, '' ),
+				'default'
+			);
+			self::$capsule->addConnection(
+				self::buildConnectionArray( $wpConfig, $charset, $collation, $wpConfig['table_prefix'] ),
+				'wordpress'
+			);
+		} else {
+			$wp_prefix = $GLOBALS['table_prefix'] ?? 'wp_';
+			self::$capsule->addConnection(
+				array(
+					'driver'    => 'mysql',
+					'host'      => DB_HOST,
+					'database'  => DB_NAME,
+					'username'  => DB_USER,
+					'password'  => DB_PASSWORD,
+					'charset'   => $charset,
+					'collation' => $collation,
+					'prefix'    => '',
+					'strict'    => false,
+					'engine'    => null,
+				),
+				'default'
+			);
+			self::$capsule->addConnection(
+				array(
+					'driver'    => 'mysql',
+					'host'      => DB_HOST,
+					'database'  => DB_NAME,
+					'username'  => DB_USER,
+					'password'  => DB_PASSWORD,
+					'charset'   => $charset,
+					'collation' => $collation,
+					'prefix'    => $wp_prefix,
+					'strict'    => false,
+					'engine'    => null,
+				),
+				'wordpress'
+			);
+		}
 
 		$extConfig = self::resolveExternalConfig();
 		if ( null !== $extConfig ) {
-			$connection = array(
-				'driver'    => 'mysql',
-				'host'      => $extConfig['host'],
-				'database'  => $extConfig['database'],
-				'username'  => $extConfig['username'],
-				'password'  => $extConfig['password'],
-				'charset'   => $charset,
-				'collation' => $collation,
-				'prefix'    => '',
-				'strict'    => false,
-				'engine'    => null,
-			);
-			if ( isset( $extConfig['port'] ) && null !== $extConfig['port'] ) {
-				$connection['port'] = $extConfig['port'];
-			}
-			if ( isset( $extConfig['unix_socket'] ) && null !== $extConfig['unix_socket'] ) {
-				$connection['unix_socket'] = $extConfig['unix_socket'];
-			}
-			self::$capsule->addConnection( $connection, 'external' );
+			self::$capsule->addConnection( self::buildConnectionArray( $extConfig, $charset, $collation, '' ), 'external' );
 		}
 
 		self::$capsule->setEventDispatcher( new Dispatcher( new Container() ) );
@@ -164,15 +161,27 @@ final class CapsuleManager
 	}
 
 	public static function hasExternalConnection(): bool {
+		return self::connectionPing( 'external' );
+	}
+
+	public static function hasWordpressConnection(): bool {
+		return self::connectionPing( 'wordpress' );
+	}
+
+	private static function connectionPing( string $name ): bool {
 		if ( ! self::$booted ) {
-			self::boot();
+			if ( defined( 'EZ_AJAX_LIGHT_GATEWAY' ) && EZ_AJAX_LIGHT_GATEWAY ) {
+				self::bootLightGateway();
+			} else {
+				self::boot();
+			}
 		}
 		if ( null === self::$capsule ) {
 			return false;
 		}
 
 		try {
-			self::$capsule->getConnection( 'external' )->getPdo();
+			self::$capsule->getConnection( $name )->getPdo();
 
 			return true;
 		} catch ( \Throwable $e ) {
@@ -181,9 +190,36 @@ final class CapsuleManager
 	}
 
 	/**
+	 * @param array{host: string, database: string, username: string, password: string, port?: int, unix_socket?: string} $config
+	 * @return array<string, mixed>
+	 */
+	private static function buildConnectionArray( array $config, string $charset, string $collation, string $prefix ): array {
+		$connection = array(
+			'driver'    => 'mysql',
+			'host'      => $config['host'],
+			'database'  => $config['database'],
+			'username'  => $config['username'],
+			'password'  => $config['password'],
+			'charset'   => $charset,
+			'collation' => $collation,
+			'prefix'    => $prefix,
+			'strict'    => false,
+			'engine'    => null,
+		);
+		if ( isset( $config['port'] ) && null !== $config['port'] ) {
+			$connection['port'] = $config['port'];
+		}
+		if ( isset( $config['unix_socket'] ) && null !== $config['unix_socket'] ) {
+			$connection['unix_socket'] = $config['unix_socket'];
+		}
+
+		return $connection;
+	}
+
+	/**
 	 * Primary: secrets.enc via SecretsLoader. Rollback: DB_EXT_* if already defined.
 	 *
-	 * @return array{host: string, database: string, username: string, password: string}|null
+	 * @return array{host: string, database: string, username: string, password: string, port?: int, unix_socket?: string}|null
 	 */
 	private static function resolveExternalConfig(): ?array {
 		$raw = SecretsLoader::externalDatabase();
@@ -202,6 +238,35 @@ final class CapsuleManager
 		}
 
 		return self::applyHostParse( $raw );
+	}
+
+	/**
+	 * Primary: secrets.enc. Rollback: wp-config DB_* constants.
+	 *
+	 * @return array{host: string, database: string, username: string, password: string, table_prefix: string, port?: int, unix_socket?: string}|null
+	 */
+	private static function resolveWordpressConfig(): ?array {
+		$raw = SecretsLoader::wordpressDatabase();
+
+		if ( null === $raw && defined( 'DB_NAME' ) && defined( 'DB_USER' ) && defined( 'DB_PASSWORD' ) && defined( 'DB_HOST' ) ) {
+			$prefix = $GLOBALS['table_prefix'] ?? 'wp_';
+			$raw    = array(
+				'host'          => DB_HOST,
+				'database'      => DB_NAME,
+				'username'      => DB_USER,
+				'password'      => DB_PASSWORD,
+				'table_prefix'  => is_string( $prefix ) ? $prefix : 'wp_',
+			);
+		}
+
+		if ( null === $raw ) {
+			return null;
+		}
+
+		$parsed = self::applyHostParse( $raw );
+		$parsed['table_prefix'] = $raw['table_prefix'];
+
+		return $parsed;
 	}
 
 	/**

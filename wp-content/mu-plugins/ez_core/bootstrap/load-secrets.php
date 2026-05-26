@@ -41,11 +41,6 @@ if ( $secretsOk ) {
 		}
 	}
 
-	$ajaxSecret = SecretsLoader::ajaxSharedSecret();
-	if ( '' !== $ajaxSecret && ! defined( 'EZ_AJAX_SHARED_SECRET' ) ) {
-		define( 'EZ_AJAX_SHARED_SECRET', $ajaxSecret );
-	}
-
 	if ( ! defined( 'EZ_BOOKING_USE_INTERNAL' ) ) {
 		define( 'EZ_BOOKING_USE_INTERNAL', SecretsLoader::bookingUseInternal() );
 	}
@@ -76,5 +71,9 @@ if ( ! defined( 'WP_DEBUG' ) ) {
 }
 
 if ( ! isset( $GLOBALS['table_prefix'] ) ) {
-	$GLOBALS['table_prefix'] = getenv( 'WORDPRESS_TABLE_PREFIX' ) ?: 'wp_';
+	$GLOBALS['table_prefix'] = SecretsLoader::isLoaded()
+		? SecretsLoader::tablePrefix()
+		: ( getenv( 'WORDPRESS_TABLE_PREFIX' ) ?: 'wp_' );
 }
+
+require __DIR__ . '/ajax-secret.php';

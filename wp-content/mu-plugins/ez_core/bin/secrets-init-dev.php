@@ -27,18 +27,27 @@ use EscapeZoom\Core\Infrastructure\Config\SecretsLoader;
 $dbPassword = getenv( 'WORDPRESS_DB_PASSWORD' ) ?: 'arefpassword';
 $dbUser     = getenv( 'WORDPRESS_DB_USER' ) ?: 'root';
 $dbHost     = getenv( 'WORDPRESS_DB_HOST' ) ?: 'mysql';
+$dbName     = getenv( 'WORDPRESS_DB_NAME' ) ?: 'escapezo_ez9920';
+$tablePrefix = getenv( 'WORDPRESS_TABLE_PREFIX' ) ?: 'wp_';
 
 $keyBase64  = base64_encode( sodium_crypto_secretbox_keygen() );
 $ajaxSecret = bin2hex( random_bytes( 32 ) );
 
 $plain = array(
-	'external' => array(
+	'external'   => array(
 		'host'     => $dbHost,
 		'database' => 'escapezo_queries',
 		'username' => $dbUser,
 		'password' => $dbPassword,
 	),
-	'gateway'  => array(
+	'wordpress'  => array(
+		'host'          => $dbHost,
+		'database'      => $dbName,
+		'username'      => $dbUser,
+		'password'      => $dbPassword,
+		'table_prefix'  => $tablePrefix,
+	),
+	'gateway'    => array(
 		'ajax_shared_secret'    => $ajaxSecret,
 		'booking_use_internal'  => true,
 		'booking_native_sanses' => true,
@@ -72,5 +81,5 @@ echo "  {$encPath}\n";
 echo "  {$plainPath}\n";
 echo "  {$envPath}\n";
 echo "\nEZ_CORE_SECRETS_KEY={$keyBase64}\n";
-echo "\nRestart WordPress container, then:\n";
+echo "\nHard-refresh the browser (reserve page), then:\n";
 echo "  php wp-content/mu-plugins/ez_core/bin/booking-db-health.php\n";

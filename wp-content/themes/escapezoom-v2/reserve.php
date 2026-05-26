@@ -341,7 +341,6 @@ wp_enqueue_script('persian-date');
                     return;
                 }
             }
-            console.log(time);
 
             $.ajax({
                 url: "<?php echo admin_url('admin-ajax.php'); ?>",

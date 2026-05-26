@@ -23,7 +23,7 @@ final class Bootstrap
 		self::$dataLayerBooted = true;
 
 		if ( defined( 'EZ_AJAX_LIGHT_GATEWAY' ) && EZ_AJAX_LIGHT_GATEWAY ) {
-			CapsuleManager::bootExternalOnly();
+			CapsuleManager::bootLightGateway();
 		} else {
 			CapsuleManager::boot();
 		}

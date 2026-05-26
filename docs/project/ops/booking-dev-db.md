@@ -31,12 +31,23 @@ php wp-content/mu-plugins/ez_core/bin/secrets-encrypt.php
 
 | Section | Fields |
 |---------|--------|
-| `external` | `host`, `database`, `username`, `password` |
+| `external` | `host`, `database`, `username`, `password` — `escapezo_queries` (booking) |
+| `wordpress` | `host`, `database`, `username`, `password`, `table_prefix` — main WP DB |
 | `gateway` | `ajax_shared_secret`, `booking_use_internal`, `booking_native_sanses` |
 
-On WordPress boot, MU-plugin defines bridge constants `DB_EXT_*` and `EZ_*` from decrypted secrets (for legacy theme code). **`wp-config-docker.php` does not contain booking credentials.**
+`EZ_AJAX_SHARED_SECRET` is defined **only** from `secrets.enc` (not from `wp-config.php`). Page boot (`__EZ_BOOT__`) and light `/ajax` must use the same `gateway.ajax_shared_secret`.
 
-**MU-plugin loader:** use only [`wp-content/mu-plugins/ez_core.php`](../../../wp-content/mu-plugins/ez_core.php).
+**Migrate existing secrets (add `wordpress`, sync legacy ajax secret):**
+
+```bash
+php wp-content/mu-plugins/ez_core/bin/secrets-migrate.php --legacy-ajax
+```
+
+Then hard-refresh the browser.
+
+On WordPress boot, MU-plugin defines bridge constants `DB_EXT_*` and `EZ_*` from decrypted secrets (for legacy theme code). WordPress core still uses `wp-config` `DB_*`; Capsule `wordpress` connection reads from secrets first.
+
+**MU-plugin loader:** use only [`wp-content/mu-plugins/ez_core.php`](../../../wp-content/mu-plugins/ez_core.php) (not `ez-core.php`).
 
 **Front bundle after JS changes:** `cd wp-content/themes/escapezoom-v2 && npm run build:front:js`, then hard refresh.
 
@@ -90,7 +101,10 @@ After fix, in Chrome Network:
 | Symptom | Action |
 |---------|--------|
 | `[]` + DB unavailable log | Run health script; fix `secrets.enc`; import DB |
-| Light ajax 503 SECRETS | Set `EZ_CORE_SECRETS_KEY`; run `secrets-encrypt.php` |
+| Light ajax 503 SECRETS | Set `EZ_CORE_SECRETS_KEY`; run `secrets-encrypt.php` or `secrets-init-dev.php` |
+| 401 `BAD_SIGNATURE` on `/ajax` | Run `secrets-migrate.php --legacy-ajax` or align `gateway.ajax_shared_secret` with boot; hard refresh |
+| `EZ_AJAX_SHARED_SECRET: MISSING` in health | Re-encrypt secrets; ensure `ajax-secret.php` runs after `load-secrets.php` |
+| Capsule wordpress FAIL | Add `wordpress` block to secrets; run `secrets-migrate.php` |
 | `X-EZ-Booking-Path: legacy` | Set `gateway.booking_native_sanses` true in secrets |
 | Reserve page shows raw JSON | Rebuild `dist/front.js`; week uses client-side JSON render |
 | No `X-EZ-Gateway: light` | Apache must read `.htaccess`; header `X-EZ-Action: booking.sans_day_json` required |

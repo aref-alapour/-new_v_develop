@@ -91,53 +91,11 @@ function bindDatePickers() {
   });
 }
 
-async function loadReserveWeekTable(productId, dayStart) {
-  const root = document.getElementById('table-of-sans');
-  if (!root || !productId || !dayStart) {
-    return;
-  }
-  const skeleton =
-    "<div class='grid gap-3' style='grid-template-columns: repeat(7, minmax(0, 1fr))'>" +
-    "<div class='skeleton aspect-square rounded-xl'></div>".repeat(7 * 4) +
-    '</div>';
-  root.innerHTML = skeleton;
-  try {
-    root.innerHTML = await ezBookingApi.sansWeekHtml(productId, dayStart);
-    if (window.htmx?.process) {
-      window.htmx.process(root);
-    }
-  } catch (e) {
-    console.error('[ez-booking] sans_week failed', e);
-  }
-}
-
-function bindReserveWeekTable() {
-  const root = document.getElementById('table-of-sans');
-  if (!root?.dataset.productId) {
-    return;
-  }
-  const productId = parseInt(root.dataset.productId, 10);
-  const dayStart = parseInt(root.dataset.dayStart || '0', 10);
-  loadReserveWeekTable(productId, dayStart);
-
-  document.body.addEventListener('click', (ev) => {
-    const btn = ev.target.closest('[data-timestamp]');
-    if (!btn || !document.getElementById('table-of-sans')) {
-      return;
-    }
-    const ts = parseInt(btn.getAttribute('data-timestamp') || '0', 10);
-    if (ts > 0) {
-      loadReserveWeekTable(productId, ts);
-    }
-  });
-}
-
 document.addEventListener('DOMContentLoaded', () => {
   if (!window.__EZ_BOOT__?.sub_secret) {
     return;
   }
   bindDatePickers();
-  bindReserveWeekTable();
 
   const initialDay =
     parseInt(document.body.dataset.ezInitialDay || '0', 10) ||
