@@ -17,7 +17,16 @@ Copy [`.env.example`](../../../.env.example) to `.env` (or set Docker env vars):
 | `WORDPRESS_DB_EXT_USER` | same as `WORDPRESS_DB_USER` |
 | `WORDPRESS_DB_EXT_PASSWORD` | **same as** `WORDPRESS_DB_PASSWORD` |
 
-[`wp-config-docker.php`](../../../wp-config-docker.php) maps these to `DB_EXT_*` constants for Capsule and `web-service/db-connect.php`.
+[`wp-config.php`](../../../wp-config.php) and [`wp-config-docker.php`](../../../wp-config-docker.php) both define `DB_EXT_*` and booking flags. Keep them in sync when adding new constants.
+
+| Constant / env | `wp-config.php` default | `wp-config-docker.php` default |
+|----------------|----------------------|------------------------------|
+| `EZ_BOOKING_USE_INTERNAL` | env `1` | env `1` |
+| `EZ_BOOKING_NATIVE_SANSES` | env `1` | env `1` |
+
+**MU-plugin loader:** use only [`wp-content/mu-plugins/ez_core.php`](../../../wp-content/mu-plugins/ez_core.php). Do not add a second loader (`ez-core.php` was removed as duplicate).
+
+**Front bundle after JS changes:** `cd wp-content/themes/escapezoom-v2 && npm run build:front:js`, then hard refresh.
 
 ## 2. Create / import database
 
@@ -76,3 +85,29 @@ After fix, in Chrome Network:
 | `X-EZ-Booking-Path: legacy` | Set `EZ_BOOKING_NATIVE_SANSES` true |
 | Still slow (~14s) on legacy | Enable native flag; legacy light bootstrap only helps `get_sanses` fallback |
 | Parity mismatch | Compare timezone / `calendar_data` / schedule column |
+| Reserve page shows raw JSON | Rebuild `dist/front.js`; `sansWeekHtml` renders JSON to HTML client-side |
+| Still slow after native on | Confirm `X-EZ-Gateway: light` on `booking.sans_day_json`; restart Apache after `.htaccess` change |
+| No `X-EZ-Gateway: light` | Apache must read `.htaccess`; header `X-EZ-Action: booking.sans_day_json` required |
+
+## 7. Light `/ajax` for `booking.sans_day_json`
+
+Calendar day clicks on single-product use `booking.sans_day_json`. Those requests are routed to `ez-ajax.php` at the site root (no `wp-settings.php`) when:
+
+- `POST /ajax`
+- Header `X-EZ-Action: booking.sans_day_json`
+
+`.htaccess` rule (before WordPress catch-all):
+
+```apache
+RewriteCond %{REQUEST_METHOD} POST
+RewriteCond %{HTTP:X-EZ-Action} ^booking\.sans_day_json$ [NC]
+RewriteRule ^ajax/?$ ez-ajax.php [L]
+```
+
+Verify in DevTools → Network → response headers:
+
+- `X-EZ-Gateway: light`
+- `X-EZ-Booking-Path: native` (when `WP_DEBUG` / dev)
+- TTFB should drop from ~7–19s to well under 1s (DB + query only)
+
+Reserve week (`booking.sans_week`) and other actions still use full WordPress via `index.php`.

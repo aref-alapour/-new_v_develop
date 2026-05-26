@@ -22,7 +22,11 @@ final class Bootstrap
 		}
 		self::$dataLayerBooted = true;
 
-		CapsuleManager::boot();
+		if ( defined( 'EZ_AJAX_LIGHT_GATEWAY' ) && EZ_AJAX_LIGHT_GATEWAY ) {
+			CapsuleManager::bootExternalOnly();
+		} else {
+			CapsuleManager::boot();
+		}
 
 		$helpers = dirname( __DIR__ ) . '/Support/database-helpers.php';
 		if ( is_readable( $helpers ) ) {

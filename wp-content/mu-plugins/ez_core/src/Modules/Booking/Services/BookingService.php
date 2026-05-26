@@ -13,6 +13,9 @@ final class BookingService
 
 	private const CACHE_TTL = 45;
 
+	/** @var array<string, array<int, array<string, mixed>>> */
+	private static array $requestCache = array();
+
 	/**
 	 * Same contract as legacy get_sanses with days=1 (flat array).
 	 *
@@ -28,8 +31,13 @@ final class BookingService
 		}
 
 		$cacheKey = "ez_sanses_{$productId}_{$dayStartTime}_{$days}";
-		$cached   = wp_cache_get( $cacheKey, self::CACHE_GROUP );
+		if ( isset( self::$requestCache[ $cacheKey ] ) ) {
+			return self::$requestCache[ $cacheKey ];
+		}
+		$cached = function_exists( 'wp_cache_get' ) ? wp_cache_get( $cacheKey, self::CACHE_GROUP ) : false;
 		if ( is_array( $cached ) && array() !== $cached ) {
+			self::$requestCache[ $cacheKey ] = $cached;
+
 			return $cached;
 		}
 
@@ -40,7 +48,10 @@ final class BookingService
 
 		// Never cache empty — avoids sticky [] after a transient DB outage.
 		if ( array() !== $result && self::resultHasSlots( $result, $days ) ) {
-			wp_cache_set( $cacheKey, $result, self::CACHE_GROUP, self::CACHE_TTL );
+			self::$requestCache[ $cacheKey ] = $result;
+			if ( function_exists( 'wp_cache_set' ) ) {
+				wp_cache_set( $cacheKey, $result, self::CACHE_GROUP, self::CACHE_TTL );
+			}
 		}
 
 		return $result;

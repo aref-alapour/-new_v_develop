@@ -4,12 +4,8 @@ declare(strict_types=1);
 
 namespace EscapeZoom\Core\Modules\AjaxGateway;
 
-use EscapeZoom\Core\Modules\AjaxGateway\Auth\NonceStore;
-use EscapeZoom\Core\Modules\AjaxGateway\Auth\SignatureVerifier;
-use EZ\Ajax\Auth\SubKey;
-
 /**
- * POST /ajax signed gateway entry.
+ * POST /ajax signed gateway entry (WordPress rewrite → full bootstrap).
  */
 final class GatewayRouter
 {
@@ -26,62 +22,7 @@ final class GatewayRouter
 			return;
 		}
 
-		while ( ob_get_level() > 0 ) {
-			ob_end_clean();
-		}
-
-		if ( ( $_SERVER['REQUEST_METHOD'] ?? '' ) !== 'POST' ) {
-			GatewayResponse::json( false, array(), array( 'code' => 'METHOD_NOT_ALLOWED', 'message' => 'POST only' ), 405 );
-		}
-
-		if ( ! defined( 'EZ_AJAX_SHARED_SECRET' ) || '' === (string) EZ_AJAX_SHARED_SECRET ) {
-			GatewayResponse::json( false, array(), array( 'code' => 'GATEWAY_DISABLED', 'message' => 'Gateway not configured' ), 503 );
-		}
-
-		$raw   = file_get_contents( 'php://input' );
-		$body  = is_string( $raw ) ? $raw : '';
-		$json  = json_decode( $body, true );
-		$payload = is_array( $json ) ? $json : array();
-
-		$action = '';
-		if ( isset( $_GET['action'] ) ) {
-			$action = sanitize_text_field( wp_unslash( (string) $_GET['action'] ) );
-		}
-		if ( '' === $action && isset( $payload['action'] ) ) {
-			$action = sanitize_text_field( (string) $payload['action'] );
-		}
-		unset( $payload['action'] );
-
-		$headers = self::normalizeHeaders();
-		$path    = self::gatewayPath();
-
-		// Action for HMAC must match X-EZ-Action (ez-ajax.js); body often has no "action" field.
-		if ( isset( $headers['x-ez-action'] ) && '' !== $headers['x-ez-action'] ) {
-			$action = sanitize_text_field( $headers['x-ez-action'] );
-		}
-
-		$kid         = $headers['x-ez-kid'] ?? 'v1';
-		$clientId    = $headers['x-ez-client-id'] ?? '';
-		$clientKind  = $headers['x-ez-client-kind'] ?? 'web-anon';
-		$expires     = isset( $headers['x-ez-sub-expires'] ) ? (int) $headers['x-ez-sub-expires'] : 0;
-		$subSecret   = SubKey::deriveBase64Url( (string) EZ_AJAX_SHARED_SECRET, $kid, $clientId, $expires );
-		$headers['x-ez-sub-secret'] = $subSecret;
-
-		$verifyErr = SignatureVerifier::verify( 'POST', $path, $action, $body, $headers );
-		if ( null !== $verifyErr ) {
-			GatewayResponse::json( false, array(), array( 'code' => $verifyErr, 'message' => 'Unauthorized' ), 401 );
-		}
-
-		$nonce = $headers['x-ez-nonce'] ?? '';
-		if ( ! NonceStore::consume( $clientId, $nonce ) ) {
-			GatewayResponse::json( false, array(), array( 'code' => 'REPLAY', 'message' => 'Nonce already used' ), 401 );
-		}
-
-		if ( '' === $action || ! ActionRegistry::has( $action ) ) {
-			GatewayResponse::json( false, array(), array( 'code' => 'UNKNOWN_ACTION', 'message' => 'Unknown action' ), 404 );
-		}
-
-		ActionRegistry::dispatch( $action, $payload );
+		GatewayDispatcher::handle( self::gatewayPath() );
 	}
 
 	private static function gatewayPath(): string {
@@ -92,26 +33,5 @@ final class GatewayRouter
 		$home = rtrim( $home, '/' ) ?: '/';
 
 		return $home;
-	}
-
-	/**
-	 * @return array<string,string>
-	 */
-	private static function normalizeHeaders(): array {
-		$out = array();
-		foreach ( $_SERVER as $key => $value ) {
-			if ( ! is_string( $key ) || ! str_starts_with( $key, 'HTTP_' ) ) {
-				continue;
-			}
-			$name = strtolower( str_replace( '_', '-', substr( $key, 5 ) ) );
-			if ( is_string( $value ) ) {
-				$out[ $name ] = $value;
-			}
-		}
-		if ( isset( $_SERVER['HTTP_X_EZ_ACTION'] ) ) {
-			$out['x-ez-action'] = sanitize_text_field( wp_unslash( (string) $_SERVER['HTTP_X_EZ_ACTION'] ) );
-		}
-
-		return $out;
 	}
 }

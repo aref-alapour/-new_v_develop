@@ -18,6 +18,50 @@ final class CapsuleManager
 
 	private static bool $booted = false;
 
+	/**
+	 * Light /ajax: only escapezo_queries (booking reads).
+	 */
+	public static function bootExternalOnly(): void {
+		if ( self::$booted ) {
+			return;
+		}
+
+		$extConfig = self::resolveExternalConfig();
+		if ( null === $extConfig ) {
+			return;
+		}
+
+		$charset   = defined( 'DB_CHARSET' ) ? DB_CHARSET : 'utf8mb4';
+		$collation = defined( 'DB_COLLATE' ) && DB_COLLATE ? DB_COLLATE : 'utf8mb4_unicode_ci';
+
+		self::$capsule = new Capsule();
+		$connection    = array(
+			'driver'    => 'mysql',
+			'host'      => $extConfig['host'],
+			'database'  => $extConfig['database'],
+			'username'  => $extConfig['username'],
+			'password'  => $extConfig['password'],
+			'charset'   => $charset,
+			'collation' => $collation,
+			'prefix'    => '',
+			'strict'    => false,
+			'engine'    => null,
+		);
+		if ( isset( $extConfig['port'] ) && null !== $extConfig['port'] ) {
+			$connection['port'] = $extConfig['port'];
+		}
+		if ( isset( $extConfig['unix_socket'] ) && null !== $extConfig['unix_socket'] ) {
+			$connection['unix_socket'] = $extConfig['unix_socket'];
+		}
+
+		self::$capsule->addConnection( $connection, 'external' );
+		self::$capsule->setEventDispatcher( new Dispatcher( new Container() ) );
+		self::$capsule->setAsGlobal();
+		self::$capsule->bootEloquent();
+
+		self::$booted = true;
+	}
+
 	public static function boot(): void {
 		if ( self::$booted ) {
 			return;

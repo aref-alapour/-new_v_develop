@@ -117,6 +117,33 @@ define( 'WP_DEBUG', !!getenv_docker('WORDPRESS_DEBUG', '') );
 
 /* Add any custom values between this line and the "stop editing" line. */
 
+// EscapeZoom: secondary database (booking, products_data, search)
+define( 'DB_EXT_NAME', getenv_docker( 'WORDPRESS_DB_EXT_NAME', 'escapezo_queries' ) );
+define( 'DB_EXT_USER', getenv_docker( 'WORDPRESS_DB_EXT_USER', 'root' ) );
+define( 'DB_EXT_PASSWORD', getenv_docker( 'WORDPRESS_DB_EXT_PASSWORD', 'arefpassword' ) );
+define( 'DB_EXT_HOST', getenv_docker( 'WORDPRESS_DB_EXT_HOST', DB_HOST ) );
+
+// EscapeZoom: signed AJAX gateway + internal booking dispatch
+if ( ! defined( 'EZ_AJAX_SHARED_SECRET' ) ) {
+	$ez_ajax_secret = getenv_docker( 'EZ_AJAX_SHARED_SECRET', '' );
+	if ( '' === $ez_ajax_secret ) {
+		$ez_ajax_secret = hash( 'sha256', AUTH_KEY . SECURE_AUTH_KEY . 'ez-ajax-gateway-v1' );
+	}
+	define( 'EZ_AJAX_SHARED_SECRET', $ez_ajax_secret );
+}
+if ( ! defined( 'EZ_BOOKING_USE_INTERNAL' ) ) {
+	define(
+		'EZ_BOOKING_USE_INTERNAL',
+		filter_var( getenv_docker( 'EZ_BOOKING_USE_INTERNAL', '1' ), FILTER_VALIDATE_BOOLEAN )
+	);
+}
+if ( ! defined( 'EZ_BOOKING_NATIVE_SANSES' ) ) {
+	define(
+		'EZ_BOOKING_NATIVE_SANSES',
+		filter_var( getenv_docker( 'EZ_BOOKING_NATIVE_SANSES', '1' ), FILTER_VALIDATE_BOOLEAN )
+	);
+}
+
 // If we're behind a proxy server and using HTTPS, we need to alert WordPress of that fact
 // see also https://wordpress.org/support/article/administration-over-ssl/#using-a-reverse-proxy
 if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && strpos($_SERVER['HTTP_X_FORWARDED_PROTO'], 'https') !== false) {
