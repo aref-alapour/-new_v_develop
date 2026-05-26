@@ -44,3 +44,13 @@ export function initBookingGatewayPages() {
     window.ezBookingLoadWeek = loadReserveWeekTable;
   }
 }
+
+/**
+ * Idempotent reserve gateway hook-up (safe when DOMContentLoaded already fired).
+ */
+export function ensureBookingGatewayPagesInit() {
+  if (!window.__EZ_BOOT__?.sub_secret) {
+    return;
+  }
+  initBookingGatewayPages();
+}

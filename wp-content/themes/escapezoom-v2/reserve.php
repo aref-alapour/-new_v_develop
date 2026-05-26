@@ -335,6 +335,9 @@ wp_enqueue_script('persian-date');
             if (root && productId > 0 && dayStart > 0) {
                 root.dataset.dayStart = String(dayStart);
             }
+            if (typeof window.ensureBookingGatewayPagesInit === 'function') {
+                window.ensureBookingGatewayPagesInit();
+            }
             if (window.__EZ_BOOT__?.sub_secret && productId > 0 && dayStart > 0) {
                 if (typeof window.ezBookingLoadWeek === 'function') {
                     window.ezBookingLoadWeek(productId, dayStart);

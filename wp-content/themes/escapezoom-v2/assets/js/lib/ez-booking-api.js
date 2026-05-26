@@ -8,6 +8,9 @@ import {
 /** @type {AbortController|null} */
 let sansDayJsonController = null;
 
+/** @type {string} */
+let sansDayJsonInFlightKey = '';
+
 /** @type {AbortController|null} */
 let sansManagementWebController = null;
 
@@ -53,6 +56,60 @@ function isGatewayAuthFailure(resp, bodyText) {
     return code === 'BAD_SIGNATURE' || code === 'MISSING_HEADERS' || code === 'BAD_TIMESTAMP' || code === 'REPLAY';
   } catch {
     return true;
+  }
+}
+
+/**
+ * Reject gateway error envelopes before parsing sans JSON/HTML.
+ *
+ * @param {Response} resp
+ * @param {string} text
+ */
+function assertGatewayJsonResponse(resp, text) {
+  const body = String(text).replace(/^\uFEFF/, '').trim();
+
+  if (!resp.ok) {
+    let code = '';
+    let message = '';
+    try {
+      const data = JSON.parse(body);
+      if (data && data.ok === false && data.error) {
+        code = String(data.error.code || '');
+        message = String(data.error.message || '');
+      }
+    } catch (_) {
+      /* non-JSON error body */
+    }
+    const err = new Error(
+      code
+        ? `[EZ Booking] Gateway error: ${code}${message ? ` — ${message}` : ''} (HTTP ${resp.status})`
+        : `[EZ Booking] Gateway HTTP ${resp.status}`
+    );
+    if (isGatewayAuthFailure(resp, body)) {
+      err.gatewayAuth = true;
+    }
+    throw err;
+  }
+
+  if (body.startsWith('{')) {
+    try {
+      const data = JSON.parse(body);
+      if (data && data.ok === false) {
+        const code = String(data.error?.code || 'GATEWAY_ERROR');
+        const message = String(data.error?.message || '');
+        const err = new Error(
+          `[EZ Booking] Gateway error: ${code}${message ? ` — ${message}` : ''}`
+        );
+        if (code === 'BAD_SIGNATURE' || code === 'BAD_TIMESTAMP' || code === 'REPLAY') {
+          err.gatewayAuth = true;
+        }
+        throw err;
+      }
+    } catch (parseErr) {
+      if (!(parseErr instanceof SyntaxError)) {
+        throw parseErr;
+      }
+    }
   }
 }
 
@@ -197,23 +254,34 @@ export async function toggleSans(kind, productId, sansTime) {
  * @returns {Promise<Array<Record<string, unknown>>|null>}
  */
 export async function sansDayJson(productId, dayStart) {
-  sansDayJsonController = replaceController(
-    sansDayJsonController,
-    new AbortController()
-  );
+  const pid = parseInt(productId, 10);
+  const day = parseInt(dayStart, 10);
+  if (!Number.isFinite(pid) || pid <= 0 || !Number.isFinite(day) || day <= 0) {
+    throw new Error(`[EZ Booking] Invalid sansDayJson args: product=${productId} day=${dayStart}`);
+  }
+
+  const requestKey = `${pid}:${day}`;
+  if (sansDayJsonInFlightKey !== requestKey) {
+    sansDayJsonController = replaceController(
+      sansDayJsonController,
+      new AbortController()
+    );
+    sansDayJsonInFlightKey = requestKey;
+  }
   const controller = sansDayJsonController;
 
   try {
     const resp = await ezFetch(
       'booking.sans_day_json',
       {
-        product_id: parseInt(productId, 10),
-        day_start_time: parseInt(dayStart, 10),
+        product_id: pid,
+        day_start_time: day,
         days: 1,
       },
       { signal: controller.signal }
     );
     const text = await resp.text();
+    assertGatewayJsonResponse(resp, text);
     return parseGatewaySansJson(text);
   } catch (error) {
     if (isAbortError(error)) {
@@ -223,6 +291,7 @@ export async function sansDayJson(productId, dayStart) {
   } finally {
     if (sansDayJsonController === controller) {
       sansDayJsonController = null;
+      sansDayJsonInFlightKey = '';
     }
   }
 }
@@ -287,14 +356,7 @@ async function fetchAndRenderWeekFromJson(productId, dayStart, signal) {
     { signal }
   );
   const text = await resp.text();
-  if (!resp.ok) {
-    if (isGatewayAuthFailure(resp, text)) {
-      const err = new Error('[EZ Booking] Gateway auth failed');
-      err.gatewayAuth = true;
-      throw err;
-    }
-    throw new Error(`booking.sans_day_json HTTP ${resp.status}`);
-  }
+  assertGatewayJsonResponse(resp, text);
   const parsed = parseGatewaySansJson(text, { days: 7 });
   const week = normalizeWeekDays(parsed, parseInt(dayStart, 10));
   return renderReserveWeekHtml(week, parseInt(dayStart, 10));
@@ -331,10 +393,10 @@ export async function sansWeekHtml(productId, dayStart) {
     );
     const text = (await resp.text()).replace(/^\uFEFF/, '').trim();
 
-    if (!resp.ok && isGatewayAuthFailure(resp, text)) {
-      const err = new Error('[EZ Booking] Gateway auth failed');
-      err.gatewayAuth = true;
-      throw err;
+    if (!resp.ok) {
+      assertGatewayJsonResponse(resp, text);
+    } else if (isJsonLike(text)) {
+      assertGatewayJsonResponse(resp, text);
     }
 
     if (!isJsonLike(text) && text.includes('class="box')) {

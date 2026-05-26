@@ -1090,7 +1090,7 @@ jQuery(document).ready(function ($) {
 
             setTimeout(() => {
                 let date = $(this).data('reserve-timestamp')
-                BuildSans(ProductJsObject.product_id, date)
+                BuildSans(resolveBookingProductId(), date)
             }, 1)
 
         })
@@ -1234,18 +1234,59 @@ jQuery(document).ready(function ($) {
      * @param {number} room - Product ID
      * @param {number} day - Day timestamp
      */
-    const BuildSans = (room, day) => {
-        showSansLoading();
+    const resolveBookingProductId = (fallback) => {
+        if (typeof ProductJsObject !== 'undefined' && ProductJsObject.product_id) {
+            return parseInt(ProductJsObject.product_id, 10);
+        }
+        if (window.__EZ_BOOT__?.product_id) {
+            return parseInt(window.__EZ_BOOT__.product_id, 10);
+        }
+        if (document.body?.dataset?.ezProductId) {
+            return parseInt(document.body.dataset.ezProductId, 10);
+        }
+        return parseInt(fallback, 10) || 0;
+    };
 
-        const productId = parseInt(room, 10);
+    const logBuildSansGateFailure = () => {
+        if (!window.__EZ_BOOT__) {
+            console.error(
+                '[EZ Booking] BuildSans blocked: window.__EZ_BOOT__ missing. ' +
+                    'Run: php wp-content/mu-plugins/ez_core/bin/secrets-init-dev.php then hard-refresh. ' +
+                    'Check page source for id="ez-ajax-boot".'
+            );
+            return;
+        }
+        if (!window.__EZ_BOOT__.sub_secret) {
+            console.error(
+                '[EZ Booking] BuildSans blocked: empty sub_secret. ' +
+                    'EZ_AJAX_SHARED_SECRET missing — fix secrets.enc / EZ_CORE_SECRETS_KEY.'
+            );
+            return;
+        }
+        if (!window.ezBookingApi?.sansDayJson) {
+            console.error('[EZ Booking] BuildSans blocked: ezBookingApi.sansDayJson missing (rebuild dist/front.js?)');
+        }
+    };
+
+    const BuildSans = (room, day) => {
+        const productId = resolveBookingProductId(room);
         const dayStart = parseInt(day, 10);
+
+        if (!productId || !dayStart) {
+            console.error('[EZ Booking] BuildSans blocked: invalid product or day', { productId, dayStart, room, day });
+            showSansGatewayError();
+            return;
+        }
+
+        showSansLoading();
 
         if (window.__EZ_BOOT__?.sub_secret && window.ezBookingApi?.sansDayJson) {
             window.ezBookingApi.sansDayJson(productId, dayStart)
                 .then(function (res) {
-                    if (res != null) {
-                        applySansList(res);
+                    if (res === null) {
+                        return;
                     }
+                    applySansList(res);
                 })
                 .catch(function (err) {
                     if (err && err.name === 'AbortError') {
@@ -1257,6 +1298,7 @@ jQuery(document).ready(function ($) {
             return;
         }
 
+        logBuildSansGateFailure();
         showSansGatewayError();
     };
 
@@ -1972,7 +2014,7 @@ jQuery(document).ready(function ($) {
         }
         
         // Load sessions
-        BuildSans(ProductJsObject.product_id, dateTimestamp);
+        BuildSans(resolveBookingProductId(), dateTimestamp);
     });
 
     // Embla carousel instances برای تقویم
@@ -1988,7 +2030,7 @@ jQuery(document).ready(function ($) {
         
         // Desktop
         const emblaNodeDesktop = document.querySelector('.embla-dates-desktop');
-        if (emblaNodeDesktop) {
+        if (emblaNodeDesktop && emblaNodeDesktop.isConnected) {
             // Destroy قبلی اگر وجود داره
             if (emblaDatesDesktop) {
                 try {
@@ -2016,7 +2058,7 @@ jQuery(document).ready(function ($) {
         
         // Mobile
         const emblaNodeMobile = document.querySelector('.embla-dates-mobile');
-        if (emblaNodeMobile) {
+        if (emblaNodeMobile && emblaNodeMobile.isConnected) {
             // Destroy قبلی اگر وجود داره
             if (emblaDatesMobile) {
                 try {

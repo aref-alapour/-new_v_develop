@@ -73,12 +73,20 @@ test('externalDatabase returns parsed host and credentials', function () {
 
 	try {
 		$ref = new ReflectionClass( SecretsLoader::class );
-		foreach ( array( 'secrets', 'bootAttempted', 'bootError' ) as $prop ) {
-			if ( $ref->hasProperty( $prop ) ) {
-				$p = $ref->getProperty( $prop );
-				$p->setAccessible( true );
-				$p->setValue( null );
-			}
+		if ( $ref->hasProperty( 'secrets' ) ) {
+			$p = $ref->getProperty( 'secrets' );
+			$p->setAccessible( true );
+			$p->setValue( null );
+		}
+		if ( $ref->hasProperty( 'bootAttempted' ) ) {
+			$p = $ref->getProperty( 'bootAttempted' );
+			$p->setAccessible( true );
+			$p->setValue( false );
+		}
+		if ( $ref->hasProperty( 'bootError' ) ) {
+			$p = $ref->getProperty( 'bootError' );
+			$p->setAccessible( true );
+			$p->setValue( null );
 		}
 
 		expect( SecretsLoader::boot() )->toBeTrue();

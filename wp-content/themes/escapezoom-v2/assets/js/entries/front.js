@@ -6,9 +6,23 @@ import {
   ezBookingSansManagementHtml,
   ezBookingToggleSans,
 } from '../lib/ez-booking-client.js';
-import { initBookingGatewayPages } from '../lib/ez-booking-pages.js';
+import { ensureBookingGatewayPagesInit } from '../lib/ez-booking-pages.js';
+
+function applyEzAjaxBoot() {
+  if (typeof window === 'undefined' || window.__EZ_BOOT__) {
+    return;
+  }
+  const localized =
+    typeof ezAjaxBoot !== 'undefined' && ezAjaxBoot && typeof ezAjaxBoot === 'object'
+      ? ezAjaxBoot
+      : null;
+  if (localized) {
+    window.__EZ_BOOT__ = localized;
+  }
+}
 
 if (typeof window !== 'undefined') {
+  applyEzAjaxBoot();
   window.htmx = htmx;
   window.Alpine = Alpine;
   window.ezFetch = ezFetch;
@@ -17,8 +31,10 @@ if (typeof window !== 'undefined') {
     ezBookingSansManagementHtml,
     ezBookingToggleSans,
   };
+  window.ensureBookingGatewayPagesInit = ensureBookingGatewayPagesInit;
   wireHtmx();
   Alpine.start();
+  ensureBookingGatewayPagesInit();
 }
 
 import '../main.js';
@@ -28,6 +44,8 @@ import '../theme/front/my-reviews.js';
 import '../crm.js';
 import '../mega-menu-frontend.js';
 
-document.addEventListener('DOMContentLoaded', () => {
-  initBookingGatewayPages();
-});
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', ensureBookingGatewayPagesInit);
+} else {
+  ensureBookingGatewayPagesInit();
+}

@@ -41,12 +41,11 @@ add_action(
 );
 
 /**
+ * Pages that need gateway boot data (product calendar, reserve, sans manager).
+ *
  * @return bool
  */
 function ez_booking_should_boot_ajax(): bool {
-	if ( ! ez_booking_gateway_enabled() ) {
-		return false;
-	}
 	if ( function_exists( 'is_product' ) && is_product() ) {
 		return true;
 	}
@@ -60,14 +59,56 @@ function ez_booking_should_boot_ajax(): bool {
 	return false;
 }
 
+/**
+ * Emit boot when gateway secrets are loaded (sub_secret non-empty). Once per request.
+ */
+function ez_booking_print_ajax_boot(): void {
+	static $printed = false;
+	if ( $printed || ! ez_booking_should_boot_ajax() || ! ez_booking_gateway_enabled() ) {
+		return;
+	}
+	$printed = true;
+	ez_ajax_boot_print_inline();
+}
+
+add_action( 'wp_head', 'ez_booking_print_ajax_boot', 0 );
+
 add_action(
-	'wp_head',
+	'wp_footer',
 	static function (): void {
-		if ( ez_booking_should_boot_ajax() ) {
-			ez_ajax_boot_print_inline();
+		if ( ! ez_booking_should_boot_ajax() || ! ez_booking_gateway_enabled() ) {
+			return;
+		}
+		if ( ! did_action( 'wp_head' ) ) {
+			ez_booking_print_ajax_boot();
 		}
 	},
 	0
+);
+
+add_action(
+	'wp_enqueue_scripts',
+	static function (): void {
+		if ( ! ez_booking_should_boot_ajax() || ! ez_booking_gateway_enabled() ) {
+			return;
+		}
+		wp_localize_script( 'main-js', 'ezAjaxBoot', ez_ajax_boot_data() );
+	},
+	20
+);
+
+add_filter(
+	'ez_ajax_boot_data',
+	static function ( array $boot ): array {
+		if ( function_exists( 'is_product' ) && is_product() ) {
+			$product_id = (int) get_queried_object_id();
+			if ( $product_id > 0 ) {
+				$boot['product_id'] = $product_id;
+			}
+		}
+
+		return $boot;
+	}
 );
 
 add_action(

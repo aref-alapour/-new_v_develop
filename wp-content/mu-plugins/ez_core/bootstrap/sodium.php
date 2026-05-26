@@ -9,16 +9,22 @@ if ( function_exists( 'sodium_crypto_secretbox_open' ) ) {
 }
 
 $corePath = defined( 'EZ_CORE_PATH' ) ? EZ_CORE_PATH : dirname( __DIR__ );
-$autoload = $corePath . '/vendor/autoload.php';
 
-if ( is_readable( $autoload ) ) {
+$autoloadCandidates = array(
+	$corePath . '/vendor/autoload.php',
+	$corePath . '/vendor/paragonie/sodium_compat/autoload.php',
+);
+
+foreach ( $autoloadCandidates as $autoload ) {
+	if ( ! is_readable( $autoload ) ) {
+		continue;
+	}
 	require_once $autoload;
-}
-
-if ( function_exists( 'sodium_crypto_secretbox_open' ) ) {
-	return;
+	if ( function_exists( 'sodium_crypto_secretbox_open' ) ) {
+		return;
+	}
 }
 
 throw new RuntimeException(
-	'libsodium required: enable PHP ext-sodium or run composer install in ' . $corePath
+	'libsodium required: enable PHP ext-sodium or run composer install (paragonie/sodium_compat) in ' . $corePath
 );

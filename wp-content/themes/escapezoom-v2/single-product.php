@@ -1,7 +1,5 @@
 <?php
 
-get_header();
-
 global $wpdb;
 $user_id     = get_current_user_id();
 $product_id  = get_the_ID();
