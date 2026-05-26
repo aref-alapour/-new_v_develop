@@ -42,10 +42,15 @@ final class GatewayModule
 	}
 
 	private static function isTeamSansManagementScreen(): bool {
-		if ( ! function_exists( 'is_page_template' ) ) {
+		$from_filter = apply_filters( 'ez_ajax_team_sans_management_screen', false );
+		if ( $from_filter ) {
+			return true;
+		}
+
+		if ( ! function_exists( 'get_query_var' ) || ! function_exists( 'is_user_logged_in' ) || ! is_user_logged_in() ) {
 			return false;
 		}
 
-		return is_page_template( 'template/team/pages/sans_management.php' );
+		return 'sans_management' === (string) get_query_var( 'team_page' );
 	}
 }

@@ -11,7 +11,7 @@ use EscapeZoom\Core\Modules\AjaxGateway\Crypto\PayloadCipher;
 use EscapeZoom\Core\Modules\AjaxGateway\Exception\GatewayAuthException;
 use EscapeZoom\Core\Modules\AjaxGateway\Policy\ActionClassification;
 use EscapeZoom\Core\Modules\AjaxGateway\Policy\ActionPolicy;
-use EscapeZoom\Core\Modules\Booking\BookingAuthorizationService;
+use EscapeZoom\Core\Modules\Booking\SansManagementAuthorizationService;
 use EZ\Ajax\Auth\SubKey;
 
 /**
@@ -120,10 +120,14 @@ final class GatewayDispatcher
 			);
 		}
 
-		if ( ActionClassification::isWrite( $action ) ) {
-			$productId = isset( $payload['product_id'] ) ? (int) $payload['product_id'] : 0;
+		if ( ActionClassification::requiresSansPanelAuth( $action ) ) {
 			try {
-				BookingAuthorizationService::assertCanManageProduct( $productId );
+				if ( 'booking.game_search' === $action ) {
+					SansManagementAuthorizationService::assertTeamSansToolsAccess( $clientKind );
+				} else {
+					$productId = isset( $payload['product_id'] ) ? (int) $payload['product_id'] : 0;
+					SansManagementAuthorizationService::assertCanManageProduct( $productId, $clientKind );
+				}
 			} catch ( GatewayAuthException $e ) {
 				GatewayResponse::json(
 					false,

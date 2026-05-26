@@ -7,6 +7,7 @@ defined( 'ABSPATH' ) || exit;
 require_once __DIR__ . '/ez-ajax-boot-data.php';
 require_once __DIR__ . '/ez-ajax-sub-secret-rules.php';
 require_once __DIR__ . '/booking-reserve-week.php';
+require_once __DIR__ . '/ez-team-shell.php';
 
 use EscapeZoom\Core\Modules\AjaxGateway\GatewayBootDiagnostics;
 
@@ -54,6 +55,25 @@ add_action(
 );
 
 /**
+ * Owner sans-manager (WooCommerce endpoint on /panel/sans-manager/ or my-account).
+ *
+ * @return bool
+ */
+function ez_booking_is_sans_manager_endpoint(): bool {
+	if ( function_exists( 'is_wc_endpoint_url' ) && is_wc_endpoint_url( 'sans-manager' ) ) {
+		return true;
+	}
+	if ( function_exists( 'get_query_var' ) ) {
+		$qv = get_query_var( 'sans-manager', false );
+		if ( false !== $qv ) {
+			return true;
+		}
+	}
+
+	return false;
+}
+
+/**
  * WooCommerce product single (room) — broader than is_product() alone (custom /room/ URLs).
  *
  * @return bool
@@ -78,22 +98,36 @@ function ez_booking_is_product_context(): bool {
 }
 
 /**
- * Pages that need gateway boot data (product calendar, reserve, sans manager).
+ * Pages that need gateway boot data (product, reserve, sans-manager, team sans-management).
  *
  * @return bool
  */
-function ez_booking_should_boot_ajax(): bool {
+function ez_ajax_should_boot(): bool {
+	if ( defined( 'EZ_BOOKING_SANS_PANELS_GATEWAY' ) && ! EZ_BOOKING_SANS_PANELS_GATEWAY ) {
+		return false;
+	}
+
 	if ( ez_booking_is_product_context() ) {
 		return true;
 	}
 	if ( function_exists( 'get_query_var' ) && get_query_var( 'reserve' ) ) {
 		return true;
 	}
-	if ( function_exists( 'is_wc_endpoint_url' ) && is_wc_endpoint_url( 'sans-manager' ) ) {
+	if ( function_exists( 'ez_booking_is_sans_manager_endpoint' ) && ez_booking_is_sans_manager_endpoint() ) {
+		return true;
+	}
+	if ( function_exists( 'ez_team_is_sans_management_page' ) && ez_team_is_sans_management_page() ) {
 		return true;
 	}
 
 	return false;
+}
+
+/**
+ * @return bool
+ */
+function ez_booking_should_boot_ajax(): bool {
+	return ez_ajax_should_boot();
 }
 
 add_action(
@@ -189,6 +223,48 @@ add_filter(
 
 		return $boot;
 	}
+);
+
+/**
+ * Visible hint when booking pages need the gateway but secrets.enc is missing (dev / team / owners).
+ */
+add_action(
+	'wp_footer',
+	static function (): void {
+		if ( ! function_exists( 'ez_ajax_should_boot' ) || ! ez_ajax_should_boot() ) {
+			return;
+		}
+		if ( function_exists( 'ez_booking_gateway_enabled' ) && ez_booking_gateway_enabled() ) {
+			return;
+		}
+		if ( ! function_exists( 'is_user_logged_in' ) || ! is_user_logged_in() ) {
+			return;
+		}
+
+		$may_see = current_user_can( 'manage_options' );
+		if ( ! $may_see && function_exists( 'ez_team_shell_user_has_access' ) ) {
+			$may_see = ez_team_shell_user_has_access();
+		}
+		if ( ! $may_see && function_exists( 'is_account_page' ) && is_account_page() ) {
+			$may_see = true;
+		}
+		if ( ! $may_see ) {
+			return;
+		}
+
+		$err = class_exists( '\\EscapeZoom\\Core\\Infrastructure\\Config\\SecretsLoader' )
+			? \EscapeZoom\Core\Infrastructure\Config\SecretsLoader::getBootError()
+			: null;
+
+		echo '<div id="ez-gateway-boot-warning" style="position:fixed;bottom:0;left:0;right:0;z-index:99999;background:#7f1d1d;color:#fff;padding:12px 16px;font:14px/1.5 Tahoma,sans-serif;text-align:center;">';
+		echo esc_html__( 'رزرو آنلاین غیرفعال است: secrets.enc یا EZ_CORE_SECRETS_KEY در دسترس نیست.', 'escapezoom' );
+		echo ' <code style="background:rgba(0,0,0,.25);padding:2px 6px;">php wp-content/mu-plugins/ez_core/bin/secrets-init-dev.php</code>';
+		if ( $err ) {
+			echo ' — ' . esc_html( (string) $err );
+		}
+		echo '</div>';
+	},
+	5
 );
 
 add_action(

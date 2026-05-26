@@ -30,7 +30,7 @@ const WRITE_ENCRYPT_ACTIONS = new Set([
   'booking.close_sans',
   'booking.open_all_sanses',
   'booking.close_all_sanses',
-  'booking.sans_management_web',
+  'booking.bulk_date_range',
 ]);
 
 /** @type {Set<string>} */

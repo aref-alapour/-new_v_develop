@@ -302,6 +302,24 @@ if ( $show_credit_notification ) {
 <script>
     jQuery(document).ready(function($) {
 
+        const ensureEzBootReady = (fn, attempt) => {
+            attempt = attempt || 0;
+            if (typeof window.applyEzAjaxBoot === 'function') {
+                window.applyEzAjaxBoot();
+            }
+            if (window.__EZ_BOOT__?.sub_secret) {
+                fn();
+                return;
+            }
+            if (attempt >= 80) {
+                console.error('[EZ Booking] Boot not ready on sans-manager');
+                return;
+            }
+            setTimeout(function () {
+                ensureEzBootReady(fn, attempt + 1);
+            }, 50);
+        };
+
         const BuildSans = (room, day) => {
             const showSkeleton = () => {
                 $(`[data-datepicker="${day}"]`).attr('disabled', 'disabled')
@@ -335,7 +353,19 @@ if ( $show_credit_notification ) {
             console.error('[EZ Booking] Gateway not configured on sans-manager');
             $("#sans").html('<p class="text-center text-slate-500 p-4">پیکربندی رزرو در دسترس نیست.</p>')
         }
-        BuildSans("<?php echo $active_products[0] ?>", "<?php echo $current_date; ?>")
+
+        let sansManagerDayDebounce = null;
+        const scheduleBuildSans = (room, day) => {
+            clearTimeout(sansManagerDayDebounce);
+            sansManagerDayDebounce = setTimeout(function () {
+                BuildSans(room, day);
+            }, 200);
+        };
+
+        ensureEzBootReady(function () {
+            BuildSans("<?php echo $active_products[0] ?>", "<?php echo $current_date; ?>");
+        });
+
         new Swiper('.date-picker', {
             slidesPerView: 4.5,
             freeMode: true,
@@ -363,7 +393,7 @@ if ( $show_credit_notification ) {
 
                 setTimeout(() => {
                     let id = $(".swiper-slide-active").data('id')
-                    BuildSans(id, date)
+                    scheduleBuildSans(id, date)
                 }, 5)
             })
             .on('click', "[data-room-action]", function() {

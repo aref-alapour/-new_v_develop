@@ -211,6 +211,21 @@ final class SecretsLoader
 				'per_client'      => 60,
 				'window_seconds'  => 60,
 			),
+			'booking.game_search' => array(
+				'per_ip'          => 30,
+				'per_client'      => 20,
+				'window_seconds'  => 60,
+			),
+			'booking.check_playing' => array(
+				'per_ip'          => 60,
+				'per_client'      => 40,
+				'window_seconds'  => 60,
+			),
+			'booking.bulk_date_range' => array(
+				'per_ip'          => 10,
+				'per_client'      => 5,
+				'window_seconds'  => 60,
+			),
 			'default'             => array(
 				'per_ip'          => 60,
 				'per_client'      => 30,

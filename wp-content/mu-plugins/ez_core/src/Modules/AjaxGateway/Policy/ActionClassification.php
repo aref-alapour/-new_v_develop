@@ -15,6 +15,9 @@ final class ActionClassification
 
 	public const CLASS_WRITE_HTML = 'write_html';
 
+	/** HTML fragment reads — HMAC auth only, no AES on wire (large/slow when encrypted). */
+	public const CLASS_READ_HTML = 'read_html';
+
 	/** @var array<string, string> */
 	private const MAP = array(
 		'booking.sans_day_json'      => self::CLASS_READ,
@@ -24,7 +27,10 @@ final class ActionClassification
 		'booking.close_sans'          => self::CLASS_WRITE,
 		'booking.open_all_sanses'     => self::CLASS_WRITE,
 		'booking.close_all_sanses'    => self::CLASS_WRITE,
-		'booking.sans_management_web' => self::CLASS_WRITE_HTML,
+		'booking.sans_management_web' => self::CLASS_READ_HTML,
+		'booking.check_playing'       => self::CLASS_READ_HTML,
+		'booking.game_search'         => self::CLASS_READ_HTML,
+		'booking.bulk_date_range'     => self::CLASS_WRITE,
 	);
 
 	public static function classify( string $action ): ?string {
@@ -38,6 +44,16 @@ final class ActionClassification
 	}
 
 	public static function isRead( string $action ): bool {
-		return self::CLASS_READ === self::classify( $action );
+		$class = self::classify( $action );
+
+		return self::CLASS_READ === $class || self::CLASS_READ_HTML === $class;
+	}
+
+	public static function isReadHtml( string $action ): bool {
+		return self::CLASS_READ_HTML === self::classify( $action );
+	}
+
+	public static function requiresSansPanelAuth( string $action ): bool {
+		return self::isWrite( $action ) || self::isReadHtml( $action );
 	}
 }

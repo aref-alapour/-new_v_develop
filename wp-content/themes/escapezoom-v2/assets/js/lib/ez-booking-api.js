@@ -20,6 +20,12 @@ let toggleSansController = null;
 /** @type {AbortController|null} */
 let sansWeekController = null;
 
+/** @type {AbortController|null} */
+let checkPlayingController = null;
+
+/** @type {AbortController|null} */
+let gameSearchController = null;
+
 /**
  * @param {AbortController|null} current
  * @param {AbortController} next
@@ -244,6 +250,89 @@ export async function toggleSans(kind, productId, sansTime) {
     if (toggleSansController === controller) {
       toggleSansController = null;
     }
+  }
+}
+
+/**
+ * @param {number} productId
+ * @param {number} dayStart unix day start
+ * @returns {Promise<string|null>}
+ */
+export async function checkPlayingHtml(productId, dayStart) {
+  checkPlayingController = replaceController(
+    checkPlayingController,
+    new AbortController()
+  );
+  const controller = checkPlayingController;
+
+  try {
+    const resp = await ezFetch(
+      'booking.check_playing',
+      {
+        product_id: parseInt(productId, 10),
+        day_start_time: parseInt(dayStart, 10),
+      },
+      { signal: controller.signal }
+    );
+    return await readGatewayBodyText(resp);
+  } catch (error) {
+    if (isAbortError(error)) {
+      return null;
+    }
+    throw error;
+  } finally {
+    if (checkPlayingController === controller) {
+      checkPlayingController = null;
+    }
+  }
+}
+
+/**
+ * @param {string} term
+ * @returns {Promise<string|null>}
+ */
+export async function gameSearchHtml(term) {
+  gameSearchController = replaceController(
+    gameSearchController,
+    new AbortController()
+  );
+  const controller = gameSearchController;
+
+  try {
+    const resp = await ezFetch(
+      'booking.game_search',
+      { term: String(term || '') },
+      { signal: controller.signal }
+    );
+    return await readGatewayBodyText(resp);
+  } catch (error) {
+    if (isAbortError(error)) {
+      return null;
+    }
+    throw error;
+  } finally {
+    if (gameSearchController === controller) {
+      gameSearchController = null;
+    }
+  }
+}
+
+/**
+ * @param {{ productId: number, startDate: string, endDate: string, action: 'open'|'close' }} opts
+ * @returns {Promise<{success: boolean, data?: unknown}>}
+ */
+export async function bulkDateRange(opts) {
+  const resp = await ezFetch('booking.bulk_date_range', {
+    product_id: parseInt(opts.productId, 10),
+    start_date: opts.startDate,
+    end_date: opts.endDate,
+    action: opts.action,
+  });
+  const text = await readGatewayBodyText(resp);
+  try {
+    return JSON.parse(text);
+  } catch {
+    throw new Error(`bulk date range HTTP ${resp.status}`);
   }
 }
 

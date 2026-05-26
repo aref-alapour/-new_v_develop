@@ -8,6 +8,7 @@ use EscapeZoom\Core\Modules\AjaxGateway\ActionRegistry;
 use EscapeZoom\Core\Modules\AjaxGateway\GatewayResponse;
 use EscapeZoom\Core\Modules\Booking\Actions\GetSansesJsonAction;
 use EscapeZoom\Core\Modules\Booking\BookingReadContext;
+use EscapeZoom\Core\Modules\Booking\Services\Team\TeamSansBridge;
 
 /**
  * booking.* gateway actions (HTML partials).
@@ -23,6 +24,9 @@ final class BookingGatewayActions
 		ActionRegistry::register( 'booking.close_sans', array( self::class, 'closeSans' ) );
 		ActionRegistry::register( 'booking.open_all_sanses', array( self::class, 'openAllSanses' ) );
 		ActionRegistry::register( 'booking.close_all_sanses', array( self::class, 'closeAllSanses' ) );
+		ActionRegistry::register( 'booking.check_playing', array( self::class, 'checkPlaying' ) );
+		ActionRegistry::register( 'booking.game_search', array( self::class, 'gameSearch' ) );
+		ActionRegistry::register( 'booking.bulk_date_range', array( self::class, 'bulkDateRange' ) );
 	}
 
 	/**
@@ -131,13 +135,17 @@ final class BookingGatewayActions
 			GatewayResponse::json( false, array(), array( 'code' => 'VALIDATION', 'message' => 'Invalid product or day' ), 400 );
 		}
 
-		$html = BookingDispatchService::dispatchType(
-			'sans_management_web',
-			array(
-				'product_id'     => $productId,
-				'day_start_time' => $dayStartTime,
-			)
-		);
+		try {
+			$html = BookingDispatchService::dispatchType(
+				'sans_management_web',
+				array(
+					'product_id'     => $productId,
+					'day_start_time' => $dayStartTime,
+				)
+			);
+		} catch ( \Throwable $e ) {
+			GatewayResponse::json( false, array(), array( 'code' => 'SERVER', 'message' => $e->getMessage() ), 500 );
+		}
 
 		self::syncResponseCrypto();
 		GatewayResponse::html( $html );
@@ -169,6 +177,66 @@ final class BookingGatewayActions
 	 */
 	public static function closeAllSanses( array $body ): void {
 		self::dispatchBulkDayAction( 'close_all_sanses', $body );
+	}
+
+	/**
+	 * @param array<string,mixed> $body
+	 */
+	public static function checkPlaying( array $body ): void {
+		$productId    = isset( $body['product_id'] ) ? (int) $body['product_id'] : 0;
+		$dayStartTime = isset( $body['day_start_time'] ) ? (int) $body['day_start_time'] : 0;
+
+		if ( $productId <= 0 || $dayStartTime <= 0 ) {
+			GatewayResponse::json( false, array(), array( 'code' => 'VALIDATION', 'message' => 'Invalid product or day' ), 400 );
+		}
+
+		try {
+			$html = TeamSansBridge::checkPlayingHtml( $productId, $dayStartTime );
+		} catch ( \Throwable $e ) {
+			GatewayResponse::json( false, array(), array( 'code' => 'SERVER', 'message' => $e->getMessage() ), 500 );
+		}
+
+		self::syncResponseCrypto();
+		GatewayResponse::html( $html );
+	}
+
+	/**
+	 * @param array<string,mixed> $body
+	 */
+	public static function gameSearch( array $body ): void {
+		$term = isset( $body['term'] ) ? trim( (string) $body['term'] ) : '';
+
+		try {
+			$html = TeamSansBridge::gameSearchHtml( $term );
+		} catch ( \Throwable $e ) {
+			GatewayResponse::json( false, array(), array( 'code' => 'SERVER', 'message' => $e->getMessage() ), 500 );
+		}
+
+		self::syncResponseCrypto();
+		GatewayResponse::html( $html );
+	}
+
+	/**
+	 * @param array<string,mixed> $body
+	 */
+	public static function bulkDateRange( array $body ): void {
+		$productId  = isset( $body['product_id'] ) ? (int) $body['product_id'] : 0;
+		$startDate  = isset( $body['start_date'] ) ? trim( (string) $body['start_date'] ) : '';
+		$endDate    = isset( $body['end_date'] ) ? trim( (string) $body['end_date'] ) : '';
+		$action     = isset( $body['action'] ) ? trim( (string) $body['action'] ) : '';
+
+		if ( $productId <= 0 ) {
+			GatewayResponse::json( false, array(), array( 'code' => 'VALIDATION', 'message' => 'Invalid product' ), 400 );
+		}
+
+		try {
+			$result = TeamSansBridge::bulkDateRange( $productId, $startDate, $endDate, $action );
+		} catch ( \Throwable $e ) {
+			GatewayResponse::json( false, array(), array( 'code' => 'SERVER', 'message' => $e->getMessage() ), 500 );
+		}
+
+		self::syncResponseCrypto();
+		GatewayResponse::raw( wp_json_encode( $result, JSON_UNESCAPED_UNICODE ) ?: '{}' );
 	}
 
 	/**

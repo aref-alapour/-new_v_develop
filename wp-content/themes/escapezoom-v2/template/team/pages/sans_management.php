@@ -580,9 +580,23 @@ for ($i = 1; $i <= 45; $i++) {
             },
         });
 
-        const BuildSans = (room, day) => {
+        let dayLoadToken = 0;
+
+        const resolveEzBoot = () => {
+            if (typeof window.applyEzAjaxBoot === 'function') {
+                window.applyEzAjaxBoot();
+            }
+            return window.__EZ_BOOT__?.sub_secret ? window.__EZ_BOOT__ : null;
+        };
+
+        const loadSansDay = (room, day, opts) => {
+            opts = opts || {};
+            const productId = parseInt(room, 10);
+            const dayStart = parseInt(day, 10);
+            const token = ++dayLoadToken;
+
             const showSkeleton = () => {
-                $(`[data-datepicker="${day}"]`).attr('disabled', 'disabled');
+                $(`[data-datepicker="${dayStart}"]`).attr('disabled', 'disabled');
                 let out = "";
                 for (let i = 0; i < 8; i++) {
                     out += "<div class='w-full h-29 skeleton rounded-xl'></div>";
@@ -590,27 +604,49 @@ for ($i = 1; $i <= 45; $i++) {
                 $("#sessionsContainer").html(out);
             };
             const onHtml = (html) => {
-                $(`[data-datepicker="${day}"]`).removeAttr('disabled');
+                $(`[data-datepicker="${dayStart}"]`).removeAttr('disabled');
                 $("#sessionsContainer").html(html);
                 extractAndMoveRadioButtons();
                 injectPhoneReserveButtons();
                 datePickerSwiper.update();
             };
 
-            if (window.__EZ_BOOT__?.sub_secret && window.ezBookingApi?.sansManagementWeb) {
-                showSkeleton();
-                window.ezBookingApi.sansManagementWeb(parseInt(room, 10), parseInt(day, 10))
-                    .then((html) => { if (html != null) onHtml(html); })
-                    .catch(() => {
-                        $(`[data-datepicker="${day}"]`).removeAttr('disabled');
-                        $("#sessionsContainer").html('<p class="text-center text-slate-500 p-4">خطا در بارگذاری سانس‌ها.</p>');
-                    });
+            if (!resolveEzBoot() || !window.ezBookingApi?.sansManagementWeb) {
+                console.error('[EZ Booking] Gateway not configured on team sans-management');
+                $("#sessionsContainer").html('<p class="text-center text-slate-500 p-4">پیکربندی رزرو در دسترس نیست.</p>');
                 return;
             }
 
-            console.error('[EZ Booking] Gateway not configured on team sans-management');
-            $("#sessionsContainer").html('<p class="text-center text-slate-500 p-4">پیکربندی رزرو در دسترس نیست.</p>');
-        }
+            showSkeleton();
+            window.ezBookingApi.sansManagementWeb(productId, dayStart)
+                .then((html) => {
+                    if (token !== dayLoadToken || html == null) {
+                        return;
+                    }
+                    onHtml(html);
+                    if (opts.skipPlaying || !window.ezBookingApi?.checkPlayingHtml) {
+                        return;
+                    }
+                    window.ezBookingApi.checkPlayingHtml(productId, dayStart)
+                        .then((playingHtml) => {
+                            if (token === dayLoadToken && playingHtml != null) {
+                                $('#playing_now').html(playingHtml);
+                            }
+                        })
+                        .catch(() => {
+                            console.error('[EZ Booking] checkPlayingHtml failed');
+                        });
+                })
+                .catch(() => {
+                    if (token !== dayLoadToken) {
+                        return;
+                    }
+                    $(`[data-datepicker="${dayStart}"]`).removeAttr('disabled');
+                    $("#sessionsContainer").html('<p class="text-center text-slate-500 p-4">خطا در بارگذاری سانس‌ها.</p>');
+                });
+        };
+
+        const BuildSans = (room, day) => loadSansDay(room, day);
 
         $('body').on('click', ".team_sans_game_search_item", function() {
             let product_id = $(this).data('id');
@@ -637,20 +673,7 @@ for ($i = 1; $i <= 45; $i++) {
             $("[data-datepicker]").removeClass('active border-primary-700 bg-primary-500 text-white').addClass('border-[#DBE2EA] bg-white');
             $(this).removeClass('border-[#DBE2EA] bg-white').addClass('active border-primary-700 bg-primary-500 text-white');
 
-            // فراخوانی ساخت سانس‌ها (دکمه‌های رادیویی هم اتوماتیک در این مرحله ساخته می‌شوند)
-            BuildSans(product_id, date);
-
-            $.ajax({
-                type: 'POST',
-                url: "<?php echo site_url('web-service/team/sans_management.php') ?>",
-                data: {
-                    "type": `check_playing`,
-                    "data": { "day_start_time": date, "product_id": product_id }
-                },
-                success: function(data) {
-                    $('#playing_now').html(data);
-                }
-            });
+            loadSansDay(product_id, date);
         });
 
         $('body').on('click', ".toggle-btn", function() {
@@ -720,19 +743,43 @@ for ($i = 1; $i <= 45; $i++) {
             alert('پیکربندی رزرو در دسترس نیست.');
         });
 
-        // ... جستجوی بازی (بدون تغییر) ...
+        let gameSearchTimer = null;
         $('body').on('input', "#gameSearch", function() {
-            $.ajax({
-                type: 'POST',
-                url: "<?php echo site_url('web-service/team/sans_management.php') ?>",
-                data: {
-                    "type": `game_search`,
-                    "data": { "term": $(this).val() }
-                },
-                success: function(data) {
-                    $('#lg-search-result-list').show().html(data);
+            const term = String($(this).val() || '').trim();
+            const $list = $('#lg-search-result-list');
+            clearTimeout(gameSearchTimer);
+
+            if (term.length < 2) {
+                $list.hide().empty();
+                return;
+            }
+
+            $list.show().html(
+                '<p class="text-center text-slate-500 py-4 text-sm">در حال جستجو…</p>'
+            );
+
+            gameSearchTimer = setTimeout(function () {
+                if (!resolveEzBoot() || !window.ezBookingApi?.gameSearchHtml) {
+                    console.error('[EZ Booking] Gateway not configured for game_search');
+                    $list.html('<p class="text-center text-red-500 py-3 text-sm">پیکربندی جستجو در دسترس نیست.</p>');
+                    return;
                 }
-            });
+                window.ezBookingApi.gameSearchHtml(term)
+                    .then(function (html) {
+                        if (html == null) {
+                            return;
+                        }
+                        if ('' === String(html).trim()) {
+                            $list.show().html('<p class="text-center text-slate-500 py-3 text-sm">نتیجه‌ای یافت نشد.</p>');
+                            return;
+                        }
+                        $list.show().html(html);
+                    })
+                    .catch(function () {
+                        console.error('[EZ Booking] gameSearchHtml failed');
+                        $list.show().html('<p class="text-center text-red-500 py-3 text-sm">خطا در جستجو. دوباره تلاش کنید.</p>');
+                    });
+            }, 350);
         });
 
         // ... مدال info (بدون تغییر) ...
@@ -825,35 +872,36 @@ for ($i = 1; $i <= 45; $i++) {
                 return;
             }
 
-            // ارسال به بک‌اند
-            $.ajax({
-                type: 'POST',
-                url: "<?php echo site_url('web-service/team/sans_management.php') ?>",
-                data: {
-                    "type": "bulk_date_range_action",
-                    "data": { 
-                        "start_date": startDate, 
-                        "end_date": endDate, 
-                        "product_id": product_id,
-                        "action": actionType
-                    }
-                },
-                beforeSend: function() {
-                    $("#btn-bulk-close-range, #btn-bulk-open-range").prop('disabled', true).css('opacity', '0.5');
-                },
-                success: function(response) {
+            if (!window.__EZ_BOOT__?.sub_secret || !window.ezBookingApi?.bulkDateRange) {
+                alert('پیکربندی رزرو در دسترس نیست.');
+                return;
+            }
+
+            $("#btn-bulk-close-range, #btn-bulk-open-range").prop('disabled', true).css('opacity', '0.5');
+
+            window.ezBookingApi.bulkDateRange({
+                productId: parseInt(product_id, 10),
+                startDate: startDate,
+                endDate: endDate,
+                action: actionType
+            })
+                .then(function (response) {
                     $("#btn-bulk-close-range, #btn-bulk-open-range").prop('disabled', false).css('opacity', '1');
-                    alert("عملیات با موفقیت انجام شد.");
-                    
-                    // رفرش کردن سانس‌های روزی که در حال نمایش است
-                    let active_date = $("[data-datepicker].active").data('datepicker');
-                    if(active_date) BuildSans(product_id, active_date);
-                },
-                error: function() {
+                    if (response && response.success) {
+                        alert("عملیات با موفقیت انجام شد.");
+                        let active_date = $("[data-datepicker].active").data('datepicker');
+                        if (active_date) {
+                            BuildSans(product_id, active_date);
+                        }
+                    } else {
+                        const err = response && response.data && response.data[0] && response.data[0].error;
+                        alert(err || 'خطایی رخ داد. لطفا دوباره تلاش کنید.');
+                    }
+                })
+                .catch(function () {
                     alert("خطایی رخ داد. لطفا دوباره تلاش کنید.");
                     $("#btn-bulk-close-range, #btn-bulk-open-range").prop('disabled', false).css('opacity', '1');
-                }
-            });
+                });
         }
 
         // رویداد کلیک دکمه‌ها

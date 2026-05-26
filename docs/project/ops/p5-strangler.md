@@ -15,7 +15,8 @@ Track remaining migration off legacy `web-service/` and jQuery booking paths.
 ## Legacy HTTP surfaces
 
 - [ ] Inventory all `web-service/` callers (grep `web-service/`)
-- [ ] Remove or 410 `web-service/team/sans_management.php` after team + owner UIs use gateway only
+- [x] Team + owner sans panels use gateway for grid, toggle, bulk, check_playing, game_search, bulk_date_range (P5.0)
+- [ ] Remove or 410 `web-service/team/sans_management.php` after remaining callers migrated (e.g. `comments.php` game_search)
 - [ ] Retire `web-service/includes/reservation-handlers.inc.php` write paths
 
 ## Production hardening

@@ -53,12 +53,25 @@ add_filter('wpseo_title', function ($title) use ($page_title) {
 <html <?php language_attributes(); ?> class="scroll-smooth" dir="rtl" style="margin: 0 !important;">
 
 <head>
+    <?php
+    if (
+        function_exists( 'ez_ajax_boot_print_inline' )
+        && function_exists( 'ez_booking_gateway_enabled' )
+        && function_exists( 'ez_ajax_should_boot' )
+        && ez_booking_gateway_enabled()
+        && ez_ajax_should_boot()
+    ) {
+        ez_ajax_boot_print_inline();
+    }
+    ?>
     <?php wp_head(); ?>
     <meta charset="<?php bloginfo('charset'); ?>" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex, nofollow" />
     <link rel="stylesheet" href="<?php echo Theme_URL; ?>assets/css/crm.css" />
+    <?php if ( ! function_exists( 'ez_theme_use_vite_front' ) || ! ez_theme_use_vite_front() ) : ?>
     <script src="<?php echo Theme_URL; ?>assets/js/crm.js" defer="defer"></script>
+    <?php endif; ?>
 </head>
 
 <body <?php body_class(); ?>>

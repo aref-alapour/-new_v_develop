@@ -60,4 +60,6 @@ it('shouldEncryptResponse follows secrets flags when loaded', function () {
 		->toBe( SecretsLoader::payloadEncryptWrites() );
 	expect( PayloadCipher::encryptionRequiredFor( 'booking.sans_day_json' ) )
 		->toBe( PayloadCipher::shouldEncryptResponse( 'booking.sans_day_json' ) );
+	expect( PayloadCipher::shouldEncryptResponse( 'booking.game_search' ) )->toBeFalse();
+	expect( PayloadCipher::shouldEncryptResponse( 'booking.sans_management_web' ) )->toBeFalse();
 });

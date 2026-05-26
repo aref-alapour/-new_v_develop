@@ -24,6 +24,7 @@ export function applyEzAjaxBoot() {
 
 if (typeof window !== 'undefined') {
   applyEzAjaxBoot();
+  window.applyEzAjaxBoot = applyEzAjaxBoot;
   window.htmx = htmx;
   window.Alpine = Alpine;
   window.ezFetch = ezFetch;
