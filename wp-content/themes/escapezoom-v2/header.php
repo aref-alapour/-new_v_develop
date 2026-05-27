@@ -64,6 +64,18 @@ if (isset($_SESSION['ez_pending_cookie'])) {
 
     <link rel="manifest" href="<?php echo esc_url( home_url( '/manifest.json' ) ); ?>">
 
+    <?php
+    if (
+        function_exists( 'ez_ajax_boot_print_inline' )
+        && function_exists( 'ez_booking_gateway_enabled' )
+        && function_exists( 'ez_ajax_should_boot' )
+        && ez_booking_gateway_enabled()
+        && ez_ajax_should_boot()
+    ) {
+        ez_ajax_boot_print_inline();
+    }
+    ?>
+
     <?php if ($_SERVER['SERVER_NAME'] == 'escapezoom.co' || $_SERVER['SERVER_NAME'] == 'www.escapezoom.co') { ?>
         <!-- <script>
             (function(w, d, s, l, i) {

@@ -26,10 +26,12 @@ final class GatewayModule
 	 */
 	public static function filterBootClientKind( array $boot ): array {
 		if (
-			function_exists( 'is_wc_endpoint_url' )
-			&& is_wc_endpoint_url( 'sans-manager' )
-			&& function_exists( 'is_user_logged_in' )
+			function_exists( 'is_user_logged_in' )
 			&& is_user_logged_in()
+			&& (
+				( function_exists( 'ez_booking_is_sans_manager_endpoint' ) && ez_booking_is_sans_manager_endpoint() )
+				|| ( function_exists( 'is_wc_endpoint_url' ) && is_wc_endpoint_url( 'sans-manager' ) )
+			)
 		) {
 			$boot['client_kind'] = 'web-user';
 		}

@@ -759,16 +759,23 @@ for ($i = 1; $i <= 45; $i++) {
             );
 
             gameSearchTimer = setTimeout(function () {
-                if (!resolveEzBoot() || !window.ezBookingApi?.gameSearchHtml) {
-                    console.error('[EZ Booking] Gateway not configured for game_search');
-                    $list.html('<p class="text-center text-red-500 py-3 text-sm">پیکربندی جستجو در دسترس نیست.</p>');
-                    return;
-                }
-                window.ezBookingApi.gameSearchHtml(term)
-                    .then(function (html) {
-                        if (html == null) {
-                            return;
+                const body = new URLSearchParams();
+                body.set('action', 'ez_team_sans_game_search');
+                body.set('nonce', teamAjaxNonce);
+                body.set('term', term);
+
+                fetch(teamAjaxUrl, {
+                    method: 'POST',
+                    credentials: 'same-origin',
+                    headers: { 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8' },
+                    body: body.toString(),
+                })
+                    .then(function (resp) { return resp.json(); })
+                    .then(function (payload) {
+                        if (!payload || !payload.success) {
+                            throw new Error('game search failed');
                         }
+                        const html = payload.data && payload.data.html != null ? payload.data.html : '';
                         if ('' === String(html).trim()) {
                             $list.show().html('<p class="text-center text-slate-500 py-3 text-sm">نتیجه‌ای یافت نشد.</p>');
                             return;
@@ -776,10 +783,10 @@ for ($i = 1; $i <= 45; $i++) {
                         $list.show().html(html);
                     })
                     .catch(function () {
-                        console.error('[EZ Booking] gameSearchHtml failed');
+                        console.error('[EZ Booking] team game search failed');
                         $list.show().html('<p class="text-center text-red-500 py-3 text-sm">خطا در جستجو. دوباره تلاش کنید.</p>');
                     });
-            }, 350);
+            }, 300);
         });
 
         // ... مدال info (بدون تغییر) ...

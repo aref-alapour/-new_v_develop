@@ -6,6 +6,7 @@ namespace EscapeZoom\Core\Core;
 
 use EscapeZoom\Core\Infrastructure\Database\CapsuleManager;
 use EscapeZoom\Core\Modules\AjaxGateway\GatewayModule;
+use EscapeZoom\Core\Modules\Booking\Ajax\TeamGameSearchAjaxController;
 
 /**
  * Core bootstrap: Eloquent data layer + WordPress module hooks.
@@ -47,6 +48,7 @@ final class Bootstrap
 		}
 
 		GatewayModule::register();
+		TeamGameSearchAjaxController::register();
 	}
 
 	/**

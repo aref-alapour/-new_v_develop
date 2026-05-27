@@ -277,7 +277,7 @@ final class TeamSansBridge
 	/**
 	 * @return array<string, mixed>|null
 	 */
-	private static function getProductRow( int $productId ): ?array {
+	public static function getProductRow( int $productId ): ?array {
 		$row = Capsule::connection( 'external' )
 			->table( 'products_data' )
 			->where( 'product_id', $productId )
@@ -294,7 +294,7 @@ final class TeamSansBridge
 	 * @param array<string, mixed> $product
 	 * @return array<string, mixed>
 	 */
-	private static function getSansesFromRow( array $product ): array {
+	public static function getSansesFromRow( array $product ): array {
 		$raw = $product['schedule'] ?? '';
 		if ( ! is_string( $raw ) || '' === $raw ) {
 			return array();
@@ -310,7 +310,7 @@ final class TeamSansBridge
 		return is_array( $json ) ? $json : array();
 	}
 
-	private static function getDayType( int $day ): string {
+	public static function getDayType( int $day ): string {
 		$row = Capsule::connection( 'external' )
 			->table( 'calendar_data' )
 			->value( 'data' );
@@ -370,7 +370,7 @@ final class TeamSansBridge
 	 * @param array<int, array<string, mixed>> $sansRows
 	 * @return list<array{ts: int, sans: array<string, mixed>}>
 	 */
-	private static function buildDaySlots( int $timeRes, ?string $scheduleKey, array $sansRows ): array {
+	public static function buildDaySlots( int $timeRes, ?string $scheduleKey, array $sansRows ): array {
 		$daySlots = array();
 		if ( null === $scheduleKey || empty( $sansRows ) ) {
 			return $daySlots;
@@ -434,7 +434,7 @@ final class TeamSansBridge
 		return $out;
 	}
 
-	private static function formatJalaliTime( int $timestamp ): string {
+	public static function formatJalaliTime( int $timestamp ): string {
 		if ( function_exists( 'jdate' ) ) {
 			return (string) jdate( 'H:i', $timestamp );
 		}

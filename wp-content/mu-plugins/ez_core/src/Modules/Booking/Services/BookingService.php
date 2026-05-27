@@ -11,7 +11,7 @@ final class BookingService
 {
 	private const CACHE_GROUP = 'ez_booking';
 
-	private const CACHE_TTL = 45;
+	private const CACHE_TTL = 60;
 
 	/** @var array<string, array<int, array<string, mixed>>> */
 	private static array $requestCache = array();

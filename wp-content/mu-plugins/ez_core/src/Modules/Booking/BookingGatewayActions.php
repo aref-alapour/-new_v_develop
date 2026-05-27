@@ -8,6 +8,7 @@ use EscapeZoom\Core\Modules\AjaxGateway\ActionRegistry;
 use EscapeZoom\Core\Modules\AjaxGateway\GatewayResponse;
 use EscapeZoom\Core\Modules\Booking\Actions\GetSansesJsonAction;
 use EscapeZoom\Core\Modules\Booking\BookingReadContext;
+use EscapeZoom\Core\Modules\Booking\Services\Team\SansManagementWebHtmlService;
 use EscapeZoom\Core\Modules\Booking\Services\Team\TeamSansBridge;
 
 /**
@@ -136,13 +137,7 @@ final class BookingGatewayActions
 		}
 
 		try {
-			$html = BookingDispatchService::dispatchType(
-				'sans_management_web',
-				array(
-					'product_id'     => $productId,
-					'day_start_time' => $dayStartTime,
-				)
-			);
+			$html = SansManagementWebHtmlService::render( $productId, $dayStartTime );
 		} catch ( \Throwable $e ) {
 			GatewayResponse::json( false, array(), array( 'code' => 'SERVER', 'message' => $e->getMessage() ), 500 );
 		}

@@ -313,6 +313,7 @@ if ( $show_credit_notification ) {
             }
             if (attempt >= 80) {
                 console.error('[EZ Booking] Boot not ready on sans-manager');
+                $("#sans").html('<p class="text-center text-slate-500 p-4">پیکربندی رزرو در دسترس نیست. صفحه را رفرش کنید.</p>');
                 return;
             }
             setTimeout(function () {
@@ -358,7 +359,9 @@ if ( $show_credit_notification ) {
         const scheduleBuildSans = (room, day) => {
             clearTimeout(sansManagerDayDebounce);
             sansManagerDayDebounce = setTimeout(function () {
-                BuildSans(room, day);
+                ensureEzBootReady(function () {
+                    BuildSans(room, day);
+                });
             }, 200);
         };
 
