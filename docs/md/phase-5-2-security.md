@@ -17,13 +17,16 @@
 - `panel_profile_save`
 - `panel_auto_disable_update`
 
-## IDOR — تنظیمات سانس
+## IDOR — تنظیمات سانس و پاسخ کامنت
 
-[panel_sans_settings_update.php](../../wp-content/themes/escapezoom-v2/app/ajax/callbacks/panel_sans_settings_update.php) در ابتدا:
+- [panel_sans_settings_update.php](../../wp-content/themes/escapezoom-v2/app/ajax/callbacks/panel_sans_settings_update.php)
+- [panel_auto_disable_update.php](../../wp-content/themes/escapezoom-v2/app/ajax/callbacks/panel_auto_disable_update.php)
+- [panel_comments_reply_add.php](../../wp-content/themes/escapezoom-v2/app/ajax/callbacks/panel_comments_reply_add.php)
 
-`BookingAuthorizationService::assertCanManageProduct( $product_id )`
+همه از [PanelProductAuthorizationService.php](../../wp-content/mu-plugins/ez_core/src/Modules/Booking/Services/Panel/PanelProductAuthorizationService.php):
 
-مالکیت از `products_data.owner_id` / `manager_id` (external DB) — نه کوئری خام `LIKE` روی postmeta.
+1. `products_data.owner_id` / `manager_id` (external)
+2. fallback: postmeta `sans_manager`, `user_ebtal`, `administrator`
 
 ## Legacy HTTP — `web-service/team/sans_management.php`
 

@@ -1,7 +1,7 @@
 <?php
 
 use EscapeZoom\Core\Modules\AjaxGateway\Exception\GatewayAuthException;
-use EscapeZoom\Core\Modules\Booking\BookingAuthorizationService;
+use EscapeZoom\Core\Modules\Booking\Services\Panel\PanelProductAuthorizationService;
 
 $user_id = get_current_user_id();
 
@@ -17,7 +17,7 @@ if (!in_array($auto_disable, $allowed, true))
     wp_send_json_error(['message' => 'مقدار زمان نامعتبر است.'], 400);
 
 try {
-	BookingAuthorizationService::assertCanManageProduct( $product_id );
+	PanelProductAuthorizationService::assertCanManageProduct( $product_id );
 } catch ( GatewayAuthException $e ) {
 	wp_send_json_error( array( 'message' => 'دسترسی به این محصول ندارید.' ), 403 );
 }

@@ -54,3 +54,5 @@ php wp-content/mu-plugins/ez_core/bin/booking-db-health.php
 | بار دوم همان روز | همان action | &lt; 1s با Redis |
 
 `secrets.enc` در git نیست — در deploy باید `EZ_CORE_SECRETS_KEY` به کانتینر برسد.
+
+نتایج verify: [phase-5-1-har-results.md](./phase-5-1-har-results.md)

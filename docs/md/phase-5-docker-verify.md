@@ -15,9 +15,32 @@ php wp-content/mu-plugins/ez_core/bin/booking-db-health.php
 ```env
 WP_REDIS_HOST=redis
 WP_REDIS_PORT=6379
+WP_REDIS_DATABASE=0
 ```
 
 Drop-in: [wp-content/object-cache.php](../../wp-content/object-cache.php)
+
+اگر Redis extension یا host در دسترس نباشد، drop-in به cache.php پیش‌فرض WP fallback می‌کند.
+
+### Docker compose snippet (اضافه به stack موجود)
+
+```yaml
+services:
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+  wordpress:
+    environment:
+      WP_REDIS_HOST: redis
+      WP_REDIS_PORT: 6379
+```
+
+## Boot probe (بدون WordPress bootstrap)
+
+```bash
+php wp-content/mu-plugins/ez_core/bin/gateway-boot-probe.php
+```
 
 ## HAR
 

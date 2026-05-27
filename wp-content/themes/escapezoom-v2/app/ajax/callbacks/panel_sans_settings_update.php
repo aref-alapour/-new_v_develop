@@ -1,7 +1,7 @@
 <?php
 
 use EscapeZoom\Core\Modules\AjaxGateway\Exception\GatewayAuthException;
-use EscapeZoom\Core\Modules\Booking\BookingAuthorizationService;
+use EscapeZoom\Core\Modules\Booking\Services\Panel\PanelProductAuthorizationService;
 
 $user_id    = get_current_user_id();
 $product_id = isset( $_POST['product_id'] ) ? (int) $_POST['product_id'] : 0;
@@ -18,7 +18,7 @@ if ( ! in_array( $type, array( 'normals', 'holidays' ), true ) ) {
 }
 
 try {
-	BookingAuthorizationService::assertCanManageProduct( $product_id );
+	PanelProductAuthorizationService::assertCanManageProduct( $product_id );
 } catch ( GatewayAuthException $e ) {
 	wp_send_json_error( array( 'message' => 'این بازی متعلق به شما نیست.' ), 403 );
 }
