@@ -6,12 +6,15 @@ namespace EscapeZoom\Core\Modules\Booking\Services\Team;
 
 use EscapeZoom\Core\Infrastructure\Database\CapsuleManager;
 use EscapeZoom\Core\Models\BookingHistory;
+use EscapeZoom\Core\Modules\Booking\Infrastructure\Eloquent\EloquentBookingLockRepository;
 
 /**
  * CRM / owner sans grid HTML (ported from web-service/team/sans_management.php sans_management_web).
  */
 final class SansManagementWebHtmlService
 {
+	private const LOCK_TTL_SECONDS = 300;
+
 	public static function render( int $productId, int $dayStartTime ): string {
 		if ( ! CapsuleManager::hasExternalConnection() ) {
 			throw new \RuntimeException( 'External DB unavailable' );
@@ -54,6 +57,8 @@ final class SansManagementWebHtmlService
 			}
 		}
 
+		$activeLocks = self::activeLockTimes( $productId, $tsList );
+
 		$reservationData = array();
 		foreach ( $daySlots as $slot ) {
 			$firstTimeTs = (int) $slot['ts'];
@@ -73,6 +78,8 @@ final class SansManagementWebHtmlService
 				);
 			} elseif ( is_array( $orderObj ) && isset( $orderObj['status'] ) && 2 === (int) $orderObj['status'] ) {
 				$status = 'openable';
+			} elseif ( isset( $activeLocks[ $firstTimeTs ] ) ) {
+				$status = 'reserving';
 			}
 
 			$reservationData[] = array(
@@ -210,6 +217,14 @@ final class SansManagementWebHtmlService
 				$html .= '<bdo dir="ltr" class="text-2xl block text-center font-yekan-bold">' . $timeLbl . '</bdo>';
 				$html .= '<button type="button" data-room-action="open" data-product="' . esc_attr( (string) $productId ) . '" data-timestamp="' . esc_attr( $time . '.' . $dayStartTime ) . '" class="toggle-btn h-10 w-full rounded-lg font-yekan-bold mt-3 bg-[#E2E8F0] text-black">بسته</button>';
 				$html .= '</div>';
+				continue;
+			}
+
+			if ( 'reserving' === $status ) {
+				$html .= '<div class="rounded-xl border border-[#DBE2EA] bg-white p-2.5 shadow-13 opacity-90">';
+				$html .= '<bdo dir="ltr" class="text-2xl block text-center font-yekan-bold">' . $timeLbl . '</bdo>';
+				$html .= '<button type="button" disabled class="h-10 w-full rounded-lg font-yekan-bold mt-3 bg-[#EDA10D] text-white cursor-wait">در حال رزرو</button>';
+				$html .= '</div>';
 			}
 		}
 
@@ -248,6 +263,35 @@ final class SansManagementWebHtmlService
 			. '<path d="M14.9397 8.95573C15.113 9.19853 15.1996 9.3205 15.1996 9.50003C15.1996 9.68013 15.113 9.80153 14.9397 10.0443C14.1612 11.1363 12.1727 13.4896 9.5002 13.4896C6.82717 13.4896 4.83921 11.1358 4.06067 10.0443C3.88741 9.80153 3.80078 9.67956 3.80078 9.50003C3.80078 9.31993 3.88741 9.19853 4.06067 8.95573C4.83921 7.86373 6.82774 5.51044 9.5002 5.51044C12.1732 5.51044 14.1612 7.8643 14.9397 8.95573Z" stroke="white" stroke-linecap="round" stroke-linejoin="round" />'
 			. '<path d="M11.2107 9.49999C11.2107 9.04651 11.0305 8.61161 10.7099 8.29096C10.3892 7.9703 9.95431 7.79016 9.50084 7.79016C9.04737 7.79016 8.61247 7.9703 8.29181 8.29096C7.97116 8.61161 7.79102 9.04651 7.79102 9.49999C7.79102 9.95346 7.97116 10.3884 8.29181 10.709C8.61247 11.0297 9.04737 11.2098 9.50084 11.2098C9.95431 11.2098 10.3892 11.0297 10.7099 10.709C11.0305 10.3884 11.2107 9.95346 11.2107 9.49999Z" stroke="white" stroke-linecap="round" stroke-linejoin="round" />'
 			. '</svg>';
+	}
+
+	/**
+	 * @param list<int> $tsList
+	 * @return array<int, true>
+	 */
+	private static function activeLockTimes( int $productId, array $tsList ): array {
+		if ( $productId <= 0 || array() === $tsList ) {
+			return array();
+		}
+
+		$repo  = new EloquentBookingLockRepository();
+		$locks = $repo->forProduct( $productId );
+		$now   = time();
+		$out   = array();
+
+		foreach ( $locks as $lock ) {
+			$bookingTime = (int) ( $lock->booking_time ?? 0 );
+			if ( $bookingTime <= 0 || ! in_array( $bookingTime, $tsList, true ) ) {
+				continue;
+			}
+
+			$lockTime = (int) ( $lock->lock_time ?? 0 );
+			if ( $lockTime > 0 && $now < $lockTime + self::LOCK_TTL_SECONDS ) {
+				$out[ $bookingTime ] = true;
+			}
+		}
+
+		return $out;
 	}
 
 	private static function ensureMojavezedarHelpers(): void {

@@ -354,7 +354,7 @@ final class TeamSansBridge
 		return 'normals';
 	}
 
-	private static function tehranMidnightUnix( int $timestamp ): int {
+	public static function tehranMidnightUnix( int $timestamp ): int {
 		if ( $timestamp <= 0 ) {
 			return 0;
 		}

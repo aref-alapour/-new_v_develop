@@ -8,8 +8,10 @@ use EscapeZoom\Core\Modules\AjaxGateway\ActionRegistry;
 use EscapeZoom\Core\Modules\AjaxGateway\GatewayResponse;
 use EscapeZoom\Core\Modules\Booking\Actions\GetSansesJsonAction;
 use EscapeZoom\Core\Modules\Booking\BookingReadContext;
+use EscapeZoom\Core\Modules\Booking\Services\BookingCacheInvalidator;
 use EscapeZoom\Core\Modules\Booking\Services\Team\SansManagementWebHtmlService;
 use EscapeZoom\Core\Modules\Booking\Services\Team\TeamSansBridge;
+use EscapeZoom\Core\Modules\Booking\Services\Team\TeamSansWriteService;
 
 /**
  * booking.* gateway actions (HTML partials).
@@ -230,6 +232,8 @@ final class BookingGatewayActions
 			GatewayResponse::json( false, array(), array( 'code' => 'SERVER', 'message' => $e->getMessage() ), 500 );
 		}
 
+		BookingCacheInvalidator::invalidateProduct( $productId );
+
 		self::syncResponseCrypto();
 		GatewayResponse::raw( wp_json_encode( $result, JSON_UNESCAPED_UNICODE ) ?: '{}' );
 	}
@@ -247,21 +251,20 @@ final class BookingGatewayActions
 
 		$userId = function_exists( 'get_current_user_id' ) ? (int) get_current_user_id() : 0;
 
-		$raw = BookingDispatchService::dispatchType(
-			$type,
-			array(
-				'product_id'     => $productId,
-				'day_start_time' => $dayStartTime,
-				'user_id'        => $userId,
-			)
-		);
-
-		if ( '' === trim( (string) $raw ) ) {
-			GatewayResponse::json( false, array(), array( 'code' => 'DISPATCH', 'message' => 'Empty response' ), 500 );
+		try {
+			if ( 'open_all_sanses' === $type ) {
+				$result = TeamSansWriteService::openAllSanses( $productId, $dayStartTime );
+			} else {
+				$result = TeamSansWriteService::closeAllSanses( $productId, $dayStartTime, $userId );
+			}
+		} catch ( \Throwable $e ) {
+			GatewayResponse::json( false, array(), array( 'code' => 'SERVER', 'message' => $e->getMessage() ), 500 );
 		}
 
+		BookingCacheInvalidator::invalidateSansDay( $productId, $dayStartTime );
+
 		self::syncResponseCrypto();
-		GatewayResponse::raw( (string) $raw );
+		GatewayResponse::raw( wp_json_encode( $result, JSON_UNESCAPED_UNICODE ) ?: '{}' );
 	}
 
 	/**
@@ -277,21 +280,23 @@ final class BookingGatewayActions
 
 		$userId = function_exists( 'get_current_user_id' ) ? (int) get_current_user_id() : 0;
 
-		$raw = BookingDispatchService::dispatchType(
-			$type,
-			array(
-				'product_id' => $productId,
-				'sans_time'  => $sansTime,
-				'user_id'    => $userId,
-			)
-		);
-
-		if ( '' === trim( (string) $raw ) ) {
-			GatewayResponse::json( false, array(), array( 'code' => 'DISPATCH', 'message' => 'Empty response' ), 500 );
+		try {
+			if ( 'open_sans' === $type ) {
+				$payload = TeamSansWriteService::openSans( $productId, $sansTime );
+			} else {
+				$payload = TeamSansWriteService::closeSans( $productId, $sansTime, $userId );
+			}
+		} catch ( \Throwable $e ) {
+			GatewayResponse::json( false, array(), array( 'code' => 'SERVER', 'message' => $e->getMessage() ), 500 );
 		}
 
+		BookingCacheInvalidator::invalidateSansDay(
+			$productId,
+			TeamSansBridge::tehranMidnightUnix( $sansTime )
+		);
+
 		self::syncResponseCrypto();
-		GatewayResponse::raw( (string) $raw );
+		GatewayResponse::raw( wp_json_encode( $payload, JSON_UNESCAPED_UNICODE ) ?: '{}' );
 	}
 
 	private static function syncResponseCrypto(): void {

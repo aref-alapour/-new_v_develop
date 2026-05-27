@@ -18,9 +18,21 @@ function v2_ajax_handler_callback() {
     
     $callback = isset( $_POST['callback'] ) ? basename( wp_unslash( (string) $_POST['callback'] ) ) : '';
     $callback = preg_replace( '/[^a-zA-Z0-9_-]/', '', $callback );
-    $secure_callbacks = [ 'product_add_comment', 'product_edit_comment', 'sans_customer_badges', 'check_comment_form', 'post_order_comment', 'get_order_comment_statuses', 'get_comments_order_list' ];
+
+    $secure_callbacks = array(
+        'product_add_comment',
+        'product_edit_comment',
+        'sans_customer_badges',
+        'check_comment_form',
+        'post_order_comment',
+        'get_order_comment_statuses',
+        'get_comments_order_list',
+    );
     if ( in_array( $callback, $secure_callbacks, true ) ) {
         check_ajax_referer( 'v2-ajax-nonce', 'nonce' );
+    } elseif ( class_exists( '\EscapeZoom\Core\Modules\Booking\Services\Panel\PanelAjaxSecurityService' )
+        && \EscapeZoom\Core\Modules\Booking\Services\Panel\PanelAjaxSecurityService::requiresNonce( $callback ) ) {
+        \EscapeZoom\Core\Modules\Booking\Services\Panel\PanelAjaxSecurityService::assertNonce();
     }
 
     $callback_file = Theme_PATH . "app/ajax/callbacks/" . $callback . '.php';

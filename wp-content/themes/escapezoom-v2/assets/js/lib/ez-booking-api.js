@@ -20,6 +20,9 @@ let toggleSansController = null;
 /** @type {AbortController|null} */
 let sansWeekController = null;
 
+/** @type {string} */
+let sansWeekInFlightKey = '';
+
 /** @type {AbortController|null} */
 let checkPlayingController = null;
 
@@ -455,13 +458,21 @@ async function fetchAndRenderWeekFromJson(productId, dayStart, signal) {
 export async function sansWeekHtml(productId, dayStart) {
   const pid = parseInt(productId, 10);
   const day = parseInt(dayStart, 10);
+  const requestKey = `${pid}:${day}`;
 
-  sansWeekController = replaceController(sansWeekController, new AbortController());
+  if (sansWeekInFlightKey !== requestKey) {
+    sansWeekController = replaceController(
+      sansWeekController,
+      new AbortController()
+    );
+    sansWeekInFlightKey = requestKey;
+  }
   const controller = sansWeekController;
 
   try {
     try {
-      return await fetchAndRenderWeekFromJson(pid, day, controller.signal);
+      const html = await fetchAndRenderWeekFromJson(pid, day, controller.signal);
+      return html;
     } catch (jsonErr) {
       if (isAbortError(jsonErr)) {
         return null;
@@ -526,6 +537,7 @@ export async function sansWeekHtml(productId, dayStart) {
   } finally {
     if (sansWeekController === controller) {
       sansWeekController = null;
+      sansWeekInFlightKey = '';
     }
   }
 }

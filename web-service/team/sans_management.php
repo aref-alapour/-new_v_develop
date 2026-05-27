@@ -47,6 +47,32 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 $home_url = 'https://' . $_SERVER['HTTP_HOST'];
 
+/** Gateway-owned actions — block direct HTTP unless internal dispatch (BookingDispatchService). */
+$ez_gateway_only_types = array(
+	'sans_management_web',
+	'open_sans',
+	'close_sans',
+	'open_all_sanses',
+	'close_all_sanses',
+	'bulk_date_range',
+	'game_search',
+	'check_playing',
+);
+if ( isset( $data->type ) && in_array( (string) $data->type, $ez_gateway_only_types, true ) ) {
+	if ( ! defined( 'EZ_BOOKING_INTERNAL_CALL' ) || ! EZ_BOOKING_INTERNAL_CALL ) {
+		http_response_code( 403 );
+		header( 'Content-Type: application/json; charset=utf-8' );
+		echo json_encode(
+			array(
+				'error'   => 'forbidden',
+				'message' => 'Use POST /ajax gateway actions (booking.*).',
+			),
+			JSON_UNESCAPED_UNICODE
+		);
+		exit;
+	}
+}
+
 /********************************************************************************************************************************/
 if ($data->type == 'sans_management_web') {
     global $conn;
