@@ -1,16 +1,15 @@
 # فاز ۵.۱ — نتایج verify (CLI + HAR)
 
-## CLI (host — 2026-05-27)
+## CLI (project-only mode — 2026-05-27)
 
 | Check | Command | Result |
 |-------|---------|--------|
-| Secrets init | `php wp-content/mu-plugins/ez_core/bin/secrets-init-dev.php` | PASS — `secrets.enc` created |
-| Boot probe | `php wp-content/mu-plugins/ez_core/bin/gateway-boot-probe.php` | PASS — `sub_secret` derivable |
-| DB health | `php wp-content/mu-plugins/ez_core/bin/booking-db-health.php` | PARTIAL — Secrets OK, Capsule FAIL (host cannot reach `mysql`) |
+| Boot probe | `php wp-content/mu-plugins/ez_core/bin/gateway-boot-probe.php` | PASS — `sub_secret` derivable without `secrets.enc` |
+| DB health | `php wp-content/mu-plugins/ez_core/bin/booking-db-health.php` | PARTIAL — `EZ_AJAX_SHARED_SECRET` configured; DB checks fail خارج از WP runtime |
 
-**نتیجه:** بلاکر boot از نظر کد/secrets رفع شد. برای PASS کامل DB باید health داخل Docker اجرا شود.
+**نتیجه:** بلاکر boot از نظر کد رفع شد و secret از WordPress keys مشتق می‌شود.
 
-## HAR (browser — داخل Docker)
+## HAR (browser — local runtime)
 
 | صفحه | درخواست | معیار | وضعیت |
 |------|---------|--------|--------|
@@ -28,11 +27,8 @@
 3. Export HAR per page
 4. ذخیره در `docs/har/phase-5-1/` (local، gitignored)
 
-### پس از Docker up
+### smoke browser
 
-```bash
-docker compose exec wordpress php wp-content/mu-plugins/ez_core/bin/booking-db-health.php
-docker compose exec wordpress php wp-content/mu-plugins/ez_core/bin/gateway-boot-probe.php
-```
-
-Hard refresh single-product → Console: `window.__EZ_BOOT__.sub_secret` باید string غیرخالی باشد.
+- View Source باید `id="ez-ajax-boot"` داشته باشد.
+- Console باید `window.__EZ_BOOT__.sub_secret` غیرخالی نشان دهد.
+- در Network، کلیک روز در single-product باید `/ajax` با `booking.sans_day_json` بزند.

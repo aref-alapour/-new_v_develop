@@ -97,7 +97,8 @@ final class PayloadCipher
 		}
 
 		if ( ActionClassification::isRead( $action ) ) {
-			return SecretsLoader::payloadEncryptReads();
+			// Project-only mode: keep reads signature-only for low overhead.
+			return false;
 		}
 
 		return false;

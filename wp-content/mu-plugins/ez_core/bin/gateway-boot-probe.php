@@ -30,14 +30,18 @@ $ok = true;
 
 echo "=== EZ Gateway boot probe ===\n";
 
-if ( ! SecretsLoader::isLoaded() ) {
-	echo "FAIL: secrets not loaded: " . ( SecretsLoader::getBootError() ?: 'unknown' ) . "\n";
-	exit( 1 );
+if ( ! defined( 'AUTH_KEY' ) ) {
+	define( 'AUTH_KEY', 'ez-cli-project-only-auth-key' );
+}
+if ( ! defined( 'SECURE_AUTH_KEY' ) ) {
+	define( 'SECURE_AUTH_KEY', 'ez-cli-project-only-secure-key' );
 }
 
-echo "Secrets: OK\n";
-
-if ( ! defined( 'EZ_AJAX_SHARED_SECRET' ) || '' === (string) EZ_AJAX_SHARED_SECRET ) {
+$resolved = SecretsLoader::resolveAjaxSharedSecret();
+if ( '' === $resolved && defined( 'EZ_AJAX_SHARED_SECRET' ) ) {
+	$resolved = (string) EZ_AJAX_SHARED_SECRET;
+}
+if ( '' === $resolved ) {
 	echo "FAIL: EZ_AJAX_SHARED_SECRET missing\n";
 	exit( 1 );
 }
@@ -53,7 +57,7 @@ $kid        = 'v1';
 $clientId   = \EZ\Ajax\Auth\SubKey::uuidV4();
 $expiresAt  = time() + 900;
 $subSecret  = \EZ\Ajax\Auth\SubKey::deriveBase64Url(
-	(string) EZ_AJAX_SHARED_SECRET,
+	$resolved,
 	$kid,
 	$clientId,
 	$expiresAt

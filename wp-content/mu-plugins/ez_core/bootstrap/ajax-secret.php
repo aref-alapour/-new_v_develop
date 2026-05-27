@@ -25,14 +25,12 @@ if ( ! SecretsLoader::isLoaded() ) {
 			'enc_path'   => SecretsLoader::encFilePath(),
 		)
 	);
-
-	return;
 }
 
 $secret = SecretsLoader::resolveAjaxSharedSecret();
 if ( '' === $secret ) {
 	// phpcs:ignore WordPress.PHP.DevelopmentFunctions.error_log_error_log
-	error_log( '[EZ Core] gateway.ajax_shared_secret missing in secrets.enc' );
+	error_log( '[EZ Core] gateway.ajax_shared_secret missing in secrets.enc and fallback derivation failed' );
 	GatewayBootDiagnostics::log(
 		'ajax_secret_skip',
 		array(

@@ -1,5 +1,15 @@
 # فاز ۵ — تأیید Docker و HAR
 
+## Project-only mode (بدون secrets.enc)
+
+- اگر `secrets.enc` موجود نباشد، `EZ_AJAX_SHARED_SECRET` به‌صورت deterministic از `AUTH_KEY + SECURE_AUTH_KEY` در core مشتق می‌شود.
+- در این حالت boot (`ez-ajax-boot`) همچنان باید تولید شود، مشروط به وجود WordPress keys.
+- Probe:
+
+```bash
+php wp-content/mu-plugins/ez_core/bin/gateway-boot-probe.php
+```
+
 ## پیش‌نیاز
 
 ```bash

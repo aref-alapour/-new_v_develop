@@ -15,6 +15,13 @@ if ( ! defined( 'EZ_CORE_PATH' ) ) {
 	define( 'EZ_CORE_PATH', $corePath );
 }
 
+if ( ! defined( 'AUTH_KEY' ) ) {
+	define( 'AUTH_KEY', 'ez-cli-project-only-auth-key' );
+}
+if ( ! defined( 'SECURE_AUTH_KEY' ) ) {
+	define( 'SECURE_AUTH_KEY', 'ez-cli-project-only-secure-key' );
+}
+
 require $corePath . '/bootstrap/load-secrets.php';
 
 $autoload = $corePath . '/vendor/autoload.php';

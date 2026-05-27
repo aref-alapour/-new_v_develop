@@ -36,21 +36,22 @@ if ( $secretsOk ) {
 		}
 	}
 
-	if ( ! defined( 'EZ_BOOKING_USE_INTERNAL' ) ) {
-		define( 'EZ_BOOKING_USE_INTERNAL', SecretsLoader::bookingUseInternal() );
-	}
+}
 
-	if ( ! defined( 'EZ_BOOKING_NATIVE_SANSES' ) ) {
-		define( 'EZ_BOOKING_NATIVE_SANSES', SecretsLoader::bookingNativeSanses() );
-	}
+if ( ! defined( 'EZ_BOOKING_USE_INTERNAL' ) ) {
+	define( 'EZ_BOOKING_USE_INTERNAL', SecretsLoader::bookingUseInternal() );
+}
 
-	if ( ! defined( 'EZ_GATEWAY_ENCRYPT_WRITES' ) ) {
-		define( 'EZ_GATEWAY_ENCRYPT_WRITES', SecretsLoader::payloadEncryptWrites() );
-	}
+if ( ! defined( 'EZ_BOOKING_NATIVE_SANSES' ) ) {
+	define( 'EZ_BOOKING_NATIVE_SANSES', SecretsLoader::bookingNativeSanses() );
+}
 
-	if ( ! defined( 'EZ_GATEWAY_ENCRYPT_READS' ) ) {
-		define( 'EZ_GATEWAY_ENCRYPT_READS', SecretsLoader::payloadEncryptReads() );
-	}
+if ( ! defined( 'EZ_GATEWAY_ENCRYPT_WRITES' ) ) {
+	define( 'EZ_GATEWAY_ENCRYPT_WRITES', SecretsLoader::payloadEncryptWrites() );
+}
+
+if ( ! defined( 'EZ_GATEWAY_ENCRYPT_READS' ) ) {
+	define( 'EZ_GATEWAY_ENCRYPT_READS', SecretsLoader::payloadEncryptReads() );
 }
 
 if ( ! defined( 'ABSPATH' ) ) {

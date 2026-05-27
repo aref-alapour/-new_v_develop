@@ -50,6 +50,12 @@ CRM باید از:
 
 پس از write: [BookingCacheInvalidator.php](../../wp-content/mu-plugins/ez_core/src/Modules/Booking/Services/BookingCacheInvalidator.php).
 
+## Crypto policy (سبک)
+
+- Encryption فقط برای write actions فعال است.
+- read actions (`sans_day_json`, `sans_week`, `game_search`, `check_playing`) فقط با HMAC signature محافظت می‌شوند.
+- این سیاست سربار CPU مسیر read را نزدیک صفر نگه می‌دارد.
+
 ## SQLi میان‌مدت
 
 فایل legacy هنوز `$conn->query` دارد؛ مسیر HTTP برای typeهای migrate شده بسته است. بازنویسی کامل SQL در فاز بعدی.

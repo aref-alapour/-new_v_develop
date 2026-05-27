@@ -145,7 +145,9 @@ final class SecretsLoader
 	}
 
 	/**
-	 * Master AJAX signing secret from secrets.enc (empty if not configured).
+	 * Master AJAX signing secret.
+	 * Primary: secrets.enc
+	 * Fallback: deterministic project-only derivation from WordPress keys.
 	 */
 	public static function resolveAjaxSharedSecret(): string {
 		if ( ! self::boot() ) {
@@ -158,7 +160,15 @@ final class SecretsLoader
 				)
 			);
 
-			return '';
+			$fallback = self::deriveProjectOnlyAjaxSecret();
+			if ( '' !== $fallback ) {
+				self::debugLog(
+					'resolveAjaxSharedSecret: fallback derived (boot failed)',
+					array( 'secret_len' => strlen( $fallback ) )
+				);
+			}
+
+			return $fallback;
 		}
 
 		$secret = self::ajaxSharedSecret();
@@ -170,9 +180,60 @@ final class SecretsLoader
 					'is_loaded' => self::isLoaded(),
 				)
 			);
+
+			$fallback = self::deriveProjectOnlyAjaxSecret();
+			if ( '' !== $fallback ) {
+				self::debugLog(
+					'resolveAjaxSharedSecret: fallback derived (gateway.ajax_shared_secret empty)',
+					array( 'secret_len' => strlen( $fallback ) )
+				);
+			}
+
+			return $fallback;
 		}
 
 		return $secret;
+	}
+
+	private static function deriveProjectOnlyAjaxSecret(): string {
+		$auth   = self::resolveWordPressKey( 'AUTH_KEY' );
+		$secure = self::resolveWordPressKey( 'SECURE_AUTH_KEY' );
+		if ( '' === $auth && '' === $secure ) {
+			return '';
+		}
+
+		$material  = $auth . "\n" . $secure;
+		$namespace = self::projectNamespace();
+		$raw       = hash_hmac( 'sha256', $namespace, $material, true );
+		if ( false === $raw ) {
+			return '';
+		}
+
+		return 'v1:' . rtrim( strtr( base64_encode( $raw ), '+/', '-_' ), '=' );
+	}
+
+	private static function resolveWordPressKey( string $constName ): string {
+		if ( defined( $constName ) ) {
+			return (string) constant( $constName );
+		}
+
+		return '';
+	}
+
+	private static function projectNamespace(): string {
+		$parts = array( 'ez-core-project-only-v1' );
+
+		if ( defined( 'DB_NAME' ) ) {
+			$parts[] = (string) DB_NAME;
+		}
+		if ( defined( 'DB_HOST' ) ) {
+			$parts[] = (string) DB_HOST;
+		}
+		if ( defined( 'ABSPATH' ) ) {
+			$parts[] = (string) ABSPATH;
+		}
+
+		return implode( '|', $parts );
 	}
 
 	public static function bookingUseInternal(): bool {
