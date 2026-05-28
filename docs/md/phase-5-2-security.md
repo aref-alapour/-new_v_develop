@@ -9,6 +9,7 @@
 
 - همه callbackهای `panel_*` به‌جز لیست read-only در `READ_ONLY_CALLBACKS` نیاز به `check_ajax_referer('v2-ajax-nonce')` دارند.
 - callbackهای عمومی قبلی (`post_order_comment`, …) بدون تغییر.
+- در `v2_ajax_handler` یک guard مرکزی ownership اضافه شد که در صورت وجود `product_id`/`room_id` روی callbackهای `panel_*`، دسترسی مالک/مدیر را با `PanelProductAuthorizationService` بررسی می‌کند.
 
 ### P0 حساس (nonce اجباری)
 

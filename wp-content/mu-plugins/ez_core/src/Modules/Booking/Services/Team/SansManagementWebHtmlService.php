@@ -268,7 +268,7 @@ final class SansManagementWebHtmlService
 		}
 
 		$repo  = new EloquentBookingLockRepository();
-		$locks = $repo->forProduct( $productId );
+		$locks = $repo->forProductTimes( $productId, $tsList );
 		$now   = time();
 		$out   = array();
 		$tsSet = array_fill_keys( array_map( 'intval', $tsList ), true );

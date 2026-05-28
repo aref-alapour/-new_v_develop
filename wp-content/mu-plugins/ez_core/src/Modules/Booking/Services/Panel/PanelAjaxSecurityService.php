@@ -49,4 +49,38 @@ final class PanelAjaxSecurityService
 
 		check_ajax_referer( 'v2-ajax-nonce', 'nonce' );
 	}
+
+	/**
+	 * @param array<string,mixed> $request
+	 */
+	public static function assertOwnershipFromRequest( string $callback, array $request ): void {
+		if ( '' === $callback || ! str_starts_with( $callback, 'panel_' ) ) {
+			return;
+		}
+
+		$productId = self::extractProductId( $request );
+		if ( $productId <= 0 ) {
+			return;
+		}
+
+		PanelProductAuthorizationService::assertCanManageProduct( $productId );
+	}
+
+	/**
+	 * @param array<string,mixed> $request
+	 */
+	private static function extractProductId( array $request ): int {
+		$keys = array( 'product_id', 'room_id', 'id_room', 'post_id' );
+		foreach ( $keys as $key ) {
+			if ( ! isset( $request[ $key ] ) ) {
+				continue;
+			}
+			$value = is_scalar( $request[ $key ] ) ? (int) $request[ $key ] : 0;
+			if ( $value > 0 ) {
+				return $value;
+			}
+		}
+
+		return 0;
+	}
 }

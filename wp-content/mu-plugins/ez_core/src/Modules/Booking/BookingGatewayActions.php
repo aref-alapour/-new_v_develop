@@ -192,6 +192,7 @@ final class BookingGatewayActions
 	 * @param array<string,mixed> $body
 	 */
 	public static function checkPlaying( array $body ): void {
+		$startedAt = microtime( true );
 		$productId    = isset( $body['product_id'] ) ? (int) $body['product_id'] : 0;
 		$dayStartTime = isset( $body['day_start_time'] ) ? (int) $body['day_start_time'] : 0;
 
@@ -206,6 +207,9 @@ final class BookingGatewayActions
 		}
 
 		self::syncResponseCrypto();
+		if ( ! headers_sent() ) {
+			header( 'X-EZ-Booking-Elapsed-Ms: ' . (string) (int) round( ( microtime( true ) - $startedAt ) * 1000 ) );
+		}
 		GatewayResponse::html( $html );
 	}
 
@@ -213,6 +217,7 @@ final class BookingGatewayActions
 	 * @param array<string,mixed> $body
 	 */
 	public static function gameSearch( array $body ): void {
+		$startedAt = microtime( true );
 		$term = isset( $body['term'] ) ? trim( (string) $body['term'] ) : '';
 
 		try {
@@ -222,6 +227,9 @@ final class BookingGatewayActions
 		}
 
 		self::syncResponseCrypto();
+		if ( ! headers_sent() ) {
+			header( 'X-EZ-Booking-Elapsed-Ms: ' . (string) (int) round( ( microtime( true ) - $startedAt ) * 1000 ) );
+		}
 		GatewayResponse::html( $html );
 	}
 
@@ -229,6 +237,7 @@ final class BookingGatewayActions
 	 * @param array<string,mixed> $body
 	 */
 	public static function bulkDateRange( array $body ): void {
+		$startedAt = microtime( true );
 		$productId  = isset( $body['product_id'] ) ? (int) $body['product_id'] : 0;
 		$startDate  = isset( $body['start_date'] ) ? trim( (string) $body['start_date'] ) : '';
 		$endDate    = isset( $body['end_date'] ) ? trim( (string) $body['end_date'] ) : '';
@@ -247,6 +256,9 @@ final class BookingGatewayActions
 		BookingCacheInvalidator::invalidateProduct( $productId );
 
 		self::syncResponseCrypto();
+		if ( ! headers_sent() ) {
+			header( 'X-EZ-Booking-Elapsed-Ms: ' . (string) (int) round( ( microtime( true ) - $startedAt ) * 1000 ) );
+		}
 		GatewayResponse::raw( wp_json_encode( $result, JSON_UNESCAPED_UNICODE ) ?: '{}' );
 	}
 
@@ -254,6 +266,7 @@ final class BookingGatewayActions
 	 * @param array<string,mixed> $body
 	 */
 	private static function dispatchBulkDayAction( string $type, array $body ): void {
+		$startedAt = microtime( true );
 		$productId    = isset( $body['product_id'] ) ? (int) $body['product_id'] : 0;
 		$dayStartTime = isset( $body['day_start_time'] ) ? (int) $body['day_start_time'] : 0;
 
@@ -276,6 +289,9 @@ final class BookingGatewayActions
 		BookingCacheInvalidator::invalidateSansDay( $productId, $dayStartTime );
 
 		self::syncResponseCrypto();
+		if ( ! headers_sent() ) {
+			header( 'X-EZ-Booking-Elapsed-Ms: ' . (string) (int) round( ( microtime( true ) - $startedAt ) * 1000 ) );
+		}
 		GatewayResponse::raw( wp_json_encode( $result, JSON_UNESCAPED_UNICODE ) ?: '{}' );
 	}
 
@@ -283,6 +299,7 @@ final class BookingGatewayActions
 	 * @param array<string,mixed> $body
 	 */
 	private static function dispatchJsonSansAction( string $type, array $body ): void {
+		$startedAt = microtime( true );
 		$productId = isset( $body['product_id'] ) ? (int) $body['product_id'] : 0;
 		$sansTime  = isset( $body['sans_time'] ) ? (int) $body['sans_time'] : 0;
 
@@ -308,6 +325,9 @@ final class BookingGatewayActions
 		);
 
 		self::syncResponseCrypto();
+		if ( ! headers_sent() ) {
+			header( 'X-EZ-Booking-Elapsed-Ms: ' . (string) (int) round( ( microtime( true ) - $startedAt ) * 1000 ) );
+		}
 		GatewayResponse::raw( wp_json_encode( $payload, JSON_UNESCAPED_UNICODE ) ?: '{}' );
 	}
 

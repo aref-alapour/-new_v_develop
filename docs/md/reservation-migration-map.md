@@ -22,12 +22,20 @@ This map tracks reservation-related dependencies and migration status from legac
 
 ## Legacy Removal Result (team/panel scope)
 
-- Removed: `web-service/team/sans_management.php`
-- Removed: `web-service/ez-sans-mojavezedar-wp.php`
-- Removed: `web-service/includes/reservation-dispatch.php`
-- Removed: `web-service/includes/reservation-bootstrap.php`
-- Removed: `web-service/includes/reservation-handlers.inc.php`
-- Removed: `web-service/includes/reservation-functions.inc.php`
+- Runtime callsites removed from `wp-content` for:
+  - `web-service/team/sans_management.php`
+  - `web-service/includes/reservation-bootstrap.php`
+  - `web-service/includes/reservation-handlers.inc.php`
+- Legacy reservation include chain does not have active runtime callers in team/panel path.
+- Physical legacy file cleanup is partially complete; repository still contains non-runtime `web-service` files and should be cleaned in a dedicated final deletion pass.
+
+## Performance/Security hardening (team/panel)
+
+- `TeamSansBridge::searchProducts()` now prioritizes prefix search and bounded fallback search instead of unconditional broad scan.
+- Game-search image URL normalization now avoids double `/wp-content/uploads/` prefix.
+- `EloquentBookingLockRepository` supports narrow lock fetch by requested slot times; `SansManagementWebHtmlService` consumes this narrowed path.
+- `BookingGatewayActions` emits `X-EZ-Booking-Elapsed-Ms` for team/panel actions (`game_search`, `check_playing`, toggle and bulk writes).
+- Panel ownership guard added at `v2_ajax_handler` entrypoint through `PanelAjaxSecurityService::assertOwnershipFromRequest()`.
 
 ## Recommended Removal Order
 

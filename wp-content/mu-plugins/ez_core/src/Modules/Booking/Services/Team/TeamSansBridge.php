@@ -108,7 +108,6 @@ final class TeamSansBridge
 			return '';
 		}
 
-		$homeUrl = function_exists( 'home_url' ) ? home_url() : '';
 		$parts   = preg_split( '/\s+/', $term ) ?: array();
 		$products = array();
 
@@ -142,7 +141,7 @@ final class TeamSansBridge
 			$pid   = (int) $product['product_id'];
 			$name  = esc_html( (string) ( $product['title'] ?? '' ) );
 			$city  = esc_html( (string) ( $product['city_name'] ?? '' ) );
-			$image = esc_url( $homeUrl . '/wp-content/uploads/' . ltrim( (string) ( $product['image'] ?? '' ), '/' ) );
+			$image = esc_url( self::normalizeProductImageUrl( (string) ( $product['image'] ?? '' ) ) );
 			$html .= '<a href="javascript:;" data-id="' . esc_attr( (string) $pid ) . '" data-title="' . $name . '" class="team_sans_game_search_item flex items-center gap-x-2 py-2">';
 			$html .= '<img src="' . $image . '" alt="" class="h-10 w-7.5 rounded">';
 			$html .= '<span>' . $name . ' (' . $city . ')</span></a>';
@@ -447,20 +446,72 @@ final class TeamSansBridge
 			return array();
 		}
 
-		$like = '%' . addcslashes( $term, '%_\\' ) . '%';
+		$startsLike = addcslashes( $term, '%_\\' ) . '%';
+		$containsLike = '%' . addcslashes( $term, '%_\\' ) . '%';
 
-		$rows = Capsule::connection( 'external' )
+		$query = Capsule::connection( 'external' )
 			->table( 'products_data' )
-			->where( 'title', 'LIKE', $like )
-			->limit( 100 )
-			->get();
+			->where( 'title', 'LIKE', $startsLike )
+			->orderBy( 'title' )
+			->limit( 60 );
+
+		$rows = $query->get( array( 'product_id', 'title', 'city_name', 'image' ) );
 
 		$out = array();
 		foreach ( $rows as $row ) {
 			$out[] = (array) $row;
 		}
 
+		$termLength = function_exists( 'mb_strlen' ) ? mb_strlen( $term ) : strlen( $term );
+		if ( count( $out ) < 50 && $termLength >= 3 ) {
+			$seenIds = array_map(
+				static fn( array $row ): int => (int) ( $row['product_id'] ?? 0 ),
+				$out
+			);
+
+			$fallbackRows = Capsule::connection( 'external' )
+				->table( 'products_data' )
+				->where( 'title', 'LIKE', $containsLike )
+				->when(
+					array() !== $seenIds,
+					static fn( $q ) => $q->whereNotIn( 'product_id', $seenIds )
+				)
+				->orderBy( 'title' )
+				->limit( 50 - count( $out ) )
+				->get( array( 'product_id', 'title', 'city_name', 'image' ) );
+
+			foreach ( $fallbackRows as $row ) {
+				$out[] = (array) $row;
+			}
+		}
+
 		return $out;
+	}
+
+	private static function normalizeProductImageUrl( string $imagePath ): string {
+		$imagePath = trim( $imagePath );
+		if ( '' === $imagePath ) {
+			return '';
+		}
+
+		if ( preg_match( '#^https?://#i', $imagePath ) ) {
+			return $imagePath;
+		}
+
+		$normalized = str_replace( '\\', '/', $imagePath );
+		$normalized = ltrim( $normalized, '/' );
+		$needle     = 'wp-content/uploads/';
+		$pos        = stripos( $normalized, $needle );
+		if ( false !== $pos ) {
+			$normalized = substr( $normalized, $pos + strlen( $needle ) );
+		}
+
+		$homeUrl = function_exists( 'home_url' ) ? home_url() : '';
+		if ( '' === $homeUrl ) {
+			return '/wp-content/uploads/' . ltrim( $normalized, '/' );
+		}
+
+		return rtrim( $homeUrl, '/' ) . '/wp-content/uploads/' . ltrim( $normalized, '/' );
 	}
 
 	public static function formatJalaliTime( int $timestamp ): string {

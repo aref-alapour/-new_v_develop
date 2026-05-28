@@ -35,6 +35,20 @@ function v2_ajax_handler_callback() {
         \EscapeZoom\Core\Modules\Booking\Services\Panel\PanelAjaxSecurityService::assertNonce();
     }
 
+    if ( class_exists( '\EscapeZoom\Core\Modules\Booking\Services\Panel\PanelAjaxSecurityService' ) ) {
+        try {
+            \EscapeZoom\Core\Modules\Booking\Services\Panel\PanelAjaxSecurityService::assertOwnershipFromRequest( $callback, $_POST );
+        } catch ( \Throwable $e ) {
+            wp_send_json_error(
+                array(
+                    'message' => 'دسترسی به این محصول ندارید.',
+                    'code'    => 'FORBIDDEN',
+                ),
+                403
+            );
+        }
+    }
+
     $callback_file = Theme_PATH . "app/ajax/callbacks/" . $callback . '.php';
     
     if (file_exists($callback_file)) {

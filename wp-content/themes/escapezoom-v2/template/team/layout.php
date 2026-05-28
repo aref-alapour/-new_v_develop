@@ -53,17 +53,6 @@ add_filter('wpseo_title', function ($title) use ($page_title) {
 <html <?php language_attributes(); ?> class="scroll-smooth" dir="rtl" style="margin: 0 !important;">
 
 <head>
-    <?php
-    if (
-        function_exists( 'ez_ajax_boot_print_inline' )
-        && function_exists( 'ez_booking_gateway_enabled' )
-        && function_exists( 'ez_ajax_should_boot' )
-        && ez_booking_gateway_enabled()
-        && ez_ajax_should_boot()
-    ) {
-        ez_ajax_boot_print_inline();
-    }
-    ?>
     <?php wp_head(); ?>
     <meta charset="<?php bloginfo('charset'); ?>" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
