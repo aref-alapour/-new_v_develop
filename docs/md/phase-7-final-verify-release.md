@@ -17,6 +17,8 @@
 - حذف fallback read path رزرو (native-only برای مسیرهای اصلی)
 - migration map وابستگی‌های reservation ثبت شد
 - instrumentation latency با `X-EZ-Booking-Elapsed-Ms` اضافه شد
+- team/panel runtime dependency به `web-service` حذف شد (callsite + include fallback)
+- فایل‌های legacy هدف در `web-service/includes` و `web-service/team` و `web-service/ez-sans-mojavezedar-wp.php` حذف شدند
 
 ## یادداشت عملیاتی
 

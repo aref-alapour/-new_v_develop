@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace EscapeZoom\Core\Modules\Booking\Infrastructure;
 
+use EscapeZoom\Core\Infrastructure\Database\CapsuleManager;
+
 /**
  * Reads product schedule metadata from escapezo_queries.products_data.
  */
@@ -23,26 +25,27 @@ final class ProductsDataRepository
 			return self::$rowCache[ $productId ];
 		}
 
-		$conn = $this->connection();
-		if ( ! ( $conn instanceof \mysqli ) ) {
+		if ( ! CapsuleManager::hasExternalConnection() ) {
 			self::$rowCache[ $productId ] = null;
 			return null;
 		}
 
-		$pid    = (int) $productId;
-		$result = $conn->query( "SELECT product_id,schedule,discount_data,auto_disable FROM products_data WHERE product_id = {$pid} LIMIT 1" );
-		if ( ! $result || $result->num_rows < 1 ) {
+		try {
+			$row = CapsuleManager::connection( 'external' )
+				->table( 'products_data' )
+				->where( 'product_id', (int) $productId )
+				->first( array( 'product_id', 'schedule', 'discount_data', 'auto_disable' ) );
+		} catch ( \Throwable $e ) {
 			self::$rowCache[ $productId ] = null;
 			return null;
 		}
 
-		$rows = $result->fetch_all( MYSQLI_ASSOC );
-		if ( ! is_array( $rows ) || ! isset( $rows[0] ) || ! is_array( $rows[0] ) ) {
+		if ( null === $row ) {
 			self::$rowCache[ $productId ] = null;
 			return null;
 		}
 
-		self::$rowCache[ $productId ] = $rows[0];
+		self::$rowCache[ $productId ] = (array) $row;
 
 		return self::$rowCache[ $productId ];
 	}
@@ -102,24 +105,4 @@ final class ProductsDataRepository
 		return time() + ( $minutes * 60 );
 	}
 
-	private function connection(): ?\mysqli {
-		if ( ! function_exists( 'ez_reservation_db_connect' ) ) {
-			$path = defined( 'ABSPATH' ) ? ABSPATH . 'web-service/db-connect.php' : '';
-			if ( '' !== $path && is_readable( $path ) ) {
-				require_once $path;
-			}
-		}
-
-		if ( function_exists( 'ez_reservation_get_conn' ) ) {
-			return ez_reservation_get_conn();
-		}
-
-		if ( function_exists( 'ez_reservation_db_connect' ) ) {
-			return ez_reservation_db_connect();
-		}
-
-		global $conn;
-
-		return ( $conn instanceof \mysqli ) ? $conn : null;
-	}
 }

@@ -14,13 +14,6 @@ final class BookingDispatchService
 	 */
 	public static function dispatchType( string $type, array $data = array() ): string {
 		if ( ! function_exists( 'ez_reservation_dispatch' ) ) {
-			$dispatch = ABSPATH . 'web-service/includes/reservation-dispatch.php';
-			if ( is_readable( $dispatch ) ) {
-				require_once $dispatch;
-			}
-		}
-
-		if ( ! function_exists( 'ez_reservation_dispatch' ) ) {
 			return '';
 		}
 

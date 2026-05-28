@@ -40,6 +40,8 @@ CRM باید از:
 - `POST /ajax` → `booking.*`
 - `admin-ajax` → `ez_team_sans_game_search`
 
+به‌روزرسانی: callback جستجوی بازی در `template/team/pages/comments.php` نیز از مسیر مستقیم `web-service/team/sans_management.php` به مسیر داخلی `admin-ajax` منتقل شد.
+
 ## Writes در core
 
 | Action gateway | سرویس |

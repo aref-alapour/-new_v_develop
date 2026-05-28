@@ -476,9 +476,11 @@ final class TeamSansBridge
 			return;
 		}
 
-		$jdf = defined( 'ABSPATH' ) ? ABSPATH . 'web-service/jdf.php' : '';
-		if ( '' !== $jdf && is_readable( $jdf ) ) {
-			require_once $jdf;
+		$themeJdf = function_exists( 'get_template_directory' )
+			? get_template_directory() . '/ahmadreza/jdate.php'
+			: '';
+		if ( '' !== $themeJdf && is_readable( $themeJdf ) ) {
+			require_once $themeJdf;
 		}
 	}
 }

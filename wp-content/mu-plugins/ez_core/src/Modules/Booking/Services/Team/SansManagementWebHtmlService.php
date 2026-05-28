@@ -129,16 +129,11 @@ final class SansManagementWebHtmlService
 		}
 
 		$ids = array_values( array_unique( $ids ) );
-		if ( array() === $ids || ! function_exists( 'ez_sans_bulk_mojavezedar_flags' ) ) {
+		if ( array() === $ids ) {
 			return array();
 		}
 
-		$medoo = function_exists( 'medoo' ) ? medoo() : null;
-		if ( null === $medoo ) {
-			return array();
-		}
-
-		return ez_sans_bulk_mojavezedar_flags( $medoo, $ids );
+		return self::resolveMojavezedarFlags( $ids );
 	}
 
 	private static function renderBulkRadioTemplate( bool $isAllClosed, string $openChecked, string $closeChecked ): string {
@@ -186,9 +181,7 @@ final class SansManagementWebHtmlService
 					JSON_UNESCAPED_UNICODE
 				);
 				$userInfoAttr = htmlspecialchars( (string) $userInfoJson, ENT_QUOTES, 'UTF-8' );
-				$slotPre     = $ezSansMoj && function_exists( 'ez_sans_mojavezedar_badge_inner_html' )
-					? ez_sans_mojavezedar_badge_inner_html()
-					: '';
+				$slotPre     = $ezSansMoj ? self::mojavezedarBadgeInnerHtml() : '';
 				$slotAttr    = $ezSansMoj ? ' data-ez-mojavezedar="1"' : '';
 				$name        = esc_html( (string) ( $rd['name'] ?? '' ) );
 
@@ -236,10 +229,10 @@ final class SansManagementWebHtmlService
 	 * @return array{color: string, text: string}
 	 */
 	private static function resolveTheme( array $reservedData, bool $isMoj ): array {
-		if ( $isMoj && function_exists( 'ez_sans_mojavezedar_label_text' ) && function_exists( 'ez_sans_mojavezedar_border_color_token' ) ) {
+		if ( $isMoj ) {
 			return array(
-				'color' => ez_sans_mojavezedar_border_color_token(),
-				'text'  => ez_sans_mojavezedar_label_text(),
+				'color' => self::mojavezedarBorderColorToken(),
+				'text'  => self::mojavezedarLabelText(),
 			);
 		}
 
@@ -296,13 +289,95 @@ final class SansManagementWebHtmlService
 	}
 
 	private static function ensureMojavezedarHelpers(): void {
-		if ( function_exists( 'ez_sans_bulk_mojavezedar_flags' ) ) {
-			return;
+		// Legacy helper include removed; logic is internalized in this service.
+	}
+
+	private static function mojavezedarLabelText(): string {
+		return 'مجموعه دار';
+	}
+
+	private static function mojavezedarBorderColorToken(): string {
+		return '[#6D28D9]';
+	}
+
+	private static function mojavezedarBadgeInnerHtml(): string {
+		$label = self::mojavezedarLabelText();
+
+		return '<span class="inline-flex items-center leading-6 px-3 rounded-full gap-2 text-xs font-bold" style="color:#6D28D9;background:rgba(109,40,217,0.14);">'
+			. htmlspecialchars( $label, ENT_QUOTES, 'UTF-8' )
+			. '</span>';
+	}
+
+	/**
+	 * @param list<int> $userIds
+	 * @return array<int, bool>
+	 */
+	private static function resolveMojavezedarFlags( array $userIds ): array {
+		$userIds = array_values(
+			array_unique(
+				array_filter(
+					array_map( 'intval', $userIds ),
+					static fn( int $v ): bool => $v > 0
+				)
+			)
+		);
+		$out = array();
+		foreach ( $userIds as $uid ) {
+			$out[ $uid ] = false;
+		}
+		if ( array() === $userIds ) {
+			return $out;
 		}
 
-		$path = defined( 'ABSPATH' ) ? ABSPATH . 'web-service/ez-sans-mojavezedar-wp.php' : '';
-		if ( '' !== $path && is_readable( $path ) ) {
-			require_once $path;
+		global $wpdb;
+		if ( ! isset( $wpdb ) || ! is_object( $wpdb ) || ! isset( $wpdb->users, $wpdb->usermeta, $wpdb->postmeta, $wpdb->posts, $wpdb->prefix ) ) {
+			return $out;
 		}
+
+		$idsSql   = implode( ',', array_map( 'intval', $userIds ) );
+		$capKey   = $wpdb->prefix . 'capabilities';
+		$capRows  = $wpdb->get_results(
+			$wpdb->prepare(
+				"SELECT user_id, meta_value FROM {$wpdb->usermeta} WHERE meta_key = %s AND user_id IN ({$idsSql})",
+				$capKey
+			),
+			ARRAY_A
+		);
+		if ( ! is_array( $capRows ) || array() === $capRows ) {
+			return $out;
+		}
+
+		$compilers = array();
+		foreach ( $capRows as $row ) {
+			$caps = isset( $row['meta_value'] ) ? @unserialize( (string) $row['meta_value'] ) : array();
+			if ( is_array( $caps ) && ! empty( $caps['compiler'] ) ) {
+				$compilers[] = (int) ( $row['user_id'] ?? 0 );
+			}
+		}
+		$compilers = array_values( array_unique( array_filter( $compilers ) ) );
+		if ( array() === $compilers ) {
+			return $out;
+		}
+
+		$compilersSql = "'" . implode( "','", array_map( 'esc_sql', array_map( 'strval', $compilers ) ) ) . "'";
+		$collectionRows = $wpdb->get_col(
+			"SELECT DISTINCT pm_e.meta_value AS uid
+			FROM {$wpdb->postmeta} pm_e
+			INNER JOIN {$wpdb->posts} p ON p.ID = pm_e.post_id AND p.post_type = 'product'
+			INNER JOIN {$wpdb->postmeta} pm_s ON pm_s.post_id = p.ID
+				AND pm_s.meta_key = 'product_state'
+				AND pm_s.meta_value IN ('active','updated')
+			WHERE pm_e.meta_key = 'user_ebtal'
+				AND pm_e.meta_value IN ({$compilersSql})"
+		);
+		$withCollection = array_map( 'intval', is_array( $collectionRows ) ? $collectionRows : array() );
+
+		foreach ( $userIds as $uid ) {
+			if ( in_array( $uid, $compilers, true ) && in_array( $uid, $withCollection, true ) ) {
+				$out[ $uid ] = true;
+			}
+		}
+
+		return $out;
 	}
 }

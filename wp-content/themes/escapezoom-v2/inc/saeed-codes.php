@@ -142,6 +142,29 @@ function ez_webservice( $data ) {
 }
 /****************************************************************************************************************************************/
 function ez_reservation( $data ) {
+	if ( ! function_exists( 'ez_reservation_normalize_data' ) ) {
+		function ez_reservation_normalize_data( $payload ): object {
+			if ( is_object( $payload ) ) {
+				return $payload;
+			}
+			if ( ! is_array( $payload ) ) {
+				return (object) array( 'type' => '', 'data' => (object) array() );
+			}
+			$type = isset( $payload['type'] ) ? (string) $payload['type'] : '';
+			$inner = $payload['data'] ?? array();
+			if ( is_array( $inner ) ) {
+				$inner = (object) $inner;
+			} elseif ( ! is_object( $inner ) ) {
+				$inner = (object) array();
+			}
+
+			return (object) array(
+				'type' => $type,
+				'data' => $inner,
+			);
+		}
+	}
+
 	if ( ! function_exists( 'ez_reservation_try_shortcut' ) ) {
 		$bridge = get_template_directory() . '/inc/shop/booking/reservation-bridge.php';
 		if ( is_readable( $bridge ) ) {
@@ -152,18 +175,6 @@ function ez_reservation( $data ) {
 	$shortcut = function_exists( 'ez_reservation_try_shortcut' ) ? ez_reservation_try_shortcut( $data ) : null;
 	if ( null !== $shortcut ) {
 		return $shortcut;
-	}
-
-	if ( defined( 'EZ_BOOKING_USE_INTERNAL' ) && EZ_BOOKING_USE_INTERNAL ) {
-		if ( ! defined( 'EZ_BOOKING_INTERNAL_CALL' ) ) {
-			define( 'EZ_BOOKING_INTERNAL_CALL', true );
-		}
-		$dispatch_path = ABSPATH . 'web-service/includes/reservation-dispatch.php';
-		if ( is_readable( $dispatch_path ) ) {
-			require_once $dispatch_path;
-			$payload = ez_reservation_normalize_data( $data );
-			return ez_reservation_dispatch( $payload );
-		}
 	}
 
 	if ( class_exists( '\EscapeZoom\Core\Modules\Booking\BookingDispatchService' ) ) {
