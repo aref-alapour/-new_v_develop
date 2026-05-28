@@ -303,19 +303,33 @@ final class TeamSansBridge
 			return self::$productRowCache[ $productId ];
 		}
 
+		$cacheKey = "ez_product_row_{$productId}";
+		$cached   = function_exists( 'wp_cache_get' ) ? wp_cache_get( $cacheKey, 'ez_booking' ) : false;
+		if ( is_array( $cached ) ) {
+			self::$productRowCache[ $productId ] = $cached;
+
+			return $cached;
+		}
+
 		$row = Capsule::connection( 'external' )
 			->table( 'products_data' )
 			->where( 'product_id', $productId )
-			->first( array( 'product_id', 'schedule', 'duration', 'image', 'title', 'city_name' ) );
+			->first( array( 'product_id', 'schedule', 'duration', 'image', 'title', 'city_name', 'auto_disable' ) );
 
 		if ( null === $row ) {
 			self::$productRowCache[ $productId ] = null;
+
 			return null;
 		}
 
-		self::$productRowCache[ $productId ] = (array) $row;
+		$data = (array) $row;
+		self::$productRowCache[ $productId ] = $data;
 
-		return self::$productRowCache[ $productId ];
+		if ( function_exists( 'wp_cache_set' ) ) {
+			wp_cache_set( $cacheKey, $data, 'ez_booking', 3600 );
+		}
+
+		return $data;
 	}
 
 	/**
@@ -349,50 +363,79 @@ final class TeamSansBridge
 			return self::$dayTypeCache[ $day ];
 		}
 
-		$row = Capsule::connection( 'external' )
-			->table( 'calendar_data' )
-			->value( 'data' );
+		$cacheKey = "ez_day_type_{$day}";
+		$cached   = function_exists( 'wp_cache_get' ) ? wp_cache_get( $cacheKey, 'ez_booking' ) : false;
+		if ( is_string( $cached ) ) {
+			self::$dayTypeCache[ $day ] = $cached;
+
+			return $cached;
+		}
+
+		$row = false;
+		if ( function_exists( 'wp_cache_get' ) ) {
+			$row = wp_cache_get( 'ez_calendar_data_raw', 'ez_booking' );
+		}
+
+		if ( false === $row ) {
+			$row = Capsule::connection( 'external' )
+				->table( 'calendar_data' )
+				->value( 'data' );
+			if ( function_exists( 'wp_cache_set' ) && is_string( $row ) ) {
+				wp_cache_set( 'ez_calendar_data_raw', $row, 'ez_booking', 3600 );
+			}
+		}
 
 		if ( ! is_string( $row ) || '' === $row ) {
 			self::$dayTypeCache[ $day ] = 'normals';
+
 			return self::$dayTypeCache[ $day ];
 		}
 
 		$calendar = @unserialize( $row, array( 'allowed_classes' => false ) );
 		if ( false === $calendar ) {
 			self::$dayTypeCache[ $day ] = 'normals';
+
 			return self::$dayTypeCache[ $day ];
 		}
 
 		$calendarData = json_decode( json_encode( $calendar ), true );
 		if ( ! is_array( $calendarData ) ) {
 			self::$dayTypeCache[ $day ] = 'normals';
+
 			return self::$dayTypeCache[ $day ];
 		}
 
+		$result = 'normals';
 		foreach ( explode( ',', (string) ( $calendarData['holidays'] ?? '' ) ) as $calendarDay ) {
 			$calendarDay = trim( $calendarDay );
 			if ( '' === $calendarDay || ! is_numeric( $calendarDay ) ) {
 				continue;
 			}
 			if ( self::tehranMidnightUnix( (int) $calendarDay ) === $day ) {
-				self::$dayTypeCache[ $day ] = 'holidays';
-				return self::$dayTypeCache[ $day ];
+				$result = 'holidays';
+				break;
 			}
 		}
 
-		foreach ( explode( ',', (string) ( $calendarData['closed_days'] ?? '' ) ) as $calendarDay ) {
-			$calendarDay = trim( $calendarDay );
-			if ( '' === $calendarDay || ! is_numeric( $calendarDay ) ) {
-				continue;
-			}
-			if ( self::tehranMidnightUnix( (int) $calendarDay ) === $day ) {
-				self::$dayTypeCache[ $day ] = 'closed';
-				return self::$dayTypeCache[ $day ];
+		if ( 'normals' === $result ) {
+			foreach ( explode( ',', (string) ( $calendarData['closed_days'] ?? '' ) ) as $calendarDay ) {
+				$calendarDay = trim( $calendarDay );
+				if ( '' === $calendarDay || ! is_numeric( $calendarDay ) ) {
+					continue;
+				}
+				if ( self::tehranMidnightUnix( (int) $calendarDay ) === $day ) {
+					$result = 'closed';
+					break;
+				}
 			}
 		}
-		self::$dayTypeCache[ $day ] = 'normals';
-		return self::$dayTypeCache[ $day ];
+
+		self::$dayTypeCache[ $day ] = $result;
+		if ( function_exists( 'wp_cache_set' ) ) {
+			wp_cache_set( $cacheKey, $result, 'ez_booking', 3600 );
+		}
+
+		return $result;
 	}
 
 	public static function tehranMidnightUnix( int $timestamp ): int {
