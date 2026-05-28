@@ -39,12 +39,14 @@ final class SansManagementWebHtmlService
 			$rows = BookingHistory::query()
 				->where( 'room_id', $productId )
 				->whereIn( 'booking_time', $tsList )
+				->whereIn( 'status', array( 1, 2 ) )
 				->get(
 					array(
 						'customer_id',
 						'wc_order_id',
 						'status',
 						'booking_time',
+						'booked_time',
 						'name',
 						'level',
 						'phone',
@@ -53,7 +55,14 @@ final class SansManagementWebHtmlService
 				);
 
 			foreach ( $rows as $row ) {
-				$orders[ (string) (int) $row->booking_time ] = (array) $row;
+				$bookingTime = (int) ( $row->booking_time ?? 0 );
+				if ( $bookingTime <= 0 ) {
+					continue;
+				}
+				$key       = (string) $bookingTime;
+				$candidate = method_exists( $row, 'toArray' ) ? $row->toArray() : (array) $row;
+				$current   = $orders[ $key ] ?? null;
+				$orders[ $key ] = self::resolveEffectiveSlotRow( is_array( $current ) ? $current : null, $candidate );
 			}
 		}
 
@@ -170,6 +179,7 @@ final class SansManagementWebHtmlService
 				$theme       = self::resolveTheme( $rd, $ezSansMoj );
 				$userInfoJson = wp_json_encode(
 					array(
+						'customer_id' => $rd['customer_id'] ?? 0,
 						'name'        => $rd['name'] ?? '',
 						'level_title' => $theme['text'],
 						'level_color' => $theme['color'],
@@ -185,7 +195,7 @@ final class SansManagementWebHtmlService
 				$slotAttr    = $ezSansMoj ? ' data-ez-mojavezedar="1"' : '';
 				$name        = esc_html( (string) ( $rd['name'] ?? '' ) );
 
-				$html .= '<div class="rounded-xl border border-orangee bg-[#F1F5F9] px-4 py-2.5 shadow-13 openModalInfo" style="box-shadow: 0px 1px 0px 0px #FF6900;" data-user-info=\'' . $userInfoAttr . '\'>';
+				$html .= '<div class="rounded-xl border border-orangee bg-[#F1F5F9] px-4 py-2.5 shadow-13 openModalInfo cursor-pointer" style="box-shadow: 0px 1px 0px 0px #FF6900;" data-user-info=\'' . $userInfoAttr . '\'>';
 				$html .= '<bdo dir="ltr" class="text-2xl block text-center font-yekan-bold"> ' . $timeLbl . ' </bdo>';
 				$html .= '<div class="space-y-2.5 mt-3"><div class="flex items-center justify-between gap-7 bg-white h-[39px] rounded-lg px-3 py-2">';
 				$html .= '<div class="flex items-center gap-2 min-w-0 flex-wrap">';
@@ -290,6 +300,45 @@ final class SansManagementWebHtmlService
 
 	private static function ensureMojavezedarHelpers(): void {
 		// Legacy helper include removed; logic is internalized in this service.
+	}
+
+	/**
+	 * @param array<string,mixed>|null $current
+	 * @param array<string,mixed> $candidate
+	 * @return array<string,mixed>
+	 */
+	private static function resolveEffectiveSlotRow( ?array $current, array $candidate ): array {
+		if ( null === $current ) {
+			return $candidate;
+		}
+
+		$currentStatus   = (int) ( $current['status'] ?? 0 );
+		$candidateStatus = (int) ( $candidate['status'] ?? 0 );
+
+		// Reserved should always dominate closed for the same slot.
+		if ( $candidateStatus !== $currentStatus ) {
+			if ( 1 === $candidateStatus ) {
+				return $candidate;
+			}
+			if ( 1 === $currentStatus ) {
+				return $current;
+			}
+		}
+
+		$currentBooked   = (int) ( $current['booked_time'] ?? 0 );
+		$candidateBooked = (int) ( $candidate['booked_time'] ?? 0 );
+		if ( $candidateBooked > $currentBooked ) {
+			return $candidate;
+		}
+		if ( $candidateBooked < $currentBooked ) {
+			return $current;
+		}
+
+		// Stable tie-breaker.
+		$currentOrder   = (int) ( $current['wc_order_id'] ?? 0 );
+		$candidateOrder = (int) ( $candidate['wc_order_id'] ?? 0 );
+
+		return $candidateOrder >= $currentOrder ? $candidate : $current;
 	}
 
 	private static function mojavezedarLabelText(): string {

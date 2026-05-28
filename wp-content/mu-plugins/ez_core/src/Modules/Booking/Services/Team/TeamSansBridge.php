@@ -42,10 +42,20 @@ final class TeamSansBridge
 			$rows = BookingHistory::query()
 				->where( 'room_id', $productId )
 				->whereIn( 'booking_time', $tsList )
-				->get( array( 'status', 'booking_time', 'name', 'level', 'phone', 'quantity' ) );
+				->where( 'status', 1 )
+				->get( array( 'status', 'booking_time', 'booked_time', 'name', 'level', 'phone', 'quantity' ) );
 
 			foreach ( $rows as $row ) {
-				$orders[ (string) (int) $row->booking_time ] = (array) $row;
+				$bookingTime = (int) ( $row->booking_time ?? 0 );
+				if ( $bookingTime <= 0 ) {
+					continue;
+				}
+				$key       = (string) $bookingTime;
+				$candidate = method_exists( $row, 'toArray' ) ? $row->toArray() : (array) $row;
+				$current   = $orders[ $key ] ?? null;
+				if ( ! is_array( $current ) || (int) ( $candidate['booked_time'] ?? 0 ) >= (int) ( $current['booked_time'] ?? 0 ) ) {
+					$orders[ $key ] = $candidate;
+				}
 			}
 		}
 
@@ -221,17 +231,20 @@ final class TeamSansBridge
 					$sansTimeTs = (int) $slot['ts'];
 
 					if ( 'close' === $action ) {
-						$existing = BookingHistory::query()
+						$alreadyManaged = BookingHistory::query()
 							->where( 'room_id', $productId )
 							->where( 'booking_time', $sansTimeTs )
-							->first( array( 'status' ) );
-
-						if ( null !== $existing ) {
-							$st = (int) $existing->status;
-							if ( 1 === $st || 2 === $st ) {
-								continue;
-							}
+							->whereIn( 'status', array( 1, 2 ) )
+							->exists();
+						if ( $alreadyManaged ) {
+							continue;
 						}
+
+						BookingHistory::query()
+							->where( 'room_id', $productId )
+							->where( 'booking_time', $sansTimeTs )
+							->where( 'status', 2 )
+							->delete();
 
 						BookingHistory::query()->insert(
 							array(

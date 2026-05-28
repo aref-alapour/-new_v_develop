@@ -314,6 +314,8 @@ for ($i = 1; $i <= 45; $i++) {
 
 <script>
     jQuery(document).ready(function($) {
+    const teamAjaxUrl = <?php echo wp_json_encode( admin_url( 'admin-ajax.php' ) ); ?>;
+    const teamAjaxNonce = <?php echo wp_json_encode( wp_create_nonce( 'team-ajax-nonce' ) ); ?>;
 
     let phoneReserveQuoteXhr = null;
     let phoneReserveUserSearchXhr = null;
@@ -336,13 +338,16 @@ for ($i = 1; $i <= 45; $i++) {
             const sansTs = parts[0];
             const productId = $toggle.data('product');
             const timeLabel = $toggle.closest('div').find('p, span, h4').first().text().trim() || '';
-            const btn = $('<button type="button" class="btn-phone-reserve mt-2 w-full py-1.5 rounded-lg bg-[#1447E6] hover:bg-[#0f38b8] text-white text-xs font-yekan-bold">رزرو تلفنی</button>');
+            const btn = $('<button type="button" class="btn-phone-reserve h-10 flex-1 rounded-lg bg-[#1447E6] hover:bg-[#0f38b8] text-white text-xs font-yekan-bold">رزرو تلفنی</button>');
             btn.attr({
                 'data-product-id': productId,
                 'data-sans-ts': sansTs,
                 'data-sans-label': timeLabel
             });
-            $toggle.after(btn);
+            const row = $('<div class="flex items-center gap-2 mt-3"></div>');
+            $toggle.removeClass('mt-3').addClass('mt-0 flex-1').detach();
+            row.append($toggle).append(btn);
+            $card.append(row);
         });
     }
 
@@ -672,7 +677,20 @@ for ($i = 1; $i <= 45; $i++) {
             if (window.__EZ_BOOT__?.sub_secret && window.ezBookingApi?.toggleSans) {
                 $this.attr('disabled', 'disabled').html(spinner);
                 window.ezBookingApi.toggleSans(action, parseInt(product, 10), parseInt(time, 10))
-                    .then(() => BuildSans(product, currentDate))
+                    .then((result) => {
+                        if (!result) {
+                            return;
+                        }
+                        if (result.error_message) {
+                            alert(result.error_message);
+                            return;
+                        }
+                        if (result.success_message) {
+                            BuildSans(product, currentDate);
+                            return;
+                        }
+                        BuildSans(product, currentDate);
+                    })
                     .catch(() => console.error('[EZ Booking] toggleSans failed'))
                     .finally(() => $this.removeAttr('disabled'));
                 return;

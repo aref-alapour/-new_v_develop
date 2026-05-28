@@ -66,6 +66,12 @@ final class TeamSansWriteService
 		}
 
 		$now = time();
+		BookingHistory::query()
+			->where( 'room_id', $productId )
+			->where( 'booking_time', $sansTime )
+			->where( 'status', 2 )
+			->delete();
+
 		BookingHistory::query()->insert(
 			array(
 				'customer_id'  => $userId,
@@ -166,6 +172,7 @@ final class TeamSansWriteService
 			$existingRows = BookingHistory::query()
 				->where( 'room_id', $productId )
 				->whereIn( 'booking_time', $tsList )
+				->whereIn( 'status', array( 1, 2 ) )
 				->get( array( 'booking_time', 'status' ) );
 			foreach ( $existingRows as $row ) {
 				$existingStatuses[ (int) $row->booking_time ] = (int) ( $row->status ?? 0 );

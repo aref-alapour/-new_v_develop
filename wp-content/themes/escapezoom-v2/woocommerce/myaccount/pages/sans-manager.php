@@ -302,6 +302,17 @@ if ( $show_credit_notification ) {
 <script>
     jQuery(document).ready(function($) {
 
+        const notifySansAction = (element, message, theme) => {
+            if (!message) {
+                return;
+            }
+            if (typeof window.showTooltip === 'function') {
+                window.showTooltip(element, message, theme || 'light');
+                return;
+            }
+            alert(message);
+        };
+
         const ensureEzBootReady = (fn, attempt) => {
             attempt = attempt || 0;
             if (typeof window.applyEzAjaxBoot === 'function') {
@@ -412,9 +423,17 @@ if ( $show_credit_notification ) {
                     _.attr('disabled', 'disabled').html(spinner)
                     window.ezBookingApi.toggleSans(action, parseInt(product, 10), parseInt(time, 10))
                         .then(function (result) {
-                            if (result != null) {
-                                afterToggle();
+                            if (!result) {
+                                return;
                             }
+                            if (result.error_message) {
+                                notifySansAction(_.get(0), result.error_message, 'material');
+                                return;
+                            }
+                            if (result.success_message) {
+                                notifySansAction(_.get(0), result.success_message, 'light');
+                            }
+                            afterToggle();
                         })
                         .catch(function () {
                             console.error('[EZ Booking] toggleSans failed');
@@ -721,19 +740,48 @@ if ( $show_credit_notification ) {
         }
 
         // Handle eye button click to show user info modal
-        $('body').on('click', '[data-order-id]', function() {
-            const orderData = {
-                customer_id: $(this).data('customer-id'),
-                phone: $(this).data('phone'),
-                quantity: $(this).data('quantity'),
-                order_id: $(this).data('order-id'),
-                level_color: $(this).data('level-color'),
-                level_text: $(this).data('level-text'),
-                name: $(this).data('name'),
-                time: $(this).data('time'),
-                booked_time: $(this).data('booked-time'),
-                reqid: $(this).data('reqid') // Add cancellation request ID
-            };
+        $('body').on('click', '.openModalInfo, [data-order-id]', function() {
+            let orderData = null;
+            if ($(this).hasClass('openModalInfo')) {
+                let raw = $(this).attr('data-user-info') || '';
+                if (raw.indexOf('&quot;') !== -1 || raw.indexOf('&amp;') !== -1) {
+                    const txt = document.createElement('textarea');
+                    txt.innerHTML = raw;
+                    raw = txt.value;
+                }
+                try {
+                    const info = JSON.parse(raw);
+                    const parsedCustomerId = parseInt(info.customer_id || info.user_id || 0, 10);
+                    orderData = {
+                        customer_id: Number.isFinite(parsedCustomerId) ? parsedCustomerId : 0,
+                        phone: info.phone || '',
+                        quantity: info.quantity || 0,
+                        order_id: info.order_id || 0,
+                        level_color: info.level_color || 'primary-500',
+                        level_text: info.level_title || '',
+                        name: info.name || '',
+                        time: info.date || '',
+                        booked_time: null,
+                        reqid: null,
+                    };
+                } catch (e) {
+                    console.error('Invalid JSON in panel data-user-info:', e, raw);
+                    return;
+                }
+            } else {
+                orderData = {
+                    customer_id: $(this).data('customer-id'),
+                    phone: $(this).data('phone'),
+                    quantity: $(this).data('quantity'),
+                    order_id: $(this).data('order-id'),
+                    level_color: $(this).data('level-color'),
+                    level_text: $(this).data('level-text'),
+                    name: $(this).data('name'),
+                    time: $(this).data('time'),
+                    booked_time: $(this).data('booked-time'),
+                    reqid: $(this).data('reqid') // Add cancellation request ID
+                };
+            }
 
             currentOrderData = orderData;
 
@@ -763,10 +811,12 @@ if ( $show_credit_notification ) {
 
                     <div class="grid grid-cols-2 items-center gap-x-3.5">
                         <a href="${
-                            (location.hostname === 'localhost')
-                                ? `http://localhost/escapezoom_wp/profile/${orderData.customer_id}`
-                                : `https://escapezoom.ir/profile/${orderData.customer_id}`
-                            }" class="flex w-full text-sm gap-2 rounded-md bg-[#F3F4F6] py-1 px-4 h-8 items-center justify-center gap-2" target="_blank" rel="noopener" target="_blank">
+                            orderData.customer_id
+                                ? ((location.hostname === 'localhost')
+                                    ? `http://localhost/escapezoom_wp/profile/${orderData.customer_id}`
+                                    : `https://escapezoom.ir/profile/${orderData.customer_id}`)
+                                : '#'
+                            }" class="flex w-full text-sm gap-2 rounded-md bg-[#F3F4F6] py-1 px-4 h-8 items-center justify-center gap-2 ${orderData.customer_id ? '' : 'opacity-50 pointer-events-none'}" target="_blank" rel="noopener">
                                 <p class="text-sm font-bold text-[#90A1B9]">مشاهده پروفایل</p>
                                 <svg xmlns="http://www.w3.org/2000/svg" class="mx-0 w-4 h-4" viewBox="0 0 19 19" fill="none">
                                     <rect x="0.75" y="0.5" width="18" height="18" rx="4" fill="#FD7013"></rect>
@@ -1225,6 +1275,7 @@ jQuery(document).ready(function($) {
             }
         }).show();
     }
+    window.showTooltip = showTooltip;
 
     window.toggleAllSansesForDay = function(btn, actionType) {
         let $btn = $(btn);
