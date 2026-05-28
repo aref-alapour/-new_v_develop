@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace EscapeZoom\Core\Modules\Booking\Services\Team;
 
+use EscapeZoom\Core\Infrastructure\Config\SecretsLoader;
 use EscapeZoom\Core\Infrastructure\Database\CapsuleManager;
 use EscapeZoom\Core\Models\BookingHistory;
 use EscapeZoom\Core\Modules\Booking\Infrastructure\Eloquent\EloquentBookingLockRepository;
