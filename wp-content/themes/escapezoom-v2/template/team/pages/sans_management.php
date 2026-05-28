@@ -315,9 +315,6 @@ for ($i = 1; $i <= 45; $i++) {
 <script>
     jQuery(document).ready(function($) {
 
-    const teamAjaxUrl = "<?php echo esc_url( admin_url( 'admin-ajax.php' ) ); ?>";
-    const teamAjaxNonce = "<?php echo esc_js( wp_create_nonce( 'team-ajax-nonce' ) ); ?>";
-
     let phoneReserveQuoteXhr = null;
     let phoneReserveUserSearchXhr = null;
     let phoneReserveLastQuote = null;
@@ -624,18 +621,6 @@ for ($i = 1; $i <= 45; $i++) {
                         return;
                     }
                     onHtml(html);
-                    if (opts.skipPlaying || !window.ezBookingApi?.checkPlayingHtml) {
-                        return;
-                    }
-                    window.ezBookingApi.checkPlayingHtml(productId, dayStart)
-                        .then((playingHtml) => {
-                            if (token === dayLoadToken && playingHtml != null) {
-                                $('#playing_now').html(playingHtml);
-                            }
-                        })
-                        .catch(() => {
-                            console.error('[EZ Booking] checkPlayingHtml failed');
-                        });
                 })
                 .catch(() => {
                     if (token !== dayLoadToken) {
@@ -759,23 +744,16 @@ for ($i = 1; $i <= 45; $i++) {
             );
 
             gameSearchTimer = setTimeout(function () {
-                const body = new URLSearchParams();
-                body.set('action', 'ez_team_sans_game_search');
-                body.set('nonce', teamAjaxNonce);
-                body.set('term', term);
+                if (!window.__EZ_BOOT__?.sub_secret || !window.ezBookingApi?.gameSearchHtml) {
+                    $list.show().html('<p class="text-center text-red-500 py-3 text-sm">پیکربندی جستجو در دسترس نیست.</p>');
+                    return;
+                }
 
-                fetch(teamAjaxUrl, {
-                    method: 'POST',
-                    credentials: 'same-origin',
-                    headers: { 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8' },
-                    body: body.toString(),
-                })
-                    .then(function (resp) { return resp.json(); })
-                    .then(function (payload) {
-                        if (!payload || !payload.success) {
-                            throw new Error('game search failed');
+                window.ezBookingApi.gameSearchHtml(term)
+                    .then(function (html) {
+                        if (html == null) {
+                            return;
                         }
-                        const html = payload.data && payload.data.html != null ? payload.data.html : '';
                         if ('' === String(html).trim()) {
                             $list.show().html('<p class="text-center text-slate-500 py-3 text-sm">نتیجه‌ای یافت نشد.</p>');
                             return;

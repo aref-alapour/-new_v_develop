@@ -9,6 +9,8 @@
 - `php wp-content/mu-plugins/ez_core/bin/gateway-boot-probe.php` → `RESULT: PASS`
 - `php vendor/bin/pest tests/Unit/PayloadCipherTest.php tests/Unit/AjaxSharedSecretFallbackTest.php tests/Unit/PanelAjaxSecurityServiceTest.php tests/Unit/PanelProductAuthorizationServiceTest.php` → `11 passed`
 - `npm run build:front:js` در `wp-content/themes/escapezoom-v2` → build موفق
+- `php -l` روی فایل‌های اصلاح‌شده team/panel → بدون خطای syntax
+- `php vendor/bin/pest tests/Unit/PanelAjaxSecurityServiceTest.php tests/Unit/PanelProductAuthorizationServiceTest.php` → `5 passed`
 
 ## نقاط تکمیل‌شده نسبت به پلن
 
@@ -23,5 +25,5 @@
 
 ## یادداشت عملیاتی
 
-- برای تایید نهایی SLA روی محیط مرورگر، HAR جدید لازم است تا `wait` و `X-EZ-Booking-Elapsed-Ms` کنار هم بررسی شوند.
-- حذف فیزیکی کامل فایل‌های legacy باقی‌مانده در `web-service` هنوز نیازمند پاس نهایی Gate و یک pass cleanup جداگانه است.
+- Baseline فعلی HAR تیم/پنل در `docs/md/team-panel-har-baseline.md` ثبت شد و نشان می‌دهد capture موجود هنوز latency بالا، duplicate boot (team)، و image URL malformed دارد.
+- برای تایید نهایی SLA و بسته‌شدن remediation، HAR جدید بعد از deploy/refresh لازم است تا `wait` و `X-EZ-Booking-Elapsed-Ms` به‌صورت post-change بررسی شوند.

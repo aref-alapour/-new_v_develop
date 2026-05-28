@@ -71,6 +71,12 @@ cd wp-content/mu-plugins/ez_core && vendor/bin/pest --filter=PanelAjaxSecurity
 
 بدون nonce → WordPress `-1` / 403 در مرورگر برای `panel_sans_settings_update`.
 
+## وضعیت matrix پنل
+
+- در `v2_ajax_handler` برای callbackهای `panel_*`:
+  - nonce طبق `READ_ONLY_CALLBACKS` کنترل می‌شود.
+  - در صورت وجود `product_id`/`room_id`/`id_room`/`post_id`، مالکیت محصول به‌صورت مرکزی بررسی می‌شود.
+
 ## وضعیت نهایی فاز ۵.۲
 
 - read pathها (`booking.sans_day_json`, `booking.sans_week`, `booking.sans_management_web`) signature-only باقی می‌مانند.

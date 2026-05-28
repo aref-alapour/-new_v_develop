@@ -36,6 +36,15 @@ This map tracks reservation-related dependencies and migration status from legac
 - `EloquentBookingLockRepository` supports narrow lock fetch by requested slot times; `SansManagementWebHtmlService` consumes this narrowed path.
 - `BookingGatewayActions` emits `X-EZ-Booking-Elapsed-Ms` for team/panel actions (`game_search`, `check_playing`, toggle and bulk writes).
 - Panel ownership guard added at `v2_ajax_handler` entrypoint through `PanelAjaxSecurityService::assertOwnershipFromRequest()`.
+- `TeamSansWriteService` bulk open/close reduced N+1 patterns:
+  - batch delete for open-all
+  - prefetch statuses + lock times for close-all
+  - batch insert for close-all
+
+## HAR baseline
+
+- Before-state HAR matrix for team/panel actions is documented at:
+  - `docs/md/team-panel-har-baseline.md`
 
 ## Recommended Removal Order
 

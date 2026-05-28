@@ -117,10 +117,15 @@ final class TeamSansWriteService
 			);
 		}
 
-		foreach ( $rows as $row ) {
+		$closedTimes = array_map(
+			static fn( $row ): int => (int) ( $row->booking_time ?? 0 ),
+			$rows->all()
+		);
+		$closedTimes = array_values( array_filter( $closedTimes ) );
+		if ( array() !== $closedTimes ) {
 			BookingHistory::query()
 				->where( 'room_id', $productId )
-				->where( 'booking_time', (int) $row->booking_time )
+				->whereIn( 'booking_time', $closedTimes )
 				->where( 'status', 2 )
 				->delete();
 		}
@@ -150,6 +155,38 @@ final class TeamSansWriteService
 		$autoDisable = time() + (int) ( $product['auto_disable'] ?? 0 ) * 60;
 		$slots       = self::daySlots( $productId, $dayStartTime );
 		$ready       = array();
+		$tsList      = array_map(
+			static fn( array $slot ): int => (int) ( $slot['ts'] ?? 0 ),
+			$slots
+		);
+		$tsList = array_values( array_filter( $tsList ) );
+
+		$existingStatuses = array();
+		if ( array() !== $tsList ) {
+			$existingRows = BookingHistory::query()
+				->where( 'room_id', $productId )
+				->whereIn( 'booking_time', $tsList )
+				->get( array( 'booking_time', 'status' ) );
+			foreach ( $existingRows as $row ) {
+				$existingStatuses[ (int) $row->booking_time ] = (int) ( $row->status ?? 0 );
+			}
+		}
+
+		$lockedTimes = array();
+		if ( array() !== $tsList && class_exists( BookingLock::class ) ) {
+			$lockRows = BookingLock::query()
+				->where( 'product_id', $productId )
+				->whereIn( 'booking_time', $tsList )
+				->get( array( 'booking_time', 'lock_time' ) );
+			$now = time();
+			foreach ( $lockRows as $lockRow ) {
+				$bookingTime = (int) ( $lockRow->booking_time ?? 0 );
+				$lockTime    = (int) ( $lockRow->lock_time ?? 0 );
+				if ( $bookingTime > 0 && $lockTime > 0 && $now < $lockTime + self::LOCK_TTL_SECONDS ) {
+					$lockedTimes[ $bookingTime ] = true;
+				}
+			}
+		}
 
 		foreach ( $slots as $slot ) {
 			$ts = (int) $slot['ts'];
@@ -157,16 +194,12 @@ final class TeamSansWriteService
 				continue;
 			}
 
-			$row = BookingHistory::query()
-				->where( 'room_id', $productId )
-				->where( 'booking_time', $ts )
-				->first( array( 'status' ) );
-
-			if ( null !== $row && in_array( (int) $row->status, array( 1, 2 ), true ) ) {
+			$status = $existingStatuses[ $ts ] ?? null;
+			if ( null !== $status && in_array( (int) $status, array( 1, 2 ), true ) ) {
 				continue;
 			}
 
-			if ( self::isSlotLocked( $productId, $ts ) ) {
+			if ( isset( $lockedTimes[ $ts ] ) ) {
 				continue;
 			}
 
@@ -181,21 +214,21 @@ final class TeamSansWriteService
 		}
 
 		$now = time();
+		$insertRows = array();
 		foreach ( $ready as $sansTime ) {
-			BookingHistory::query()->insert(
-				array(
-					'customer_id'  => $userId,
-					'wc_order_id'  => null,
-					'status'       => 2,
-					'room_id'      => $productId,
-					'booking_time' => $sansTime,
-					'booked_time'  => $now,
-					'name'         => null,
-					'phone'        => null,
-					'quantity'     => 0,
-				)
+			$insertRows[] = array(
+				'customer_id'  => $userId,
+				'wc_order_id'  => null,
+				'status'       => 2,
+				'room_id'      => $productId,
+				'booking_time' => $sansTime,
+				'booked_time'  => $now,
+				'name'         => null,
+				'phone'        => null,
+				'quantity'     => 0,
 			);
 		}
+		BookingHistory::query()->insert( $insertRows );
 
 		BookingCacheInvalidator::invalidateSansDay( $productId, $dayStartTime );
 

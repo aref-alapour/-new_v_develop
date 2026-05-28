@@ -38,6 +38,9 @@ const READ_ENCRYPT_ACTIONS = new Set([
   'booking.sans_day_json',
   'booking.sans_day',
   'booking.sans_week',
+  'booking.sans_management_web',
+  'booking.check_playing',
+  'booking.game_search',
 ]);
 
 /**
@@ -46,6 +49,13 @@ const READ_ENCRYPT_ACTIONS = new Set([
  */
 function shouldEncryptPayload(action, boot) {
   if (action === 'booking.sans_day_json') {
+    return true;
+  }
+  if (
+    action === 'booking.sans_management_web' ||
+    action === 'booking.check_playing' ||
+    action === 'booking.game_search'
+  ) {
     return true;
   }
   if (WRITE_ENCRYPT_ACTIONS.has(action) && boot.encrypt_writes) {
