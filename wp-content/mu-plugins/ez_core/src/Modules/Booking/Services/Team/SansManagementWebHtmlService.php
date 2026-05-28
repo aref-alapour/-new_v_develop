@@ -20,6 +20,12 @@ final class SansManagementWebHtmlService
 			throw new \RuntimeException( 'External DB unavailable' );
 		}
 
+		$cacheKey = "ez_sans_mgmt_html_{$productId}_{$dayStartTime}";
+		$cached   = function_exists( 'wp_cache_get' ) ? wp_cache_get( $cacheKey, 'ez_booking' ) : false;
+		if ( is_string( $cached ) ) {
+			return $cached;
+		}
+
 		self::ensureMojavezedarHelpers();
 
 		$product = TeamSansBridge::getProductRow( $productId );
@@ -117,6 +123,10 @@ final class SansManagementWebHtmlService
 
 		$html  = self::renderBulkRadioTemplate( $isAllClosed, $openChecked, $closeChecked );
 		$html .= self::renderSlots( $reservationData, $productId, $dayStartTime, $mojMap );
+
+		if ( function_exists( 'wp_cache_set' ) && '' !== $html ) {
+			wp_cache_set( $cacheKey, $html, 'ez_booking', 3600 );
+		}
 
 		return $html;
 	}
@@ -371,19 +381,36 @@ final class SansManagementWebHtmlService
 			)
 		);
 		$out = array();
-		foreach ( $userIds as $uid ) {
-			$out[ $uid ] = false;
-		}
 		if ( array() === $userIds ) {
+			return $out;
+		}
+
+		$toFetch = array();
+		foreach ( $userIds as $uid ) {
+			$cacheKey = "ez_mojavezedar_{$uid}";
+			$found    = false;
+			$cached   = function_exists( 'wp_cache_get' ) ? wp_cache_get( $cacheKey, 'ez_booking', false, $found ) : false;
+			if ( $found && is_bool( $cached ) ) {
+				$out[ $uid ] = $cached;
+			} else {
+				$toFetch[] = $uid;
+			}
+		}
+
+		if ( array() === $toFetch ) {
 			return $out;
 		}
 
 		global $wpdb;
 		if ( ! isset( $wpdb ) || ! is_object( $wpdb ) || ! isset( $wpdb->users, $wpdb->usermeta, $wpdb->postmeta, $wpdb->posts, $wpdb->prefix ) ) {
+			foreach ( $toFetch as $uid ) {
+				$out[ $uid ] = false;
+			}
+
 			return $out;
 		}
 
-		$idsSql   = implode( ',', array_map( 'intval', $userIds ) );
+		$idsSql   = implode( ',', array_map( 'intval', $toFetch ) );
 		$capKey   = $wpdb->prefix . 'capabilities';
 		$capRows  = $wpdb->get_results(
 			$wpdb->prepare(
@@ -421,9 +448,11 @@ final class SansManagementWebHtmlService
 		);
 		$withCollection = array_map( 'intval', is_array( $collectionRows ) ? $collectionRows : array() );
 
-		foreach ( $userIds as $uid ) {
-			if ( in_array( $uid, $compilers, true ) && in_array( $uid, $withCollection, true ) ) {
-				$out[ $uid ] = true;
+		foreach ( $toFetch as $uid ) {
+			$isMoj = in_array( $uid, $compilers, true ) && in_array( $uid, $withCollection, true );
+			$out[ $uid ] = $isMoj;
+			if ( function_exists( 'wp_cache_set' ) ) {
+				wp_cache_set( "ez_mojavezedar_{$uid}", $isMoj, 'ez_booking', 3600 );
 			}
 		}
 

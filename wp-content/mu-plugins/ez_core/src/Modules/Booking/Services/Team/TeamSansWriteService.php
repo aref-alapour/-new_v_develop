@@ -137,6 +137,7 @@ final class TeamSansWriteService
 		}
 
 		BookingCacheInvalidator::invalidateSansDay( $productId, $dayStartTime );
+		BookingCacheInvalidator::invalidateSansManagementHtml( $productId, $dayStartTime );
 
 		return array(
 			'success' => true,
@@ -238,6 +239,7 @@ final class TeamSansWriteService
 		BookingHistory::query()->insert( $insertRows );
 
 		BookingCacheInvalidator::invalidateSansDay( $productId, $dayStartTime );
+		BookingCacheInvalidator::invalidateSansManagementHtml( $productId, $dayStartTime );
 
 		return array(
 			'success' => true,
@@ -286,6 +288,7 @@ final class TeamSansWriteService
 		$dayStart = TeamSansBridge::tehranMidnightUnix( $sansTime );
 		if ( $dayStart > 0 ) {
 			BookingCacheInvalidator::invalidateSansDay( $productId, $dayStart );
+			BookingCacheInvalidator::invalidateSansManagementHtml( $productId, $dayStart );
 		}
 	}
 

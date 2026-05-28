@@ -32,4 +32,13 @@ final class BookingCacheInvalidator
 
 		wp_cache_flush_group( self::CACHE_GROUP );
 	}
+
+	public static function invalidateSansManagementHtml( int $productId, int $dayStartTime ): void {
+		if ( $productId <= 0 || $dayStartTime <= 0 || ! function_exists( 'wp_cache_delete' ) ) {
+			return;
+		}
+
+		$key = "ez_sans_mgmt_html_{$productId}_{$dayStartTime}";
+		wp_cache_delete( $key, self::CACHE_GROUP );
+	}
 }
