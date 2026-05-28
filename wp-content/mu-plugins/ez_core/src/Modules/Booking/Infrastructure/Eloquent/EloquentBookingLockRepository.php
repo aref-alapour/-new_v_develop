@@ -30,6 +30,14 @@ final class EloquentBookingLockRepository
 	 * @return Collection<int, BookingLock>
 	 */
 	public function forProductTimes( int $productId, array $bookingTimes ): Collection {
+		return $this->forProductTimesActive( $productId, $bookingTimes, 0 );
+	}
+
+	/**
+	 * @param list<int> $bookingTimes
+	 * @return Collection<int, BookingLock>
+	 */
+	public function forProductTimesActive( int $productId, array $bookingTimes, int $minLockTime ): Collection {
 		if ( $productId <= 0 || array() === $bookingTimes ) {
 			return new Collection();
 		}
@@ -46,9 +54,14 @@ final class EloquentBookingLockRepository
 			return new Collection();
 		}
 
-		return BookingLock::query()
+		$query = BookingLock::query()
 			->where( 'product_id', $productId )
-			->whereIn( 'booking_time', $times )
-			->get( array( 'booking_time', 'lock_time' ) );
+			->whereIn( 'booking_time', $times );
+
+		if ( $minLockTime > 0 ) {
+			$query->where( 'lock_time', '>', $minLockTime );
+		}
+
+		return $query->get( array( 'booking_time', 'lock_time' ) );
 	}
 }

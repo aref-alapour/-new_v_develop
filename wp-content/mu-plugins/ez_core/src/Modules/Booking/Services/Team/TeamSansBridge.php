@@ -502,43 +502,20 @@ final class TeamSansBridge
 			return array();
 		}
 
+		// Strictly use prefix search (indexed) to avoid full table scans.
 		$startsLike = addcslashes( $term, '%_\\' ) . '%';
-		$containsLike = '%' . addcslashes( $term, '%_\\' ) . '%';
 
 		$query = Capsule::connection( 'external' )
 			->table( 'products_data' )
 			->where( 'title', 'LIKE', $startsLike )
 			->orderBy( 'title' )
-			->limit( 60 );
+			->limit( 50 );
 
 		$rows = $query->get( array( 'product_id', 'title', 'city_name', 'image' ) );
 
 		$out = array();
 		foreach ( $rows as $row ) {
 			$out[] = (array) $row;
-		}
-
-		$termLength = function_exists( 'mb_strlen' ) ? mb_strlen( $term ) : strlen( $term );
-		if ( count( $out ) < 50 && $termLength >= 3 ) {
-			$seenIds = array_map(
-				static fn( array $row ): int => (int) ( $row['product_id'] ?? 0 ),
-				$out
-			);
-
-			$fallbackRows = Capsule::connection( 'external' )
-				->table( 'products_data' )
-				->where( 'title', 'LIKE', $containsLike )
-				->when(
-					array() !== $seenIds,
-					static fn( $q ) => $q->whereNotIn( 'product_id', $seenIds )
-				)
-				->orderBy( 'title' )
-				->limit( 50 - count( $out ) )
-				->get( array( 'product_id', 'title', 'city_name', 'image' ) );
-
-			foreach ( $fallbackRows as $row ) {
-				$out[] = (array) $row;
-			}
 		}
 
 		return $out;

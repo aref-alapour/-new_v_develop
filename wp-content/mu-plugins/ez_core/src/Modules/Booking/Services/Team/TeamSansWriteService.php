@@ -110,30 +110,19 @@ final class TeamSansWriteService
 		}
 
 		$tsList = array_column( $slots, 'ts' );
-		$rows   = BookingHistory::query()
+
+		// Batch-safe: single DELETE for all closed slots in this day.
+		$deletedCount = BookingHistory::query()
 			->where( 'room_id', $productId )
 			->whereIn( 'booking_time', $tsList )
 			->where( 'status', 2 )
-			->get( array( 'booking_time' ) );
+			->delete();
 
-		if ( $rows->isEmpty() ) {
+		if ( 0 === $deletedCount ) {
 			return array(
 				'success' => false,
 				'data'    => array( array( 'error' => 'هیچ سانسی برای باز شدن وجود ندارد.' ) ),
 			);
-		}
-
-		$closedTimes = array_map(
-			static fn( $row ): int => (int) ( $row->booking_time ?? 0 ),
-			$rows->all()
-		);
-		$closedTimes = array_values( array_filter( $closedTimes ) );
-		if ( array() !== $closedTimes ) {
-			BookingHistory::query()
-				->where( 'room_id', $productId )
-				->whereIn( 'booking_time', $closedTimes )
-				->where( 'status', 2 )
-				->delete();
 		}
 
 		BookingCacheInvalidator::invalidateSansDay( $productId, $dayStartTime );
@@ -222,6 +211,14 @@ final class TeamSansWriteService
 		}
 
 		$now = time();
+
+		// Batch-safe: single DELETE + INSERT set-based.
+		BookingHistory::query()
+			->where( 'room_id', $productId )
+			->whereIn( 'booking_time', $ready )
+			->where( 'status', 2 )
+			->delete();
+
 		$insertRows = array();
 		foreach ( $ready as $sansTime ) {
 			$insertRows[] = array(

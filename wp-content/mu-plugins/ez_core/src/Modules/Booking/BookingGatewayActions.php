@@ -36,10 +36,12 @@ final class BookingGatewayActions
 	 * @param array<string,mixed> $body
 	 */
 	public static function sansDay( array $body ): void {
+		$startedAt = microtime( true );
 		$productId    = isset( $body['product_id'] ) ? (int) $body['product_id'] : 0;
 		$dayStartTime = isset( $body['day_start_time'] ) ? (int) $body['day_start_time'] : 0;
 
 		if ( $productId <= 0 || $dayStartTime <= 0 ) {
+			self::emitTelemetry( $startedAt );
 			GatewayResponse::json( false, array(), array( 'code' => 'VALIDATION', 'message' => 'Invalid product or day' ), 400 );
 		}
 
@@ -63,7 +65,7 @@ final class BookingGatewayActions
 			)
 		);
 
-		self::syncResponseCrypto();
+		self::emitTelemetry( $startedAt );
 		GatewayResponse::html( $html );
 	}
 
@@ -82,17 +84,14 @@ final class BookingGatewayActions
 		if ( $productId <= 0 || $dayStartTime <= 0 ) {
 			BookingReadContext::setReason( 'invalid_input' );
 			BookingReadContext::applyDevHeaders();
-			self::syncResponseCrypto();
+			self::emitTelemetry( $startedAt );
 			GatewayResponse::raw( '[]' );
 		}
 
 		$result = ( new GetSansesJsonAction() )->handle( $body );
 
 		BookingReadContext::applyDevHeaders();
-		if ( ! headers_sent() ) {
-			header( 'X-EZ-Booking-Elapsed-Ms: ' . (string) (int) round( ( microtime( true ) - $startedAt ) * 1000 ) );
-		}
-		self::syncResponseCrypto();
+		self::emitTelemetry( $startedAt );
 		GatewayResponse::raw( wp_json_encode( $result, JSON_UNESCAPED_UNICODE ) ?: '[]' );
 	}
 
@@ -105,6 +104,7 @@ final class BookingGatewayActions
 		$dayStartTime = isset( $body['day_start_time'] ) ? (int) $body['day_start_time'] : 0;
 
 		if ( $productId <= 0 || $dayStartTime <= 0 ) {
+			self::emitTelemetry( $startedAt );
 			GatewayResponse::json( false, array(), array( 'code' => 'VALIDATION', 'message' => 'Invalid product or day' ), 400 );
 		}
 
@@ -128,10 +128,7 @@ final class BookingGatewayActions
 			);
 		}
 
-		self::syncResponseCrypto();
-		if ( ! headers_sent() ) {
-			header( 'X-EZ-Booking-Elapsed-Ms: ' . (string) (int) round( ( microtime( true ) - $startedAt ) * 1000 ) );
-		}
+		self::emitTelemetry( $startedAt );
 		GatewayResponse::html( $html );
 	}
 
@@ -142,21 +139,26 @@ final class BookingGatewayActions
 		$startedAt = microtime( true );
 		$productId    = isset( $body['product_id'] ) ? (int) $body['product_id'] : 0;
 		$dayStartTime = isset( $body['day_start_time'] ) ? (int) $body['day_start_time'] : 0;
+		$format       = isset( $body['format'] ) ? (string) $body['format'] : 'html';
 
 		if ( $productId <= 0 || $dayStartTime <= 0 ) {
+			self::emitTelemetry( $startedAt );
 			GatewayResponse::json( false, array(), array( 'code' => 'VALIDATION', 'message' => 'Invalid product or day' ), 400 );
 		}
 
 		try {
+			if ( 'json' === $format ) {
+				$data = SansManagementWebHtmlService::getData( $productId, $dayStartTime );
+				self::emitTelemetry( $startedAt );
+				GatewayResponse::raw( wp_json_encode( $data, JSON_UNESCAPED_UNICODE ) ?: '{}' );
+				return;
+			}
 			$html = SansManagementWebHtmlService::render( $productId, $dayStartTime );
 		} catch ( \Throwable $e ) {
 			GatewayResponse::json( false, array(), array( 'code' => 'SERVER', 'message' => $e->getMessage() ), 500 );
 		}
 
-		self::syncResponseCrypto();
-		if ( ! headers_sent() ) {
-			header( 'X-EZ-Booking-Elapsed-Ms: ' . (string) (int) round( ( microtime( true ) - $startedAt ) * 1000 ) );
-		}
+		self::emitTelemetry( $startedAt );
 		GatewayResponse::html( $html );
 	}
 
@@ -197,6 +199,7 @@ final class BookingGatewayActions
 		$dayStartTime = isset( $body['day_start_time'] ) ? (int) $body['day_start_time'] : 0;
 
 		if ( $productId <= 0 || $dayStartTime <= 0 ) {
+			self::emitTelemetry( $startedAt );
 			GatewayResponse::json( false, array(), array( 'code' => 'VALIDATION', 'message' => 'Invalid product or day' ), 400 );
 		}
 
@@ -206,10 +209,7 @@ final class BookingGatewayActions
 			GatewayResponse::json( false, array(), array( 'code' => 'SERVER', 'message' => $e->getMessage() ), 500 );
 		}
 
-		self::syncResponseCrypto();
-		if ( ! headers_sent() ) {
-			header( 'X-EZ-Booking-Elapsed-Ms: ' . (string) (int) round( ( microtime( true ) - $startedAt ) * 1000 ) );
-		}
+		self::emitTelemetry( $startedAt );
 		GatewayResponse::html( $html );
 	}
 
@@ -226,10 +226,7 @@ final class BookingGatewayActions
 			GatewayResponse::json( false, array(), array( 'code' => 'SERVER', 'message' => $e->getMessage() ), 500 );
 		}
 
-		self::syncResponseCrypto();
-		if ( ! headers_sent() ) {
-			header( 'X-EZ-Booking-Elapsed-Ms: ' . (string) (int) round( ( microtime( true ) - $startedAt ) * 1000 ) );
-		}
+		self::emitTelemetry( $startedAt );
 		GatewayResponse::html( $html );
 	}
 
@@ -244,6 +241,7 @@ final class BookingGatewayActions
 		$action     = isset( $body['action'] ) ? trim( (string) $body['action'] ) : '';
 
 		if ( $productId <= 0 ) {
+			self::emitTelemetry( $startedAt );
 			GatewayResponse::json( false, array(), array( 'code' => 'VALIDATION', 'message' => 'Invalid product' ), 400 );
 		}
 
@@ -255,10 +253,7 @@ final class BookingGatewayActions
 
 		BookingCacheInvalidator::invalidateProduct( $productId );
 
-		self::syncResponseCrypto();
-		if ( ! headers_sent() ) {
-			header( 'X-EZ-Booking-Elapsed-Ms: ' . (string) (int) round( ( microtime( true ) - $startedAt ) * 1000 ) );
-		}
+		self::emitTelemetry( $startedAt );
 		GatewayResponse::raw( wp_json_encode( $result, JSON_UNESCAPED_UNICODE ) ?: '{}' );
 	}
 
@@ -271,6 +266,7 @@ final class BookingGatewayActions
 		$dayStartTime = isset( $body['day_start_time'] ) ? (int) $body['day_start_time'] : 0;
 
 		if ( $productId <= 0 || $dayStartTime <= 0 ) {
+			self::emitTelemetry( $startedAt );
 			GatewayResponse::json( false, array(), array( 'code' => 'VALIDATION', 'message' => 'Invalid product or day' ), 400 );
 		}
 
@@ -288,10 +284,7 @@ final class BookingGatewayActions
 
 		BookingCacheInvalidator::invalidateSansDay( $productId, $dayStartTime );
 
-		self::syncResponseCrypto();
-		if ( ! headers_sent() ) {
-			header( 'X-EZ-Booking-Elapsed-Ms: ' . (string) (int) round( ( microtime( true ) - $startedAt ) * 1000 ) );
-		}
+		self::emitTelemetry( $startedAt );
 		GatewayResponse::raw( wp_json_encode( $result, JSON_UNESCAPED_UNICODE ) ?: '{}' );
 	}
 
@@ -304,6 +297,7 @@ final class BookingGatewayActions
 		$sansTime  = isset( $body['sans_time'] ) ? (int) $body['sans_time'] : 0;
 
 		if ( $productId <= 0 || $sansTime <= 0 ) {
+			self::emitTelemetry( $startedAt );
 			GatewayResponse::json( false, array(), array( 'code' => 'VALIDATION', 'message' => 'Invalid sans' ), 400 );
 		}
 
@@ -324,11 +318,15 @@ final class BookingGatewayActions
 			TeamSansBridge::tehranMidnightUnix( $sansTime )
 		);
 
+		self::emitTelemetry( $startedAt );
+		GatewayResponse::raw( wp_json_encode( $payload, JSON_UNESCAPED_UNICODE ) ?: '{}' );
+	}
+
+	private static function emitTelemetry( float $startedAt ): void {
 		self::syncResponseCrypto();
 		if ( ! headers_sent() ) {
 			header( 'X-EZ-Booking-Elapsed-Ms: ' . (string) (int) round( ( microtime( true ) - $startedAt ) * 1000 ) );
 		}
-		GatewayResponse::raw( wp_json_encode( $payload, JSON_UNESCAPED_UNICODE ) ?: '{}' );
 	}
 
 	private static function syncResponseCrypto(): void {
