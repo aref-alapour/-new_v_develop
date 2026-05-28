@@ -73,6 +73,7 @@ final class BookingGatewayActions
 	 * @param array<string,mixed> $body
 	 */
 	public static function sansDayJson( array $body ): void {
+		$startedAt = microtime( true );
 		$productId    = isset( $body['product_id'] ) ? (int) $body['product_id'] : 0;
 		$dayStartTime = isset( $body['day_start_time'] ) ? (int) $body['day_start_time'] : 0;
 
@@ -88,6 +89,9 @@ final class BookingGatewayActions
 		$result = ( new GetSansesJsonAction() )->handle( $body );
 
 		BookingReadContext::applyDevHeaders();
+		if ( ! headers_sent() ) {
+			header( 'X-EZ-Booking-Elapsed-Ms: ' . (string) (int) round( ( microtime( true ) - $startedAt ) * 1000 ) );
+		}
 		self::syncResponseCrypto();
 		GatewayResponse::raw( wp_json_encode( $result, JSON_UNESCAPED_UNICODE ) ?: '[]' );
 	}
@@ -96,6 +100,7 @@ final class BookingGatewayActions
 	 * @param array<string,mixed> $body
 	 */
 	public static function sansWeek( array $body ): void {
+		$startedAt = microtime( true );
 		$productId    = isset( $body['product_id'] ) ? (int) $body['product_id'] : 0;
 		$dayStartTime = isset( $body['day_start_time'] ) ? (int) $body['day_start_time'] : 0;
 
@@ -124,6 +129,9 @@ final class BookingGatewayActions
 		}
 
 		self::syncResponseCrypto();
+		if ( ! headers_sent() ) {
+			header( 'X-EZ-Booking-Elapsed-Ms: ' . (string) (int) round( ( microtime( true ) - $startedAt ) * 1000 ) );
+		}
 		GatewayResponse::html( $html );
 	}
 
@@ -131,6 +139,7 @@ final class BookingGatewayActions
 	 * @param array<string,mixed> $body
 	 */
 	public static function sansManagementWeb( array $body ): void {
+		$startedAt = microtime( true );
 		$productId    = isset( $body['product_id'] ) ? (int) $body['product_id'] : 0;
 		$dayStartTime = isset( $body['day_start_time'] ) ? (int) $body['day_start_time'] : 0;
 
@@ -145,6 +154,9 @@ final class BookingGatewayActions
 		}
 
 		self::syncResponseCrypto();
+		if ( ! headers_sent() ) {
+			header( 'X-EZ-Booking-Elapsed-Ms: ' . (string) (int) round( ( microtime( true ) - $startedAt ) * 1000 ) );
+		}
 		GatewayResponse::html( $html );
 	}
 

@@ -76,37 +76,9 @@ function ez_render_reserve_week_table( int $productId, int $dayStart ): string {
 	}
 
 	$days = array();
-	$raw  = '';
 
 	if ( class_exists( '\EscapeZoom\Core\Modules\Booking\BookingAvailabilityService' ) ) {
 		$days = \EscapeZoom\Core\Modules\Booking\BookingAvailabilityService::getSanses( $productId, $dayStart, 7 );
-	} elseif ( function_exists( 'ez_reservation' ) ) {
-		$raw = (string) ez_reservation(
-			array(
-				'type' => 'get_sanses',
-				'data' => array(
-					'day_start_time' => $dayStart,
-					'product_id'     => $productId,
-					'days'           => 7,
-				),
-			)
-		);
-	} elseif ( class_exists( '\EscapeZoom\Core\Modules\Booking\BookingDispatchService' ) ) {
-		$raw = \EscapeZoom\Core\Modules\Booking\BookingDispatchService::dispatchType(
-			'get_sanses',
-			array(
-				'day_start_time' => $dayStart,
-				'product_id'     => $productId,
-				'days'           => 7,
-			)
-		);
-	}
-
-	if ( '' !== $raw ) {
-		$decoded = json_decode( $raw, true );
-		if ( is_array( $decoded ) ) {
-			$days = $decoded;
-		}
 	}
 
 	if ( ! is_array( $days ) ) {

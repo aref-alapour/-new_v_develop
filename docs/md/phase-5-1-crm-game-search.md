@@ -24,6 +24,14 @@
 
 `sans_management_web` از [SansManagementWebHtmlService.php](../../wp-content/mu-plugins/ez_core/src/Modules/Booking/Services/Team/SansManagementWebHtmlService.php) (Eloquent) — بدون `BookingDispatchService`.
 
+### بهینه‌سازی SLA (2026-05-27)
+
+- cache درون‌درخواستی برای `TeamSansBridge::getProductRow` و `TeamSansBridge::getDayType`
+- cache decode schedule در `TeamSansBridge::getSansesFromRow`
+- کاهش payload query محصول با `SELECT product_id,schedule,discount_data,auto_disable`
+- بهبود lock lookup در `SansManagementWebHtmlService::activeLockTimes` با set membership
+- اضافه شدن هدر `X-EZ-Booking-Elapsed-Ms` برای تفکیک latency سمت PHP از network/browser
+
 ## single-product سرعت
 
 - کش `BookingService` TTL **60s**
@@ -37,10 +45,9 @@
 
 ## چک‌لیست HAR / Docker (بستن ۵.۱)
 
-داخل کانتینر WordPress:
+در runtime پروژه:
 
 ```bash
-php wp-content/mu-plugins/ez_core/bin/secrets-init-dev.php   # اگر secrets.enc نیست
 php wp-content/mu-plugins/ez_core/bin/booking-db-health.php
 ```
 
@@ -53,6 +60,6 @@ php wp-content/mu-plugins/ez_core/bin/booking-db-health.php
 | single-product | `booking.sans_day_json` | `X-EZ-Gateway: light` |
 | بار دوم همان روز | همان action | &lt; 1s با Redis |
 
-`secrets.enc` در git نیست — در deploy باید `EZ_CORE_SECRETS_KEY` به کانتینر برسد.
+در mode داخلی پروژه، boot/sub-secret به‌صورت پایدار از WordPress keys مشتق می‌شود و وابستگی عملیاتی به `secrets.enc` برای مسیر رزرو وجود ندارد.
 
 نتایج verify: [phase-5-1-har-results.md](./phase-5-1-har-results.md)

@@ -27,6 +27,6 @@ final class EloquentBookingHistoryRepository
 			$query->whereIn( 'booking_time', array_map( 'intval', $bookingTimes ) );
 		}
 
-		return $query->get();
+		return $query->get( array( 'booking_time', 'status' ) );
 	}
 }

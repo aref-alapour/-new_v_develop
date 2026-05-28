@@ -9,6 +9,9 @@ namespace EscapeZoom\Core\Modules\Booking\Infrastructure;
  */
 final class ProductsDataRepository
 {
+	/** @var array<int, array<string,mixed>|null> */
+	private static array $rowCache = array();
+
 	/**
 	 * @return array<string,mixed>|null
 	 */
@@ -16,24 +19,32 @@ final class ProductsDataRepository
 		if ( $productId <= 0 ) {
 			return null;
 		}
+		if ( array_key_exists( $productId, self::$rowCache ) ) {
+			return self::$rowCache[ $productId ];
+		}
 
 		$conn = $this->connection();
 		if ( ! ( $conn instanceof \mysqli ) ) {
+			self::$rowCache[ $productId ] = null;
 			return null;
 		}
 
 		$pid    = (int) $productId;
-		$result = $conn->query( "SELECT * FROM products_data WHERE product_id LIKE {$pid}" );
+		$result = $conn->query( "SELECT product_id,schedule,discount_data,auto_disable FROM products_data WHERE product_id = {$pid} LIMIT 1" );
 		if ( ! $result || $result->num_rows < 1 ) {
+			self::$rowCache[ $productId ] = null;
 			return null;
 		}
 
 		$rows = $result->fetch_all( MYSQLI_ASSOC );
 		if ( ! is_array( $rows ) || ! isset( $rows[0] ) || ! is_array( $rows[0] ) ) {
+			self::$rowCache[ $productId ] = null;
 			return null;
 		}
 
-		return $rows[0];
+		self::$rowCache[ $productId ] = $rows[0];
+
+		return self::$rowCache[ $productId ];
 	}
 
 	/**

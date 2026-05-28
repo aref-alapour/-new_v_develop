@@ -15,10 +15,10 @@ require EZ_CORE_PATH . '/ajax/polyfills.php';
 
 use EscapeZoom\Core\Infrastructure\Config\SecretsLoader;
 
-if ( ! SecretsLoader::isLoaded() || ! defined( 'EZ_AJAX_SHARED_SECRET' ) || '' === (string) EZ_AJAX_SHARED_SECRET ) {
+if ( ! defined( 'EZ_AJAX_SHARED_SECRET' ) || '' === (string) EZ_AJAX_SHARED_SECRET ) {
 	http_response_code( 503 );
 	header( 'Content-Type: application/json; charset=utf-8' );
-	$msg = SecretsLoader::getBootError() ?: 'Secrets not configured';
+	$msg = SecretsLoader::getBootError() ?: 'Gateway secret not configured';
 	echo wp_json_encode(
 		array(
 			'ok'    => false,

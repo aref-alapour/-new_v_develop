@@ -67,3 +67,9 @@ cd wp-content/mu-plugins/ez_core && vendor/bin/pest --filter=PanelAjaxSecurity
 ```
 
 بدون nonce → WordPress `-1` / 403 در مرورگر برای `panel_sans_settings_update`.
+
+## وضعیت نهایی فاز ۵.۲
+
+- read pathها (`booking.sans_day_json`, `booking.sans_week`, `booking.sans_management_web`) signature-only باقی می‌مانند.
+- write pathها (`booking.open_sans`, `booking.close_sans`, `booking.open_all_sanses`, `booking.close_all_sanses`, `booking.bulk_date_range`) با encryption policy write محافظت می‌شوند.
+- fallback legacy در read رزرو حذف شده و mixed-mode در مسیرهای اصلی رزرو بسته شده است.

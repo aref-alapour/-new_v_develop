@@ -45,6 +45,9 @@ const READ_ENCRYPT_ACTIONS = new Set([
  * @param {Record<string, unknown>} boot
  */
 function shouldEncryptPayload(action, boot) {
+  if (action === 'booking.sans_day_json') {
+    return true;
+  }
   if (WRITE_ENCRYPT_ACTIONS.has(action) && boot.encrypt_writes) {
     return true;
   }

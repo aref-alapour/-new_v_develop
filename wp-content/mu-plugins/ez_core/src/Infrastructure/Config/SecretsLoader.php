@@ -31,8 +31,12 @@ final class SecretsLoader
 		} catch ( \Throwable $e ) {
 			self::$bootError = $e->getMessage();
 			self::$secrets   = null;
-			// phpcs:ignore WordPress.PHP.DevelopmentFunctions.error_log_error_log
-			error_log( '[EZ Core] Secrets decrypt failed: ' . self::$bootError );
+			if ( str_contains( self::$bootError, 'secrets.enc not found' ) ) {
+				self::debugLog( 'Secrets decrypt skipped: file not found', array( 'enc_path' => self::encFilePath() ) );
+			} else {
+				// phpcs:ignore WordPress.PHP.DevelopmentFunctions.error_log_error_log
+				error_log( '[EZ Core] Secrets decrypt failed: ' . self::$bootError );
+			}
 		}
 
 		return null === self::$bootError;

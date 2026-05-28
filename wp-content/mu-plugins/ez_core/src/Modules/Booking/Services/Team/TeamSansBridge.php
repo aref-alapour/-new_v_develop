@@ -13,6 +13,15 @@ use Illuminate\Database\Capsule\Manager as Capsule;
  */
 final class TeamSansBridge
 {
+	/** @var array<int, array<string,mixed>|null> */
+	private static array $productRowCache = array();
+
+	/** @var array<int, string> */
+	private static array $dayTypeCache = array();
+
+	/** @var array<string, array<string,mixed>> */
+	private static array $scheduleCache = array();
+
 	public static function checkPlayingHtml( int $productId, int $dayStartTime ): string {
 		self::assertExternalDb();
 
@@ -36,7 +45,7 @@ final class TeamSansBridge
 				->get( array( 'status', 'booking_time', 'name', 'level', 'phone', 'quantity' ) );
 
 			foreach ( $rows as $row ) {
-				$orders[ (string) (int) $row->booking_time ] = $row->toArray();
+				$orders[ (string) (int) $row->booking_time ] = (array) $row;
 			}
 		}
 
@@ -278,16 +287,23 @@ final class TeamSansBridge
 	 * @return array<string, mixed>|null
 	 */
 	public static function getProductRow( int $productId ): ?array {
+		if ( array_key_exists( $productId, self::$productRowCache ) ) {
+			return self::$productRowCache[ $productId ];
+		}
+
 		$row = Capsule::connection( 'external' )
 			->table( 'products_data' )
 			->where( 'product_id', $productId )
-			->first();
+			->first( array( 'product_id', 'schedule', 'duration', 'image', 'title', 'city_name' ) );
 
 		if ( null === $row ) {
+			self::$productRowCache[ $productId ] = null;
 			return null;
 		}
 
-		return (array) $row;
+		self::$productRowCache[ $productId ] = (array) $row;
+
+		return self::$productRowCache[ $productId ];
 	}
 
 	/**
@@ -299,6 +315,9 @@ final class TeamSansBridge
 		if ( ! is_string( $raw ) || '' === $raw ) {
 			return array();
 		}
+		if ( isset( self::$scheduleCache[ $raw ] ) ) {
+			return self::$scheduleCache[ $raw ];
+		}
 
 		$decoded = @unserialize( $raw, array( 'allowed_classes' => false ) );
 		if ( false === $decoded ) {
@@ -306,30 +325,38 @@ final class TeamSansBridge
 		}
 
 		$json = json_decode( json_encode( $decoded ), true );
+		$result = is_array( $json ) ? $json : array();
+		self::$scheduleCache[ $raw ] = $result;
 
-		return is_array( $json ) ? $json : array();
+		return $result;
 	}
 
 	public static function getDayType( int $day ): string {
+		$day = self::tehranMidnightUnix( $day );
+		if ( isset( self::$dayTypeCache[ $day ] ) ) {
+			return self::$dayTypeCache[ $day ];
+		}
+
 		$row = Capsule::connection( 'external' )
 			->table( 'calendar_data' )
 			->value( 'data' );
 
 		if ( ! is_string( $row ) || '' === $row ) {
-			return 'normals';
+			self::$dayTypeCache[ $day ] = 'normals';
+			return self::$dayTypeCache[ $day ];
 		}
 
 		$calendar = @unserialize( $row, array( 'allowed_classes' => false ) );
 		if ( false === $calendar ) {
-			return 'normals';
+			self::$dayTypeCache[ $day ] = 'normals';
+			return self::$dayTypeCache[ $day ];
 		}
 
 		$calendarData = json_decode( json_encode( $calendar ), true );
 		if ( ! is_array( $calendarData ) ) {
-			return 'normals';
+			self::$dayTypeCache[ $day ] = 'normals';
+			return self::$dayTypeCache[ $day ];
 		}
-
-		$day = self::tehranMidnightUnix( $day );
 
 		foreach ( explode( ',', (string) ( $calendarData['holidays'] ?? '' ) ) as $calendarDay ) {
 			$calendarDay = trim( $calendarDay );
@@ -337,7 +364,8 @@ final class TeamSansBridge
 				continue;
 			}
 			if ( self::tehranMidnightUnix( (int) $calendarDay ) === $day ) {
-				return 'holidays';
+				self::$dayTypeCache[ $day ] = 'holidays';
+				return self::$dayTypeCache[ $day ];
 			}
 		}
 
@@ -347,11 +375,12 @@ final class TeamSansBridge
 				continue;
 			}
 			if ( self::tehranMidnightUnix( (int) $calendarDay ) === $day ) {
-				return 'closed';
+				self::$dayTypeCache[ $day ] = 'closed';
+				return self::$dayTypeCache[ $day ];
 			}
 		}
-
-		return 'normals';
+		self::$dayTypeCache[ $day ] = 'normals';
+		return self::$dayTypeCache[ $day ];
 	}
 
 	public static function tehranMidnightUnix( int $timestamp ): int {

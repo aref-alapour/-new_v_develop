@@ -20,6 +20,12 @@
 | single-product | `booking.sans_day_json` | `X-EZ-Gateway: light` | Pending browser |
 | بار دوم همان روز | warm cache | < 1s با Redis | Pending browser |
 
+### HAR یافته‌های فعلی (2026-05-27)
+
+- `booking.sans_day_json` و `booking.sans_management_web` از مسیر `/ajax` فعال هستند.
+- در 3 HAR اخیر، `wait` برای بعضی درخواست‌ها حدود `22s` تا `30s` بوده است.
+- برای ردیابی bottleneck، هدر `X-EZ-Booking-Elapsed-Ms` به پاسخ‌های gateway اضافه شد تا زمان سمت PHP از زمان network/browser جدا شود.
+
 ### دستور capture
 
 1. DevTools → Network → Preserve log

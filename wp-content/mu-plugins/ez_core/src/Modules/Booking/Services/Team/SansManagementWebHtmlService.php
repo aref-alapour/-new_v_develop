@@ -53,7 +53,7 @@ final class SansManagementWebHtmlService
 				);
 
 			foreach ( $rows as $row ) {
-				$orders[ (string) (int) $row->booking_time ] = $row->toArray();
+				$orders[ (string) (int) $row->booking_time ] = (array) $row;
 			}
 		}
 
@@ -278,10 +278,11 @@ final class SansManagementWebHtmlService
 		$locks = $repo->forProduct( $productId );
 		$now   = time();
 		$out   = array();
+		$tsSet = array_fill_keys( array_map( 'intval', $tsList ), true );
 
 		foreach ( $locks as $lock ) {
 			$bookingTime = (int) ( $lock->booking_time ?? 0 );
-			if ( $bookingTime <= 0 || ! in_array( $bookingTime, $tsList, true ) ) {
+			if ( $bookingTime <= 0 || ! isset( $tsSet[ $bookingTime ] ) ) {
 				continue;
 			}
 

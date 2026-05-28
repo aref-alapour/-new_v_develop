@@ -49,13 +49,11 @@ it('round-trips sans JSON response body envelope', function () {
 	expect( PayloadCipher::decrypt( $wire, $sub ) )->toBe( $plain );
 });
 
-it('shouldEncryptResponse follows secrets flags when loaded', function () {
-	if ( ! SecretsLoader::isLoaded() ) {
-		test()->markTestSkipped( 'secrets.enc not loaded in test env' );
-	}
-
+it('shouldEncryptResponse encrypts single-product day JSON and writes', function () {
 	expect( PayloadCipher::shouldEncryptResponse( 'booking.sans_day_json' ) )
-		->toBe( SecretsLoader::payloadEncryptReads() );
+		->toBeTrue();
+	expect( PayloadCipher::shouldEncryptResponse( 'booking.sans_week' ) )
+		->toBeFalse();
 	expect( PayloadCipher::shouldEncryptResponse( 'booking.open_sans' ) )
 		->toBe( SecretsLoader::payloadEncryptWrites() );
 	expect( PayloadCipher::encryptionRequiredFor( 'booking.sans_day_json' ) )

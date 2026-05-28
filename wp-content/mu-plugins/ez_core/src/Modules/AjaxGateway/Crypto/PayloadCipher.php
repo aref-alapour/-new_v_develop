@@ -92,6 +92,11 @@ final class PayloadCipher
 			return false;
 		}
 
+		// Force encryption for single-product day JSON path.
+		if ( 'booking.sans_day_json' === $action ) {
+			return true;
+		}
+
 		if ( ActionClassification::isWrite( $action ) ) {
 			return SecretsLoader::payloadEncryptWrites();
 		}
