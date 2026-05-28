@@ -78,6 +78,14 @@ if ( ! defined( 'DB_COLLATE' ) ) {
 	define( 'DB_COLLATE', '' );
 }
 
+if ( ! defined( 'EZ_MEDOO_CRM_DATABASE' ) ) {
+	$crmDb = getenv( 'EZ_MEDOO_CRM_DATABASE' );
+	if ( false === $crmDb || '' === $crmDb ) {
+		$crmDb = 'escapezo_ez9920';
+	}
+	define( 'EZ_MEDOO_CRM_DATABASE', (string) $crmDb );
+}
+
 if ( ! defined( 'WP_DEBUG' ) ) {
 	define( 'WP_DEBUG', filter_var( getenv( 'WORDPRESS_DEBUG' ) ?: '0', FILTER_VALIDATE_BOOLEAN ) );
 }

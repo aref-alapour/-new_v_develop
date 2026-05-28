@@ -366,6 +366,28 @@ export async function gameSearchHtml(term) {
  * @param {{ productId: number, startDate: string, endDate: string, action: 'open'|'close' }} opts
  * @returns {Promise<{success: boolean, data?: unknown}>}
  */
+/**
+ * Non-blocking product view counter (gateway replacement for admin-ajax product_set_view).
+ *
+ * @param {number|string} productId
+ * @param {string} ip
+ */
+export function productSetView(productId, ip) {
+  if (!window.__EZ_BOOT__?.sub_secret) {
+    return;
+  }
+  const pid = parseInt(productId, 10);
+  if (!Number.isFinite(pid) || pid <= 0) {
+    return;
+  }
+  void ezFetch('booking.product_set_view', {
+    product_id: pid,
+    ip: String(ip || ''),
+  }).catch(() => {
+    /* analytics side-effect; ignore failures */
+  });
+}
+
 export async function bulkDateRange(opts) {
   const resp = await ezFetch('booking.bulk_date_range', {
     product_id: parseInt(opts.productId, 10),

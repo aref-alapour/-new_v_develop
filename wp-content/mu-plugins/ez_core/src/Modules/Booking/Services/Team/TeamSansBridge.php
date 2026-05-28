@@ -216,7 +216,8 @@ final class TeamSansBridge
 			$now        = time();
 			$processed  = 0;
 
-			$currentDay = $startTs;
+			$allSlotTimes = array();
+			$currentDay   = $startTs;
 			while ( $currentDay <= $endTs ) {
 				$dayType = self::getDayType( $currentDay );
 				if ( ! isset( $sansesData[ $dayType ] ) || ! is_array( $sansesData[ $dayType ] ) ) {
@@ -224,53 +225,70 @@ final class TeamSansBridge
 					continue;
 				}
 
-				$scheduleKey = $dayType;
-				$daySlots    = self::buildDaySlots( $currentDay, $scheduleKey, $sansesData[ $dayType ] );
-
+				$daySlots = self::buildDaySlots( $currentDay, $dayType, $sansesData[ $dayType ] );
 				foreach ( $daySlots as $slot ) {
-					$sansTimeTs = (int) $slot['ts'];
-
-					if ( 'close' === $action ) {
-						$alreadyManaged = BookingHistory::query()
-							->where( 'room_id', $productId )
-							->where( 'booking_time', $sansTimeTs )
-							->whereIn( 'status', array( 1, 2 ) )
-							->exists();
-						if ( $alreadyManaged ) {
-							continue;
-						}
-
-						BookingHistory::query()
-							->where( 'room_id', $productId )
-							->where( 'booking_time', $sansTimeTs )
-							->where( 'status', 2 )
-							->delete();
-
-						BookingHistory::query()->insert(
-							array(
-								'customer_id'  => $userId,
-								'wc_order_id'  => null,
-								'status'       => 2,
-								'room_id'      => $productId,
-								'booking_time' => $sansTimeTs,
-								'booked_time'  => $now,
-								'name'         => null,
-								'phone'        => null,
-								'quantity'     => 0,
-							)
-						);
-						++$processed;
-					} else {
-						$deleted = BookingHistory::query()
-							->where( 'room_id', $productId )
-							->where( 'booking_time', $sansTimeTs )
-							->where( 'status', 2 )
-							->delete();
-						$processed += (int) $deleted;
-					}
+					$allSlotTimes[] = (int) $slot['ts'];
 				}
 
 				$currentDay = strtotime( '+1 day', $currentDay );
+			}
+
+			$allSlotTimes = array_values( array_unique( array_filter( $allSlotTimes ) ) );
+			if ( array() === $allSlotTimes ) {
+				return array(
+					'success' => true,
+					'data'    => array( 'هیچ سانسی برای این بازه یافت نشد.' ),
+				);
+			}
+
+			if ( 'close' === $action ) {
+				$managed = BookingHistory::query()
+					->where( 'room_id', $productId )
+					->whereIn( 'booking_time', $allSlotTimes )
+					->whereIn( 'status', array( 1, 2 ) )
+					->pluck( 'booking_time' )
+					->map( static fn( $t ): int => (int) $t )
+					->all();
+				$managedSet = array_fill_keys( $managed, true );
+				$toClose    = array_values(
+					array_filter(
+						$allSlotTimes,
+						static fn( int $ts ): bool => ! isset( $managedSet[ $ts ] )
+					)
+				);
+
+				if ( array() !== $toClose ) {
+					BookingHistory::query()
+						->where( 'room_id', $productId )
+						->whereIn( 'booking_time', $toClose )
+						->where( 'status', 2 )
+						->delete();
+
+					$rows = array();
+					foreach ( $toClose as $sansTimeTs ) {
+						$rows[] = array(
+							'customer_id'  => $userId,
+							'wc_order_id'  => null,
+							'status'       => 2,
+							'room_id'      => $productId,
+							'booking_time' => $sansTimeTs,
+							'booked_time'  => $now,
+							'name'         => null,
+							'phone'        => null,
+							'quantity'     => 0,
+						);
+					}
+					foreach ( array_chunk( $rows, 500 ) as $chunk ) {
+						BookingHistory::query()->insert( $chunk );
+					}
+					$processed = count( $toClose );
+				}
+			} else {
+				$processed = BookingHistory::query()
+					->where( 'room_id', $productId )
+					->whereIn( 'booking_time', $allSlotTimes )
+					->where( 'status', 2 )
+					->delete();
 			}
 
 			$msg = ( 'close' === $action )

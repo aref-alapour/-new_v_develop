@@ -9,6 +9,8 @@ use EscapeZoom\Core\Modules\AjaxGateway\GatewayResponse;
 use EscapeZoom\Core\Modules\Booking\Actions\GetSansesJsonAction;
 use EscapeZoom\Core\Modules\Booking\BookingReadContext;
 use EscapeZoom\Core\Modules\Booking\Services\BookingCacheInvalidator;
+use EscapeZoom\Core\Modules\Booking\Services\ProductViewService;
+use EscapeZoom\Core\Modules\AjaxGateway\Auth\RateLimiter;
 use EscapeZoom\Core\Modules\Booking\Services\Team\SansManagementWebHtmlService;
 use EscapeZoom\Core\Modules\Booking\Services\Team\TeamSansBridge;
 use EscapeZoom\Core\Modules\Booking\Services\Team\TeamSansWriteService;
@@ -22,6 +24,7 @@ final class BookingGatewayActions
 	private const ACTION_HANDLERS = array(
 		'booking.sans_day'           => array( self::class, 'sansDay' ),
 		'booking.sans_day_json'      => array( self::class, 'sansDayJson' ),
+		'booking.product_set_view'   => array( self::class, 'productSetView' ),
 		'booking.sans_week'          => array( self::class, 'sansWeek' ),
 		'booking.sans_management_web'=> array( self::class, 'sansManagementWeb' ),
 		'booking.sans_management_data'=> array( self::class, 'sansManagementData' ),
@@ -95,8 +98,24 @@ final class BookingGatewayActions
 	}
 
 	/**
-	 * Legacy flat JSON for single-product BuildSans (no HTML partial).
+	 * Fire-and-forget product view counter (replaces admin-ajax product_set_view).
 	 *
+	 * @param array<string,mixed> $body
+	 */
+	public static function productSetView( array $body ): void {
+		$startedAt  = microtime( true );
+		$productId  = isset( $body['product_id'] ) ? (int) $body['product_id'] : 0;
+		$ip         = isset( $body['ip'] ) ? trim( (string) $body['ip'] ) : '';
+		if ( '' === $ip ) {
+			$ip = RateLimiter::clientIp();
+		}
+
+		$recorded = ProductViewService::record( $productId, $ip );
+		self::emitTelemetry( $startedAt );
+		GatewayResponse::json( true, array( 'recorded' => $recorded ) );
+	}
+
+	/**
 	 * @param array<string,mixed> $body
 	 */
 	public static function sansDayJson( array $body ): void {

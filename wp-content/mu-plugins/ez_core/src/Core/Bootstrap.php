@@ -57,4 +57,30 @@ final class Bootstrap
 	public static function bootDataLayerOnly(): void {
 		self::bootDataLayer();
 	}
+
+	/**
+	 * Action-aware minimal bootstrap for standalone /ajax (skip unused DB pools).
+	 */
+	public static function bootMinimal( string $action ): void {
+		if ( self::$dataLayerBooted ) {
+			return;
+		}
+
+		$action = trim( $action );
+		if ( 'booking.product_set_view' === $action ) {
+			CapsuleManager::bootProductViewOnly();
+			self::$dataLayerBooted = true;
+
+			return;
+		}
+
+		if ( in_array( $action, array( 'booking.sans_day_json', 'booking.sans_day' ), true ) ) {
+			CapsuleManager::bootLightGateway();
+			self::$dataLayerBooted = true;
+
+			return;
+		}
+
+		self::bootDataLayer();
+	}
 }

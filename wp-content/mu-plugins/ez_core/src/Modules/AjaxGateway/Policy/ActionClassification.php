@@ -20,6 +20,7 @@ final class ActionClassification
 
 	/** @var array<string, string> */
 	private const MAP = array(
+		'booking.product_set_view'   => self::CLASS_READ,
 		'booking.sans_day_json'      => self::CLASS_READ,
 		'booking.sans_day'           => self::CLASS_READ,
 		'booking.sans_week'          => self::CLASS_READ,

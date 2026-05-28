@@ -119,6 +119,9 @@ function ez_ajax_should_boot(): bool {
 	if ( function_exists( 'ez_team_is_sans_management_page' ) && ez_team_is_sans_management_page() ) {
 		return true;
 	}
+	if ( function_exists( 'ez_team_is_booking_tools_page' ) && ez_team_is_booking_tools_page() ) {
+		return true;
+	}
 
 	return false;
 }

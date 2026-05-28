@@ -3525,27 +3525,15 @@ if ($is_tehran): ?>
                         var temp = setInterval(function() {
                             if ($('#user_ip').length) {
 
-                                $.ajax({
-                                    type: 'POST',
-                                    url: "<?php echo admin_url( 'admin-ajax.php' ) ?>",
-                                    data: {
-                                        'action': 'v2_ajax_handler',
-                                        'nonce': "<?php echo wp_create_nonce( 'v2-ajax-nonce' ) ?>",
-                                        'callback': 'product_set_view',
-                                        "product_id": '<?php echo $product_id ?>',
-                                        'ip': $('#user_ip').val(),
-                                    },
-                                    beforeSend: function () {
-                                        $("#points-list").html(function () {
-                                            let out = ''
-                                            for (let i = 0; i < 10; i++) out += '<div class="w-full h-12 rounded-xl mb-2 skeleton"></div>'
-                                            return out
-                                        })
-                                    },
-                                    success: function (data) {
-                                        $("#points-list").html(data)
-                                    },
-                                });
+                                if (typeof window.applyEzAjaxBoot === 'function') {
+                                    window.applyEzAjaxBoot();
+                                }
+                                if (window.ezBookingApi?.productSetView) {
+                                    window.ezBookingApi.productSetView(
+                                        <?php echo (int) $product_id; ?>,
+                                        $('#user_ip').val()
+                                    );
+                                }
 
                                 clearInterval(temp);
                             }

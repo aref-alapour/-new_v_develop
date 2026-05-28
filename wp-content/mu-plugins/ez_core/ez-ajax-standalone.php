@@ -41,15 +41,15 @@ if ( ! defined( 'EZ_AJAX_SHARED_SECRET' ) || '' === (string) EZ_AJAX_SHARED_SECR
 	exit;
 }
 
-\EscapeZoom\Core\Core\Bootstrap::bootDataLayerOnly();
-
 $incomingAction = '';
 if ( isset( $_SERVER['HTTP_X_EZ_ACTION'] ) ) {
 	$incomingAction = (string) $_SERVER['HTTP_X_EZ_ACTION'];
 } elseif ( isset( $_GET['action'] ) && is_string( $_GET['action'] ) ) {
 	$incomingAction = $_GET['action'];
 }
-\EscapeZoom\Core\Modules\Booking\BookingGatewayActions::ensureRegistered( trim( $incomingAction ) );
+$incomingAction = trim( $incomingAction );
+\EscapeZoom\Core\Core\Bootstrap::bootMinimal( $incomingAction );
+\EscapeZoom\Core\Modules\Booking\BookingGatewayActions::ensureRegistered( $incomingAction );
 
 $GLOBALS['ez_gateway_response_headers'] = array(
 	'X-EZ-Gateway'       => 'light',
