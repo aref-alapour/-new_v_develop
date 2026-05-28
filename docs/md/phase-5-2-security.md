@@ -53,11 +53,15 @@ CRM باید از:
 
 پس از write: [BookingCacheInvalidator.php](../../wp-content/mu-plugins/ez_core/src/Modules/Booking/Services/BookingCacheInvalidator.php).
 
-## Crypto policy (سبک)
+## Crypto policy (team/panel stabilized)
 
-- Encryption فقط برای write actions فعال است.
-- read actions (`sans_day_json`, `sans_week`, `game_search`, `check_playing`) فقط با HMAC signature محافظت می‌شوند.
-- این سیاست سربار CPU مسیر read را نزدیک صفر نگه می‌دارد.
+- مسیرهای write همچنان با encryption+signature محافظت می‌شوند.
+- برای readهای حساس team/panel، response encryption به‌صورت صریح enforce شده است:
+  - `booking.sans_management_web`
+  - `booking.sans_management_data` (v2 JSON contract)
+  - `booking.check_playing`
+  - `booking.game_search`
+- `booking.sans_day_json` نیز encrypted باقی می‌ماند.
 
 ## SQLi میان‌مدت
 
@@ -79,6 +83,6 @@ cd wp-content/mu-plugins/ez_core && vendor/bin/pest --filter=PanelAjaxSecurity
 
 ## وضعیت نهایی فاز ۵.۲
 
-- read pathها (`booking.sans_day_json`, `booking.sans_week`, `booking.sans_management_web`) signature-only باقی می‌مانند.
-- write pathها (`booking.open_sans`, `booking.close_sans`, `booking.open_all_sanses`, `booking.close_all_sanses`, `booking.bulk_date_range`) با encryption policy write محافظت می‌شوند.
+- team/panel readهای حساس با policy پایدار encryption محافظت می‌شوند (drift code/docs بسته شد).
+- write pathها (`booking.open_sans`, `booking.close_sans`, `booking.open_all_sanses`, `booking.close_all_sanses`, `booking.bulk_date_range`) encrypted باقی می‌مانند.
 - fallback legacy در read رزرو حذف شده و mixed-mode در مسیرهای اصلی رزرو بسته شده است.

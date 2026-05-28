@@ -194,6 +194,48 @@ export async function sansManagementWeb(productId, dayStart) {
 }
 
 /**
+ * Versioned JSON contract for sans-management (v2).
+ *
+ * @param {number} productId
+ * @param {number} dayStart unix day start
+ * @param {string} [version]
+ * @returns {Promise<Record<string, unknown>|null>}
+ */
+export async function sansManagementData(productId, dayStart, version = 'v2') {
+  sansManagementWebController = replaceController(
+    sansManagementWebController,
+    new AbortController()
+  );
+  const controller = sansManagementWebController;
+
+  try {
+    const resp = await ezFetch(
+      'booking.sans_management_data',
+      {
+        product_id: parseInt(productId, 10),
+        day_start_time: parseInt(dayStart, 10),
+        version: String(version || 'v2'),
+      },
+      { signal: controller.signal }
+    );
+    const text = await readGatewayBodyText(resp);
+    if (!text || !text.trim()) {
+      return {};
+    }
+    return JSON.parse(text);
+  } catch (error) {
+    if (isAbortError(error)) {
+      return null;
+    }
+    throw error;
+  } finally {
+    if (sansManagementWebController === controller) {
+      sansManagementWebController = null;
+    }
+  }
+}
+
+/**
  * @param {'open'|'close'} kind
  * @param {number} productId
  * @param {number} sansTime

@@ -39,6 +39,7 @@ const READ_ENCRYPT_ACTIONS = new Set([
   'booking.sans_day',
   'booking.sans_week',
   'booking.sans_management_web',
+  'booking.sans_management_data',
   'booking.check_playing',
   'booking.game_search',
 ]);
@@ -53,6 +54,7 @@ function shouldEncryptPayload(action, boot) {
   }
   if (
     action === 'booking.sans_management_web' ||
+    action === 'booking.sans_management_data' ||
     action === 'booking.check_playing' ||
     action === 'booking.game_search'
   ) {

@@ -54,6 +54,14 @@ if ( ! defined( 'EZ_GATEWAY_ENCRYPT_READS' ) ) {
 	define( 'EZ_GATEWAY_ENCRYPT_READS', SecretsLoader::payloadEncryptReads() );
 }
 
+if ( ! defined( 'EZ_AJAX_STANDALONE_ENABLED' ) ) {
+	$standaloneEnabled = getenv( 'EZ_AJAX_STANDALONE_ENABLED' );
+	define(
+		'EZ_AJAX_STANDALONE_ENABLED',
+		false !== $standaloneEnabled && filter_var( $standaloneEnabled, FILTER_VALIDATE_BOOLEAN )
+	);
+}
+
 if ( ! defined( 'ABSPATH' ) ) {
 	define( 'ABSPATH', dirname( EZ_CORE_PATH, 3 ) . '/' );
 }

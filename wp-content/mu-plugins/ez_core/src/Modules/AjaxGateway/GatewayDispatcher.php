@@ -11,6 +11,7 @@ use EscapeZoom\Core\Modules\AjaxGateway\Crypto\PayloadCipher;
 use EscapeZoom\Core\Modules\AjaxGateway\Exception\GatewayAuthException;
 use EscapeZoom\Core\Modules\AjaxGateway\Policy\ActionClassification;
 use EscapeZoom\Core\Modules\AjaxGateway\Policy\ActionPolicy;
+use EscapeZoom\Core\Modules\Booking\BookingGatewayActions;
 use EscapeZoom\Core\Modules\Booking\SansManagementAuthorizationService;
 use EZ\Ajax\Auth\SubKey;
 
@@ -20,6 +21,9 @@ use EZ\Ajax\Auth\SubKey;
 final class GatewayDispatcher
 {
 	public static function handle( string $gatewayPath ): void {
+		$t0 = microtime( true );
+		$tAfterRate = $tAfterAuth = $tAfterCrypto = $tAfterPolicy = $tAfterOwner = 0.0;
+
 		while ( ob_get_level() > 0 ) {
 			ob_end_clean();
 		}
@@ -56,6 +60,8 @@ final class GatewayDispatcher
 			$action = self::sanitizeTextField( $headers['x-ez-action'] );
 		}
 
+		BookingGatewayActions::ensureRegistered( $action );
+
 		$kid        = $headers['x-ez-kid'] ?? 'v1';
 		$clientId   = $headers['x-ez-client-id'] ?? '';
 		$clientKind = $headers['x-ez-client-kind'] ?? 'web-anon';
@@ -78,6 +84,7 @@ final class GatewayDispatcher
 				array( 'Retry-After' => (string) $rate['retry_after'] )
 			);
 		}
+		$tAfterRate = microtime( true );
 
 		$verifyErr = SignatureVerifier::verify( 'POST', $gatewayPath, $action, $body, $headers );
 		if ( null !== $verifyErr ) {
@@ -88,6 +95,7 @@ final class GatewayDispatcher
 		if ( ! NonceStore::consume( $clientId, $nonce ) ) {
 			GatewayResponse::json( false, array(), array( 'code' => 'REPLAY', 'message' => 'Nonce already used' ), 401 );
 		}
+		$tAfterAuth = microtime( true );
 
 		if ( PayloadCipher::encryptionRequiredFor( $action ) ) {
 			if ( ! PayloadCipher::isEnvelope( $body ) ) {
@@ -109,6 +117,7 @@ final class GatewayDispatcher
 				GatewayResponse::json( false, array(), array( 'code' => 'BAD_PAYLOAD', 'message' => 'Decrypt failed' ), 400 );
 			}
 		}
+		$tAfterCrypto = microtime( true );
 
 		$policyErr = ActionPolicy::authorize( $action, $clientKind );
 		if ( null !== $policyErr ) {
@@ -119,6 +128,7 @@ final class GatewayDispatcher
 				403
 			);
 		}
+		$tAfterPolicy = microtime( true );
 
 		if ( ActionClassification::requiresSansPanelAuth( $action ) ) {
 			try {
@@ -137,12 +147,22 @@ final class GatewayDispatcher
 				);
 			}
 		}
+		$tAfterOwner = microtime( true );
 
 		$GLOBALS['ez_gateway_crypto'] = array(
 			'action'     => $action,
 			'sub_secret' => $subSecret,
 		);
 		GatewayResponse::setCryptoContext( $action, $subSecret );
+
+		if ( ! headers_sent() ) {
+			header( 'X-EZ-Gateway-Phase-Rate-Ms: ' . (string) (int) round( ( $tAfterRate - $t0 ) * 1000 ) );
+			header( 'X-EZ-Gateway-Phase-Auth-Ms: ' . (string) (int) round( ( $tAfterAuth - $tAfterRate ) * 1000 ) );
+			header( 'X-EZ-Gateway-Phase-Crypto-Ms: ' . (string) (int) round( ( $tAfterCrypto - $tAfterAuth ) * 1000 ) );
+			header( 'X-EZ-Gateway-Phase-Policy-Ms: ' . (string) (int) round( ( $tAfterPolicy - $tAfterCrypto ) * 1000 ) );
+			header( 'X-EZ-Gateway-Phase-Owner-Ms: ' . (string) (int) round( ( $tAfterOwner - $tAfterPolicy ) * 1000 ) );
+			header( 'X-EZ-Gateway-PreDispatch-Ms: ' . (string) (int) round( ( $tAfterOwner - $t0 ) * 1000 ) );
+		}
 
 		ob_start();
 		ActionRegistry::dispatch( $action, $payload );
@@ -154,6 +174,7 @@ final class GatewayDispatcher
 				. substr( preg_replace( '/\s+/', ' ', $stray ), 0, 200 )
 			);
 		}
+
 	}
 
 	/**

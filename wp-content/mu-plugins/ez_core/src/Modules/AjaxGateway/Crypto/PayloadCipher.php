@@ -95,6 +95,7 @@ final class PayloadCipher
 				array(
 					'booking.sans_day_json',
 					'booking.sans_management_web',
+					'booking.sans_management_data',
 					'booking.check_playing',
 					'booking.game_search',
 				),

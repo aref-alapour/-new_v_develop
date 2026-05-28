@@ -18,18 +18,43 @@ use EscapeZoom\Core\Modules\Booking\Services\Team\TeamSansWriteService;
  */
 final class BookingGatewayActions
 {
+	/** @var array<string, callable> */
+	private const ACTION_HANDLERS = array(
+		'booking.sans_day'           => array( self::class, 'sansDay' ),
+		'booking.sans_day_json'      => array( self::class, 'sansDayJson' ),
+		'booking.sans_week'          => array( self::class, 'sansWeek' ),
+		'booking.sans_management_web'=> array( self::class, 'sansManagementWeb' ),
+		'booking.sans_management_data'=> array( self::class, 'sansManagementData' ),
+		'booking.open_sans'          => array( self::class, 'openSans' ),
+		'booking.close_sans'         => array( self::class, 'closeSans' ),
+		'booking.open_all_sanses'    => array( self::class, 'openAllSanses' ),
+		'booking.close_all_sanses'   => array( self::class, 'closeAllSanses' ),
+		'booking.check_playing'      => array( self::class, 'checkPlaying' ),
+		'booking.game_search'        => array( self::class, 'gameSearch' ),
+		'booking.bulk_date_range'    => array( self::class, 'bulkDateRange' ),
+	);
+
+	/** @var array<string, true> */
+	private static array $registered = array();
+
 	public static function register(): void {
-		ActionRegistry::register( 'booking.sans_day', array( self::class, 'sansDay' ) );
-		ActionRegistry::register( 'booking.sans_day_json', array( self::class, 'sansDayJson' ) );
-		ActionRegistry::register( 'booking.sans_week', array( self::class, 'sansWeek' ) );
-		ActionRegistry::register( 'booking.sans_management_web', array( self::class, 'sansManagementWeb' ) );
-		ActionRegistry::register( 'booking.open_sans', array( self::class, 'openSans' ) );
-		ActionRegistry::register( 'booking.close_sans', array( self::class, 'closeSans' ) );
-		ActionRegistry::register( 'booking.open_all_sanses', array( self::class, 'openAllSanses' ) );
-		ActionRegistry::register( 'booking.close_all_sanses', array( self::class, 'closeAllSanses' ) );
-		ActionRegistry::register( 'booking.check_playing', array( self::class, 'checkPlaying' ) );
-		ActionRegistry::register( 'booking.game_search', array( self::class, 'gameSearch' ) );
-		ActionRegistry::register( 'booking.bulk_date_range', array( self::class, 'bulkDateRange' ) );
+		foreach ( array_keys( self::ACTION_HANDLERS ) as $action ) {
+			self::registerAction( $action );
+		}
+	}
+
+	public static function ensureRegistered( string $action ): void {
+		if ( isset( self::ACTION_HANDLERS[ $action ] ) ) {
+			self::registerAction( $action );
+		}
+	}
+
+	private static function registerAction( string $action ): void {
+		if ( isset( self::$registered[ $action ] ) || ! isset( self::ACTION_HANDLERS[ $action ] ) ) {
+			return;
+		}
+		ActionRegistry::register( $action, self::ACTION_HANDLERS[ $action ] );
+		self::$registered[ $action ] = true;
 	}
 
 	/**
@@ -160,6 +185,35 @@ final class BookingGatewayActions
 
 		self::emitTelemetry( $startedAt );
 		GatewayResponse::html( $html );
+	}
+
+	/**
+	 * Versioned JSON contract for sans-management (lighter payload).
+	 *
+	 * @param array<string,mixed> $body
+	 */
+	public static function sansManagementData( array $body ): void {
+		$startedAt = microtime( true );
+		$productId    = isset( $body['product_id'] ) ? (int) $body['product_id'] : 0;
+		$dayStartTime = isset( $body['day_start_time'] ) ? (int) $body['day_start_time'] : 0;
+		$version      = isset( $body['version'] ) ? (string) $body['version'] : 'v1';
+
+		if ( $productId <= 0 || $dayStartTime <= 0 ) {
+			GatewayResponse::json( false, array(), array( 'code' => 'VALIDATION', 'message' => 'Invalid product or day' ), 400 );
+		}
+
+		try {
+			$data = SansManagementWebHtmlService::getData( $productId, $dayStartTime );
+		} catch ( \Throwable $e ) {
+			GatewayResponse::json( false, array(), array( 'code' => 'SERVER', 'message' => $e->getMessage() ), 500 );
+		}
+
+		self::syncResponseCrypto();
+		if ( ! headers_sent() ) {
+			header( 'X-EZ-Booking-Elapsed-Ms: ' . (string) (int) round( ( microtime( true ) - $startedAt ) * 1000 ) );
+			header( 'X-EZ-Contract-Version: ' . $version );
+		}
+		GatewayResponse::raw( wp_json_encode( $data, JSON_UNESCAPED_UNICODE ) ?: '{}' );
 	}
 
 	/**
