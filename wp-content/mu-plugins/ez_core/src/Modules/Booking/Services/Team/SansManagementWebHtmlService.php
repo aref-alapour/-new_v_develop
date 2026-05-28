@@ -15,22 +15,19 @@ final class SansManagementWebHtmlService
 {
 	private const LOCK_TTL_SECONDS = 300;
 
-	public static function render( int $productId, int $dayStartTime ): string {
+	/**
+	 * @return array<string, mixed>
+	 */
+	public static function getData( int $productId, int $dayStartTime ): array {
 		if ( ! CapsuleManager::hasExternalConnection() ) {
 			throw new \RuntimeException( 'External DB unavailable' );
-		}
-
-		$cacheKey = "ez_sans_mgmt_html_{$productId}_{$dayStartTime}";
-		$cached   = function_exists( 'wp_cache_get' ) ? wp_cache_get( $cacheKey, 'ez_booking' ) : false;
-		if ( is_string( $cached ) ) {
-			return $cached;
 		}
 
 		self::ensureMojavezedarHelpers();
 
 		$product = TeamSansBridge::getProductRow( $productId );
 		if ( null === $product ) {
-			return '';
+			return array();
 		}
 
 		$dayType     = TeamSansBridge::getDayType( $dayStartTime );
@@ -41,8 +38,13 @@ final class SansManagementWebHtmlService
 
 		$tsList = array_column( $daySlots, 'ts' );
 		$orders = array();
+		$activeLocks = array();
+
 		if ( ! empty( $tsList ) ) {
-			$rows = BookingHistory::query()
+			// Optimization: Fetch both bookings and locks.
+			// While Eloquent doesn't easily support multi-database UNIONs across connections,
+			// we ensure both use high-performance indexed queries.
+			$bookingRows = BookingHistory::query()
 				->where( 'room_id', $productId )
 				->whereIn( 'booking_time', $tsList )
 				->whereIn( 'status', array( 1, 2 ) )
@@ -60,7 +62,7 @@ final class SansManagementWebHtmlService
 					)
 				);
 
-			foreach ( $rows as $row ) {
+			foreach ( $bookingRows as $row ) {
 				$bookingTime = (int) ( $row->booking_time ?? 0 );
 				if ( $bookingTime <= 0 ) {
 					continue;
@@ -70,9 +72,10 @@ final class SansManagementWebHtmlService
 				$current   = $orders[ $key ] ?? null;
 				$orders[ $key ] = self::resolveEffectiveSlotRow( is_array( $current ) ? $current : null, $candidate );
 			}
-		}
 
-		$activeLocks = self::activeLockTimes( $productId, $tsList );
+			// Locks query is already limited to tsList in activeLockTimes().
+			$activeLocks = self::activeLockTimes( $productId, $tsList );
+		}
 
 		$reservationData = array();
 		foreach ( $daySlots as $slot ) {
@@ -99,12 +102,22 @@ final class SansManagementWebHtmlService
 
 			$reservationData[] = array(
 				'time'          => $firstTimeTs,
+				'time_lbl'      => TeamSansBridge::formatJalaliTime( $firstTimeTs ),
 				'status'        => $status,
 				'reserved_data' => $reserved,
 			);
 		}
 
 		$mojMap = self::buildMojavezedarMap( $reservationData );
+		foreach ( $reservationData as &$row ) {
+			if ( 'reserved' === $row['status'] && isset( $row['reserved_data']['customer_id'] ) ) {
+				$cid = (int) $row['reserved_data']['customer_id'];
+				$row['reserved_data']['is_mojavezedar'] = ! empty( $mojMap[ $cid ] );
+				$theme = self::resolveTheme( $row['reserved_data'], $row['reserved_data']['is_mojavezedar'] );
+				$row['reserved_data']['level_title'] = $theme['text'];
+				$row['reserved_data']['level_color'] = $theme['color'];
+			}
+		}
 
 		$totalChangeable = 0;
 		$totalClosed     = 0;
@@ -117,12 +130,32 @@ final class SansManagementWebHtmlService
 			}
 		}
 
-		$isAllClosed  = $totalChangeable > 0 && $totalChangeable === $totalClosed;
+		return array(
+			'product_id'        => $productId,
+			'day_start_time'    => $dayStartTime,
+			'is_all_closed'     => $totalChangeable > 0 && $totalChangeable === $totalClosed,
+			'reservation_data'  => $reservationData,
+		);
+	}
+
+	public static function render( int $productId, int $dayStartTime ): string {
+		$cacheKey = "ez_sans_mgmt_html_{$productId}_{$dayStartTime}";
+		$cached   = function_exists( 'wp_cache_get' ) ? wp_cache_get( $cacheKey, 'ez_booking' ) : false;
+		if ( is_string( $cached ) ) {
+			return $cached;
+		}
+
+		$data = self::getData( $productId, $dayStartTime );
+		if ( empty( $data ) ) {
+			return '';
+		}
+
+		$isAllClosed  = $data['is_all_closed'];
 		$closeChecked = $isAllClosed ? 'checked' : '';
 		$openChecked  = ! $isAllClosed ? 'checked' : '';
 
 		$html  = self::renderBulkRadioTemplate( $isAllClosed, $openChecked, $closeChecked );
-		$html .= self::renderSlots( $reservationData, $productId, $dayStartTime, $mojMap );
+		$html .= self::renderSlots( $data['reservation_data'], $productId, $dayStartTime );
 
 		if ( function_exists( 'wp_cache_set' ) && '' !== $html ) {
 			wp_cache_set( $cacheKey, $html, 'ez_booking', 3600 );
@@ -172,21 +205,23 @@ final class SansManagementWebHtmlService
 
 	/**
 	 * @param list<array{time: int, status: string, reserved_data: array<string, mixed>|null}> $reservationData
-	 * @param array<int, bool> $mojMap
 	 */
-	private static function renderSlots( array $reservationData, int $productId, int $dayStartTime, array $mojMap ): string {
+	private static function renderSlots( array $reservationData, int $productId, int $dayStartTime ): string {
 		$html = '';
 
 		foreach ( $reservationData as $data ) {
 			$time   = (int) $data['time'];
 			$status = (string) $data['status'];
-			$timeLbl = esc_html( TeamSansBridge::formatJalaliTime( $time ) );
+			$timeLbl = esc_html( $data['time_lbl'] ?? TeamSansBridge::formatJalaliTime( $time ) );
 
 			if ( 'reserved' === $status && is_array( $data['reserved_data'] ) ) {
 				$rd          = $data['reserved_data'];
 				$ezSansCid   = (int) ( $rd['customer_id'] ?? 0 );
-				$ezSansMoj   = $ezSansCid > 0 && ! empty( $mojMap[ $ezSansCid ] );
-				$theme       = self::resolveTheme( $rd, $ezSansMoj );
+				$ezSansMoj   = ! empty( $rd['is_mojavezedar'] );
+				$theme       = array(
+					'text'  => $rd['level_title'] ?? '',
+					'color' => $rd['level_color'] ?? '',
+				);
 				$userInfoJson = wp_json_encode(
 					array(
 						'customer_id' => $rd['customer_id'] ?? 0,
@@ -288,8 +323,8 @@ final class SansManagementWebHtmlService
 		}
 
 		$repo  = new EloquentBookingLockRepository();
-		$locks = $repo->forProductTimes( $productId, $tsList );
 		$now   = time();
+		$locks = $repo->forProductTimesActive( $productId, $tsList, $now - self::LOCK_TTL_SECONDS );
 		$out   = array();
 		$tsSet = array_fill_keys( array_map( 'intval', $tsList ), true );
 
@@ -299,10 +334,7 @@ final class SansManagementWebHtmlService
 				continue;
 			}
 
-			$lockTime = (int) ( $lock->lock_time ?? 0 );
-			if ( $lockTime > 0 && $now < $lockTime + self::LOCK_TTL_SECONDS ) {
-				$out[ $bookingTime ] = true;
-			}
+			$out[ $bookingTime ] = true;
 		}
 
 		return $out;
@@ -401,8 +433,8 @@ final class SansManagementWebHtmlService
 			return $out;
 		}
 
-		global $wpdb;
-		if ( ! isset( $wpdb ) || ! is_object( $wpdb ) || ! isset( $wpdb->users, $wpdb->usermeta, $wpdb->postmeta, $wpdb->posts, $wpdb->prefix ) ) {
+		$conn = CapsuleManager::connection( 'wordpress' );
+		if ( ! $conn ) {
 			foreach ( $toFetch as $uid ) {
 				$out[ $uid ] = false;
 			}
@@ -410,24 +442,23 @@ final class SansManagementWebHtmlService
 			return $out;
 		}
 
-		$idsSql   = implode( ',', array_map( 'intval', $toFetch ) );
-		$capKey   = $wpdb->prefix . 'capabilities';
-		$capRows  = $wpdb->get_results(
-			$wpdb->prepare(
-				"SELECT user_id, meta_value FROM {$wpdb->usermeta} WHERE meta_key = %s AND user_id IN ({$idsSql})",
-				$capKey
-			),
-			ARRAY_A
-		);
-		if ( ! is_array( $capRows ) || array() === $capRows ) {
+		$prefix = SecretsLoader::tablePrefix();
+		$capKey = $prefix . 'capabilities';
+
+		$capRows = $conn->table( 'usermeta' )
+			->where( 'meta_key', $capKey )
+			->whereIn( 'user_id', $toFetch )
+			->get( array( 'user_id', 'meta_value' ) );
+
+		if ( $capRows->isEmpty() ) {
 			return $out;
 		}
 
 		$compilers = array();
 		foreach ( $capRows as $row ) {
-			$caps = isset( $row['meta_value'] ) ? @unserialize( (string) $row['meta_value'] ) : array();
+			$caps = isset( $row->meta_value ) ? @unserialize( (string) $row->meta_value ) : array();
 			if ( is_array( $caps ) && ! empty( $caps['compiler'] ) ) {
-				$compilers[] = (int) ( $row['user_id'] ?? 0 );
+				$compilers[] = (int) ( $row->user_id ?? 0 );
 			}
 		}
 		$compilers = array_values( array_unique( array_filter( $compilers ) ) );
@@ -435,18 +466,22 @@ final class SansManagementWebHtmlService
 			return $out;
 		}
 
-		$compilersSql = "'" . implode( "','", array_map( 'esc_sql', array_map( 'strval', $compilers ) ) ) . "'";
-		$collectionRows = $wpdb->get_col(
-			"SELECT DISTINCT pm_e.meta_value AS uid
-			FROM {$wpdb->postmeta} pm_e
-			INNER JOIN {$wpdb->posts} p ON p.ID = pm_e.post_id AND p.post_type = 'product'
-			INNER JOIN {$wpdb->postmeta} pm_s ON pm_s.post_id = p.ID
-				AND pm_s.meta_key = 'product_state'
-				AND pm_s.meta_value IN ('active','updated')
-			WHERE pm_e.meta_key = 'user_ebtal'
-				AND pm_e.meta_value IN ({$compilersSql})"
-		);
-		$withCollection = array_map( 'intval', is_array( $collectionRows ) ? $collectionRows : array() );
+		$collectionRows = $conn->table( 'postmeta as pm_e' )
+			->join( 'posts as p', function ( $join ) {
+				$join->on( 'p.ID', '=', 'pm_e.post_id' )
+					->where( 'p.post_type', '=', 'product' );
+			} )
+			->join( 'postmeta as pm_s', function ( $join ) {
+				$join->on( 'pm_s.post_id', '=', 'p.ID' )
+					->where( 'pm_s.meta_key', '=', 'product_state' )
+					->whereIn( 'pm_s.meta_value', array( 'active', 'updated' ) );
+			} )
+			->where( 'pm_e.meta_key', 'user_ebtal' )
+			->whereIn( 'pm_e.meta_value', array_map( 'strval', $compilers ) )
+			->distinct()
+			->pluck( 'pm_e.meta_value' );
+
+		$withCollection = array_map( 'intval', $collectionRows->all() );
 
 		foreach ( $toFetch as $uid ) {
 			$isMoj = in_array( $uid, $compilers, true ) && in_array( $uid, $withCollection, true );

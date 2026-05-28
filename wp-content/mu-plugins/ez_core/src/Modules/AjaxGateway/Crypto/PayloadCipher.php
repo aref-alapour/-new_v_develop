@@ -88,13 +88,24 @@ final class PayloadCipher
 
 	/** Whether request/response wire bodies for this action use AES-GCM envelopes. */
 	public static function shouldEncryptResponse( string $action ): bool {
-		if ( ActionClassification::isReadHtml( $action ) ) {
-			return SecretsLoader::payloadEncryptReads();
+		// Force encryption for sensitive team actions.
+		if (
+			in_array(
+				$action,
+				array(
+					'booking.sans_day_json',
+					'booking.sans_management_web',
+					'booking.check_playing',
+					'booking.game_search',
+				),
+				true
+			)
+		) {
+			return true;
 		}
 
-		// Force encryption for single-product day JSON path.
-		if ( 'booking.sans_day_json' === $action ) {
-			return true;
+		if ( ActionClassification::isReadHtml( $action ) ) {
+			return SecretsLoader::payloadEncryptReads();
 		}
 
 		if ( ActionClassification::isWrite( $action ) ) {
