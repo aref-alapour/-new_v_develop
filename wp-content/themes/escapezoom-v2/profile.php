@@ -586,7 +586,7 @@ get_header(); ?>
                 if (value !== '') {
                     $("#search-result").addClass('flex').removeClass('hidden')
                     $.ajax({
-                        url: "<?php echo site_url('web-service/queryable.php') ?>",
+                        url: "<?php echo admin_url("admin-ajax.php?action=v2_ajax_handler&callback=queryable_search") ?>",
                         type: "POST",
                         data: {
                             "source": "invitation",

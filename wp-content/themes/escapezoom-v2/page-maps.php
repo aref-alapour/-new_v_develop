@@ -202,7 +202,7 @@
             let eastLine = map.getBounds().getEast(); // East Line
             $.ajax({
                 type: 'POST',
-                url: 'https://' + location.hostname + '/web-service/web-service.php',
+                url: '"/wp-admin/admin-ajax.php?action=v2_ajax_handler"',
                 data: {
                     "type": "sort_products_get",
                     "data": {

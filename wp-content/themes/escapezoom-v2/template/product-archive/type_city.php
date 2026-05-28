@@ -3290,9 +3290,9 @@ if (!empty($faqs) && is_array($faqs)) : ?>
     });
     jQuery(document).ready(function($) {
 
-        let baseUrlWebService = 'https://' + location.hostname + '/web-service/web-service.php'
+        let baseUrlWebService = '"/wp-admin/admin-ajax.php?action=v2_ajax_handler"'
         if (location.hostname === 'localhost' || location.hostname === 'dev.escapezoom.local') {
-            baseUrlWebService = 'http://' + location.hostname + '/web-service/web-service.php'
+            baseUrlWebService = '"/wp-admin/admin-ajax.php?action=v2_ajax_handler"'
         }
 
         $('.adv-banner').on('click', function() {

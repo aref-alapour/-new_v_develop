@@ -382,11 +382,11 @@ shuffle($cinema_ids);
 
         // آدرس وب‌سرویس
 
-        let baseUrlWebService = 'https://' + location.hostname + '/web-service/web-service.php';
+        let baseUrlWebService = '"/wp-admin/admin-ajax.php?action=v2_ajax_handler"';
 
         if (location.hostname === 'dev.escapezoom.local') {
 
-            baseUrlWebService = 'http://' + location.hostname + '/web-service/web-service.php';
+            baseUrlWebService = '"/wp-admin/admin-ajax.php?action=v2_ajax_handler"';
 
         }
 

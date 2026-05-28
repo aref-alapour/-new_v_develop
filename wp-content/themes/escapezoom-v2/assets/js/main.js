@@ -698,11 +698,11 @@ jQuery(document).ready(function ($) {
             $("#city-overlay").fadeOut();
         });
     });
-    let baseUrlQuery = 'https://' + location.hostname + '/web-service/queryable.php';
-    let baseUrlWebService = 'https://' + location.hostname + '/web-service/web-service.php'
+    let baseUrlQuery = '"/wp-admin/admin-ajax.php?action=v2_ajax_handler&callback=queryable_search"';
+    let baseUrlWebService = '"/wp-admin/admin-ajax.php?action=v2_ajax_handler"'
     if (location.hostname === 'localhost') {
-        baseUrlQuery = 'http://' + location.hostname + '/escapezoom_wp/web-service/queryable.php';
-        baseUrlWebService = 'http://' + location.hostname + '/escapezoom_wp/web-service/web-service.php'
+        baseUrlQuery = '"/wp-admin/admin-ajax.php?action=v2_ajax_handler&callback=queryable_search"';
+        baseUrlWebService = '"/wp-admin/admin-ajax.php?action=v2_ajax_handler"'
     }
     $('body').on('click', '.mobile-hover', function () {
         let parent = $(this).parent()
