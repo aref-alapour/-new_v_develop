@@ -27,9 +27,9 @@ list($dayAfterTomorrowStart, $dayAfterTomorrowEnd) = getStartAndEndTimestamps($d
     ?>
     <script>
         jQuery(document).ready(function($) {
-            let baseUrlWebService = 'https://' + location.hostname + '/web-service/web-service.php'
+            let baseUrlWebService = '"/wp-admin/admin-ajax.php?action=v2_ajax_handler"'
             if (location.hostname === 'localhost') {
-                baseUrlWebService = 'http://' + location.hostname + '/escapezoom_wp/web-service/web-service.php'
+                baseUrlWebService = '"/wp-admin/admin-ajax.php?action=v2_ajax_handler"'
             }
             $('#product-container').empty()
             $.ajax({
@@ -455,9 +455,9 @@ list($dayAfterTomorrowStart, $dayAfterTomorrowEnd) = getStartAndEndTimestamps($d
     <div id="product-container"></div>
 </div>
 <script>
-    let baseUrlWebService = 'https://' + location.hostname + '/web-service/web-service.php'
+    let baseUrlWebService = '"/wp-admin/admin-ajax.php?action=v2_ajax_handler"'
     if (location.hostname === 'localhost') {
-        baseUrlWebService = 'http://' + location.hostname + '/escapezoom_wp/web-service/web-service.php'
+        baseUrlWebService = '"/wp-admin/admin-ajax.php?action=v2_ajax_handler"'
     }
     // price filter range
     function roundToNearestThousand(num) {
