@@ -393,24 +393,16 @@
 
             $('#lg-search-result-list').show().html('<p class="text-center text-slate-500 py-3 text-sm">در حال جستجو…</p>');
             commentsGameSearchTimer = setTimeout(function () {
-                const body = new URLSearchParams();
-                body.set('action', 'ez_team_sans_game_search');
-                body.set('nonce', "<?php echo wp_create_nonce('team-ajax-nonce') ?>");
-                body.set('term', term);
-
-                fetch("<?php echo esc_url( admin_url( 'admin-ajax.php' ) ); ?>", {
-                    method: 'POST',
-                    credentials: 'same-origin',
-                    headers: { 'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8' },
-                    body: body.toString(),
-                })
-                    .then(function (resp) { return resp.json(); })
-                    .then(function (payload) {
-                        if (!payload || !payload.success) {
-                            throw new Error('game search failed');
-                        }
-                        const html = payload.data && payload.data.html != null ? payload.data.html : '';
-                        if ('' === String(html).trim()) {
+                if (typeof window.applyEzAjaxBoot === 'function') {
+                    window.applyEzAjaxBoot();
+                }
+                if (!window.__EZ_BOOT__?.sub_secret || !window.ezBookingApi?.gameSearchHtml) {
+                    $('#lg-search-result-list').show().html('<p class="text-center text-red-500 py-3 text-sm">پیکربندی رزرو در دسترس نیست.</p>');
+                    return;
+                }
+                window.ezBookingApi.gameSearchHtml(term)
+                    .then(function (html) {
+                        if ('' === String(html || '').trim()) {
                             $('#lg-search-result-list').show().html('<p class="text-center text-slate-500 py-3 text-sm">نتیجه‌ای یافت نشد.</p>');
                             return;
                         }

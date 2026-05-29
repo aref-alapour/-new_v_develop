@@ -54,6 +54,14 @@ if ( ! defined( 'EZ_GATEWAY_ENCRYPT_READS' ) ) {
 	define( 'EZ_GATEWAY_ENCRYPT_READS', SecretsLoader::payloadEncryptReads() );
 }
 
+if ( ! defined( 'EZ_AJAX_STANDALONE_ENABLED' ) ) {
+	$standaloneEnabled = getenv( 'EZ_AJAX_STANDALONE_ENABLED' );
+	define(
+		'EZ_AJAX_STANDALONE_ENABLED',
+		false !== $standaloneEnabled && filter_var( $standaloneEnabled, FILTER_VALIDATE_BOOLEAN )
+	);
+}
+
 if ( ! defined( 'ABSPATH' ) ) {
 	define( 'ABSPATH', dirname( EZ_CORE_PATH, 3 ) . '/' );
 }
@@ -68,6 +76,14 @@ if ( ! defined( 'DB_CHARSET' ) ) {
 
 if ( ! defined( 'DB_COLLATE' ) ) {
 	define( 'DB_COLLATE', '' );
+}
+
+if ( ! defined( 'EZ_MEDOO_CRM_DATABASE' ) ) {
+	$crmDb = getenv( 'EZ_MEDOO_CRM_DATABASE' );
+	if ( false === $crmDb || '' === $crmDb ) {
+		$crmDb = 'escapezo_ez9920';
+	}
+	define( 'EZ_MEDOO_CRM_DATABASE', (string) $crmDb );
 }
 
 if ( ! defined( 'WP_DEBUG' ) ) {

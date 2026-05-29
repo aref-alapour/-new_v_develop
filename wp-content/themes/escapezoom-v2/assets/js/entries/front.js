@@ -2,10 +2,12 @@ import htmx from 'htmx.org';
 import Alpine from 'alpinejs';
 import { wireHtmx, ezFetch } from '../lib/ez-ajax.js';
 import * as ezBookingApi from '../lib/ez-booking-api.js';
+import * as ezSansManagementRender from '../lib/ez-sans-management-render.js';
 import {
   ezBookingSansManagementHtml,
   ezBookingToggleSans,
 } from '../lib/ez-booking-client.js';
+import { renderSansManagementGrid } from '../lib/ez-sans-management-render.js';
 import { ensureBookingGatewayPagesInit } from '../lib/ez-booking-pages.js';
 
 export function applyEzAjaxBoot() {
@@ -33,6 +35,8 @@ if (typeof window !== 'undefined') {
     ezBookingSansManagementHtml,
     ezBookingToggleSans,
   };
+  window.ezSansManagementRender = { renderSansManagementGrid };
+  window.ezSansManagementRender = ezSansManagementRender;
   window.ensureBookingGatewayPagesInit = ensureBookingGatewayPagesInit;
   wireHtmx();
   Alpine.start();

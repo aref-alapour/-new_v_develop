@@ -53,11 +53,54 @@ final class CapsuleManager
 			);
 		}
 
+		$crmConfig = self::resolveCrmConfig();
+		if ( null !== $crmConfig ) {
+			self::$capsule->addConnection( self::buildConnectionArray( $crmConfig, $charset, $collation, '' ), 'crm' );
+		}
+
 		self::$capsule->setEventDispatcher( new Dispatcher( new Container() ) );
 		self::$capsule->setAsGlobal();
 		self::$capsule->bootEloquent();
 
 		self::$booted = true;
+	}
+
+	/**
+	 * Product view tracking: WordPress meta + CRM tables only (no external booking DB).
+	 */
+	public static function bootProductViewOnly(): void {
+		if ( self::$booted ) {
+			return;
+		}
+
+		$wpConfig = self::resolveWordpressConfig();
+		if ( null === $wpConfig ) {
+			return;
+		}
+
+		$charset   = defined( 'DB_CHARSET' ) ? DB_CHARSET : 'utf8mb4';
+		$collation = defined( 'DB_COLLATE' ) && DB_COLLATE ? DB_COLLATE : 'utf8mb4_unicode_ci';
+
+		self::$capsule = new Capsule();
+		self::$capsule->addConnection(
+			self::buildConnectionArray( $wpConfig, $charset, $collation, $wpConfig['table_prefix'] ),
+			'wordpress'
+		);
+
+		$crmConfig = self::resolveCrmConfig();
+		if ( null !== $crmConfig ) {
+			self::$capsule->addConnection( self::buildConnectionArray( $crmConfig, $charset, $collation, '' ), 'crm' );
+		}
+
+		self::$capsule->setEventDispatcher( new Dispatcher( new Container() ) );
+		self::$capsule->setAsGlobal();
+		self::$capsule->bootEloquent();
+
+		self::$booted = true;
+	}
+
+	public static function hasCrmConnection(): bool {
+		return null !== self::resolveCrmConfig();
 	}
 
 	/**
@@ -146,7 +189,11 @@ final class CapsuleManager
 
 	public static function connection( ?string $name = null ): Connection {
 		if ( ! self::$booted ) {
-			self::boot();
+			if ( defined( 'EZ_AJAX_LIGHT_GATEWAY' ) && EZ_AJAX_LIGHT_GATEWAY ) {
+				self::bootLightGateway();
+			} else {
+				self::boot();
+			}
 		}
 
 		if ( null === self::$capsule ) {
@@ -161,14 +208,10 @@ final class CapsuleManager
 	}
 
 	public static function hasExternalConnection(): bool {
-		return self::connectionPing( 'external' );
-	}
+		if ( null === self::resolveExternalConfig() ) {
+			return false;
+		}
 
-	public static function hasWordpressConnection(): bool {
-		return self::connectionPing( 'wordpress' );
-	}
-
-	private static function connectionPing( string $name ): bool {
 		if ( ! self::$booted ) {
 			if ( defined( 'EZ_AJAX_LIGHT_GATEWAY' ) && EZ_AJAX_LIGHT_GATEWAY ) {
 				self::bootLightGateway();
@@ -176,12 +219,39 @@ final class CapsuleManager
 				self::boot();
 			}
 		}
+
 		if ( null === self::$capsule ) {
 			return false;
 		}
 
 		try {
-			self::$capsule->getConnection( $name )->getPdo();
+			self::$capsule->getConnection( 'external' );
+
+			return true;
+		} catch ( \Throwable $e ) {
+			return false;
+		}
+	}
+
+	public static function hasWordpressConnection(): bool {
+		if ( null === self::resolveWordpressConfig() ) {
+			return false;
+		}
+
+		if ( ! self::$booted ) {
+			if ( defined( 'EZ_AJAX_LIGHT_GATEWAY' ) && EZ_AJAX_LIGHT_GATEWAY ) {
+				self::bootLightGateway();
+			} else {
+				self::boot();
+			}
+		}
+
+		if ( null === self::$capsule ) {
+			return false;
+		}
+
+		try {
+			self::$capsule->getConnection( 'wordpress' );
 
 			return true;
 		} catch ( \Throwable $e ) {
@@ -245,6 +315,37 @@ final class CapsuleManager
 	 *
 	 * @return array{host: string, database: string, username: string, password: string, table_prefix: string, port?: int, unix_socket?: string}|null
 	 */
+	/**
+	 * CRM DB (ip_checker, product_views) — same credentials as WP, separate database name.
+	 *
+	 * @return array{host: string, database: string, username: string, password: string, port?: int, unix_socket?: string}|null
+	 */
+	private static function resolveCrmConfig(): ?array {
+		$wp = self::resolveWordpressConfig();
+		if ( null === $wp ) {
+			return null;
+		}
+
+		$database = '';
+		if ( defined( 'EZ_MEDOO_CRM_DATABASE' ) && '' !== (string) EZ_MEDOO_CRM_DATABASE ) {
+			$database = (string) EZ_MEDOO_CRM_DATABASE;
+		} else {
+			$env = getenv( 'EZ_MEDOO_CRM_DATABASE' );
+			if ( is_string( $env ) && '' !== $env ) {
+				$database = $env;
+			}
+		}
+
+		if ( '' === $database ) {
+			return null;
+		}
+
+		$parsed             = self::applyHostParse( $wp );
+		$parsed['database'] = $database;
+
+		return $parsed;
+	}
+
 	private static function resolveWordpressConfig(): ?array {
 		$raw = SecretsLoader::wordpressDatabase();
 

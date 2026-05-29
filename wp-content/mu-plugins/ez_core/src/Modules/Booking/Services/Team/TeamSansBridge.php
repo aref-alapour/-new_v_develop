@@ -216,7 +216,8 @@ final class TeamSansBridge
 			$now        = time();
 			$processed  = 0;
 
-			$currentDay = $startTs;
+			$allSlotTimes = array();
+			$currentDay   = $startTs;
 			while ( $currentDay <= $endTs ) {
 				$dayType = self::getDayType( $currentDay );
 				if ( ! isset( $sansesData[ $dayType ] ) || ! is_array( $sansesData[ $dayType ] ) ) {
@@ -224,53 +225,70 @@ final class TeamSansBridge
 					continue;
 				}
 
-				$scheduleKey = $dayType;
-				$daySlots    = self::buildDaySlots( $currentDay, $scheduleKey, $sansesData[ $dayType ] );
-
+				$daySlots = self::buildDaySlots( $currentDay, $dayType, $sansesData[ $dayType ] );
 				foreach ( $daySlots as $slot ) {
-					$sansTimeTs = (int) $slot['ts'];
-
-					if ( 'close' === $action ) {
-						$alreadyManaged = BookingHistory::query()
-							->where( 'room_id', $productId )
-							->where( 'booking_time', $sansTimeTs )
-							->whereIn( 'status', array( 1, 2 ) )
-							->exists();
-						if ( $alreadyManaged ) {
-							continue;
-						}
-
-						BookingHistory::query()
-							->where( 'room_id', $productId )
-							->where( 'booking_time', $sansTimeTs )
-							->where( 'status', 2 )
-							->delete();
-
-						BookingHistory::query()->insert(
-							array(
-								'customer_id'  => $userId,
-								'wc_order_id'  => null,
-								'status'       => 2,
-								'room_id'      => $productId,
-								'booking_time' => $sansTimeTs,
-								'booked_time'  => $now,
-								'name'         => null,
-								'phone'        => null,
-								'quantity'     => 0,
-							)
-						);
-						++$processed;
-					} else {
-						$deleted = BookingHistory::query()
-							->where( 'room_id', $productId )
-							->where( 'booking_time', $sansTimeTs )
-							->where( 'status', 2 )
-							->delete();
-						$processed += (int) $deleted;
-					}
+					$allSlotTimes[] = (int) $slot['ts'];
 				}
 
 				$currentDay = strtotime( '+1 day', $currentDay );
+			}
+
+			$allSlotTimes = array_values( array_unique( array_filter( $allSlotTimes ) ) );
+			if ( array() === $allSlotTimes ) {
+				return array(
+					'success' => true,
+					'data'    => array( 'هیچ سانسی برای این بازه یافت نشد.' ),
+				);
+			}
+
+			if ( 'close' === $action ) {
+				$managed = BookingHistory::query()
+					->where( 'room_id', $productId )
+					->whereIn( 'booking_time', $allSlotTimes )
+					->whereIn( 'status', array( 1, 2 ) )
+					->pluck( 'booking_time' )
+					->map( static fn( $t ): int => (int) $t )
+					->all();
+				$managedSet = array_fill_keys( $managed, true );
+				$toClose    = array_values(
+					array_filter(
+						$allSlotTimes,
+						static fn( int $ts ): bool => ! isset( $managedSet[ $ts ] )
+					)
+				);
+
+				if ( array() !== $toClose ) {
+					BookingHistory::query()
+						->where( 'room_id', $productId )
+						->whereIn( 'booking_time', $toClose )
+						->where( 'status', 2 )
+						->delete();
+
+					$rows = array();
+					foreach ( $toClose as $sansTimeTs ) {
+						$rows[] = array(
+							'customer_id'  => $userId,
+							'wc_order_id'  => null,
+							'status'       => 2,
+							'room_id'      => $productId,
+							'booking_time' => $sansTimeTs,
+							'booked_time'  => $now,
+							'name'         => null,
+							'phone'        => null,
+							'quantity'     => 0,
+						);
+					}
+					foreach ( array_chunk( $rows, 500 ) as $chunk ) {
+						BookingHistory::query()->insert( $chunk );
+					}
+					$processed = count( $toClose );
+				}
+			} else {
+				$processed = BookingHistory::query()
+					->where( 'room_id', $productId )
+					->whereIn( 'booking_time', $allSlotTimes )
+					->where( 'status', 2 )
+					->delete();
 			}
 
 			$msg = ( 'close' === $action )
@@ -303,19 +321,33 @@ final class TeamSansBridge
 			return self::$productRowCache[ $productId ];
 		}
 
+		$cacheKey = "ez_product_row_{$productId}";
+		$cached   = function_exists( 'wp_cache_get' ) ? wp_cache_get( $cacheKey, 'ez_booking' ) : false;
+		if ( is_array( $cached ) ) {
+			self::$productRowCache[ $productId ] = $cached;
+
+			return $cached;
+		}
+
 		$row = Capsule::connection( 'external' )
 			->table( 'products_data' )
 			->where( 'product_id', $productId )
-			->first( array( 'product_id', 'schedule', 'duration', 'image', 'title', 'city_name' ) );
+			->first( array( 'product_id', 'schedule', 'duration', 'image', 'title', 'city_name', 'auto_disable' ) );
 
 		if ( null === $row ) {
 			self::$productRowCache[ $productId ] = null;
+
 			return null;
 		}
 
-		self::$productRowCache[ $productId ] = (array) $row;
+		$data = (array) $row;
+		self::$productRowCache[ $productId ] = $data;
 
-		return self::$productRowCache[ $productId ];
+		if ( function_exists( 'wp_cache_set' ) ) {
+			wp_cache_set( $cacheKey, $data, 'ez_booking', 3600 );
+		}
+
+		return $data;
 	}
 
 	/**
@@ -349,50 +381,79 @@ final class TeamSansBridge
 			return self::$dayTypeCache[ $day ];
 		}
 
-		$row = Capsule::connection( 'external' )
-			->table( 'calendar_data' )
-			->value( 'data' );
+		$cacheKey = "ez_day_type_{$day}";
+		$cached   = function_exists( 'wp_cache_get' ) ? wp_cache_get( $cacheKey, 'ez_booking' ) : false;
+		if ( is_string( $cached ) ) {
+			self::$dayTypeCache[ $day ] = $cached;
+
+			return $cached;
+		}
+
+		$row = false;
+		if ( function_exists( 'wp_cache_get' ) ) {
+			$row = wp_cache_get( 'ez_calendar_data_raw', 'ez_booking' );
+		}
+
+		if ( false === $row ) {
+			$row = Capsule::connection( 'external' )
+				->table( 'calendar_data' )
+				->value( 'data' );
+			if ( function_exists( 'wp_cache_set' ) && is_string( $row ) ) {
+				wp_cache_set( 'ez_calendar_data_raw', $row, 'ez_booking', 3600 );
+			}
+		}
 
 		if ( ! is_string( $row ) || '' === $row ) {
 			self::$dayTypeCache[ $day ] = 'normals';
+
 			return self::$dayTypeCache[ $day ];
 		}
 
 		$calendar = @unserialize( $row, array( 'allowed_classes' => false ) );
 		if ( false === $calendar ) {
 			self::$dayTypeCache[ $day ] = 'normals';
+
 			return self::$dayTypeCache[ $day ];
 		}
 
 		$calendarData = json_decode( json_encode( $calendar ), true );
 		if ( ! is_array( $calendarData ) ) {
 			self::$dayTypeCache[ $day ] = 'normals';
+
 			return self::$dayTypeCache[ $day ];
 		}
 
+		$result = 'normals';
 		foreach ( explode( ',', (string) ( $calendarData['holidays'] ?? '' ) ) as $calendarDay ) {
 			$calendarDay = trim( $calendarDay );
 			if ( '' === $calendarDay || ! is_numeric( $calendarDay ) ) {
 				continue;
 			}
 			if ( self::tehranMidnightUnix( (int) $calendarDay ) === $day ) {
-				self::$dayTypeCache[ $day ] = 'holidays';
-				return self::$dayTypeCache[ $day ];
+				$result = 'holidays';
+				break;
 			}
 		}
 
-		foreach ( explode( ',', (string) ( $calendarData['closed_days'] ?? '' ) ) as $calendarDay ) {
-			$calendarDay = trim( $calendarDay );
-			if ( '' === $calendarDay || ! is_numeric( $calendarDay ) ) {
-				continue;
-			}
-			if ( self::tehranMidnightUnix( (int) $calendarDay ) === $day ) {
-				self::$dayTypeCache[ $day ] = 'closed';
-				return self::$dayTypeCache[ $day ];
+		if ( 'normals' === $result ) {
+			foreach ( explode( ',', (string) ( $calendarData['closed_days'] ?? '' ) ) as $calendarDay ) {
+				$calendarDay = trim( $calendarDay );
+				if ( '' === $calendarDay || ! is_numeric( $calendarDay ) ) {
+					continue;
+				}
+				if ( self::tehranMidnightUnix( (int) $calendarDay ) === $day ) {
+					$result = 'closed';
+					break;
+				}
 			}
 		}
-		self::$dayTypeCache[ $day ] = 'normals';
-		return self::$dayTypeCache[ $day ];
+
+		self::$dayTypeCache[ $day ] = $result;
+		if ( function_exists( 'wp_cache_set' ) ) {
+			wp_cache_set( $cacheKey, $result, 'ez_booking', 3600 );
+		}
+
+		return $result;
 	}
 
 	public static function tehranMidnightUnix( int $timestamp ): int {
@@ -459,43 +520,20 @@ final class TeamSansBridge
 			return array();
 		}
 
+		// Strictly use prefix search (indexed) to avoid full table scans.
 		$startsLike = addcslashes( $term, '%_\\' ) . '%';
-		$containsLike = '%' . addcslashes( $term, '%_\\' ) . '%';
 
 		$query = Capsule::connection( 'external' )
 			->table( 'products_data' )
 			->where( 'title', 'LIKE', $startsLike )
 			->orderBy( 'title' )
-			->limit( 60 );
+			->limit( 50 );
 
 		$rows = $query->get( array( 'product_id', 'title', 'city_name', 'image' ) );
 
 		$out = array();
 		foreach ( $rows as $row ) {
 			$out[] = (array) $row;
-		}
-
-		$termLength = function_exists( 'mb_strlen' ) ? mb_strlen( $term ) : strlen( $term );
-		if ( count( $out ) < 50 && $termLength >= 3 ) {
-			$seenIds = array_map(
-				static fn( array $row ): int => (int) ( $row['product_id'] ?? 0 ),
-				$out
-			);
-
-			$fallbackRows = Capsule::connection( 'external' )
-				->table( 'products_data' )
-				->where( 'title', 'LIKE', $containsLike )
-				->when(
-					array() !== $seenIds,
-					static fn( $q ) => $q->whereNotIn( 'product_id', $seenIds )
-				)
-				->orderBy( 'title' )
-				->limit( 50 - count( $out ) )
-				->get( array( 'product_id', 'title', 'city_name', 'image' ) );
-
-			foreach ( $fallbackRows as $row ) {
-				$out[] = (array) $row;
-			}
 		}
 
 		return $out;

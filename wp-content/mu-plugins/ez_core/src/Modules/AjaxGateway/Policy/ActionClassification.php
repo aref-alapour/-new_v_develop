@@ -20,6 +20,7 @@ final class ActionClassification
 
 	/** @var array<string, string> */
 	private const MAP = array(
+		'booking.product_set_view'   => self::CLASS_READ,
 		'booking.sans_day_json'      => self::CLASS_READ,
 		'booking.sans_day'           => self::CLASS_READ,
 		'booking.sans_week'          => self::CLASS_READ,
@@ -28,6 +29,7 @@ final class ActionClassification
 		'booking.open_all_sanses'     => self::CLASS_WRITE,
 		'booking.close_all_sanses'    => self::CLASS_WRITE,
 		'booking.sans_management_web' => self::CLASS_READ_HTML,
+		'booking.sans_management_data'=> self::CLASS_READ_HTML,
 		'booking.check_playing'       => self::CLASS_READ_HTML,
 		'booking.game_search'         => self::CLASS_READ_HTML,
 		'booking.bulk_date_range'     => self::CLASS_WRITE,

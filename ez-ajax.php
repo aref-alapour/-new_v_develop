@@ -42,7 +42,13 @@ if ( ! is_readable( $autoload ) ) {
 require_once $autoload;
 
 \EscapeZoom\Core\Core\Bootstrap::bootDataLayerOnly();
-\EscapeZoom\Core\Modules\Booking\BookingGatewayActions::register();
+$incomingAction = '';
+if ( isset( $_SERVER['HTTP_X_EZ_ACTION'] ) ) {
+	$incomingAction = (string) $_SERVER['HTTP_X_EZ_ACTION'];
+} elseif ( isset( $_GET['action'] ) && is_string( $_GET['action'] ) ) {
+	$incomingAction = $_GET['action'];
+}
+\EscapeZoom\Core\Modules\Booking\BookingGatewayActions::ensureRegistered( trim( $incomingAction ) );
 
 $GLOBALS['ez_gateway_response_headers'] = array(
 	'X-EZ-Gateway'       => 'light',

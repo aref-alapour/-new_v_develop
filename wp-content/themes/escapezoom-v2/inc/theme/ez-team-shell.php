@@ -45,6 +45,19 @@ function ez_team_sans_management_roles(): array {
 }
 
 /**
+ * Team pages that need signed /ajax boot (sans grid + game search on comments).
+ */
+function ez_team_is_booking_tools_page(): bool {
+	if ( ! function_exists( 'get_query_var' ) || ! ez_team_shell_user_has_access() ) {
+		return false;
+	}
+
+	$slug = (string) get_query_var( 'team_page' );
+
+	return in_array( $slug, array( 'sans_management', 'comments' ), true );
+}
+
+/**
  * Current request is CRM team sans-management page (rewrite + menu access).
  */
 function ez_team_is_sans_management_page(): bool {

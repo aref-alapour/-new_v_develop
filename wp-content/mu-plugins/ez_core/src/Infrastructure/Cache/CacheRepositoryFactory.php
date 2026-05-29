@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace EscapeZoom\Core\Infrastructure\Cache;
 
+use Illuminate\Cache\ArrayStore;
 use Illuminate\Cache\FileStore;
 use Illuminate\Cache\Repository;
 use Illuminate\Filesystem\Filesystem;
@@ -20,7 +21,9 @@ final class CacheRepositoryFactory
 			return self::$repository;
 		}
 
-		if ( function_exists( 'wp_using_ext_object_cache' ) && wp_using_ext_object_cache() ) {
+		if ( defined( 'EZ_AJAX_LIGHT_GATEWAY' ) && EZ_AJAX_LIGHT_GATEWAY ) {
+			self::$repository = new Repository( new ArrayStore() );
+		} elseif ( function_exists( 'wp_using_ext_object_cache' ) && wp_using_ext_object_cache() ) {
 			self::$repository = new Repository( new WpObjectCacheStore( 'ez_core' ) );
 		} else {
 			$dir = sys_get_temp_dir() . '/ez_cache';

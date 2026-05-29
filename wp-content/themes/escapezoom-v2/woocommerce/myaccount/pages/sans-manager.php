@@ -346,16 +346,24 @@ if ( $show_credit_notification ) {
                 $("#sans").html(html)
             }
 
-            if (window.__EZ_BOOT__?.sub_secret && window.ezBookingApi?.sansManagementWeb) {
+            if (window.__EZ_BOOT__?.sub_secret && window.ezBookingApi?.sansManagementData) {
                 showSkeleton()
-                window.ezBookingApi.sansManagementWeb(parseInt(room, 10), parseInt(day, 10))
-                    .then(function (html) {
-                        if (html != null) {
-                            onDone(html);
+                const productId = parseInt(room, 10);
+                const dayStart = parseInt(day, 10);
+                window.ezBookingApi.sansManagementData(productId, dayStart)
+                    .then(function (data) {
+                        if (data == null) {
+                            return;
                         }
+                        const html = window.ezSansManagementRender?.renderSansManagementGrid(
+                            data,
+                            productId,
+                            dayStart
+                        ) || '';
+                        onDone(html);
                     })
                     .catch(() => {
-                        console.error('[EZ Booking] sansManagementWeb failed');
+                        console.error('[EZ Booking] sansManagementData failed');
                         $(`[data-datepicker="${day}"]`).removeAttr('disabled')
                         $("#sans").html('<p class="text-center text-slate-500 p-4">خطا در بارگذاری سانس‌ها. صفحه را رفرش کنید.</p>')
                     })

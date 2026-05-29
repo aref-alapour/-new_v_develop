@@ -613,18 +613,23 @@ for ($i = 1; $i <= 45; $i++) {
                 datePickerSwiper.update();
             };
 
-            if (!resolveEzBoot() || !window.ezBookingApi?.sansManagementWeb) {
+            if (!resolveEzBoot() || !window.ezBookingApi?.sansManagementData) {
                 console.error('[EZ Booking] Gateway not configured on team sans-management');
                 $("#sessionsContainer").html('<p class="text-center text-slate-500 p-4">پیکربندی رزرو در دسترس نیست.</p>');
                 return;
             }
 
             showSkeleton();
-            window.ezBookingApi.sansManagementWeb(productId, dayStart)
-                .then((html) => {
-                    if (token !== dayLoadToken || html == null) {
+            window.ezBookingApi.sansManagementData(productId, dayStart)
+                .then((data) => {
+                    if (token !== dayLoadToken || data == null) {
                         return;
                     }
+                    const html = window.ezSansManagementRender?.renderSansManagementGrid(
+                        data,
+                        productId,
+                        dayStart
+                    ) || '';
                     onHtml(html);
                 })
                 .catch(() => {
