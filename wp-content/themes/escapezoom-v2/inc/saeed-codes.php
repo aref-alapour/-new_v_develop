@@ -8,9 +8,10 @@ define('COMMENT_NEW_VER_TIMESTAMP', 1746044999);
 // if (file_exists('api/api.php'))
 require_once 'api/api.php';
 require_once 'medoo/init.php';
-
-require_once 'jwt-authentication-for-wp-rest-api/jwt-auth.php';
 /*****************************************************************************************************************************************/
+require_once get_template_directory() . "/inc/jdf.php";
+require_once get_template_directory() . "/inc/saeed-codes-helpers.php";
+require_once get_template_directory() . "/inc/saeed-codes-sync-wrappers.php";
 //add_action('init', 'admin_bar' );
 //function admin_bar() {
 //    if(is_user_logged_in())
@@ -118,27 +119,25 @@ function custom_orders_list_column_content( $column, $post_id ) {
 }
 /****************************************************************************************************************************************/
 function ez_webservice( $data ) {
-    if ( $_SERVER['HTTP_HOST'] == 'dev.escapezoom.local' ) {
-        $base_url = 'http://' . $_SERVER['HTTP_HOST'] . '/web-service/web-service.php';
-    } elseif ( $_SERVER['HTTP_HOST'] == 'dev.escapezoom.local' ) {
-        $base_url = 'http://' . $_SERVER['HTTP_HOST'] . '/web-service/web-service.php';
-    } else {
-        $base_url = 'https://' . $_SERVER['HTTP_HOST'] . '/web-service/web-service.php';
+    $callback = $data['callback'] ?? '';
+    $innerData = $data['data'] ?? [];
+    if (class_exists('\EscapeZoom\Core\Modules\Booking\Actions\ProductActionDispatcher')) {
+        $dispatcher = new \EscapeZoom\Core\Modules\Booking\Actions\ProductActionDispatcher();
+        $result = $dispatcher->dispatch($callback, $innerData);
+        return json_encode($result);
     }
-    $response = wp_remote_post( $base_url, array(
-        'method'        => 'POST',
-        'timeout'       => 45,
-        'redirection'   => 5,
-        'httpversion'   => '1.0',
-        'blocking'      => true,
-        'headers'       => ['Content-Type' => 'application/json'],
-        'body'          => json_encode($data),
-        'cookies'       => array()
-    ) );
-
-    if ( is_array($response) ){
-        return $response['body'];
+    // Fallback if dispatcher not found
+    switch ($callback) {
+        case 'sort_products_get':
+            return json_encode((new \EscapeZoom\Core\Modules\Booking\Actions\SortProductsGetAction())->execute($innerData));
+        case 'popular_products_sync':
+            return json_encode(['status' => (new \EscapeZoom\Core\Modules\ProductSync\Actions\SyncPopularProductsAction())->execute()]);
+        case 'hottest_products_sync':
+            return json_encode(['status' => (new \EscapeZoom\Core\Modules\ProductSync\Actions\SyncHottestProductsAction())->execute()]);
+        case 'top_sale_products_sync':
+            return json_encode(['status' => (new \EscapeZoom\Core\Modules\ProductSync\Actions\SyncTopSaleProductsAction())->execute()]);
     }
+    return json_encode(['error' => 'Action not found']);
 }
 /****************************************************************************************************************************************/
 function ez_reservation( $data ) {
@@ -221,7 +220,7 @@ function product_query() { ?>
 
                 $.ajax({
                     type: 'POST',
-                    url: 'https://escapezoom.ir/web-service/queryable.php',
+                    url: 'https://escapezoom.ir/wp-admin/admin-ajax.php?action=v2_ajax_handler&callback=queryable_search',
                     data: {
                         'term'  : $this.val(),
                         'url'   : '<?php echo $_SERVER['HTTP_HOST'] ?>'
@@ -1407,7 +1406,7 @@ function ez_product_cat_sliders () {
 
             $.ajax({
                 type: 'POST',
-                url: (location.hostname === 'dev.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/web-service/web-service.php',
+                url: (location.hostname === 'dev.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/wp-admin/admin-ajax.php?action=v2_ajax_handler',
                 data: {
                     "async": false,
                     "type": "sort_products_get",
@@ -1622,7 +1621,7 @@ function ez_product_cat_sliders () {
 
                 $.ajax({
                     type: 'POST',
-                    url: (location.hostname === 'dev.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/web-service/web-service.php',
+                    url: (location.hostname === 'dev.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/wp-admin/admin-ajax.php?action=v2_ajax_handler',
                     data: {
                         "async": false,
                         "type": "sort_products_get",
@@ -1768,7 +1767,7 @@ function ez_product_cat_sliders () {
 
             $.ajax({
                 type: 'POST',
-                url: (location.hostname === 'dev.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/web-service/web-service.php',
+                url: (location.hostname === 'dev.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/wp-admin/admin-ajax.php?action=v2_ajax_handler',
                 data: {
                     "type": "sort_products_get",
                     "data": {
@@ -1913,7 +1912,7 @@ function ez_product_cat_sliders () {
 
                 $.ajax({
                     type: 'POST',
-                    url: (location.hostname === 'dev.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/web-service/web-service.php',
+                    url: (location.hostname === 'dev.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/wp-admin/admin-ajax.php?action=v2_ajax_handler',
                     data: {
                         "type": "sort_products_get",
                         "data": {
@@ -2065,7 +2064,7 @@ function ez_product_cat_sliders () {
 
                 $.ajax({
                     type: 'POST',
-                    url: (location.hostname === 'dev.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/web-service/web-service.php',
+                    url: (location.hostname === 'dev.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/wp-admin/admin-ajax.php?action=v2_ajax_handler',
                     data: {
                         "type": "sort_products_get",
                         "data": {
@@ -2199,7 +2198,7 @@ function ez_product_cat_sliders () {
 
             $.ajax({
                 type: 'POST',
-                url: (location.hostname === 'dev.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/web-service/web-service.php',
+                url: (location.hostname === 'dev.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/wp-admin/admin-ajax.php?action=v2_ajax_handler',
                 data: {
                     "async": false,
                     "type": "sort_products_get",
@@ -3023,7 +3022,7 @@ function elite_rooms_of_tehran_func3($state) {
 
                     $.ajax({
                         type: 'POST',
-                        url: (location.hostname === 'dev.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/web-service/web-service.php',
+                        url: (location.hostname === 'dev.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/wp-admin/admin-ajax.php?action=v2_ajax_handler',
                         data: {
                             "type": "sort_products_get",
                             "data": {
@@ -3122,7 +3121,7 @@ function elite_rooms_of_tehran_func3($state) {
 
                 $.ajax({
                     type: 'POST',
-                    url: (location.hostname === 'dev.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/web-service/web-service.php',
+                    url: (location.hostname === 'dev.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/wp-admin/admin-ajax.php?action=v2_ajax_handler',
                     data: {
                         "type": "sort_products_get",
                         "data": {
@@ -3537,7 +3536,7 @@ function get_deactivated_rooms() {
 
             $.ajax({
                 type: 'POST',
-                url: (location.hostname === 'dev.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/web-service/web-service.php',
+                url: (location.hostname === 'dev.escapezoom.local' ? 'http://' : 'https://') + location.hostname + '/wp-admin/admin-ajax.php?action=v2_ajax_handler',
                 data: {
                     "async": false,
                     "type": "sort_products_get",
@@ -12905,7 +12904,7 @@ if ( isset( $_GET['bak_test'] ) ) {
 //    $products = json_decode ( ez_webservice( array('type' => 'sort_products_get', 'data' => $args) ) );
 
     $data = array('type' => 'sort_products_get', 'data' => $args);
-    $base_url = ($_SERVER['HTTP_HOST'] == 'dev.escapezoom.local' ? 'http://' : 'https://') . $_SERVER['HTTP_HOST'] . '/web-service/web-service.php';
+    $base_url = ($_SERVER['HTTP_HOST'] == 'dev.escapezoom.local' ? 'http://' : 'https://') . $_SERVER['HTTP_HOST'] . '/wp-admin/admin-ajax.php?action=v2_ajax_handler';
     $response = wp_remote_post( $base_url, array(
         'method'        => 'POST',
         'timeout'       => 45,
@@ -13030,7 +13029,7 @@ if ( isset( $_GET['ashoora'] ) ) {
 
 if ( isset( $_GET['data_products_set2'] ) ) {
 
-    $response = wp_remote_post( 'https://dev-api.escapezoom.ir/web-service/web-service.php', array(
+    $response = wp_remote_post( 'https://dev-api.escapezoom.ir/wp-admin/admin-ajax.php?action=v2_ajax_handler', array(
         'method'        => 'POST',
         'timeout'       => 45,
         'redirection'   => 5,

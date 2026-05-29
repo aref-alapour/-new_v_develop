@@ -283,18 +283,14 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 jQuery(document).ready(function ($) {
   let baseUrlQuery =
-    "https://" + location.hostname + "/web-service/queryable.php";
+    ""/wp-admin/admin-ajax.php?action=v2_ajax_handler&callback=queryable_search"";
   let baseUrlWebService =
-    "https://" + location.hostname + "/web-service/web-service.php";
+    ""/wp-admin/admin-ajax.php?action=v2_ajax_handler"";
   if (location.hostname === "localhost") {
     baseUrlQuery =
-      "http://" +
-      location.hostname +
-      "/escapezoom_wp/web-service/queryable.php";
+      ""/wp-admin/admin-ajax.php?action=v2_ajax_handler&callback=queryable_search"";
     baseUrlWebService =
-      "http://" +
-      location.hostname +
-      "/escapezoom_wp/web-service/web-service.php";
+      ""/wp-admin/admin-ajax.php?action=v2_ajax_handler"";
   }
   $("body").on("click", ".mobile-hover", function () {
     let parent = $(this).parent();

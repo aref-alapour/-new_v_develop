@@ -458,14 +458,14 @@ endforeach;
 
 <script>
     jQuery(document).ready(function($) {
-        let baseUrlWebService = 'https://' + location.hostname + '/web-service/web-service.php';
-        let suggestUrlWebService = 'https://' + location.hostname + '/web-service/game-suggested.php';
+        let baseUrlWebService = '"/wp-admin/admin-ajax.php?action=v2_ajax_handler"';
+        let suggestUrlWebService = '/wp-admin/admin-ajax.php?action=v2_ajax_handler&callback=get_suggested_games';
         if (location.hostname === 'localhost') {
-            baseUrlWebService = 'http://' + location.hostname + ':8080/web-service/web-service.php';
-            suggestUrlWebService = 'http://' + location.hostname + ':8080/web-service/game-suggested.php';
+            baseUrlWebService = 'http://' + location.hostname + ':8080/wp-admin/admin-ajax.php?action=v2_ajax_handler';
+            suggestUrlWebService = '/wp-admin/admin-ajax.php?action=v2_ajax_handler&callback=get_suggested_games';
         } else if (location.hostname === 'dev.escapezoom.local') {
-            baseUrlWebService = 'http://' + location.hostname + '/web-service/web-service.php';
-            suggestUrlWebService = 'http://' + location.hostname + '/web-service/game-suggested.php';
+            baseUrlWebService = '"/wp-admin/admin-ajax.php?action=v2_ajax_handler"';
+            suggestUrlWebService = '/wp-admin/admin-ajax.php?action=v2_ajax_handler&callback=get_suggested_games';
         }
         let termId = <?= $term_id ?>;
         let genreName = "<?= $genre_name ?>";
