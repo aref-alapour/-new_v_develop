@@ -24,6 +24,46 @@ final class TehranTime
 	}
 
 	/**
+	 * Start of Gregorian calendar day in Asia/Tehran (00:00:00).
+	 */
+	public static function gregorianDayStartUnix( int $gy, int $gm, int $gd ): int {
+		$tz = new \DateTimeZone( 'Asia/Tehran' );
+		$dt = \DateTime::createFromFormat( 'Y-n-j H:i:s', sprintf( '%d-%d-%d 00:00:00', $gy, $gm, $gd ), $tz );
+		if ( false === $dt ) {
+			return 0;
+		}
+
+		return (int) $dt->getTimestamp();
+	}
+
+	/**
+	 * End of Gregorian calendar day in Asia/Tehran (23:59:59).
+	 */
+	public static function gregorianDayEndUnix( int $gy, int $gm, int $gd ): int {
+		$tz = new \DateTimeZone( 'Asia/Tehran' );
+		$dt = \DateTime::createFromFormat( 'Y-n-j H:i:s', sprintf( '%d-%d-%d 23:59:59', $gy, $gm, $gd ), $tz );
+		if ( false === $dt ) {
+			return 0;
+		}
+
+		return (int) $dt->getTimestamp();
+	}
+
+	/**
+	 * Add calendar days in Asia/Tehran and return midnight unix of result day.
+	 */
+	public static function addTehranDays( int $timestamp, int $days ): int {
+		$tz = new \DateTimeZone( 'Asia/Tehran' );
+		$dt = new \DateTime( '@' . self::tehranMidnightUnix( $timestamp ) );
+		$dt->setTimezone( $tz );
+		$modifier = ( $days >= 0 ? '+' : '' ) . $days . ' day';
+		$dt->modify( $modifier );
+		$dt->setTime( 0, 0, 0 );
+
+		return (int) $dt->getTimestamp();
+	}
+
+	/**
 	 * Format unix day anchor as Y-m-d in Asia/Tehran (legacy date() after bootstrap timezone).
 	 */
 	public static function formatDayYmd( int $timeRes ): string {

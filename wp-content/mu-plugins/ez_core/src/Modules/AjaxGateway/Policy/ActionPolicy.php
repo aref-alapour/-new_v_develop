@@ -23,8 +23,9 @@ final class ActionPolicy
 
 		$isLight = defined( 'EZ_AJAX_LIGHT_GATEWAY' ) && EZ_AJAX_LIGHT_GATEWAY;
 		$isWrite = ActionClassification::isWrite( $action );
+		$cachedSession = defined( 'EZ_GATEWAY_SESSION_CACHED' ) && EZ_GATEWAY_SESSION_CACHED;
 
-		if ( $isLight && $isWrite ) {
+		if ( $isLight && $isWrite && ! $cachedSession ) {
 			return self::ERR_FORBIDDEN_ACTION;
 		}
 
@@ -52,6 +53,10 @@ final class ActionPolicy
 	}
 
 	private static function isUserLoggedIn(): bool {
+		if ( function_exists( 'ez_core_gateway_cached_user_id' ) && ez_core_gateway_cached_user_id() > 0 ) {
+			return true;
+		}
+
 		if ( ! function_exists( 'is_user_logged_in' ) ) {
 			return false;
 		}

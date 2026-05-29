@@ -332,9 +332,15 @@ if ( $show_credit_notification ) {
             }, 50);
         };
 
+        let sansManagerLoadToken = 0;
+
         const BuildSans = (room, day) => {
+            const productId = parseInt(room, 10);
+            const dayStart = parseInt(day, 10);
+            const loadToken = ++sansManagerLoadToken;
+
             const showSkeleton = () => {
-                $(`[data-datepicker="${day}"]`).attr('disabled', 'disabled')
+                $(`[data-datepicker="${dayStart}"]`).attr('disabled', 'disabled')
                 let out = ""
                 for (let i = 0; i < 8; i++) {
                     out += "<div class='w-full h-29 skeleton rounded-xl'></div>"
@@ -342,17 +348,15 @@ if ( $show_credit_notification ) {
                 $("#sans").html(out)
             }
             const onDone = (html) => {
-                $(`[data-datepicker="${day}"]`).removeAttr('disabled')
+                $(`[data-datepicker="${dayStart}"]`).removeAttr('disabled')
                 $("#sans").html(html)
             }
 
             if (window.__EZ_BOOT__?.sub_secret && window.ezBookingApi?.sansManagementData) {
                 showSkeleton()
-                const productId = parseInt(room, 10);
-                const dayStart = parseInt(day, 10);
                 window.ezBookingApi.sansManagementData(productId, dayStart)
                     .then(function (data) {
-                        if (data == null) {
+                        if (loadToken !== sansManagerLoadToken || data == null) {
                             return;
                         }
                         const html = window.ezSansManagementRender?.renderSansManagementGrid(
@@ -363,8 +367,11 @@ if ( $show_credit_notification ) {
                         onDone(html);
                     })
                     .catch(() => {
+                        if (loadToken !== sansManagerLoadToken) {
+                            return;
+                        }
                         console.error('[EZ Booking] sansManagementData failed');
-                        $(`[data-datepicker="${day}"]`).removeAttr('disabled')
+                        $(`[data-datepicker="${dayStart}"]`).removeAttr('disabled')
                         $("#sans").html('<p class="text-center text-slate-500 p-4">خطا در بارگذاری سانس‌ها. صفحه را رفرش کنید.</p>')
                     })
                 return

@@ -8,6 +8,14 @@ if ( ! defined( 'EZ_CORE_PATH' ) ) {
 	define( 'EZ_CORE_PATH', dirname( __DIR__ ) );
 }
 
+if ( defined( 'EZ_AJAX_LIGHT_GATEWAY_REQUEST' ) && EZ_AJAX_LIGHT_GATEWAY_REQUEST ) {
+	if ( ! defined( 'ABSPATH' ) ) {
+		define( 'ABSPATH', dirname( EZ_CORE_PATH, 3 ) . '/' );
+	}
+	require_once __DIR__ . '/wp-config-bridge.php';
+	ez_core_bridge_wp_config();
+}
+
 $autoload = EZ_CORE_PATH . '/vendor/autoload.php';
 if ( is_readable( $autoload ) ) {
 	require_once $autoload;
@@ -56,9 +64,15 @@ if ( ! defined( 'EZ_GATEWAY_ENCRYPT_READS' ) ) {
 
 if ( ! defined( 'EZ_AJAX_STANDALONE_ENABLED' ) ) {
 	$standaloneEnabled = getenv( 'EZ_AJAX_STANDALONE_ENABLED' );
+	if ( false === $standaloneEnabled || '' === $standaloneEnabled ) {
+		$standaloneEnabled = ez_core_read_dotenv_value( 'EZ_AJAX_STANDALONE_ENABLED' );
+		if ( '' !== $standaloneEnabled ) {
+			putenv( 'EZ_AJAX_STANDALONE_ENABLED=' . $standaloneEnabled );
+		}
+	}
 	define(
 		'EZ_AJAX_STANDALONE_ENABLED',
-		false !== $standaloneEnabled && filter_var( $standaloneEnabled, FILTER_VALIDATE_BOOLEAN )
+		false !== $standaloneEnabled && '' !== $standaloneEnabled && filter_var( $standaloneEnabled, FILTER_VALIDATE_BOOLEAN )
 	);
 }
 
@@ -97,3 +111,41 @@ if ( ! isset( $GLOBALS['table_prefix'] ) ) {
 }
 
 require __DIR__ . '/ajax-secret.php';
+
+/**
+ * Read a single KEY=value from repo-root .env (dev fallback when getenv is unset).
+ */
+function ez_core_read_dotenv_value( string $name ): string {
+	$paths = array( dirname( EZ_CORE_PATH, 3 ) . '/.env' );
+	if ( defined( 'ABSPATH' ) ) {
+		$paths[] = ABSPATH . '.env';
+	}
+	$prefix = $name . '=';
+
+	foreach ( array_values( array_unique( $paths ) ) as $path ) {
+		if ( ! is_readable( $path ) ) {
+			continue;
+		}
+		$lines = file( $path, FILE_IGNORE_NEW_LINES );
+		if ( false === $lines ) {
+			continue;
+		}
+		foreach ( $lines as $line ) {
+			$line = trim( $line );
+			if ( '' === $line || '#' === $line[0] || ! str_starts_with( $line, $prefix ) ) {
+				continue;
+			}
+			$value = trim( substr( $line, strlen( $prefix ) ) );
+			if ( str_starts_with( $value, '"' ) && str_ends_with( $value, '"' ) && strlen( $value ) >= 2 ) {
+				return substr( $value, 1, -1 );
+			}
+			if ( str_starts_with( $value, "'" ) && str_ends_with( $value, "'" ) && strlen( $value ) >= 2 ) {
+				return substr( $value, 1, -1 );
+			}
+
+			return $value;
+		}
+	}
+
+	return '';
+}

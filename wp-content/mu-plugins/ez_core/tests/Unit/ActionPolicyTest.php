@@ -16,13 +16,33 @@ it('denies anon write actions', function () {
 		->toBe( ActionPolicy::ERR_FORBIDDEN_ACTION );
 } );
 
-it('denies write on light gateway', function () {
+it('denies write on light gateway without cached session', function () {
 	if ( ! defined( 'EZ_AJAX_LIGHT_GATEWAY' ) ) {
 		define( 'EZ_AJAX_LIGHT_GATEWAY', true );
+	}
+	if ( defined( 'EZ_GATEWAY_SESSION_CACHED' ) && EZ_GATEWAY_SESSION_CACHED ) {
+		$this->markTestSkipped( 'EZ_GATEWAY_SESSION_CACHED already set in this PHP process' );
 	}
 
 	expect( ActionPolicy::authorize( 'booking.open_sans', 'web-user' ) )
 		->toBe( ActionPolicy::ERR_FORBIDDEN_ACTION );
+} );
+
+it('allows write on light gateway when session is cached', function () {
+	if ( ! defined( 'EZ_AJAX_LIGHT_GATEWAY' ) ) {
+		define( 'EZ_AJAX_LIGHT_GATEWAY', true );
+	}
+	if ( ! defined( 'EZ_GATEWAY_SESSION_CACHED' ) ) {
+		define( 'EZ_GATEWAY_SESSION_CACHED', true );
+	}
+
+	$cacheFile = dirname( __DIR__, 2 ) . '/bootstrap/gateway-session-cache.php';
+	if ( is_readable( $cacheFile ) ) {
+		require_once $cacheFile;
+	}
+	$GLOBALS['ez_gateway_cached_user_id'] = 42;
+
+	expect( ActionPolicy::authorize( 'booking.close_sans', 'web-team' ) )->toBeNull();
 } );
 
 it('requires login for web-user write when not light', function () {

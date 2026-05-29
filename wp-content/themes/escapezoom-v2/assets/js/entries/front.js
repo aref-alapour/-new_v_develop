@@ -3,6 +3,7 @@ import Alpine from 'alpinejs';
 import { wireHtmx, ezFetch } from '../lib/ez-ajax.js';
 import * as ezBookingApi from '../lib/ez-booking-api.js';
 import * as ezSansManagementRender from '../lib/ez-sans-management-render.js';
+import * as ezGameSearchRender from '../lib/ez-game-search-render.js';
 import {
   ezBookingSansManagementHtml,
   ezBookingToggleSans,
@@ -37,6 +38,7 @@ if (typeof window !== 'undefined') {
   };
   window.ezSansManagementRender = { renderSansManagementGrid };
   window.ezSansManagementRender = ezSansManagementRender;
+  window.ezGameSearchRender = ezGameSearchRender;
   window.ensureBookingGatewayPagesInit = ensureBookingGatewayPagesInit;
   wireHtmx();
   Alpine.start();

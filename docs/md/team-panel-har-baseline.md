@@ -84,3 +84,62 @@ Non-reservation team/panel flows (comments CRUD, cancellation, etc.) remain on `
 ### Build
 
 - `npm run build:front:js` in `wp-content/themes/escapezoom-v2` (includes `ez-sans-management-render.js`, `productSetView`).
+
+---
+
+## Standalone gateway rollout (2026-05-28)
+
+### Infra (required for full speed win)
+
+1. **Apache** — block in [`.htaccess`](../../.htaccess) (before WordPress rules) routes `POST /ajax` → `wp-content/mu-plugins/ez_core/ez-ajax-standalone.php`. Snippet: [`docs/project/ops/apache-ajax-light.conf`](../project/ops/apache-ajax-light.conf).
+2. **Nginx** — see [`docs/project/ops/nginx-ajax-standalone.conf`](../project/ops/nginx-ajax-standalone.conf).
+3. **Env** — `EZ_AJAX_STANDALONE_ENABLED=true` in repo [`.env`](../../.env) (also read via `load-secrets.php` dotenv fallback).
+
+### Code shipped with rollout
+
+- WP rewrite fallback: in-memory rate limiter when standalone is not used (`GatewayDispatcher::ensureLightGatewayForWpRewrite`).
+- Root [`ez-ajax.php`](../../ez-ajax.php) forwards to standalone (deprecated direct use).
+- Client: `sansDayJson` promise coalescing + single-product guards (one initial `sans_day_json` per day).
+
+### Central game search (`booking.game_search`) — 2026-05-28
+
+- **Data source:** `wp_products_search` only (`WordpressProductsSearchRepository`); no `wp_posts`, `wp_postmeta`, or external `products_data`.
+- **Query:** prefix `LIKE term%` on `product_name`, limit 50, ordered by name.
+- **Service:** `GameSearchService` — `searchItems()` + 60s `wp_cache`; HTML built client-side via `ez-game-search-render.js`.
+- **Gateway:** `CLASS_READ` with **forced AES** on request/response (like `sans_day_json`); client `shouldEncryptPayload` always on.
+- **Speed:** after any team `/ajax` with wp-load, session cached 5min (`X-EZ-Gateway-Session: cached`) → `game_search` skips wp-load (~2s saved).
+- **Boot:** `Bootstrap::bootMinimal('booking.game_search')` → `CapsuleManager::bootGameSearchOnly()` (wordpress connection only).
+- **Auth:** `web-team` / `web-user` load `wp-load` **before** polyfills (`ez_core_gateway_needs_wp_bootstrap`); avoids `GATEWAY_BOOT` 500.
+- **Boot:** `EZ_GATEWAY_INCOMING_ACTION` + `bootMinimal()` per action; `EZ_GATEWAY_SKIP_WP_PLUGINS` skips WooCommerce/other plugins on team/panel `/ajax` (ez_core only).
+- **Build:** `standalone-wp-session-v2` + `X-EZ-Gateway-WpBoot-Ms` (measure wp-load cost).
+- **Theme:** `ezBookingApi.gameSearchHtml()` → `gameSearchItems()` + `window.ezGameSearchRender`; used on team `sans_management` and `comments`.
+
+### Panel sans-manager (`booking.sans_management_data`)
+
+- Client: `sansManagementData()` promise coalescing (`productId:day:version`); panel page uses load token to drop stale responses.
+- Server: `SansManagementWebHtmlService::getData()` cached 120s (`ez_sans_mgmt_data_*`); invalidates with HTML cache on writes.
+- Encryption: respects `encrypt_reads` (not forced AES for `sans_management_data` when reads encryption is off).
+
+### HAR verification checklist (post-deploy)
+
+Capture fresh HAR on: single-product, reserve, team/sans_management, panel/sans-manager.
+
+| Check | Pass criteria |
+|-------|----------------|
+| Standalone active | Response includes `X-EZ-Gateway-Build: standalone-p0-v2` |
+| No WP cache headers on `/ajax` | No `Expires: 1984` on gateway responses |
+| Rate phase | `X-EZ-Gateway-Phase-Rate-Ms` &lt; ~15ms (standalone) or &lt; ~50ms (WP fallback) |
+| Reservation transport | No `admin-ajax.php` for actions in Post-Remediation table above |
+| single-product dedupe | At most one in-flight `booking.sans_day_json` per `product_id:day_start_time` on initial load |
+| SLA | p95 TTFB `/ajax` &lt; 1s; `wait - (Predispatch + Elapsed)` &lt; 800ms |
+
+### CLI verify (local)
+
+```bash
+php wp-content/mu-plugins/ez_core/bin/gateway-boot-probe.php
+# expect: RESULT: PASS
+
+cd wp-content/themes/escapezoom-v2 && npm run build:front:js
+```
+
+Pest: run inside Docker/CI where `pdo_mysql` and DB are available; host PHP may fail DB driver tests.

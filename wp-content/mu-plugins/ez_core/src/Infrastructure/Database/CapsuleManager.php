@@ -68,6 +68,35 @@ final class CapsuleManager
 	/**
 	 * Product view tracking: WordPress meta + CRM tables only (no external booking DB).
 	 */
+	/**
+	 * Game search: wp_products_search table only (wordpress connection).
+	 */
+	public static function bootGameSearchOnly(): void {
+		if ( self::$booted ) {
+			return;
+		}
+
+		$wpConfig = self::resolveWordpressConfig();
+		if ( null === $wpConfig ) {
+			return;
+		}
+
+		$charset   = defined( 'DB_CHARSET' ) ? DB_CHARSET : 'utf8mb4';
+		$collation = defined( 'DB_COLLATE' ) && DB_COLLATE ? DB_COLLATE : 'utf8mb4_unicode_ci';
+
+		self::$capsule = new Capsule();
+		self::$capsule->addConnection(
+			self::buildConnectionArray( $wpConfig, $charset, $collation, $wpConfig['table_prefix'] ),
+			'wordpress'
+		);
+
+		self::$capsule->setEventDispatcher( new Dispatcher( new Container() ) );
+		self::$capsule->setAsGlobal();
+		self::$capsule->bootEloquent();
+
+		self::$booted = true;
+	}
+
 	public static function bootProductViewOnly(): void {
 		if ( self::$booted ) {
 			return;

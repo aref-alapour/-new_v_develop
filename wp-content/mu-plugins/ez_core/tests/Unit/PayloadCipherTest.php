@@ -54,10 +54,12 @@ it('shouldEncryptResponse encrypts single-product day JSON and writes', function
 		->toBeTrue();
 	expect( PayloadCipher::shouldEncryptResponse( 'booking.sans_week' ) )
 		->toBeFalse();
-	expect( PayloadCipher::shouldEncryptResponse( 'booking.open_sans' ) )
-		->toBe( SecretsLoader::payloadEncryptWrites() );
+	expect( PayloadCipher::shouldEncryptResponse( 'booking.open_sans' ) )->toBeTrue();
 	expect( PayloadCipher::encryptionRequiredFor( 'booking.sans_day_json' ) )
 		->toBe( PayloadCipher::shouldEncryptResponse( 'booking.sans_day_json' ) );
-	expect( PayloadCipher::shouldEncryptResponse( 'booking.game_search' ) )->toBeTrue();
+	expect( PayloadCipher::shouldEncryptResponse( 'booking.sans_management_data' ) )->toBeTrue();
+	expect( PayloadCipher::shouldEncryptResponse( 'booking.close_all_sanses' ) )->toBeTrue();
+	expect( PayloadCipher::shouldEncryptResponse( 'booking.open_sans' ) )->toBeTrue();
+	expect( PayloadCipher::shouldEncryptResponse( 'booking.game_search' ) )->toBeFalse();
 	expect( PayloadCipher::shouldEncryptResponse( 'booking.sans_management_web' ) )->toBeTrue();
 });

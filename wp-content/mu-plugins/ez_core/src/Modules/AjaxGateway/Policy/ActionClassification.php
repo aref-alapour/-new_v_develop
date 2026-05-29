@@ -31,7 +31,7 @@ final class ActionClassification
 		'booking.sans_management_web' => self::CLASS_READ_HTML,
 		'booking.sans_management_data'=> self::CLASS_READ_HTML,
 		'booking.check_playing'       => self::CLASS_READ_HTML,
-		'booking.game_search'         => self::CLASS_READ_HTML,
+		'booking.game_search'         => self::CLASS_READ,
 		'booking.bulk_date_range'     => self::CLASS_WRITE,
 	);
 

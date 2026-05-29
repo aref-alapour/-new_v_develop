@@ -74,6 +74,13 @@ final class Bootstrap
 			return;
 		}
 
+		if ( 'booking.game_search' === $action ) {
+			CapsuleManager::bootGameSearchOnly();
+			self::$dataLayerBooted = true;
+
+			return;
+		}
+
 		if ( in_array( $action, array( 'booking.sans_day_json', 'booking.sans_day' ), true ) ) {
 			CapsuleManager::bootLightGateway();
 			self::$dataLayerBooted = true;

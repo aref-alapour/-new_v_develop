@@ -25,6 +25,8 @@
 - مسیر standalone برای `/ajax` با سوییچ canary اضافه شد:
   - `EZ_AJAX_STANDALONE_ENABLED=true` ⇒ bypass rewrite/template_redirect
   - rollback فوری با خاموش‌کردن flag
+  - **Deploy:** `.htaccess` rule + `docs/project/ops/apache-ajax-light.conf` (all POST `/ajax` → `ez-ajax-standalone.php`)
+  - WP-path fallback: `GatewayDispatcher` uses `ArrayStore` rate limiter on `ez_ajax_gateway` rewrite
 - booking action registration برای مسیر standalone به حالت lazy بر اساس action درآمد (کاهش eager load).
 - contract نسخه‌ای `booking.sans_management_data` (v2 JSON) اضافه شد (پشت rollout flag در UI).
 - telemetry تفکیکی pre-dispatch اضافه شد:

@@ -41,7 +41,19 @@ const READ_ENCRYPT_ACTIONS = new Set([
   'booking.sans_management_web',
   'booking.sans_management_data',
   'booking.check_playing',
-  'booking.game_search',
+]);
+
+/** Team/panel + sensitive booking — always AES on wire (must match PayloadCipher::alwaysEncryptedActions). */
+const ALWAYS_ENCRYPT_ACTIONS = new Set([
+  'booking.sans_day_json',
+  'booking.sans_management_web',
+  'booking.sans_management_data',
+  'booking.check_playing',
+  'booking.open_sans',
+  'booking.close_sans',
+  'booking.open_all_sanses',
+  'booking.close_all_sanses',
+  'booking.bulk_date_range',
 ]);
 
 /**
@@ -49,15 +61,7 @@ const READ_ENCRYPT_ACTIONS = new Set([
  * @param {Record<string, unknown>} boot
  */
 function shouldEncryptPayload(action, boot) {
-  if (action === 'booking.sans_day_json') {
-    return true;
-  }
-  if (
-    action === 'booking.sans_management_web' ||
-    action === 'booking.sans_management_data' ||
-    action === 'booking.check_playing' ||
-    action === 'booking.game_search'
-  ) {
+  if (ALWAYS_ENCRYPT_ACTIONS.has(action)) {
     return true;
   }
   if (WRITE_ENCRYPT_ACTIONS.has(action) && boot.encrypt_writes) {

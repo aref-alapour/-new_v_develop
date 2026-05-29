@@ -1351,6 +1351,8 @@ jQuery(document).ready(function ($) {
             return;
         }
 
+        lastBuildSansDayStart = dayStart;
+
         showSansLoading();
 
         ensureEzAjaxBoot();
@@ -1372,6 +1374,7 @@ jQuery(document).ready(function ($) {
                         return;
                     }
                     applySansList(res);
+                    initialSansLoadComplete = true;
                 })
                 .catch(function (err) {
                     if (err && err.name === 'AbortError') {
@@ -1379,6 +1382,7 @@ jQuery(document).ready(function ($) {
                     }
                     console.error('[EZ Booking] Gateway error:', err);
                     showSansGatewayError();
+                    initialSansLoadComplete = true;
                 });
             return;
         }
@@ -1971,6 +1975,20 @@ jQuery(document).ready(function ($) {
         }
     });
 
+    let initialTodayAutoClickDone = false;
+    let initialSansLoadComplete = false;
+    let lastBuildSansDayStart = 0;
+
+    function triggerInitialTodayClick() {
+        if (initialTodayAutoClickDone) {
+            return;
+        }
+        initialTodayAutoClickDone = true;
+        setTimeout(() => {
+            $('#today-btn-desktop').trigger('click');
+        }, 100);
+    }
+
     // Populate date buttons
     function populateDateButtons() {
         // ساخت API URL
@@ -2023,10 +2041,7 @@ jQuery(document).ready(function ($) {
                 // فعال کردن Embla carousel برای تقویم
                 initDatesEmbla();
 
-                // Auto-click امروز
-                setTimeout(() => {
-                    $('#today-btn-desktop').click();
-                }, 100);
+                triggerInitialTodayClick();
             })
             .catch(error => {
                 console.error('Error fetching server time:', error);
@@ -2036,10 +2051,7 @@ jQuery(document).ready(function ($) {
                 // فعال کردن Embla carousel برای تقویم
                 initDatesEmbla();
                 
-                // Auto-click
-                setTimeout(() => {
-                    $('#today-btn-desktop').click();
-                }, 100);
+                triggerInitialTodayClick();
             });
     }
 
@@ -2161,7 +2173,20 @@ jQuery(document).ready(function ($) {
     // BuildSans(ProductJsObject.product_id, (Date.now() / 1000))
 
     SelectDay.on('slideChange', function () {
-        setTimeout(() => $(".swiper-slide-active [data-reserve-timestamp]").get(0).click(), 1)
+        if (!initialSansLoadComplete) {
+            return;
+        }
+        setTimeout(() => {
+            const $active = $('.swiper-slide-active [data-reserve-timestamp]').first();
+            if (!$active.length) {
+                return;
+            }
+            const ts = parseInt($active.data('reserve-timestamp'), 10);
+            if (Number.isFinite(ts) && ts === lastBuildSansDayStart) {
+                return;
+            }
+            $active.trigger('click');
+        }, 1);
     })
 
     new Swiper('.product-gallery', {

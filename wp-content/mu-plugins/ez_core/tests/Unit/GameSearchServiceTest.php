@@ -12,23 +12,32 @@ it('returns empty html for blank game search term', function () {
 	expect( ( new GameSearchService() )->searchHtml( '   ' ) )->toBe( '' );
 } );
 
-it('builds CRM game search item markup from wp_products_search rows', function () {
+it('builds CRM game search items from wp_products_search rows', function () {
 	$repo = new class() extends WordpressProductsSearchRepository {
 		/**
-		 * @return list<array{product_id: int, product_name: string}>
+		 * @return list<array{product_id: int, product_name: string, product_image_url: string, product_city: string|null, product_hood: string|null}>
 		 */
 		public function searchByTerm( string $term, int $limit = 50 ): array {
 			return array(
 				array(
-					'product_id'   => 5104,
-					'product_name' => 'اتاق تست',
+					'product_id'        => 5104,
+					'product_name'      => 'اتاق تست',
+					'product_image_url' => 'https://example.com/img.jpg',
+					'product_city'      => '{"name":"تهران"}',
+					'product_hood'      => null,
 				),
 			);
 		}
 	};
 
-	$html = ( new GameSearchService( $repo ) )->searchHtml( 'تست' );
+	$service = new GameSearchService( $repo );
+	$items   = $service->searchItems( 'تست' );
+	$html    = $service->searchHtml( 'تست' );
 
+	expect( $items )->toHaveCount( 1 );
+	expect( $items[0]['id'] )->toBe( 5104 );
+	expect( $items[0]['title'] )->toBe( 'اتاق تست' );
+	expect( $items[0]['city'] )->toBe( 'تهران' );
 	expect( $html )->toContain( 'team_sans_game_search_item' );
 	expect( $html )->toContain( 'data-id="5104"' );
 	expect( $html )->toContain( 'اتاق تست' );

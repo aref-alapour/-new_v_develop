@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace EscapeZoom\Core\Modules\AjaxGateway;
 
+use EscapeZoom\Core\Infrastructure\Cache\CacheRepositoryFactory;
 use EscapeZoom\Core\Modules\AjaxGateway\Auth\NonceStore;
 use EscapeZoom\Core\Modules\AjaxGateway\Auth\RateLimiter;
 use EscapeZoom\Core\Modules\AjaxGateway\Auth\SignatureVerifier;
@@ -21,6 +22,8 @@ use EZ\Ajax\Auth\SubKey;
 final class GatewayDispatcher
 {
 	public static function handle( string $gatewayPath ): void {
+		self::ensureLightGatewayForWpRewrite();
+
 		$t0 = microtime( true );
 		$tAfterRate = $tAfterAuth = $tAfterCrypto = $tAfterPolicy = $tAfterOwner = 0.0;
 
@@ -73,6 +76,8 @@ final class GatewayDispatcher
 			GatewayResponse::json( false, array(), array( 'code' => 'UNKNOWN_ACTION', 'message' => 'Unknown action' ), 404 );
 		}
 
+		self::ensureWordPressUserSession( $action, $clientKind );
+
 		$rate = RateLimiter::check( $action, $clientId );
 		if ( $rate['limited'] ) {
 			self::logRateLimit( $action );
@@ -124,7 +129,10 @@ final class GatewayDispatcher
 			GatewayResponse::json(
 				false,
 				array(),
-				array( 'code' => $policyErr, 'message' => 'Forbidden' ),
+				array(
+					'code'    => $policyErr,
+					'message' => ActionPolicy::ERR_AUTH_REQUIRED === $policyErr ? 'Login required' : 'Forbidden',
+				),
 				403
 			);
 		}
@@ -132,12 +140,8 @@ final class GatewayDispatcher
 
 		if ( ActionClassification::requiresSansPanelAuth( $action ) ) {
 			try {
-				if ( 'booking.game_search' === $action ) {
-					SansManagementAuthorizationService::assertTeamSansToolsAccess( $clientKind );
-				} else {
-					$productId = isset( $payload['product_id'] ) ? (int) $payload['product_id'] : 0;
-					SansManagementAuthorizationService::assertCanManageProduct( $productId, $clientKind );
-				}
+				$productId = isset( $payload['product_id'] ) ? (int) $payload['product_id'] : 0;
+				SansManagementAuthorizationService::assertCanManageProduct( $productId, $clientKind );
 			} catch ( GatewayAuthException $e ) {
 				GatewayResponse::json(
 					false,
@@ -204,6 +208,87 @@ final class GatewayDispatcher
 		}
 
 		return trim( strip_tags( $str ) );
+	}
+
+	/**
+	 * Standalone gateway: load WP cookie session for team/panel owner checks.
+	 */
+	private static function ensureWordPressUserSession( string $action, string $clientKind ): void {
+		if ( defined( 'EZ_GATEWAY_SESSION_CACHED' ) && EZ_GATEWAY_SESSION_CACHED ) {
+			return;
+		}
+
+		if ( ! self::actionNeedsWordPressSession( $action, $clientKind ) ) {
+			return;
+		}
+
+		if ( defined( 'EZ_AJAX_GATEWAY_WP_BOOTSTRAP' ) && EZ_AJAX_GATEWAY_WP_BOOTSTRAP ) {
+			return;
+		}
+
+		if ( function_exists( 'is_user_logged_in' ) && is_user_logged_in() ) {
+			return;
+		}
+
+		if ( defined( 'EZ_AJAX_POLYFILLS_LOADED' ) && EZ_AJAX_POLYFILLS_LOADED ) {
+			GatewayResponse::json(
+				false,
+				array(),
+				array(
+					'code'    => 'GATEWAY_BOOT',
+					'message' => 'Login required but WP session bootstrap ran after light polyfills',
+				),
+				500
+			);
+		}
+
+		$corePath = defined( 'EZ_CORE_PATH' ) ? EZ_CORE_PATH : dirname( __DIR__, 4 );
+		$bridge   = $corePath . '/bootstrap/gateway-request.php';
+		if ( is_readable( $bridge ) ) {
+			require_once $bridge;
+		}
+
+		if ( function_exists( 'ez_core_gateway_bootstrap_wordpress' ) ) {
+			ez_core_gateway_bootstrap_wordpress();
+		}
+
+		if ( ! headers_sent() && function_exists( 'is_user_logged_in' ) && is_user_logged_in() ) {
+			header( 'X-EZ-Gateway-WpSession: wp-load' );
+		}
+	}
+
+	private static function actionNeedsWordPressSession( string $action, string $clientKind ): bool {
+		if ( ActionClassification::requiresSansPanelAuth( $action ) ) {
+			return true;
+		}
+
+		if ( ! ActionClassification::isWrite( $action ) ) {
+			return false;
+		}
+
+		return in_array( $clientKind, array( 'web-user', 'web-team' ), true );
+	}
+
+	/**
+	 * WordPress rewrite path: use in-memory rate limiter (avoid /tmp/ez_cache file I/O).
+	 */
+	private static function ensureLightGatewayForWpRewrite(): void {
+		if ( defined( 'EZ_AJAX_LIGHT_GATEWAY' ) && EZ_AJAX_LIGHT_GATEWAY ) {
+			return;
+		}
+		if ( defined( 'EZ_AJAX_LIGHT_GATEWAY_REQUEST' ) && EZ_AJAX_LIGHT_GATEWAY_REQUEST ) {
+			return;
+		}
+		if ( ! function_exists( 'get_query_var' ) ) {
+			return;
+		}
+		if ( ! get_query_var( 'ez_ajax_gateway' ) ) {
+			return;
+		}
+		if ( ! defined( 'EZ_AJAX_LIGHT_GATEWAY' ) ) {
+			define( 'EZ_AJAX_LIGHT_GATEWAY', true );
+		}
+		CacheRepositoryFactory::reset();
 	}
 
 	private static function logRateLimit( string $action ): void {

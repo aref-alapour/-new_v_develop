@@ -6,6 +6,7 @@ namespace EscapeZoom\Core\Modules\Booking\Services\Team;
 
 use EscapeZoom\Core\Infrastructure\Database\CapsuleManager;
 use EscapeZoom\Core\Models\BookingHistory;
+use EscapeZoom\Core\Support\TehranTime;
 use Illuminate\Database\Capsule\Manager as Capsule;
 
 /**
@@ -111,53 +112,7 @@ final class TeamSansBridge
 	}
 
 	public static function gameSearchHtml( string $term ): string {
-		self::assertExternalDb();
-
-		$term = trim( $term );
-		if ( '' === $term ) {
-			return '';
-		}
-
-		$parts   = preg_split( '/\s+/', $term ) ?: array();
-		$products = array();
-
-		if ( count( $parts ) === 2 && '' !== $parts[0] ) {
-			$res1 = self::searchProducts( $parts[0] );
-			$res2 = self::searchProducts( $parts[1] );
-			$temp = array();
-			foreach ( $res1 as $row ) {
-				$temp[ (int) $row['product_id'] ] = $row;
-			}
-			$ids1 = array_keys( $temp );
-			$ids2 = array();
-			foreach ( $res2 as $row ) {
-				$ids2[] = (int) $row['product_id'];
-				$temp[ (int) $row['product_id'] ] = $row;
-			}
-			if ( '' !== $parts[1] ) {
-				foreach ( array_intersect( $ids1, $ids2 ) as $pid ) {
-					$products[] = $temp[ $pid ];
-				}
-			} else {
-				$products = array_values( $temp );
-			}
-		} else {
-			$products = self::searchProducts( $term );
-		}
-
-		$html = '';
-		$slice = array_slice( $products, 0, 50 );
-		foreach ( $slice as $product ) {
-			$pid   = (int) $product['product_id'];
-			$name  = esc_html( (string) ( $product['title'] ?? '' ) );
-			$city  = esc_html( (string) ( $product['city_name'] ?? '' ) );
-			$image = esc_url( self::normalizeProductImageUrl( (string) ( $product['image'] ?? '' ) ) );
-			$html .= '<a href="javascript:;" data-id="' . esc_attr( (string) $pid ) . '" data-title="' . $name . '" class="team_sans_game_search_item flex items-center gap-x-2 py-2">';
-			$html .= '<img src="' . $image . '" alt="" class="h-10 w-7.5 rounded">';
-			$html .= '<span>' . $name . ' (' . $city . ')</span></a>';
-		}
-
-		return $html;
+		return ( new GameSearchService() )->searchHtml( $term );
 	}
 
 	/**
@@ -191,12 +146,12 @@ final class TeamSansBridge
 				);
 			}
 
-			$startGreg = jalali_to_gregorian( (int) $startParts[0], (int) $startParts[1], (int) $startParts[2] );
-			$endGreg   = jalali_to_gregorian( (int) $endParts[0], (int) $endParts[1], (int) $endParts[2] );
-			$startTs   = strtotime( sprintf( '%04d-%02d-%02d 00:00:00', $startGreg[0], $startGreg[1], $startGreg[2] ) );
-			$endTs     = strtotime( sprintf( '%04d-%02d-%02d 00:00:00', $endGreg[0], $endGreg[1], $endGreg[2] ) );
+			$startGreg = \jalali_to_gregorian( (int) $startParts[0], (int) $startParts[1], (int) $startParts[2] );
+			$endGreg   = \jalali_to_gregorian( (int) $endParts[0], (int) $endParts[1], (int) $endParts[2] );
+			$startDay  = TehranTime::gregorianDayStartUnix( (int) $startGreg[0], (int) $startGreg[1], (int) $startGreg[2] );
+			$endDay    = TehranTime::gregorianDayStartUnix( (int) $endGreg[0], (int) $endGreg[1], (int) $endGreg[2] );
 
-			if ( false === $startTs || false === $endTs || $startTs > $endTs ) {
+			if ( $startDay <= 0 || $endDay <= 0 || $startDay > $endDay ) {
 				return array(
 					'success' => false,
 					'data'    => array( array( 'error' => 'تاریخ شروع نمی‌تواند بزرگتر از تاریخ پایان باشد.' ) ),
@@ -212,25 +167,32 @@ final class TeamSansBridge
 			}
 
 			$sansesData = self::getSansesFromRow( $productRow );
-			$userId     = function_exists( 'get_current_user_id' ) ? (int) get_current_user_id() : 0;
+			$userId     = 0;
+			if ( function_exists( 'ez_core_gateway_cached_user_id' ) ) {
+				$userId = ez_core_gateway_cached_user_id();
+			}
+			if ( $userId <= 0 && function_exists( 'get_current_user_id' ) ) {
+				$userId = (int) get_current_user_id();
+			}
 			$now        = time();
 			$processed  = 0;
 
 			$allSlotTimes = array();
-			$currentDay   = $startTs;
-			while ( $currentDay <= $endTs ) {
-				$dayType = self::getDayType( $currentDay );
+			$currentDay   = $startDay;
+			while ( $currentDay <= $endDay ) {
+				$dayAnchor = TehranTime::tehranMidnightUnix( $currentDay );
+				$dayType   = self::getDayType( $dayAnchor );
 				if ( ! isset( $sansesData[ $dayType ] ) || ! is_array( $sansesData[ $dayType ] ) ) {
-					$currentDay = strtotime( '+1 day', $currentDay );
+					$currentDay = TehranTime::addTehranDays( $dayAnchor, 1 );
 					continue;
 				}
 
-				$daySlots = self::buildDaySlots( $currentDay, $dayType, $sansesData[ $dayType ] );
+				$daySlots = self::buildDaySlots( $dayAnchor, $dayType, $sansesData[ $dayType ] );
 				foreach ( $daySlots as $slot ) {
 					$allSlotTimes[] = (int) $slot['ts'];
 				}
 
-				$currentDay = strtotime( '+1 day', $currentDay );
+				$currentDay = TehranTime::addTehranDays( $dayAnchor, 1 );
 			}
 
 			$allSlotTimes = array_values( array_unique( array_filter( $allSlotTimes ) ) );
@@ -478,8 +440,8 @@ final class TeamSansBridge
 			return $daySlots;
 		}
 
-		$timeRes     = (int) $timeRes;
-		$timeResNext = $timeRes + 86400;
+		$timeRes     = TehranTime::tehranMidnightUnix( $timeRes );
+		$timeResNext = TehranTime::addTehranDays( $timeRes, 1 );
 
 		foreach ( $sansRows as $sans ) {
 			if ( ! is_array( $sans ) || ! isset( $sans['time'] ) || '' === (string) $sans['time'] ) {
@@ -487,10 +449,11 @@ final class TeamSansBridge
 			}
 			$t = (string) $sans['time'];
 			$h = (int) substr( $t, 0, 2 );
+			$hm = substr( $t, 0, 5 );
 			if ( $h >= 8 ) {
-				$ts = strtotime( date( 'Y-m-d', $timeRes ) . ' ' . $t );
+				$ts = TehranTime::slotTimestamp( $timeRes, $hm );
 			} else {
-				$ts = strtotime( date( 'Y-m-d', $timeResNext ) . ' ' . $t );
+				$ts = TehranTime::slotTimestamp( $timeResNext, $hm );
 			}
 			if ( false === $ts ) {
 				continue;
@@ -509,34 +472,6 @@ final class TeamSansBridge
 		);
 
 		return $daySlots;
-	}
-
-	/**
-	 * @return list<array<string, mixed>>
-	 */
-	private static function searchProducts( string $term ): array {
-		$term = trim( $term );
-		if ( '' === $term ) {
-			return array();
-		}
-
-		// Strictly use prefix search (indexed) to avoid full table scans.
-		$startsLike = addcslashes( $term, '%_\\' ) . '%';
-
-		$query = Capsule::connection( 'external' )
-			->table( 'products_data' )
-			->where( 'title', 'LIKE', $startsLike )
-			->orderBy( 'title' )
-			->limit( 50 );
-
-		$rows = $query->get( array( 'product_id', 'title', 'city_name', 'image' ) );
-
-		$out = array();
-		foreach ( $rows as $row ) {
-			$out[] = (array) $row;
-		}
-
-		return $out;
 	}
 
 	private static function normalizeProductImageUrl( string $imagePath ): string {
@@ -574,15 +509,32 @@ final class TeamSansBridge
 	}
 
 	private static function ensureJalaliConverter(): void {
-		if ( function_exists( 'jalali_to_gregorian' ) ) {
+		if ( \function_exists( 'jalali_to_gregorian' ) ) {
 			return;
 		}
 
-		$themeJdf = function_exists( 'get_template_directory' )
-			? get_template_directory() . '/ahmadreza/jdate.php'
-			: '';
-		if ( '' !== $themeJdf && is_readable( $themeJdf ) ) {
-			require_once $themeJdf;
+		$candidates = array();
+
+		if ( function_exists( 'get_template_directory' ) ) {
+			$candidates[] = get_template_directory() . '/ahmadreza/jdate.php';
 		}
+
+		$root = defined( 'ABSPATH' ) ? ABSPATH : ( defined( 'EZ_CORE_PATH' ) ? dirname( EZ_CORE_PATH, 3 ) . '/' : '' );
+		if ( '' !== $root ) {
+			$candidates[] = $root . 'wp-content/themes/escapezoom-v2/ahmadreza/jdate.php';
+			$candidates[] = $root . 'web-service/jdf.php';
+		}
+
+		foreach ( $candidates as $path ) {
+			if ( '' === $path || ! is_readable( $path ) ) {
+				continue;
+			}
+			require_once $path;
+			if ( \function_exists( 'jalali_to_gregorian' ) ) {
+				return;
+			}
+		}
+
+		throw new \RuntimeException( 'Jalali date converter unavailable' );
 	}
 }

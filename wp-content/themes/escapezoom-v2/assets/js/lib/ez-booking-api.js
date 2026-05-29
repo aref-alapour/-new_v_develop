@@ -11,6 +11,10 @@ let sansDayJsonController = null;
 /** @type {string} */
 let sansDayJsonInFlightKey = '';
 
+/** @type {Map<string, Promise<Array<Record<string, unknown>>|null>>} */
+const sansDayJsonInflight = new Map();
+const sansManagementDataInflight = new Map();
+
 /** @type {AbortController|null} */
 let sansManagementWebController = null;
 
@@ -199,40 +203,64 @@ export async function sansManagementWeb(productId, dayStart) {
  * @param {number} productId
  * @param {number} dayStart unix day start
  * @param {string} [version]
+ * @param {{ force?: boolean }} [opts]
  * @returns {Promise<Record<string, unknown>|null>}
  */
-export async function sansManagementData(productId, dayStart, version = 'v2') {
-  sansManagementWebController = replaceController(
-    sansManagementWebController,
-    new AbortController()
-  );
-  const controller = sansManagementWebController;
-
-  try {
-    const resp = await ezFetch(
-      'booking.sans_management_data',
-      {
-        product_id: parseInt(productId, 10),
-        day_start_time: parseInt(dayStart, 10),
-        version: String(version || 'v2'),
-      },
-      { signal: controller.signal }
-    );
-    const text = await readGatewayBodyText(resp);
-    if (!text || !text.trim()) {
-      return {};
-    }
-    return JSON.parse(text);
-  } catch (error) {
-    if (isAbortError(error)) {
-      return null;
-    }
-    throw error;
-  } finally {
-    if (sansManagementWebController === controller) {
-      sansManagementWebController = null;
-    }
+export async function sansManagementData(productId, dayStart, version = 'v2', opts = {}) {
+  const pid = parseInt(productId, 10);
+  const day = parseInt(dayStart, 10);
+  if (!Number.isFinite(pid) || pid <= 0 || !Number.isFinite(day) || day <= 0) {
+    throw new Error(`[EZ Booking] Invalid sansManagementData args: product=${productId} day=${dayStart}`);
   }
+
+  const requestKey = `${pid}:${day}:${String(version || 'v2')}`;
+  if (opts.force) {
+    sansManagementDataInflight.delete(requestKey);
+  }
+  const existing = sansManagementDataInflight.get(requestKey);
+  if (existing) {
+    return existing;
+  }
+
+  const promise = (async () => {
+    sansManagementWebController = replaceController(
+      sansManagementWebController,
+      new AbortController()
+    );
+    const controller = sansManagementWebController;
+
+    try {
+      const resp = await ezFetch(
+        'booking.sans_management_data',
+        {
+          product_id: pid,
+          day_start_time: day,
+          version: String(version || 'v2'),
+        },
+        { signal: controller.signal }
+      );
+      const text = await readGatewayBodyText(resp);
+      if (!text || !text.trim()) {
+        return {};
+      }
+      return JSON.parse(text);
+    } catch (error) {
+      if (isAbortError(error)) {
+        return null;
+      }
+      throw error;
+    } finally {
+      if (sansManagementWebController === controller) {
+        sansManagementWebController = null;
+      }
+      if (sansManagementDataInflight.get(requestKey) === promise) {
+        sansManagementDataInflight.delete(requestKey);
+      }
+    }
+  })();
+
+  sansManagementDataInflight.set(requestKey, promise);
+  return promise;
 }
 
 /**
@@ -334,9 +362,9 @@ export async function checkPlayingHtml(productId, dayStart) {
 
 /**
  * @param {string} term
- * @returns {Promise<string|null>}
+ * @returns {Promise<Array<{id: number, title: string, city: string, image_url: string}>|null>}
  */
-export async function gameSearchHtml(term) {
+export async function gameSearchItems(term) {
   gameSearchController = replaceController(
     gameSearchController,
     new AbortController()
@@ -349,7 +377,13 @@ export async function gameSearchHtml(term) {
       { term: String(term || '') },
       { signal: controller.signal }
     );
-    return await readGatewayBodyText(resp);
+    const text = await readGatewayBodyText(resp);
+    assertGatewayJsonResponse(resp, text);
+    const data = JSON.parse(String(text).replace(/^\uFEFF/, '').trim());
+    if (!data || data.ok !== true || !Array.isArray(data.items)) {
+      return [];
+    }
+    return data.items;
   } catch (error) {
     if (isAbortError(error)) {
       return null;
@@ -360,6 +394,23 @@ export async function gameSearchHtml(term) {
       gameSearchController = null;
     }
   }
+}
+
+/**
+ * @param {string} term
+ * @param {{ render?: (items: Array<Record<string, unknown>>) => string }} [opts]
+ * @returns {Promise<string|null>}
+ */
+export async function gameSearchHtml(term, opts = {}) {
+  const items = await gameSearchItems(term);
+  if (items === null) {
+    return null;
+  }
+  const render = opts.render || (typeof window !== 'undefined' && window.ezGameSearchRender?.renderGameSearchItems);
+  if (typeof render === 'function') {
+    return render(items);
+  }
+  return items.map((item) => item.title).join(', ');
 }
 
 /**
@@ -418,39 +469,52 @@ export async function sansDayJson(productId, dayStart) {
   }
 
   const requestKey = `${pid}:${day}`;
-  if (sansDayJsonInFlightKey !== requestKey) {
-    sansDayJsonController = replaceController(
-      sansDayJsonController,
-      new AbortController()
-    );
-    sansDayJsonInFlightKey = requestKey;
+  const existing = sansDayJsonInflight.get(requestKey);
+  if (existing) {
+    return existing;
   }
-  const controller = sansDayJsonController;
 
-  try {
-    const resp = await ezFetch(
-      'booking.sans_day_json',
-      {
-        product_id: pid,
-        day_start_time: day,
-        days: 1,
-      },
-      { signal: controller.signal }
-    );
-    const text = await readGatewayBodyText(resp);
-    assertGatewayJsonResponse(resp, text);
-    return parseGatewaySansJson(text);
-  } catch (error) {
-    if (isAbortError(error)) {
-      return null;
+  const promise = (async () => {
+    if (sansDayJsonInFlightKey !== requestKey) {
+      sansDayJsonController = replaceController(
+        sansDayJsonController,
+        new AbortController()
+      );
+      sansDayJsonInFlightKey = requestKey;
     }
-    throw error;
-  } finally {
-    if (sansDayJsonController === controller) {
-      sansDayJsonController = null;
-      sansDayJsonInFlightKey = '';
+    const controller = sansDayJsonController;
+
+    try {
+      const resp = await ezFetch(
+        'booking.sans_day_json',
+        {
+          product_id: pid,
+          day_start_time: day,
+          days: 1,
+        },
+        { signal: controller.signal }
+      );
+      const text = await readGatewayBodyText(resp);
+      assertGatewayJsonResponse(resp, text);
+      return parseGatewaySansJson(text);
+    } catch (error) {
+      if (isAbortError(error)) {
+        return null;
+      }
+      throw error;
+    } finally {
+      if (sansDayJsonController === controller) {
+        sansDayJsonController = null;
+        sansDayJsonInFlightKey = '';
+      }
+      if (sansDayJsonInflight.get(requestKey) === promise) {
+        sansDayJsonInflight.delete(requestKey);
+      }
     }
-  }
+  })();
+
+  sansDayJsonInflight.set(requestKey, promise);
+  return promise;
 }
 
 export async function sansDayHtml(productId, dayStart) {

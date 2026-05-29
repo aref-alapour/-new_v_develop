@@ -88,20 +88,7 @@ final class PayloadCipher
 
 	/** Whether request/response wire bodies for this action use AES-GCM envelopes. */
 	public static function shouldEncryptResponse( string $action ): bool {
-		// Force encryption for sensitive team actions.
-		if (
-			in_array(
-				$action,
-				array(
-					'booking.sans_day_json',
-					'booking.sans_management_web',
-					'booking.sans_management_data',
-					'booking.check_playing',
-					'booking.game_search',
-				),
-				true
-			)
-		) {
+		if ( in_array( $action, self::alwaysEncryptedActions(), true ) ) {
 			return true;
 		}
 
@@ -114,11 +101,29 @@ final class PayloadCipher
 		}
 
 		if ( ActionClassification::isRead( $action ) ) {
-			// Project-only mode: keep reads signature-only for low overhead.
 			return SecretsLoader::payloadEncryptReads();
 		}
 
 		return false;
+	}
+
+	/**
+	 * Team/panel + single-product reads that always use AES on the wire.
+	 *
+	 * @return list<string>
+	 */
+	public static function alwaysEncryptedActions(): array {
+		return array(
+			'booking.sans_day_json',
+			'booking.sans_management_web',
+			'booking.sans_management_data',
+			'booking.check_playing',
+			'booking.open_sans',
+			'booking.close_sans',
+			'booking.open_all_sanses',
+			'booking.close_all_sanses',
+			'booking.bulk_date_range',
+		);
 	}
 
 	private static function keyFromSubSecret( string $subSecretBase64Url ): string {

@@ -67,11 +67,18 @@ final class SansManagementAuthorizationService
 			throw new GatewayAuthException( 'FORBIDDEN', 'Team access required' );
 		}
 
+		if ( function_exists( 'ez_core_gateway_cached_team_ok' ) && ez_core_gateway_cached_team_ok() ) {
+			return;
+		}
+
 		if ( function_exists( 'current_user_can' ) && current_user_can( 'manage_options' ) ) {
 			return;
 		}
 
 		$userId = function_exists( 'get_current_user_id' ) ? (int) get_current_user_id() : 0;
+		if ( $userId <= 0 && function_exists( 'ez_core_gateway_cached_user_id' ) ) {
+			$userId = ez_core_gateway_cached_user_id();
+		}
 		if ( $userId <= 0 ) {
 			throw new GatewayAuthException( 'AUTH_REQUIRED', 'Login required' );
 		}

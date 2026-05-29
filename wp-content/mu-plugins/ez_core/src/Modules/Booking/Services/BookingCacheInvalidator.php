@@ -38,7 +38,7 @@ final class BookingCacheInvalidator
 			return;
 		}
 
-		$key = "ez_sans_mgmt_html_{$productId}_{$dayStartTime}";
-		wp_cache_delete( $key, self::CACHE_GROUP );
+		wp_cache_delete( "ez_sans_mgmt_html_{$productId}_{$dayStartTime}", self::CACHE_GROUP );
+		wp_cache_delete( "ez_sans_mgmt_data_{$productId}_{$dayStartTime}", self::CACHE_GROUP );
 	}
 }

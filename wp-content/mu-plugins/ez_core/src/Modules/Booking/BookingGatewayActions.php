@@ -294,13 +294,25 @@ final class BookingGatewayActions
 		$term = isset( $body['term'] ) ? trim( (string) $body['term'] ) : '';
 
 		try {
-			$html = TeamSansBridge::gameSearchHtml( $term );
+			$items = ( new \EscapeZoom\Core\Modules\Booking\Services\Team\GameSearchService() )->searchItems( $term );
 		} catch ( \Throwable $e ) {
 			GatewayResponse::json( false, array(), array( 'code' => 'SERVER', 'message' => $e->getMessage() ), 500 );
 		}
 
 		self::emitTelemetry( $startedAt );
-		GatewayResponse::html( $html );
+		if ( ! headers_sent() ) {
+			header( 'X-EZ-Contract-Version: game-search-v1' );
+			header( 'Content-Type: application/json; charset=utf-8' );
+		}
+		GatewayResponse::raw(
+			wp_json_encode(
+				array(
+					'ok'    => true,
+					'items' => $items,
+				),
+				JSON_UNESCAPED_UNICODE
+			) ?: '{"ok":true,"items":[]}'
+		);
 	}
 
 	/**
@@ -343,7 +355,7 @@ final class BookingGatewayActions
 			GatewayResponse::json( false, array(), array( 'code' => 'VALIDATION', 'message' => 'Invalid product or day' ), 400 );
 		}
 
-		$userId = function_exists( 'get_current_user_id' ) ? (int) get_current_user_id() : 0;
+		$userId = self::gatewayUserId();
 
 		try {
 			if ( 'open_all_sanses' === $type ) {
@@ -356,6 +368,7 @@ final class BookingGatewayActions
 		}
 
 		BookingCacheInvalidator::invalidateSansDay( $productId, $dayStartTime );
+		BookingCacheInvalidator::invalidateSansManagementHtml( $productId, $dayStartTime );
 
 		self::emitTelemetry( $startedAt );
 		GatewayResponse::raw( wp_json_encode( $result, JSON_UNESCAPED_UNICODE ) ?: '{}' );
@@ -374,7 +387,7 @@ final class BookingGatewayActions
 			GatewayResponse::json( false, array(), array( 'code' => 'VALIDATION', 'message' => 'Invalid sans' ), 400 );
 		}
 
-		$userId = function_exists( 'get_current_user_id' ) ? (int) get_current_user_id() : 0;
+		$userId = self::gatewayUserId();
 
 		try {
 			if ( 'open_sans' === $type ) {
@@ -387,6 +400,10 @@ final class BookingGatewayActions
 		}
 
 		BookingCacheInvalidator::invalidateSansDay(
+			$productId,
+			TeamSansBridge::tehranMidnightUnix( $sansTime )
+		);
+		BookingCacheInvalidator::invalidateSansManagementHtml(
 			$productId,
 			TeamSansBridge::tehranMidnightUnix( $sansTime )
 		);
@@ -404,6 +421,23 @@ final class BookingGatewayActions
 
 	private static function syncResponseCrypto(): void {
 		GatewayResponse::syncCryptoContextFromGlobals();
+	}
+
+	private static function gatewayUserId(): int {
+		if ( function_exists( 'get_current_user_id' ) ) {
+			$userId = (int) get_current_user_id();
+			if ( $userId > 0 ) {
+				return $userId;
+			}
+		}
+
+		if ( function_exists( 'ez_core_gateway_cached_user_id' ) ) {
+			return ez_core_gateway_cached_user_id();
+		}
+
+		return isset( $GLOBALS['ez_gateway_cached_user_id'] )
+			? (int) $GLOBALS['ez_gateway_cached_user_id']
+			: 0;
 	}
 
 	/**

@@ -19,12 +19,23 @@ final class SansManagementWebHtmlService
 			throw new \RuntimeException( 'External DB unavailable' );
 		}
 
+		$cacheKey = "ez_sans_mgmt_data_{$productId}_{$dayStartTime}";
+		$cached   = function_exists( 'wp_cache_get' ) ? wp_cache_get( $cacheKey, 'ez_booking' ) : false;
+		if ( is_array( $cached ) ) {
+			return $cached;
+		}
+
 		$fetch = SansManagementDataFetcher::fetchDay( $productId, $dayStartTime );
 		if ( array() === $fetch ) {
 			return array();
 		}
 
-		return SansManagementStateResolver::buildDayPayload( $fetch );
+		$data = SansManagementStateResolver::buildDayPayload( $fetch );
+		if ( function_exists( 'wp_cache_set' ) && array() !== $data ) {
+			wp_cache_set( $cacheKey, $data, 'ez_booking', 120 );
+		}
+
+		return $data;
 	}
 
 	public static function render( int $productId, int $dayStartTime ): string {

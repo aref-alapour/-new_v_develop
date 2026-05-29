@@ -536,11 +536,36 @@ for ($i = 1; $i <= 45; $i++) {
         fetchPhoneReserveQuote();
     }
 
+    const DATE_RANGE_DEFAULT_LABEL = 'انتخاب بازه زمانی';
+
+    function setCalendarDateRangeLabel(text) {
+        const triggerEl = document.getElementById('date-range-trigger');
+        if (!triggerEl) {
+            return;
+        }
+        let textSpan = triggerEl.querySelector('.date-range-text');
+        if (!textSpan) {
+            textSpan = document.createElement('span');
+            textSpan.className = 'date-range-text text-gray-600';
+            triggerEl.insertBefore(textSpan, triggerEl.firstChild);
+        }
+        textSpan.textContent = text;
+    }
+
+    function resetCalendarDateRange() {
+        const dataEl = document.getElementById('date-range-data');
+        if (dataEl) {
+            dataEl.value = '';
+        }
+        setCalendarDateRangeLabel(DATE_RANGE_DEFAULT_LABEL);
+        if (typeof calendar !== 'undefined' && typeof calendar.clearSelection === 'function') {
+            calendar.clearSelection();
+        }
+    }
+
     // Initialize calendar module
     const calendar = new PersianCalendar({
         onDateRangeSelected: function(dateRange) {
-            // این تابع زمانی که کاربر بازه را انتخاب و تایید میکند اجرا میشود
-            // میتوانید تاریخ را در فیلد مخفی قرار دهید یا متن دکمه را عوض کنید
             if (dateRange && dateRange.startDate && dateRange.endDate) {
                 const startDateStr = dateRange.startDate.year + '/' + 
                                     dateRange.startDate.month.toString().padStart(2, '0') + '/' + 
@@ -550,8 +575,15 @@ for ($i = 1; $i <= 45; $i++) {
                                     dateRange.endDate.day.toString().padStart(2, '0');
                 
                 document.getElementById('date-range-data').value = startDateStr + ' - ' + endDateStr;
-                document.getElementById('date-range-trigger').innerText = startDateStr + ' تا ' + endDateStr;
+                setCalendarDateRangeLabel(startDateStr + ' تا ' + endDateStr);
             }
+        },
+        onDateRangeCleared: function() {
+            const dataEl = document.getElementById('date-range-data');
+            if (dataEl) {
+                dataEl.value = '';
+            }
+            setCalendarDateRangeLabel(DATE_RANGE_DEFAULT_LABEL);
         }
     });
 
@@ -583,6 +615,8 @@ for ($i = 1; $i <= 45; $i++) {
         });
 
         let dayLoadToken = 0;
+        let lastSansLoadKey = '';
+        let sansDayDebounce = null;
 
         const resolveEzBoot = () => {
             if (typeof window.applyEzAjaxBoot === 'function') {
@@ -595,6 +629,14 @@ for ($i = 1; $i <= 45; $i++) {
             opts = opts || {};
             const productId = parseInt(room, 10);
             const dayStart = parseInt(day, 10);
+            if (!Number.isFinite(productId) || productId <= 0 || !Number.isFinite(dayStart) || dayStart <= 0) {
+                return;
+            }
+            const loadKey = productId + ':' + dayStart;
+            if (!opts.force && loadKey === lastSansLoadKey) {
+                return;
+            }
+            lastSansLoadKey = loadKey;
             const token = ++dayLoadToken;
 
             const showSkeleton = () => {
@@ -620,7 +662,7 @@ for ($i = 1; $i <= 45; $i++) {
             }
 
             showSkeleton();
-            window.ezBookingApi.sansManagementData(productId, dayStart)
+            window.ezBookingApi.sansManagementData(productId, dayStart, 'v2', { force: !!opts.force })
                 .then((data) => {
                     if (token !== dayLoadToken || data == null) {
                         return;
@@ -641,7 +683,7 @@ for ($i = 1; $i <= 45; $i++) {
                 });
         };
 
-        const BuildSans = (room, day) => loadSansDay(room, day);
+        const BuildSans = (room, day, force) => loadSansDay(room, day, { force: !!force });
 
         $('body').on('click', ".team_sans_game_search_item", function() {
             let product_id = $(this).data('id');
@@ -653,6 +695,7 @@ for ($i = 1; $i <= 45; $i++) {
             $('#lg-search-result-list').html('').hide();
             $('#gameSearch').val('');
 
+            lastSansLoadKey = '';
             $('#today_btn').click();
 
             $('.after_load').show();
@@ -668,7 +711,10 @@ for ($i = 1; $i <= 45; $i++) {
             $("[data-datepicker]").removeClass('active border-primary-700 bg-primary-500 text-white').addClass('border-[#DBE2EA] bg-white');
             $(this).removeClass('border-[#DBE2EA] bg-white').addClass('active border-primary-700 bg-primary-500 text-white');
 
-            loadSansDay(product_id, date);
+            clearTimeout(sansDayDebounce);
+            sansDayDebounce = setTimeout(function () {
+                loadSansDay(product_id, date);
+            }, 150);
         });
 
         $('body').on('click', ".toggle-btn", function() {
@@ -691,10 +737,9 @@ for ($i = 1; $i <= 45; $i++) {
                             return;
                         }
                         if (result.success_message) {
-                            BuildSans(product, currentDate);
-                            return;
+                            lastSansLoadKey = '';
+                            BuildSans(product, currentDate, true);
                         }
-                        BuildSans(product, currentDate);
                     })
                     .catch(() => console.error('[EZ Booking] toggleSans failed'))
                     .finally(() => $this.removeAttr('disabled'));
@@ -733,15 +778,18 @@ for ($i = 1; $i <= 45; $i++) {
                 window.ezBookingApi.bulkToggleDay(actionType, parseInt(product_id, 10), parseInt(day_start_time, 10))
                     .then((response) => {
                         if (response && response.success) {
-                            BuildSans(product_id, day_start_time);
+                            lastSansLoadKey = '';
+                            BuildSans(product_id, day_start_time, true);
                         } else {
                             alert((response && response.data && response.data.error) || 'خطایی در تغییر وضعیت گروهی رخ داد.');
-                            BuildSans(product_id, day_start_time);
+                            lastSansLoadKey = '';
+                            BuildSans(product_id, day_start_time, true);
                         }
                     })
                     .catch(() => {
                         alert('خطایی در تغییر وضعیت گروهی رخ داد.');
-                        BuildSans(product_id, day_start_time);
+                        lastSansLoadKey = '';
+                        BuildSans(product_id, day_start_time, true);
                     })
                     .finally(finishBulk);
                 return;
@@ -767,6 +815,10 @@ for ($i = 1; $i <= 45; $i++) {
             );
 
             gameSearchTimer = setTimeout(function () {
+                if (term.length < 2) {
+                    $list.hide().html('');
+                    return;
+                }
                 if (!window.__EZ_BOOT__?.sub_secret || !window.ezBookingApi?.gameSearchHtml) {
                     $list.show().html('<p class="text-center text-red-500 py-3 text-sm">پیکربندی جستجو در دسترس نیست.</p>');
                     return;
@@ -897,9 +949,10 @@ for ($i = 1; $i <= 45; $i++) {
                     $("#btn-bulk-close-range, #btn-bulk-open-range").prop('disabled', false).css('opacity', '1');
                     if (response && response.success) {
                         alert("عملیات با موفقیت انجام شد.");
+                        resetCalendarDateRange();
                         let active_date = $("[data-datepicker].active").data('datepicker');
                         if (active_date) {
-                            BuildSans(product_id, active_date);
+                            BuildSans(product_id, active_date, true);
                         }
                     } else {
                         const err = response && response.data && response.data[0] && response.data[0].error;
@@ -1060,7 +1113,7 @@ for ($i = 1; $i <= 45; $i++) {
                         $('#modalPhoneReserve').addClass('hidden').hide();
                         const product_id = $("#current_product_id").val();
                         const active_date = $("[data-datepicker].active").data('datepicker');
-                        if (product_id && active_date) BuildSans(product_id, active_date);
+                        if (product_id && active_date) BuildSans(product_id, active_date, true);
                     } else {
                         alert((res && res.data) ? res.data : 'خطا در ثبت رزرو');
                     }
