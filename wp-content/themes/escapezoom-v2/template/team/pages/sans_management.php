@@ -45,6 +45,31 @@ for ($i = 1; $i <= 45; $i++) {
         color: #b45309;
     }
 
+    .embla-date-picker {
+        overflow: hidden;
+        cursor: grab;
+    }
+
+    .embla-date-picker:active {
+        cursor: grabbing;
+    }
+
+    .embla-date-picker .embla__viewport {
+        overflow: hidden;
+    }
+
+    .embla-date-picker .embla__container {
+        display: flex;
+        touch-action: pan-x;
+        backface-visibility: hidden;
+    }
+
+    .embla-date-picker .embla__slide {
+        flex: 0 0 auto;
+        min-width: 0;
+        padding-left: 12px;
+    }
+
 </style>
 <input type="hidden" id="current_product_id">
 
@@ -72,9 +97,9 @@ for ($i = 1; $i <= 45; $i++) {
     </div>
 
     <div class="flex max-w-full">
-        <div class="after_load flex items-center py-2 mt-8 overflow-x-hidden" style="display: none">
+        <div class="after_load flex items-center py-2 mt-8 overflow-x-hidden gap-2 min-w-0" style="display: none">
 
-            <div class="py-2">
+            <div class="py-2 shrink-0">
                 <button id="today_btn" type="button" data-datepicker="<?php echo esc_attr($current_date); ?>"
                     class="flex flex-col items-center justify-center w-16 h-16 leading-none text-white border active shrink-0 gap-y-2 rounded-xl border-primary-700 bg-primary-500 lg:h-21">
                     <span class="lg:text-[22px] lg:font-extrabold">
@@ -83,10 +108,11 @@ for ($i = 1; $i <= 45; $i++) {
                 </button>
             </div>
 
-            <div class="swiper date-picker max-w-[1200px]">
-                <div class="swiper-wrapper py-2">
+            <div class="embla-date-picker flex-1 min-w-0 max-w-[1200px]">
+                <div class="embla__viewport">
+                    <div class="embla__container py-2">
                     <?php foreach ($dates as $index => $date) { ?>
-                        <div class="swiper-slide" dir="ltr">
+                        <div class="embla__slide" dir="ltr">
                             <button type="button" data-datepicker="<?php echo esc_attr($date); ?>"
                                 class="flex h-16 w-16 shrink-0 flex-col items-center justify-center gap-y-2 rounded-xl border border-[#DBE2EA] bg-white leading-none lg:h-21">
                                 <span class="lg:order-1 lg:text-[34px] lg:font-extrabold">
@@ -98,6 +124,7 @@ for ($i = 1; $i <= 45; $i++) {
                             </button>
                         </div>
                     <?php } ?>
+                    </div>
                 </div>
             </div>
         </div>
@@ -604,15 +631,57 @@ for ($i = 1; $i <= 45; $i++) {
             }
         }
 
-        const datePickerSwiper = new Swiper('.date-picker', {
-            slidesPerView: 4.5,
-            freeMode: true,
-            breakpoints: {
-                540: { slidesPerView: 5.5 },
-                650: { slidesPerView: 6.5 },
-                1280: { slidesPerView: 9.6 },
-            },
-        });
+        let datePickerEmbla = null;
+
+        function initTeamDatePickerEmbla() {
+            if (typeof EmblaCarousel === 'undefined') {
+                console.warn('[team sans-management] EmblaCarousel not loaded');
+                return;
+            }
+
+            const viewport = document.querySelector('.embla-date-picker .embla__viewport');
+            if (!viewport) {
+                return;
+            }
+
+            if (datePickerEmbla) {
+                try {
+                    datePickerEmbla.destroy();
+                } catch (e) {
+                    console.error('[team sans-management] embla destroy failed', e);
+                }
+                datePickerEmbla = null;
+            }
+
+            datePickerEmbla = EmblaCarousel(viewport, {
+                axis: 'x',
+                dragFree: true,
+                containScroll: 'keepSnaps',
+                align: 'start',
+                direction: 'rtl',
+            });
+        }
+
+        function refreshTeamDatePickerEmbla() {
+            if (datePickerEmbla) {
+                datePickerEmbla.reInit();
+                return;
+            }
+            initTeamDatePickerEmbla();
+        }
+
+        function showTeamDatePickerRow() {
+            $('.after_load').show();
+            requestAnimationFrame(function () {
+                requestAnimationFrame(function () {
+                    const viewport = document.querySelector('.embla-date-picker .embla__viewport');
+                    if (viewport) {
+                        viewport.offsetHeight;
+                    }
+                    initTeamDatePickerEmbla();
+                });
+            });
+        }
 
         let dayLoadToken = 0;
         let lastSansLoadKey = '';
@@ -652,7 +721,7 @@ for ($i = 1; $i <= 45; $i++) {
                 $("#sessionsContainer").html(html);
                 extractAndMoveRadioButtons();
                 injectPhoneReserveButtons();
-                datePickerSwiper.update();
+                refreshTeamDatePickerEmbla();
             };
 
             if (!resolveEzBoot() || !window.ezBookingApi?.sansManagementData) {
@@ -698,7 +767,7 @@ for ($i = 1; $i <= 45; $i++) {
             lastSansLoadKey = '';
             $('#today_btn').click();
 
-            $('.after_load').show();
+            showTeamDatePickerRow();
             $('.initial').hide();
         });
 

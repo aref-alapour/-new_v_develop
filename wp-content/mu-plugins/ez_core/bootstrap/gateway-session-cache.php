@@ -140,6 +140,20 @@ function ez_core_gateway_cached_user_id(): int {
 	return isset( $GLOBALS['ez_gateway_cached_user_id'] ) ? (int) $GLOBALS['ez_gateway_cached_user_id'] : 0;
 }
 
+/**
+ * Logged-in user id from wp-load or gateway session cache (light /ajax path).
+ */
+function ez_core_gateway_effective_user_id(): int {
+	if ( function_exists( 'get_current_user_id' ) ) {
+		$userId = (int) get_current_user_id();
+		if ( $userId > 0 ) {
+			return $userId;
+		}
+	}
+
+	return ez_core_gateway_cached_user_id();
+}
+
 function ez_core_gateway_cached_team_ok(): bool {
 	return ! empty( $GLOBALS['ez_gateway_cached_team_ok'] );
 }

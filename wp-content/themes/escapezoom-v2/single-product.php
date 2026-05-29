@@ -526,8 +526,10 @@ $has_video = !empty($videos);
                     امروز
                 </div>
                 <div class="embla-dates-mobile overflow-hidden flex-1">
-                    <div class="embla__container date-scroll-list-mobile">
+                    <div class="embla__viewport">
+                        <div class="embla__container date-scroll-list-mobile">
 
+                        </div>
                     </div>
                 </div>
 
@@ -824,6 +826,11 @@ $has_video = !empty($videos);
             cursor: grab;
         }
 
+        .embla-dates-mobile .embla__viewport,
+        .embla-dates-desktop .embla__viewport {
+            overflow: hidden;
+        }
+
         .embla-dates-mobile:active,
         .embla-dates-desktop:active {
             cursor: grabbing;
@@ -836,7 +843,7 @@ $has_video = !empty($videos);
             padding: 0 4px;
             user-select: none;
             -webkit-user-select: none;
-            touch-action: pan-y;
+            touch-action: pan-x;
             -webkit-tap-highlight-color: transparent;
         }
 
@@ -849,7 +856,7 @@ $has_video = !empty($videos);
         .embla__container {
             backface-visibility: hidden;
             display: flex;
-            touch-action: pan-y;
+            touch-action: pan-x;
         }
 
         /* Embla برای tabs موبایل */
@@ -4696,8 +4703,10 @@ if ($is_tehran): ?>
                         امروز
                     </div>
                     <div class="embla-dates-desktop overflow-hidden flex-1">
-                        <div class="embla__container date-scroll-list-desktop">
+                        <div class="embla__viewport">
+                            <div class="embla__container date-scroll-list-desktop">
 
+                            </div>
                         </div>
                     </div>
 

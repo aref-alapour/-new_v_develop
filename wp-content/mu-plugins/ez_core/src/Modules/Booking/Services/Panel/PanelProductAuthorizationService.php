@@ -30,7 +30,7 @@ final class PanelProductAuthorizationService
 			return;
 		}
 
-		$userId = function_exists( 'get_current_user_id' ) ? (int) get_current_user_id() : 0;
+		$userId = self::effectiveUserId();
 		if ( $userId <= 0 ) {
 			throw new GatewayAuthException( 'AUTH_REQUIRED', 'Login required' );
 		}
@@ -65,5 +65,13 @@ final class PanelProductAuthorizationService
 			->first( array( 'meta_id' ) );
 
 		return null !== $row;
+	}
+
+	private static function effectiveUserId(): int {
+		if ( function_exists( 'ez_core_gateway_effective_user_id' ) ) {
+			return ez_core_gateway_effective_user_id();
+		}
+
+		return function_exists( 'get_current_user_id' ) ? (int) get_current_user_id() : 0;
 	}
 }

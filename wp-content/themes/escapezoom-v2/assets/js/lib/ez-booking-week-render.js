@@ -116,13 +116,22 @@ function renderStatusBox(item) {
   const time = parseInt(String(item.time), 10);
   const status = String(item.status ?? '');
   const timeLabel = tehranFmt(time, 'HH:mm');
+
+  if (status === 'non_reservable') {
+    return `<div class="box closed cursor-not-allowed max-lg:h-12.5 h-[112px] rounded-lg w-full shadow-102 overflow-hidden relative">
+    <div class="back bg-[#F2F6FA] text-[#334155] absolute w-full h-full flex lg:flex-col text-center justify-between">
+      <span class="text-2xl font-extrabold flex grow w-full lg:justify-center items-center max-lg:px-2 max-lg:text-30">${timeLabel}</span>
+      <span class="text-md font-bold shrink-0 max-lg:flex items-center justify-center max-lg:px-2 py-2 bg-[#CBD5E1] w-30 lg:w-full max-lg:text-22 text-[#334155]">بسته شده</span>
+    </div>
+  </div>`;
+  }
+
   const labels = {
     reserving: ['bg-[#EDA10D]', 'در حال رزرو'],
     reserved: ['bg-[#EF4E5D]', 'رزرو شده'],
-    non_reservable: ['bg-[#F2F6FA] text-textColor', 'بسته شده'],
   };
-  const cfg = labels[status] || labels.non_reservable;
-  return `<div class="box ${status === 'non_reservable' ? 'closed cursor-not-allowed' : status} max-lg:h-12.5 h-[112px] rounded-lg w-full shadow-102 overflow-hidden relative">
+  const cfg = labels[status] || labels.reserved;
+  return `<div class="box ${status === 'reserving' ? 'reserving cursor-wait' : status} max-lg:h-12.5 h-[112px] rounded-lg w-full shadow-102 overflow-hidden relative">
     <div class="back text-white ${cfg[0]} absolute w-full h-full flex lg:flex-col text-center justify-between">
       <span class="text-2xl drop-shadow-104 flex grow w-full lg:justify-center items-center max-lg:px-2">${timeLabel}</span>
       <span class="text-md shrink-0 max-lg:flex items-center justify-center max-lg:px-2 drop-shadow-104 py-2 bg-black/15 w-30 lg:w-full max-lg:text-22">${cfg[1]}</span>

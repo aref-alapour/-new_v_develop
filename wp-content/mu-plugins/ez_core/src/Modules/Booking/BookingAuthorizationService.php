@@ -22,7 +22,7 @@ final class BookingAuthorizationService
 			return;
 		}
 
-		$userId = function_exists( 'get_current_user_id' ) ? (int) get_current_user_id() : 0;
+		$userId = self::effectiveUserId();
 		if ( $userId <= 0 ) {
 			throw new GatewayAuthException( 'AUTH_REQUIRED', 'Login required' );
 		}
@@ -60,5 +60,13 @@ final class BookingAuthorizationService
 		$managerId = isset( $row->manager_id ) ? (int) $row->manager_id : 0;
 
 		return $userId === $ownerId || $userId === $managerId;
+	}
+
+	private static function effectiveUserId(): int {
+		if ( function_exists( 'ez_core_gateway_effective_user_id' ) ) {
+			return ez_core_gateway_effective_user_id();
+		}
+
+		return function_exists( 'get_current_user_id' ) ? (int) get_current_user_id() : 0;
 	}
 }

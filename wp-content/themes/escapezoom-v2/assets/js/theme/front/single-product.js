@@ -1868,13 +1868,13 @@ jQuery(document).ready(function ($) {
             requestAnimationFrame(() => {
                 // Force reflow برای اطمینان از محاسبات صحیح
                 const emblaNode = device === 'desktop' 
-                    ? document.querySelector('.embla-dates-desktop')
-                    : document.querySelector('.embla-dates-mobile');
+                    ? document.querySelector('.embla-dates-desktop .embla__viewport')
+                    : document.querySelector('.embla-dates-mobile .embla__viewport');
                 if (emblaNode) {
                     emblaNode.offsetHeight; // Force reflow
                 }
                 // حالا Embla رو بساز
-                initDatesEmbla();
+                initDatesEmbla(device === 'desktop' ? { mobile: false } : { desktop: false, forceMobile: true });
             });
         });
         
@@ -1926,6 +1926,15 @@ jQuery(document).ready(function ($) {
         
         panel.fadeIn(0, function() {
             panel.removeClass('translate-y-full').addClass('translate-y-0');
+            requestAnimationFrame(() => {
+                requestAnimationFrame(() => {
+                    const viewport = document.querySelector('.embla-dates-mobile .embla__viewport');
+                    if (viewport) {
+                        viewport.offsetHeight;
+                    }
+                    initDatesEmbla({ desktop: false, forceMobile: true });
+                });
+            });
         });
         $('#overlay').fadeIn(300);
     });
@@ -1989,6 +1998,35 @@ jQuery(document).ready(function ($) {
         }, 100);
     }
 
+    function buildDatesHtml(currentDate, dayRows) {
+        const rows = Array.isArray(dayRows) && dayRows.length
+            ? dayRows
+            : Array.from({ length: 15 }, (_, idx) => {
+                const ts = currentDate + 86400 * (idx + 1);
+                return {
+                    ts,
+                    day: ezTehranFmt(ts, 'd'),
+                    name: ezTehranFmt(ts, 'dddd'),
+                };
+            });
+
+        return rows.map((row) => `
+            <div class="date-btn w-[60px] h-[60px] rounded-lg border border-[#E2E8F0] flex flex-col justify-center items-center cursor-pointer flex-shrink-0 hover:border-[#5091FB] transition text-[#0F172B]" data-date="${row.ts}">
+                <span class="text-lg font-bold">${row.day}</span>
+                <span class="text-xs text-[#889BAD]">${row.name}</span>
+            </div>
+        `).join('');
+    }
+
+    function isSessionsPanelVisible() {
+        const panel = document.getElementById('sessions-panel');
+        if (!panel) {
+            return false;
+        }
+
+        return panel.offsetParent !== null && window.getComputedStyle(panel).display !== 'none';
+    }
+
     // Populate date buttons
     function populateDateButtons() {
         // ساخت API URL
@@ -2012,28 +2050,8 @@ jQuery(document).ready(function ($) {
                 
                 // Set data-date for today buttons
                 $('#today-btn-desktop, #today-btn-mobile').data('date', currentDate);
-                
-                let datesHTML = '';
 
-                const dayRows = Array.isArray(data.days) && data.days.length
-                    ? data.days
-                    : Array.from({ length: 15 }, (_, idx) => {
-                        const ts = currentDate + 86400 * (idx + 1);
-                        return {
-                            ts,
-                            day: ezTehranFmt(ts, 'd'),
-                            name: ezTehranFmt(ts, 'dddd'),
-                        };
-                    });
-
-                dayRows.forEach((row) => {
-                    datesHTML += `
-                        <div class="date-btn w-[60px] h-[60px] rounded-lg border border-[#E2E8F0] flex flex-col justify-center items-center cursor-pointer flex-shrink-0 hover:border-[#5091FB] transition text-[#0F172B]" data-date="${row.ts}">
-                            <span class="text-lg font-bold">${row.day}</span>
-                            <span class="text-xs text-[#889BAD]">${row.name}</span>
-                        </div>
-                    `;
-                });
+                const datesHTML = buildDatesHtml(currentDate, data.days);
 
                 $('.date-scroll-list-desktop').html(datesHTML);
                 $('.date-scroll-list-mobile').html(datesHTML);
@@ -2047,6 +2065,10 @@ jQuery(document).ready(function ($) {
                 console.error('Error fetching server time:', error);
                 const currentDate = ezTehranMidnightNow();
                 $('#today-btn-desktop, #today-btn-mobile').data('date', currentDate);
+
+                const datesHTML = buildDatesHtml(currentDate, null);
+                $('.date-scroll-list-desktop').html(datesHTML);
+                $('.date-scroll-list-mobile').html(datesHTML);
                 
                 // فعال کردن Embla carousel برای تقویم
                 initDatesEmbla();
@@ -2104,65 +2126,73 @@ jQuery(document).ready(function ($) {
     let emblaDatesMobile = null;
     
     // Initialize Embla Carousel برای date lists
-    function initDatesEmbla() {
+    function initDatesEmbla(options = {}) {
+        const initDesktop = options.desktop !== false;
+        const initMobile = options.mobile !== false;
+        const forceMobile = options.forceMobile === true;
+
         if (typeof EmblaCarousel === 'undefined') {
             console.warn('EmblaCarousel is not loaded');
             return;
         }
         
         // Desktop
-        const emblaNodeDesktop = document.querySelector('.embla-dates-desktop');
-        if (emblaNodeDesktop && emblaNodeDesktop.isConnected) {
-            // Destroy قبلی اگر وجود داره
-            if (emblaDatesDesktop) {
-                try {
-                    emblaDatesDesktop.destroy();
-                } catch (e) {
-                    console.error('Error destroying desktop embla:', e);
+        if (initDesktop) {
+            const emblaNodeDesktop = document.querySelector('.embla-dates-desktop .embla__viewport');
+            if (emblaNodeDesktop && emblaNodeDesktop.isConnected) {
+                // Destroy قبلی اگر وجود داره
+                if (emblaDatesDesktop) {
+                    try {
+                        emblaDatesDesktop.destroy();
+                    } catch (e) {
+                        console.error('Error destroying desktop embla:', e);
+                    }
                 }
-            }
-            
-            const optionsDesktop = {
-                axis: 'x',
-                dragFree: true,
-                containScroll: 'keepSnaps',
-                align: 'start',
-                skipSnaps: false,
-                direction: 'rtl'
-            };
-            
-            try {
-                emblaDatesDesktop = EmblaCarousel(emblaNodeDesktop, optionsDesktop);
-            } catch (e) {
-                console.error('Error initializing desktop embla:', e);
+                
+                const optionsDesktop = {
+                    axis: 'x',
+                    dragFree: true,
+                    containScroll: 'keepSnaps',
+                    align: 'start',
+                    skipSnaps: false,
+                    direction: 'rtl'
+                };
+                
+                try {
+                    emblaDatesDesktop = EmblaCarousel(emblaNodeDesktop, optionsDesktop);
+                } catch (e) {
+                    console.error('Error initializing desktop embla:', e);
+                }
             }
         }
         
-        // Mobile
-        const emblaNodeMobile = document.querySelector('.embla-dates-mobile');
-        if (emblaNodeMobile && emblaNodeMobile.isConnected) {
-            // Destroy قبلی اگر وجود داره
-            if (emblaDatesMobile) {
-                try {
-                    emblaDatesMobile.destroy();
-                } catch (e) {
-                    console.error('Error destroying mobile embla:', e);
+        // Mobile — skip when panel is hidden (viewport width is 0)
+        if (initMobile && (forceMobile || isSessionsPanelVisible())) {
+            const emblaNodeMobile = document.querySelector('.embla-dates-mobile .embla__viewport');
+            if (emblaNodeMobile && emblaNodeMobile.isConnected) {
+                // Destroy قبلی اگر وجود داره
+                if (emblaDatesMobile) {
+                    try {
+                        emblaDatesMobile.destroy();
+                    } catch (e) {
+                        console.error('Error destroying mobile embla:', e);
+                    }
                 }
-            }
-            
-            const optionsMobile = {
-                axis: 'x',
-                dragFree: true,
-                containScroll: 'keepSnaps',
-                align: 'start',
-                skipSnaps: false,
-                direction: 'rtl'
-            };
-            
-            try {
-                emblaDatesMobile = EmblaCarousel(emblaNodeMobile, optionsMobile);
-            } catch (e) {
-                console.error('Error initializing mobile embla:', e);
+                
+                const optionsMobile = {
+                    axis: 'x',
+                    dragFree: true,
+                    containScroll: 'keepSnaps',
+                    align: 'start',
+                    skipSnaps: false,
+                    direction: 'rtl'
+                };
+                
+                try {
+                    emblaDatesMobile = EmblaCarousel(emblaNodeMobile, optionsMobile);
+                } catch (e) {
+                    console.error('Error initializing mobile embla:', e);
+                }
             }
         }
     }

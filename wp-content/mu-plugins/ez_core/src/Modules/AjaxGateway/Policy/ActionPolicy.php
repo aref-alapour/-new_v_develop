@@ -53,6 +53,10 @@ final class ActionPolicy
 	}
 
 	private static function isUserLoggedIn(): bool {
+		if ( function_exists( 'ez_core_gateway_effective_user_id' ) && ez_core_gateway_effective_user_id() > 0 ) {
+			return true;
+		}
+
 		if ( function_exists( 'ez_core_gateway_cached_user_id' ) && ez_core_gateway_cached_user_id() > 0 ) {
 			return true;
 		}

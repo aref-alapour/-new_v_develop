@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace EscapeZoom\Core\Modules\Booking;
 
 use EscapeZoom\Core\Modules\AjaxGateway\Exception\GatewayAuthException;
+use EscapeZoom\Core\Modules\Booking\Services\Panel\PanelProductAuthorizationService;
 
 /**
  * Authorization for sans-management panels (owner web-user vs CRM web-team).
@@ -50,7 +51,7 @@ final class SansManagementAuthorizationService
 		}
 
 		if ( 'web-user' === $clientKind ) {
-			BookingAuthorizationService::assertCanManageProduct( $productId );
+			PanelProductAuthorizationService::assertCanManageProduct( $productId );
 
 			return;
 		}
@@ -75,10 +76,7 @@ final class SansManagementAuthorizationService
 			return;
 		}
 
-		$userId = function_exists( 'get_current_user_id' ) ? (int) get_current_user_id() : 0;
-		if ( $userId <= 0 && function_exists( 'ez_core_gateway_cached_user_id' ) ) {
-			$userId = ez_core_gateway_cached_user_id();
-		}
+		$userId = self::effectiveUserId();
 		if ( $userId <= 0 ) {
 			throw new GatewayAuthException( 'AUTH_REQUIRED', 'Login required' );
 		}
@@ -101,5 +99,13 @@ final class SansManagementAuthorizationService
 		$allowed = self::teamSansRoles();
 
 		return ! empty( array_intersect( $allowed, (array) $user->roles ) );
+	}
+
+	private static function effectiveUserId(): int {
+		if ( function_exists( 'ez_core_gateway_effective_user_id' ) ) {
+			return ez_core_gateway_effective_user_id();
+		}
+
+		return function_exists( 'get_current_user_id' ) ? (int) get_current_user_id() : 0;
 	}
 }

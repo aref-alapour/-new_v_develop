@@ -103,15 +103,26 @@ final class BookingGatewayActions
 	 * @param array<string,mixed> $body
 	 */
 	public static function productSetView( array $body ): void {
-		$startedAt  = microtime( true );
-		$productId  = isset( $body['product_id'] ) ? (int) $body['product_id'] : 0;
-		$ip         = isset( $body['ip'] ) ? trim( (string) $body['ip'] ) : '';
+		$startedAt = microtime( true );
+		$productId = isset( $body['product_id'] ) ? (int) $body['product_id'] : 0;
+		$ip        = isset( $body['ip'] ) ? trim( (string) $body['ip'] ) : '';
 		if ( '' === $ip ) {
 			$ip = RateLimiter::clientIp();
 		}
 
-		$recorded = ProductViewService::record( $productId, $ip );
-		self::emitTelemetry( $startedAt );
+		$recorded = false;
+		try {
+			$recorded = ProductViewService::record( $productId, $ip );
+		} catch ( \Throwable $e ) {
+			if ( defined( 'WP_DEBUG' ) && WP_DEBUG ) {
+				// phpcs:ignore WordPress.PHP.DevelopmentFunctions.error_log_error_log
+				error_log( '[EZ product_set_view] ' . $e->getMessage() );
+			}
+		}
+
+		if ( ! headers_sent() ) {
+			header( 'X-EZ-Booking-Elapsed-Ms: ' . (string) (int) round( ( microtime( true ) - $startedAt ) * 1000 ) );
+		}
 		GatewayResponse::json( true, array( 'recorded' => $recorded ) );
 	}
 
@@ -424,6 +435,10 @@ final class BookingGatewayActions
 	}
 
 	private static function gatewayUserId(): int {
+		if ( function_exists( 'ez_core_gateway_effective_user_id' ) ) {
+			return ez_core_gateway_effective_user_id();
+		}
+
 		if ( function_exists( 'get_current_user_id' ) ) {
 			$userId = (int) get_current_user_id();
 			if ( $userId > 0 ) {

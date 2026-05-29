@@ -20,65 +20,78 @@ final class ProductViewService
 			return false;
 		}
 
-		if ( ! CapsuleManager::isBooted() ) {
-			CapsuleManager::bootProductViewOnly();
-		}
+		try {
+			if ( ! CapsuleManager::isBooted() ) {
+				CapsuleManager::bootProductViewOnly();
+			}
 
-		$wp = CapsuleManager::connection( 'wordpress' );
-		if ( self::isInactiveProduct( $wp, $productId ) ) {
-			return true;
-		}
+			if ( ! CapsuleManager::isBooted() || ! CapsuleManager::hasWordpressConnection() ) {
+				return false;
+			}
 
-		$crm = self::crmConnection();
-		if ( null === $crm ) {
-			return false;
-		}
+			$wp = CapsuleManager::connection( 'wordpress' );
+			if ( self::isInactiveProduct( $wp, $productId ) ) {
+				return true;
+			}
 
-		$today = gmdate( 'Y-m-d' );
+			$crm = self::crmConnection();
+			if ( null === $crm ) {
+				return false;
+			}
 
-		$checkId = $crm->table( 'ip_checker' )
-			->where( 'product_id', $productId )
-			->where( 'ip', $ip )
-			->where( 'date', $today )
-			->value( 'id' );
+			$today = gmdate( 'Y-m-d' );
 
-		if ( null !== $checkId && (int) $checkId > 0 ) {
-			$crm->table( 'ip_checker' )
-				->where( 'id', (int) $checkId )
-				->increment( 'count' );
+			$checkId = $crm->table( 'ip_checker' )
+				->where( 'product_id', $productId )
+				->where( 'ip', $ip )
+				->where( 'date', $today )
+				->value( 'id' );
 
-			return true;
-		}
+			if ( null !== $checkId && (int) $checkId > 0 ) {
+				$crm->table( 'ip_checker' )
+					->where( 'id', (int) $checkId )
+					->increment( 'count' );
 
-		$crm->table( 'ip_checker' )->insert(
-			array(
-				'product_id' => $productId,
-				'ip'         => $ip,
-				'date'       => $today,
-				'count'      => 1,
-			)
-		);
+				return true;
+			}
 
-		$viewId = $crm->table( 'product_views' )
-			->where( 'product_id', $productId )
-			->where( 'date', $today )
-			->value( 'id' );
-
-		if ( null !== $viewId && (int) $viewId > 0 ) {
-			$crm->table( 'product_views' )
-				->where( 'id', (int) $viewId )
-				->increment( 'count' );
-		} else {
-			$crm->table( 'product_views' )->insert(
+			$crm->table( 'ip_checker' )->insert(
 				array(
 					'product_id' => $productId,
+					'ip'         => $ip,
 					'date'       => $today,
 					'count'      => 1,
 				)
 			);
-		}
 
-		return true;
+			$viewId = $crm->table( 'product_views' )
+				->where( 'product_id', $productId )
+				->where( 'date', $today )
+				->value( 'id' );
+
+			if ( null !== $viewId && (int) $viewId > 0 ) {
+				$crm->table( 'product_views' )
+					->where( 'id', (int) $viewId )
+					->increment( 'count' );
+			} else {
+				$crm->table( 'product_views' )->insert(
+					array(
+						'product_id' => $productId,
+						'date'       => $today,
+						'count'      => 1,
+					)
+				);
+			}
+
+			return true;
+		} catch ( \Throwable $e ) {
+			if ( defined( 'WP_DEBUG' ) && WP_DEBUG ) {
+				// phpcs:ignore WordPress.PHP.DevelopmentFunctions.error_log_error_log
+				error_log( '[EZ product_set_view] ' . $e->getMessage() );
+			}
+
+			return false;
+		}
 	}
 
 	private static function isInactiveProduct( Connection $wp, int $productId ): bool {

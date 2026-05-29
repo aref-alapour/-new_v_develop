@@ -16,9 +16,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['action']) && $_GET['act
     $tehranNow->setTime(0, 0, 0);
     $current   = (int) $tehranNow->getTimestamp();
 
-    $jdf = __DIR__ . '/web-service/jdf.php';
-    if (is_readable($jdf)) {
-        require_once $jdf;
+    $jdfCandidates = array(
+        __DIR__ . '/web-service/jdf.php',
+        __DIR__ . '/wp-content/themes/escapezoom-v2/inc/jdf.php',
+    );
+    foreach ($jdfCandidates as $jdf) {
+        if (is_readable($jdf)) {
+            require_once $jdf;
+            break;
+        }
     }
 
     $days = [];

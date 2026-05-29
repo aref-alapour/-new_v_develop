@@ -177,11 +177,11 @@
                     <?php break;
                     case "non_reservable": ?>
                         <div class="box closed cursor-not-allowed max-lg:h-12.5 h-[112px] rounded-lg w-full shadow-102 overflow-hidden relative">
-                            <div class="back text-textColor bg-[#F2F6FA] absolute w-full h-full flex lg:flex-col text-center justify-between">
-                                <span class="text-2xl drop-shadow-104 flex grow w-full lg:justify-center items-center max-lg:px-2 blur-[1px]">
+                            <div class="back bg-[#F2F6FA] text-[#334155] absolute w-full h-full flex lg:flex-col text-center justify-between">
+                                <span class="text-2xl font-extrabold flex grow w-full lg:justify-center items-center max-lg:px-2 max-lg:text-30">
                                     <?php echo date('H:i', $item->time) ?>
                                 </span>
-                                <span class="text-md shrink-0 max-lg:flex items-center justify-center max-lg:px-2 drop-shadow-104 py-2 bg-black/15 w-30 lg:w-full max-lg:text-22">
+                                <span class="text-md font-bold shrink-0 max-lg:flex items-center justify-center max-lg:px-2 py-2 bg-[#CBD5E1] w-30 lg:w-full max-lg:text-22 text-[#334155]">
                                     Ø¨Ø³ØªÙ‡ Ø´Ø¯Ù‡
                                 </span>
                             </div>
